@@ -1,3 +1,7 @@
+"""
+Temp file just used for local testing. Added to repo for personal ease.
+"""
+
 from data_parsing import JSONPayload
 from pathlib import Path
 
