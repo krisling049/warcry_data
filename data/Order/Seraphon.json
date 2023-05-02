@@ -1,0 +1,1154 @@
+[
+    {
+        "Name": "Huachi",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "The Starblood Stalkers",
+        "Points": 90,
+        "Wounds": 10,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 1,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Kixi-Taka The Diviner",
+        "Subtitle": "The Diviner",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "The Starblood Stalkers",
+        "Points": 125,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Klaq-Trok",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "The Starblood Stalkers",
+        "Points": 190,
+        "Wounds": 28,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Kroxigor",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 180,
+        "Wounds": 28,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Otapatl",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "The Starblood Stalkers",
+        "Points": 80,
+        "Wounds": 10,
+        "Movement": 6,
+        "Toughness": 2,
+        "Runemarks": [
+            "Minion",
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 12,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Razordon",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 16,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Beast"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Blast",
+                "Min_Range": 0,
+                "Max_Range": 12,
+                "Attacks": 5,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Ripperdactyl Chief",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 235,
+        "Wounds": 25,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Ripperdactyl Rider",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 15,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Ripperdactyl Rider Alpha",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 220,
+        "Wounds": 20,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Fly",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Salamander",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 16,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Beast"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Blast",
+                "Min_Range": 0,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Astrolith Bearer",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 25,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Warrior",
+            "Icon-Bearer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Eternity Warden",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 190,
+        "Wounds": 28,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Guard",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 120,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Guard Alpha",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 175,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Knight with Blade",
+        "Subtitle": "with Blade",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 160,
+        "Wounds": 20,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Knight with Spear",
+        "Subtitle": "with Spear",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 165,
+        "Wounds": 20,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Knight Alpha",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 195,
+        "Wounds": 25,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Oldblood",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 175,
+        "Wounds": 25,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Scar-Veteran on Cold One",
+        "Subtitle": "on Cold One",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 215,
+        "Wounds": 28,
+        "Movement": 7,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Warrior",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Sunblood",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 180,
+        "Wounds": 25,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Warrior with Club",
+        "Subtitle": "with Club",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 85,
+        "Wounds": 12,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Warrior with Spear",
+        "Subtitle": "with Spear",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 12,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Saurus Warrior Alpha",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 16,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Skink with Club & Shield",
+        "Subtitle": "with Club & Shield",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 2,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Skink with Javelin and Shield",
+        "Subtitle": "with Javelin and Shield",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 2,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 1,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Skink with Boltspitter and Club",
+        "Subtitle": "with Boltspitter and Club",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 2,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 2,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 1,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            }
+        ]
+    },
+    {
+        "Name": "Skink Alpha with Club & Shield",
+        "Subtitle": "with Club & Shield",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 100,
+        "Wounds": 12,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Skink Alpha with Bonespitter & Club",
+        "Subtitle": "with Bonespitter & Club",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 12,
+        "Movement": 6,
+        "Toughness": 2,
+        "Runemarks": [
+            "Hero",
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 1,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            }
+        ]
+    },
+    {
+        "Name": "Skink Handler",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 2,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 2,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Skink Priest",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Minion",
+            "Priest"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Skink Starpriest",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Minion",
+            "Priest"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Skink Starseer",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 180,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Priest"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Blast",
+                "Min_Range": 0,
+                "Max_Range": 12,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Slann Starmaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 265,
+        "Wounds": 32,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Blast",
+                "Min_Range": 0,
+                "Max_Range": 12,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Terradon Chief",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 230,
+        "Wounds": 25,
+        "Movement": 12,
+        "Toughness": 3,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Terradon Rider with Sunleech Bolas",
+        "Subtitle": "with Sunleech Bolas",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 15,
+        "Movement": 12,
+        "Toughness": 3,
+        "Runemarks": [
+            "Fly",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Terradon Rider with Starstrike Javelin",
+        "Subtitle": "with Starstrike Javelin",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 15,
+        "Movement": 12,
+        "Toughness": 3,
+        "Runemarks": [
+            "Fly",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 1,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Terradon Rider Alpha with Sunleech Bolas",
+        "Subtitle": "with Sunleech Bolas",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 200,
+        "Wounds": 20,
+        "Movement": 12,
+        "Toughness": 3,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Terradon Rider Alpha with Starstrike Javelin",
+        "Subtitle": "with Starstrike Javelin",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "",
+        "Points": 195,
+        "Wounds": 20,
+        "Movement": 12,
+        "Toughness": 3,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Tok",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "The Starblood Stalkers",
+        "Points": 80,
+        "Wounds": 10,
+        "Movement": 6,
+        "Toughness": 2,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 12,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Xepic",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Seraphon",
+        "Bladeborn": "The Starblood Stalkers",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    }
+]

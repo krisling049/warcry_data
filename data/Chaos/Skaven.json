@@ -1,0 +1,1193 @@
+[
+    {
+        "Name": "Arch-Warlock",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Bringer of the Word",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 12,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Priest"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Clanrat with Rusty Blade",
+        "Subtitle": "with Rusty Blade",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Clanrat with Rusty Spear",
+        "Subtitle": "with Rusty Spear",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Clawleader",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 125,
+        "Wounds": 12,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Clawlord",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 175,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Deathmaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 185,
+        "Wounds": 18,
+        "Movement": 7,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Doom-Flayer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 190,
+        "Wounds": 18,
+        "Movement": 7,
+        "Toughness": 4,
+        "Runemarks": [
+            "Destroyer",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Fangleader",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 150,
+        "Wounds": 15,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Festering Skaven",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "Spiteclaw's Swarm",
+        "Points": 80,
+        "Wounds": 10,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile",
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Giant Rat",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 4,
+        "Movement": 8,
+        "Toughness": 2,
+        "Runemarks": [
+            "Agile",
+            "Beast"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Grey Seer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 20,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Gutter Runner",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 10,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Hungering Skaven",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "Spiteclaw's Swarm",
+        "Points": 85,
+        "Wounds": 10,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Agile",
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Krrk the Almost-trusted",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "Spiteclaw's Swarm",
+        "Points": 85,
+        "Wounds": 12,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Lurking Skaven",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "Spiteclaw's Swarm",
+        "Points": 90,
+        "Wounds": 10,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile",
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Master Moulder",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 125,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Night Runner",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            }
+        ]
+    },
+    {
+        "Name": "Nightleader",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 125,
+        "Wounds": 12,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Packmaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            }
+        ]
+    },
+    {
+        "Name": "Plague Monk with Censer Bearer",
+        "Subtitle": "with Censer Bearer",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Plague Monk with Pair of Blades",
+        "Subtitle": "with Pair of Blades",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Plague Monk with Staff & Blade",
+        "Subtitle": "with Staff & Blade",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Plague Priest",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 150,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Priest"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Rat Ogor",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 225,
+        "Wounds": 28,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Brute",
+            "Beast"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "Rat Ogor with Warpfire Gun",
+        "Subtitle": "with Warpfire Gun",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 225,
+        "Wounds": 28,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Brute",
+            "Beast"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Skritch Spiteclaw",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "Spiteclaw's Swarm",
+        "Points": 125,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Skryre Acolyte",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 8,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Destroyer",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 5,
+                "Attacks": 1,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Stormfiend with Doomflayer gauntlets",
+        "Subtitle": "with Doomflayer gauntlets",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 270,
+        "Wounds": 35,
+        "Movement": 5,
+        "Toughness": 5,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "Stormfiend with Grinderfists",
+        "Subtitle": "with Grinderfists",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 270,
+        "Wounds": 35,
+        "Movement": 5,
+        "Toughness": 5,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "Stormfiend with Ratling cannons",
+        "Subtitle": "with Ratling cannons",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 245,
+        "Wounds": 35,
+        "Movement": 5,
+        "Toughness": 5,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 10,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Stormfiend with Shock Gauntlets",
+        "Subtitle": "with Shock Gauntlets",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 270,
+        "Wounds": 35,
+        "Movement": 5,
+        "Toughness": 5,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 10
+            }
+        ]
+    },
+    {
+        "Name": "Stormfiend with Warpfire projectors",
+        "Subtitle": "with Warpfire projectors",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 240,
+        "Wounds": 35,
+        "Movement": 5,
+        "Toughness": 5,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Stormfiend with Windlaunchers",
+        "Subtitle": "with Windlaunchers",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 240,
+        "Wounds": 35,
+        "Movement": 5,
+        "Toughness": 5,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 20,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Stormvermin with Halberd",
+        "Subtitle": "with Halberd",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 95,
+        "Wounds": 10,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Stormvermin with Halberd & Shield",
+        "Subtitle": "with Halberd & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 10,
+        "Movement": 6,
+        "Toughness": 5,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Warlock Bombardier",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Warlock Engineer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Warp-Grinder",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 150,
+        "Wounds": 12,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Warpfire Thrower",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 12,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Blast",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Warplock Jezzail",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Skaven",
+        "Bladeborn": "",
+        "Points": 150,
+        "Wounds": 12,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 20,
+                "Attacks": 1,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 10
+            }
+        ]
+    }
+]

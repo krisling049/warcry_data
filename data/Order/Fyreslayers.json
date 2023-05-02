@@ -1,0 +1,582 @@
+[
+    {
+        "Name": "Auric Flamekeeper",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 20,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Auric Hearthguard",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 115,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Auric Hearthguard Karl",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Auric Runefather",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 22,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Auric Runemaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 120,
+        "Wounds": 22,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Priest"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Auric Runesmiter",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 20,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Auric Runeson with Javelin",
+        "Subtitle": "with Javelin",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 20,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Auric Runeson with War-Axe",
+        "Subtitle": "with War-Axe",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 20,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Battlesmith",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 120,
+        "Wounds": 20,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Icon-Bearer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Doomseeker",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 20,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Fjul-Grimnir",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "The Chosen Axes",
+        "Points": 200,
+        "Wounds": 26,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Grimwrath Berserker",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 22,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Hearthguard Berzerker Karl with Broadaxe",
+        "Subtitle": "Karl with Broadaxe",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Hearthguard Berzerker Karl with Poleaxe",
+        "Subtitle": "Karl with Poleaxe",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Hearthguard Berzerker with Broadaxe",
+        "Subtitle": "with Broadaxe",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 100,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Hearthguard Berzerker with Poleaxe",
+        "Subtitle": "with Poleaxe",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 95,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Mad Maegrim",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "The Chosen Axes",
+        "Points": 90,
+        "Wounds": 14,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Tefk Flamebearer",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "The Chosen Axes",
+        "Points": 90,
+        "Wounds": 14,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Vol Orrukbane",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "The Chosen Axes",
+        "Points": 110,
+        "Wounds": 14,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Vulkite Berzerker Fyresteel Weapon and Shield",
+        "Subtitle": "Fyresteel Weapon and Shield",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 5,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Vulkite Berzerker with Twin axes",
+        "Subtitle": "with Twin axes",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Vulkite Berzerker Karl",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Fyreslayers",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    }
+]

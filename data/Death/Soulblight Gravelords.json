@@ -1,0 +1,1151 @@
+[
+    {
+        "Name": "Bault",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Exiled Dead",
+        "Points": 60,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Black Knight",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 125,
+        "Wounds": 20,
+        "Movement": 8,
+        "Toughness": 4,
+        "Runemarks": [
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Blood Knight with Blade",
+        "Subtitle": "with Blade",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 205,
+        "Wounds": 25,
+        "Movement": 8,
+        "Toughness": 5,
+        "Runemarks": [
+            "Mount",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Blood Knight with Lance",
+        "Subtitle": "with Lance",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 200,
+        "Wounds": 25,
+        "Movement": 8,
+        "Toughness": 5,
+        "Runemarks": [
+            "Mount",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Coyl",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Exiled Dead",
+        "Points": 70,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Deadwalker Zombie",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 40,
+        "Wounds": 10,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Deintalos the Exile",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Exiled Dead",
+        "Points": 210,
+        "Wounds": 25,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 6,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Ennias Curse-Born",
+        "Subtitle": "Curse-Born",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Crimson Court",
+        "Points": 120,
+        "Wounds": 16,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Fly",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Gorath the Enforcer",
+        "Subtitle": "the Enforcer",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Crimson Court",
+        "Points": 130,
+        "Wounds": 18,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Graveguard with Blade and Shield",
+        "Subtitle": "with Blade and Shield",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 55,
+        "Wounds": 10,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Minion",
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Graveguard with Great Wight Blade",
+        "Subtitle": "with Great Wight Blade",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion",
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Hell Knight",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 160,
+        "Wounds": 25,
+        "Movement": 8,
+        "Toughness": 4,
+        "Runemarks": [
+            "Mount",
+            "Champion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Helmwar the Hewer",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sons of Velmorn",
+        "Points": 60,
+        "Wounds": 10,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Ione",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Exiled Dead",
+        "Points": 60,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Kastellan",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 260,
+        "Wounds": 30,
+        "Movement": 8,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Mount",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "King Morlak Velmorn",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sons of Velmorn",
+        "Points": 160,
+        "Wounds": 25,
+        "Movement": 3,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Kosargi Nightguard",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 30,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Marshal Faulk Velmorn",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sons of Velmorn",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Necromancer",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Petitioner with Sword",
+        "Subtitle": "with Sword",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sepulchral Guard",
+        "Points": 40,
+        "Wounds": 10,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Petitioner with Sword and shield",
+        "Subtitle": "with Sword and shield",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sepulchral Guard",
+        "Points": 60,
+        "Wounds": 10,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Prentice Marcov",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Exiled Dead",
+        "Points": 70,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Sentience"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Prince Duvalle",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Crimson Court",
+        "Points": 210,
+        "Wounds": 26,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Regulus",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Exiled Dead",
+        "Points": 45,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion",
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Seneschal",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 100,
+        "Wounds": 15,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Champion",
+            "Minion",
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Sir Jedan Falseborn",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sons of Velmorn",
+        "Points": 150,
+        "Wounds": 30,
+        "Movement": 3,
+        "Toughness": 5,
+        "Runemarks": [
+            "Champion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Skeleton with Ancient Blade",
+        "Subtitle": "with Ancient Blade",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 40,
+        "Wounds": 8,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Skeleton with Ancient Spear",
+        "Subtitle": "with Ancient Spear",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 40,
+        "Wounds": 8,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Skeleton Champion with Halberd",
+        "Subtitle": "with Halberd",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Champion",
+            "Minion",
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Skeleton Champion with Mace",
+        "Subtitle": "with Mace",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Champion",
+            "Minion",
+            "ELite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Thain Fourth-and-Last",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sons of Velmorn",
+        "Points": 70,
+        "Wounds": 10,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "The Champion",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sepulchral Guard",
+        "Points": 75,
+        "Wounds": 14,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "The Harvester",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sepulchral Guard",
+        "Points": 50,
+        "Wounds": 10,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Scythe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "The Prince of Dust",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sepulchral Guard",
+        "Points": 105,
+        "Wounds": 14,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "The Sepulchral Warden",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Sepulchral Guard",
+        "Points": 120,
+        "Wounds": 18,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Vampire Lord",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 225,
+        "Wounds": 25,
+        "Movement": 5,
+        "Toughness": 5,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Vargheist",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 190,
+        "Wounds": 28,
+        "Movement": 8,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Ferocious"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Vargoyle",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 260,
+        "Wounds": 32,
+        "Movement": 8,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Ferocious"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Vargskyr",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 185,
+        "Wounds": 32,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Vellas Von Faine",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Crimson Court",
+        "Points": 105,
+        "Wounds": 16,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Vlash",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "The Exiled Dead",
+        "Points": 60,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Vyrkos Blood-born",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 15,
+        "Movement": 8,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Wight King",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 25,
+        "Movement": 3,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Wight King on Skeletal Steed",
+        "Subtitle": "on Skeletal Steed",
+        "Grand_Alliance": "Death",
+        "Warband": "Soulblight Gravelords",
+        "Bladeborn": "",
+        "Points": 270,
+        "Wounds": 28,
+        "Movement": 8,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Mount",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    }
+]

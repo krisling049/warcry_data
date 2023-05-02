@@ -1,0 +1,237 @@
+[
+    {
+        "Name": "Bestigor Destroyer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Spire Tyrants",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 18,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Frenzied Rager",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Spire Tyrants",
+        "Bladeborn": "",
+        "Points": 95,
+        "Wounds": 15,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Headclaimer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Spire Tyrants",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Pit Champion",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Spire Tyrants",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 22,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            },
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Pit Fighter with Net",
+        "Subtitle": "with Net",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Spire Tyrants",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Trapper"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Pit Fighter with Punch Dagger",
+        "Subtitle": "with Punch Dagger",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Spire Tyrants",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Pit Fighter with Spear",
+        "Subtitle": "with Spear",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Spire Tyrants",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Pit Fighter with Dual weapons",
+        "Subtitle": "with Dual weapons",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Spire Tyrants",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 12,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Pit Fighter with Shield",
+        "Subtitle": "with Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Spire Tyrants",
+        "Bladeborn": "",
+        "Points": 100,
+        "Wounds": 12,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Warrior",
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    }
+]

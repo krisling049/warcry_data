@@ -1,0 +1,972 @@
+[
+    {
+        "Name": "Blue Horror",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "Eyes of the Nine",
+        "Points": 85,
+        "Wounds": 8,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 10,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Brimstone Horrors",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "Eyes of the Nine",
+        "Points": "*",
+        "Wounds": 6,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 10,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            }
+        ]
+    },
+    {
+        "Name": "Curseling Eye of Tzeentch",
+        "Subtitle": "Eye of Tzeentch",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 205,
+        "Wounds": 28,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Enlightened Aviarch",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 200,
+        "Wounds": 22,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Enlightened Aviarch on Disc",
+        "Subtitle": "on Disc",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 275,
+        "Wounds": 26,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Destroyer",
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Fatemaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 255,
+        "Wounds": 25,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Champion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Gaunt Summoner of Tzeentch",
+        "Subtitle": "of Tzeentch",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 165,
+        "Wounds": 22,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Gaunt Summoner of Tzeentch on Disc",
+        "Subtitle": "of Tzeentch on Disc",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 265,
+        "Wounds": 28,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "K'Charik",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "Eyes of the Nine",
+        "Points": 135,
+        "Wounds": 16,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Kairic Acolyte with Blade & Shield",
+        "Subtitle": "with Blade & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 95,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Kairic Acolyte with Glaive & Shield",
+        "Subtitle": "with Glaive & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 95,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Kairic Acolyte with Paired Blades",
+        "Subtitle": "with Paired Blades",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Kairic Acolyte with Scroll of Dark Arts",
+        "Subtitle": "with Scroll of Dark Arts",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 95,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Kairic Acolyte with Vulcharc",
+        "Subtitle": "with Vulcharc",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Kairic Adept",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Magister",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Magister on Disc",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 245,
+        "Wounds": 25,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Narvia",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "Eyes of the Nine",
+        "Points": 110,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 10,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Ogroid Thaumaturge",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 225,
+        "Wounds": 32,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Ferocious"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Skyfire Aviarch",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 290,
+        "Wounds": 22,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 20,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Turosh",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "Eyes of the Nine",
+        "Points": 110,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 10,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Twistbray",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 20,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Tzaangor with Blade & Shield",
+        "Subtitle": "with Blade & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Tzaangor with Greatblade",
+        "Subtitle": "with Greatblade",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Tzaangor with Paired Blades",
+        "Subtitle": "with Paired Blades",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Tzaangor Enlightened",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 150,
+        "Wounds": 18,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Tzaangor Enlightened on Disc",
+        "Subtitle": "on Disc",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 220,
+        "Wounds": 22,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Tzaangor Mutant",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 85,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Tzaangor Shaman",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 250,
+        "Wounds": 28,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Tzaangor Skyfire",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "",
+        "Points": 225,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 20,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Vortemis the All-seeing",
+        "Subtitle": "the All-seeing",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Tzeentch Arcanites",
+        "Bladeborn": "Eyes of the Nine",
+        "Points": 195,
+        "Wounds": 22,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 10,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    }
+]

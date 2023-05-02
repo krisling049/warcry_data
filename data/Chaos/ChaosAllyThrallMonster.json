@@ -1,0 +1,434 @@
+[
+    {
+        "Name": "Centaurian Marshal",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 295,
+        "Wounds": 35,
+        "Movement": 10,
+        "Toughness": 5,
+        "Runemarks": [
+            "Ally",
+            "Bulwark",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            },
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 3,
+                "Strength": 6,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Gargant",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 420,
+        "Wounds": 45,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Monster",
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 2,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Spawn",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 30,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Thrall",
+            "Agile",
+            "Beast"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Warhound",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 85,
+        "Wounds": 10,
+        "Movement": 8,
+        "Toughness": 3,
+        "Runemarks": [
+            "Thrall",
+            "Scout",
+            "Beast"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Chimera",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 515,
+        "Wounds": 45,
+        "Movement": 12,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Monster",
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 2,
+                "Max_Range": 1,
+                "Attacks": 6,
+                "Strength": 6,
+                "Dmg_Hit": 5,
+                "Dmg_Crit": 10
+            }
+        ]
+    },
+    {
+        "Name": "Cygor",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 415,
+        "Wounds": 50,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Monster",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 2,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "Fomoroid Crusher",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 260,
+        "Wounds": 35,
+        "Movement": 5,
+        "Toughness": 6,
+        "Runemarks": [
+            "Ally",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 6,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "Fury",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 95,
+        "Wounds": 8,
+        "Movement": 8,
+        "Toughness": 3,
+        "Runemarks": [
+            "Fly",
+            "Thrall",
+            "Sentience"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            }
+        ]
+    },
+    {
+        "Name": "Ghorgon",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 445,
+        "Wounds": 50,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Monster",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 2,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 6,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 10
+            }
+        ]
+    },
+    {
+        "Name": "Hell Pit Abomination",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 465,
+        "Wounds": 55,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Monster",
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 2,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 10
+            }
+        ]
+    },
+    {
+        "Name": "Mindstealer Sphiranx",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 260,
+        "Wounds": 30,
+        "Movement": 8,
+        "Toughness": 5,
+        "Runemarks": [
+            "Ally",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Mutalith Vortex Beast",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 425,
+        "Wounds": 50,
+        "Movement": 8,
+        "Toughness": 4,
+        "Runemarks": [
+            "Monster",
+            "Trapper"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 1,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "Ogroid Myrmidon",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 265,
+        "Wounds": 30,
+        "Movement": 5,
+        "Toughness": 6,
+        "Runemarks": [
+            "Ally",
+            "Champion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "Raptoryx",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 85,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Thrall",
+            "Beast",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Razorgor",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 205,
+        "Wounds": 25,
+        "Movement": 8,
+        "Toughness": 4,
+        "Runemarks": [
+            "Thrall",
+            "Beast",
+            "Ferocious"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Slaughterbrute",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "ChaosAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 490,
+        "Wounds": 50,
+        "Movement": 8,
+        "Toughness": 4,
+        "Runemarks": [
+            "Monster",
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 2,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    }
+]

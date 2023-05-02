@@ -1,0 +1,54 @@
+[
+    {
+        "Name": "Kharibdyss",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "OrderAllyTrallMonster",
+        "Bladeborn": "",
+        "Points": 425,
+        "Wounds": 45,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Monster",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 2,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "War Hydra",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "OrderAllyTrallMonster",
+        "Bladeborn": "",
+        "Points": 420,
+        "Wounds": 45,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Monster",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 2,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    }
+]

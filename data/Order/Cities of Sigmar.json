@@ -1,0 +1,1979 @@
+[
+    {
+        "Name": "Anointed",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 180,
+        "Wounds": 18,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Assassin",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 185,
+        "Wounds": 18,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Battlemage",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 18,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Black Ark Cosair with Sword & Handbow",
+        "Subtitle": "with Sword & Handbow",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            }
+        ]
+    },
+    {
+        "Name": "Black Ark Cosair with Swords",
+        "Subtitle": "with Swords",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Black Ark Fleetmaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 18,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Black Ark Reaver",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Black Guard",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Bleaksword",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Captain of the Black Guard",
+        "Subtitle": "of the Black Guard",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Cogsmith",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 20,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Dark Rider",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Agile",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Dark Rider Herald",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 195,
+        "Wounds": 22,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Darkshard",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Demigryph Knight",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 180,
+        "Wounds": 20,
+        "Movement": 8,
+        "Toughness": 5,
+        "Runemarks": [
+            "Elite",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Draich Master",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Ferocious"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Drakespawn Knight",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 20,
+        "Movement": 8,
+        "Toughness": 5,
+        "Runemarks": [
+            "Elite",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Dread Knight",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 215,
+        "Wounds": 25,
+        "Movement": 8,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Mount",
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Dreadspear",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Eternal Guard",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Eternal Warden",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 120,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Executioner",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 100,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Ferocious"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Flagellant",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Freeguild Crossbowman",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 115,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 20,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Freeguild General",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 150,
+        "Wounds": 18,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Ferocious"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Freeguild Greatsword",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Freeguild Guard with Halberd",
+        "Subtitle": "with Halberd",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Freeguild Guard with Spear",
+        "Subtitle": "with Spear",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Freeguild Guard with Sword & Shield",
+        "Subtitle": "with Sword & Shield",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Bulwwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Freeguild Handgunner",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Freeguild Outrider",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 160,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Freeguild Pistoleer",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Freeguild Sergeant",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Guardmaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 125,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Guild Champion",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Ferocious"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Gyrobomber",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 220,
+        "Wounds": 25,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Blast",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Gyrocopter",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 195,
+        "Wounds": 22,
+        "Movement": 12,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Blast",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Hammerer",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Handmaiden of the Thorn",
+        "Subtitle": "of the Thorn",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 190,
+        "Wounds": 22,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Mystic",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "High Sister",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Ironbeard with Drakefire Pistol and Cinderblast Bomb",
+        "Subtitle": "with Drakefire Pistol and Cinderblast Bomb",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 120,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 5,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 1,
+                "Max_Range": 8,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Ironbreaker",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 60,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 5,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Irondrake",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 85,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Ironwarden with Grudgehammer Torpedo",
+        "Subtitle": "with Grudgehammer Torpedo",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Keeper of the Flame",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 160,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Keeper of the Gate",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Longbeard with Greataxe",
+        "Subtitle": "with Greataxe",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Longbeard with Hammer & Shield",
+        "Subtitle": "with Hammer & Shield",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 5,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Lordling",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Marksman with Repeater Handgun",
+        "Subtitle": "with Repeater Handgun",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Marksman with Long Rifle",
+        "Subtitle": "with Long Rifle",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 165,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 20,
+                "Attacks": 1,
+                "Strength": 4,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 10
+            }
+        ]
+    },
+    {
+        "Name": "Nomad Prince",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 18,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Claws",
+                "Min_Range": 6,
+                "Max_Range": 20,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            }
+        ]
+    },
+    {
+        "Name": "Old Guard with Weapon and Shield",
+        "Subtitle": "with Weapon and Shield",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Phoenix Guard",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Preceptor",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 225,
+        "Wounds": 25,
+        "Movement": 8,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Elite",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Prophet",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Runelord",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 120,
+        "Wounds": 20,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Priest"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Shadow Walker",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Shadow Warrior",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 100,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Sharpshooter Grenade-Launching Blunderbuss",
+        "Subtitle": "Grenade-Launching Blunderbuss",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 205,
+        "Wounds": 22,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile",
+            "Hero",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 10,
+                "Attacks": 2,
+                "Strength": 6,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Sister of the Thorn",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Sister of the Watch",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 100,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Sorceress",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 18,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Warden King",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 22,
+        "Movement": 3,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Wild Hunter",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 225,
+        "Wounds": 22,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Elite",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Wild Rider",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 180,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Elite",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Wildwood Ranger",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 100,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Wildwood Warden",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Cities of Sigmar",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    }
+]

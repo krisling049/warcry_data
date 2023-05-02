@@ -1,0 +1,339 @@
+[
+    {
+        "Name": "Allurer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 125,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Blissbringer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 205,
+        "Wounds": 30,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Daemonette",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Fiend",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 160,
+        "Wounds": 25,
+        "Movement": 8,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Heartseeker",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 195,
+        "Wounds": 25,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Warrior",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Hellreaver with Claw-spear",
+        "Subtitle": "with Claw-spear",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 180,
+        "Wounds": 25,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Destroyer",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Hellstrider with Claw-spear",
+        "Subtitle": "with Claw-spear",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 20,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Destroyer",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Hellstrider with Hellscourge",
+        "Subtitle": "with Hellscourge",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 20,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Infernal Enrapturess",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 165,
+        "Wounds": 22,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Seeker of Slaanesh",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 20,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Warrior",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "The Contorted Epitome",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 220,
+        "Wounds": 25,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 6,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Viceleader",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Daemons of Slaanesh",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 20,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    }
+]

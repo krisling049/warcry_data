@@ -1,0 +1,650 @@
+[
+    {
+        "Name": "Dakko Sharp-stikka",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "Hedrakka's Madmob",
+        "Points": 115,
+        "Wounds": 16,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Hedkrakka Gob of Gork",
+        "Subtitle": "Gob of Gork",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "Hedrakka's Madmob",
+        "Points": 225,
+        "Wounds": 26,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Maniak Weirdnob",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 220,
+        "Wounds": 28,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Ferocious",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Savage Arrow Boss",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 150,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Savage Big Boss",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 185,
+        "Wounds": 25,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Champion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Savage Big Stabbas",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 165,
+        "Wounds": 25,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Savage Boarboy Bone Totem Bearer",
+        "Subtitle": "Bone Totem Bearer",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 195,
+        "Wounds": 20,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Mystic",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Savage Boarboy with Chompa",
+        "Subtitle": "with Chompa",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 20,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Savage Boarboy with Stikka",
+        "Subtitle": "with Stikka",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 20,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Savage Boarboy Boss",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 235,
+        "Wounds": 25,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Savage Boarboy Maniak",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 185,
+        "Wounds": 20,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Savage Boss Maniak",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 270,
+        "Wounds": 25,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Savage Orruk with Chompa and Shield",
+        "Subtitle": "with Chompa and Shield",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Savage Orruk with Stikka and Shield",
+        "Subtitle": "with Stikka and Shield",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Savage Orruk Arrowboy",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 2
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Savage Orruk Boss with Chompa & Boneshield",
+        "Subtitle": "with Chompa & Boneshield",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Savage Orruk Morboy",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 95,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Savage Orruk Morboy Boss",
+        "Subtitle": "Boss",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 175,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Savage Orruk Morboy Bone Totem Bearer",
+        "Subtitle": "Bone Totem Bearer",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 115,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Toofdagga",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "Hedrakka's Madmob",
+        "Points": 105,
+        "Wounds": 16,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Wardokk",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 22,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Wollop da Skull",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "Hedrakka's Madmob",
+        "Points": 120,
+        "Wounds": 16,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Wurrgog Prophet",
+        "Subtitle": "",
+        "Grand_Alliance": "Destruction",
+        "Warband": "Bonesplitterz",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 22,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    }
+]

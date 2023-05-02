@@ -1,0 +1,1114 @@
+[
+    {
+        "Name": "Aether-khemist",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 20,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 6,
+                "Attacks": 6,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Aetheric Navigator",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 20,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Arkanaut with Axe & Pistol",
+        "Subtitle": "with Axe & Pistol",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 50,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Arkanaut with Light Skyhook",
+        "Subtitle": "with Light Skyhook",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Arkanaut with Skypike",
+        "Subtitle": "with Skypike",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Arkanaut with Volleygun",
+        "Subtitle": "with Volleygun",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Arkanaut Admiral",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 22,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Bjorgen Thundrik",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "Thundrik's Profiteers",
+        "Points": 180,
+        "Wounds": 24,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 9,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Company Captain",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Custodian",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 240,
+        "Wounds": 20,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Trapper"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Dead-eye Lund",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "Thundrik's Profiteers",
+        "Points": 125,
+        "Wounds": 14,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Endrinmaster with Dirigible Suite",
+        "Subtitle": "with Dirigible Suite",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 275,
+        "Wounds": 25,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 2,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Endrinmaster with Endrinharness",
+        "Subtitle": "with Endrinharness",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 22,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Endrinrigger with Drill-launcher",
+        "Subtitle": "with Drill-launcher",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 215,
+        "Wounds": 16,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 20,
+                "Attacks": 2,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Endrinrigger with Grapnel Launcher",
+        "Subtitle": "with Grapnel Launcher",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 190,
+        "Wounds": 16,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 20,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Endrinrigger with Skyhook",
+        "Subtitle": "with Skyhook",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 230,
+        "Wounds": 16,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 20,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Endrinrigger with Aethermatic Saw & Rivet Gun",
+        "Subtitle": "with Aethermatic Saw & Rivet Gun",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 190,
+        "Wounds": 16,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Endrinrigger with Volleygun",
+        "Subtitle": "with Volleygun",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 16,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Enrik Ironhail",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "Thundrik's Profiteers",
+        "Points": 120,
+        "Wounds": 14,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 6,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Garodd Alesen",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "Thundrik's Profiteers",
+        "Points": 70,
+        "Wounds": 14,
+        "Movement": 3,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Grundstock Thunderer with Aethercannon",
+        "Subtitle": "with Aethercannon",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 10,
+                "Attacks": 1,
+                "Strength": 5,
+                "Dmg_Hit": 5,
+                "Dmg_Crit": 10
+            }
+        ]
+    },
+    {
+        "Name": "Grundstock Thunderer with Aethershot Rifle",
+        "Subtitle": "with Aethershot Rifle",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Grundstock Thunderer with Decksweeper",
+        "Subtitle": "with Decksweeper",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 10,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Grundstock Thunderer with Fumigator",
+        "Subtitle": "with Fumigator",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 6,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Grundstock Thunderer with Mortar",
+        "Subtitle": "with Mortar",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 12,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Gunnery Sergeant",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 165,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Elite",
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Khazgan Drakkskewer",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "Thundrik's Profiteers",
+        "Points": 220,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Mizzenmaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 250,
+        "Wounds": 20,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Skywarden with Drill Launcher",
+        "Subtitle": "with Drill Launcher",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 220,
+        "Wounds": 16,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Trapper"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 20,
+                "Attacks": 2,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Skywarden with Grapnel Launcher",
+        "Subtitle": "with Grapnel Launcher",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 195,
+        "Wounds": 16,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Trapper",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 20,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Skywarden with Skyhook",
+        "Subtitle": "with Skyhook",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 230,
+        "Wounds": 16,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Trapper"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 6,
+                "Max_Range": 20,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Skywarden with Pistol & Skypike",
+        "Subtitle": "with Pistol & Skypike",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 185,
+        "Wounds": 16,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Trapper"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Skywarden with Volley Gun",
+        "Subtitle": "with Volley Gun",
+        "Grand_Alliance": "Order",
+        "Warband": "Kharadron Overlords",
+        "Bladeborn": "",
+        "Points": 175,
+        "Wounds": 16,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Trapper"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    }
+]

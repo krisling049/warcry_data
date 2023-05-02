@@ -1,0 +1,246 @@
+[
+    {
+        "Name": "Armator",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Iron Golems",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 15,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Dominar",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Iron Golems",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 22,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Drillmaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Iron Golems",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 18,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Iron Legionary",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Iron Golems",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 12,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Iron Legionary with Bolas",
+        "Subtitle": "with Bolas",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Iron Golems",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 12,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Iron Legionary with Twin Hammers",
+        "Subtitle": "with Twin Hammers",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Iron Golems",
+        "Bladeborn": "",
+        "Points": 75,
+        "Wounds": 12,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Ogor Breacher",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Iron Golems",
+        "Bladeborn": "",
+        "Points": 220,
+        "Wounds": 30,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 6,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "Prefector",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Iron Golems",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 18,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Signifer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Iron Golems",
+        "Bladeborn": "",
+        "Points": 125,
+        "Wounds": 18,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Icon-Bearer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "Name": "Cabalist with Dagger",
+        "Subtitle": "with Dagger",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Corvus Cabal",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Cabalist with Familiar",
+        "Subtitle": "with Familiar",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Corvus Cabal",
+        "Bladeborn": "",
+        "Points": 70,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Cabalist with Spear",
+        "Subtitle": "with Spear",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Corvus Cabal",
+        "Bladeborn": "",
+        "Points": 80,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Shadow Piercer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Corvus Cabal",
+        "Bladeborn": "",
+        "Points": 170,
+        "Wounds": 20,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Shrike Talon",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Corvus Cabal",
+        "Bladeborn": "",
+        "Points": 210,
+        "Wounds": 20,
+        "Movement": 8,
+        "Toughness": 4,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Spike Stalker",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Corvus Cabal",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Champion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    }
+]

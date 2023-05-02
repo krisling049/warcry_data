@@ -1,0 +1,1102 @@
+[
+    {
+        "Name": "Aspiring Champion",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 22,
+        "Movement": 4,
+        "Toughness": 6,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Chosen",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Knight Ensorcelled Weapon & Shield",
+        "Subtitle": "Ensorcelled Weapon & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 205,
+        "Wounds": 22,
+        "Movement": 10,
+        "Toughness": 6,
+        "Runemarks": [
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Knight with Lance & Shield",
+        "Subtitle": "with Lance & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 195,
+        "Wounds": 22,
+        "Movement": 10,
+        "Toughness": 6,
+        "Runemarks": [
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Lord",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 210,
+        "Wounds": 25,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Champion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Lord on Demonic Mount",
+        "Subtitle": "on Demonic Mount",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 285,
+        "Wounds": 32,
+        "Movement": 10,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Lord on Karkadrak",
+        "Subtitle": "on Karkadrak",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 375,
+        "Wounds": 38,
+        "Movement": 8,
+        "Toughness": 6,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 5,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Marauder with Axe & Shield",
+        "Subtitle": "with Axe & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Marauder with Flail",
+        "Subtitle": "with Flail",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 60,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Marauder Horseman with Axe & Shield",
+        "Subtitle": "with Axe & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 125,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Marauder Horseman with Flail",
+        "Subtitle": "with Flail",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Reach Weapon",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Marauder Horseman with Javelin & Shield",
+        "Subtitle": "with Javelin & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Scout",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Sorcerer Lord",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 150,
+        "Wounds": 22,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Warrior with Pair of Chaos Hand Weapons",
+        "Subtitle": "with Pair of Chaos Hand Weapons",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 120,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Warrior with Greatblade",
+        "Subtitle": "with Greatblade",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 115,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Warrior with Halberd and Shield",
+        "Subtitle": "with Halberd and Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 6,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Chaos Warrior with Hand Weapon & Shield",
+        "Subtitle": "with Hand Weapon & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 6,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Crimson Kheira",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "The Gnarlspirit Pack",
+        "Points": 120,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Darkoath Chieftain",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Darkoath Warqueen",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 175,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Champion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Doom Knight",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 250,
+        "Wounds": 26,
+        "Movement": 10,
+        "Toughness": 6,
+        "Runemarks": [
+            "Hero",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Flail",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Dour Cragan",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "Khagra's Ravagers",
+        "Points": 140,
+        "Wounds": 16,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Exalted Champion",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 185,
+        "Wounds": 25,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Exalted Hero of Chaos",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 185,
+        "Wounds": 25,
+        "Movement": 4,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero",
+            "Champion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Gorl Spinehammer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "The Gnarlspirit Pack",
+        "Points": 135,
+        "Wounds": 18,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Grawl",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "Godsworn Hunt",
+        "Points": 75,
+        "Wounds": 6,
+        "Movement": 6,
+        "Toughness": 3,
+        "Runemarks": [
+            "Beast"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Grundann Blood-eye",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "Godsworn Hunt",
+        "Points": 105,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Horsemaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 215,
+        "Wounds": 22,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Jagathra",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "Godsworn Hunt",
+        "Points": 75,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Khagra the Usurper",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "Khagra's Ravagers",
+        "Points": 200,
+        "Wounds": 26,
+        "Movement": 4,
+        "Toughness": 6,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Lupan Longcut",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "The Gnarlspirit Pack",
+        "Points": 120,
+        "Wounds": 15,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 2,
+                "Max_Range": 8,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Marauder Chieftain",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 15,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Ollo",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "Godsworn Hunt",
+        "Points": 110,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Trapper"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Unarmed",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Razek Godblessed",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "Khagra's Ravagers",
+        "Points": 145,
+        "Wounds": 16,
+        "Movement": 4,
+        "Toughness": 6,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Sarrakkar Blackwing",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "The Gnarlspirit Pack",
+        "Points": 185,
+        "Wounds": 20,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Shond Head-claimer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "Godsworn Hunt",
+        "Points": 105,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Theddra Skull-scryer",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "Godsworn Hunt",
+        "Points": 180,
+        "Wounds": 18,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Varanguard with Deamonforged Blade",
+        "Subtitle": "with Deamonforged Blade",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 285,
+        "Wounds": 30,
+        "Movement": 10,
+        "Toughness": 6,
+        "Runemarks": [
+            "Hero",
+            "Terrifying",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Varanguard with Ensorcelled weapon",
+        "Subtitle": "with Ensorcelled weapon",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 290,
+        "Wounds": 30,
+        "Movement": 10,
+        "Toughness": 6,
+        "Runemarks": [
+            "Hero",
+            "Terrifying",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Varanguard with Fellspear",
+        "Subtitle": "with Fellspear",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "",
+        "Points": 280,
+        "Wounds": 30,
+        "Movement": 10,
+        "Toughness": 6,
+        "Runemarks": [
+            "Hero",
+            "Terrifying",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Zarshia Bittersoul",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Slaves to Darkness",
+        "Bladeborn": "Khagra's Ravagers",
+        "Points": 140,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Mystic"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            }
+        ]
+    }
+]

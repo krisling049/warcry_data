@@ -1,0 +1,180 @@
+[
+    {
+        "Name": "Bloated One with Raker-claws",
+        "Subtitle": "with Raker-claws",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Rotmire Creed",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 18,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Bloated one with Raker-claws and Hooked Net",
+        "Subtitle": "with Raker-claws and Hooked Net",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Rotmire Creed",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 18,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Brute",
+            "Trapper"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Carrion Catcher with Impaler",
+        "Subtitle": "with Impaler",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Rotmire Creed",
+        "Bladeborn": "",
+        "Points": 115,
+        "Wounds": 12,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Scythe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Carrion Catcher with Snatcher Hook",
+        "Subtitle": "with Snatcher Hook",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Rotmire Creed",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 12,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Scout",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hook",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Mirefolk Outcasts with Bilewood Weapon & Shield",
+        "Subtitle": "with Bilewood Weapon & Shield",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Rotmire Creed",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Mirefolk Outcasts with Bilewood Weapons",
+        "Subtitle": "with Bilewood Weapons",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Rotmire Creed",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 4,
+        "Toughness": 3,
+        "Runemarks": [
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Witherlord",
+        "Subtitle": "",
+        "Grand_Alliance": "Chaos",
+        "Warband": "Rotmire Creed",
+        "Bladeborn": "",
+        "Points": 175,
+        "Wounds": 20,
+        "Movement": 4,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hook",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            }
+        ]
+    }
+]

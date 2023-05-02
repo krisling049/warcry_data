@@ -1,0 +1,488 @@
+[
+    {
+        "Name": "Abhorrant Archregent",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 205,
+        "Wounds": 25,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Abhorrant Ghoul King",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 165,
+        "Wounds": 20,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Crypt Flayer",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 235,
+        "Wounds": 28,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Crypt Ghast",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Crypt Ghast Courtier",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 135,
+        "Wounds": 16,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Crypt Ghoul",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 55,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Crypt Haunter",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 225,
+        "Wounds": 32,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Crypt Haunter Courtier",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 250,
+        "Wounds": 36,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Crypt Horror",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 185,
+        "Wounds": 28,
+        "Movement": 6,
+        "Toughness": 4,
+        "Runemarks": [
+            ""
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Crypt Infernal",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 275,
+        "Wounds": 32,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Crypt Infernal Courtier",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 305,
+        "Wounds": 36,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Elite"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Duke Crakmarrow",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "The Grymwatch",
+        "Points": 140,
+        "Wounds": 22,
+        "Movement": 5,
+        "Toughness": 5,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Axe",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Duke's Harriers",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "The Grymwatch",
+        "Points": 75,
+        "Wounds": 8,
+        "Movement": 10,
+        "Toughness": 2,
+        "Runemarks": [
+            "Beast",
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Gristlewel Greatsword",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "The Grymwatch",
+        "Points": 80,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Master Talon",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "The Grymwatch",
+        "Points": 75,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Night's Herald",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "The Grymwatch",
+        "Points": 65,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Royal Butcher",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "The Grymwatch",
+        "Points": 70,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Valreek The Tracker",
+        "Subtitle": "The Tracker",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "The Grymwatch",
+        "Points": 60,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Varghulf Courtier",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "Flesh-eater Courts",
+        "Bladeborn": "",
+        "Points": 285,
+        "Wounds": 35,
+        "Movement": 8,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 5
+            }
+        ]
+    }
+]

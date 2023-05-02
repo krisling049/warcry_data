@@ -1,0 +1,109 @@
+[
+    {
+        "Name": "Dire Wolf",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "DeathAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 85,
+        "Wounds": 10,
+        "Movement": 8,
+        "Toughness": 3,
+        "Runemarks": [
+            "Thrall",
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Fell Bat",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "DeathAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 130,
+        "Wounds": 12,
+        "Movement": 10,
+        "Toughness": 3,
+        "Runemarks": [
+            "Fly",
+            "Thrall",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Terrorgheist",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "DeathAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 500,
+        "Wounds": 50,
+        "Movement": 12,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Monster",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 2,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 5,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    },
+    {
+        "Name": "Zombie Dragon",
+        "Subtitle": "",
+        "Grand_Alliance": "Death",
+        "Warband": "DeathAllyThrallMonster",
+        "Bladeborn": "",
+        "Points": 540,
+        "Wounds": 50,
+        "Movement": 12,
+        "Toughness": 4,
+        "Runemarks": [
+            "Fly",
+            "Monster",
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Fangs",
+                "Min_Range": 2,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 5,
+                "Dmg_Hit": 4,
+                "Dmg_Crit": 8
+            }
+        ]
+    }
+]

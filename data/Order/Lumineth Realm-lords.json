@@ -1,0 +1,753 @@
+[
+    {
+        "Name": "Ailenn the Mind's Edge",
+        "Subtitle": "the Mind's Edge",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "Miyari's Purifiers",
+        "Points": 105,
+        "Wounds": 14,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Frenzied",
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Alarith Stoneguard with Stone Mallet",
+        "Subtitle": "with Stone Mallet",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 85,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Alarith Stoneguard with Diamondpick Hammer",
+        "Subtitle": "with Diamondpick Hammer",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 85,
+        "Wounds": 12,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Alarith Stonemage",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 155,
+        "Wounds": 20,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Mystic",
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Mace",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Bahannar",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "Miyari's Purifiers",
+        "Points": 110,
+        "Wounds": 14,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 5,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Bladelord Seneschal with Sunmetal Dual blades",
+        "Subtitle": "with Sunmetal Dual blades",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 16,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Warrior",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 5,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Bladelord Seneschal with Sunmetal Greatblade",
+        "Subtitle": "with Sunmetal Greatblade",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 150,
+        "Wounds": 16,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Warrior",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "High Sentinel",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Warrior",
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "High Warden",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 95,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Warrior",
+            "Trapper"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Hurakan Windcharger",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 145,
+        "Wounds": 18,
+        "Movement": 12,
+        "Toughness": 3,
+        "Runemarks": [
+            "Agile",
+            "Berserker"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 10,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Hurakan Windmage",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 195,
+        "Wounds": 22,
+        "Movement": 12,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Agile",
+            "Fly"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Myari Lightcaller",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "Miyari's Purifiers",
+        "Points": 150,
+        "Wounds": 20,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Scout"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Club",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Scinari Calligrave",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 120,
+        "Wounds": 18,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Scinari Cathallar",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 95,
+        "Wounds": 16,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Terrifying"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Blast",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 2,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Scinari Enlightener",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 140,
+        "Wounds": 18,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 12,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Scinari Loreseeker",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 125,
+        "Wounds": 18,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Destroyer"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Senaela",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "Miyari's Purifiers",
+        "Points": 95,
+        "Wounds": 10,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Steedmaster",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 205,
+        "Wounds": 22,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Warrior",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Truestone Seneschal",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 105,
+        "Wounds": 16,
+        "Movement": 3,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Hammer",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Vanari Auralan Sentinel",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 90,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Dagger",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 3,
+                "Max_Range": 15,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            }
+        ]
+    },
+    {
+        "Name": "Vanari Auralan Warden",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 65,
+        "Wounds": 8,
+        "Movement": 5,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 3,
+                "Attacks": 3,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Vanari Bladelord",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 110,
+        "Wounds": 12,
+        "Movement": 5,
+        "Toughness": 3,
+        "Runemarks": [
+            "Warrior",
+            "Frenzied"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            }
+        ]
+    },
+    {
+        "Name": "Vanari Dawnrider",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 160,
+        "Wounds": 18,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Warrior",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Spear",
+                "Min_Range": 0,
+                "Max_Range": 2,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 4
+            }
+        ]
+    },
+    {
+        "Name": "Vanari Lord Regent",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 235,
+        "Wounds": 28,
+        "Movement": 10,
+        "Toughness": 4,
+        "Runemarks": [
+            "Hero",
+            "Warrior",
+            "Mount"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Sword",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 4,
+                "Dmg_Hit": 2,
+                "Dmg_Crit": 5
+            },
+            {
+                "Runemark": "Blast",
+                "Min_Range": 3,
+                "Max_Range": 7,
+                "Attacks": 2,
+                "Strength": 3,
+                "Dmg_Hit": 3,
+                "Dmg_Crit": 6
+            }
+        ]
+    },
+    {
+        "Name": "Windspeaker Seneschal",
+        "Subtitle": "",
+        "Grand_Alliance": "Order",
+        "Warband": "Lumineth Realm-lords",
+        "Bladeborn": "",
+        "Points": 185,
+        "Wounds": 22,
+        "Movement": 12,
+        "Toughness": 3,
+        "Runemarks": [
+            "Hero",
+            "Berserker",
+            "Agile"
+        ],
+        "Attacks": [
+            {
+                "Runemark": "Claws",
+                "Min_Range": 0,
+                "Max_Range": 1,
+                "Attacks": 4,
+                "Strength": 3,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 3
+            },
+            {
+                "Runemark": "Ranged Weapon",
+                "Min_Range": 0,
+                "Max_Range": 10,
+                "Attacks": 3,
+                "Strength": 4,
+                "Dmg_Hit": 1,
+                "Dmg_Crit": 4
+            }
+        ]
+    }
+]
