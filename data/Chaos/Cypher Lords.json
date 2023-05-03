@@ -1,155 +1,155 @@
 [
     {
-        "Name": "Luminate",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Cypher Lords",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 175,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Luminate",
+        "Points": 175,
         "Runemarks": [
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Mindbound with Double-bladed Sword",
-        "Subtitle": "with Double-bladed Sword",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Cypher Lords",
-        "Bladeborn": "",
-        "Points": 80,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            "Minion"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Mindbound with Sword",
-        "Subtitle": "with Sword",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Cypher Lords",
-        "Bladeborn": "",
-        "Points": 70,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            "Minion"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Mirrorblade with Duelling swords",
-        "Subtitle": "with Duelling swords",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Cypher Lords",
-        "Bladeborn": "",
-        "Points": 130,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            "Minion",
-            "Destroyer"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Mirrorblade with Glaive",
-        "Subtitle": "with Glaive",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Cypher Lords",
-        "Bladeborn": "",
-        "Points": 135,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            "Minion",
-            "Destroyer"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Thrallmaster",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Cypher Lords",
-        "Bladeborn": "",
-        "Points": 205,
-        "Wounds": 20,
-        "Movement": 5,
         "Toughness": 4,
+        "Warband": "Cypher Lords",
+        "Wounds": 15
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Mindbound with Double-bladed Sword",
+        "Points": 80,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Subtitle": "with Double-bladed Sword",
+        "Toughness": 3,
+        "Warband": "Cypher Lords",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Mindbound with Sword",
+        "Points": 70,
+        "Runemarks": [
+            "Minion"
+        ],
+        "Subtitle": "with Sword",
+        "Toughness": 3,
+        "Warband": "Cypher Lords",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Mirrorblade with Duelling swords",
+        "Points": 130,
+        "Runemarks": [
+            "Minion",
+            "Destroyer"
+        ],
+        "Subtitle": "with Duelling swords",
+        "Toughness": 3,
+        "Warband": "Cypher Lords",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Mirrorblade with Glaive",
+        "Points": 135,
+        "Runemarks": [
+            "Minion",
+            "Destroyer"
+        ],
+        "Subtitle": "with Glaive",
+        "Toughness": 3,
+        "Warband": "Cypher Lords",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Thrallmaster",
+        "Points": 205,
         "Runemarks": [
             "Hero",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Cypher Lords",
+        "Wounds": 20
     }
 ]

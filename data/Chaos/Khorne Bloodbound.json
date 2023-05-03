@@ -1,879 +1,879 @@
 [
     {
-        "Name": "Arnulf",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Garrek's Reavers",
-        "Points": 80,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Arnulf",
+        "Points": 80,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 12
     },
     {
-        "Name": "Aspiring Deathbringer",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Aspiring Deathbringer",
+        "Points": 165,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 25
     },
     {
-        "Name": "Blood Warrior with Goreaxe & Gorefist",
-        "Subtitle": "with Goreaxe & Gorefist",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 100,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Blood Warrior with Goreaxe & Gorefist",
+        "Points": 100,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Goreaxe & Gorefist",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 15
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
         "Name": "Blood Warrior with Goreglaive",
+        "Points": 110,
+        "Runemarks": [
+            ""
+        ],
         "Subtitle": "with Goreglaive",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
-        "Points": 110,
-        "Wounds": 15,
-        "Movement": 4,
         "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 15
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
         "Name": "Blood Warrior with Pair Bloodaxes",
-        "Subtitle": "with Pair Bloodaxes",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
         "Points": 110,
-        "Wounds": 15,
-        "Movement": 4,
-        "Toughness": 4,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Pair Bloodaxes",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 15
     },
     {
-        "Name": "Blooded Saek",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "Garrek's Reavers",
-        "Points": 135,
-        "Wounds": 12,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
         "Attacks": [
             {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 3,
-                "Strength": 4,
+                "Dmg_Crit": 5,
                 "Dmg_Hit": 3,
-                "Dmg_Crit": 5
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Bloodreaver with Meatripper Axe",
-        "Subtitle": "with Meatripper Axe",
+        ],
+        "Bladeborn": "Garrek's Reavers",
         "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 10,
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Blooded Saek",
+        "Points": 135,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Bloodreaver with Reaver Blades",
-        "Subtitle": "with Reaver Blades",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Bloodreaver Chieftain",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
+        "Toughness": 4,
         "Warband": "Khorne Bloodbound",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
+        "Name": "Bloodreaver with Meatripper Axe",
+        "Points": 65,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Meatripper Axe",
         "Toughness": 3,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Bloodreaver with Reaver Blades",
+        "Points": 65,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Reaver Blades",
+        "Toughness": 3,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Bloodreaver Chieftain",
+        "Points": 120,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 15
     },
     {
-        "Name": "Bloodsecrator",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 160,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Bloodsecrator",
+        "Points": 160,
         "Runemarks": [
             "Hero",
             "Icon-Bearer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 25
     },
     {
-        "Name": "Bloodstoker",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Bloodstoker",
+        "Points": 165,
         "Runemarks": [
             "Hero",
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 25
     },
     {
-        "Name": "Chaos Champion",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 140,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Chaos Champion",
+        "Points": 140,
         "Runemarks": [
             "Hero",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Exalted Deathbringer with Impaling Spear",
-        "Subtitle": "with Impaling Spear",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
-        "Points": 185,
-        "Wounds": 28,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Hero"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
-    },
-    {
-        "Name": "Exalted Deathbringer with Ruinous Axe",
-        "Subtitle": "with Ruinous Axe",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
-        "Points": 185,
-        "Wounds": 28,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Hero"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Flesh Hound",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
-        "Points": 180,
-        "Wounds": 20,
-        "Movement": 8,
         "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 20
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Exalted Deathbringer with Impaling Spear",
+        "Points": 185,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Subtitle": "with Impaling Spear",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 28
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Exalted Deathbringer with Ruinous Axe",
+        "Points": 185,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Subtitle": "with Ruinous Axe",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 28
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 8,
+        "Name": "Flesh Hound",
+        "Points": 180,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 20
     },
     {
-        "Name": "Garrek Gorebeard",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Garrek's Reavers",
-        "Points": 185,
-        "Wounds": 22,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Garrek Gorebeard",
+        "Points": 185,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 22
     },
     {
-        "Name": "Ghartok Flayskull",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Magore's Fiends",
-        "Points": 115,
-        "Wounds": 16,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Ghartok Flayskull",
+        "Points": 115,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 16
     },
     {
-        "Name": "Karsus the Chained",
-        "Subtitle": "the Chained",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Garrek's Reavers",
-        "Points": 130,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Karsus the Chained",
+        "Points": 130,
         "Runemarks": [
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "the Chained",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 12
     },
     {
-        "Name": "Khorgorath",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 205,
-        "Wounds": 30,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Khorgorath",
+        "Points": 205,
         "Runemarks": [
             "Ferocious"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 30
     },
     {
-        "Name": "Magore Redhand",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Magore's Fiends",
-        "Points": 180,
-        "Wounds": 26,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Magore Redhand",
+        "Points": 180,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 26
     },
     {
-        "Name": "Mighty Lord of Khorne",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 215,
-        "Wounds": 32,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Mighty Lord of Khorne",
+        "Points": 215,
         "Runemarks": [
             "Hero",
             "Champion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 32
     },
     {
-        "Name": "Mighty Lord of Khorne on Juggernaut",
-        "Subtitle": "on Juggernaut",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 280,
-        "Wounds": 38,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 6,
+        "Name": "Mighty Lord of Khorne on Juggernaut",
+        "Points": 280,
         "Runemarks": [
             "Hero",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "on Juggernaut",
+        "Toughness": 6,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 38
     },
     {
-        "Name": "Mighty Skullcrusher with Bloodglaive",
-        "Subtitle": "with Bloodglaive",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
-        "Points": 210,
-        "Wounds": 30,
-        "Movement": 6,
-        "Toughness": 6,
-        "Runemarks": [
-            "Mount"
-        ],
         "Attacks": [
             {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
                 "Attacks": 3,
-                "Strength": 5,
+                "Dmg_Crit": 6,
                 "Dmg_Hit": 2,
-                "Dmg_Crit": 6
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 5
             }
-        ]
-    },
-    {
-        "Name": "Mighty Skullcrusher with Ensorcelled Axe",
-        "Subtitle": "with Ensorcelled Axe",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        ],
         "Bladeborn": "",
-        "Points": 210,
-        "Wounds": 30,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 6,
+        "Name": "Mighty Skullcrusher with Bloodglaive",
+        "Points": 210,
         "Runemarks": [
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "with Bloodglaive",
+        "Toughness": 6,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 30
     },
     {
-        "Name": "Riptooth",
-        "Subtitle": "",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
         "Grand_Alliance": "Chaos",
+        "Movement": 6,
+        "Name": "Mighty Skullcrusher with Ensorcelled Axe",
+        "Points": 210,
+        "Runemarks": [
+            "Mount"
+        ],
+        "Subtitle": "with Ensorcelled Axe",
+        "Toughness": 6,
         "Warband": "Khorne Bloodbound",
+        "Wounds": 30
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Magore's Fiends",
-        "Points": 180,
-        "Wounds": 22,
+        "Grand_Alliance": "Chaos",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Riptooth",
+        "Points": 180,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 22
     },
     {
-        "Name": "Skullgrinder",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 180,
-        "Wounds": 28,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Skullgrinder",
+        "Points": 180,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 28
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
         "Name": "Skullreaper",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
         "Points": 130,
-        "Wounds": 20,
-        "Movement": 4,
-        "Toughness": 4,
         "Runemarks": [
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Skullseeker",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
-        "Points": 160,
-        "Wounds": 25,
-        "Movement": 4,
         "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 20
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Skullseeker",
+        "Points": 160,
         "Runemarks": [
             "Hero",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 25
     },
     {
-        "Name": "Slaughterpriest with Bloodbathed Axe",
-        "Subtitle": "with Bloodbathed Axe",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
-        "Bladeborn": "",
-        "Points": 195,
-        "Wounds": 30,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Hero",
-            "Priest"
-        ],
         "Attacks": [
             {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 2,
                 "Attacks": 3,
-                "Strength": 4,
+                "Dmg_Crit": 5,
                 "Dmg_Hit": 3,
-                "Dmg_Crit": 5
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Slaughterpriest with Wrath-hammer & Hackblade",
-        "Subtitle": "with Wrath-hammer & Hackblade",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        ],
         "Bladeborn": "",
-        "Points": 185,
-        "Wounds": 30,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Slaughterpriest with Bloodbathed Axe",
+        "Points": 195,
         "Runemarks": [
             "Hero",
             "Priest"
         ],
+        "Subtitle": "with Bloodbathed Axe",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 30
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 4,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
             },
             {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
                 "Attacks": 3,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
             }
-        ]
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Slaughterpriest with Wrath-hammer & Hackblade",
+        "Points": 185,
+        "Runemarks": [
+            "Hero",
+            "Priest"
+        ],
+        "Subtitle": "with Wrath-hammer & Hackblade",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 30
     },
     {
-        "Name": "Targor",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Garrek's Reavers",
-        "Points": 80,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Targor",
+        "Points": 80,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 12
     },
     {
-        "Name": "Wrathmaster",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 6,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 210,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Wrathmaster",
+        "Points": 210,
         "Runemarks": [
             "Hero",
             "Frenzied"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 6,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 25
     },
     {
-        "Name": "Wrathmonger",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 140,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Wrathmonger",
+        "Points": 140,
         "Runemarks": [
             "Frenzied"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 20
     },
     {
-        "Name": "Zharkus the Bloodsighted",
-        "Subtitle": "the Bloodsighted",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Khorne Bloodbound",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Magore's Fiends",
-        "Points": 115,
-        "Wounds": 16,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Zharkus the Bloodsighted",
+        "Points": 115,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "the Bloodsighted",
+        "Toughness": 4,
+        "Warband": "Khorne Bloodbound",
+        "Wounds": 16
     }
 ]

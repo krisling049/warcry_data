@@ -1,378 +1,378 @@
 [
     {
-        "Name": "Fecula Flyblown",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 4
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "The Wurmspat",
-        "Points": 205,
-        "Wounds": 28,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Fecula Flyblown",
+        "Points": 205,
         "Runemarks": [
             "Hero",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 28
     },
     {
-        "Name": "Ghulgoch the Butcher",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "The Wurmspat",
-        "Points": 140,
-        "Wounds": 26,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Ghulgoch the Butcher",
+        "Points": 140,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 26
     },
     {
-        "Name": "Harbringer of Decay",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 195,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Harbringer of Decay",
+        "Points": 195,
         "Runemarks": [
             "Hero",
             "Terrifying",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 25
     },
     {
-        "Name": "Lord of Afflictions",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 320,
-        "Wounds": 42,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Lord of Afflictions",
+        "Points": 320,
         "Runemarks": [
             "Fly",
             "Hero",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 42
     },
     {
-        "Name": "Lord of Blights",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Hammer",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 170,
-        "Wounds": 32,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 5,
+        "Name": "Lord of Blights",
+        "Points": 170,
         "Runemarks": [
             "Hero",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Hammer",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 32
     },
     {
-        "Name": "Lord of Plagues",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 170,
-        "Wounds": 32,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Lord of Plagues",
+        "Points": 170,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 32
     },
     {
-        "Name": "Pusgoyle Blightlord",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 260,
-        "Wounds": 38,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Pusgoyle Blightlord",
+        "Points": 260,
         "Runemarks": [
             "Destroyer",
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 38
     },
     {
-        "Name": "Putrid Blightking Blightlord",
-        "Subtitle": "Blightlord",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 145,
-        "Wounds": 30,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Putrid Blightking Blightlord",
+        "Points": 145,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "Blightlord",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 30
     },
     {
-        "Name": "Putrid Blightking with Blighted weapon",
-        "Subtitle": "with Blighted weapon",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 110,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Putrid Blightking with Blighted weapon",
+        "Points": 110,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Blighted weapon",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 25
     },
     {
-        "Name": "Putrid Blightking Icon Bearer",
-        "Subtitle": "Icon Bearer",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 115,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Putrid Blightking Icon Bearer",
+        "Points": 115,
         "Runemarks": [
             "Icon-Bearer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "Icon Bearer",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 25
     },
     {
-        "Name": "Putrid Blightking with Shield",
-        "Subtitle": "with Shield",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 110,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 5,
+        "Name": "Putrid Blightking with Shield",
+        "Points": 110,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Shield",
+        "Toughness": 5,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 25
     },
     {
-        "Name": "Putrid Blightking with Sonorous Tocsin",
-        "Subtitle": "with Sonorous Tocsin",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Putrid Blightking with Sonorous Tocsin",
+        "Points": 120,
         "Runemarks": [
             "Champion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Sonorous Tocsin",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 25
     },
     {
-        "Name": "Rotbringer Sorcerer",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 125,
-        "Wounds": 22,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 3,
+        "Name": "Rotbringer Sorcerer",
+        "Points": 125,
         "Runemarks": [
             "Hero",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 22
     },
     {
-        "Name": "Sepsimus the Plaguesworn",
-        "Subtitle": "the Plaguesworn",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Nurgle Rotbringers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "The Wurmspat",
-        "Points": 130,
-        "Wounds": 26,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Sepsimus the Plaguesworn",
+        "Points": 130,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "the Plaguesworn",
+        "Toughness": 4,
+        "Warband": "Nurgle Rotbringers",
+        "Wounds": 26
     }
 ]

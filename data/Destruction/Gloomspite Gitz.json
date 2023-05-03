@@ -1,1215 +1,1215 @@
 [
     {
-        "Name": "Bat Squig",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "Mollog's Mob",
-        "Points": 205,
-        "Wounds": 16,
+        "Grand_Alliance": "Destruction",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Bat Squig",
+        "Points": 205,
         "Runemarks": [
             "Beast",
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 16
     },
     {
-        "Name": "Boggleye",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "",
-        "Points": 70,
-        "Wounds": 12,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Boggleye",
+        "Points": 70,
         "Runemarks": [
             "Ally",
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 12
     },
     {
-        "Name": "Boingrot Bounder",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 190,
-        "Wounds": 15,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 5,
+        "Name": "Boingrot Bounder",
+        "Points": 190,
         "Runemarks": [
             "Elite",
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 15
     },
     {
-        "Name": "Bounder Boss",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 245,
-        "Wounds": 20,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 5,
+        "Name": "Bounder Boss",
+        "Points": 245,
         "Runemarks": [
             "Fly",
             "Hero",
             "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 20
     },
     {
-        "Name": "Brewgit",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "",
-        "Points": 70,
-        "Wounds": 12,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Brewgit",
+        "Points": 70,
         "Runemarks": [
             "Ally",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 12
     },
     {
-        "Name": "Cave Squig",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 80,
-        "Wounds": 10,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Cave Squig",
+        "Points": 80,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 10
     },
     {
-        "Name": "Drizgit da Squig Herder",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Zarbag's Gitz",
-        "Points": 110,
-        "Wounds": 12,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Drizgit da Squig Herder",
+        "Points": 110,
         "Runemarks": [
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 12
     },
     {
-        "Name": "Fungoid Cave-Shaman",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 125,
-        "Wounds": 16,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Fungoid Cave-Shaman",
+        "Points": 125,
         "Runemarks": [
             "Hero",
             "Mystic"
         ],
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 16
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 3,
-                "Strength": 3,
+                "Dmg_Crit": 5,
                 "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "Grinkrak's Looncourt",
+        "Grand_Alliance": "Destruction",
+        "Movement": 8,
+        "Name": "Grib Da Wonky Lance",
+        "Points": 195,
+        "Runemarks": [
+            "Fly",
+            "Elite"
+        ],
+        "Subtitle": "Da Wonky Lance",
+        "Toughness": 5,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 15
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Grinkrak's Looncourt",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Grinkrak the Great",
+        "Points": 140,
+        "Runemarks": [
+            "Hero",
+            "Champion"
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 16
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Destruction",
+        "Movement": 8,
+        "Name": "Loonboss on Giant Cave Squig",
+        "Points": 285,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Elite"
+        ],
+        "Subtitle": "on Giant Cave Squig",
+        "Toughness": 5,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 26
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Loonboss",
+        "Points": 135,
+        "Runemarks": [
+            "Hero",
+            "Champion"
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 16
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Destruction",
+        "Movement": 5,
+        "Name": "Loonsmasha Fanatic",
+        "Points": 115,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 6
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 2
             },
             {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
                 "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Grib Da Wonky Lance",
-        "Subtitle": "Da Wonky Lance",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "Grinkrak's Looncourt",
-        "Points": 195,
-        "Wounds": 15,
-        "Movement": 8,
-        "Toughness": 5,
-        "Runemarks": [
-            "Fly",
-            "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Grinkrak the Great",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "Grinkrak's Looncourt",
-        "Points": 140,
-        "Wounds": 16,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Hero",
-            "Champion"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Loonboss on Giant Cave Squig",
-        "Subtitle": "on Giant Cave Squig",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "",
-        "Points": 285,
-        "Wounds": 26,
-        "Movement": 8,
-        "Toughness": 5,
-        "Runemarks": [
-            "Fly",
-            "Hero",
-            "Elite"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Loonboss",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "",
-        "Points": 135,
-        "Wounds": 16,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Hero",
-            "Champion"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Loonsmasha Fanatic",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "",
-        "Points": 115,
-        "Wounds": 6,
-        "Movement": 5,
-        "Toughness": 5,
-        "Runemarks": [
-            "Elite"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Mean-eye",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
         "Bladeborn": "Rippa's Snarlfangs",
-        "Points": 130,
-        "Wounds": 18,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 3,
+        "Name": "Mean-eye",
+        "Points": 130,
         "Runemarks": [
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Mollog the Mighty",
         "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "Mollog's Mob",
-        "Points": 330,
-        "Wounds": 35,
-        "Movement": 4,
-        "Toughness": 5,
-        "Runemarks": [
-            "Hero"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 6,
-                "Dmg_Hit": 5,
-                "Dmg_Crit": 10
-            }
-        ]
-    },
-    {
-        "Name": "Moonclan Boss",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "",
-        "Points": 110,
-        "Wounds": 12,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Hero"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Moonface Naggz",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "Grinkrak's Looncourt",
-        "Points": 60,
-        "Wounds": 6,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Pointy Burk",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "Grinkrak's Looncourt",
-        "Points": 60,
-        "Wounds": 6,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Pokin Snark",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "Grinkrak's Looncourt",
-        "Points": 100,
-        "Wounds": 8,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Prog Da Netter",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "Zarbag's Gitz",
-        "Points": 50,
-        "Wounds": 10,
-        "Movement": 4,
         "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 18
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 10,
+                "Dmg_Hit": 5,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 6
+            }
+        ],
+        "Bladeborn": "Mollog's Mob",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Mollog the Mighty",
+        "Points": 330,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 35
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Moonclan Boss",
+        "Points": 110,
+        "Runemarks": [
+            "Hero"
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 2
+            }
+        ],
+        "Bladeborn": "Grinkrak's Looncourt",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Moonface Naggz",
+        "Points": 60,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 6
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 2
+            }
+        ],
+        "Bladeborn": "Grinkrak's Looncourt",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Pointy Burk",
+        "Points": 60,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 6
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "Grinkrak's Looncourt",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Pokin Snark",
+        "Points": 100,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Zarbag's Gitz",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Prog Da Netter",
+        "Points": 50,
         "Runemarks": [
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 10
     },
     {
-        "Name": "Rippa Narkbad",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Rippa's Snarlfangs",
-        "Points": 180,
-        "Wounds": 22,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Rippa Narkbad",
+        "Points": 180,
         "Runemarks": [
             "Hero",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 22
     },
     {
-        "Name": "Scaremonger",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 16,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Scaremonger",
+        "Points": 90,
         "Runemarks": [
             "Ally",
             "Terrifying"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 16
     },
     {
-        "Name": "Scuttleboss",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 245,
-        "Wounds": 26,
+        "Grand_Alliance": "Destruction",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Scuttleboss",
+        "Points": 245,
         "Runemarks": [
             "Hero",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 26
     },
     {
-        "Name": "Shoota",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 2
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 12,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 75,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Shoota",
+        "Points": 75,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 12,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 6
     },
     {
-        "Name": "Shroomancer",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 85,
-        "Wounds": 16,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Shroomancer",
+        "Points": 85,
         "Runemarks": [
             "Ally",
             "Frenzied"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 16
     },
     {
-        "Name": "Skolko and Pronk",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "Grinkrak's Looncourt",
-        "Points": 115,
-        "Wounds": 12,
-        "Movement": 3,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
         "Attacks": [
             {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 3,
-                "Strength": 2,
+                "Dmg_Crit": 3,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 3
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 2
             },
             {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 20,
                 "Attacks": 2,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 20,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Sneaky Snuffler",
-        "Subtitle": "",
+        ],
+        "Bladeborn": "Grinkrak's Looncourt",
         "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 12,
-        "Movement": 4,
-        "Toughness": 3,
+        "Movement": 3,
+        "Name": "Skolko and Pronk",
+        "Points": 115,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 12
     },
     {
-        "Name": "Snirk Sourtongue",
-        "Subtitle": "",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 2
+            }
+        ],
+        "Bladeborn": "",
         "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "Zarbag's Gitz",
-        "Points": 130,
-        "Wounds": 10,
         "Movement": 4,
+        "Name": "Sneaky Snuffler",
+        "Points": 65,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "",
         "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "Zarbag's Gitz",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Snirk Sourtongue",
+        "Points": 130,
         "Runemarks": [
             "Frenzied"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 10
     },
     {
-        "Name": "Snorbo da Spore",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 2
+            },
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 5,
+                "Min_Range": 0,
+                "Runemark": "Blast",
+                "Strength": 1
+            }
+        ],
         "Bladeborn": "Grinkrak's Looncourt",
-        "Points": 70,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Snorbo da Spore",
+        "Points": 70,
         "Runemarks": [
             "Icon-Bearer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 0,
-                "Max_Range": 5,
-                "Attacks": 4,
-                "Strength": 1,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 6
     },
     {
-        "Name": "Spider Rider",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 12,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 145,
-        "Wounds": 15,
+        "Grand_Alliance": "Destruction",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Spider Rider",
+        "Points": 145,
         "Runemarks": [
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 12,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 15
     },
     {
-        "Name": "Spider Rider Boss",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 12,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 185,
-        "Wounds": 20,
+        "Grand_Alliance": "Destruction",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Spider Rider Boss",
+        "Points": 185,
         "Runemarks": [
             "Hero",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 12,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 20
     },
     {
-        "Name": "Spiker",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 75,
-        "Wounds": 12,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Spiker",
+        "Points": 75,
         "Runemarks": [
             "Ally",
             "Sentience"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 12
     },
     {
-        "Name": "Sporesplatta Fanatic",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 100,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Sporesplatta Fanatic",
+        "Points": 100,
         "Runemarks": [
             "Elite",
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 6
     },
     {
-        "Name": "Squig Herder",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "",
-        "Points": 55,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Squig Herder",
+        "Points": 55,
         "Runemarks": [
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 6
     },
     {
-        "Name": "Squig Hopper",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 200,
-        "Wounds": 15,
+        "Grand_Alliance": "Destruction",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Squig Hopper",
+        "Points": 200,
         "Runemarks": [
             "Elite",
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 15
     },
     {
-        "Name": "Squig Hopper Boss",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 255,
-        "Wounds": 20,
+        "Grand_Alliance": "Destruction",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Squig Hopper Boss",
+        "Points": 255,
         "Runemarks": [
             "Fly",
             "Hero",
             "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 20
     },
     {
-        "Name": "Stabba with Barbed Net",
-        "Subtitle": "with Barbed Net",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "",
-        "Points": 55,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Stabba with Barbed Net",
+        "Points": 55,
         "Runemarks": [
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            }
-        ]
-    },
-    {
-        "Name": "Stabba with Spear and Shield",
-        "Subtitle": "with Spear and Shield",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "",
-        "Points": 55,
-        "Wounds": 6,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Stabba with Stabba and Shield",
-        "Subtitle": "with Stabba and Shield",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "",
-        "Points": 55,
-        "Wounds": 6,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Stabbit",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
-        "Bladeborn": "Rippa's Snarlfangs",
-        "Points": 115,
-        "Wounds": 18,
-        "Movement": 8,
+        "Subtitle": "with Barbed Net",
         "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 6
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 2
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Stabba with Spear and Shield",
+        "Points": 55,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Spear and Shield",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 6
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 2
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Stabba with Stabba and Shield",
+        "Points": 55,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Stabba and Shield",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 6
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Rippa's Snarlfangs",
+        "Grand_Alliance": "Destruction",
+        "Movement": 8,
+        "Name": "Stabbit",
+        "Points": 115,
         "Runemarks": [
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 18
     },
     {
-        "Name": "Webspinner Shaman",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 125,
-        "Wounds": 16,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Webspinner Shaman",
+        "Points": 125,
         "Runemarks": [
             "Hero",
             "Priest"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 16
     },
     {
-        "Name": "Zarbag",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Zarbag's Gitz",
-        "Points": 145,
-        "Wounds": 16,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Zarbag",
+        "Points": 145,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 16
     },
     {
-        "Name": "Zarbag's Gitz Shoota",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 12,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Zarbag's Gitz",
-        "Points": 85,
-        "Wounds": 10,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Zarbag's Gitz Shoota",
+        "Points": 85,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 12,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 10
     },
     {
-        "Name": "Zarbag's Gitz Squig",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Gloomspite Gitz",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "Zarbag's Gitz",
-        "Points": 145,
-        "Wounds": 16,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Zarbag's Gitz Squig",
+        "Points": 145,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Gloomspite Gitz",
+        "Wounds": 16
     }
 ]

@@ -1,210 +1,210 @@
 [
     {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 6,
+                "Min_Range": 0,
+                "Runemark": "Ranged Weapon",
+                "Strength": 1
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 6,
         "Name": "Chameleon Skink with Dartpipe",
-        "Subtitle": "with Dartpipe",
-        "Grand_Alliance": "Order",
-        "Warband": "Hunters of Hunachi",
-        "Bladeborn": "",
         "Points": 70,
-        "Wounds": 8,
-        "Movement": 6,
-        "Toughness": 2,
         "Runemarks": [
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 0,
-                "Max_Range": 6,
-                "Attacks": 2,
-                "Strength": 1,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            }
-        ]
+        "Subtitle": "with Dartpipe",
+        "Toughness": 2,
+        "Warband": "Hunters of Hunachi",
+        "Wounds": 8
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 6,
         "Name": "Chameleon Skink with Moonstone Club",
-        "Subtitle": "with Moonstone Club",
-        "Grand_Alliance": "Order",
-        "Warband": "Hunters of Hunachi",
-        "Bladeborn": "",
         "Points": 70,
-        "Wounds": 8,
-        "Movement": 6,
-        "Toughness": 3,
         "Runemarks": [
             "Agile",
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "with Moonstone Club",
+        "Toughness": 3,
+        "Warband": "Hunters of Hunachi",
+        "Wounds": 8
     },
     {
-        "Name": "Chameleon Skink Alpha with Dartpipe",
-        "Subtitle": "with Dartpipe",
-        "Grand_Alliance": "Order",
-        "Warband": "Hunters of Hunachi",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 6,
+                "Min_Range": 0,
+                "Runemark": "Ranged Weapon",
+                "Strength": 1
+            }
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 12,
+        "Grand_Alliance": "Order",
         "Movement": 6,
-        "Toughness": 2,
+        "Name": "Chameleon Skink Alpha with Dartpipe",
+        "Points": 90,
         "Runemarks": [
             "Hero",
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 0,
-                "Max_Range": 6,
-                "Attacks": 2,
-                "Strength": 1,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            }
-        ]
+        "Subtitle": "with Dartpipe",
+        "Toughness": 2,
+        "Warband": "Hunters of Hunachi",
+        "Wounds": 12
     },
     {
-        "Name": "Chameleon Skink Alpha with Moonstone Club",
-        "Subtitle": "with Moonstone Club",
-        "Grand_Alliance": "Order",
-        "Warband": "Hunters of Hunachi",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 12,
+        "Grand_Alliance": "Order",
         "Movement": 6,
-        "Toughness": 3,
+        "Name": "Chameleon Skink Alpha with Moonstone Club",
+        "Points": 90,
         "Runemarks": [
             "Hero",
             "Agile",
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Chameleon Skink Hornblower with Dartpipe",
-        "Subtitle": "with Dartpipe",
-        "Grand_Alliance": "Order",
-        "Warband": "Hunters of Hunachi",
-        "Bladeborn": "",
-        "Points": 75,
-        "Wounds": 8,
-        "Movement": 6,
-        "Toughness": 2,
-        "Runemarks": [
-            "Agile",
-            "Scout"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 0,
-                "Max_Range": 6,
-                "Attacks": 2,
-                "Strength": 1,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            }
-        ]
-    },
-    {
-        "Name": "Chameleon Skink Hornblower with Moonstone Club",
         "Subtitle": "with Moonstone Club",
-        "Grand_Alliance": "Order",
+        "Toughness": 3,
         "Warband": "Hunters of Hunachi",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 6,
+                "Min_Range": 0,
+                "Runemark": "Ranged Weapon",
+                "Strength": 1
+            }
+        ],
         "Bladeborn": "",
-        "Points": 70,
-        "Wounds": 8,
+        "Grand_Alliance": "Order",
         "Movement": 6,
-        "Toughness": 2,
+        "Name": "Chameleon Skink Hornblower with Dartpipe",
+        "Points": 75,
         "Runemarks": [
             "Agile",
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "with Dartpipe",
+        "Toughness": 2,
+        "Warband": "Hunters of Hunachi",
+        "Wounds": 8
     },
     {
-        "Name": "Huanchi's Claw",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Hunters of Hunachi",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 75,
-        "Wounds": 10,
+        "Grand_Alliance": "Order",
         "Movement": 6,
-        "Toughness": 3,
+        "Name": "Chameleon Skink Hornblower with Moonstone Club",
+        "Points": 70,
+        "Runemarks": [
+            "Agile",
+            "Scout"
+        ],
+        "Subtitle": "with Moonstone Club",
+        "Toughness": 2,
+        "Warband": "Hunters of Hunachi",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 6,
+        "Name": "Huanchi's Claw",
+        "Points": 75,
         "Runemarks": [
             "Agile",
             "Icon-Bearer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 8,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Hunters of Hunachi",
+        "Wounds": 10
     },
     {
-        "Name": "Terrawing",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Hunters of Hunachi",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 10,
+        "Grand_Alliance": "Order",
         "Movement": 8,
-        "Toughness": 3,
+        "Name": "Terrawing",
+        "Points": 90,
         "Runemarks": [
             "Fly",
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Hunters of Hunachi",
+        "Wounds": 10
     }
 ]

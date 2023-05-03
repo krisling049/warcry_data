@@ -1,660 +1,660 @@
 [
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "Kainan's Reapers",
+        "Grand_Alliance": "Death",
+        "Movement": 3,
         "Name": "Binar Khenta",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "Kainan's Reapers",
         "Points": 145,
-        "Wounds": 22,
-        "Movement": 3,
-        "Toughness": 5,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 22
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "Kainan's Reapers",
+        "Grand_Alliance": "Death",
+        "Movement": 3,
         "Name": "Hakor",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "Kainan's Reapers",
         "Points": 90,
-        "Wounds": 12,
-        "Movement": 3,
-        "Toughness": 4,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 12
     },
     {
-        "Name": "Immortis Guard",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 28,
-        "Movement": 4,
-        "Toughness": 5,
-        "Runemarks": [
-            "Bulwark"
-        ],
         "Attacks": [
             {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 2,
                 "Attacks": 2,
-                "Strength": 5,
+                "Dmg_Crit": 5,
                 "Dmg_Hit": 3,
-                "Dmg_Crit": 5
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
             }
-        ]
-    },
-    {
-        "Name": "Karu",
-        "Subtitle": "",
+        ],
+        "Bladeborn": "",
         "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "Kainan's Reapers",
-        "Points": 80,
-        "Wounds": 12,
-        "Movement": 3,
-        "Toughness": 5,
+        "Movement": 4,
+        "Name": "Immortis Guard",
+        "Points": 165,
         "Runemarks": [
             "Bulwark"
         ],
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 28
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 2,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Kavalos Deathrider Mortek Hekatos",
-        "Subtitle": "Mortek Hekatos",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 220,
-        "Wounds": 25,
-        "Movement": 8,
-        "Toughness": 5,
-        "Runemarks": [
-            "Hero",
-            "Champion",
-            "Mount"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
                 "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Kavalos Deathrider with Blade",
-        "Subtitle": "with Blade",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 145,
-        "Wounds": 20,
-        "Movement": 8,
-        "Toughness": 5,
-        "Runemarks": [
-            "Warrior",
-            "Mount"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
                 "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Runemark": "Club",
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Kavalos Deathrider with Spear",
-        "Subtitle": "with Spear",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 145,
-        "Wounds": 20,
-        "Movement": 8,
-        "Toughness": 5,
-        "Runemarks": [
-            "Warrior",
-            "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Liege-Kavalos",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 270,
-        "Wounds": 30,
-        "Movement": 8,
-        "Toughness": 5,
-        "Runemarks": [
-            "Hero",
-            "Champion",
-            "Mount"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Mir Kainan",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
         "Bladeborn": "Kainan's Reapers",
-        "Points": 230,
-        "Wounds": 26,
+        "Grand_Alliance": "Death",
+        "Movement": 3,
+        "Name": "Karu",
+        "Points": 80,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 8,
+        "Name": "Kavalos Deathrider Mortek Hekatos",
+        "Points": 220,
+        "Runemarks": [
+            "Hero",
+            "Champion",
+            "Mount"
+        ],
+        "Subtitle": "Mortek Hekatos",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 25
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 8,
+        "Name": "Kavalos Deathrider with Blade",
+        "Points": 145,
+        "Runemarks": [
+            "Warrior",
+            "Mount"
+        ],
+        "Subtitle": "with Blade",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 20
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 8,
+        "Name": "Kavalos Deathrider with Spear",
+        "Points": 145,
+        "Runemarks": [
+            "Warrior",
+            "Mount"
+        ],
+        "Subtitle": "with Spear",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 20
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 8,
+        "Name": "Liege-Kavalos",
+        "Points": 270,
+        "Runemarks": [
+            "Hero",
+            "Champion",
+            "Mount"
+        ],
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 30
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 5
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Kainan's Reapers",
+        "Grand_Alliance": "Death",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Mir Kainan",
+        "Points": 230,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 26
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 8,
         "Name": "Morghast Archai with Halberd",
-        "Subtitle": "with Halberd",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
         "Points": 280,
-        "Wounds": 35,
-        "Movement": 8,
-        "Toughness": 5,
         "Runemarks": [
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Morghast Archai with Swords",
-        "Subtitle": "with Swords",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 275,
-        "Wounds": 35,
-        "Movement": 8,
-        "Toughness": 5,
-        "Runemarks": [
-            "Fly"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Morghast Harbringer with Halberd",
         "Subtitle": "with Halberd",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 270,
-        "Wounds": 35,
-        "Movement": 8,
-        "Toughness": 4,
-        "Runemarks": [
-            "Fly",
-            "Berserker"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Morghast Harbringer with Swords",
-        "Subtitle": "with Swords",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 265,
-        "Wounds": 35,
-        "Movement": 8,
-        "Toughness": 4,
-        "Runemarks": [
-            "Fly",
-            "Berserker"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Mortek Guard with Blade",
-        "Subtitle": "with Blade",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 55,
-        "Wounds": 10,
-        "Movement": 3,
         "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 35
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 8,
+        "Name": "Morghast Archai with Swords",
+        "Points": 275,
+        "Runemarks": [
+            "Fly"
+        ],
+        "Subtitle": "with Swords",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 35
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 8,
+        "Name": "Morghast Harbringer with Halberd",
+        "Points": 270,
+        "Runemarks": [
+            "Fly",
+            "Berserker"
+        ],
+        "Subtitle": "with Halberd",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 35
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 8,
+        "Name": "Morghast Harbringer with Swords",
+        "Points": 265,
+        "Runemarks": [
+            "Fly",
+            "Berserker"
+        ],
+        "Subtitle": "with Swords",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 35
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 3,
+        "Name": "Mortek Guard with Blade",
+        "Points": 55,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "with Blade",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 10
     },
     {
-        "Name": "Mortek Guard with Greatblade",
-        "Subtitle": "with Greatblade",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 50,
-        "Wounds": 10,
+        "Grand_Alliance": "Death",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Mortek Guard with Greatblade",
+        "Points": 50,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Greatblade",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 10
     },
     {
-        "Name": "Mortek Guard with Spear",
-        "Subtitle": "with Spear",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 55,
-        "Wounds": 10,
+        "Grand_Alliance": "Death",
         "Movement": 3,
-        "Toughness": 5,
+        "Name": "Mortek Guard with Spear",
+        "Points": 55,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "with Spear",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 10
     },
     {
-        "Name": "Mortek Hekatos",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 15,
+        "Grand_Alliance": "Death",
         "Movement": 3,
-        "Toughness": 5,
+        "Name": "Mortek Hekatos",
+        "Points": 105,
         "Runemarks": [
             "Hero",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 15
     },
     {
-        "Name": "Mortisan Boneshaper",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 150,
-        "Wounds": 20,
+        "Grand_Alliance": "Death",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Mortisan Boneshaper",
+        "Points": 150,
         "Runemarks": [
             "Hero",
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 20
     },
     {
-        "Name": "Mortisan Soulmason",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 25,
+        "Grand_Alliance": "Death",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Mortisan Soulmason",
+        "Points": 165,
         "Runemarks": [
             "Hero",
             "Mystic",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 25
     },
     {
-        "Name": "Mortisan Soulreaper",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 4
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 150,
-        "Wounds": 20,
+        "Grand_Alliance": "Death",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Mortisan Soulreaper",
+        "Points": 150,
         "Runemarks": [
             "Hero",
             "Terrifying"
         ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 20
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
+                "Attacks": 5,
+                "Dmg_Crit": 5,
                 "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 5,
+        "Name": "Necropolis Stalker with Spirit Blades",
+        "Points": 200,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Subtitle": "with Spirit Blades",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 28
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 5,
+        "Name": "Necropolis Stalkers with Dread Falchions",
+        "Points": 195,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Subtitle": "with Dread Falchions",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 28
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 3
             },
             {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
                 "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Necropolis Stalker with Spirit Blades",
-        "Subtitle": "with Spirit Blades",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 200,
-        "Wounds": 28,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Necropolis Stalkers with Dread Falchions",
-        "Subtitle": "with Dread Falchions",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
-        "Bladeborn": "",
-        "Points": 195,
-        "Wounds": 28,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            "Destroyer"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
-    },
-    {
-        "Name": "Nohem",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
         "Bladeborn": "Kainan's Reapers",
-        "Points": 80,
-        "Wounds": 12,
+        "Grand_Alliance": "Death",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Nohem",
+        "Points": 80,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 12
     },
     {
-        "Name": "Senha",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Ossiarch Bonereapers",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Kainan's Reapers",
-        "Points": 75,
-        "Wounds": 12,
+        "Grand_Alliance": "Death",
         "Movement": 3,
-        "Toughness": 5,
+        "Name": "Senha",
+        "Points": 75,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Ossiarch Bonereapers",
+        "Wounds": 12
     }
 ]

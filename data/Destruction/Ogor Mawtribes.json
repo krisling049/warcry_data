@@ -1,841 +1,841 @@
 [
     {
-        "Name": "Bushwakka",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "Hrothgorn's Mantrappers",
-        "Points": 40,
-        "Wounds": 8,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Bushwakka",
+        "Points": 40,
         "Runemarks": [
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 8
     },
     {
-        "Name": "Butcher",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 225,
-        "Wounds": 38,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Butcher",
+        "Points": 225,
         "Runemarks": [
             "Hero",
             "Brute",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 38
     },
     {
-        "Name": "Crusher",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 245,
-        "Wounds": 32,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Crusher",
+        "Points": 245,
         "Runemarks": [
             "Hero",
             "Brute",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 32
     },
     {
-        "Name": "Firebelly",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Hammer",
+                "Strength": 5
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 230,
-        "Wounds": 38,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Firebelly",
+        "Points": 230,
         "Runemarks": [
             "Hero",
             "Brute",
             "Frenzied"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Hammer",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 38
     },
     {
-        "Name": "Frost Sabre",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 175,
-        "Wounds": 16,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Frost Sabre",
+        "Points": 175,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 16
     },
     {
-        "Name": "Gnoblar",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "",
-        "Points": 45,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Gnoblar",
+        "Points": 45,
         "Runemarks": [
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 6
     },
     {
-        "Name": "Gorger",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 195,
-        "Wounds": 30,
+        "Grand_Alliance": "Destruction",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Gorger",
+        "Points": 195,
         "Runemarks": [
             "Agile",
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 30
     },
     {
-        "Name": "Gorlok Blackpowder",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
-        "Bladeborn": "Blackpowder's Buccaneers",
-        "Points": 260,
-        "Wounds": 30,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Hero",
-            "Brute"
-        ],
         "Attacks": [
             {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 2,
                 "Attacks": 4,
-                "Strength": 5,
+                "Dmg_Crit": 6,
                 "Dmg_Hit": 3,
-                "Dmg_Crit": 6
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 5
             },
             {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 10,
                 "Attacks": 2,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Max_Range": 10,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Gutlord",
-        "Subtitle": "",
+        ],
+        "Bladeborn": "Blackpowder's Buccaneers",
         "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
-        "Bladeborn": "",
-        "Points": 280,
-        "Wounds": 32,
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Gorlok Blackpowder",
+        "Points": 260,
         "Runemarks": [
             "Hero",
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 6,
-                "Dmg_Hit": 5,
-                "Dmg_Crit": 10
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 30
     },
     {
-        "Name": "Hrothgorn Mantrapper",
-        "Subtitle": "",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 10,
+                "Dmg_Hit": 5,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 6
+            }
+        ],
+        "Bladeborn": "",
         "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
-        "Bladeborn": "Hrothgorn's Mantrappers",
-        "Points": 300,
-        "Wounds": 40,
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Gutlord",
+        "Points": 280,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 32
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 4
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 9,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 6
+            }
+        ],
+        "Bladeborn": "Hrothgorn's Mantrappers",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Hrothgorn Mantrapper",
+        "Points": 300,
         "Runemarks": [
             "Hero",
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 9,
-                "Attacks": 2,
-                "Strength": 6,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 40
     },
     {
-        "Name": "Icebrow Hunter",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 5
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Ranged Weapon",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 280,
-        "Wounds": 40,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Icebrow Hunter",
+        "Points": 280,
         "Runemarks": [
             "Hero",
             "Brute",
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 0,
-                "Max_Range": 8,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 40
     },
     {
-        "Name": "Icefall Yhetee",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 205,
-        "Wounds": 25,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Icefall Yhetee",
+        "Points": 205,
         "Runemarks": [
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 25
     },
     {
-        "Name": "Irongut",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 6
+            }
+        ],
         "Bladeborn": "",
-        "Points": 235,
-        "Wounds": 28,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Irongut",
+        "Points": 235,
         "Runemarks": [
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 6,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 28
     },
     {
-        "Name": "Kagey",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "Blackpowder's Buccaneers",
-        "Points": 60,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Kagey",
+        "Points": 60,
         "Runemarks": [
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 8,
-                "Attacks": 2,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 6
     },
     {
-        "Name": "Leadbelcher",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 4
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 10,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 185,
-        "Wounds": 28,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Leadbelcher",
+        "Points": 185,
         "Runemarks": [
             "Brute",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 10,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 28
     },
     {
-        "Name": "Luggit & Thwak",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Hrothgorn's Mantrappers",
-        "Points": 65,
-        "Wounds": 12,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Luggit & Thwak",
+        "Points": 65,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 12
     },
     {
-        "Name": "Maneater",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 5
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 205,
-        "Wounds": 30,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Maneater",
+        "Points": 205,
         "Runemarks": [
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 0,
-                "Max_Range": 8,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 30
     },
     {
-        "Name": "Mange",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Blackpowder's Buccaneers",
-        "Points": 55,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Mange",
+        "Points": 55,
         "Runemarks": [
             "Frenzied"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 6
     },
     {
-        "Name": "Mournfang Rider with Club & Ironfist",
-        "Subtitle": "with Club & Ironfist",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 295,
-        "Wounds": 35,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Mournfang Rider with Club & Ironfist",
+        "Points": 295,
         "Runemarks": [
             "Brute",
             "Bulwark",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "with Club & Ironfist",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 35
     },
     {
-        "Name": "Mournfang Rider with Gargant Hacker",
-        "Subtitle": "with Gargant Hacker",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 300,
-        "Wounds": 35,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Mournfang Rider with Gargant Hacker",
+        "Points": 300,
         "Runemarks": [
             "Brute",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            }
-        ]
+        "Subtitle": "with Gargant Hacker",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 35
     },
     {
-        "Name": "Ogor Glutton with Clubs",
-        "Subtitle": "with Clubs",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 200,
-        "Wounds": 28,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Ogor Glutton with Clubs",
+        "Points": 200,
         "Runemarks": [
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "with Clubs",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 28
     },
     {
-        "Name": "Ogor Glutton with Ironfist",
-        "Subtitle": "with Ironfist",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 190,
-        "Wounds": 28,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Ogor Glutton with Ironfist",
+        "Points": 190,
         "Runemarks": [
             "Brute",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "with Ironfist",
+        "Toughness": 5,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 28
     },
     {
-        "Name": "Peggz",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "Blackpowder's Buccaneers",
-        "Points": 50,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Peggz",
+        "Points": 50,
         "Runemarks": [
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 6
     },
     {
-        "Name": "Quiv",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Hrothgorn's Mantrappers",
-        "Points": 45,
-        "Wounds": 8,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Quiv",
+        "Points": 45,
         "Runemarks": [
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 8
     },
     {
-        "Name": "Shreek",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Blackpowder's Buccaneers",
-        "Points": 100,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 10,
-        "Toughness": 3,
+        "Name": "Shreek",
+        "Points": 100,
         "Runemarks": [
             "Beast",
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 6
     },
     {
-        "Name": "Skalg",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 5
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 355,
-        "Wounds": 40,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Skalg",
+        "Points": 355,
         "Runemarks": [
             "Hero",
             "Brute",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 0,
-                "Max_Range": 8,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 40
     },
     {
-        "Name": "Thrafnir",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Hrothgorn's Mantrappers",
-        "Points": 175,
-        "Wounds": 22,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Thrafnir",
+        "Points": 175,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 22
     },
     {
-        "Name": "Thunderfist",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 4
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 10,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 215,
-        "Wounds": 32,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Thunderfist",
+        "Points": 215,
         "Runemarks": [
             "Hero",
             "Brute",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 10,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 32
     },
     {
-        "Name": "Tyrant",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Ogor Mawtribes",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 6
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 315,
-        "Wounds": 42,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Tyrant",
+        "Points": 315,
         "Runemarks": [
             "Hero",
             "Brute",
             "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 6,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 0,
-                "Max_Range": 8,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Ogor Mawtribes",
+        "Wounds": 42
     }
 ]

@@ -1,192 +1,192 @@
 [
     {
-        "Name": "Demolisher with Crushing Weapon & Shield",
-        "Subtitle": "with Crushing Weapon & Shield",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Horns of Hashut",
-        "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 12,
-        "Movement": 4,
-        "Toughness": 5,
-        "Runemarks": [
-            "Warrior"
-        ],
         "Attacks": [
             {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 3,
-                "Strength": 3,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Demolisher with Crushing Weapons",
-        "Subtitle": "with Crushing Weapons",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Horns of Hashut",
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Demolisher with Crushing Weapon & Shield",
+        "Points": 105,
         "Runemarks": [
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Crushing Weapon & Shield",
+        "Toughness": 5,
+        "Warband": "Horns of Hashut",
+        "Wounds": 12
     },
     {
-        "Name": "Demolisher with Flamehurler",
-        "Subtitle": "with Flamehurler",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Horns of Hashut",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 125,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
+        "Name": "Demolisher with Crushing Weapons",
+        "Points": 105,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Subtitle": "with Crushing Weapons",
         "Toughness": 4,
+        "Warband": "Horns of Hashut",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 3
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 1,
+                "Max_Range": 6,
+                "Min_Range": 0,
+                "Runemark": "Blast",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Demolisher with Flamehurler",
+        "Points": 125,
         "Runemarks": [
             "Frenzied",
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 0,
-                "Max_Range": 6,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "with Flamehurler",
+        "Toughness": 4,
+        "Warband": "Horns of Hashut",
+        "Wounds": 12
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Bident",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
         "Name": "Ruinator",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Horns of Hashut",
-        "Bladeborn": "",
         "Points": 125,
-        "Wounds": 15,
-        "Movement": 4,
-        "Toughness": 4,
         "Runemarks": [
             "Brute",
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Bident",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Ruinator Alpha with Heavy Flail",
-        "Subtitle": "with Heavy Flail",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Horns of Hashut",
-        "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 20,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Brute",
-            "Hero",
-            "Warrior"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Ruinator Alpha with War Bident",
-        "Subtitle": "with War Bident",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Horns of Hashut",
-        "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 20,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Brute",
-            "Hero",
-            "Warrior"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Bident",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Shatterer",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
+        "Toughness": 4,
         "Warband": "Horns of Hashut",
+        "Wounds": 15
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 55,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Ruinator Alpha with Heavy Flail",
+        "Points": 165,
+        "Runemarks": [
+            "Brute",
+            "Hero",
+            "Warrior"
+        ],
+        "Subtitle": "with Heavy Flail",
+        "Toughness": 4,
+        "Warband": "Horns of Hashut",
+        "Wounds": 20
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Bident",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Ruinator Alpha with War Bident",
+        "Points": 165,
+        "Runemarks": [
+            "Brute",
+            "Hero",
+            "Warrior"
+        ],
+        "Subtitle": "with War Bident",
+        "Toughness": 4,
+        "Warband": "Horns of Hashut",
+        "Wounds": 20
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Shatterer",
+        "Points": 55,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Horns of Hashut",
+        "Wounds": 10
     }
 ]

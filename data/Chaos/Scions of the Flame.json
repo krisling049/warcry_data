@@ -1,287 +1,287 @@
 [
     {
-        "Name": "Blazing Lord",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 200,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Blazing Lord",
+        "Points": 200,
         "Runemarks": [
             "Hero",
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Scions of the Flame",
+        "Wounds": 20
     },
     {
-        "Name": "Brazen Champion",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 18,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Brazen Champion",
+        "Points": 165,
         "Runemarks": [
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Scions of the Flame",
+        "Wounds": 18
     },
     {
-        "Name": "Fireborn",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 110,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Fireborn",
+        "Points": 110,
         "Runemarks": [
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Fireborn with Sunblade and Brazier Axe",
-        "Subtitle": "with Sunblade and Brazier Axe",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
-        "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 12,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Fireborn with Sunblade and Kris",
-        "Subtitle": "with Sunblade and Kris",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
-        "Bladeborn": "",
-        "Points": 95,
-        "Wounds": 12,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Immolator",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
-        "Bladeborn": "",
-        "Points": 150,
-        "Wounds": 18,
-        "Movement": 5,
         "Toughness": 4,
+        "Warband": "Scions of the Flame",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Fireborn with Sunblade and Brazier Axe",
+        "Points": 105,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Sunblade and Brazier Axe",
+        "Toughness": 4,
+        "Warband": "Scions of the Flame",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Fireborn with Sunblade and Kris",
+        "Points": 95,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Sunblade and Kris",
+        "Toughness": 4,
+        "Warband": "Scions of the Flame",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Immolator",
+        "Points": 150,
         "Runemarks": [
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Scions of the Flame",
+        "Wounds": 18
     },
     {
-        "Name": "Inferno Priest",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 4
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 6,
+                "Min_Range": 0,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Inferno Priest",
+        "Points": 120,
         "Runemarks": [
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 0,
-                "Max_Range": 6,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Scions of the Flame",
+        "Wounds": 15
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
         "Name": "Initiate with Brazier Weapon",
+        "Points": 70,
+        "Runemarks": [
+            "Trapper"
+        ],
         "Subtitle": "with Brazier Weapon",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
-        "Bladeborn": "",
-        "Points": 70,
-        "Wounds": 10,
-        "Movement": 4,
         "Toughness": 3,
-        "Runemarks": [
-            "Trapper"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Warband": "Scions of the Flame",
+        "Wounds": 10
     },
     {
-        "Name": "Initiate with Flameburst Pot",
-        "Subtitle": "with Flameburst Pot",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 10,
-        "Movement": 4,
-        "Toughness": 3,
-        "Runemarks": [
-            "Trapper"
-        ],
         "Attacks": [
             {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
                 "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Initiate with Hooked Axe",
-        "Subtitle": "with Hooked Axe",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
-        "Bladeborn": "",
-        "Points": 70,
-        "Wounds": 10,
-        "Movement": 4,
-        "Toughness": 3,
-        "Runemarks": [
-            ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Initiate with Morning Star",
-        "Subtitle": "with Morning Star",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Scions of the Flame",
         "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Initiate with Flameburst Pot",
         "Points": 65,
-        "Wounds": 10,
-        "Movement": 4,
+        "Runemarks": [
+            "Trapper"
+        ],
+        "Subtitle": "with Flameburst Pot",
         "Toughness": 3,
+        "Warband": "Scions of the Flame",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Initiate with Hooked Axe",
+        "Points": 70,
         "Runemarks": [
             ""
         ],
+        "Subtitle": "with Hooked Axe",
+        "Toughness": 3,
+        "Warband": "Scions of the Flame",
+        "Wounds": 10
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
                 "Attacks": 3,
-                "Strength": 3,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
             }
-        ]
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Initiate with Morning Star",
+        "Points": 65,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Morning Star",
+        "Toughness": 3,
+        "Warband": "Scions of the Flame",
+        "Wounds": 10
     }
 ]

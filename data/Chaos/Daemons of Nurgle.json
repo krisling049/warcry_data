@@ -1,243 +1,243 @@
 [
     {
-        "Name": "Beast of Nurgle",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Nurgle",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 150,
-        "Wounds": 30,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Beast of Nurgle",
+        "Points": 150,
         "Runemarks": [
             "Beast",
             "Ferocious"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Nurgle",
+        "Wounds": 30
     },
     {
-        "Name": "Nurglings",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Nurgle",
+        "Attacks": [
+            {
+                "Attacks": 6,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Nurglings",
+        "Points": 105,
         "Runemarks": [
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 6,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daemons of Nurgle",
+        "Wounds": 20
     },
     {
-        "Name": "Plague Drone",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Nurgle",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 205,
-        "Wounds": 30,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Plague Drone",
+        "Points": 205,
         "Runemarks": [
             "Fly",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Nurgle",
+        "Wounds": 30
     },
     {
-        "Name": "Plaguebearer",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Nurgle",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 50,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Plaguebearer",
+        "Points": 50,
         "Runemarks": [
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Nurgle",
+        "Wounds": 10
     },
     {
-        "Name": "Plaguebringer",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Nurgle",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 255,
-        "Wounds": 35,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Plaguebringer",
+        "Points": 255,
         "Runemarks": [
             "Fly",
             "Hero",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Nurgle",
+        "Wounds": 35
     },
     {
-        "Name": "Plagueridden",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Nurgle",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Plagueridden",
+        "Points": 90,
         "Runemarks": [
             "Hero",
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Nurgle",
+        "Wounds": 15
     },
     {
-        "Name": "Poxbringer",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Nurgle",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 130,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Poxbringer",
+        "Points": 130,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Nurgle",
+        "Wounds": 20
     },
     {
-        "Name": "Sloppity Bilepiper",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Nurgle",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 130,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Sloppity Bilepiper",
+        "Points": 130,
         "Runemarks": [
             "Hero",
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Nurgle",
+        "Wounds": 20
     },
     {
-        "Name": "Spoilpox Scrivener",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Nurgle",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 135,
-        "Wounds": 22,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Spoilpox Scrivener",
+        "Points": 135,
         "Runemarks": [
             "Hero",
             "Champion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Nurgle",
+        "Wounds": 22
     }
 ]

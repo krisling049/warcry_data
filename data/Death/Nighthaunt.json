@@ -1,807 +1,807 @@
 [
     {
-        "Name": "Bladegheist Revenant",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 100,
-        "Wounds": 10,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Bladegheist Revenant",
+        "Points": 100,
         "Runemarks": [
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 10
     },
     {
-        "Name": "Briar Queen",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 9,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Thorns of the Briar Queen",
-        "Points": 200,
-        "Wounds": 22,
+        "Grand_Alliance": "Death",
         "Movement": 5,
-        "Toughness": 5,
+        "Name": "Briar Queen",
+        "Points": 200,
         "Runemarks": [
             "Hero",
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 9,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Nighthaunt",
+        "Wounds": 22
     },
     {
-        "Name": "Cairn Wraith",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 180,
-        "Wounds": 18,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Cairn Wraith",
+        "Points": 180,
         "Runemarks": [
             "Fly",
             "Hero",
             "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 18
     },
     {
-        "Name": "Chainghast",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 12,
+                "Min_Range": 0,
+                "Runemark": "Blast",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 130,
-        "Wounds": 15,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Chainghast",
+        "Points": 130,
         "Runemarks": [
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Blast",
-                "Min_Range": 0,
-                "Max_Range": 12,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 15
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 6,
         "Name": "Chainrasp",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
-        "Bladeborn": "",
         "Points": 85,
-        "Wounds": 8,
-        "Movement": 6,
-        "Toughness": 4,
         "Runemarks": [
             "Fly",
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            }
-        ]
-    },
-    {
-        "Name": "Chainrasp Thorns of the Briar Queen",
-        "Subtitle": "Thorns of the Briar Queen",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
-        "Bladeborn": "Thorns of the Briar Queen",
-        "Points": 90,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            "Fly",
-            "Minion"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Craven Huntmaster",
         "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
-        "Bladeborn": "",
-        "Points": 135,
-        "Wounds": 15,
-        "Movement": 6,
         "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Thorns of the Briar Queen",
+        "Grand_Alliance": "Death",
+        "Movement": 5,
+        "Name": "Chainrasp Thorns of the Briar Queen",
+        "Points": 90,
+        "Runemarks": [
+            "Fly",
+            "Minion"
+        ],
+        "Subtitle": "Thorns of the Briar Queen",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 10,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 6,
+        "Name": "Craven Huntmaster",
+        "Points": 135,
         "Runemarks": [
             "Fly",
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 10,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 15
     },
     {
-        "Name": "Craventhrone Guard",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 10,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 10,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Craventhrone Guard",
+        "Points": 105,
         "Runemarks": [
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 10,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 10
     },
     {
-        "Name": "Dreadblade Harrow",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 235,
-        "Wounds": 25,
+        "Grand_Alliance": "Death",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Dreadblade Harrow",
+        "Points": 235,
         "Runemarks": [
             "Fly",
             "Hero",
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 25
     },
     {
-        "Name": "Dreadscythe Harridan",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 10,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Dreadscythe Harridan",
+        "Points": 105,
         "Runemarks": [
             "Fly",
             "Terrifying"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 10
     },
     {
-        "Name": "Dreadwarden",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 125,
-        "Wounds": 12,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Dreadwarden",
+        "Points": 125,
         "Runemarks": [
             "Fly",
             "Hero",
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 12
     },
     {
-        "Name": "Extoller of Shyish",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 135,
-        "Wounds": 15,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Extoller of Shyish",
+        "Points": 135,
         "Runemarks": [
             "Fly",
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 15
     },
     {
-        "Name": "Glaivewraith Stalker",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 10,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Glaivewraith Stalker",
+        "Points": 90,
         "Runemarks": [
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 10
     },
     {
-        "Name": "Grimghast Reaper",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 10,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Grimghast Reaper",
+        "Points": 105,
         "Runemarks": [
             "Fly",
             "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 10
     },
     {
-        "Name": "Guardian of Souls",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 175,
-        "Wounds": 20,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Guardian of Souls",
+        "Points": 175,
         "Runemarks": [
             "Fly",
             "Hero",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 20
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 10,
         "Name": "Hellwraith",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
-        "Bladeborn": "",
         "Points": 200,
-        "Wounds": 25,
-        "Movement": 10,
-        "Toughness": 4,
         "Runemarks": [
             "Hero",
             "Destroyer",
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 25
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 10,
         "Name": "Hexwraith",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
-        "Bladeborn": "",
         "Points": 160,
-        "Wounds": 20,
-        "Movement": 10,
-        "Toughness": 4,
         "Runemarks": [
             "Destroyer",
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 20
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 6,
         "Name": "Knight of Shrouds",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
-        "Bladeborn": "",
         "Points": 190,
-        "Wounds": 20,
-        "Movement": 6,
-        "Toughness": 4,
         "Runemarks": [
             "Fly",
             "Hero",
             "Champion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 20
     },
     {
-        "Name": "Knight of Shrouds on Ethereal Steed",
-        "Subtitle": "on Ethereal Steed",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 270,
-        "Wounds": 28,
+        "Grand_Alliance": "Death",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Knight of Shrouds on Ethereal Steed",
+        "Points": 270,
         "Runemarks": [
             "Fly",
             "Hero",
             "Champion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "on Ethereal Steed",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 28
     },
     {
-        "Name": "Krulghast Cruciator",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
-        "Bladeborn": "",
-        "Points": 205,
-        "Wounds": 25,
-        "Movement": 6,
-        "Toughness": 4,
-        "Runemarks": [
-            "Fly",
-            "Hero"
-        ],
         "Attacks": [
             {
-                "Runemark": "Blast",
-                "Min_Range": 0,
-                "Max_Range": 10,
                 "Attacks": 4,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 10,
+                "Min_Range": 0,
+                "Runemark": "Blast",
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Lord Executioner",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        ],
         "Bladeborn": "",
-        "Points": 175,
-        "Wounds": 20,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Krulghast Cruciator",
+        "Points": 205,
         "Runemarks": [
             "Fly",
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 25
     },
     {
-        "Name": "Myrmourn Banshee",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 10,
+        "Grand_Alliance": "Death",
         "Movement": 6,
+        "Name": "Lord Executioner",
+        "Points": 175,
+        "Runemarks": [
+            "Fly",
+            "Hero"
+        ],
+        "Subtitle": "",
         "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 20
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 6,
+        "Name": "Myrmourn Banshee",
+        "Points": 120,
         "Runemarks": [
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 10
     },
     {
-        "Name": "Scriptor Mortis",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 155,
-        "Wounds": 22,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Scriptor Mortis",
+        "Points": 155,
         "Runemarks": [
             "Fly",
             "Hero",
             "Sentience"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 22
     },
     {
-        "Name": "Slasher Crone",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 15,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Slasher Crone",
+        "Points": 165,
         "Runemarks": [
             "Fly",
             "Hero",
             "Terrifying"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 15
     },
     {
-        "Name": "Spirit Host",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 6,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 170,
-        "Wounds": 28,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Spirit Host",
+        "Points": 170,
         "Runemarks": [
             "Fly",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 6,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 28
     },
     {
-        "Name": "Spirit Torment",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 195,
-        "Wounds": 25,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Spirit Torment",
+        "Points": 195,
         "Runemarks": [
             "Hero",
             "Fly",
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 25
     },
     {
-        "Name": "The Ever-hanged",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Thorns of the Briar Queen",
-        "Points": 105,
-        "Wounds": 10,
+        "Grand_Alliance": "Death",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "The Ever-hanged",
+        "Points": 105,
         "Runemarks": [
             "Fly",
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 10
     },
     {
-        "Name": "Tomb Banshee",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 10,
+                "Min_Range": 0,
+                "Runemark": "Blast",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 175,
-        "Wounds": 18,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Tomb Banshee",
+        "Points": 175,
         "Runemarks": [
             "Fly",
             "Hero",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 0,
-                "Max_Range": 10,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 18
     },
     {
-        "Name": "Varclav the Cruel",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Nighthaunt",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Thorns of the Briar Queen",
-        "Points": 130,
-        "Wounds": 16,
+        "Grand_Alliance": "Death",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Varclav the Cruel",
+        "Points": 130,
         "Runemarks": [
             "Fly",
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Nighthaunt",
+        "Wounds": 16
     }
 ]

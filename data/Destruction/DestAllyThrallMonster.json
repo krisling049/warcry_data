@@ -1,132 +1,132 @@
 [
     {
-        "Name": "Aleguzzler Gargant",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "DestAllyThrallMonster",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 1,
+                "Min_Range": 2,
+                "Runemark": "Club",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 420,
-        "Wounds": 45,
+        "Grand_Alliance": "Destruction",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Aleguzzler Gargant",
+        "Points": 420,
         "Runemarks": [
             "Monster",
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 2,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "DestAllyThrallMonster",
+        "Wounds": 45
     },
     {
-        "Name": "Dankhold Troggoth",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "DestAllyThrallMonster",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 1,
+                "Min_Range": 2,
+                "Runemark": "Club",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 375,
-        "Wounds": 45,
+        "Grand_Alliance": "Destruction",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Dankhold Troggoth",
+        "Points": 375,
         "Runemarks": [
             "Monster"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 2,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "DestAllyThrallMonster",
+        "Wounds": 45
     },
     {
-        "Name": "Fellwater Troggoth",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "DestAllyThrallMonster",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 175,
-        "Wounds": 28,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Fellwater Troggoth",
+        "Points": 175,
         "Runemarks": [
             "Thrall",
             "Trapper",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "DestAllyThrallMonster",
+        "Wounds": 28
     },
     {
-        "Name": "Rockgut Troggoth",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "DestAllyThrallMonster",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 185,
-        "Wounds": 28,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Rockgut Troggoth",
+        "Points": 185,
         "Runemarks": [
             "Thrall",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "DestAllyThrallMonster",
+        "Wounds": 28
     },
     {
-        "Name": "Skitterstrand Arachnarok",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "DestAllyThrallMonster",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 1,
+                "Min_Range": 1,
+                "Runemark": "Fangs",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 475,
-        "Wounds": 55,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Skitterstrand Arachnarok",
+        "Points": 475,
         "Runemarks": [
             "Monster",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 1,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "DestAllyThrallMonster",
+        "Wounds": 55
     }
 ]

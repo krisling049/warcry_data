@@ -1,578 +1,578 @@
 [
     {
-        "Name": "Boltboy Boss",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 6,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 170,
-        "Wounds": 20,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Boltboy Boss",
+        "Points": 170,
         "Runemarks": [
             "Hero",
             "Warrior",
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 6,
-                "Max_Range": 15,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 20
     },
     {
-        "Name": "Gikkit",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "Da Kunnin\u00e2\u20ac\u2122 Krew",
-        "Points": 55,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Gikkit",
+        "Points": 55,
         "Runemarks": [
             "Minion",
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 6
     },
     {
-        "Name": "Gutrippa with Wicked Hakka",
-        "Subtitle": "with Wicked Hakka",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
-        "Bladeborn": "",
-        "Points": 75,
-        "Wounds": 15,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Warrior"
-        ],
         "Attacks": [
             {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
                 "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
+                "Strength": 3
             }
-        ]
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Gutrippa with Wicked Hakka",
+        "Points": 75,
+        "Runemarks": [
+            "Warrior"
+        ],
+        "Subtitle": "with Wicked Hakka",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 15
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
         "Name": "Gutrippa with Wicked Stikka",
-        "Subtitle": "with Wicked Stikka",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
-        "Bladeborn": "",
         "Points": 75,
-        "Wounds": 15,
-        "Movement": 4,
-        "Toughness": 4,
         "Runemarks": [
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Wicked Stikka",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 15
     },
     {
-        "Name": "Gutrippa Boss with Mace & Sword",
-        "Subtitle": "with Mace & Sword",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
-        "Bladeborn": "",
-        "Points": 140,
-        "Wounds": 20,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Hero",
-            "Warrior"
-        ],
         "Attacks": [
             {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
                 "Runemark": "Mace",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Gutrippa Boss with Wicked Stikka",
-        "Subtitle": "with Wicked Stikka",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        ],
         "Bladeborn": "",
-        "Points": 145,
-        "Wounds": 20,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Gutrippa Boss with Mace & Sword",
+        "Points": 140,
         "Runemarks": [
             "Hero",
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Mace & Sword",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 20
     },
     {
-        "Name": "Hobgrot Boss",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 75,
-        "Wounds": 8,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Gutrippa Boss with Wicked Stikka",
+        "Points": 145,
+        "Runemarks": [
+            "Hero",
+            "Warrior"
+        ],
+        "Subtitle": "with Wicked Stikka",
+        "Toughness": 5,
+        "Warband": "Kruleboyz",
+        "Wounds": 20
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 5,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Hobgrot Boss",
+        "Points": 75,
         "Runemarks": [
             "Hero",
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 5,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Kruleboyz",
+        "Wounds": 8
     },
     {
-        "Name": "Hobgrot Slitta",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 5,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 70,
-        "Wounds": 8,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Hobgrot Slitta",
+        "Points": 70,
         "Runemarks": [
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 5,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Kruleboyz",
+        "Wounds": 8
     },
     {
-        "Name": "Killaboss on Great Gnashtoof",
-        "Subtitle": "on Great Gnashtoof",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 330,
-        "Wounds": 38,
+        "Grand_Alliance": "Destruction",
         "Movement": 8,
-        "Toughness": 5,
+        "Name": "Killaboss on Great Gnashtoof",
+        "Points": 330,
         "Runemarks": [
             "Hero",
             "Warrior",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Killaboss with Boss-Hacka and Shield",
-        "Subtitle": "with Boss-Hacka and Shield",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
-        "Bladeborn": "",
-        "Points": 180,
-        "Wounds": 28,
-        "Movement": 4,
+        "Subtitle": "on Great Gnashtoof",
         "Toughness": 5,
-        "Runemarks": [
-            "Hero",
-            "Warrior",
-            "Berserker"
-        ],
+        "Warband": "Kruleboyz",
+        "Wounds": 38
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 4,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Killaboss with Boss-Hakka and Flail",
-        "Subtitle": "with Boss-Hakka and Flail",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        ],
         "Bladeborn": "",
-        "Points": 190,
-        "Wounds": 28,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Killaboss with Boss-Hacka and Shield",
+        "Points": 180,
         "Runemarks": [
             "Hero",
             "Warrior",
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "with Boss-Hacka and Shield",
+        "Toughness": 5,
+        "Warband": "Kruleboyz",
+        "Wounds": 28
     },
     {
-        "Name": "Krookgrin",
-        "Subtitle": "",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
         "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
-        "Bladeborn": "Da Kunnin\u00e2\u20ac\u2122 Krew",
-        "Points": 80,
-        "Wounds": 8,
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Killaboss with Boss-Hakka and Flail",
+        "Points": 190,
+        "Runemarks": [
+            "Hero",
+            "Warrior",
+            "Berserker"
+        ],
+        "Subtitle": "with Boss-Hakka and Flail",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 28
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 5,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "Da Kunnin\u00e2\u20ac\u2122 Krew",
+        "Grand_Alliance": "Destruction",
+        "Movement": 4,
+        "Name": "Krookgrin",
+        "Points": 80,
         "Runemarks": [
             "Elite",
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 5,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Kruleboyz",
+        "Wounds": 8
     },
     {
-        "Name": "Man-skewer Boltboy",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 6,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 15,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Man-skewer Boltboy",
+        "Points": 120,
         "Runemarks": [
             "Warrior",
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 6,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 15
     },
     {
-        "Name": "Mannok Da Kunnin'",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Bident",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Da Kunnin\u00e2\u20ac\u2122 Krew",
-        "Points": 185,
-        "Wounds": 28,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Mannok Da Kunnin'",
+        "Points": 185,
         "Runemarks": [
             "Hero",
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Bident",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 28
     },
     {
-        "Name": "Murknob with Belcha-banna",
-        "Subtitle": "with Belcha-banna",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 145,
-        "Wounds": 25,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Murknob with Belcha-banna",
+        "Points": 145,
         "Runemarks": [
             "Hero",
             "Warrior",
             "Icon-Bearer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Belcha-banna",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 25
     },
     {
-        "Name": "Pot-grot",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "",
-        "Points": 45,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Pot-grot",
+        "Points": 45,
         "Runemarks": [
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Kruleboyz",
+        "Wounds": 6
     },
     {
-        "Name": "Shank",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "Da Kunnin\u00e2\u20ac\u2122 Krew",
-        "Points": 55,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Shank",
+        "Points": 55,
         "Runemarks": [
             "Minion",
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 6
     },
     {
-        "Name": "Stab-grot",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "",
-        "Points": 45,
-        "Wounds": 6,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Stab-grot",
+        "Points": 45,
         "Runemarks": [
             "Minion",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 6
     },
     {
-        "Name": "Swampcalla Shaman",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 4
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 25,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Swampcalla Shaman",
+        "Points": 165,
         "Runemarks": [
             "Hero",
             "Warrior",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 25
     },
     {
-        "Name": "Torka Tuffskul",
-        "Subtitle": "",
-        "Grand_Alliance": "Destruction",
-        "Warband": "Kruleboyz",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Da Kunnin\u00e2\u20ac\u2122 Krew",
-        "Points": 125,
-        "Wounds": 20,
+        "Grand_Alliance": "Destruction",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Torka Tuffskul",
+        "Points": 125,
         "Runemarks": [
             "Warrior",
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Kruleboyz",
+        "Wounds": 20
     }
 ]

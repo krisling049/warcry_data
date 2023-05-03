@@ -1,153 +1,153 @@
 [
     {
-        "Name": "Blood Whelp with Barb-Spear",
-        "Subtitle": "with Barb-Spear",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Claws of Karanak",
-        "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 12,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            "Agile"
-        ],
         "Attacks": [
             {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
                 "Attacks": 2,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Blood Whelp with Claw-Flail",
-        "Subtitle": "with Claw-Flail",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Claws of Karanak",
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Blood Whelp with Barb-Spear",
+        "Points": 90,
         "Runemarks": [
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "with Barb-Spear",
+        "Toughness": 3,
+        "Warband": "Claws of Karanak",
+        "Wounds": 12
     },
     {
-        "Name": "Brutaliser with Shredder Blade and Meat Hook",
-        "Subtitle": "with Shredder Blade and Meat Hook",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Claws of Karanak",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 115,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
+        "Name": "Blood Whelp with Claw-Flail",
+        "Points": 90,
+        "Runemarks": [
+            "Agile"
+        ],
+        "Subtitle": "with Claw-Flail",
         "Toughness": 3,
+        "Warband": "Claws of Karanak",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Brutaliser with Shredder Blade and Meat Hook",
+        "Points": 115,
         "Runemarks": [
             "Terrifying"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "with Shredder Blade and Meat Hook",
+        "Toughness": 3,
+        "Warband": "Claws of Karanak",
+        "Wounds": 15
     },
     {
-        "Name": "Brutaliser with Shredder Blades",
-        "Subtitle": "with Shredder Blades",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Claws of Karanak",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Brutaliser with Shredder Blades",
+        "Points": 120,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Shredder Blades",
+        "Toughness": 3,
+        "Warband": "Claws of Karanak",
+        "Wounds": 15
     },
     {
-        "Name": "Hound of Wrath",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Claws of Karanak",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 190,
-        "Wounds": 18,
+        "Grand_Alliance": "Chaos",
         "Movement": 7,
-        "Toughness": 4,
+        "Name": "Hound of Wrath",
+        "Points": 190,
         "Runemarks": [
             "Agile",
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Claws of Karanak",
+        "Wounds": 18
     },
     {
-        "Name": "Packlord",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Claws of Karanak",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 205,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Packlord",
+        "Points": 205,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Claws of Karanak",
+        "Wounds": 20
     }
 ]

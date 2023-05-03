@@ -1,671 +1,671 @@
 [
     {
-        "Name": "Blissbarb Archer High Tempter",
-        "Subtitle": "High Tempter",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 130,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Blissbarb Archer High Tempter",
+        "Points": 130,
         "Runemarks": [
             "Hero. Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "High Tempter",
+        "Toughness": 3,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 12
     },
     {
-        "Name": "Blissbarb Archer",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 95,
-        "Wounds": 8,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Blissbarb Archer",
+        "Points": 95,
         "Runemarks": [
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 8
     },
     {
-        "Name": "Blissbarb Seeker High Tempter",
-        "Subtitle": "High Tempter",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 190,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 10,
-        "Toughness": 3,
+        "Name": "Blissbarb Seeker High Tempter",
+        "Points": 190,
         "Runemarks": [
             "Hero",
             "Minion",
             "Mounted"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "High Tempter",
+        "Toughness": 3,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 25
     },
     {
-        "Name": "Blissbarb Seeker",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 150,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 10,
-        "Toughness": 3,
+        "Name": "Blissbarb Seeker",
+        "Points": 150,
         "Runemarks": [
             "Minion",
             "Mounted"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 20
     },
     {
-        "Name": "Blissbrew Homonculus",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 55,
-        "Wounds": 8,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Blissbrew Homonculus",
+        "Points": 55,
         "Runemarks": [
             "Priest"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 8
     },
     {
-        "Name": "Glissete",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "The Dread Pageant",
-        "Points": 105,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Glissete",
+        "Points": 105,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 12
     },
     {
-        "Name": "Hadzu",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "The Dread Pageant",
-        "Points": 110,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Hadzu",
+        "Points": 110,
         "Runemarks": [
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 12
     },
     {
-        "Name": "Hellreaver with Claw-spear",
-        "Subtitle": "with Claw-spear",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 180,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Hellreaver with Claw-spear",
+        "Points": 180,
         "Runemarks": [
             "Hero",
             "Destroyer",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Claw-spear",
+        "Toughness": 4,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 25
     },
     {
-        "Name": "Hellstrider with Claw-spear",
-        "Subtitle": "with Claw-spear",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 135,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Hellstrider with Claw-spear",
+        "Points": 135,
         "Runemarks": [
             "Destroyer",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Claw-spear",
+        "Toughness": 4,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 20
     },
     {
-        "Name": "Hellstrider with Hellscourge",
-        "Subtitle": "with Hellscourge",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 135,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Hellstrider with Hellscourge",
+        "Points": 135,
         "Runemarks": [
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "with Hellscourge",
+        "Toughness": 4,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 20
     },
     {
-        "Name": "Lord of Pain",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 220,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Lord of Pain",
+        "Points": 220,
         "Runemarks": [
             "Hero",
             "Champion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 25
     },
     {
-        "Name": "Myrmidesh Painbringer",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Myrmidesh Painbringer",
+        "Points": 105,
         "Runemarks": [
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 15
     },
     {
-        "Name": "Myrmidesh Painmaster",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 155,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Myrmidesh Painmaster",
+        "Points": 155,
         "Runemarks": [
             "Hero",
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 20
     },
     {
-        "Name": "Shardspeaker",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Mace",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 18,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Shardspeaker",
+        "Points": 120,
         "Runemarks": [
             "Hero",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Mace",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 18
     },
     {
-        "Name": "Slaangor Fiendblood",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
-        "Bladeborn": "",
-        "Points": 175,
-        "Wounds": 20,
-        "Movement": 6,
-        "Toughness": 4,
-        "Runemarks": [
-            "Ferocious"
-        ],
         "Attacks": [
             {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
                 "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Slaangor Slake-horn",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        ],
         "Bladeborn": "",
-        "Points": 225,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Slaangor Fiendblood",
+        "Points": 175,
         "Runemarks": [
-            "Hero",
             "Ferocious"
         ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 20
+    },
+    {
         "Attacks": [
             {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
                 "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
+                "Strength": 4
             }
-        ]
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 6,
+        "Name": "Slaangor Slake-horn",
+        "Points": 225,
+        "Runemarks": [
+            "Hero",
+            "Ferocious"
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 25
     },
     {
-        "Name": "Slakeslash",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "The Dread Pageant",
-        "Points": 195,
-        "Wounds": 22,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Slakeslash",
+        "Points": 195,
         "Runemarks": [
             "Ferocious"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 22
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 10,
         "Name": "Slickblade Hunter-seeker",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
-        "Bladeborn": "",
         "Points": 205,
-        "Wounds": 25,
-        "Movement": 10,
-        "Toughness": 3,
         "Runemarks": [
             "Hero",
             "Destroyer",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 25
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 10,
         "Name": "Slickblade Seeker",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
-        "Bladeborn": "",
         "Points": 155,
-        "Wounds": 20,
-        "Movement": 10,
-        "Toughness": 3,
         "Runemarks": [
             "Destroyer",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 20
     },
     {
-        "Name": "Symbaresh Egopomp",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 170,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Symbaresh Egopomp",
+        "Points": 170,
         "Runemarks": [
             "Hero",
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Symbaresh Twinsoul with Merciless Blades",
-        "Subtitle": "with Merciless Blades",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
-        "Bladeborn": "",
-        "Points": 115,
-        "Wounds": 15,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Berserker"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Symbaresh Twinsoul with Sinful Cleaver",
-        "Subtitle": "with Sinful Cleaver",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
-        "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 15,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Berserker"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Symbaresh Twinsoul with Excruciator Lash",
-        "Subtitle": "with Excruciator Lash",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Slaanesh Sybarites",
-        "Bladeborn": "",
-        "Points": 110,
-        "Wounds": 15,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Berserker"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Vasillac the Gifted",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
+        "Toughness": 4,
         "Warband": "Slaanesh Sybarites",
+        "Wounds": 20
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Symbaresh Twinsoul with Merciless Blades",
+        "Points": 115,
+        "Runemarks": [
+            "Berserker"
+        ],
+        "Subtitle": "with Merciless Blades",
+        "Toughness": 4,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 15
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Symbaresh Twinsoul with Sinful Cleaver",
+        "Points": 120,
+        "Runemarks": [
+            "Berserker"
+        ],
+        "Subtitle": "with Sinful Cleaver",
+        "Toughness": 4,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 15
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Symbaresh Twinsoul with Excruciator Lash",
+        "Points": 110,
+        "Runemarks": [
+            "Berserker"
+        ],
+        "Subtitle": "with Excruciator Lash",
+        "Toughness": 4,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 15
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "The Dread Pageant",
-        "Points": 205,
-        "Wounds": 26,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 5,
+        "Name": "Vasillac the Gifted",
+        "Points": 205,
         "Runemarks": [
             "Hero",
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 5,
+        "Warband": "Slaanesh Sybarites",
+        "Wounds": 26
     }
 ]

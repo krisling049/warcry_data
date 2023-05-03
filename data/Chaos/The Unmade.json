@@ -1,136 +1,136 @@
 [
     {
-        "Name": "Ascended One",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "The Unmade",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 110,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Ascended One",
+        "Points": 110,
         "Runemarks": [
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Awakened One with Brutal Polearm",
-        "Subtitle": "with Brutal Polearm",
-        "Grand_Alliance": "Chaos",
-        "Warband": "The Unmade",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 10,
-        "Movement": 4,
-        "Toughness": 3,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Awakened One with Flail",
-        "Subtitle": "with Flail",
-        "Grand_Alliance": "Chaos",
-        "Warband": "The Unmade",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 20,
-        "Movement": 3,
+        "Subtitle": "",
         "Toughness": 4,
+        "Warband": "The Unmade",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Awakened One with Brutal Polearm",
+        "Points": 65,
         "Runemarks": [
             ""
         ],
+        "Subtitle": "with Brutal Polearm",
+        "Toughness": 3,
+        "Warband": "The Unmade",
+        "Wounds": 10
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 3,
-                "Strength": 3,
+                "Dmg_Crit": 3,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 3
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
             },
             {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
                 "Attacks": 3,
-                "Strength": 3,
+                "Dmg_Crit": 2,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 2
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
             }
-        ]
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 3,
+        "Name": "Awakened One with Flail",
+        "Points": 65,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Flail",
+        "Toughness": 4,
+        "Warband": "The Unmade",
+        "Wounds": 20
     },
     {
-        "Name": "Blissful One",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "The Unmade",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 255,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Blissful One",
+        "Points": 255,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "The Unmade",
+        "Wounds": 20
     },
     {
-        "Name": "Joyous One",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "The Unmade",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 140,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Joyous One",
+        "Points": 140,
         "Runemarks": [
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "The Unmade",
+        "Wounds": 15
     }
 ]

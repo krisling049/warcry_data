@@ -1,212 +1,212 @@
 [
     {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 6,
         "Name": "Bloodcrusher",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Khorne",
-        "Bladeborn": "",
         "Points": 170,
-        "Wounds": 25,
-        "Movement": 6,
-        "Toughness": 4,
         "Runemarks": [
             "Destroyer",
             "Mounted"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Khorne",
+        "Wounds": 25
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 6,
         "Name": "Bloodhunter",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Khorne",
-        "Bladeborn": "",
         "Points": 230,
-        "Wounds": 30,
-        "Movement": 6,
-        "Toughness": 4,
         "Runemarks": [
             "Hero",
             "Destroyer",
             "Mounted"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Khorne",
+        "Wounds": 30
     },
     {
-        "Name": "Bloodletter",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Khorne",
-        "Bladeborn": "",
-        "Points": 80,
-        "Wounds": 10,
-        "Movement": 4,
-        "Toughness": 3,
-        "Runemarks": [
-            "Frenzied"
-        ],
         "Attacks": [
             {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 4,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Bloodmaster Herald of Khorne",
-        "Subtitle": "Herald of Khorne",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Khorne",
+        ],
         "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Bloodletter",
+        "Points": 80,
         "Runemarks": [
-            "Hero",
             "Frenzied"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Bloodreaper",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Khorne",
-        "Bladeborn": "",
-        "Points": 135,
-        "Wounds": 15,
-        "Movement": 4,
         "Toughness": 3,
+        "Warband": "Daemons of Khorne",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Bloodmaster Herald of Khorne",
+        "Points": 165,
         "Runemarks": [
             "Hero",
             "Frenzied"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "Herald of Khorne",
+        "Toughness": 4,
+        "Warband": "Daemons of Khorne",
+        "Wounds": 20
     },
     {
-        "Name": "Flesh Hound",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Khorne",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 185,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Bloodreaper",
+        "Points": 135,
+        "Runemarks": [
+            "Hero",
+            "Frenzied"
+        ],
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daemons of Khorne",
+        "Wounds": 15
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Flesh Hound",
+        "Points": 185,
         "Runemarks": [
             "Agile",
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Khorne",
+        "Wounds": 20
     },
     {
-        "Name": "Gore Hound",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Khorne",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 240,
-        "Wounds": 25,
+        "Grand_Alliance": "Chaos",
         "Movement": 8,
-        "Toughness": 4,
+        "Name": "Gore Hound",
+        "Points": 240,
         "Runemarks": [
             "Agile",
             "Beast",
             "Ferocious"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daemons of Khorne",
+        "Wounds": 25
     },
     {
-        "Name": "Skullmaster Herald of Khorne",
-        "Subtitle": "Herald of Khorne",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Khorne",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 285,
-        "Wounds": 35,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 5,
+        "Name": "Skullmaster Herald of Khorne",
+        "Points": 285,
         "Runemarks": [
             "Hero",
             "Destroyer",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "Herald of Khorne",
+        "Toughness": 5,
+        "Warband": "Daemons of Khorne",
+        "Wounds": 35
     }
 ]

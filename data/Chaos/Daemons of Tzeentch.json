@@ -1,414 +1,414 @@
 [
     {
-        "Name": "Blue Horror",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 10,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 8,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Blue Horror",
+        "Points": 90,
         "Runemarks": [
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 10,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 8
     },
     {
-        "Name": "Brimstone Horrors",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 10,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 6,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Brimstone Horrors",
+        "Points": 65,
         "Runemarks": [
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 10,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 6
     },
     {
-        "Name": "Changecaster with Ritual Dagger",
-        "Subtitle": "with Ritual Dagger",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
-        "Bladeborn": "",
-        "Points": 160,
-        "Wounds": 20,
-        "Movement": 4,
-        "Toughness": 3,
-        "Runemarks": [
-            "Hero",
-            "Destroyer"
-        ],
         "Attacks": [
             {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
                 "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Strength": 4
             },
             {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 15,
                 "Attacks": 2,
-                "Strength": 3,
+                "Dmg_Crit": 6,
                 "Dmg_Hit": 3,
-                "Dmg_Crit": 6
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Changecaster with Staff of Change",
-        "Subtitle": "with Staff of Change",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
+        ],
         "Bladeborn": "",
-        "Points": 160,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Changecaster with Ritual Dagger",
+        "Points": 160,
         "Runemarks": [
             "Hero",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
-    },
-    {
-        "Name": "Exalted Flamer of Tzeentch",
-        "Subtitle": "of Tzeentch",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
-        "Bladeborn": "",
-        "Points": 220,
-        "Wounds": 25,
-        "Movement": 8,
-        "Toughness": 3,
-        "Runemarks": [
-            "Fly",
-            "Berserker"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Flamer of Tzeentch",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
-        "Bladeborn": "",
-        "Points": 165,
-        "Wounds": 15,
-        "Movement": 8,
-        "Toughness": 3,
-        "Runemarks": [
-            "Fly",
-            "Berserker"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Fluxmaster with Ritual Dagger",
         "Subtitle": "with Ritual Dagger",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
-        "Bladeborn": "",
-        "Points": 240,
-        "Wounds": 25,
-        "Movement": 12,
         "Toughness": 3,
-        "Runemarks": [
-            "Fly",
-            "Hero",
-            "Mystic"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 20
     },
     {
-        "Name": "Fluxmaster with Staff of Change",
-        "Subtitle": "with Staff of Change",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
-        "Bladeborn": "",
-        "Points": 240,
-        "Wounds": 25,
-        "Movement": 12,
-        "Toughness": 3,
-        "Runemarks": [
-            "Fly",
-            "Hero",
-            "Mystic"
-        ],
         "Attacks": [
             {
-                "Runemark": "Club",
-                "Min_Range": 0,
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
                 "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 4
             },
             {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 15,
                 "Attacks": 2,
-                "Strength": 3,
+                "Dmg_Crit": 6,
                 "Dmg_Hit": 3,
-                "Dmg_Crit": 6
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
             }
-        ]
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Changecaster with Staff of Change",
+        "Points": 160,
+        "Runemarks": [
+            "Hero",
+            "Destroyer"
+        ],
+        "Subtitle": "with Staff of Change",
+        "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 20
     },
     {
-        "Name": "Iridescent Horror",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 3
+            },
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 170,
-        "Wounds": 16,
-        "Movement": 4,
+        "Grand_Alliance": "Chaos",
+        "Movement": 8,
+        "Name": "Exalted Flamer of Tzeentch",
+        "Points": 220,
+        "Runemarks": [
+            "Fly",
+            "Berserker"
+        ],
+        "Subtitle": "of Tzeentch",
         "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 25
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 3
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 8,
+        "Name": "Flamer of Tzeentch",
+        "Points": 165,
+        "Runemarks": [
+            "Fly",
+            "Berserker"
+        ],
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 15
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 12,
+        "Name": "Fluxmaster with Ritual Dagger",
+        "Points": 240,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Mystic"
+        ],
+        "Subtitle": "with Ritual Dagger",
+        "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 25
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 4
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 12,
+        "Name": "Fluxmaster with Staff of Change",
+        "Points": 240,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Mystic"
+        ],
+        "Subtitle": "with Staff of Change",
+        "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 25
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 10,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Iridescent Horror",
+        "Points": 170,
         "Runemarks": [
             "Hero",
             "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 10,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 16
     },
     {
-        "Name": "Pink Horror",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 10,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 135,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Pink Horror",
+        "Points": 135,
         "Runemarks": [
             "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 10,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 12
     },
     {
-        "Name": "Pyrocaster",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 3
+            },
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 205,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 8,
-        "Toughness": 3,
+        "Name": "Pyrocaster",
+        "Points": 205,
         "Runemarks": [
             "Fly",
             "Hero",
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 20
     },
     {
-        "Name": "Screamer of Tzeentch",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Daemons of Tzeentch",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 210,
-        "Wounds": 18,
+        "Grand_Alliance": "Chaos",
         "Movement": 12,
-        "Toughness": 3,
+        "Name": "Screamer of Tzeentch",
+        "Points": 210,
         "Runemarks": [
             "Agile",
             "Fly",
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daemons of Tzeentch",
+        "Wounds": 18
     }
 ]

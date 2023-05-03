@@ -1,270 +1,270 @@
 [
     {
-        "Name": "Clearblood",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Splintered Fang",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Clearblood",
+        "Points": 65,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Splintered Fang",
+        "Wounds": 10
     },
     {
-        "Name": "Clearblood with Shield",
-        "Subtitle": "with Shield",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Splintered Fang",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Clearblood with Shield",
+        "Points": 65,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "with Shield",
+        "Toughness": 4,
+        "Warband": "Splintered Fang",
+        "Wounds": 10
     },
     {
-        "Name": "Pureblood",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Splintered Fang",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 115,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Pureblood",
+        "Points": 115,
         "Runemarks": [
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Splintered Fang",
+        "Wounds": 12
     },
     {
-        "Name": "Serpent Caller",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Splintered Fang",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Ranged Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 145,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Serpent Caller",
+        "Points": 145,
         "Runemarks": [
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 0,
-                "Max_Range": 8,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Splintered Fang",
+        "Wounds": 15
     },
     {
-        "Name": "Serpents",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Splintered Fang",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 6,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 2,
+        "Name": "Serpents",
+        "Points": 90,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 2,
+        "Warband": "Splintered Fang",
+        "Wounds": 6
     },
     {
-        "Name": "Trueblood",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Splintered Fang",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 170,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Trueblood",
+        "Points": 170,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Splintered Fang",
+        "Wounds": 20
     },
     {
-        "Name": "Venomblood with Barbed Whip",
-        "Subtitle": "with Barbed Whip",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Splintered Fang",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Venomblood with Barbed Whip",
+        "Points": 105,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Barbed Whip",
+        "Toughness": 4,
+        "Warband": "Splintered Fang",
+        "Wounds": 10
     },
     {
-        "Name": "Venomblood with Blade & Whip",
-        "Subtitle": "with Blade & Whip",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Splintered Fang",
-        "Bladeborn": "",
-        "Points": 95,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
         "Attacks": [
             {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 3,
-                "Strength": 3,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
             },
             {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
                 "Attacks": 4,
-                "Strength": 3,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Venomblood with Dueling Blades",
-        "Subtitle": "with Dueling Blades",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Splintered Fang",
+        ],
         "Bladeborn": "",
-        "Points": 95,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Venomblood with Blade & Whip",
+        "Points": 95,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Blade & Whip",
+        "Toughness": 4,
+        "Warband": "Splintered Fang",
+        "Wounds": 10
     },
     {
-        "Name": "Venomblood with Spear & Shield",
-        "Subtitle": "with Spear & Shield",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Splintered Fang",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Venomblood with Dueling Blades",
+        "Points": 95,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Dueling Blades",
+        "Toughness": 4,
+        "Warband": "Splintered Fang",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Venomblood with Spear & Shield",
+        "Points": 105,
         "Runemarks": [
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Spear & Shield",
+        "Toughness": 5,
+        "Warband": "Splintered Fang",
+        "Wounds": 10
     }
 ]

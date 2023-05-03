@@ -1,846 +1,846 @@
 [
     {
-        "Name": "Blood Sister",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 155,
-        "Wounds": 20,
+        "Grand_Alliance": "Order",
         "Movement": 7,
-        "Toughness": 4,
+        "Name": "Blood Sister",
+        "Points": 155,
         "Runemarks": [
             "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 5,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 20
     },
     {
-        "Name": "Blood Stalker",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 1,
+                "Max_Range": 20,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 170,
-        "Wounds": 20,
+        "Grand_Alliance": "Order",
         "Movement": 7,
-        "Toughness": 4,
+        "Name": "Blood Stalker",
+        "Points": 170,
         "Runemarks": [
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 20,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 20
     },
     {
-        "Name": "Bloodwrack Medusa",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 275,
-        "Wounds": 35,
+        "Grand_Alliance": "Order",
         "Movement": 7,
-        "Toughness": 4,
+        "Name": "Bloodwrack Medusa",
+        "Points": 275,
         "Runemarks": [
             "Hero",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 35
     },
     {
-        "Name": "Doomfire Warlock",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 10,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 140,
-        "Wounds": 18,
+        "Grand_Alliance": "Order",
         "Movement": 10,
-        "Toughness": 3,
+        "Name": "Doomfire Warlock",
+        "Points": 140,
         "Runemarks": [
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 10,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 18
     },
     {
-        "Name": "Gorgai",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 6,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 255,
-        "Wounds": 25,
+        "Grand_Alliance": "Order",
         "Movement": 7,
-        "Toughness": 4,
+        "Name": "Gorgai",
+        "Points": 255,
         "Runemarks": [
             "Hero",
             "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 6,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 25
     },
     {
-        "Name": "Gryselle the Slaughterer",
-        "Subtitle": "the Slaughterer",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Gryselle's Arenai",
-        "Points": 185,
-        "Wounds": 20,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Gryselle the Slaughterer",
+        "Points": 185,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "the Slaughterer",
+        "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 20
     },
     {
-        "Name": "Hag Queen",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 130,
-        "Wounds": 18,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Hag Queen",
+        "Points": 130,
         "Runemarks": [
             "Hero",
             "Priest"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 18
     },
     {
-        "Name": "Handmaiden",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 125,
-        "Wounds": 12,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Handmaiden",
+        "Points": 125,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 12
     },
     {
-        "Name": "Harridynn",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 210,
-        "Wounds": 15,
+        "Grand_Alliance": "Order",
         "Movement": 12,
-        "Toughness": 4,
+        "Name": "Harridynn",
+        "Points": 210,
         "Runemarks": [
             "Fly",
             "Hero",
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 15
     },
     {
-        "Name": "High Gladiatrix",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 195,
-        "Wounds": 20,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "High Gladiatrix",
+        "Points": 195,
         "Runemarks": [
             "Hero",
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Kalexis the Silverered Blur",
-        "Subtitle": "the Silverered Blur",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
-        "Bladeborn": "Gryselle's Arenai",
-        "Points": 90,
-        "Wounds": 8,
-        "Movement": 5,
+        "Subtitle": "",
         "Toughness": 3,
-        "Runemarks": [
-            ""
-        ],
+        "Warband": "Daughters of Khaine",
+        "Wounds": 20
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Unarmed",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 5,
-                "Strength": 3,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Unarmed",
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Khamyss",
-        "Subtitle": "",
+        ],
+        "Bladeborn": "Gryselle's Arenai",
         "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
-        "Bladeborn": "Morgwaeth's Blade-Coven",
-        "Points": 95,
-        "Wounds": 10,
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Kalexis the Silverered Blur",
+        "Points": 90,
         "Runemarks": [
             ""
         ],
+        "Subtitle": "the Silverered Blur",
+        "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 8
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 0,
-                "Max_Range": 2,
                 "Attacks": 3,
-                "Strength": 3,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
             }
-        ]
+        ],
+        "Bladeborn": "Morgwaeth's Blade-Coven",
+        "Grand_Alliance": "Order",
+        "Movement": 5,
+        "Name": "Khamyss",
+        "Points": 95,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 10
     },
     {
-        "Name": "Khinerai Heartrender",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
-        "Bladeborn": "",
-        "Points": 145,
-        "Wounds": 10,
-        "Movement": 12,
-        "Toughness": 4,
-        "Runemarks": [
-            "Fly",
-            "Agile"
-        ],
         "Attacks": [
             {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 8,
                 "Attacks": 2,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
             }
-        ]
-    },
-    {
-        "Name": "Khinerai Lifetaker",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        ],
         "Bladeborn": "",
-        "Points": 150,
-        "Wounds": 10,
+        "Grand_Alliance": "Order",
         "Movement": 12,
-        "Toughness": 4,
+        "Name": "Khinerai Heartrender",
+        "Points": 145,
         "Runemarks": [
             "Fly",
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 10
     },
     {
-        "Name": "Krone",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 230,
-        "Wounds": 25,
-        "Movement": 7,
+        "Grand_Alliance": "Order",
+        "Movement": 12,
+        "Name": "Khinerai Lifetaker",
+        "Points": 150,
+        "Runemarks": [
+            "Fly",
+            "Agile"
+        ],
+        "Subtitle": "",
         "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 20,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 7,
+        "Name": "Krone",
+        "Points": 230,
         "Runemarks": [
             "Hero",
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 20,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 25
     },
     {
-        "Name": "Kyrae",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 1,
+                "Max_Range": 20,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Morgwaeth's Blade-Coven",
-        "Points": 185,
-        "Wounds": 22,
+        "Grand_Alliance": "Order",
         "Movement": 7,
-        "Toughness": 4,
+        "Name": "Kyrae",
+        "Points": 185,
         "Runemarks": [
             "Berserker"
         ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 22
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
+                "Attacks": 4,
+                "Dmg_Crit": 3,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 2
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Morgwaeth's Blade-Coven",
+        "Grand_Alliance": "Order",
+        "Movement": 5,
+        "Name": "Kyrssa",
+        "Points": 95,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Morgwaeth's Blade-Coven",
+        "Grand_Alliance": "Order",
+        "Movement": 5,
+        "Name": "Lethyr",
+        "Points": 95,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
             },
             {
-                "Runemark": "Ranged Weapon",
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 10,
                 "Min_Range": 3,
-                "Max_Range": 20,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 5
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Kyrssa",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
-        "Bladeborn": "Morgwaeth's Blade-Coven",
-        "Points": 95,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Lethyr",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
-        "Bladeborn": "Morgwaeth's Blade-Coven",
-        "Points": 95,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Master of Warlocks",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
         "Bladeborn": "",
-        "Points": 160,
-        "Wounds": 22,
+        "Grand_Alliance": "Order",
         "Movement": 10,
-        "Toughness": 3,
+        "Name": "Master of Warlocks",
+        "Points": 160,
         "Runemarks": [
             "Hero",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 10,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 22
     },
     {
-        "Name": "Melusai Ironscale",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 245,
-        "Wounds": 28,
+        "Grand_Alliance": "Order",
         "Movement": 7,
-        "Toughness": 4,
+        "Name": "Melusai Ironscale",
+        "Points": 245,
         "Runemarks": [
             "Hero",
             "Elite"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 28
     },
     {
-        "Name": "Morgwaeth the Bloodied",
-        "Subtitle": "the Bloodied",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Morgwaeth's Blade-Coven",
-        "Points": 150,
-        "Wounds": 22,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Morgwaeth the Bloodied",
+        "Points": 150,
         "Runemarks": [
             "Hero",
             "Priest"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "the Bloodied",
+        "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 22
     },
     {
-        "Name": "Retaria the Entangler",
-        "Subtitle": "the Entangler",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Gryselle's Arenai",
-        "Points": 85,
-        "Wounds": 8,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Retaria the Entangler",
+        "Points": 85,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "the Entangler",
+        "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 8
     },
     {
-        "Name": "Shryke",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 220,
-        "Wounds": 15,
+        "Grand_Alliance": "Order",
         "Movement": 12,
-        "Toughness": 4,
+        "Name": "Shryke",
+        "Points": 220,
         "Runemarks": [
             "Fly",
             "Hero",
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 8,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Sister of Slaughter with Whip and Buckler",
-        "Subtitle": "with Whip and Buckler",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
-        "Bladeborn": "",
-        "Points": 75,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Sister of Slaughter with Whip and knife",
-        "Subtitle": "with Whip and knife",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
-        "Bladeborn": "",
-        "Points": 80,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Slaughter Queen",
         "Subtitle": "",
-        "Grand_Alliance": "Order",
+        "Toughness": 4,
         "Warband": "Daughters of Khaine",
+        "Wounds": 15
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 160,
-        "Wounds": 18,
+        "Grand_Alliance": "Order",
         "Movement": 5,
+        "Name": "Sister of Slaughter with Whip and Buckler",
+        "Points": 75,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Whip and Buckler",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 5,
+        "Name": "Sister of Slaughter with Whip and knife",
+        "Points": 80,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Whip and knife",
         "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 5,
+        "Name": "Slaughter Queen",
+        "Points": 160,
         "Runemarks": [
             "Hero",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 18
     },
     {
-        "Name": "Thrialla, the Lash",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
-        "Bladeborn": "Gryselle's Arenai",
-        "Points": 80,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
         "Attacks": [
             {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
                 "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Traxyaa, the Aegis",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
+        ],
         "Bladeborn": "Gryselle's Arenai",
-        "Points": 85,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Witch Aelf with Paired Daggers",
-        "Subtitle": "with Paired Daggers",
         "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 8,
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Thrialla, the Lash",
+        "Points": 80,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Witch Aelf with Dagger & Shield",
-        "Subtitle": "with Dagger & Shield",
-        "Grand_Alliance": "Order",
-        "Warband": "Daughters of Khaine",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Witch Aelf Hag",
         "Subtitle": "",
-        "Grand_Alliance": "Order",
+        "Toughness": 4,
         "Warband": "Daughters of Khaine",
-        "Bladeborn": "",
-        "Points": 95,
-        "Wounds": 12,
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Gryselle's Arenai",
+        "Grand_Alliance": "Order",
         "Movement": 5,
+        "Name": "Traxyaa, the Aegis",
+        "Points": 85,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 5,
+        "Name": "Witch Aelf with Paired Daggers",
+        "Points": 65,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Paired Daggers",
         "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 5,
+        "Name": "Witch Aelf with Dagger & Shield",
+        "Points": 65,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Dagger & Shield",
+        "Toughness": 4,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 5,
+        "Name": "Witch Aelf Hag",
+        "Points": 95,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Daughters of Khaine",
+        "Wounds": 12
     }
 ]

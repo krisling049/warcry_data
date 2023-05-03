@@ -1,178 +1,178 @@
 [
     {
-        "Name": "Decuriarch",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Chaos Legionnaires",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 170,
-        "Wounds": 22,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 5,
+        "Name": "Decuriarch",
+        "Points": 170,
         "Runemarks": [
             "Hero",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Hornhelm with Darkiron Mace",
-        "Subtitle": "with Darkiron Mace",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Chaos Legionnaires",
-        "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 18,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Brute"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Mace",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Hornhelm with Steelbite Axe",
-        "Subtitle": "with Steelbite Axe",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Chaos Legionnaires",
-        "Bladeborn": "",
-        "Points": 125,
-        "Wounds": 18,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            "Brute"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 6
-            }
-        ]
-    },
-    {
-        "Name": "Hornshield with Axe",
-        "Subtitle": "with Axe",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Chaos Legionnaires",
-        "Bladeborn": "",
-        "Points": 95,
-        "Wounds": 12,
-        "Movement": 4,
-        "Toughness": 5,
-        "Runemarks": [
-            "Bulwark"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Hornshield with Mace",
-        "Subtitle": "with Mace",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Chaos Legionnaires",
-        "Bladeborn": "",
-        "Points": 100,
-        "Wounds": 12,
-        "Movement": 4,
-        "Toughness": 5,
-        "Runemarks": [
-            "Bulwark"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Mace",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Hornshield with Sword",
-        "Subtitle": "with Sword",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Chaos Legionnaires",
-        "Bladeborn": "",
-        "Points": 95,
-        "Wounds": 12,
-        "Movement": 4,
-        "Toughness": 5,
-        "Runemarks": [
-            "Bulwark"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Mutandor",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
+        "Toughness": 5,
         "Warband": "Chaos Legionnaires",
+        "Wounds": 22
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Mace",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 145,
-        "Wounds": 18,
-        "Movement": 5,
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Hornhelm with Darkiron Mace",
+        "Points": 120,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Subtitle": "with Darkiron Mace",
         "Toughness": 4,
+        "Warband": "Chaos Legionnaires",
+        "Wounds": 18
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Hornhelm with Steelbite Axe",
+        "Points": 125,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Subtitle": "with Steelbite Axe",
+        "Toughness": 4,
+        "Warband": "Chaos Legionnaires",
+        "Wounds": 18
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Hornshield with Axe",
+        "Points": 95,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Subtitle": "with Axe",
+        "Toughness": 5,
+        "Warband": "Chaos Legionnaires",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Mace",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Hornshield with Mace",
+        "Points": 100,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Subtitle": "with Mace",
+        "Toughness": 5,
+        "Warband": "Chaos Legionnaires",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Hornshield with Sword",
+        "Points": 95,
+        "Runemarks": [
+            "Bulwark"
+        ],
+        "Subtitle": "with Sword",
+        "Toughness": 5,
+        "Warband": "Chaos Legionnaires",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Mutandor",
+        "Points": 145,
         "Runemarks": [
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Chaos Legionnaires",
+        "Wounds": 18
     }
 ]

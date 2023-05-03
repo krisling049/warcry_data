@@ -1,181 +1,181 @@
 [
     {
-        "Name": "Askurgan Acolyte with Bonehilt Falchion",
-        "Subtitle": "with Bonehilt Falchion",
-        "Grand_Alliance": "Death",
-        "Warband": "Askurgan Trueblades",
-        "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 12,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            "Elite"
-        ],
         "Attacks": [
             {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
                 "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
+                "Strength": 5
             }
-        ]
-    },
-    {
-        "Name": "Askurgan Acolyte with Throat-Taker",
-        "Subtitle": "with Throat-Taker",
-        "Grand_Alliance": "Death",
-        "Warband": "Askurgan Trueblades",
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 12,
+        "Grand_Alliance": "Death",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Askurgan Acolyte with Bonehilt Falchion",
+        "Points": 90,
         "Runemarks": [
             "Elite"
         ],
+        "Subtitle": "with Bonehilt Falchion",
+        "Toughness": 3,
+        "Warband": "Askurgan Trueblades",
+        "Wounds": 12
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
                 "Attacks": 3,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
             }
-        ]
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 5,
+        "Name": "Askurgan Acolyte with Throat-Taker",
+        "Points": 90,
+        "Runemarks": [
+            "Elite"
+        ],
+        "Subtitle": "with Throat-Taker",
+        "Toughness": 3,
+        "Warband": "Askurgan Trueblades",
+        "Wounds": 12
     },
     {
-        "Name": "Askurgan Ascetic with Charnel Mace",
-        "Subtitle": "with Charnel Mace",
-        "Grand_Alliance": "Death",
-        "Warband": "Askurgan Trueblades",
-        "Bladeborn": "",
-        "Points": 115,
-        "Wounds": 15,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            "Elite",
-            "Destroyer"
-        ],
         "Attacks": [
             {
-                "Runemark": "Mace",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 2,
-                "Strength": 6,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 3,
-                "Dmg_Crit": 4
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Mace",
+                "Strength": 6
             }
-        ]
-    },
-    {
-        "Name": "Askurgan Ascetic with Howling Glaive",
-        "Subtitle": "with Howling Glaive",
-        "Grand_Alliance": "Death",
-        "Warband": "Askurgan Trueblades",
+        ],
         "Bladeborn": "",
-        "Points": 115,
-        "Wounds": 15,
+        "Grand_Alliance": "Death",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Askurgan Ascetic with Charnel Mace",
+        "Points": 115,
         "Runemarks": [
             "Elite",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "with Charnel Mace",
+        "Toughness": 4,
+        "Warband": "Askurgan Trueblades",
+        "Wounds": 15
     },
     {
-        "Name": "Askurgan Exemplar",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Askurgan Trueblades",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 205,
-        "Wounds": 20,
+        "Grand_Alliance": "Death",
         "Movement": 5,
+        "Name": "Askurgan Ascetic with Howling Glaive",
+        "Points": 115,
+        "Runemarks": [
+            "Elite",
+            "Destroyer"
+        ],
+        "Subtitle": "with Howling Glaive",
         "Toughness": 4,
+        "Warband": "Askurgan Trueblades",
+        "Wounds": 15
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 4,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 6
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Death",
+        "Movement": 5,
+        "Name": "Askurgan Exemplar",
+        "Points": 205,
         "Runemarks": [
             "Hero",
             "Elite",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 6,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Askurgan Trueblades",
+        "Wounds": 20
     },
     {
-        "Name": "Askurgan Pariah",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Askurgan Trueblades",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 18,
+        "Grand_Alliance": "Death",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Askurgan Pariah",
+        "Points": 105,
         "Runemarks": [
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Askurgan Trueblades",
+        "Wounds": 18
     },
     {
-        "Name": "Curseblood",
-        "Subtitle": "",
-        "Grand_Alliance": "Death",
-        "Warband": "Askurgan Trueblades",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 190,
-        "Wounds": 25,
+        "Grand_Alliance": "Death",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Curseblood",
+        "Points": 190,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Askurgan Trueblades",
+        "Wounds": 25
     }
 ]

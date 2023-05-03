@@ -22,7 +22,15 @@ class DataPayload:
         raise NotImplementedError('class requires a write_to_disk class method')
 
 
-class JSONPayload(DataPayload):
+# noinspection PyAbstractClass
+class FighterDataPayload(DataPayload):
+
+    @classmethod
+    def write_warbands_to_disk(cls, dst_root):
+        raise NotImplementedError('class requires a write_warbands_to_disk class method')
+
+
+class FighterJSONPayload(DataPayload):
 
     def load_data(self):
         if self.src_format.lower().lstrip('.') != 'json':
@@ -36,5 +44,22 @@ class JSONPayload(DataPayload):
             json.dump(self.data, nf, ensure_ascii=True, indent=4, sort_keys=True)
 
     def write_warbands_to_disk(self, dst_root: Path = Path(Path(__file__).parent.parent, 'data')):
-        pass
+
+        warband_by_ga = dict()
+
+        for fighter in self.data:
+            if fighter['Grand_Alliance'] not in warband_by_ga.keys():
+                warband_by_ga[fighter['Grand_Alliance']] = dict()
+            if fighter['Warband'] not in warband_by_ga[fighter['Grand_Alliance']].keys():
+                warband_by_ga[fighter['Grand_Alliance']][fighter['Warband']] = list()
+            warband_by_ga[fighter['Grand_Alliance']][fighter['Warband']].append(fighter)
+
+        for GA, WARBANDS in warband_by_ga.items():
+            for warband, fighters in WARBANDS.items():
+                data_path = Path(dst_root, GA)
+                data_path.mkdir(parents=True, exist_ok=True)
+                output_file = Path(data_path, f'{warband}.json')
+                with open(output_file, 'w') as f:
+                    print(f'Writing {len(WARBANDS[warband])} fighters to {output_file}...')
+                    json.dump(WARBANDS[warband], f, ensure_ascii=True, indent=4, sort_keys=True)
 

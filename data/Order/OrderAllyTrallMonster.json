@@ -1,54 +1,54 @@
 [
     {
-        "Name": "Kharibdyss",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "OrderAllyTrallMonster",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 1,
+                "Min_Range": 2,
+                "Runemark": "Fangs",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 425,
-        "Wounds": 45,
+        "Grand_Alliance": "Order",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Kharibdyss",
+        "Points": 425,
         "Runemarks": [
             "Monster",
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 2,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "OrderAllyTrallMonster",
+        "Wounds": 45
     },
     {
-        "Name": "War Hydra",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "OrderAllyTrallMonster",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 4,
+                "Max_Range": 1,
+                "Min_Range": 2,
+                "Runemark": "Fangs",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 420,
-        "Wounds": 45,
+        "Grand_Alliance": "Order",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "War Hydra",
+        "Points": 420,
         "Runemarks": [
             "Monster",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 2,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 4,
-                "Dmg_Crit": 8
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "OrderAllyTrallMonster",
+        "Wounds": 45
     }
 ]

@@ -1,195 +1,195 @@
 [
     {
-        "Name": "Beastspeaker",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Untamed Beasts",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 4
+            },
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 110,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Beastspeaker",
+        "Points": 110,
         "Runemarks": [
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Untamed Beasts",
+        "Wounds": 15
     },
     {
-        "Name": "First Fang",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Untamed Beasts",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 130,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "First Fang",
+        "Points": 130,
         "Runemarks": [
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 8,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Untamed Beasts",
+        "Wounds": 15
     },
     {
-        "Name": "Heart-Eater",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Untamed Beasts",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 200,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Heart-Eater",
+        "Points": 200,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Untamed Beasts",
+        "Wounds": 20
     },
     {
-        "Name": "Plains-runner",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Untamed Beasts",
-        "Bladeborn": "",
-        "Points": 55,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            ""
-        ],
         "Attacks": [
             {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 3,
-                "Strength": 3,
+                "Dmg_Crit": 3,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Preytaker with Axe",
-        "Subtitle": "with Axe",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Untamed Beasts",
-        "Bladeborn": "",
-        "Points": 100,
-        "Wounds": 10,
-        "Movement": 4,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
+                "Max_Range": 1,
+                "Min_Range": 0,
                 "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Preytaker with Blade",
-        "Subtitle": "with Blade",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Untamed Beasts",
+        ],
         "Bladeborn": "",
-        "Points": 100,
-        "Wounds": 10,
-        "Movement": 4,
-        "Toughness": 4,
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Plains-runner",
+        "Points": 55,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Untamed Beasts",
+        "Wounds": 8
     },
     {
-        "Name": "Rocktusk Prowler",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Untamed Beasts",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 195,
-        "Wounds": 20,
-        "Movement": 8,
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Preytaker with Axe",
+        "Points": 100,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Axe",
         "Toughness": 4,
+        "Warband": "Untamed Beasts",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 4,
+        "Name": "Preytaker with Blade",
+        "Points": 100,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Blade",
+        "Toughness": 4,
+        "Warband": "Untamed Beasts",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 8,
+        "Name": "Rocktusk Prowler",
+        "Points": 195,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Untamed Beasts",
+        "Wounds": 20
     }
 ]

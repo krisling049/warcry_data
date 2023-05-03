@@ -1,478 +1,478 @@
 [
     {
-        "Name": "Akhelian Ishlaen Guard",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 180,
-        "Wounds": 20,
+        "Grand_Alliance": "Order",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Akhelian Ishlaen Guard",
+        "Points": 180,
         "Runemarks": [
             "Fly",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Akhelian King with Greatsword",
-        "Subtitle": "with Greatsword",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
-        "Bladeborn": "",
-        "Points": 305,
-        "Wounds": 35,
-        "Movement": 10,
-        "Toughness": 4,
-        "Runemarks": [
-            "Fly",
-            "Hero",
-            "Champion"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Akhelian King with Polearm",
-        "Subtitle": "with Polearm",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
-        "Bladeborn": "",
-        "Points": 305,
-        "Wounds": 35,
-        "Movement": 10,
-        "Toughness": 4,
-        "Runemarks": [
-            "Fly",
-            "Hero",
-            "Champion"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Akhelian Morrsarr Guard",
         "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
-        "Bladeborn": "",
-        "Points": 200,
-        "Wounds": 20,
-        "Movement": 10,
         "Toughness": 4,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 20
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 10,
+        "Name": "Akhelian King with Greatsword",
+        "Points": 305,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Champion"
+        ],
+        "Subtitle": "with Greatsword",
+        "Toughness": 4,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 35
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 10,
+        "Name": "Akhelian King with Polearm",
+        "Points": 305,
+        "Runemarks": [
+            "Fly",
+            "Hero",
+            "Champion"
+        ],
+        "Subtitle": "with Polearm",
+        "Toughness": 4,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 35
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Order",
+        "Movement": 10,
+        "Name": "Akhelian Morrsarr Guard",
+        "Points": 200,
         "Runemarks": [
             "Fly",
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 20
     },
     {
-        "Name": "Akhelian Morrsarr Guard Lochian Prince",
-        "Subtitle": "Lochian Prince",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 260,
-        "Wounds": 25,
+        "Grand_Alliance": "Order",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Akhelian Morrsarr Guard Lochian Prince",
+        "Points": 260,
         "Runemarks": [
             "Berserker",
             "Fly",
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "Lochian Prince",
+        "Toughness": 4,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 25
     },
     {
-        "Name": "Akhelian Thrallmaster",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 170,
-        "Wounds": 18,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Akhelian Thrallmaster",
+        "Points": 170,
         "Runemarks": [
             "Hero",
             "Sentience"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 18
     },
     {
-        "Name": "Duinclaw",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "Elathain's Soulraid",
-        "Points": 130,
-        "Wounds": 12,
+        "Grand_Alliance": "Order",
         "Movement": 4,
-        "Toughness": 6,
+        "Name": "Duinclaw",
+        "Points": 130,
         "Runemarks": [
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 6,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 12
     },
     {
-        "Name": "Elathain Ill-fated",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 4
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Elathain's Soulraid",
-        "Points": 150,
-        "Wounds": 24,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Elathain Ill-fated",
+        "Points": 150,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 24
     },
     {
-        "Name": "Fuirann",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Elathain's Soulraid",
-        "Points": 120,
-        "Wounds": 16,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Fuirann",
+        "Points": 120,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 16
     },
     {
-        "Name": "Isharann Soulrender",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 4
+            },
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 185,
-        "Wounds": 22,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Isharann Soulrender",
+        "Points": 185,
         "Runemarks": [
             "Hero",
             "Frenzied"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            },
-            {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 3,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 22
     },
     {
-        "Name": "Isharann Soulscryer",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 140,
-        "Wounds": 18,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Isharann Soulscryer",
+        "Points": 140,
         "Runemarks": [
             "Hero",
             "Priest"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 18
     },
     {
-        "Name": "Isharann Tidecaster",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 130,
-        "Wounds": 18,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Isharann Tidecaster",
+        "Points": 130,
         "Runemarks": [
             "Hero",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 18
     },
     {
-        "Name": "Ishlaen Guard Lochain Prince",
-        "Subtitle": "Lochain Prince",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 250,
-        "Wounds": 25,
+        "Grand_Alliance": "Order",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Ishlaen Guard Lochain Prince",
+        "Points": 250,
         "Runemarks": [
             "Fly",
             "Hero",
             "Bulwark"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "Lochain Prince",
+        "Toughness": 4,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 25
     },
     {
-        "Name": "Namarti Reaver",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 8,
+        "Grand_Alliance": "Order",
         "Movement": 6,
-        "Toughness": 3,
+        "Name": "Namarti Reaver",
+        "Points": 105,
         "Runemarks": [
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 8
     },
     {
-        "Name": "Namarti Thrall",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 80,
-        "Wounds": 8,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Namarti Thrall",
+        "Points": 80,
         "Runemarks": [
             "Minion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 8
     },
     {
-        "Name": "Spinefin",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Elathain's Soulraid",
-        "Points": 80,
-        "Wounds": 6,
+        "Grand_Alliance": "Order",
         "Movement": 12,
-        "Toughness": 2,
+        "Name": "Spinefin",
+        "Points": 80,
         "Runemarks": [
             "Beast",
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 2,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 6
     },
     {
-        "Name": "Tammael",
-        "Subtitle": "",
-        "Grand_Alliance": "Order",
-        "Warband": "Idoneth Deepkin",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 8,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Elathain's Soulraid",
-        "Points": 85,
-        "Wounds": 10,
+        "Grand_Alliance": "Order",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Tammael",
+        "Points": 85,
         "Runemarks": [
             "Trapper"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 8,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Idoneth Deepkin",
+        "Wounds": 10
     }
 ]

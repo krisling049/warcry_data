@@ -1,869 +1,869 @@
 [
     {
-        "Name": "Beast Lord",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 180,
-        "Wounds": 22,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Beast Lord",
+        "Points": 180,
         "Runemarks": [
             "Hero",
             "Champion"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 22
     },
     {
-        "Name": "Bestigor",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 100,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Bestigor",
+        "Points": 100,
         "Runemarks": [
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Bloodkine with Axe and Shield",
-        "Subtitle": "with Axe and Shield",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 215,
-        "Wounds": 35,
-        "Movement": 5,
-        "Toughness": 5,
-        "Runemarks": [
-            "Hero",
-            "Brute"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Bloodkine with Bullgor Great Axe",
-        "Subtitle": "with Bullgor Great Axe",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 235,
-        "Wounds": 35,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            "Hero",
-            "Brute"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 8
-            }
-        ]
-    },
-    {
-        "Name": "Bloodkine with paired Bullgor Axes",
-        "Subtitle": "with paired Bullgor Axes",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 245,
-        "Wounds": 35,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            "Hero",
-            "Brute"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Bullgor with Axe and Bullshield",
-        "Subtitle": "with Axe and Bullshield",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 175,
-        "Wounds": 30,
-        "Movement": 5,
-        "Toughness": 5,
-        "Runemarks": [
-            "Brute"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Bullgor with Great Axe",
-        "Subtitle": "with Great Axe",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 195,
-        "Wounds": 30,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            "Brute"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
-    },
-    {
-        "Name": "Bullgor with Paired Axes",
-        "Subtitle": "with Paired Axes",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 185,
-        "Wounds": 30,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            "Brute"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Centigor",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 18,
-        "Movement": 10,
         "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 12
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Bloodkine with Axe and Shield",
+        "Points": 215,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Subtitle": "with Axe and Shield",
+        "Toughness": 5,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 35
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Bloodkine with Bullgor Great Axe",
+        "Points": 235,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Subtitle": "with Bullgor Great Axe",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 35
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Bloodkine with paired Bullgor Axes",
+        "Points": 245,
+        "Runemarks": [
+            "Hero",
+            "Brute"
+        ],
+        "Subtitle": "with paired Bullgor Axes",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 35
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Bullgor with Axe and Bullshield",
+        "Points": 175,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Subtitle": "with Axe and Bullshield",
+        "Toughness": 5,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 30
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Bullgor with Great Axe",
+        "Points": 195,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Subtitle": "with Great Axe",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 30
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Bullgor with Paired Axes",
+        "Points": 185,
+        "Runemarks": [
+            "Brute"
+        ],
+        "Subtitle": "with Paired Axes",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 30
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 10,
+        "Name": "Centigor",
+        "Points": 120,
         "Runemarks": [
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 18
     },
     {
-        "Name": "Cockatrice",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 250,
-        "Wounds": 30,
+        "Grand_Alliance": "Chaos",
         "Movement": 10,
-        "Toughness": 4,
+        "Name": "Cockatrice",
+        "Points": 250,
         "Runemarks": [
             "Fly",
             "Beast",
             "Berserker"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 30
     },
     {
-        "Name": "Doombull",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 8,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
         "Bladeborn": "",
-        "Points": 280,
-        "Wounds": 38,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Doombull",
+        "Points": 280,
         "Runemarks": [
             "Hero",
             "Brute"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 8
-            }
-        ]
-    },
-    {
-        "Name": "Dragon Ogor with Draconic Crusher",
-        "Subtitle": "with Draconic Crusher",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 200,
-        "Wounds": 30,
-        "Movement": 6,
-        "Toughness": 4,
-        "Runemarks": [
-            "Destroyer"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
-    },
-    {
-        "Name": "Dragon Ogor with paired Weapons",
-        "Subtitle": "with paired Weapons",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 210,
-        "Wounds": 30,
-        "Movement": 6,
-        "Toughness": 4,
-        "Runemarks": [
-            "Destroyer"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Dragon Ogor with War-glaive",
-        "Subtitle": "with War-glaive",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 205,
-        "Wounds": 30,
-        "Movement": 6,
-        "Toughness": 4,
-        "Runemarks": [
-            "Destroyer"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
-    },
-    {
-        "Name": "Dragon Ogor Shaggoth",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 260,
-        "Wounds": 35,
-        "Movement": 6,
         "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 38
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 6,
+        "Name": "Dragon Ogor with Draconic Crusher",
+        "Points": 200,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Subtitle": "with Draconic Crusher",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 30
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 6,
+        "Name": "Dragon Ogor with paired Weapons",
+        "Points": 210,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Subtitle": "with paired Weapons",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 30
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 6,
+        "Name": "Dragon Ogor with War-glaive",
+        "Points": 205,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Subtitle": "with War-glaive",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 30
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 6,
+        "Name": "Dragon Ogor Shaggoth",
+        "Points": 260,
         "Runemarks": [
             "Hero",
             "Destroyer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 5,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 35
     },
     {
-        "Name": "Draknar",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "Grashrak's Despoilers",
-        "Points": 135,
-        "Wounds": 18,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Draknar",
+        "Points": 135,
         "Runemarks": [
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 18
     },
     {
-        "Name": "Foe-render",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 140,
-        "Wounds": 15,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Foe-render",
+        "Points": 140,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 15
     },
     {
-        "Name": "Gnarl",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "Grashrak's Despoilers",
-        "Points": 80,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Gnarl",
+        "Points": 80,
         "Runemarks": [
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Gor with Gorblade and Beastshield",
-        "Subtitle": "with Gorblade and Beastshield",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Gor with Pair of Gor Blades",
-        "Subtitle": "with Pair of Gor Blades",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 60,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Gorehoof",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
+        "Toughness": 3,
         "Warband": "Beasts of Chaos",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 185,
-        "Wounds": 22,
-        "Movement": 10,
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Gor with Gorblade and Beastshield",
+        "Points": 65,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Gorblade and Beastshield",
         "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Gor with Pair of Gor Blades",
+        "Points": 60,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Pair of Gor Blades",
+        "Toughness": 3,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 10,
+        "Name": "Gorehoof",
+        "Points": 185,
         "Runemarks": [
             "Hero",
             "Mount"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 22
     },
     {
-        "Name": "Gouge-horn",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 155,
-        "Wounds": 16,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 4,
+        "Name": "Gouge-horn",
+        "Points": 155,
         "Runemarks": [
             "Hero",
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 16
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Grashrak's Despoilers",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
         "Name": "Grashrak Fellhoof",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "Grashrak's Despoilers",
         "Points": 205,
-        "Wounds": 25,
-        "Movement": 5,
-        "Toughness": 4,
         "Runemarks": [
             "Hero",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 25
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 6,
+                "Dmg_Hit": 3,
+                "Max_Range": 7,
+                "Min_Range": 3,
+                "Runemark": "Blast",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
         "Name": "Great Bray-Shaman",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
         "Points": 145,
-        "Wounds": 20,
-        "Movement": 5,
-        "Toughness": 4,
         "Runemarks": [
             "Hero",
             "Mystic"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Blast",
-                "Min_Range": 3,
-                "Max_Range": 7,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 3,
-                "Dmg_Crit": 6
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 20
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Grashrak's Despoilers",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
         "Name": "Korsh the Sneak",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "Grashrak's Despoilers",
         "Points": 65,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 3,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 10
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "Grashrak's Despoilers",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
         "Name": "Murghoth Half-Horn",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "Grashrak's Despoilers",
         "Points": 65,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 3,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Ungor with Blade and Shield",
-        "Subtitle": "with Blade and Shield",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 60,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Club",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Ungor with Spear and Shield",
-        "Subtitle": "with Spear and Shield",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
-        "Bladeborn": "",
-        "Points": 60,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 4,
-        "Runemarks": [
-            ""
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
-    },
-    {
-        "Name": "Ungor Halfhorn",
         "Subtitle": "",
-        "Grand_Alliance": "Chaos",
+        "Toughness": 3,
         "Warband": "Beasts of Chaos",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Club",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 95,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
+        "Name": "Ungor with Blade and Shield",
+        "Points": 60,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Blade and Shield",
         "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Ungor with Spear and Shield",
+        "Points": 60,
+        "Runemarks": [
+            ""
+        ],
+        "Subtitle": "with Spear and Shield",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Ungor Halfhorn",
+        "Points": 95,
         "Runemarks": [
             "Hero"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 12
     },
     {
-        "Name": "Ungor Raider",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 90,
-        "Wounds": 8,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Ungor Raider",
+        "Points": 90,
         "Runemarks": [
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 8
     },
     {
-        "Name": "Ungor Raider Halfhorn",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 120,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Ungor Raider Halfhorn",
+        "Points": 120,
         "Runemarks": [
             "Hero",
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 12
     },
     {
-        "Name": "Ushkor",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Beasts of Chaos",
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 2
+            }
+        ],
         "Bladeborn": "Grashrak's Despoilers",
-        "Points": 80,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Ushkor",
+        "Points": 80,
         "Runemarks": [
             "Scout"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 2,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Beasts of Chaos",
+        "Wounds": 10
     }
 ]

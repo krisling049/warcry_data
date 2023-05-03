@@ -1,188 +1,188 @@
 [
     {
-        "Name": "Defacer with Antithete Bow",
-        "Subtitle": "with Antithete Bow",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Jade Obelisk",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 3,
+                "Runemark": "Dagger",
+                "Strength": 3
+            },
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 15,
+                "Min_Range": 3,
+                "Runemark": "Ranged Weapon",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 95,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 4,
+        "Name": "Defacer with Antithete Bow",
+        "Points": 95,
         "Runemarks": [
             ""
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 3,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            },
-            {
-                "Runemark": "Ranged Weapon",
-                "Min_Range": 3,
-                "Max_Range": 15,
-                "Attacks": 2,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "with Antithete Bow",
+        "Toughness": 4,
+        "Warband": "Jade Obelisk",
+        "Wounds": 10
     },
     {
-        "Name": "Defacer with Stonecutter Tools",
-        "Subtitle": "with Stonecutter Tools",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Jade Obelisk",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Hammer",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 100,
-        "Wounds": 12,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Defacer with Stonecutter Tools",
+        "Points": 100,
         "Runemarks": [
             "Warrior"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Hammer",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "with Stonecutter Tools",
+        "Toughness": 4,
+        "Warband": "Jade Obelisk",
+        "Wounds": 12
     },
     {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Hammer",
+                "Strength": 5
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 3,
         "Name": "Desecrator with Iconoclast Warpick",
+        "Points": 100,
+        "Runemarks": [
+            "Destroyer"
+        ],
         "Subtitle": "with Iconoclast Warpick",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Jade Obelisk",
-        "Bladeborn": "",
-        "Points": 100,
-        "Wounds": 12,
-        "Movement": 3,
         "Toughness": 4,
-        "Runemarks": [
-            "Destroyer"
-        ],
-        "Attacks": [
-            {
-                "Runemark": "Hammer",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 5,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 5
-            }
-        ]
+        "Warband": "Jade Obelisk",
+        "Wounds": 12
     },
     {
-        "Name": "Desecrator with Statue-Smasher Hammer",
-        "Subtitle": "with Statue-Smasher Hammer",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Jade Obelisk",
-        "Bladeborn": "",
-        "Points": 100,
-        "Wounds": 12,
-        "Movement": 3,
-        "Toughness": 4,
-        "Runemarks": [
-            "Destroyer"
-        ],
         "Attacks": [
             {
-                "Runemark": "Hammer",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 3,
-                "Strength": 5,
+                "Dmg_Crit": 5,
                 "Dmg_Hit": 3,
-                "Dmg_Crit": 5
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Hammer",
+                "Strength": 5
             }
-        ]
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 3,
+        "Name": "Desecrator with Statue-Smasher Hammer",
+        "Points": 100,
+        "Runemarks": [
+            "Destroyer"
+        ],
+        "Subtitle": "with Statue-Smasher Hammer",
+        "Toughness": 4,
+        "Warband": "Jade Obelisk",
+        "Wounds": 12
     },
     {
-        "Name": "Idolarc",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Jade Obelisk",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 3,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 8,
+        "Grand_Alliance": "Chaos",
         "Movement": 8,
-        "Toughness": 3,
+        "Name": "Idolarc",
+        "Points": 105,
         "Runemarks": [
             "Beast",
             "Fly"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Jade Obelisk",
+        "Wounds": 8
     },
     {
-        "Name": "Nephrite Priestess",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Jade Obelisk",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Dagger",
+                "Strength": 3
+            }
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 4,
-        "Toughness": 3,
+        "Name": "Nephrite Priestess",
+        "Points": 105,
         "Runemarks": [
             "Hero",
             "Priest"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Dagger",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 3,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Jade Obelisk",
+        "Wounds": 20
     },
     {
-        "Name": "Obelisk Bearer",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Jade Obelisk",
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 110,
-        "Wounds": 20,
+        "Grand_Alliance": "Chaos",
         "Movement": 3,
-        "Toughness": 4,
+        "Name": "Obelisk Bearer",
+        "Points": 110,
         "Runemarks": [
             "Icon-Bearer"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Jade Obelisk",
+        "Wounds": 20
     }
 ]

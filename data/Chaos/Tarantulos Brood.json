@@ -1,203 +1,203 @@
 [
     {
-        "Name": "Broodkin",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Tarantulos Brood",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            "Scout",
-            "Sentience"
-        ],
         "Attacks": [
             {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 4,
-                "Strength": 3,
+                "Dmg_Crit": 3,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 3
-            }
-        ]
-    },
-    {
-        "Name": "Broodkin with Sai",
-        "Subtitle": "with Sai",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Tarantulos Brood",
-        "Bladeborn": "",
-        "Points": 65,
-        "Wounds": 8,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            "Scout",
-            "Sentience"
-        ],
-        "Attacks": [
-            {
+                "Max_Range": 1,
+                "Min_Range": 0,
                 "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 3
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Broodkin with Scythe and Spiderclaw",
-        "Subtitle": "with Scythe and Spiderclaw",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Tarantulos Brood",
+        ],
         "Bladeborn": "",
-        "Points": 60,
-        "Wounds": 8,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Broodkin",
+        "Points": 65,
         "Runemarks": [
             "Scout",
             "Sentience"
         ],
+        "Subtitle": "",
+        "Toughness": 3,
+        "Warband": "Tarantulos Brood",
+        "Wounds": 8
+    },
+    {
         "Attacks": [
             {
-                "Runemark": "Claws",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 2,
-                "Strength": 4,
+                "Attacks": 3,
+                "Dmg_Crit": 3,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 5
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Broodkin with Sai",
+        "Points": 65,
+        "Runemarks": [
+            "Scout",
+            "Sentience"
+        ],
+        "Subtitle": "with Sai",
+        "Toughness": 3,
+        "Warband": "Tarantulos Brood",
+        "Wounds": 8
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 2,
+                "Dmg_Crit": 5,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Claws",
+                "Strength": 4
             },
             {
-                "Runemark": "Scythe",
-                "Min_Range": 0,
-                "Max_Range": 2,
                 "Attacks": 2,
-                "Strength": 3,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Scythe",
+                "Strength": 3
             }
-        ]
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Broodkin with Scythe and Spiderclaw",
+        "Points": 60,
+        "Runemarks": [
+            "Scout",
+            "Sentience"
+        ],
+        "Subtitle": "with Scythe and Spiderclaw",
+        "Toughness": 3,
+        "Warband": "Tarantulos Brood",
+        "Wounds": 8
     },
     {
-        "Name": "Broodmaster",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Tarantulos Brood",
+        "Attacks": [
+            {
+                "Attacks": 5,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Sword",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 200,
-        "Wounds": 18,
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 4,
+        "Name": "Broodmaster",
+        "Points": 200,
         "Runemarks": [
             "Hero",
             "Sentience",
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Sword",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 5,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 4,
+        "Warband": "Tarantulos Brood",
+        "Wounds": 18
     },
     {
-        "Name": "Doomweaver with Flail & goad",
-        "Subtitle": "with Flail & goad",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Tarantulos Brood",
-        "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 10,
-        "Movement": 5,
-        "Toughness": 3,
-        "Runemarks": [
-            "Sentience",
-            "Agile"
-        ],
         "Attacks": [
             {
-                "Runemark": "Axe",
-                "Min_Range": 0,
-                "Max_Range": 1,
                 "Attacks": 4,
-                "Strength": 4,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 2,
-                "Dmg_Crit": 4
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Axe",
+                "Strength": 4
             },
             {
-                "Runemark": "Reach Weapon",
-                "Min_Range": 0,
-                "Max_Range": 3,
                 "Attacks": 3,
-                "Strength": 3,
+                "Dmg_Crit": 4,
                 "Dmg_Hit": 1,
-                "Dmg_Crit": 4
+                "Max_Range": 3,
+                "Min_Range": 0,
+                "Runemark": "Reach Weapon",
+                "Strength": 3
             }
-        ]
-    },
-    {
-        "Name": "Doomweaver with Trident & Net",
-        "Subtitle": "with Trident & Net",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Tarantulos Brood",
+        ],
         "Bladeborn": "",
-        "Points": 105,
-        "Wounds": 10,
+        "Grand_Alliance": "Chaos",
         "Movement": 5,
-        "Toughness": 3,
+        "Name": "Doomweaver with Flail & goad",
+        "Points": 105,
         "Runemarks": [
             "Sentience",
             "Agile"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Spear",
-                "Min_Range": 0,
-                "Max_Range": 2,
-                "Attacks": 3,
-                "Strength": 4,
-                "Dmg_Hit": 2,
-                "Dmg_Crit": 4
-            }
-        ]
+        "Subtitle": "with Flail & goad",
+        "Toughness": 3,
+        "Warband": "Tarantulos Brood",
+        "Wounds": 10
     },
     {
-        "Name": "Spider Swarm",
-        "Subtitle": "",
-        "Grand_Alliance": "Chaos",
-        "Warband": "Tarantulos Brood",
+        "Attacks": [
+            {
+                "Attacks": 3,
+                "Dmg_Crit": 4,
+                "Dmg_Hit": 2,
+                "Max_Range": 2,
+                "Min_Range": 0,
+                "Runemark": "Spear",
+                "Strength": 4
+            }
+        ],
         "Bladeborn": "",
-        "Points": 50,
-        "Wounds": 6,
+        "Grand_Alliance": "Chaos",
+        "Movement": 5,
+        "Name": "Doomweaver with Trident & Net",
+        "Points": 105,
+        "Runemarks": [
+            "Sentience",
+            "Agile"
+        ],
+        "Subtitle": "with Trident & Net",
+        "Toughness": 3,
+        "Warband": "Tarantulos Brood",
+        "Wounds": 10
+    },
+    {
+        "Attacks": [
+            {
+                "Attacks": 4,
+                "Dmg_Crit": 2,
+                "Dmg_Hit": 1,
+                "Max_Range": 1,
+                "Min_Range": 0,
+                "Runemark": "Fangs",
+                "Strength": 1
+            }
+        ],
+        "Bladeborn": "",
+        "Grand_Alliance": "Chaos",
         "Movement": 6,
-        "Toughness": 1,
+        "Name": "Spider Swarm",
+        "Points": 50,
         "Runemarks": [
             "Agile",
             "Beast"
         ],
-        "Attacks": [
-            {
-                "Runemark": "Fangs",
-                "Min_Range": 0,
-                "Max_Range": 1,
-                "Attacks": 4,
-                "Strength": 1,
-                "Dmg_Hit": 1,
-                "Dmg_Crit": 2
-            }
-        ]
+        "Subtitle": "",
+        "Toughness": 1,
+        "Warband": "Tarantulos Brood",
+        "Wounds": 6
     }
 ]
