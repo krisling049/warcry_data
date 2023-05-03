@@ -11,7 +11,7 @@ class DataPayload:
     def __init__(self, src_file: Path, src_format: str = None):
         self.src_file = src_file
         self.src_format = src_format if src_format else src_file.suffix  # xlsx, json, csv etc
-        self.data = None
+        self.data = self.load_data()
 
     @classmethod
     def load_data(cls):
@@ -29,7 +29,7 @@ class JSONPayload(DataPayload):
             raise RuntimeError(f'{self.src_format} is not a json file!')
         with open(self.src_file, 'r') as f:
             data_json = json.load(f)
-        self.data = data_json
+        return data_json
 
     def write_to_disk(self, dst: Path):
         with open(dst, 'w') as nf:
