@@ -1,197 +1,197 @@
 [
     {
-        "Attacks": [
+        "attacks": [
             {
-                "Attacks": 4,
-                "Dmg_Crit": 3,
-                "Dmg_Hit": 1,
-                "Max_Range": 8,
-                "Min_Range": 0,
-                "Runemark": "Ranged Weapon",
-                "Strength": 3
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "Ranged Weapon",
+                "strength": 3
             }
         ],
-        "Bladeborn": "",
-        "Grand_Alliance": "Order",
-        "Movement": 6,
-        "Name": "Darkflame Warlock with Crossbows",
-        "Points": 105,
-        "Runemarks": [
+        "bladeborn": "",
+        "grand_alliance": "Order",
+        "movement": 6,
+        "name": "Darkflame Warlock with Crossbows",
+        "points": 105,
+        "runemarks": [
             "Mystic"
         ],
-        "Subtitle": "with Crossbows",
-        "Toughness": 3,
-        "Warband": "Khainite Shadowstalkers",
-        "Wounds": 12
+        "subtitle": "with Crossbows",
+        "toughness": 3,
+        "warband": "Khainite Shadowstalkers",
+        "wounds": 12
     },
     {
-        "Attacks": [
+        "attacks": [
             {
-                "Attacks": 3,
-                "Dmg_Crit": 3,
-                "Dmg_Hit": 1,
-                "Max_Range": 1,
-                "Min_Range": 0,
-                "Runemark": "Blast",
-                "Strength": 3
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "Blast",
+                "strength": 3
             },
             {
-                "Attacks": 2,
-                "Dmg_Crit": 4,
-                "Dmg_Hit": 2,
-                "Max_Range": 7,
-                "Min_Range": 3,
-                "Runemark": "Ranged Weapon",
-                "Strength": 4
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "Ranged Weapon",
+                "strength": 4
             }
         ],
-        "Bladeborn": "",
-        "Grand_Alliance": "Order",
-        "Movement": 6,
-        "Name": "Darkflame Warlock with Doomfire Ring",
-        "Points": 105,
-        "Runemarks": [
+        "bladeborn": "",
+        "grand_alliance": "Order",
+        "movement": 6,
+        "name": "Darkflame Warlock with Doomfire Ring",
+        "points": 105,
+        "runemarks": [
             "Mystic"
         ],
-        "Subtitle": "with Doomfire Ring",
-        "Toughness": 3,
-        "Warband": "Khainite Shadowstalkers",
-        "Wounds": 12
+        "subtitle": "with Doomfire Ring",
+        "toughness": 3,
+        "warband": "Khainite Shadowstalkers",
+        "wounds": 12
     },
     {
-        "Attacks": [
+        "attacks": [
             {
-                "Attacks": 5,
-                "Dmg_Crit": 5,
-                "Dmg_Hit": 2,
-                "Max_Range": 1,
-                "Min_Range": 0,
-                "Runemark": "Sword",
-                "Strength": 4
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "Sword",
+                "strength": 4
             },
             {
-                "Attacks": 4,
-                "Dmg_Crit": 4,
-                "Dmg_Hit": 2,
-                "Max_Range": 3,
-                "Min_Range": 0,
-                "Runemark": "Reach Weapon",
-                "Strength": 4
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "Reach Weapon",
+                "strength": 4
             }
         ],
-        "Bladeborn": "",
-        "Grand_Alliance": "Order",
-        "Movement": 6,
-        "Name": "Shroud Queen",
-        "Points": 210,
-        "Runemarks": [
+        "bladeborn": "",
+        "grand_alliance": "Order",
+        "movement": 6,
+        "name": "Shroud Queen",
+        "points": 210,
+        "runemarks": [
             "Hero"
         ],
-        "Subtitle": "",
-        "Toughness": 4,
-        "Warband": "Khainite Shadowstalkers",
-        "Wounds": 20
+        "subtitle": "",
+        "toughness": 4,
+        "warband": "Khainite Shadowstalkers",
+        "wounds": 20
     },
     {
-        "Attacks": [
+        "attacks": [
             {
-                "Attacks": 3,
-                "Dmg_Crit": 4,
-                "Dmg_Hit": 1,
-                "Max_Range": 2,
-                "Min_Range": 0,
-                "Runemark": "Spear",
-                "Strength": 4
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "Spear",
+                "strength": 4
             }
         ],
-        "Bladeborn": "",
-        "Grand_Alliance": "Order",
-        "Movement": 6,
-        "Name": "Shroudblade with Umbral Spear",
-        "Points": 90,
-        "Runemarks": [
+        "bladeborn": "",
+        "grand_alliance": "Order",
+        "movement": 6,
+        "name": "Shroudblade with Umbral Spear",
+        "points": 90,
+        "runemarks": [
             "Warrior"
         ],
-        "Subtitle": "with Umbral Spear",
-        "Toughness": 3,
-        "Warband": "Khainite Shadowstalkers",
-        "Wounds": 8
+        "subtitle": "with Umbral Spear",
+        "toughness": 3,
+        "warband": "Khainite Shadowstalkers",
+        "wounds": 8
     },
     {
-        "Attacks": [
+        "attacks": [
             {
-                "Attacks": 4,
-                "Dmg_Crit": 4,
-                "Dmg_Hit": 1,
-                "Max_Range": 1,
-                "Min_Range": 0,
-                "Runemark": "Dagger",
-                "Strength": 3
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "Dagger",
+                "strength": 3
             }
         ],
-        "Bladeborn": "",
-        "Grand_Alliance": "Order",
-        "Movement": 6,
-        "Name": "Shroudblade with Cursed Swords",
-        "Points": 85,
-        "Runemarks": [
+        "bladeborn": "",
+        "grand_alliance": "Order",
+        "movement": 6,
+        "name": "Shroudblade with Cursed Swords",
+        "points": 85,
+        "runemarks": [
             "Warrior"
         ],
-        "Subtitle": "with Cursed Swords",
-        "Toughness": 3,
-        "Warband": "Khainite Shadowstalkers",
-        "Wounds": 8
+        "subtitle": "with Cursed Swords",
+        "toughness": 3,
+        "warband": "Khainite Shadowstalkers",
+        "wounds": 8
     },
     {
-        "Attacks": [
+        "attacks": [
             {
-                "Attacks": 4,
-                "Dmg_Crit": 4,
-                "Dmg_Hit": 1,
-                "Max_Range": 2,
-                "Min_Range": 0,
-                "Runemark": "Spear",
-                "Strength": 4
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "Spear",
+                "strength": 4
             }
         ],
-        "Bladeborn": "",
-        "Grand_Alliance": "Order",
-        "Movement": 6,
-        "Name": "Slaughtershade with Umbral Spears",
-        "Points": 120,
-        "Runemarks": [
+        "bladeborn": "",
+        "grand_alliance": "Order",
+        "movement": 6,
+        "name": "Slaughtershade with Umbral Spears",
+        "points": 120,
+        "runemarks": [
             "Warrior",
             "Berserker"
         ],
-        "Subtitle": "with Umbral Spears",
-        "Toughness": 3,
-        "Warband": "Khainite Shadowstalkers",
-        "Wounds": 12
+        "subtitle": "with Umbral Spears",
+        "toughness": 3,
+        "warband": "Khainite Shadowstalkers",
+        "wounds": 12
     },
     {
-        "Attacks": [
+        "attacks": [
             {
-                "Attacks": 3,
-                "Dmg_Crit": 4,
-                "Dmg_Hit": 2,
-                "Max_Range": 3,
-                "Min_Range": 0,
-                "Runemark": "Reach Weapon",
-                "Strength": 4
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "Reach Weapon",
+                "strength": 4
             }
         ],
-        "Bladeborn": "",
-        "Grand_Alliance": "Order",
-        "Movement": 6,
-        "Name": "Slaughtershade with Shadow Whip",
-        "Points": 125,
-        "Runemarks": [
+        "bladeborn": "",
+        "grand_alliance": "Order",
+        "movement": 6,
+        "name": "Slaughtershade with Shadow Whip",
+        "points": 125,
+        "runemarks": [
             "Warrior",
             "Berserker"
         ],
-        "Subtitle": "with Shadow Whip",
-        "Toughness": 3,
-        "Warband": "Khainite Shadowstalkers",
-        "Wounds": 12
+        "subtitle": "with Shadow Whip",
+        "toughness": 3,
+        "warband": "Khainite Shadowstalkers",
+        "wounds": 12
     }
 ]

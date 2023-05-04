@@ -30,7 +30,7 @@ class FighterDataPayload(DataPayload):
         raise NotImplementedError('class requires a write_warbands_to_disk class method')
 
 
-class FighterJSONPayload(DataPayload):
+class FighterJSONPayload(FighterDataPayload):
 
     def load_data(self):
         if self.src_format.lower().lstrip('.') != 'json':
@@ -39,7 +39,7 @@ class FighterJSONPayload(DataPayload):
             data_json = json.load(f)
         return data_json
 
-    def write_to_disk(self, dst: Path):
+    def write_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
         with open(dst, 'w') as nf:
             json.dump(self.data, nf, ensure_ascii=True, indent=4, sort_keys=True)
 
@@ -48,11 +48,11 @@ class FighterJSONPayload(DataPayload):
         warband_by_ga = dict()
 
         for fighter in self.data:
-            if fighter['Grand_Alliance'] not in warband_by_ga.keys():
-                warband_by_ga[fighter['Grand_Alliance']] = dict()
-            if fighter['Warband'] not in warband_by_ga[fighter['Grand_Alliance']].keys():
-                warband_by_ga[fighter['Grand_Alliance']][fighter['Warband']] = list()
-            warband_by_ga[fighter['Grand_Alliance']][fighter['Warband']].append(fighter)
+            if fighter['grand_alliance'] not in warband_by_ga.keys():
+                warband_by_ga[fighter['grand_alliance']] = dict()
+            if fighter['warband'] not in warband_by_ga[fighter['grand_alliance']].keys():
+                warband_by_ga[fighter['grand_alliance']][fighter['warband']] = list()
+            warband_by_ga[fighter['grand_alliance']][fighter['warband']].append(fighter)
 
         for GA, WARBANDS in warband_by_ga.items():
             for warband, fighters in WARBANDS.items():
@@ -62,4 +62,3 @@ class FighterJSONPayload(DataPayload):
                 with open(output_file, 'w') as f:
                     print(f'Writing {len(WARBANDS[warband])} fighters to {output_file}...')
                     json.dump(WARBANDS[warband], f, ensure_ascii=True, indent=4, sort_keys=True)
-
