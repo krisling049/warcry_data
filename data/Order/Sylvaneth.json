@@ -7,7 +7,7 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Unarmed",
+                "runemark": "unarmed",
                 "strength": 3
             },
             {
@@ -16,12 +16,12 @@
                 "dmg_hit": 1,
                 "max_range": 15,
                 "min_range": 3,
-                "runemark": "Ranged Weapon",
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
         "bladeborn": "Ylthari's Guardians",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Ahnslaine",
         "points": 85,
@@ -41,7 +41,7 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Unarmed",
+                "runemark": "unarmed",
                 "strength": 3
             },
             {
@@ -50,12 +50,12 @@
                 "dmg_hit": 1,
                 "max_range": 15,
                 "min_range": 3,
-                "runemark": "Ranged Weapon",
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
         "bladeborn": "Skaeth's Wild Hunt",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 5,
         "name": "Althaen",
         "points": 80,
@@ -75,19 +75,19 @@
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Spear",
+                "runemark": "spear",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 10,
         "name": "Arch-Revenant",
         "points": 260,
         "runemarks": [
-            "Hero",
-            "Destroyer",
-            "Fly"
+            "hero",
+            "destroyer",
+            "fly"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -102,18 +102,18 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Claws",
+                "runemark": "claws",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 5,
         "name": "Branch Nymph",
         "points": 140,
         "runemarks": [
-            "Hero",
-            "Scout"
+            "hero",
+            "scout"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -128,7 +128,7 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Claws",
+                "runemark": "claws",
                 "strength": 3
             },
             {
@@ -137,18 +137,18 @@
                 "dmg_hit": 3,
                 "max_range": 7,
                 "min_range": 3,
-                "runemark": "Blast",
+                "runemark": "blast",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 6,
         "name": "Branchwraith",
         "points": 145,
         "runemarks": [
-            "Hero",
-            "Berserker"
+            "hero",
+            "berserker"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -172,18 +172,18 @@
                 "dmg_hit": 3,
                 "max_range": 7,
                 "min_range": 3,
-                "runemark": "Blast",
+                "runemark": "blast",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 6,
         "name": "Branchwych",
         "points": 145,
         "runemarks": [
-            "Hero",
-            "Mystic"
+            "hero",
+            "mystic"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -198,17 +198,17 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Claws",
+                "runemark": "claws",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 5,
         "name": "Dryad",
         "points": 70,
         "runemarks": [
-            "Scout"
+            "scout"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -223,7 +223,7 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Claws",
+                "runemark": "claws",
                 "strength": 3
             },
             {
@@ -232,19 +232,19 @@
                 "dmg_hit": 1,
                 "max_range": 10,
                 "min_range": 3,
-                "runemark": "Ranged Weapon",
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 10,
         "name": "Flitwing Scion",
         "points": 170,
         "runemarks": [
-            "Fly",
-            "Hero",
-            "Trapper"
+            "fly",
+            "hero",
+            "trapper"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -259,12 +259,12 @@
                 "dmg_hit": 3,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Axe",
+                "runemark": "axe",
                 "strength": 4
             }
         ],
         "bladeborn": "Ylthari's Guardians",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Gallanghann of the Glade",
         "points": 105,
@@ -284,7 +284,7 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Claws",
+                "runemark": "claws",
                 "strength": 3
             },
             {
@@ -293,18 +293,18 @@
                 "dmg_hit": 1,
                 "max_range": 10,
                 "min_range": 3,
-                "runemark": "Ranged Weapon",
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 10,
         "name": "Gossamid Archer",
         "points": 130,
         "runemarks": [
-            "Fly",
-            "Trapper"
+            "fly",
+            "trapper"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -319,17 +319,17 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Mace",
+                "runemark": "mace",
                 "strength": 3
             }
         ],
         "bladeborn": "Skaeth's Wild Hunt",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 5,
         "name": "Karthaen",
         "points": 80,
         "runemarks": [
-            "Bulwark"
+            "bulwark"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -344,7 +344,7 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Claws",
+                "runemark": "claws",
                 "strength": 5
             },
             {
@@ -353,12 +353,12 @@
                 "dmg_hit": 2,
                 "max_range": 20,
                 "min_range": 3,
-                "runemark": "Ranged Weapon",
+                "runemark": "ranged",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Kurnoth Hunter with Kurnoth Greatbow",
         "points": 195,
@@ -383,7 +383,7 @@
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Kurnoth Hunter with Kurnoth Scythe",
         "points": 185,
@@ -403,12 +403,12 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Sword",
+                "runemark": "sword",
                 "strength": 5
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Kurnoth Hunter with Kurnoth Greatsword",
         "points": 170,
@@ -428,7 +428,7 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Claws",
+                "runemark": "claws",
                 "strength": 5
             },
             {
@@ -437,17 +437,17 @@
                 "dmg_hit": 2,
                 "max_range": 20,
                 "min_range": 3,
-                "runemark": "Ranged Weapon",
+                "runemark": "ranged",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Kurnoth Huntmaster with Kurnoth Greatbow",
         "points": 255,
         "runemarks": [
-            "Hero"
+            "hero"
         ],
         "subtitle": "with Kurnoth Greatbow",
         "toughness": 4,
@@ -462,17 +462,17 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Sword",
+                "runemark": "sword",
                 "strength": 5
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Kurnoth Huntmaster with Kurnoth Greatsword",
         "points": 215,
         "runemarks": [
-            "Hero"
+            "hero"
         ],
         "subtitle": "with Kurnoth Greatsword",
         "toughness": 4,
@@ -492,12 +492,12 @@
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Kurnoth Huntmaster with Kurnoth Scythe",
         "points": 245,
         "runemarks": [
-            "Hero"
+            "hero"
         ],
         "subtitle": "with Kurnoth Scythe",
         "toughness": 4,
@@ -512,17 +512,17 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Fangs",
+                "runemark": "fangs",
                 "strength": 3
             }
         ],
         "bladeborn": "Skaeth's Wild Hunt",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 8,
         "name": "Lighaen",
         "points": 70,
         "runemarks": [
-            "Beast"
+            "beast"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -542,13 +542,13 @@
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 10,
         "name": "Revenant Seeker",
         "points": 165,
         "runemarks": [
-            "Fly",
-            "Sentience"
+            "fly",
+            "sentience"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -568,14 +568,14 @@
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 10,
         "name": "Revenant Soulwarden",
         "points": 210,
         "runemarks": [
-            "Fly",
-            "Hero",
-            "Sentience"
+            "fly",
+            "hero",
+            "sentience"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -590,18 +590,18 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Claws",
+                "runemark": "claws",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Shadestalker",
         "points": 140,
         "runemarks": [
-            "Hero",
-            "Terrifying"
+            "hero",
+            "terrifying"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -616,12 +616,12 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Sword",
+                "runemark": "sword",
                 "strength": 3
             }
         ],
         "bladeborn": "Skaeth's Wild Hunt",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 5,
         "name": "Sheoch",
         "points": 70,
@@ -641,18 +641,18 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 0,
-                "runemark": "Spear",
+                "runemark": "spear",
                 "strength": 4
             }
         ],
         "bladeborn": "Skaeth's Wild Hunt",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 8,
         "name": "Skaeth the Huntsman",
         "points": 180,
         "runemarks": [
-            "Hero",
-            "Mount"
+            "hero",
+            "mount"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -667,12 +667,12 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Sword",
+                "runemark": "sword",
                 "strength": 3
             }
         ],
         "bladeborn": "Ylthari's Guardians",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Skhathael",
         "points": 85,
@@ -692,18 +692,18 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Claws",
+                "runemark": "claws",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Spite Revenant",
         "points": 75,
         "runemarks": [
-            "Fly",
-            "Sentience"
+            "fly",
+            "sentience"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -718,18 +718,18 @@
                 "dmg_hit": 1,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Spear",
+                "runemark": "spear",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 12,
         "name": "Spiterider Lancer",
         "points": 185,
         "runemarks": [
-            "Fly",
-            "Sentience"
+            "fly",
+            "sentience"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -744,19 +744,19 @@
                 "dmg_hit": 1,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Spear",
+                "runemark": "spear",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 12,
         "name": "Spiterider Scion",
         "points": 240,
         "runemarks": [
-            "Fly",
-            "Hero",
-            "Sentience"
+            "fly",
+            "hero",
+            "sentience"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -771,17 +771,17 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Sword",
+                "runemark": "sword",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Tree-Revenant",
         "points": 65,
         "runemarks": [
-            "Warrior"
+            "warrior"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -796,18 +796,18 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Sword",
+                "runemark": "sword",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Tree-Revenant Scion with Enchanted Blade",
         "points": 110,
         "runemarks": [
-            "Hero",
-            "Warrior"
+            "hero",
+            "warrior"
         ],
         "subtitle": "with Enchanted Blade",
         "toughness": 3,
@@ -822,18 +822,18 @@
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Spear",
+                "runemark": "spear",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Tree-Revenant Scion with Protector Glaive",
         "points": 115,
         "runemarks": [
-            "Hero",
-            "Warrior"
+            "hero",
+            "warrior"
         ],
         "subtitle": "with Protector Glaive",
         "toughness": 3,
@@ -848,7 +848,7 @@
                 "dmg_hit": 1,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Club",
+                "runemark": "club",
                 "strength": 3
             },
             {
@@ -857,17 +857,17 @@
                 "dmg_hit": 3,
                 "max_range": 7,
                 "min_range": 3,
-                "runemark": "Blast",
+                "runemark": "blast",
                 "strength": 3
             }
         ],
         "bladeborn": "Ylthari's Guardians",
-        "grand_alliance": "Order",
+        "grand_alliance": "order",
         "movement": 4,
         "name": "Ylthari",
         "points": 165,
         "runemarks": [
-            "Hero"
+            "hero"
         ],
         "subtitle": "",
         "toughness": 3,

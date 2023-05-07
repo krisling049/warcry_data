@@ -7,7 +7,7 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Unarmed",
+                "runemark": "unarmed",
                 "strength": 3
             },
             {
@@ -16,17 +16,17 @@
                 "dmg_hit": 1,
                 "max_range": 15,
                 "min_range": 3,
-                "runemark": "Ranged Weapon",
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
         "bladeborn": "Hedrakka's Madmob",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Dakko Sharp-stikka",
         "points": 115,
         "runemarks": [
-            "Destroyer"
+            "destroyer"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -41,7 +41,7 @@
                 "dmg_hit": 1,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Club",
+                "runemark": "club",
                 "strength": 4
             },
             {
@@ -50,17 +50,17 @@
                 "dmg_hit": 3,
                 "max_range": 7,
                 "min_range": 3,
-                "runemark": "Blast",
+                "runemark": "blast",
                 "strength": 3
             }
         ],
         "bladeborn": "Hedrakka's Madmob",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Hedkrakka Gob of Gork",
         "points": 225,
         "runemarks": [
-            "Hero",
+            "hero",
             "Frenzied"
         ],
         "subtitle": "Gob of Gork",
@@ -76,7 +76,7 @@
                 "dmg_hit": 1,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Club",
+                "runemark": "club",
                 "strength": 4
             },
             {
@@ -85,19 +85,19 @@
                 "dmg_hit": 3,
                 "max_range": 7,
                 "min_range": 3,
-                "runemark": "Blast",
+                "runemark": "blast",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 10,
         "name": "Maniak Weirdnob",
         "points": 220,
         "runemarks": [
-            "Hero",
-            "Ferocious",
-            "Mount"
+            "hero",
+            "ferocious",
+            "mount"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -112,7 +112,7 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Sword",
+                "runemark": "sword",
                 "strength": 3
             },
             {
@@ -121,18 +121,18 @@
                 "dmg_hit": 1,
                 "max_range": 15,
                 "min_range": 3,
-                "runemark": "Ranged Weapon",
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Savage Arrow Boss",
         "points": 150,
         "runemarks": [
-            "Hero",
-            "Destroyer"
+            "hero",
+            "destroyer"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -147,18 +147,18 @@
                 "dmg_hit": 3,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Axe",
+                "runemark": "axe",
                 "strength": 5
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Savage Big Boss",
         "points": 185,
         "runemarks": [
-            "Hero",
-            "Champion"
+            "hero",
+            "champion"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -173,12 +173,12 @@
                 "dmg_hit": 3,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Spear",
+                "runemark": "spear",
                 "strength": 5
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Savage Big Stabbas",
         "points": 165,
@@ -198,18 +198,18 @@
                 "dmg_hit": 2,
                 "max_range": 3,
                 "min_range": 0,
-                "runemark": "Club",
+                "runemark": "club",
                 "strength": 5
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 10,
         "name": "Savage Boarboy Bone Totem Bearer",
         "points": 195,
         "runemarks": [
-            "Mystic",
-            "Mount"
+            "mystic",
+            "mount"
         ],
         "subtitle": "Bone Totem Bearer",
         "toughness": 4,
@@ -224,17 +224,17 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Axe",
+                "runemark": "axe",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 10,
         "name": "Savage Boarboy with Chompa",
         "points": 140,
         "runemarks": [
-            "Mount"
+            "mount"
         ],
         "subtitle": "with Chompa",
         "toughness": 4,
@@ -249,17 +249,17 @@
                 "dmg_hit": 1,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Spear",
+                "runemark": "spear",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 10,
         "name": "Savage Boarboy with Stikka",
         "points": 140,
         "runemarks": [
-            "Mount"
+            "mount"
         ],
         "subtitle": "with Stikka",
         "toughness": 4,
@@ -274,18 +274,18 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Axe",
+                "runemark": "axe",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 10,
         "name": "Savage Boarboy Boss",
         "points": 235,
         "runemarks": [
-            "Hero",
-            "Mount"
+            "hero",
+            "mount"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -300,18 +300,18 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Axe",
+                "runemark": "axe",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 10,
         "name": "Savage Boarboy Maniak",
         "points": 185,
         "runemarks": [
-            "Hero",
-            "Mount"
+            "hero",
+            "mount"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -326,17 +326,17 @@
                 "dmg_hit": 3,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Axe",
+                "runemark": "axe",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 10,
         "name": "Savage Boss Maniak",
         "points": 270,
         "runemarks": [
-            "Hero"
+            "hero"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -351,12 +351,12 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Axe",
+                "runemark": "axe",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Savage Orruk with Chompa and Shield",
         "points": 80,
@@ -376,12 +376,12 @@
                 "dmg_hit": 1,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Spear",
+                "runemark": "spear",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Savage Orruk with Stikka and Shield",
         "points": 80,
@@ -401,7 +401,7 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Unarmed",
+                "runemark": "unarmed",
                 "strength": 3
             },
             {
@@ -410,17 +410,17 @@
                 "dmg_hit": 1,
                 "max_range": 15,
                 "min_range": 3,
-                "runemark": "Ranged Weapon",
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Savage Orruk Arrowboy",
         "points": 110,
         "runemarks": [
-            "Destroyer"
+            "destroyer"
         ],
         "subtitle": "",
         "toughness": 3,
@@ -435,17 +435,17 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Axe",
+                "runemark": "axe",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Savage Orruk Boss with Chompa & Boneshield",
         "points": 155,
         "runemarks": [
-            "Hero"
+            "hero"
         ],
         "subtitle": "with Chompa & Boneshield",
         "toughness": 4,
@@ -460,12 +460,12 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Axe",
+                "runemark": "axe",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Savage Orruk Morboy",
         "points": 95,
@@ -485,17 +485,17 @@
                 "dmg_hit": 3,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Sword",
+                "runemark": "sword",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Savage Orruk Morboy Boss",
         "points": 175,
         "runemarks": [
-            "Hero"
+            "hero"
         ],
         "subtitle": "Boss",
         "toughness": 4,
@@ -510,17 +510,17 @@
                 "dmg_hit": 2,
                 "max_range": 3,
                 "min_range": 0,
-                "runemark": "Club",
+                "runemark": "club",
                 "strength": 4
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Savage Orruk Morboy Bone Totem Bearer",
         "points": 115,
         "runemarks": [
-            "Mystic"
+            "mystic"
         ],
         "subtitle": "Bone Totem Bearer",
         "toughness": 3,
@@ -535,12 +535,12 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Claws",
+                "runemark": "claws",
                 "strength": 4
             }
         ],
         "bladeborn": "Hedrakka's Madmob",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Toofdagga",
         "points": 105,
@@ -560,7 +560,7 @@
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Club",
+                "runemark": "club",
                 "strength": 3
             },
             {
@@ -569,18 +569,18 @@
                 "dmg_hit": 3,
                 "max_range": 7,
                 "min_range": 3,
-                "runemark": "Blast",
+                "runemark": "blast",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Wardokk",
         "points": 155,
         "runemarks": [
-            "Hero",
-            "Berserker"
+            "hero",
+            "berserker"
         ],
         "subtitle": "",
         "toughness": 4,
@@ -595,12 +595,12 @@
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Club",
+                "runemark": "club",
                 "strength": 5
             }
         ],
         "bladeborn": "Hedrakka's Madmob",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Wollop da Skull",
         "points": 120,
@@ -620,7 +620,7 @@
                 "dmg_hit": 1,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "Club",
+                "runemark": "club",
                 "strength": 4
             },
             {
@@ -629,17 +629,17 @@
                 "dmg_hit": 3,
                 "max_range": 7,
                 "min_range": 3,
-                "runemark": "Blast",
+                "runemark": "blast",
                 "strength": 3
             }
         ],
         "bladeborn": "",
-        "grand_alliance": "Destruction",
+        "grand_alliance": "destruction",
         "movement": 4,
         "name": "Wurrgog Prophet",
         "points": 155,
         "runemarks": [
-            "Hero",
+            "hero",
             "Frenzied"
         ],
         "subtitle": "",
