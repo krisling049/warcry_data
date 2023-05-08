@@ -1,6 +1,6 @@
 [
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 5,
@@ -25,7 +25,7 @@
         "wounds": 20
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 2,
                 "dmg_crit": 6,
@@ -50,7 +50,7 @@
         "wounds": 26
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 4,
@@ -66,16 +66,14 @@
         "movement": 3,
         "name": "Basha",
         "points": 110,
-        "runemarks": [
-            ""
-        ],
+        "runemarks": [],
         "subtitle": "",
         "toughness": 4,
         "warband": "Ironjawz",
         "wounds": 16
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 4,
@@ -91,16 +89,14 @@
         "movement": 3,
         "name": "Bonekutta",
         "points": 125,
-        "runemarks": [
-            ""
-        ],
+        "runemarks": [],
         "subtitle": "",
         "toughness": 4,
         "warband": "Ironjawz",
         "wounds": 16
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 6,
@@ -126,7 +122,7 @@
         "wounds": 30
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 6,
@@ -153,7 +149,7 @@
         "wounds": 30
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 4,
@@ -180,7 +176,7 @@
         "wounds": 40
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 5,
                 "dmg_crit": 4,
@@ -207,7 +203,7 @@
         "wounds": 40
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 5,
@@ -232,7 +228,7 @@
         "wounds": 26
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 5,
@@ -248,16 +244,14 @@
         "movement": 3,
         "name": "Hakka",
         "points": 115,
-        "runemarks": [
-            ""
-        ],
+        "runemarks": [],
         "subtitle": "",
         "toughness": 4,
         "warband": "Ironjawz",
         "wounds": 16
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 5,
@@ -283,7 +277,7 @@
         "wounds": 35
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 4,
@@ -299,16 +293,14 @@
         "movement": 3,
         "name": "Orruk Ardboy with Big Choppa",
         "points": 80,
-        "runemarks": [
-            ""
-        ],
+        "runemarks": [],
         "subtitle": "with Big Choppa",
         "toughness": 4,
         "warband": "Ironjawz",
         "wounds": 15
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 4,
@@ -324,16 +316,14 @@
         "movement": 3,
         "name": "Orruk Ardboy with Choppa",
         "points": 80,
-        "runemarks": [
-            ""
-        ],
+        "runemarks": [],
         "subtitle": "with Choppa",
         "toughness": 4,
         "warband": "Ironjawz",
         "wounds": 15
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 4,
@@ -349,16 +339,14 @@
         "movement": 3,
         "name": "Orruk Ardboy with Choppa & Shield",
         "points": 80,
-        "runemarks": [
-            ""
-        ],
+        "runemarks": [],
         "subtitle": "with Choppa & Shield",
         "toughness": 5,
         "warband": "Ironjawz",
         "wounds": 15
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 6,
@@ -383,7 +371,7 @@
         "wounds": 25
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 4,
@@ -408,7 +396,7 @@
         "wounds": 25
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 4,
@@ -433,7 +421,7 @@
         "wounds": 25
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 4,
@@ -449,16 +437,14 @@
         "movement": 8,
         "name": "Orruk Gore-Grunta with Jagged Gore-Hacka",
         "points": 245,
-        "runemarks": [
-            ""
-        ],
+        "runemarks": [],
         "subtitle": "with Jagged Gore-Hacka",
         "toughness": 4,
         "warband": "Ironjawz",
         "wounds": 35
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 5,
                 "dmg_crit": 4,
@@ -474,16 +460,14 @@
         "movement": 8,
         "name": "Orruk Gore-Grunta with Pig iron Choppa",
         "points": 250,
-        "runemarks": [
-            ""
-        ],
+        "runemarks": [],
         "subtitle": "with Pig iron Choppa",
         "toughness": 4,
         "warband": "Ironjawz",
         "wounds": 35
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 8,
@@ -509,7 +493,7 @@
         "wounds": 35
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 4,
@@ -535,7 +519,7 @@
         "wounds": 32
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 4,
@@ -570,7 +554,7 @@
         "wounds": 32
     },
     {
-        "attacks": [
+        "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 5,
