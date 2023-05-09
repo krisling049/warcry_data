@@ -1,0 +1,151 @@
+[
+    {
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Blood Whelp with Barb-Spear",
+        "points": 90,
+        "runemarks": [
+            "agile"
+        ],
+        "subtitle": "with Barb-Spear",
+        "toughness": 3,
+        "warband": "Claws of Karanak",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Blood Whelp with Claw-Flail",
+        "points": 90,
+        "runemarks": [
+            "agile"
+        ],
+        "subtitle": "with Claw-Flail",
+        "toughness": 3,
+        "warband": "Claws of Karanak",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Brutaliser with Shredder Blade and Meat Hook",
+        "points": 115,
+        "runemarks": [
+            "terrifying"
+        ],
+        "subtitle": "with Shredder Blade and Meat Hook",
+        "toughness": 3,
+        "warband": "Claws of Karanak",
+        "wounds": 15
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Brutaliser with Shredder Blades",
+        "points": 120,
+        "runemarks": [],
+        "subtitle": "with Shredder Blades",
+        "toughness": 3,
+        "warband": "Claws of Karanak",
+        "wounds": 15
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 7,
+        "name": "Hound of Wrath",
+        "points": 190,
+        "runemarks": [
+            "agile",
+            "beast"
+        ],
+        "subtitle": "",
+        "toughness": 4,
+        "warband": "Claws of Karanak",
+        "wounds": 18
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Packlord",
+        "points": 205,
+        "runemarks": [
+            "hero"
+        ],
+        "subtitle": "",
+        "toughness": 4,
+        "warband": "Claws of Karanak",
+        "wounds": 20
+    }
+]

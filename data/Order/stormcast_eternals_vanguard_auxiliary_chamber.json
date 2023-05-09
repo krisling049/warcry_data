@@ -1,0 +1,614 @@
+[
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "The Farstriders",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Almeric Eagle-eye",
+        "points": 175,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 22
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "The Farstriders",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Almeric Eagle-eye",
+        "points": 175,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 22
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "The Farstriders",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Elias Swiftblade",
+        "points": 175,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 22
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Gryph-Hound",
+        "points": 115,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 4,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Hunter-Prime",
+        "points": 185,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Knight Azyros",
+        "points": 260,
+        "runemarks": [
+            "fly",
+            "hero",
+            "berserker"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 28
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 20,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Knight Venator",
+        "points": 325,
+        "runemarks": [
+            "hero",
+            "trapper",
+            "fly"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 28
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Knight Zephyros",
+        "points": 200,
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 28
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Lord Aquilor",
+        "points": 310,
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 38
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Pallador Prime with Shock Hand-axe",
+        "points": 285,
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 32
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Pallador Prime with Starstrike Javelin",
+        "points": 280,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 32
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Raptor-Prime with Hurricane Crossbow",
+        "points": 245,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            },
+            {
+                "attacks": 1,
+                "dmg_crit": 10,
+                "dmg_hit": 4,
+                "max_range": 20,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Raptor-Prime with Longstrike Bow",
+        "points": 230,
+        "runemarks": [
+            "hero",
+            "elite",
+            "scout"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "The Farstriders",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Sanson Farstrider",
+        "points": 225,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 30
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Vanguard Pallador with Shock Hand-Axe",
+        "points": 230,
+        "runemarks": [
+            "mount"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 28
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Vanguard Pallador with Starstrike Javelin",
+        "points": 220,
+        "runemarks": [
+            "mount"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 28
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Vanguard-Hunter",
+        "points": 145,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Vanguard-Raptor with Hurricane Crossbow",
+        "points": 210,
+        "runemarks": [
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            },
+            {
+                "attacks": 1,
+                "dmg_crit": 10,
+                "dmg_hit": 4,
+                "max_range": 20,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Vanguard-Raptor with Longstrike Crossbow",
+        "points": 195,
+        "runemarks": [
+            "elite"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 20
+    }
+]
