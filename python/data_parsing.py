@@ -1,5 +1,20 @@
 from pathlib import Path
 import json
+from typing import List, Dict
+
+
+def sort_data(data_to_sort: List[Dict]) -> List[Dict]:
+    sorted_data = sorted(
+        data_to_sort,
+        key=lambda x: (
+            x['grand_alliance'],
+            x['warband'],
+            x['bladeborn'],
+            x['points']
+        )
+    )
+
+    return sorted_data
 
 
 class DataPayload:
@@ -12,6 +27,7 @@ class DataPayload:
         self.src_file = src_file
         self.src_format = src_format if src_format else src_file.suffix  # xlsx, json, csv etc
         self.data = self.load_data()
+        print(len(self.data))
 
     @classmethod
     def load_data(cls):
@@ -32,16 +48,20 @@ class FighterDataPayload(DataPayload):
 
 class FighterJSONPayload(FighterDataPayload):
 
-    def load_data(self):
-        if self.src_format.lower().lstrip('.') != 'json':
-            raise RuntimeError(f'{self.src_format} is not a json file!')
-        with open(self.src_file, 'r') as f:
-            data_json = json.load(f)
-        return data_json
+    def load_data(self) -> List[Dict]:
+        # We treat the warband files as our source of truth so those are the ones we load
+        data_root = Path(Path(__file__).parent.parent, 'data')
+        files = [x for x in list(data_root.glob('**/*.json')) if x.name != 'fighters.json']
+        data = list()  # type: List[Dict]
+        for file in files:
+            with open(file, 'r') as f:
+                data.extend(json.load(f))
 
-    def write_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
+        return data
+
+    def write_aggregate_file_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
         with open(dst, 'w') as nf:
-            json.dump(self.data, nf, ensure_ascii=True, indent=4, sort_keys=True)
+            json.dump(sort_data(self.data), nf, ensure_ascii=True, indent=4, sort_keys=False)
 
     def write_warbands_to_disk(self, dst_root: Path = Path(Path(__file__).parent.parent, 'data')):
 
@@ -56,9 +76,11 @@ class FighterJSONPayload(FighterDataPayload):
 
         for GA, WARBANDS in warband_by_ga.items():
             for warband, fighters in WARBANDS.items():
-                data_path = Path(dst_root, GA)
+                data_path = Path(dst_root, GA.lower())
+                filename = warband.lower().replace(' ', '_') + '.json'
                 data_path.mkdir(parents=True, exist_ok=True)
-                output_file = Path(data_path, f'{warband}.json')
+                output_file = Path(data_path, filename)
                 with open(output_file, 'w') as f:
                     print(f'Writing {len(WARBANDS[warband])} fighters to {output_file}...')
-                    json.dump(WARBANDS[warband], f, ensure_ascii=True, indent=4, sort_keys=True)
+                    sorted_warband = sort_data(WARBANDS[warband])
+                    json.dump(sorted_warband, f, ensure_ascii=True, indent=4, sort_keys=False)
