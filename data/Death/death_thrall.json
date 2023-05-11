@@ -1,16 +1,6 @@
 [
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 3
-            }
-        ],
+        "_id": "58c57168",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
@@ -22,20 +12,21 @@
         ],
         "toughness": 3,
         "warband": "death_thrall",
-        "wounds": 10
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "fangs",
+                "runemark": "claws",
                 "strength": 3
             }
         ],
+        "wounds": 10
+    },
+    {
+        "_id": "61bbb21b",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 10,
@@ -48,6 +39,17 @@
         ],
         "toughness": 3,
         "warband": "death_thrall",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 3
+            }
+        ],
         "wounds": 12
     }
 ]

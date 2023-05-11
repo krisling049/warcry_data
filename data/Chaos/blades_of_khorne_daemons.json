@@ -1,5 +1,16 @@
 [
     {
+        "_id": "fac7b907",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Bloodletter",
+        "points": 80,
+        "runemarks": [
+            "frenzied"
+        ],
+        "toughness": 3,
+        "warband": "Blades of Khorne Daemons",
         "weapons": [
             {
                 "attacks": 4,
@@ -11,30 +22,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Bloodletter",
-        "points": 80,
-        "runemarks": [
-            "frenzied"
-        ],
-        "toughness": 3,
-        "warband": "Blades of Khorne Daemons",
         "wounds": 10
     },
     {
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
+        "_id": "b9e2645d",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
@@ -46,13 +37,10 @@
         ],
         "toughness": 3,
         "warband": "Blades of Khorne Daemons",
-        "wounds": 15
-    },
-    {
         "weapons": [
             {
                 "attacks": 5,
-                "dmg_crit": 5,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
@@ -60,6 +48,10 @@
                 "strength": 4
             }
         ],
+        "wounds": 15
+    },
+    {
+        "_id": "9e03d4aa",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
@@ -71,59 +63,6 @@
         ],
         "toughness": 4,
         "warband": "Blades of Khorne Daemons",
-        "wounds": 20
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Bloodcrusher",
-        "points": 170,
-        "runemarks": [
-            "destroyer",
-            "mounted"
-        ],
-        "toughness": 4,
-        "warband": "Blades of Khorne Daemons",
-        "wounds": 25
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 8,
-        "name": "Flesh Hound",
-        "points": 185,
-        "runemarks": [
-            "agile",
-            "beast"
-        ],
-        "toughness": 4,
-        "warband": "Blades of Khorne Daemons",
-        "wounds": 20
-    },
-    {
         "weapons": [
             {
                 "attacks": 5,
@@ -135,6 +74,62 @@
                 "strength": 4
             }
         ],
+        "wounds": 20
+    },
+    {
+        "_id": "bea960c8",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Bloodcrusher",
+        "points": 170,
+        "runemarks": [
+            "destroyer",
+            "mounted"
+        ],
+        "toughness": 4,
+        "warband": "Blades of Khorne Daemons",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "4b927149",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Flesh Hound",
+        "points": 185,
+        "runemarks": [
+            "agile",
+            "beast"
+        ],
+        "toughness": 4,
+        "warband": "Blades of Khorne Daemons",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "d060cbe4",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
@@ -147,9 +142,6 @@
         ],
         "toughness": 4,
         "warband": "Blades of Khorne Daemons",
-        "wounds": 30
-    },
-    {
         "weapons": [
             {
                 "attacks": 5,
@@ -157,10 +149,14 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "fangs",
+                "runemark": "sword",
                 "strength": 4
             }
         ],
+        "wounds": 30
+    },
+    {
+        "_id": "13230cd6",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 8,
@@ -173,20 +169,21 @@
         ],
         "toughness": 4,
         "warband": "Blades of Khorne Daemons",
-        "wounds": 25
-    },
-    {
         "weapons": [
             {
                 "attacks": 5,
                 "dmg_crit": 5,
-                "dmg_hit": 3,
+                "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "sword",
+                "runemark": "fangs",
                 "strength": 4
             }
         ],
+        "wounds": 25
+    },
+    {
+        "_id": "a23403fa",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
@@ -199,6 +196,17 @@
         ],
         "toughness": 5,
         "warband": "Blades of Khorne Daemons",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
         "wounds": 35
     }
 ]

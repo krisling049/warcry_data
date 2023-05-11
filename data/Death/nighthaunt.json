@@ -1,16 +1,6 @@
 [
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 2,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 3
-            }
-        ],
+        "_id": "fb7ec24d",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -22,9 +12,31 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
         "wounds": 8
     },
     {
+        "_id": "930b26af",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Glaivewraith Stalker",
+        "points": 90,
+        "runemarks": [
+            "fly"
+        ],
+        "toughness": 4,
+        "warband": "Nighthaunt",
         "weapons": [
             {
                 "attacks": 3,
@@ -36,19 +48,20 @@
                 "strength": 3
             }
         ],
+        "wounds": 10
+    },
+    {
+        "_id": "e5997176",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
-        "name": "Glaivewraith Stalker",
-        "points": 90,
+        "name": "Bladegheist Revenant",
+        "points": 100,
         "runemarks": [
             "fly"
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 10
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -60,19 +73,20 @@
                 "strength": 4
             }
         ],
+        "wounds": 10
+    },
+    {
+        "_id": "da7c1f99",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
-        "name": "Bladegheist Revenant",
-        "points": 100,
+        "name": "Craventhrone Guard",
+        "points": 105,
         "runemarks": [
             "fly"
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 10
-    },
-    {
         "weapons": [
             {
                 "attacks": 2,
@@ -93,30 +107,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "death",
-        "movement": 6,
-        "name": "Craventhrone Guard",
-        "points": 105,
-        "runemarks": [
-            "fly"
-        ],
-        "toughness": 4,
-        "warband": "Nighthaunt",
         "wounds": 10
     },
     {
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "scythe",
-                "strength": 3
-            }
-        ],
+        "_id": "831614b6",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -128,20 +122,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 10
-    },
-    {
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 4,
+                "attacks": 5,
+                "dmg_crit": 3,
                 "dmg_hit": 1,
-                "max_range": 2,
+                "max_range": 1,
                 "min_range": 0,
                 "runemark": "scythe",
                 "strength": 3
             }
         ],
+        "wounds": 10
+    },
+    {
+        "_id": "7efeabb6",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -153,9 +148,31 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "scythe",
+                "strength": 3
+            }
+        ],
         "wounds": 10
     },
     {
+        "_id": "6ef3ac48",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Myrmourn Banshee",
+        "points": 120,
+        "runemarks": [
+            "fly"
+        ],
+        "toughness": 4,
+        "warband": "Nighthaunt",
         "weapons": [
             {
                 "attacks": 3,
@@ -167,30 +184,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "death",
-        "movement": 6,
-        "name": "Myrmourn Banshee",
-        "points": 120,
-        "runemarks": [
-            "fly"
-        ],
-        "toughness": 4,
-        "warband": "Nighthaunt",
         "wounds": 10
     },
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 3
-            }
-        ],
+        "_id": "28a1c10f",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -203,9 +200,31 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
         "wounds": 12
     },
     {
+        "_id": "f2987e70",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Chainghast",
+        "points": 130,
+        "runemarks": [
+            "fly"
+        ],
+        "toughness": 4,
+        "warband": "Nighthaunt",
         "weapons": [
             {
                 "attacks": 2,
@@ -217,19 +236,21 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "death",
-        "movement": 6,
-        "name": "Chainghast",
-        "points": 130,
-        "runemarks": [
-            "fly"
-        ],
-        "toughness": 4,
-        "warband": "Nighthaunt",
         "wounds": 15
     },
     {
+        "_id": "ab1581bf",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Craven Huntmaster",
+        "points": 135,
+        "runemarks": [
+            "fly",
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Nighthaunt",
         "weapons": [
             {
                 "attacks": 2,
@@ -250,31 +271,10 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "death",
-        "movement": 6,
-        "name": "Craven Huntmaster",
-        "points": 135,
-        "runemarks": [
-            "fly",
-            "hero"
-        ],
-        "toughness": 4,
-        "warband": "Nighthaunt",
         "wounds": 15
     },
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "scythe",
-                "strength": 3
-            }
-        ],
+        "_id": "57a7d06e",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -286,20 +286,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 15
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 1,
+                "dmg_hit": 2,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 4
+                "runemark": "scythe",
+                "strength": 3
             }
         ],
+        "wounds": 15
+    },
+    {
+        "_id": "968b9396",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -312,20 +313,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            }
+        ],
         "wounds": 22
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "scythe",
-                "strength": 3
-            }
-        ],
+        "_id": "a6051678",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 10,
@@ -337,20 +339,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 20
-    },
-    {
         "weapons": [
             {
-                "attacks": 5,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "scythe",
                 "strength": 3
             }
         ],
+        "wounds": 20
+    },
+    {
+        "_id": "94d1c63f",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -363,20 +366,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 15
-    },
-    {
         "weapons": [
             {
-                "attacks": 6,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "dagger",
+                "runemark": "scythe",
                 "strength": 3
             }
         ],
+        "wounds": 15
+    },
+    {
+        "_id": "93d04ab5",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -388,9 +392,33 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 6,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
         "wounds": 28
     },
     {
+        "_id": "55721d23",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Guardian of Souls",
+        "points": 175,
+        "runemarks": [
+            "fly",
+            "hero",
+            "mystic"
+        ],
+        "toughness": 4,
+        "warband": "Nighthaunt",
         "weapons": [
             {
                 "attacks": 2,
@@ -411,32 +439,10 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "death",
-        "movement": 6,
-        "name": "Guardian of Souls",
-        "points": 175,
-        "runemarks": [
-            "fly",
-            "hero",
-            "mystic"
-        ],
-        "toughness": 4,
-        "warband": "Nighthaunt",
         "wounds": 20
     },
     {
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 5
-            }
-        ],
+        "_id": "1731bf20",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -448,9 +454,33 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
         "wounds": 20
     },
     {
+        "_id": "b27da0c3",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Tomb Banshee",
+        "points": 175,
+        "runemarks": [
+            "fly",
+            "hero",
+            "destroyer"
+        ],
+        "toughness": 4,
+        "warband": "Nighthaunt",
         "weapons": [
             {
                 "attacks": 4,
@@ -471,32 +501,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "death",
-        "movement": 6,
-        "name": "Tomb Banshee",
-        "points": 175,
-        "runemarks": [
-            "fly",
-            "hero",
-            "destroyer"
-        ],
-        "toughness": 4,
-        "warband": "Nighthaunt",
         "wounds": 18
     },
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "scythe",
-                "strength": 4
-            }
-        ],
+        "_id": "81c3e8e6",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -509,20 +517,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 18
-    },
-    {
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 4,
+                "attacks": 3,
+                "dmg_crit": 5,
                 "dmg_hit": 2,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "sword",
+                "runemark": "scythe",
                 "strength": 4
             }
         ],
+        "wounds": 18
+    },
+    {
+        "_id": "d5f876bf",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -535,20 +544,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
         "wounds": 20
     },
     {
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 3,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "reach",
-                "strength": 5
-            }
-        ],
+        "_id": "4b15e827",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -561,20 +571,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 5
+            }
+        ],
         "wounds": 25
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "scythe",
-                "strength": 3
-            }
-        ],
+        "_id": "65bb413a",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 10,
@@ -587,20 +598,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 25
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 4,
                 "dmg_hit": 1,
-                "max_range": 10,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "blast",
-                "strength": 4
+                "runemark": "scythe",
+                "strength": 3
             }
         ],
+        "wounds": 25
+    },
+    {
+        "_id": "dd5caf24",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 6,
@@ -612,20 +624,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 25
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
+                "dmg_hit": 1,
+                "max_range": 10,
                 "min_range": 0,
-                "runemark": "sword",
+                "runemark": "blast",
                 "strength": 4
             }
         ],
+        "wounds": 25
+    },
+    {
+        "_id": "6930e3c5",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 10,
@@ -638,9 +651,6 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 25
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -652,6 +662,10 @@
                 "strength": 4
             }
         ],
+        "wounds": 25
+    },
+    {
+        "_id": "2112939a",
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 10,
@@ -664,20 +678,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
         "wounds": 28
     },
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 3
-            }
-        ],
+        "_id": "85729664",
         "bladeborn": "Thorns of the Briar Queen",
         "grand_alliance": "death",
         "movement": 5,
@@ -689,20 +704,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 8
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 4,
+                "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "sword",
+                "runemark": "club",
                 "strength": 3
             }
         ],
+        "wounds": 8
+    },
+    {
+        "_id": "fbbef87c",
         "bladeborn": "Thorns of the Briar Queen",
         "grand_alliance": "death",
         "movement": 5,
@@ -714,20 +730,21 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
-        "wounds": 10
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
                 "dmg_crit": 4,
-                "dmg_hit": 2,
+                "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "sword",
                 "strength": 3
             }
         ],
+        "wounds": 10
+    },
+    {
+        "_id": "39b2a7eb",
         "bladeborn": "Thorns of the Briar Queen",
         "grand_alliance": "death",
         "movement": 5,
@@ -739,9 +756,32 @@
         ],
         "toughness": 4,
         "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
         "wounds": 16
     },
     {
+        "_id": "5e507418",
+        "bladeborn": "Thorns of the Briar Queen",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Briar Queen",
+        "points": 200,
+        "runemarks": [
+            "hero",
+            "fly"
+        ],
+        "toughness": 5,
+        "warband": "Nighthaunt",
         "weapons": [
             {
                 "attacks": 3,
@@ -762,17 +802,6 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "Thorns of the Briar Queen",
-        "grand_alliance": "death",
-        "movement": 5,
-        "name": "Briar Queen",
-        "points": 200,
-        "runemarks": [
-            "hero",
-            "fly"
-        ],
-        "toughness": 5,
-        "warband": "Nighthaunt",
         "wounds": 22
     }
 ]

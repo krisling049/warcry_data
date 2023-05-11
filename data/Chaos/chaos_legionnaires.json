@@ -1,5 +1,16 @@
 [
     {
+        "_id": "610ecc78",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Hornshield with Axe",
+        "points": 95,
+        "runemarks": [
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Chaos Legionnaires",
         "weapons": [
             {
                 "attacks": 3,
@@ -11,19 +22,20 @@
                 "strength": 5
             }
         ],
+        "wounds": 12
+    },
+    {
+        "_id": "bf85f674",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Hornshield with Axe",
+        "name": "Hornshield with Sword",
         "points": 95,
         "runemarks": [
             "bulwark"
         ],
         "toughness": 5,
         "warband": "Chaos Legionnaires",
-        "wounds": 12
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -35,19 +47,20 @@
                 "strength": 4
             }
         ],
+        "wounds": 12
+    },
+    {
+        "_id": "75ab8126",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Hornshield with Sword",
-        "points": 95,
+        "name": "Hornshield with Mace",
+        "points": 100,
         "runemarks": [
             "bulwark"
         ],
         "toughness": 5,
         "warband": "Chaos Legionnaires",
-        "wounds": 12
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -59,19 +72,20 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Hornshield with Mace",
-        "points": 100,
-        "runemarks": [
-            "bulwark"
-        ],
-        "toughness": 5,
-        "warband": "Chaos Legionnaires",
         "wounds": 12
     },
     {
+        "_id": "d6cae2e5",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Hornhelm with Darkiron Mace",
+        "points": 120,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 4,
+        "warband": "Chaos Legionnaires",
         "weapons": [
             {
                 "attacks": 3,
@@ -83,19 +97,20 @@
                 "strength": 4
             }
         ],
+        "wounds": 18
+    },
+    {
+        "_id": "0c7614aa",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Hornhelm with Darkiron Mace",
-        "points": 120,
+        "name": "Hornhelm with Steelbite Axe",
+        "points": 125,
         "runemarks": [
             "brute"
         ],
         "toughness": 4,
         "warband": "Chaos Legionnaires",
-        "wounds": 18
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -107,19 +122,20 @@
                 "strength": 5
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Hornhelm with Steelbite Axe",
-        "points": 125,
-        "runemarks": [
-            "brute"
-        ],
-        "toughness": 4,
-        "warband": "Chaos Legionnaires",
         "wounds": 18
     },
     {
+        "_id": "5c4182c6",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Mutandor",
+        "points": 145,
+        "runemarks": [
+            "berserker"
+        ],
+        "toughness": 4,
+        "warband": "Chaos Legionnaires",
         "weapons": [
             {
                 "attacks": 3,
@@ -131,30 +147,10 @@
                 "strength": 5
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Mutandor",
-        "points": 145,
-        "runemarks": [
-            "berserker"
-        ],
-        "toughness": 4,
-        "warband": "Chaos Legionnaires",
         "wounds": 18
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
+        "_id": "7b5234d0",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
@@ -166,6 +162,17 @@
         ],
         "toughness": 5,
         "warband": "Chaos Legionnaires",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
         "wounds": 22
     }
 ]

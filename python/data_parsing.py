@@ -54,15 +54,17 @@ class FighterJSONPayload(FighterDataPayload):
         return data
 
     def write_aggregate_file_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
+        sorted_data = [dict(sorted(x.items())) for x in self.data]
         with open(dst, 'w') as nf:
             print(f'Writing {len(self.data)} fighters to {dst}...')
-            json.dump(sort_data(self.data), nf, ensure_ascii=True, indent=4, sort_keys=False)
+            json.dump(sort_data(sorted_data), nf, ensure_ascii=True, indent=4, sort_keys=False)
 
     def write_warbands_to_disk(self, dst_root: Path = Path(Path(__file__).parent.parent, 'data')):
 
         warband_by_ga = dict()
 
         for fighter in self.data:
+            fighter = dict(sorted(fighter.items()))
             if fighter['grand_alliance'] not in warband_by_ga.keys():
                 warband_by_ga[fighter['grand_alliance']] = dict()
             if fighter['warband'] not in warband_by_ga[fighter['grand_alliance']].keys():

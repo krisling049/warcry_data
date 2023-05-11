@@ -1,16 +1,6 @@
 [
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 8,
-                "dmg_hit": 4,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 6
-            }
-        ],
+        "_id": "0014b0b1",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
@@ -22,20 +12,21 @@
         ],
         "toughness": 6,
         "warband": "chaos_ally",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 6
+            }
+        ],
         "wounds": 35
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 5
-            }
-        ],
+        "_id": "10fcdb0b",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 8,
@@ -47,20 +38,21 @@
         ],
         "toughness": 5,
         "warband": "chaos_ally",
-        "wounds": 30
-    },
-    {
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 8,
-                "dmg_hit": 4,
-                "max_range": 2,
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
                 "min_range": 0,
-                "runemark": "spear",
+                "runemark": "claws",
                 "strength": 5
             }
         ],
+        "wounds": 30
+    },
+    {
+        "_id": "f2e9c403",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
@@ -72,9 +64,33 @@
         ],
         "toughness": 6,
         "warband": "chaos_ally",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
         "wounds": 30
     },
     {
+        "_id": "2137fdcf",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Centaurian Marshal",
+        "points": 295,
+        "runemarks": [
+            "ally",
+            "bulwark",
+            "mount"
+        ],
+        "toughness": 5,
+        "warband": "chaos_ally",
         "weapons": [
             {
                 "attacks": 3,
@@ -95,18 +111,6 @@
                 "strength": 6
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 10,
-        "name": "Centaurian Marshal",
-        "points": 295,
-        "runemarks": [
-            "ally",
-            "bulwark",
-            "mount"
-        ],
-        "toughness": 5,
-        "warband": "chaos_ally",
         "wounds": 35
     }
 ]

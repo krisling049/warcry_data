@@ -1,16 +1,6 @@
 [
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 5
-            }
-        ],
+        "_id": "b7da3ff4",
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 4,
@@ -23,20 +13,21 @@
         ],
         "toughness": 4,
         "warband": "destruction_thrall",
-        "wounds": 28
-    },
-    {
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "club",
                 "strength": 5
             }
         ],
+        "wounds": 28
+    },
+    {
+        "_id": "a47621f5",
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 4,
@@ -48,6 +39,17 @@
         ],
         "toughness": 5,
         "warband": "destruction_thrall",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
         "wounds": 28
     }
 ]

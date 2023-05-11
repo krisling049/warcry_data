@@ -1,5 +1,16 @@
 [
     {
+        "_id": "fa54ab0a",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Mindbound",
+        "points": 70,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Cypher Lords",
         "weapons": [
             {
                 "attacks": 4,
@@ -11,30 +22,10 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Mindbound",
-        "points": 70,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 3,
-        "warband": "Cypher Lords",
         "wounds": 10
     },
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 3
-            }
-        ],
+        "_id": "04d47ae9",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
@@ -46,9 +37,31 @@
         ],
         "toughness": 3,
         "warband": "Cypher Lords",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
         "wounds": 10
     },
     {
+        "_id": "dd2d2743",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Mirrorblade with Duelling Swords",
+        "points": 130,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Cypher Lords",
         "weapons": [
             {
                 "attacks": 5,
@@ -60,30 +73,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Mirrorblade with Duelling Swords",
-        "points": 130,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 3,
-        "warband": "Cypher Lords",
         "wounds": 10
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 4
-            }
-        ],
+        "_id": "aecf9289",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
@@ -95,9 +88,31 @@
         ],
         "toughness": 3,
         "warband": "Cypher Lords",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
         "wounds": 10
     },
     {
+        "_id": "4db1881d",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Luminate",
+        "points": 175,
+        "runemarks": [
+            "mystic"
+        ],
+        "toughness": 4,
+        "warband": "Cypher Lords",
         "weapons": [
             {
                 "attacks": 5,
@@ -109,30 +124,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Luminate",
-        "points": 175,
-        "runemarks": [
-            "mystic"
-        ],
-        "toughness": 4,
-        "warband": "Cypher Lords",
         "wounds": 15
     },
     {
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 6,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 4
-            }
-        ],
+        "_id": "ea241336",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
@@ -144,6 +139,17 @@
         ],
         "toughness": 4,
         "warband": "Cypher Lords",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            }
+        ],
         "wounds": 20
     }
 ]

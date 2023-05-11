@@ -1,5 +1,16 @@
 [
     {
+        "_id": "bb658018",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Plaguebearer",
+        "points": 50,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin Of Nurgle Daemons",
         "weapons": [
             {
                 "attacks": 3,
@@ -11,30 +22,10 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 3,
-        "name": "Plaguebearer",
-        "points": 50,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 4,
-        "warband": "Maggotkin Of Nurgle Daemons",
         "wounds": 10
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 3
-            }
-        ],
+        "_id": "68ef25a4",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 3,
@@ -46,9 +37,31 @@
         ],
         "toughness": 4,
         "warband": "Maggotkin Of Nurgle Daemons",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
         "wounds": 15
     },
     {
+        "_id": "64aee8cd",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Nurglings",
+        "points": 105,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Maggotkin Of Nurgle Daemons",
         "weapons": [
             {
                 "attacks": 6,
@@ -60,19 +73,20 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Nurglings",
-        "points": 105,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 3,
-        "warband": "Maggotkin Of Nurgle Daemons",
         "wounds": 20
     },
     {
+        "_id": "384d1420",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Poxbringer",
+        "points": 130,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin Of Nurgle Daemons",
         "weapons": [
             {
                 "attacks": 4,
@@ -93,30 +107,10 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 3,
-        "name": "Poxbringer",
-        "points": 130,
-        "runemarks": [
-            "hero"
-        ],
-        "toughness": 4,
-        "warband": "Maggotkin Of Nurgle Daemons",
         "wounds": 20
     },
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
+        "_id": "04b82f5a",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
@@ -128,20 +122,21 @@
         ],
         "toughness": 4,
         "warband": "Maggotkin Of Nurgle Daemons",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
         "wounds": 20
     },
     {
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 3,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 5
-            }
-        ],
+        "_id": "f252c741",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 3,
@@ -153,20 +148,21 @@
         ],
         "toughness": 4,
         "warband": "Maggotkin Of Nurgle Daemons",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 5
+            }
+        ],
         "wounds": 22
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 4
-            }
-        ],
+        "_id": "872ffe2e",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
@@ -178,9 +174,6 @@
         ],
         "toughness": 4,
         "warband": "Maggotkin Of Nurgle Daemons",
-        "wounds": 30
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -188,10 +181,14 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "sword",
+                "runemark": "claws",
                 "strength": 4
             }
         ],
+        "wounds": 30
+    },
+    {
+        "_id": "67ae7666",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
@@ -203,12 +200,9 @@
         ],
         "toughness": 4,
         "warband": "Maggotkin Of Nurgle Daemons",
-        "wounds": 30
-    },
-    {
         "weapons": [
             {
-                "attacks": 5,
+                "attacks": 4,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
@@ -217,6 +211,10 @@
                 "strength": 4
             }
         ],
+        "wounds": 30
+    },
+    {
+        "_id": "f3ef89d8",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
@@ -229,6 +227,17 @@
         ],
         "toughness": 4,
         "warband": "Maggotkin Of Nurgle Daemons",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
         "wounds": 35
     }
 ]

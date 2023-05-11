@@ -1,5 +1,16 @@
 [
     {
+        "_id": "f4bd295d",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Chameleon Skink with Dartpipe",
+        "points": 70,
+        "runemarks": [
+            "agile"
+        ],
+        "toughness": 2,
+        "warband": "Hunters of Hunachi",
         "weapons": [
             {
                 "attacks": 2,
@@ -11,30 +22,10 @@
                 "strength": 1
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Chameleon Skink with Dartpipe",
-        "points": 70,
-        "runemarks": [
-            "agile"
-        ],
-        "toughness": 2,
-        "warband": "Hunters of Hunachi",
         "wounds": 8
     },
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 3
-            }
-        ],
+        "_id": "6b3bb614",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
@@ -46,9 +37,6 @@
         ],
         "toughness": 3,
         "warband": "Hunters of Hunachi",
-        "wounds": 8
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -60,6 +48,10 @@
                 "strength": 3
             }
         ],
+        "wounds": 8
+    },
+    {
+        "_id": "32e09a29",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
@@ -71,20 +63,21 @@
         ],
         "toughness": 2,
         "warband": "Hunters of Hunachi",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
         "wounds": 8
     },
     {
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 2,
-                "dmg_hit": 1,
-                "max_range": 6,
-                "min_range": 0,
-                "runemark": "ranged",
-                "strength": 1
-            }
-        ],
+        "_id": "0d66ab78",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
@@ -96,34 +89,6 @@
         ],
         "toughness": 2,
         "warband": "Hunters of Hunachi",
-        "wounds": 8
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 8,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 3
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Huanchi's Claw",
-        "points": 75,
-        "runemarks": [
-            "agile",
-            "icon-bearer"
-        ],
-        "toughness": 3,
-        "warband": "Hunters of Hunachi",
-        "wounds": 10
-    },
-    {
         "weapons": [
             {
                 "attacks": 2,
@@ -135,6 +100,36 @@
                 "strength": 1
             }
         ],
+        "wounds": 8
+    },
+    {
+        "_id": "e69ae498",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Huanchi's Claw",
+        "points": 75,
+        "runemarks": [
+            "agile",
+            "icon-bearer"
+        ],
+        "toughness": 3,
+        "warband": "Hunters of Hunachi",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "5169c103",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
@@ -146,20 +141,21 @@
         ],
         "toughness": 2,
         "warband": "Hunters of Hunachi",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 1
+            }
+        ],
         "wounds": 12
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 3
-            }
-        ],
+        "_id": "40e91b1b",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
@@ -172,20 +168,21 @@
         ],
         "toughness": 3,
         "warband": "Hunters of Hunachi",
-        "wounds": 12
-    },
-    {
         "weapons": [
             {
-                "attacks": 3,
+                "attacks": 4,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "claws",
+                "runemark": "club",
                 "strength": 3
             }
         ],
+        "wounds": 12
+    },
+    {
+        "_id": "1f36c1e8",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 8,
@@ -197,6 +194,17 @@
         ],
         "toughness": 3,
         "warband": "Hunters of Hunachi",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
         "wounds": 10
     }
 ]

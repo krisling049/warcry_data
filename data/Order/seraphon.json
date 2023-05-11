@@ -1,5 +1,16 @@
 [
     {
+        "_id": "a9714107",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Skink with Club & Shield",
+        "points": 70,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 3,
@@ -11,19 +22,20 @@
                 "strength": 2
             }
         ],
+        "wounds": 8
+    },
+    {
+        "_id": "36d26aad",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink with Club & Shield",
+        "name": "Skink Handler",
         "points": 70,
         "runemarks": [
             "minion"
         ],
-        "toughness": 3,
+        "toughness": 2,
         "warband": "Seraphon",
-        "wounds": 8
-    },
-    {
         "weapons": [
             {
                 "attacks": 2,
@@ -35,19 +47,20 @@
                 "strength": 2
             }
         ],
+        "wounds": 8
+    },
+    {
+        "_id": "92d950bd",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink Handler",
-        "points": 70,
+        "name": "Skink with Boltspitter and Club",
+        "points": 75,
         "runemarks": [
             "minion"
         ],
         "toughness": 2,
         "warband": "Seraphon",
-        "wounds": 8
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -68,19 +81,20 @@
                 "strength": 1
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Skink with Boltspitter and Club",
-        "points": 75,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 2,
-        "warband": "Seraphon",
         "wounds": 8
     },
     {
+        "_id": "1e674f31",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Skink with Javelin and Shield",
+        "points": 80,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 3,
@@ -101,19 +115,20 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Skink with Javelin and Shield",
-        "points": 80,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 3,
-        "warband": "Seraphon",
         "wounds": 8
     },
     {
+        "_id": "f240ce35",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Saurus Warrior with Club",
+        "points": 85,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 4,
@@ -125,19 +140,20 @@
                 "strength": 4
             }
         ],
+        "wounds": 12
+    },
+    {
+        "_id": "c7032f04",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Saurus Warrior with Club",
-        "points": 85,
+        "name": "Saurus Warrior with Spear",
+        "points": 90,
         "runemarks": [
             "warrior"
         ],
         "toughness": 4,
         "warband": "Seraphon",
-        "wounds": 12
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -149,30 +165,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Saurus Warrior with Spear",
-        "points": 90,
-        "runemarks": [
-            "warrior"
-        ],
-        "toughness": 4,
-        "warband": "Seraphon",
         "wounds": 12
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 3
-            }
-        ],
+        "_id": "fe03cd8f",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
@@ -184,9 +180,32 @@
         ],
         "toughness": 3,
         "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
         "wounds": 12
     },
     {
+        "_id": "a08a58ef",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Skink Alpha with Bonespitter & Club",
+        "points": 105,
+        "runemarks": [
+            "hero",
+            "minion"
+        ],
+        "toughness": 2,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 4,
@@ -207,20 +226,20 @@
                 "strength": 1
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Skink Alpha with Bonespitter & Club",
-        "points": 105,
-        "runemarks": [
-            "hero",
-            "minion"
-        ],
-        "toughness": 2,
-        "warband": "Seraphon",
         "wounds": 12
     },
     {
+        "_id": "fde45ce6",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Saurus Guard",
+        "points": 120,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 3,
@@ -232,39 +251,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Saurus Guard",
-        "points": 120,
-        "runemarks": [
-            "warrior"
-        ],
-        "toughness": 5,
-        "warband": "Seraphon",
         "wounds": 15
     },
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 3
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 3,
-                "max_range": 7,
-                "min_range": 3,
-                "runemark": "blast",
-                "strength": 3
-            }
-        ],
+        "_id": "27112a0a",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
@@ -277,9 +267,40 @@
         ],
         "toughness": 3,
         "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
         "wounds": 18
     },
     {
+        "_id": "f147c1ba",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Salamander",
+        "points": 135,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 3,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 2,
@@ -291,30 +312,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Salamander",
-        "points": 135,
-        "runemarks": [
-            "beast"
-        ],
-        "toughness": 3,
-        "warband": "Seraphon",
         "wounds": 16
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 4
-            }
-        ],
+        "_id": "eeab8259",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
@@ -326,9 +327,31 @@
         ],
         "toughness": 4,
         "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
         "wounds": 16
     },
     {
+        "_id": "63234b3a",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Razordon",
+        "points": 145,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 4,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 5,
@@ -340,19 +363,22 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Razordon",
-        "points": 145,
-        "runemarks": [
-            "beast"
-        ],
-        "toughness": 4,
-        "warband": "Seraphon",
         "wounds": 16
     },
     {
+        "_id": "97071a01",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Skink Starpriest",
+        "points": 145,
+        "runemarks": [
+            "hero",
+            "minion",
+            "Priest"
+        ],
+        "toughness": 3,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 3,
@@ -373,32 +399,10 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Skink Starpriest",
-        "points": 145,
-        "runemarks": [
-            "hero",
-            "minion",
-            "Priest"
-        ],
-        "toughness": 3,
-        "warband": "Seraphon",
         "wounds": 18
     },
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
-            }
-        ],
+        "_id": "6c790e4b",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
@@ -411,9 +415,31 @@
         ],
         "toughness": 4,
         "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
         "wounds": 25
     },
     {
+        "_id": "63066e2a",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Saurus Knight with Blade",
+        "points": 160,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 4,
@@ -425,19 +451,20 @@
                 "strength": 4
             }
         ],
+        "wounds": 20
+    },
+    {
+        "_id": "6da35a11",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Saurus Knight with Blade",
-        "points": 160,
+        "name": "Saurus Knight with Spear",
+        "points": 165,
         "runemarks": [
             "warrior"
         ],
         "toughness": 4,
         "warband": "Seraphon",
-        "wounds": 20
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -449,30 +476,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Saurus Knight with Spear",
-        "points": 165,
-        "runemarks": [
-            "warrior"
-        ],
-        "toughness": 4,
-        "warband": "Seraphon",
         "wounds": 20
     },
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 4
-            }
-        ],
+        "_id": "a17f32e9",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
@@ -484,9 +491,32 @@
         ],
         "toughness": 4,
         "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
         "wounds": 15
     },
     {
+        "_id": "73828e4c",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 12,
+        "name": "Terradon Rider with Sunleech Bolas",
+        "points": 170,
+        "runemarks": [
+            "fly",
+            "frenzied"
+        ],
+        "toughness": 3,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 3,
@@ -507,10 +537,14 @@
                 "strength": 3
             }
         ],
+        "wounds": 15
+    },
+    {
+        "_id": "ad0c18b7",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 12,
-        "name": "Terradon Rider with Sunleech Bolas",
+        "name": "Terradon Rider with Starstrike Javelin",
         "points": 170,
         "runemarks": [
             "fly",
@@ -518,9 +552,6 @@
         ],
         "toughness": 3,
         "warband": "Seraphon",
-        "wounds": 15
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -541,31 +572,10 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 12,
-        "name": "Terradon Rider with Starstrike Javelin",
-        "points": 170,
-        "runemarks": [
-            "fly",
-            "frenzied"
-        ],
-        "toughness": 3,
-        "warband": "Seraphon",
         "wounds": 15
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 4
-            }
-        ],
+        "_id": "0786e4e6",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
@@ -577,20 +587,21 @@
         ],
         "toughness": 5,
         "warband": "Seraphon",
-        "wounds": 20
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
-                "dmg_crit": 4,
+                "dmg_crit": 5,
                 "dmg_hit": 2,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "club",
                 "strength": 4
             }
         ],
+        "wounds": 20
+    },
+    {
+        "_id": "cfdb15bd",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
@@ -602,9 +613,31 @@
         ],
         "toughness": 5,
         "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
         "wounds": 25
     },
     {
+        "_id": "48f9dfeb",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Kroxigor",
+        "points": 180,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 2,
@@ -616,30 +649,10 @@
                 "strength": 5
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Kroxigor",
-        "points": 180,
-        "runemarks": [
-            "warrior"
-        ],
-        "toughness": 4,
-        "warband": "Seraphon",
         "wounds": 28
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 4
-            }
-        ],
+        "_id": "60ee60c9",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
@@ -651,20 +664,21 @@
         ],
         "toughness": 5,
         "warband": "Seraphon",
-        "wounds": 25
-    },
-    {
         "weapons": [
             {
-                "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 12,
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
                 "min_range": 0,
-                "runemark": "blast",
+                "runemark": "club",
                 "strength": 4
             }
         ],
+        "wounds": 25
+    },
+    {
+        "_id": "d25dc24f",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
@@ -677,20 +691,21 @@
         ],
         "toughness": 3,
         "warband": "Seraphon",
-        "wounds": 20
-    },
-    {
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 12,
                 "min_range": 0,
-                "runemark": "mace",
+                "runemark": "blast",
                 "strength": 4
             }
         ],
+        "wounds": 20
+    },
+    {
+        "_id": "ba3c9ea2",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
@@ -702,9 +717,6 @@
         ],
         "toughness": 4,
         "warband": "Seraphon",
-        "wounds": 28
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -712,10 +724,14 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "club",
+                "runemark": "mace",
                 "strength": 4
             }
         ],
+        "wounds": 28
+    },
+    {
+        "_id": "32683094",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
@@ -727,9 +743,33 @@
         ],
         "toughness": 4,
         "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
         "wounds": 25
     },
     {
+        "_id": "eacd821f",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 12,
+        "name": "Terradon Rider Alpha with Starstrike Javelin",
+        "points": 195,
+        "runemarks": [
+            "fly",
+            "hero",
+            "frenzied"
+        ],
+        "toughness": 3,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 3,
@@ -750,11 +790,15 @@
                 "strength": 3
             }
         ],
+        "wounds": 20
+    },
+    {
+        "_id": "ab0f3a47",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 12,
-        "name": "Terradon Rider Alpha with Starstrike Javelin",
-        "points": 195,
+        "name": "Terradon Rider Alpha with Sunleech Bolas",
+        "points": 200,
         "runemarks": [
             "fly",
             "hero",
@@ -762,9 +806,6 @@
         ],
         "toughness": 3,
         "warband": "Seraphon",
-        "wounds": 20
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -785,32 +826,10 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 12,
-        "name": "Terradon Rider Alpha with Sunleech Bolas",
-        "points": 200,
-        "runemarks": [
-            "fly",
-            "hero",
-            "frenzied"
-        ],
-        "toughness": 3,
-        "warband": "Seraphon",
         "wounds": 20
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
-            }
-        ],
+        "_id": "8c2e4bbc",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 7,
@@ -823,9 +842,6 @@
         ],
         "toughness": 5,
         "warband": "Seraphon",
-        "wounds": 28
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -833,10 +849,14 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "fangs",
+                "runemark": "axe",
                 "strength": 4
             }
         ],
+        "wounds": 28
+    },
+    {
+        "_id": "bc5abb52",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
@@ -849,9 +869,6 @@
         ],
         "toughness": 4,
         "warband": "Seraphon",
-        "wounds": 20
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -859,10 +876,14 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "sword",
+                "runemark": "fangs",
                 "strength": 4
             }
         ],
+        "wounds": 20
+    },
+    {
+        "_id": "e86b81b0",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 12,
@@ -875,9 +896,6 @@
         ],
         "toughness": 3,
         "warband": "Seraphon",
-        "wounds": 25
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -885,10 +903,14 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
+                "runemark": "sword",
                 "strength": 4
             }
         ],
+        "wounds": 25
+    },
+    {
+        "_id": "6bd9512b",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
@@ -901,20 +923,21 @@
         ],
         "toughness": 4,
         "warband": "Seraphon",
-        "wounds": 25
-    },
-    {
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 12,
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
                 "min_range": 0,
-                "runemark": "blast",
+                "runemark": "axe",
                 "strength": 4
             }
         ],
+        "wounds": 25
+    },
+    {
+        "_id": "74f71987",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
@@ -927,9 +950,31 @@
         ],
         "toughness": 4,
         "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 12,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
         "wounds": 32
     },
     {
+        "_id": "add3b00a",
+        "bladeborn": "The Starblood Stalkers",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Xepic",
+        "points": 65,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 3,
@@ -941,19 +986,21 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "The Starblood Stalkers",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Xepic",
-        "points": 65,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 3,
-        "warband": "Seraphon",
         "wounds": 10
     },
     {
+        "_id": "b8021dae",
+        "bladeborn": "The Starblood Stalkers",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Otapatl",
+        "points": 80,
+        "runemarks": [
+            "minion",
+            "scout"
+        ],
+        "toughness": 2,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 2,
@@ -974,20 +1021,20 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "The Starblood Stalkers",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Otapatl",
-        "points": 80,
-        "runemarks": [
-            "minion",
-            "scout"
-        ],
-        "toughness": 2,
-        "warband": "Seraphon",
         "wounds": 10
     },
     {
+        "_id": "a0be7ffd",
+        "bladeborn": "The Starblood Stalkers",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Tok",
+        "points": 80,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 2,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 3,
@@ -1008,19 +1055,20 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "The Starblood Stalkers",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Tok",
-        "points": 80,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 2,
-        "warband": "Seraphon",
         "wounds": 10
     },
     {
+        "_id": "d7ee917f",
+        "bladeborn": "The Starblood Stalkers",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Huachi",
+        "points": 90,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 3,
@@ -1041,19 +1089,21 @@
                 "strength": 3
             }
         ],
+        "wounds": 10
+    },
+    {
+        "_id": "76ecea40",
         "bladeborn": "The Starblood Stalkers",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Huachi",
-        "points": 90,
+        "name": "Kixi-Taka The Diviner",
+        "points": 125,
         "runemarks": [
+            "hero",
             "minion"
         ],
         "toughness": 3,
         "warband": "Seraphon",
-        "wounds": 10
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -1074,20 +1124,20 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "The Starblood Stalkers",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Kixi-Taka The Diviner",
-        "points": 125,
-        "runemarks": [
-            "hero",
-            "minion"
-        ],
-        "toughness": 3,
-        "warband": "Seraphon",
         "wounds": 18
     },
     {
+        "_id": "1e35ab7c",
+        "bladeborn": "The Starblood Stalkers",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Klaq-Trok",
+        "points": 190,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 4,
@@ -1099,16 +1149,6 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "The Starblood Stalkers",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Klaq-Trok",
-        "points": 190,
-        "runemarks": [
-            "warrior"
-        ],
-        "toughness": 5,
-        "warband": "Seraphon",
         "wounds": 28
     }
 ]

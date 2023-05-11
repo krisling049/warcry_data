@@ -1,25 +1,6 @@
 [
     {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 2,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 3
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 2,
-                "dmg_hit": 1,
-                "max_range": 10,
-                "min_range": 3,
-                "runemark": "blast",
-                "strength": 3
-            }
-        ],
+        "_id": "dd82d618",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
@@ -30,13 +11,10 @@
         ],
         "toughness": 3,
         "warband": "Disciples of Tzeentch Daemons",
-        "wounds": 6
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 3,
+                "dmg_crit": 2,
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
@@ -45,7 +23,7 @@
             },
             {
                 "attacks": 2,
-                "dmg_crit": 3,
+                "dmg_crit": 2,
                 "dmg_hit": 1,
                 "max_range": 10,
                 "min_range": 3,
@@ -53,6 +31,10 @@
                 "strength": 3
             }
         ],
+        "wounds": 6
+    },
+    {
+        "_id": "eb289d08",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
@@ -63,9 +45,40 @@
         ],
         "toughness": 3,
         "warband": "Disciples of Tzeentch Daemons",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
         "wounds": 8
     },
     {
+        "_id": "dbd31de4",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Pink Horror",
+        "points": 135,
+        "runemarks": [
+            "elite"
+        ],
+        "toughness": 3,
+        "warband": "Disciples of Tzeentch Daemons",
         "weapons": [
             {
                 "attacks": 3,
@@ -86,19 +99,21 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Pink Horror",
-        "points": 135,
-        "runemarks": [
-            "elite"
-        ],
-        "toughness": 3,
-        "warband": "Disciples of Tzeentch Daemons",
         "wounds": 12
     },
     {
+        "_id": "d7466c2d",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Changecaster with Ritual Dagger",
+        "points": 160,
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "toughness": 3,
+        "warband": "Disciples of Tzeentch Daemons",
         "weapons": [
             {
                 "attacks": 3,
@@ -119,10 +134,14 @@
                 "strength": 3
             }
         ],
+        "wounds": 20
+    },
+    {
+        "_id": "dabe2c46",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Changecaster with Ritual Dagger",
+        "name": "Changecaster with Staff of Change",
         "points": 160,
         "runemarks": [
             "hero",
@@ -130,9 +149,6 @@
         ],
         "toughness": 3,
         "warband": "Disciples of Tzeentch Daemons",
-        "wounds": 20
-    },
-    {
         "weapons": [
             {
                 "attacks": 2,
@@ -153,20 +169,21 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Changecaster with Staff of Change",
-        "points": 160,
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
-        "toughness": 3,
-        "warband": "Disciples of Tzeentch Daemons",
         "wounds": 20
     },
     {
+        "_id": "d6f5111f",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Flamer of Tzeentch",
+        "points": 165,
+        "runemarks": [
+            "fly",
+            "berserker"
+        ],
+        "toughness": 3,
+        "warband": "Disciples of Tzeentch Daemons",
         "weapons": [
             {
                 "attacks": 2,
@@ -187,20 +204,21 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 8,
-        "name": "Flamer of Tzeentch",
-        "points": 165,
-        "runemarks": [
-            "fly",
-            "berserker"
-        ],
-        "toughness": 3,
-        "warband": "Disciples of Tzeentch Daemons",
         "wounds": 15
     },
     {
+        "_id": "e885ee58",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Iridescent Horror",
+        "points": 170,
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "toughness": 3,
+        "warband": "Disciples of Tzeentch Daemons",
         "weapons": [
             {
                 "attacks": 4,
@@ -221,20 +239,22 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Iridescent Horror",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "elite"
-        ],
-        "toughness": 3,
-        "warband": "Disciples of Tzeentch Daemons",
         "wounds": 16
     },
     {
+        "_id": "b111e7d4",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Pyrocaster",
+        "points": 205,
+        "runemarks": [
+            "fly",
+            "hero",
+            "berserker"
+        ],
+        "toughness": 3,
+        "warband": "Disciples of Tzeentch Daemons",
         "weapons": [
             {
                 "attacks": 2,
@@ -255,32 +275,10 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 8,
-        "name": "Pyrocaster",
-        "points": 205,
-        "runemarks": [
-            "fly",
-            "hero",
-            "berserker"
-        ],
-        "toughness": 3,
-        "warband": "Disciples of Tzeentch Daemons",
         "wounds": 20
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 4
-            }
-        ],
+        "_id": "215e2324",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 12,
@@ -293,9 +291,32 @@
         ],
         "toughness": 3,
         "warband": "Disciples of Tzeentch Daemons",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
         "wounds": 18
     },
     {
+        "_id": "e7af09fd",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Exalted Flamer of Tzeentch",
+        "points": 220,
+        "runemarks": [
+            "fly",
+            "berserker"
+        ],
+        "toughness": 3,
+        "warband": "Disciples of Tzeentch Daemons",
         "weapons": [
             {
                 "attacks": 2,
@@ -316,20 +337,22 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 8,
-        "name": "Exalted Flamer of Tzeentch",
-        "points": 220,
-        "runemarks": [
-            "fly",
-            "berserker"
-        ],
-        "toughness": 3,
-        "warband": "Disciples of Tzeentch Daemons",
         "wounds": 25
     },
     {
+        "_id": "af73b2d6",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 12,
+        "name": "Fluxmaster with Ritual Dagger",
+        "points": 240,
+        "runemarks": [
+            "fly",
+            "hero",
+            "mystic"
+        ],
+        "toughness": 3,
+        "warband": "Disciples of Tzeentch Daemons",
         "weapons": [
             {
                 "attacks": 4,
@@ -350,10 +373,14 @@
                 "strength": 3
             }
         ],
+        "wounds": 25
+    },
+    {
+        "_id": "1f6c0b79",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 12,
-        "name": "Fluxmaster with Ritual Dagger",
+        "name": "Fluxmaster with Staff of Change",
         "points": 240,
         "runemarks": [
             "fly",
@@ -362,9 +389,6 @@
         ],
         "toughness": 3,
         "warband": "Disciples of Tzeentch Daemons",
-        "wounds": 25
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -385,18 +409,6 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 12,
-        "name": "Fluxmaster with Staff of Change",
-        "points": 240,
-        "runemarks": [
-            "fly",
-            "hero",
-            "mystic"
-        ],
-        "toughness": 3,
-        "warband": "Disciples of Tzeentch Daemons",
         "wounds": 25
     }
 ]
