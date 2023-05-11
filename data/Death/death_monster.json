@@ -1,0 +1,54 @@
+[
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 12,
+        "name": "Terrorgheist",
+        "points": 500,
+        "runemarks": [
+            "fly",
+            "monster",
+            "terrifying"
+        ],
+        "toughness": 4,
+        "warband": "death_monster",
+        "wounds": 50
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 12,
+        "name": "Zombie Dragon",
+        "points": 540,
+        "runemarks": [
+            "fly",
+            "monster",
+            "brute"
+        ],
+        "toughness": 4,
+        "warband": "death_monster",
+        "wounds": 50
+    }
+]

@@ -1,0 +1,1170 @@
+[
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Gryph-Hound",
+        "points": 115,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 4,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator with Hammer & Shield",
+        "points": 120,
+        "runemarks": [
+            "warrior",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator with Sword & Shield",
+        "points": 130,
+        "runemarks": [
+            "warrior",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Retributor",
+        "points": 130,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Decimator",
+        "points": 135,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator with 2 Hammers",
+        "points": 135,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator with 2 Swords",
+        "points": 140,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Protector",
+        "points": 140,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator with Great Hammer",
+        "points": 155,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Paladin with Starsoul Mace",
+        "points": 155,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator with Grandblade",
+        "points": 160,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator-Prime with Hammer & Shield",
+        "points": 170,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Knight Vexillor",
+        "points": 175,
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 28
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator-Prime with Sword & Shield",
+        "points": 180,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Lord Relictor",
+        "points": 180,
+        "runemarks": [
+            "hero",
+            "Priest"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 30
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Lord Veritant",
+        "points": 180,
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 30
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Retributor Prime",
+        "points": 180,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Knight Heraldor",
+        "points": 185,
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 28
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Decimator Prime",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Knight Questor",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 28
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator-Prime with Paired Blades",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Judicator with Boltstorm Crossbow",
+        "points": 195,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Lord Castellant",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 30
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Protector Prime",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 20,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Judicator with Skybolt Bow",
+        "points": 200,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor with Hammer & Shield",
+        "points": 200,
+        "runemarks": [
+            "fly",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Lord Celestant",
+        "points": 215,
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 30
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor with Javelin & Shield",
+        "points": 215,
+        "runemarks": [
+            "fly",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor with 2 Hammers",
+        "points": 220,
+        "runemarks": [
+            "fly"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Judicator-Prime with Boltstorm Crossbow",
+        "points": 230,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor with Great Axe",
+        "points": 230,
+        "runemarks": [
+            "fly"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 20,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Judicator with Shockbolt Bow",
+        "points": 235,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 20,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Judicator-Prime with Skybolt Bow",
+        "points": 235,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor with Trident & Shield",
+        "points": 235,
+        "runemarks": [
+            "fly",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Judicator with Thunderbolt Crossbow",
+        "points": 240,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor with Grandhammer",
+        "points": 240,
+        "runemarks": [
+            "fly"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor with Grandblade",
+        "points": 250,
+        "runemarks": [
+            "fly"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor-Prime with Hammer & Shield",
+        "points": 255,
+        "runemarks": [
+            "fly",
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor-Prime with Javelin & Shield",
+        "points": 275,
+        "runemarks": [
+            "fly",
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor-Prime with paired Hammers",
+        "points": 280,
+        "runemarks": [
+            "fly",
+            "hero"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "Steelheart's Champions",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Angharad Brightshield",
+        "points": 175,
+        "runemarks": [
+            "bulwark",
+            "warrior"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 22
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "Steelheart's Champions",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Obryn the Bold",
+        "points": 185,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 22
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "Steelheart's Champions",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Severin Steelheart",
+        "points": 205,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "wounds": 30
+    }
+]

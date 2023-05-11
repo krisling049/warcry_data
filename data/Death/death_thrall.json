@@ -1,0 +1,53 @@
+[
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "name": "Dire Wolf",
+        "points": 85,
+        "runemarks": [
+            "thrall",
+            "scout"
+        ],
+        "toughness": 3,
+        "warband": "death_thrall",
+        "wounds": 10
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 10,
+        "name": "Fell Bat",
+        "points": 130,
+        "runemarks": [
+            "fly",
+            "thrall",
+            "frenzied"
+        ],
+        "toughness": 3,
+        "warband": "death_thrall",
+        "wounds": 12
+    }
+]

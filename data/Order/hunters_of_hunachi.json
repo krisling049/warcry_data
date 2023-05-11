@@ -1,0 +1,202 @@
+[
+    {
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 1
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Chameleon Skink with Dartpipe",
+        "points": 70,
+        "runemarks": [
+            "agile"
+        ],
+        "toughness": 2,
+        "warband": "Hunters of Hunachi",
+        "wounds": 8
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Chameleon Skink with Moonstone Club",
+        "points": 70,
+        "runemarks": [
+            "agile",
+            "trapper"
+        ],
+        "toughness": 3,
+        "warband": "Hunters of Hunachi",
+        "wounds": 8
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Chameleon Skink Hornblower with Moonstone Club",
+        "points": 70,
+        "runemarks": [
+            "agile",
+            "scout"
+        ],
+        "toughness": 2,
+        "warband": "Hunters of Hunachi",
+        "wounds": 8
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 1
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Chameleon Skink Hornblower with Dartpipe",
+        "points": 75,
+        "runemarks": [
+            "agile",
+            "scout"
+        ],
+        "toughness": 2,
+        "warband": "Hunters of Hunachi",
+        "wounds": 8
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Huanchi's Claw",
+        "points": 75,
+        "runemarks": [
+            "agile",
+            "icon-bearer"
+        ],
+        "toughness": 3,
+        "warband": "Hunters of Hunachi",
+        "wounds": 10
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 1
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Chameleon Skink Alpha with Dartpipe",
+        "points": 90,
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
+        "toughness": 2,
+        "warband": "Hunters of Hunachi",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Chameleon Skink Alpha with Moonstone Club",
+        "points": 90,
+        "runemarks": [
+            "hero",
+            "agile",
+            "trapper"
+        ],
+        "toughness": 3,
+        "warband": "Hunters of Hunachi",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Terrawing",
+        "points": 90,
+        "runemarks": [
+            "fly",
+            "beast"
+        ],
+        "toughness": 3,
+        "warband": "Hunters of Hunachi",
+        "wounds": 10
+    }
+]

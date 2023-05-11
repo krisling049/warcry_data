@@ -1,0 +1,173 @@
+[
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Mirefolk Outcasts with Bilewood Weapon & Shield",
+        "points": 65,
+        "runemarks": [
+            "scout"
+        ],
+        "toughness": 4,
+        "warband": "Rotmire Creed",
+        "wounds": 10
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Mirefolk Outcasts with Bilewood Weapons",
+        "points": 65,
+        "runemarks": [
+            "scout"
+        ],
+        "toughness": 3,
+        "warband": "Rotmire Creed",
+        "wounds": 10
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "hook",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Carrion Catcher with Snatcher Hook",
+        "points": 110,
+        "runemarks": [
+            "scout",
+            "destroyer"
+        ],
+        "toughness": 4,
+        "warband": "Rotmire Creed",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "scythe",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Carrion Catcher with Impaler",
+        "points": 115,
+        "runemarks": [
+            "scout"
+        ],
+        "toughness": 4,
+        "warband": "Rotmire Creed",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Bloated one with Raker-claws and Hooked Net",
+        "points": 140,
+        "runemarks": [
+            "brute",
+            "trapper"
+        ],
+        "toughness": 4,
+        "warband": "Rotmire Creed",
+        "wounds": 18
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Bloated One with Raker-claws",
+        "points": 145,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 4,
+        "warband": "Rotmire Creed",
+        "wounds": 18
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "hook",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Witherlord",
+        "points": 175,
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "toughness": 4,
+        "warband": "Rotmire Creed",
+        "wounds": 20
+    }
+]
