@@ -36,6 +36,10 @@ class DataPayload:
     def write_to_disk(cls, dst: Path):
         raise NotImplementedError('class requires a write_to_disk class method')
 
+    @classmethod
+    def validate_data(cls):
+        raise NotImplementedError('class requires a validate_data class method')
+
 
 # noinspection PyAbstractClass
 class FighterDataPayload(DataPayload):
@@ -54,13 +58,18 @@ class FighterJSONPayload(FighterDataPayload):
         return data
 
     def write_aggregate_file_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
+        self.validate_data()
         sorted_data = [dict(sorted(x.items())) for x in self.data]
         with open(dst, 'w') as nf:
             print(f'Writing {len(self.data)} fighters to {dst}...')
             json.dump(sort_data(sorted_data), nf, ensure_ascii=True, indent=4, sort_keys=False)
 
+    def validate_data(self):
+        pass
+
     def write_warbands_to_disk(self, dst_root: Path = Path(Path(__file__).parent.parent, 'data')):
 
+        self.validate_data()
         warband_by_ga = dict()
 
         for fighter in self.data:
