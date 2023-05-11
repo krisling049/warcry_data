@@ -49,14 +49,9 @@ class FighterDataPayload(DataPayload):
 class FighterJSONPayload(FighterDataPayload):
 
     def load_data(self) -> List[Dict]:
-        # We treat the warband files as our source of truth so those are the ones we load
-        data_root = Path(Path(__file__).parent.parent, 'data')
-        files = [x for x in list(data_root.glob('**/*.json')) if x.name != 'fighters.json']
-        data = list()  # type: List[Dict]
-        for file in files:
-            with open(file, 'r') as f:
-                data.extend(json.load(f))
-
+        # We treat the fighters.json file as our source of truth so this is the one we load
+        with open(self.src_file, 'r') as f:
+            data = json.load(f)
         return data
 
     def write_aggregate_file_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
