@@ -16,6 +16,19 @@ def cheapest_fighters(fighter_data: List[Dict]) -> Dict:
     return cheapos
 
 
+def get_fighter_type(dude: dict) -> dict:
+    types = list()
+    for t in ['hero', 'monster', 'thrall', 'ally']:
+        if t in dude['runemarks']:
+            types.append(t)
+    if dude['bladeborn']:
+        types.append('bladeborn')
+    if len(types) == 0:
+        types.append('fighter')
+    dude['fighter_type'] = types
+    return dude
+
+
 if __name__ == '__main__':
     src_data = Path(Path(__file__).parent.parent, 'data', 'fighters.json')
 
@@ -24,11 +37,13 @@ if __name__ == '__main__':
 
     new_data = list()
 
-    # Do stuff with data, put it into new_data
+    for fighter in data:
+        get_fighter_type(fighter)
+        # not adding to new_data yet
 
     data_payload.data = sort_data(new_data)
 
-    data_payload.write_aggregate_file_to_disk()
-    data_payload.write_warbands_to_disk()
+    # data_payload.write_aggregate_file_to_disk()
+    # data_payload.write_warbands_to_disk()
 
     z = 1 + 2
