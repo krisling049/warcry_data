@@ -85,6 +85,31 @@
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
         "wounds": 12
     },
+        {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 2
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 12,
+        "name": "Aetherwing",
+        "points": 115,
+        "runemarks": [
+            "fly",
+            "scout"
+        ],
+        "toughness": 2,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 6
+    },
     {
         "weapons": [
             {
