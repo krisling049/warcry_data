@@ -3,6 +3,72 @@
         "weapons": [
             {
                 "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Plains-runner",
+        "points": 55,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Untamed Beasts",
+        "wounds": 8
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Preytaker with Fanged Axe",
+        "points": 100,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Untamed Beasts",
+        "wounds": 10
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Preytaker with Sawtooth Blade",
+        "points": 100,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Untamed Beasts",
+        "wounds": 10
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
                 "dmg_crit": 4,
                 "dmg_hit": 1,
                 "max_range": 1,
@@ -28,7 +94,6 @@
         "runemarks": [
             "agile"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "Untamed Beasts",
         "wounds": 15
@@ -62,104 +127,9 @@
         "runemarks": [
             "brute"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "Untamed Beasts",
         "wounds": 15
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 5
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Heart-Eater",
-        "points": 200,
-        "runemarks": [
-            "hero"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "Untamed Beasts",
-        "wounds": 20
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 3
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Plains-runner",
-        "points": 55,
-        "runemarks": [],
-        "subtitle": "",
-        "toughness": 3,
-        "warband": "Untamed Beasts",
-        "wounds": 8
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 5
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Preytaker with Fanged Axe",
-        "points": 100,
-        "runemarks": [],
-        "subtitle": "with Fanged Axe",
-        "toughness": 4,
-        "warband": "Untamed Beasts",
-        "wounds": 10
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Preytaker with Sawtooth Blade",
-        "points": 100,
-        "runemarks": [],
-        "subtitle": "with Sawtooth Blade",
-        "toughness": 4,
-        "warband": "Untamed Beasts",
-        "wounds": 10
     },
     {
         "weapons": [
@@ -181,7 +151,30 @@
         "runemarks": [
             "beast"
         ],
-        "subtitle": "",
+        "toughness": 4,
+        "warband": "Untamed Beasts",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Heart-Eater",
+        "points": 200,
+        "runemarks": [
+            "hero"
+        ],
         "toughness": 4,
         "warband": "Untamed Beasts",
         "wounds": 20

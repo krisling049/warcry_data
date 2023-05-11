@@ -2,31 +2,6 @@
     {
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Ascended One",
-        "points": 110,
-        "runemarks": [
-            "warrior"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "The Unmade",
-        "wounds": 10
-    },
-    {
-        "weapons": [
-            {
                 "attacks": 2,
                 "dmg_crit": 4,
                 "dmg_hit": 1,
@@ -42,7 +17,6 @@
         "name": "Awakened One with Brutal Polearm",
         "points": 65,
         "runemarks": [],
-        "subtitle": "with Brutal Polearm",
         "toughness": 3,
         "warband": "The Unmade",
         "wounds": 10
@@ -74,7 +48,6 @@
         "name": "Awakened One with Flail",
         "points": 65,
         "runemarks": [],
-        "subtitle": "with Flail",
         "toughness": 4,
         "warband": "The Unmade",
         "wounds": 20
@@ -82,27 +55,26 @@
     {
         "weapons": [
             {
-                "attacks": 5,
-                "dmg_crit": 6,
+                "attacks": 4,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "dagger",
+                "runemark": "sword",
                 "strength": 4
             }
         ],
         "bladeborn": "",
         "grand_alliance": "chaos",
-        "movement": 8,
-        "name": "Blissful One",
-        "points": 255,
+        "movement": 4,
+        "name": "Ascended One",
+        "points": 110,
         "runemarks": [
-            "hero"
+            "warrior"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "The Unmade",
-        "wounds": 20
+        "wounds": 10
     },
     {
         "weapons": [
@@ -124,9 +96,32 @@
         "runemarks": [
             "destroyer"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "The Unmade",
         "wounds": 15
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Blissful One",
+        "points": 255,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "The Unmade",
+        "wounds": 20
     }
 ]

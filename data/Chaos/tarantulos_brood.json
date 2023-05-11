@@ -3,6 +3,65 @@
         "weapons": [
             {
                 "attacks": 4,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 1
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Spider Swarm",
+        "points": 50,
+        "runemarks": [
+            "agile",
+            "beast"
+        ],
+        "toughness": 1,
+        "warband": "Tarantulos Brood",
+        "wounds": 6
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "scythe",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Broodkin with Scythe and Spiderclaw",
+        "points": 60,
+        "runemarks": [
+            "scout",
+            "sentience"
+        ],
+        "toughness": 3,
+        "warband": "Tarantulos Brood",
+        "wounds": 8
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 1,
@@ -20,7 +79,6 @@
             "scout",
             "sentience"
         ],
-        "subtitle": "",
         "toughness": 3,
         "warband": "Tarantulos Brood",
         "wounds": 8
@@ -46,72 +104,9 @@
             "scout",
             "sentience"
         ],
-        "subtitle": "with Sai",
         "toughness": 3,
         "warband": "Tarantulos Brood",
         "wounds": 8
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 4
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "Scythe",
-                "strength": 3
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Broodkin with Scythe and Spiderclaw",
-        "points": 60,
-        "runemarks": [
-            "scout",
-            "sentience"
-        ],
-        "subtitle": "with Scythe and Spiderclaw",
-        "toughness": 3,
-        "warband": "Tarantulos Brood",
-        "wounds": 8
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Broodmaster",
-        "points": 200,
-        "runemarks": [
-            "hero",
-            "sentience",
-            "agile"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "Tarantulos Brood",
-        "wounds": 18
     },
     {
         "weapons": [
@@ -143,7 +138,6 @@
             "sentience",
             "agile"
         ],
-        "subtitle": "with Flail & goad",
         "toughness": 3,
         "warband": "Tarantulos Brood",
         "wounds": 10
@@ -169,7 +163,6 @@
             "sentience",
             "agile"
         ],
-        "subtitle": "with Trident & Net",
         "toughness": 3,
         "warband": "Tarantulos Brood",
         "wounds": 10
@@ -177,27 +170,27 @@
     {
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 2,
-                "dmg_hit": 1,
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "fangs",
-                "strength": 1
+                "runemark": "sword",
+                "strength": 4
             }
         ],
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Spider Swarm",
-        "points": 50,
+        "name": "Broodmaster",
+        "points": 200,
         "runemarks": [
-            "agile",
-            "beast"
+            "hero",
+            "sentience",
+            "agile"
         ],
-        "subtitle": "",
-        "toughness": 1,
+        "toughness": 4,
         "warband": "Tarantulos Brood",
-        "wounds": 6
+        "wounds": 18
     }
 ]

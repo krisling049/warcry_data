@@ -1,0 +1,645 @@
+[
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Blissbrew Homonculus",
+        "points": 55,
+        "runemarks": [
+            "Priest"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 8
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Blissbarb Archer",
+        "points": 95,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 8
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Myrmidesh Painbringer",
+        "points": 105,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 15
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Symbaresh Twinsoul with Excruciator Lash",
+        "points": 110,
+        "runemarks": [
+            "berserker"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 15
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Symbaresh Twinsoul with Merciless Blades",
+        "points": 115,
+        "runemarks": [
+            "berserker"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 15
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Shardspeaker",
+        "points": 120,
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 18
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Symbaresh Twinsoul with Sinful Cleaver",
+        "points": 120,
+        "runemarks": [
+            "berserker"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 15
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Blissbarb Archer High Tempter",
+        "points": 130,
+        "runemarks": [
+            "Hero. Minion"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Hellstrider with Claw-spear",
+        "points": 135,
+        "runemarks": [
+            "destroyer",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Hellstrider with Hellscourge",
+        "points": 135,
+        "runemarks": [
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Blissbarb Seeker",
+        "points": 150,
+        "runemarks": [
+            "minion",
+            "mounted"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Myrmidesh Painmaster",
+        "points": 155,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Slickblade Seeker",
+        "points": 155,
+        "runemarks": [
+            "destroyer",
+            "mount"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Symbaresh Egopomp",
+        "points": 170,
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Slaangor Fiendblood",
+        "points": 175,
+        "runemarks": [
+            "ferocious"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Hellreaver with Claw-spear",
+        "points": 180,
+        "runemarks": [
+            "hero",
+            "destroyer",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Blissbarb Seeker High Tempter",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "minion",
+            "mounted"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Slickblade Hunter-seeker",
+        "points": 205,
+        "runemarks": [
+            "hero",
+            "destroyer",
+            "mount"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Lord of Pain",
+        "points": 220,
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Slaangor Slake-horn",
+        "points": 225,
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 25
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "The Dread Pageant",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Glissete",
+        "points": 105,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "The Dread Pageant",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Hadzu",
+        "points": 110,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "The Dread Pageant",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Slakeslash",
+        "points": 195,
+        "runemarks": [
+            "ferocious"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 22
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "The Dread Pageant",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Vasillac the Gifted",
+        "points": 205,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Hedonites of Slaanesh Sybarites",
+        "wounds": 26
+    }
+]

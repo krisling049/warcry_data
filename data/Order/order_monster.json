@@ -5,34 +5,8 @@
                 "attacks": 4,
                 "dmg_crit": 8,
                 "dmg_hit": 4,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 5
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Kharibdyss",
-        "points": 425,
-        "runemarks": [
-            "monster",
-            "berserker"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "order_monster",
-        "wounds": 45
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 8,
-                "dmg_hit": 4,
-                "max_range": 2,
-                "min_range": 0,
+                "max_range": 1,
+                "min_range": 2,
                 "runemark": "fangs",
                 "strength": 5
             }
@@ -46,7 +20,31 @@
             "monster",
             "destroyer"
         ],
-        "subtitle": "",
+        "toughness": 4,
+        "warband": "order_monster",
+        "wounds": 45
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 2,
+                "runemark": "fangs",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Kharibdyss",
+        "points": 425,
+        "runemarks": [
+            "monster",
+            "berserker"
+        ],
         "toughness": 4,
         "warband": "order_monster",
         "wounds": 45

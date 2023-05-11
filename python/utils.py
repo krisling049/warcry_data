@@ -20,9 +20,15 @@ if __name__ == '__main__':
     src_data = Path(Path(__file__).parent.parent, 'data', 'fighters.json')
 
     data_payload = FighterJSONPayload(src_file=src_data)
-    data = sort_data(data_payload.data)
-    cheapest_fighters(data)
+    data = data_payload.data
 
-    # data.write_aggregate_file_to_disk()
-    # data.write_warbands_to_disk()
-    z = 1
+    new_data = list()
+
+    # Do stuff with data, put it into new_data
+
+    data_payload.data = sort_data(new_data)
+
+    data_payload.write_aggregate_file_to_disk()
+    data_payload.write_warbands_to_disk()
+
+    z = 1 + 2

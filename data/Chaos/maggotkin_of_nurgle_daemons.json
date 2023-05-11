@@ -1,0 +1,234 @@
+[
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Plaguebearer",
+        "points": 50,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin Of Nurgle Daemons",
+        "wounds": 10
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Plagueridden",
+        "points": 90,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin Of Nurgle Daemons",
+        "wounds": 15
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 6,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Nurglings",
+        "points": 105,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Maggotkin Of Nurgle Daemons",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Poxbringer",
+        "points": 130,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin Of Nurgle Daemons",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Sloppity Bilepiper",
+        "points": 130,
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin Of Nurgle Daemons",
+        "wounds": 20
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Spoilpox Scrivener",
+        "points": 135,
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin Of Nurgle Daemons",
+        "wounds": 22
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Beast of Nurgle",
+        "points": 150,
+        "runemarks": [
+            "beast",
+            "ferocious"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin Of Nurgle Daemons",
+        "wounds": 30
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Plague Drone",
+        "points": 205,
+        "runemarks": [
+            "fly",
+            "destroyer"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin Of Nurgle Daemons",
+        "wounds": 30
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Plaguebringer",
+        "points": 255,
+        "runemarks": [
+            "fly",
+            "hero",
+            "destroyer"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin Of Nurgle Daemons",
+        "wounds": 35
+    }
+]

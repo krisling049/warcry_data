@@ -27,7 +27,6 @@ class DataPayload:
         self.src_file = src_file
         self.src_format = src_format if src_format else src_file.suffix  # xlsx, json, csv etc
         self.data = self.load_data()
-        print(len(self.data))
 
     @classmethod
     def load_data(cls):
@@ -56,6 +55,7 @@ class FighterJSONPayload(FighterDataPayload):
 
     def write_aggregate_file_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
         with open(dst, 'w') as nf:
+            print(f'Writing {len(self.data)} fighters to {dst}...')
             json.dump(sort_data(self.data), nf, ensure_ascii=True, indent=4, sort_keys=False)
 
     def write_warbands_to_disk(self, dst_root: Path = Path(Path(__file__).parent.parent, 'data')):

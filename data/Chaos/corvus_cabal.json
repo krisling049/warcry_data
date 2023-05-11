@@ -17,7 +17,6 @@
         "name": "Cabalist",
         "points": 65,
         "runemarks": [],
-        "subtitle": "",
         "toughness": 3,
         "warband": "Corvus Cabal",
         "wounds": 8
@@ -42,7 +41,6 @@
         "runemarks": [
             "scout"
         ],
-        "subtitle": "with Familiar",
         "toughness": 3,
         "warband": "Corvus Cabal",
         "wounds": 8
@@ -65,10 +63,33 @@
         "name": "Cabalist with Spear",
         "points": 80,
         "runemarks": [],
-        "subtitle": "with Spear",
         "toughness": 3,
         "warband": "Corvus Cabal",
         "wounds": 8
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Spire Stalker",
+        "points": 130,
+        "runemarks": [
+            "champion"
+        ],
+        "toughness": 4,
+        "warband": "Corvus Cabal",
+        "wounds": 15
     },
     {
         "weapons": [
@@ -91,7 +112,6 @@
             "hero",
             "scout"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "Corvus Cabal",
         "wounds": 20
@@ -116,34 +136,8 @@
         "runemarks": [
             "agile"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "Corvus Cabal",
         "wounds": 20
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Spire Stalker",
-        "points": 130,
-        "runemarks": [
-            "champion"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "Corvus Cabal",
-        "wounds": 15
     }
 ]

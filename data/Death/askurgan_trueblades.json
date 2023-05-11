@@ -1,7 +1,5 @@
 [
     {
-        "hero": false,
-        "id" : "death-aktb-aabf",
         "weapons": [
             {
                 "attacks": 2,
@@ -26,8 +24,6 @@
         "wounds": 12
     },
     {
-        "hero": false,
-        "id" : "death-aktb-aatt",
         "weapons": [
             {
                 "attacks": 3,
@@ -52,8 +48,30 @@
         "wounds": 12
     },
     {
-        "hero": false,
-        "id" : "death-aktb-aacm",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Askurgan Pariah",
+        "points": 105,
+        "runemarks": [
+            "scout"
+        ],
+        "toughness": 3,
+        "warband": "Askurgan Trueblades",
+        "wounds": 18
+    },
+    {
         "weapons": [
             {
                 "attacks": 2,
@@ -79,8 +97,6 @@
         "wounds": 15
     },
     {
-        "hero": false,
-        "id" : "death-aktb-aahg",
         "weapons": [
             {
                 "attacks": 2,
@@ -101,14 +117,35 @@
             "elite",
             "destroyer"
         ],
-        "subtitle": "with Howling Glaive",
         "toughness": 4,
         "warband": "Askurgan Trueblades",
         "wounds": 15
     },
     {
-        "hero": true,
-        "id" : "death-aktb-ae",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Curseblood",
+        "points": 190,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 4,
+        "warband": "Askurgan Trueblades",
+        "wounds": 25
+    },
+    {
         "weapons": [
             {
                 "attacks": 3,
@@ -130,63 +167,8 @@
             "elite",
             "destroyer"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "Askurgan Trueblades",
         "wounds": 20
-    },
-    {
-        "hero": false,
-        "id" : "death-aktb-ap",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 5
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "death",
-        "movement": 5,
-        "name": "Askurgan Pariah",
-        "points": 105,
-        "runemarks": [
-            "scout"
-        ],
-        "subtitle": "",
-        "toughness": 3,
-        "warband": "Askurgan Trueblades",
-        "wounds": 18
-    },
-    {
-        "hero": false,
-        "id" : "death-aktb-c",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 5
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "death",
-        "movement": 6,
-        "name": "Curseblood",
-        "points": 190,
-        "runemarks": [
-            "beast"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "Askurgan Trueblades",
-        "wounds": 25
     }
 ]

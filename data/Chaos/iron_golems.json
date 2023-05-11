@@ -2,12 +2,87 @@
     {
         "weapons": [
             {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Iron Legionary",
+        "points": 75,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Iron Golems",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Iron Legionary with Bolas",
+        "points": 75,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Iron Golems",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Iron Legionary with Twin Hammers",
+        "points": 75,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Iron Golems",
+        "wounds": 12
+    },
+    {
+        "weapons": [
+            {
                 "attacks": 4,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Hammer",
+                "runemark": "hammer",
                 "strength": 4
             }
         ],
@@ -17,10 +92,33 @@
         "name": "Armator",
         "points": 90,
         "runemarks": [],
-        "subtitle": "",
         "toughness": 4,
         "warband": "Iron Golems",
         "wounds": 15
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Signifer",
+        "points": 125,
+        "runemarks": [
+            "icon-bearer"
+        ],
+        "toughness": 4,
+        "warband": "Iron Golems",
+        "wounds": 18
     },
     {
         "weapons": [
@@ -30,23 +128,21 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Hammer",
-                "strength": 5
+                "runemark": "hammer",
+                "strength": 4
             }
         ],
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Dominar",
-        "points": 170,
+        "name": "Prefector",
+        "points": 135,
         "runemarks": [
-            "hero",
             "brute"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "Iron Golems",
-        "wounds": 22
+        "wounds": 18
     },
     {
         "weapons": [
@@ -77,7 +173,6 @@
         "runemarks": [
             "berserker"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "Iron Golems",
         "wounds": 18
@@ -85,80 +180,27 @@
     {
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 3
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Iron Legionary",
-        "points": 75,
-        "runemarks": [],
-        "subtitle": "",
-        "toughness": 5,
-        "warband": "Iron Golems",
-        "wounds": 12
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "Hammer",
-                "strength": 3
-            },
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 3,
-                "min_range": 0,
-                "runemark": "reach",
-                "strength": 3
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Iron Legionary with Bolas",
-        "points": 75,
-        "runemarks": [],
-        "subtitle": "with Bolas",
-        "toughness": 4,
-        "warband": "Iron Golems",
-        "wounds": 12
-    },
-    {
-        "weapons": [
-            {
                 "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "Hammer",
-                "strength": 3
+                "runemark": "hammer",
+                "strength": 5
             }
         ],
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Iron Legionary with Twin Hammers",
-        "points": 75,
-        "runemarks": [],
-        "subtitle": "with Twin Hammers",
+        "name": "Dominar",
+        "points": 170,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
         "toughness": 4,
         "warband": "Iron Golems",
-        "wounds": 12
+        "wounds": 22
     },
     {
         "weapons": [
@@ -180,59 +222,8 @@
         "runemarks": [
             "destroyer"
         ],
-        "subtitle": "",
         "toughness": 5,
         "warband": "Iron Golems",
         "wounds": 30
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "Hammer",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Prefector",
-        "points": 135,
-        "runemarks": [
-            "brute"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "Iron Golems",
-        "wounds": 18
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "Hammer",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Signifer",
-        "points": 125,
-        "runemarks": [
-            "icon-bearer"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "Iron Golems",
-        "wounds": 18
     }
 ]

@@ -5,8 +5,33 @@
                 "attacks": 4,
                 "dmg_crit": 8,
                 "dmg_hit": 4,
-                "max_range": 2,
-                "min_range": 0,
+                "max_range": 1,
+                "min_range": 2,
+                "runemark": "unarmed",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Cygor",
+        "points": 415,
+        "runemarks": [
+            "monster",
+            "terrifying"
+        ],
+        "toughness": 4,
+        "warband": "chaos_monster",
+        "wounds": 50
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 2,
                 "runemark": "club",
                 "strength": 5
             }
@@ -20,7 +45,6 @@
             "monster",
             "brute"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "chaos_monster",
         "wounds": 45
@@ -28,11 +52,111 @@
     {
         "weapons": [
             {
+                "attacks": 4,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 1,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Mutalith Vortex Beast",
+        "points": 425,
+        "runemarks": [
+            "monster",
+            "trapper"
+        ],
+        "toughness": 4,
+        "warband": "chaos_monster",
+        "wounds": 50
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 10,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 2,
+                "runemark": "unarmed",
+                "strength": 6
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Ghorgon",
+        "points": 445,
+        "runemarks": [
+            "monster",
+            "frenzied"
+        ],
+        "toughness": 4,
+        "warband": "chaos_monster",
+        "wounds": 50
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 10,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 2,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Hell Pit Abomination",
+        "points": 465,
+        "runemarks": [
+            "monster",
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "chaos_monster",
+        "wounds": 55
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 2,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Slaughterbrute",
+        "points": 490,
+        "runemarks": [
+            "monster",
+            "elite"
+        ],
+        "toughness": 4,
+        "warband": "chaos_monster",
+        "wounds": 50
+    },
+    {
+        "weapons": [
+            {
                 "attacks": 6,
                 "dmg_crit": 10,
                 "dmg_hit": 5,
-                "max_range": 2,
-                "min_range": 0,
+                "max_range": 1,
+                "min_range": 2,
                 "runemark": "fangs",
                 "strength": 6
             }
@@ -47,139 +171,8 @@
             "monster",
             "bulwark"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "chaos_monster",
         "wounds": 45
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 8,
-                "dmg_hit": 4,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Cygor",
-        "points": 415,
-        "runemarks": [
-            "monster",
-            "terrifying"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "chaos_monster",
-        "wounds": 50
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 10,
-                "dmg_hit": 4,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 6
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Ghorgon",
-        "points": 445,
-        "runemarks": [
-            "monster",
-            "frenzied"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "chaos_monster",
-        "wounds": 50
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 10,
-                "dmg_hit": 4,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Hell Pit Abomination",
-        "points": 465,
-        "runemarks": [
-            "monster",
-            "minion"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "chaos_monster",
-        "wounds": 55
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 8,
-                "dmg_hit": 4,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 8,
-        "name": "Mutalith Vortex Beast",
-        "points": 425,
-        "runemarks": [
-            "monster",
-            "trapper"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "chaos_monster",
-        "wounds": 50
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 8,
-                "dmg_hit": 4,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 8,
-        "name": "Slaughterbrute",
-        "points": 490,
-        "runemarks": [
-            "monster",
-            "elite"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "chaos_monster",
-        "wounds": 50
     }
 ]

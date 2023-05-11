@@ -2,33 +2,6 @@
     {
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 4
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Chaos Spawn",
-        "points": 170,
-        "runemarks": [
-            "thrall",
-            "agile",
-            "beast"
-        ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "chaos_thrall",
-        "wounds": 30
-    },
-    {
-        "weapons": [
-            {
                 "attacks": 3,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
@@ -48,37 +21,9 @@
             "scout",
             "beast"
         ],
-        "subtitle": "",
         "toughness": 3,
         "warband": "chaos_thrall",
         "wounds": 10
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 2,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 3
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 8,
-        "name": "Fury",
-        "points": 95,
-        "runemarks": [
-            "fly",
-            "thrall",
-            "sentience"
-        ],
-        "subtitle": "",
-        "toughness": 3,
-        "warband": "chaos_thrall",
-        "wounds": 8
     },
     {
         "weapons": [
@@ -102,10 +47,61 @@
             "beast",
             "berserker"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "chaos_thrall",
         "wounds": 12
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Fury",
+        "points": 95,
+        "runemarks": [
+            "fly",
+            "thrall",
+            "sentience"
+        ],
+        "toughness": 3,
+        "warband": "chaos_thrall",
+        "wounds": 8
+    },
+    {
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Chaos Spawn",
+        "points": 170,
+        "runemarks": [
+            "thrall",
+            "agile",
+            "beast"
+        ],
+        "toughness": 4,
+        "warband": "chaos_thrall",
+        "wounds": 30
     },
     {
         "weapons": [
@@ -129,7 +125,6 @@
             "beast",
             "ferocious"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "chaos_thrall",
         "wounds": 25

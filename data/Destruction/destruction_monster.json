@@ -2,11 +2,35 @@
     {
         "weapons": [
             {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 2,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "name": "Dankhold Troggoth",
+        "points": 375,
+        "runemarks": [
+            "monster"
+        ],
+        "toughness": 4,
+        "warband": "destruction_monster",
+        "wounds": 45
+    },
+    {
+        "weapons": [
+            {
                 "attacks": 4,
                 "dmg_crit": 8,
                 "dmg_hit": 4,
-                "max_range": 21,
-                "min_range": 0,
+                "max_range": 1,
+                "min_range": 2,
                 "runemark": "club",
                 "strength": 5
             }
@@ -20,32 +44,6 @@
             "monster",
             "brute"
         ],
-        "subtitle": "",
-        "toughness": 4,
-        "warband": "destruction_monster",
-        "wounds": 45
-    },
-    {
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 8,
-                "dmg_hit": 4,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 5
-            }
-        ],
-        "bladeborn": "",
-        "grand_alliance": "destruction",
-        "movement": 5,
-        "name": "Dankhold Troggoth",
-        "points": 375,
-        "runemarks": [
-            "monster"
-        ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "destruction_monster",
         "wounds": 45
@@ -57,7 +55,7 @@
                 "dmg_crit": 8,
                 "dmg_hit": 4,
                 "max_range": 1,
-                "min_range": 0,
+                "min_range": 1,
                 "runemark": "fangs",
                 "strength": 5
             }
@@ -71,7 +69,6 @@
             "monster",
             "destroyer"
         ],
-        "subtitle": "",
         "toughness": 4,
         "warband": "destruction_monster",
         "wounds": 55
