@@ -47,9 +47,6 @@ if __name__ == '__main__':
 
     new_data = list()  # type: List[Dict]
 
-    for f in data:
-        generate_id(f)
-
     # Do stuff with data, add it to new_data
 
     data_payload.data = sort_data(new_data)

@@ -22,8 +22,18 @@ def validate_data(data: Union[List[Dict], pathlib.Path], schema: Dict) -> bool:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data", type=pathlib.Path, required=True, help="absolute path to json to be validated")
-    parser.add_argument("--schema", type=pathlib.Path, required=True, help="absolute path to schema file")
+    parser.add_argument(
+        "--data",
+        type=pathlib.Path,
+        default=pathlib.Path(pathlib.Path(__file__).parent.parent, 'data', 'fighters.json'),
+        help="absolute path to json to be validated"
+    )
+    parser.add_argument(
+        "--schema",
+        type=pathlib.Path,
+        default=pathlib.Path(pathlib.Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_schema.json'),
+        help="absolute path to schema file"
+    )
     args = parser.parse_args()
 
     print(f'Loading schema: {args.schema.absolute()}')
