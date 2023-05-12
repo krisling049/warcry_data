@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 from typing import List, Dict
+import jsonschema
 
 
 def sort_data(data_to_sort: List[Dict]) -> List[Dict]:
@@ -26,7 +27,9 @@ class DataPayload:
     def __init__(self, src_file: Path, src_format: str = None):
         self.src_file = src_file
         self.src_format = src_format if src_format else src_file.suffix  # xlsx, json, csv etc
+        self.schema = Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_schema.json')
         self.data = self.load_data()
+        self.validate_data()
 
     @classmethod
     def load_data(cls):
@@ -35,6 +38,10 @@ class DataPayload:
     @classmethod
     def write_to_disk(cls, dst: Path):
         raise NotImplementedError('class requires a write_to_disk class method')
+
+    @classmethod
+    def validate_data(cls):
+        raise NotImplementedError('class requires a validate_data class method')
 
 
 # noinspection PyAbstractClass
@@ -54,13 +61,20 @@ class FighterJSONPayload(FighterDataPayload):
         return data
 
     def write_aggregate_file_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
+        self.validate_data()
         sorted_data = [dict(sorted(x.items())) for x in self.data]
         with open(dst, 'w') as nf:
             print(f'Writing {len(self.data)} fighters to {dst}...')
             json.dump(sort_data(sorted_data), nf, ensure_ascii=True, indent=4, sort_keys=False)
 
+    def validate_data(self):
+        with open(self.schema, 'r') as f:
+            aggregate_schema = json.load(f)
+        jsonschema.validate(self.data, aggregate_schema)
+
     def write_warbands_to_disk(self, dst_root: Path = Path(Path(__file__).parent.parent, 'data')):
 
+        self.validate_data()
         warband_by_ga = dict()
 
         for fighter in self.data:
