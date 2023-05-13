@@ -1,16 +1,6 @@
 [
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 8,
-                "dmg_hit": 4,
-                "max_range": 1,
-                "min_range": 2,
-                "runemark": "fangs",
-                "strength": 5
-            }
-        ],
+        "_id": "15bedde9",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
@@ -22,9 +12,6 @@
         ],
         "toughness": 4,
         "warband": "order_monster",
-        "wounds": 45
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -36,6 +23,10 @@
                 "strength": 5
             }
         ],
+        "wounds": 45
+    },
+    {
+        "_id": "69f4a22a",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
@@ -47,6 +38,17 @@
         ],
         "toughness": 4,
         "warband": "order_monster",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 2,
+                "runemark": "fangs",
+                "strength": 5
+            }
+        ],
         "wounds": 45
     }
 ]

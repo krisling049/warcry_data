@@ -1,5 +1,14 @@
 [
     {
+        "_id": "51f1b259",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Cabalist",
+        "points": 65,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Corvus Cabal",
         "weapons": [
             {
                 "attacks": 4,
@@ -11,17 +20,20 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Cabalist",
-        "points": 65,
-        "runemarks": [],
-        "toughness": 3,
-        "warband": "Corvus Cabal",
         "wounds": 8
     },
     {
+        "_id": "f9108003",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Cabalist with Familiar",
+        "points": 70,
+        "runemarks": [
+            "scout"
+        ],
+        "toughness": 3,
+        "warband": "Corvus Cabal",
         "weapons": [
             {
                 "attacks": 4,
@@ -33,19 +45,18 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Cabalist with Familiar",
-        "points": 70,
-        "runemarks": [
-            "scout"
-        ],
-        "toughness": 3,
-        "warband": "Corvus Cabal",
         "wounds": 8
     },
     {
+        "_id": "31adb845",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Cabalist with Spear",
+        "points": 80,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Corvus Cabal",
         "weapons": [
             {
                 "attacks": 4,
@@ -57,17 +68,20 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Cabalist with Spear",
-        "points": 80,
-        "runemarks": [],
-        "toughness": 3,
-        "warband": "Corvus Cabal",
         "wounds": 8
     },
     {
+        "_id": "897013b5",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Spire Stalker",
+        "points": 130,
+        "runemarks": [
+            "champion"
+        ],
+        "toughness": 4,
+        "warband": "Corvus Cabal",
         "weapons": [
             {
                 "attacks": 4,
@@ -79,30 +93,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Spire Stalker",
-        "points": 130,
-        "runemarks": [
-            "champion"
-        ],
-        "toughness": 4,
-        "warband": "Corvus Cabal",
         "wounds": 15
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
+        "_id": "1c34e766",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
@@ -114,9 +108,31 @@
         ],
         "toughness": 4,
         "warband": "Corvus Cabal",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
         "wounds": 20
     },
     {
+        "_id": "bdf29dcf",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Shrike Talon",
+        "points": 210,
+        "runemarks": [
+            "agile"
+        ],
+        "toughness": 4,
+        "warband": "Corvus Cabal",
         "weapons": [
             {
                 "attacks": 5,
@@ -128,16 +144,6 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 8,
-        "name": "Shrike Talon",
-        "points": 210,
-        "runemarks": [
-            "agile"
-        ],
-        "toughness": 4,
-        "warband": "Corvus Cabal",
         "wounds": 20
     }
 ]

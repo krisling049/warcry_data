@@ -1,5 +1,14 @@
 [
     {
+        "_id": "a0c2eb9f",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Clearblood",
+        "points": 65,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Splintered Fang",
         "weapons": [
             {
                 "attacks": 4,
@@ -11,17 +20,20 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Clearblood",
-        "points": 65,
-        "runemarks": [],
-        "toughness": 3,
-        "warband": "Splintered Fang",
         "wounds": 10
     },
     {
+        "_id": "298c9d36",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Clearblood with Shield",
+        "points": 65,
+        "runemarks": [
+            "bulwark"
+        ],
+        "toughness": 4,
+        "warband": "Splintered Fang",
         "weapons": [
             {
                 "attacks": 3,
@@ -33,19 +45,20 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Clearblood with Shield",
-        "points": 65,
-        "runemarks": [
-            "bulwark"
-        ],
-        "toughness": 4,
-        "warband": "Splintered Fang",
         "wounds": 10
     },
     {
+        "_id": "8eef5146",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Serpents",
+        "points": 90,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 2,
+        "warband": "Splintered Fang",
         "weapons": [
             {
                 "attacks": 5,
@@ -57,19 +70,18 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Serpents",
-        "points": 90,
-        "runemarks": [
-            "beast"
-        ],
-        "toughness": 2,
-        "warband": "Splintered Fang",
         "wounds": 6
     },
     {
+        "_id": "48930bbc",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Venomblood with Blade and Barbed Whip",
+        "points": 95,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Splintered Fang",
         "weapons": [
             {
                 "attacks": 3,
@@ -90,17 +102,18 @@
                 "strength": 3
             }
         ],
+        "wounds": 10
+    },
+    {
+        "_id": "4e872f9a",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Venomblood with Blade & Whip",
+        "name": "Venomblood with Duelling Blades",
         "points": 95,
         "runemarks": [],
         "toughness": 4,
         "warband": "Splintered Fang",
-        "wounds": 10
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -112,17 +125,20 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Venomblood with Dueling Blades",
-        "points": 95,
-        "runemarks": [],
-        "toughness": 4,
-        "warband": "Splintered Fang",
         "wounds": 10
     },
     {
+        "_id": "e75b6a58",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Venomblood with Barbed Whip",
+        "points": 105,
+        "runemarks": [
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Splintered Fang",
         "weapons": [
             {
                 "attacks": 4,
@@ -134,19 +150,20 @@
                 "strength": 4
             }
         ],
+        "wounds": 10
+    },
+    {
+        "_id": "c17299c3",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Venomblood with Barbed Whip",
+        "name": "Venomblood with Spear and Shield",
         "points": 105,
         "runemarks": [
             "bulwark"
         ],
-        "toughness": 4,
+        "toughness": 5,
         "warband": "Splintered Fang",
-        "wounds": 10
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -158,19 +175,20 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Venomblood with Spear & Shield",
-        "points": 105,
-        "runemarks": [
-            "bulwark"
-        ],
-        "toughness": 5,
-        "warband": "Splintered Fang",
         "wounds": 10
     },
     {
+        "_id": "d52caefd",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Pureblood",
+        "points": 115,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 4,
+        "warband": "Splintered Fang",
         "weapons": [
             {
                 "attacks": 4,
@@ -182,19 +200,20 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Pureblood",
-        "points": 115,
-        "runemarks": [
-            "brute"
-        ],
-        "toughness": 4,
-        "warband": "Splintered Fang",
         "wounds": 12
     },
     {
+        "_id": "141590d5",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Serpent Caller",
+        "points": 145,
+        "runemarks": [
+            "mystic"
+        ],
+        "toughness": 4,
+        "warband": "Splintered Fang",
         "weapons": [
             {
                 "attacks": 4,
@@ -215,19 +234,20 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Serpent Caller",
-        "points": 145,
-        "runemarks": [
-            "mystic"
-        ],
-        "toughness": 4,
-        "warband": "Splintered Fang",
         "wounds": 15
     },
     {
+        "_id": "58c9475c",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Trueblood",
+        "points": 170,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Splintered Fang",
         "weapons": [
             {
                 "attacks": 4,
@@ -239,16 +259,6 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Trueblood",
-        "points": 170,
-        "runemarks": [
-            "hero"
-        ],
-        "toughness": 4,
-        "warband": "Splintered Fang",
         "wounds": 20
     }
 ]

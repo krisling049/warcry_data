@@ -1,5 +1,14 @@
 [
     {
+        "_id": "2da6c86a",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Plains-runner",
+        "points": 55,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Untamed Beasts",
         "weapons": [
             {
                 "attacks": 3,
@@ -11,17 +20,18 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Plains-runner",
-        "points": 55,
-        "runemarks": [],
-        "toughness": 3,
-        "warband": "Untamed Beasts",
         "wounds": 8
     },
     {
+        "_id": "9499f51a",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Preytaker with Fanged Axe",
+        "points": 100,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Untamed Beasts",
         "weapons": [
             {
                 "attacks": 3,
@@ -33,17 +43,18 @@
                 "strength": 5
             }
         ],
+        "wounds": 10
+    },
+    {
+        "_id": "783528f3",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Preytaker with Fanged Axe",
+        "name": "Preytaker with Sawtooth Blade",
         "points": 100,
         "runemarks": [],
         "toughness": 4,
         "warband": "Untamed Beasts",
-        "wounds": 10
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -55,17 +66,20 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Preytaker with Sawtooth Blade",
-        "points": 100,
-        "runemarks": [],
-        "toughness": 4,
-        "warband": "Untamed Beasts",
         "wounds": 10
     },
     {
+        "_id": "f68fb029",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Beastspeaker",
+        "points": 110,
+        "runemarks": [
+            "agile"
+        ],
+        "toughness": 4,
+        "warband": "Untamed Beasts",
         "weapons": [
             {
                 "attacks": 3,
@@ -86,19 +100,20 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Beastspeaker",
-        "points": 110,
-        "runemarks": [
-            "agile"
-        ],
-        "toughness": 4,
-        "warband": "Untamed Beasts",
         "wounds": 15
     },
     {
+        "_id": "c358c035",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "First Fang",
+        "points": 130,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 4,
+        "warband": "Untamed Beasts",
         "weapons": [
             {
                 "attacks": 3,
@@ -119,19 +134,20 @@
                 "strength": 5
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "First Fang",
-        "points": 130,
-        "runemarks": [
-            "brute"
-        ],
-        "toughness": 4,
-        "warband": "Untamed Beasts",
         "wounds": 15
     },
     {
+        "_id": "253f889c",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Rocktusk Prowler",
+        "points": 195,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 4,
+        "warband": "Untamed Beasts",
         "weapons": [
             {
                 "attacks": 4,
@@ -143,19 +159,20 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 8,
-        "name": "Rocktusk Prowler",
-        "points": 195,
-        "runemarks": [
-            "beast"
-        ],
-        "toughness": 4,
-        "warband": "Untamed Beasts",
         "wounds": 20
     },
     {
+        "_id": "583af3f6",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Heart-Eater",
+        "points": 200,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Untamed Beasts",
         "weapons": [
             {
                 "attacks": 5,
@@ -167,16 +184,6 @@
                 "strength": 5
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Heart-Eater",
-        "points": 200,
-        "runemarks": [
-            "hero"
-        ],
-        "toughness": 4,
-        "warband": "Untamed Beasts",
         "wounds": 20
     }
 ]

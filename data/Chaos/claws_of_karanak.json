@@ -1,5 +1,16 @@
 [
     {
+        "_id": "4a8e796c",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Blood Whelp with Barb-Spear",
+        "points": 90,
+        "runemarks": [
+            "agile"
+        ],
+        "toughness": 3,
+        "warband": "Claws of Karanak",
         "weapons": [
             {
                 "attacks": 2,
@@ -11,19 +22,20 @@
                 "strength": 4
             }
         ],
+        "wounds": 12
+    },
+    {
+        "_id": "31b6f571",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Blood Whelp with Barb-Spear",
+        "name": "Blood Whelp with Claw-Flail",
         "points": 90,
         "runemarks": [
             "agile"
         ],
         "toughness": 3,
         "warband": "Claws of Karanak",
-        "wounds": 12
-    },
-    {
         "weapons": [
             {
                 "attacks": 3,
@@ -35,19 +47,20 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Blood Whelp with Claw-Flail",
-        "points": 90,
-        "runemarks": [
-            "agile"
-        ],
-        "toughness": 3,
-        "warband": "Claws of Karanak",
         "wounds": 12
     },
     {
+        "_id": "5c857cbf",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Brutaliser with Shredder Blade and Meat Hook",
+        "points": 115,
+        "runemarks": [
+            "terrifying"
+        ],
+        "toughness": 3,
+        "warband": "Claws of Karanak",
         "weapons": [
             {
                 "attacks": 3,
@@ -59,19 +72,18 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Brutaliser with Shredder Blade and Meat Hook",
-        "points": 115,
-        "runemarks": [
-            "terrifying"
-        ],
-        "toughness": 3,
-        "warband": "Claws of Karanak",
         "wounds": 15
     },
     {
+        "_id": "4e7ef80d",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Brutaliser with Shredder Blades",
+        "points": 120,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Claws of Karanak",
         "weapons": [
             {
                 "attacks": 4,
@@ -83,28 +95,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Brutaliser with Shredder Blades",
-        "points": 120,
-        "runemarks": [],
-        "toughness": 3,
-        "warband": "Claws of Karanak",
         "wounds": 15
     },
     {
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 4
-            }
-        ],
+        "_id": "b2e7309e",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 7,
@@ -116,9 +110,31 @@
         ],
         "toughness": 4,
         "warband": "Claws of Karanak",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
         "wounds": 18
     },
     {
+        "_id": "8fb0c3ff",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Packlord",
+        "points": 205,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Claws of Karanak",
         "weapons": [
             {
                 "attacks": 5,
@@ -130,16 +146,6 @@
                 "strength": 5
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Packlord",
-        "points": 205,
-        "runemarks": [
-            "hero"
-        ],
-        "toughness": 4,
-        "warband": "Claws of Karanak",
         "wounds": 20
     }
 ]

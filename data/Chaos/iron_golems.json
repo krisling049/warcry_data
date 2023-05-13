@@ -1,5 +1,14 @@
 [
     {
+        "_id": "05730b23",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Iron Legionary",
+        "points": 75,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Iron Golems",
         "weapons": [
             {
                 "attacks": 3,
@@ -11,17 +20,18 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Iron Legionary",
-        "points": 75,
-        "runemarks": [],
-        "toughness": 5,
-        "warband": "Iron Golems",
         "wounds": 12
     },
     {
+        "_id": "4d002a1c",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Iron Legionary with Bolas",
+        "points": 75,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Iron Golems",
         "weapons": [
             {
                 "attacks": 3,
@@ -42,17 +52,18 @@
                 "strength": 3
             }
         ],
+        "wounds": 12
+    },
+    {
+        "_id": "4d8867a5",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Iron Legionary with Bolas",
+        "name": "Iron Legionary with Twin Hammers",
         "points": 75,
         "runemarks": [],
         "toughness": 4,
         "warband": "Iron Golems",
-        "wounds": 12
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -64,28 +75,10 @@
                 "strength": 3
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Iron Legionary with Twin Hammers",
-        "points": 75,
-        "runemarks": [],
-        "toughness": 4,
-        "warband": "Iron Golems",
         "wounds": 12
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "hammer",
-                "strength": 4
-            }
-        ],
+        "_id": "dec61d09",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 3,
@@ -94,9 +87,6 @@
         "runemarks": [],
         "toughness": 4,
         "warband": "Iron Golems",
-        "wounds": 15
-    },
-    {
         "weapons": [
             {
                 "attacks": 4,
@@ -108,6 +98,10 @@
                 "strength": 4
             }
         ],
+        "wounds": 15
+    },
+    {
+        "_id": "11ffa5a0",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
@@ -118,9 +112,31 @@
         ],
         "toughness": 4,
         "warband": "Iron Golems",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
         "wounds": 18
     },
     {
+        "_id": "adc1715c",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Prefector",
+        "points": 135,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 4,
+        "warband": "Iron Golems",
         "weapons": [
             {
                 "attacks": 4,
@@ -132,19 +148,20 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Prefector",
-        "points": 135,
-        "runemarks": [
-            "brute"
-        ],
-        "toughness": 4,
-        "warband": "Iron Golems",
         "wounds": 18
     },
     {
+        "_id": "70b20681",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Drillmaster",
+        "points": 140,
+        "runemarks": [
+            "berserker"
+        ],
+        "toughness": 4,
+        "warband": "Iron Golems",
         "weapons": [
             {
                 "attacks": 4,
@@ -165,30 +182,10 @@
                 "strength": 4
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Drillmaster",
-        "points": 140,
-        "runemarks": [
-            "berserker"
-        ],
-        "toughness": 4,
-        "warband": "Iron Golems",
         "wounds": 18
     },
     {
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "hammer",
-                "strength": 5
-            }
-        ],
+        "_id": "bb0df6f0",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
@@ -200,9 +197,31 @@
         ],
         "toughness": 4,
         "warband": "Iron Golems",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
         "wounds": 22
     },
     {
+        "_id": "95f83304",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Ogor Breacher",
+        "points": 220,
+        "runemarks": [
+            "destroyer"
+        ],
+        "toughness": 5,
+        "warband": "Iron Golems",
         "weapons": [
             {
                 "attacks": 3,
@@ -214,16 +233,6 @@
                 "strength": 6
             }
         ],
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Ogor Breacher",
-        "points": 220,
-        "runemarks": [
-            "destroyer"
-        ],
-        "toughness": 5,
-        "warband": "Iron Golems",
         "wounds": 30
     }
 ]
