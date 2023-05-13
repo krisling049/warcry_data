@@ -29,7 +29,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Black Ark Cosair with Swords",
+        "name": "Black Ark Corsair with Swords",
         "points": 65,
         "runemarks": [],
         "toughness": 3,
@@ -198,7 +198,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Black Ark Cosair with Sword & Handbow",
+        "name": "Black Ark Corsair with Sword & Handbow",
         "points": 75,
         "runemarks": [
             "scout"
@@ -830,7 +830,7 @@
                 "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 8,
-                "min_range": 1,
+                "min_range": 0,
                 "runemark": "ranged",
                 "strength": 3
             }

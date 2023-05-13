@@ -16,8 +16,8 @@
                 "attacks": 3,
                 "dmg_crit": 8,
                 "dmg_hit": 4,
-                "max_range": 1,
-                "min_range": 2,
+                "max_range": 2,
+                "min_range": 0,
                 "runemark": "club",
                 "strength": 5
             }
@@ -42,8 +42,8 @@
                 "attacks": 4,
                 "dmg_crit": 8,
                 "dmg_hit": 4,
-                "max_range": 1,
-                "min_range": 2,
+                "max_range": 2,
+                "min_range": 0,
                 "runemark": "club",
                 "strength": 5
             }
@@ -69,7 +69,7 @@
                 "dmg_crit": 8,
                 "dmg_hit": 4,
                 "max_range": 1,
-                "min_range": 1,
+                "min_range": 0,
                 "runemark": "fangs",
                 "strength": 5
             }
