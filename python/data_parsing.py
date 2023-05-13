@@ -89,9 +89,11 @@ class FighterJSONPayload(FighterDataPayload):
             for warband, fighters in WARBANDS.items():
                 data_path = Path(dst_root, GA.lower())
                 filename = warband.lower().replace(' ', '_') + '.json'
+                for illegal_char in r'\\/:*?\"<>|':
+                    filename = str(filename).replace(illegal_char, '')
                 data_path.mkdir(parents=True, exist_ok=True)
                 output_file = Path(data_path, filename)
                 with open(output_file, 'w') as f:
-                    print(f'Writing {len(WARBANDS[warband])} fighters to {output_file}...')
+                    print(f'Writing {len(WARBANDS[warband])} fighters to {output_file}')
                     sorted_warband = sort_data(WARBANDS[warband])
                     json.dump(sorted_warband, f, ensure_ascii=True, indent=4, sort_keys=False)
