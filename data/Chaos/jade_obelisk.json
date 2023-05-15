@@ -15,7 +15,7 @@
                 "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 1,
-                "min_range": 3,
+                "min_range": 0,
                 "runemark": "dagger",
                 "strength": 3
             },
@@ -35,9 +35,9 @@
         "_id": "0107090d",
         "bladeborn": "",
         "grand_alliance": "chaos",
-        "movement": 3,
+        "movement": 4,
         "name": "Defacer with Stonecutter Tools",
-        "points": 100,
+        "points": 95,
         "runemarks": [
             "warrior"
         ],
@@ -54,7 +54,7 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "wounds": 10
     },
     {
         "_id": "0f01b0fc",
