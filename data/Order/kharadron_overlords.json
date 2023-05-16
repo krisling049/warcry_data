@@ -4,7 +4,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Arkanaut with Axe & Pistol",
+        "name": "Arkanaut Company Privateer with Privateer Pistol and Arkanaut Cutter",
         "points": 50,
         "runemarks": [],
         "toughness": 3,
@@ -36,7 +36,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Arkanaut with Skypike",
+        "name": "Arkanaut Company Privateer with Skypike",
         "points": 75,
         "runemarks": [],
         "toughness": 3,
@@ -59,7 +59,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Arkanaut with Volleygun",
+        "name": "Arkanaut Company Privateer with Aethermatic Volley Gun",
         "points": 80,
         "runemarks": [],
         "toughness": 3,
@@ -125,7 +125,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Arkanaut with Light Skyhook",
+        "name": "Arkanaut Company Privateer with Light Skyhook",
         "points": 105,
         "runemarks": [],
         "toughness": 3,
@@ -157,7 +157,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Grundstock Thunderer with Aethershot Rifle",
+        "name": "Grundstok Thunderer with Aethershot Rifle",
         "points": 105,
         "runemarks": [
             "elite"
@@ -191,7 +191,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Grundstock Thunderer with Decksweeper",
+        "name": "Grundstok Thunderer with Decksweeper",
         "points": 105,
         "runemarks": [
             "elite"
@@ -225,7 +225,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Grundstock Thunderer with Fumigator",
+        "name": "Grundstok Thunderer with Aetheric Fumigator",
         "points": 105,
         "runemarks": [
             "elite"
@@ -250,7 +250,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Grundstock Thunderer with Aethercannon",
+        "name": "Grundstok Thunderer with Aethercannon",
         "points": 110,
         "runemarks": [
             "elite"
@@ -319,7 +319,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Grundstock Thunderer with Mortar",
+        "name": "Grundstok Thunderer with Grundstok Mortar",
         "points": 130,
         "runemarks": [
             "elite"
@@ -343,7 +343,7 @@
                 "max_range": 12,
                 "min_range": 6,
                 "runemark": "ranged",
-                "strength": 4
+                "strength": 3
             }
         ],
         "wounds": 12
@@ -484,7 +484,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Endrinrigger with Volleygun",
+        "name": "Endrinrigger with Aethermatic Volley Gun",
         "points": 170,
         "runemarks": [
             "fly"
@@ -518,7 +518,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Skywarden with Volley Gun",
+        "name": "Skywarden with Aethermatic Volley Gun",
         "points": 175,
         "runemarks": [
             "fly",
@@ -553,7 +553,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Skywarden with Pistol & Skypike",
+        "name": "Skywarden with Vulcaniser Pistol and Skypike",
         "points": 185,
         "runemarks": [
             "fly",
@@ -623,7 +623,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Endrinrigger with Aethermatic Saw & Rivet Gun",
+        "name": "Endrinrigger with Rapid-fire Rivet Gun and Aethermatic Saw",
         "points": 190,
         "runemarks": [
             "fly"
@@ -693,7 +693,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Endrinrigger with Drill-launcher",
+        "name": "Endrinrigger with Drill Launcher",
         "points": 215,
         "runemarks": [
             "fly"
@@ -887,12 +887,12 @@
             },
             {
                 "attacks": 2,
-                "dmg_crit": 3,
+                "dmg_crit": 4,
                 "dmg_hit": 1,
                 "max_range": 8,
                 "min_range": 0,
                 "runemark": "ranged",
-                "strength": 3
+                "strength": 4
             }
         ],
         "wounds": 20
@@ -902,7 +902,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Endrinmaster with Dirigible Suite",
+        "name": "Endrinmaster with Dirigible Suit",
         "points": 275,
         "runemarks": [
             "fly",
@@ -937,7 +937,7 @@
         "bladeborn": "Thundrik's Profiteers",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Garodd Alesen",
+        "name": "Garodd Alensen",
         "points": 70,
         "runemarks": [],
         "toughness": 3,
