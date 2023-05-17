@@ -2,6 +2,7 @@ from pathlib import Path
 import json
 from typing import List, Dict
 import jsonschema
+import pandas as pd
 
 
 def sort_data(data_to_sort: List[Dict]) -> List[Dict]:
@@ -97,3 +98,9 @@ class FighterJSONPayload(FighterDataPayload):
                     print(f'Writing {len(WARBANDS[warband])} fighters to {output_file}')
                     sorted_warband = sort_data(WARBANDS[warband])
                     json.dump(sorted_warband, f, ensure_ascii=True, indent=4, sort_keys=False)
+
+    def write_spreadsheet(self, dst_root: Path = Path(Path(__file__).parent.parent, 'data')):
+        # This is crap atm. Need to make sure sheet is sensibly ordered and weapons values go into separate columns
+        # Also need to add derived statistics (pts/wound, chance to kill vs. T3, T4 etc)
+        xlsx_data = pd.DataFrame(self.data)
+        xlsx_data.to_excel(Path(dst_root, 'fighters.xlsx'))
