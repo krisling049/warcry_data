@@ -1,35 +1,10 @@
 [
     {
-        "_id": "ba18c8ea",
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Mirefolk Outcasts with Bilewood Weapon & Shield",
-        "points": 65,
-        "runemarks": [
-            "scout"
-        ],
-        "toughness": 4,
-        "warband": "Rotmire Creed",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 3
-            }
-        ],
-        "wounds": 10
-    },
-    {
         "_id": "5fde0ee8",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Mirefolk Outcasts with Bilewood Weapons",
+        "name": "Mirefolk Outcast with Bilewood Weapons",
         "points": 65,
         "runemarks": [
             "scout"
@@ -50,11 +25,36 @@
         "wounds": 10
     },
     {
+        "_id": "ba18c8ea",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Mirefolk Outcast with Bilewood Weapon and Shield",
+        "points": 75,
+        "runemarks": [
+            "scout"
+        ],
+        "toughness": 4,
+        "warband": "Rotmire Creed",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
         "_id": "9eaa12db",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Carrion Catcher with Snatcher Hook",
+        "name": "Carrion Catcher with Snatcher-hook",
         "points": 110,
         "runemarks": [
             "scout",
@@ -105,7 +105,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Bloated one with Raker-claws and Hooked Net",
+        "name": "Bloated one with Raker-claw and Hooked Net",
         "points": 140,
         "runemarks": [
             "brute",
