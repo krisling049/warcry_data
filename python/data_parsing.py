@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 from typing import List, Dict
+from itertools import product
 import jsonschema
 import pandas as pd
 
@@ -104,3 +105,43 @@ class FighterJSONPayload(FighterDataPayload):
         # Also need to add derived statistics (pts/wound, chance to kill vs. T3, T4 etc)
         xlsx_data = pd.DataFrame(self.data)
         xlsx_data.to_excel(Path(dst_root, 'fighters.xlsx'))
+
+
+class Fighter:
+    def __init__(self, fighter_dict: dict):
+        self.name = fighter_dict['name']
+        self._id = fighter_dict['_id']
+        self.bladeborn = fighter_dict['bladeborn']
+        self.grand_alliance = fighter_dict['grand_alliance']
+        self.movement = fighter_dict['movement']
+        self.points = fighter_dict['points']
+        self.runemarks = fighter_dict['runemarks']
+        self.toughness = fighter_dict['toughness']
+        self.warband = fighter_dict['warband']
+        self.weapons = fighter_dict['weapons']
+        self.wounds = fighter_dict['wounds']
+
+    def __repr__(self):
+        return self.name
+
+    def ctk(self, t: int, w: int, to_crit: int = 6) -> float:
+        for wep in self.weapons:
+            s = wep['strength']
+            a = wep['attacks']
+            dh = wep['dmg_hit']
+            dc = wep['dmg_crit']
+
+            to_hit = 4 if s == t else 3 if s > t else 5
+            possible_rolls = list(product(*[list(range(1, 7)) for _ in range(a)]))
+            killing_rolls = 0
+            for pr in possible_rolls:
+                damage = 0
+                for dice in pr:
+                    if dice in range(to_hit, to_crit):
+                        damage = damage + dh
+                    if dice >= to_crit:
+                        damage = damage + dc
+                if damage >= w:
+                    killing_rolls = killing_rolls + 1
+            ctk = killing_rolls / len(possible_rolls)
+            return ctk
