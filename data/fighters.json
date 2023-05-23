@@ -15925,7 +15925,7 @@
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Orruk Ardboy with Big Choppa",
+        "name": "Orruk Ardboy with Ardboy Big Choppa",
         "points": 80,
         "runemarks": [],
         "toughness": 4,
@@ -15948,7 +15948,7 @@
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Orruk Ardboy with Choppa",
+        "name": "Orruk Ardboy with Ardboy Choppas",
         "points": 80,
         "runemarks": [],
         "toughness": 4,
@@ -15971,7 +15971,7 @@
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Orruk Ardboy with Choppa & Shield",
+        "name": "Orruk Ardboy with Ardboy Choppa and Orruk-forged Shield",
         "points": 80,
         "runemarks": [],
         "toughness": 5,
@@ -16019,7 +16019,7 @@
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Orruk Brute with pair Choppas",
+        "name": "Orruk Brute with pair of Brute Choppas",
         "points": 140,
         "runemarks": [
             "brute"
@@ -16181,7 +16181,7 @@
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Brute Boss with Boss Klaw and Smasha",
+        "name": "Brute Boss with Boss Klaw and Brute Smasha",
         "points": 195,
         "runemarks": [
             "hero",
@@ -16192,13 +16192,13 @@
         "warband": "Ironjawz",
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "club",
-                "strength": 6
+                "strength": 5
             }
         ],
         "wounds": 30
@@ -16236,7 +16236,10 @@
         "movement": 8,
         "name": "Orruk Gore-Grunta with Jagged Gore-Hacka",
         "points": 245,
-        "runemarks": [],
+        "runemarks": [
+            "ferocious",
+            "mount"
+        ],
         "toughness": 4,
         "warband": "Ironjawz",
         "weapons": [
@@ -16246,7 +16249,7 @@
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "axe",
+                "runemark": "spear",
                 "strength": 5
             }
         ],
@@ -16257,9 +16260,12 @@
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Orruk Gore-Grunta with Pig iron Choppa",
+        "name": "Orruk Gore-Grunta with Pig-iron Choppa",
         "points": 250,
-        "runemarks": [],
+        "runemarks": [
+            "ferocious",
+            "mount"
+        ],
         "toughness": 4,
         "warband": "Ironjawz",
         "weapons": [
@@ -16453,7 +16459,7 @@
         "bladeborn": "Morgok's Krushas",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Ardskull",
+        "name": "'Ardskull",
         "points": 190,
         "runemarks": [
             "brute"
