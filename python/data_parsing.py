@@ -145,3 +145,10 @@ class Fighter:
                     killing_rolls = killing_rolls + 1
             ctk = killing_rolls / len(possible_rolls)
             return ctk
+
+    def has_str(self, s: int) -> bool:
+        for wep in self.weapons:
+            if wep['strength'] >= s:
+                return True
+        return False
+
