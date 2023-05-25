@@ -7,6 +7,8 @@ import pandas as pd
 
 
 def sort_data(data_to_sort: List[Dict]) -> List[Dict]:
+    for f in data_to_sort:
+        f['weapons'] = sorted(f['weapons'], key=lambda x: x['max_range'])
     sorted_data = sorted(
         data_to_sort,
         key=lambda x: (
