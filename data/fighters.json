@@ -10985,7 +10985,8 @@
         "name": "Crypt Haunter Courtier",
         "points": 250,
         "runemarks": [
-            "hero"
+            "hero",
+            "elite"
         ],
         "toughness": 4,
         "warband": "Flesh-eater Courts",
@@ -11214,7 +11215,7 @@
         "bladeborn": "The Grymwatch",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Gristlewel Greatsword",
+        "name": "Gristlewel, Greatsword",
         "points": 80,
         "runemarks": [
             "minion"
@@ -11244,7 +11245,7 @@
         "runemarks": [
             "hero"
         ],
-        "toughness": 5,
+        "toughness": 3,
         "warband": "Flesh-eater Courts",
         "weapons": [
             {
@@ -11257,7 +11258,7 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "wounds": 20
     },
     {
         "_id": "fb7ec24d",
@@ -11528,7 +11529,7 @@
                 "max_range": 10,
                 "min_range": 3,
                 "runemark": "ranged",
-                "strength": 3
+                "strength": 4
             }
         ],
         "wounds": 15
@@ -11956,7 +11957,7 @@
         "bladeborn": "Thorns of the Briar Queen",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Chainrasp Thorns of the Briar Queen",
+        "name": "Thorns of the Briar Queen Chainrasp",
         "points": 90,
         "runemarks": [
             "fly",
@@ -12069,7 +12070,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Mortek Guard with Greatblade",
+        "name": "Mortek Guard with Soulcleaver Greatblade",
         "points": 50,
         "runemarks": [],
         "toughness": 4,
@@ -12092,7 +12093,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Mortek Guard with Blade",
+        "name": "Mortek Guard with Nadirite Blade",
         "points": 55,
         "runemarks": [
             "bulwark"
@@ -12102,7 +12103,7 @@
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 3,
+                "dmg_crit": 4,
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
@@ -12117,7 +12118,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Mortek Guard with Spear",
+        "name": "Mortek Guard with Nadirite Spear",
         "points": 55,
         "runemarks": [
             "bulwark"
@@ -12168,7 +12169,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Kavalos Deathrider with Blade",
+        "name": "Kavalos Deathrider with Nadirite Blade",
         "points": 145,
         "runemarks": [
             "warrior",
@@ -12194,7 +12195,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Kavalos Deathrider with Spear",
+        "name": "Kavalos Deathrider with Nadirite Spear",
         "points": 145,
         "runemarks": [
             "warrior",
@@ -12351,7 +12352,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Necropolis Stalkers with Dread Falchions",
+        "name": "Necropolis Stalker with Dread Falchions",
         "points": 195,
         "runemarks": [
             "destroyer"
@@ -12428,7 +12429,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Morghast Harbringer with Swords",
+        "name": "Morghast Harbringer with Spirit Swords",
         "points": 265,
         "runemarks": [
             "fly",
@@ -12481,7 +12482,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Morghast Harbringer with Halberd",
+        "name": "Morghast Harbringer with Spirit Halberd",
         "points": 270,
         "runemarks": [
             "fly",
@@ -12507,7 +12508,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Morghast Archai with Swords",
+        "name": "Morghast Archai with Spirit Swords",
         "points": 275,
         "runemarks": [
             "fly"
@@ -12532,7 +12533,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Morghast Archai with Halberd",
+        "name": "Morghast Archai with Spirit Halberd",
         "points": 280,
         "runemarks": [
             "fly"
@@ -12688,13 +12689,13 @@
         "_id": "f647899c",
         "bladeborn": "Kainan's Reapers",
         "grand_alliance": "death",
-        "movement": 5,
+        "movement": 4,
         "name": "Mir Kainan",
         "points": 230,
         "runemarks": [
             "hero"
         ],
-        "toughness": 4,
+        "toughness": 5,
         "warband": "Ossiarch Bonereapers",
         "weapons": [
             {
@@ -13265,7 +13266,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Blood Knight with Lance",
+        "name": "Blood Knight with Templar Lance",
         "points": 200,
         "runemarks": [
             "mount",
@@ -13291,7 +13292,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Blood Knight with Blade",
+        "name": "Blood Knight with Templar Blade",
         "points": 205,
         "runemarks": [
             "mount",
@@ -13426,7 +13427,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Vellas Von Faine",
-        "points": 105,
+        "points": 120,
         "runemarks": [
             "terrifying"
         ],
@@ -13451,7 +13452,7 @@
         "grand_alliance": "death",
         "movement": 6,
         "name": "Ennias Curse-Born",
-        "points": 120,
+        "points": 115,
         "runemarks": [
             "fly",
             "terrifying"
@@ -13477,7 +13478,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Gorath the Enforcer",
-        "points": 130,
+        "points": 150,
         "runemarks": [
             "terrifying"
         ],
@@ -13502,7 +13503,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Prince Duvalle",
-        "points": 210,
+        "points": 205,
         "runemarks": [
             "hero",
             "terrifying"
@@ -13789,7 +13790,7 @@
         "name": "The Champion",
         "points": 75,
         "runemarks": [
-            "elite"
+            "champion"
         ],
         "toughness": 3,
         "warband": "Soulblight Gravelords",
@@ -13814,7 +13815,7 @@
         "name": "The Prince of Dust",
         "points": 105,
         "runemarks": [
-            "elite"
+            "champion"
         ],
         "toughness": 4,
         "warband": "Soulblight Gravelords",
