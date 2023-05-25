@@ -423,7 +423,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Blood Knight with Lance",
+        "name": "Blood Knight with Templar Lance",
         "points": 200,
         "runemarks": [
             "mount",
@@ -449,7 +449,7 @@
         "bladeborn": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Blood Knight with Blade",
+        "name": "Blood Knight with Templar Blade",
         "points": 205,
         "runemarks": [
             "mount",
@@ -579,37 +579,12 @@
         "wounds": 28
     },
     {
-        "_id": "463478bd",
-        "bladeborn": "The Crimson Court",
-        "grand_alliance": "death",
-        "movement": 5,
-        "name": "Vellas Von Faine",
-        "points": 105,
-        "runemarks": [
-            "terrifying"
-        ],
-        "toughness": 4,
-        "warband": "Soulblight Gravelords",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 3
-            }
-        ],
-        "wounds": 16
-    },
-    {
         "_id": "212b60f9",
         "bladeborn": "The Crimson Court",
         "grand_alliance": "death",
         "movement": 6,
         "name": "Ennias Curse-Born",
-        "points": 120,
+        "points": 115,
         "runemarks": [
             "fly",
             "terrifying"
@@ -630,12 +605,37 @@
         "wounds": 16
     },
     {
+        "_id": "463478bd",
+        "bladeborn": "The Crimson Court",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Vellas Von Faine",
+        "points": 120,
+        "runemarks": [
+            "terrifying"
+        ],
+        "toughness": 4,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "wounds": 16
+    },
+    {
         "_id": "b20fc155",
         "bladeborn": "The Crimson Court",
         "grand_alliance": "death",
         "movement": 5,
         "name": "Gorath the Enforcer",
-        "points": 130,
+        "points": 150,
         "runemarks": [
             "terrifying"
         ],
@@ -660,7 +660,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Prince Duvalle",
-        "points": 210,
+        "points": 205,
         "runemarks": [
             "hero",
             "terrifying"
@@ -947,7 +947,7 @@
         "name": "The Champion",
         "points": 75,
         "runemarks": [
-            "elite"
+            "champion"
         ],
         "toughness": 3,
         "warband": "Soulblight Gravelords",
@@ -972,7 +972,7 @@
         "name": "The Prince of Dust",
         "points": 105,
         "runemarks": [
-            "elite"
+            "champion"
         ],
         "toughness": 4,
         "warband": "Soulblight Gravelords",
