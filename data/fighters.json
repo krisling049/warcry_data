@@ -10985,7 +10985,8 @@
         "name": "Crypt Haunter Courtier",
         "points": 250,
         "runemarks": [
-            "hero"
+            "hero",
+            "elite"
         ],
         "toughness": 4,
         "warband": "Flesh-eater Courts",
@@ -11214,7 +11215,7 @@
         "bladeborn": "The Grymwatch",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Gristlewel Greatsword",
+        "name": "Gristlewel, Greatsword",
         "points": 80,
         "runemarks": [
             "minion"
@@ -11244,7 +11245,7 @@
         "runemarks": [
             "hero"
         ],
-        "toughness": 5,
+        "toughness": 3,
         "warband": "Flesh-eater Courts",
         "weapons": [
             {
@@ -11257,7 +11258,7 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "wounds": 20
     },
     {
         "_id": "fb7ec24d",
