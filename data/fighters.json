@@ -1185,6 +1185,32 @@
         "wounds": 25
     },
     {
+        "_id": "XXXXXX",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Skullhunter",
+        "points": 260,
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "toughness": 6,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 35
+    },
+    {
         "_id": "13f5bb8d",
         "bladeborn": "",
         "grand_alliance": "chaos",
