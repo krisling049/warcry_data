@@ -905,7 +905,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Blood Warrior with Goreaxe & Gorefist",
+        "name": "Blood Warrior with Goreaxe and Gorefist",
         "points": 100,
         "runemarks": [
             "bulwark"
@@ -953,7 +953,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Blood Warrior with Pair Bloodaxes",
+        "name": "Blood Warrior with Pair of Goreaxes",
         "points": 110,
         "runemarks": [],
         "toughness": 4,
@@ -1185,6 +1185,32 @@
         "wounds": 25
     },
     {
+        "_id": "XXXXXX",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Skullhunter",
+        "points": 260,
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "toughness": 6,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 35
+    },
+    {
         "_id": "13f5bb8d",
         "bladeborn": "",
         "grand_alliance": "chaos",
@@ -1289,11 +1315,11 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Slaughterpriest with Wrath-hammer & Hackblade",
+        "name": "Slaughterpriest with Wrath-hammer and Hackblade",
         "points": 185,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Blades of Khorne: Bloodbound",
@@ -1328,7 +1354,7 @@
         "points": 195,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Blades of Khorne: Bloodbound",
@@ -4553,7 +4579,7 @@
         "name": "Blissbrew Homonculus",
         "points": 55,
         "runemarks": [
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Hedonites of Slaanesh: Sybarites",
@@ -7359,7 +7385,7 @@
         "runemarks": [
             "hero",
             "agile",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Skaven",
@@ -7483,7 +7509,7 @@
         "runemarks": [
             "hero",
             "agile",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Skaven",
@@ -18897,7 +18923,7 @@
         "points": 120,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -20166,7 +20192,7 @@
         "points": 130,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Daughters of Khaine",
@@ -20786,7 +20812,7 @@
         "points": 150,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Daughters of Khaine",
@@ -21055,7 +21081,7 @@
         "points": 120,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Fyreslayers",
@@ -21720,7 +21746,7 @@
         "points": 140,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Idoneth Deepkin",
@@ -24401,7 +24427,7 @@
         "runemarks": [
             "hero",
             "minion",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Seraphon",
@@ -24513,7 +24539,7 @@
         "runemarks": [
             "hero",
             "minion",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Seraphon",
@@ -24825,7 +24851,7 @@
         "runemarks": [
             "fly",
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Seraphon",
@@ -26514,7 +26540,7 @@
         "points": 180,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 5,
         "warband": "Stormcast Eternals Thunderstrike Stormcast",
@@ -27851,7 +27877,7 @@
         "points": 180,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 5,
         "warband": "Stormcast Eternals Warrior Chamber",
