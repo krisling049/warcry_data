@@ -8109,7 +8109,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Marauder with Flail",
+        "name": "Chaos Marauder with Barbarian Flail",
         "points": 60,
         "runemarks": [],
         "toughness": 3,
@@ -8132,7 +8132,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Marauder with Axe & Shield",
+        "name": "Chaos Marauder with Barbarian Axe and Darkwood Shield",
         "points": 65,
         "runemarks": [
             "bulwark"
@@ -8157,9 +8157,11 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Warrior with Halberd and Shield",
+        "name": "Chaos Warrior with Chaos Halberd and Chaos Runeshield",
         "points": 105,
-        "runemarks": [],
+        "runemarks": [
+            "bulwark"
+        ],
         "toughness": 6,
         "warband": "Slaves to Darkness",
         "weapons": [
@@ -8205,9 +8207,11 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Warrior with Hand Weapon & Shield",
+        "name": "Chaos Warrior with Chaos Hand Weapon and Chaos Runeshield",
         "points": 110,
-        "runemarks": [],
+        "runemarks": [
+            "bulwark"
+        ],
         "toughness": 6,
         "warband": "Slaves to Darkness",
         "weapons": [
@@ -8228,7 +8232,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Warrior with Greatblade",
+        "name": "Chaos Warrior with Chaos Greatblade",
         "points": 115,
         "runemarks": [],
         "toughness": 5,
@@ -8274,7 +8278,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Marauder Horseman with Axe & Shield",
+        "name": "Chaos Marauder Horseman with Barbarian Axe and Darkwood Shield",
         "points": 125,
         "runemarks": [
             "mount"
@@ -8299,7 +8303,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Marauder Horseman with Flail",
+        "name": "Chaos Marauder Horseman with Marauder Flail",
         "points": 130,
         "runemarks": [
             "mount"
@@ -8308,13 +8312,13 @@
         "warband": "Slaves to Darkness",
         "weapons": [
             {
-                "attacks": 3,
+                "attacks": 4,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 3,
                 "min_range": 0,
                 "runemark": "reach",
-                "strength": 4
+                "strength": 3
             }
         ],
         "wounds": 18
@@ -8324,7 +8328,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Marauder Horseman with Javelin & Shield",
+        "name": "Chaos Marauder Horseman with Marauder Javelin and Darkwood Shield",
         "points": 140,
         "runemarks": [
             "scout",
@@ -8540,7 +8544,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Knight with Lance & Shield",
+        "name": "Chaos Knight with Cursed Lance and Chaos Runeshield",
         "points": 195,
         "runemarks": [
             "mount"
@@ -8565,7 +8569,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Knight Ensorcelled Weapon & Shield",
+        "name": "Chaos Knight with Ensorcelled Weapon and Chaos Runeshield",
         "points": 205,
         "runemarks": [
             "mount"
@@ -8657,7 +8661,7 @@
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "flail",
+                "runemark": "reach",
                 "strength": 4
             }
         ],
@@ -8695,7 +8699,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Lord on Demonic Mount",
+        "name": "Chaos Lord on Daemonic Mount",
         "points": 285,
         "runemarks": [
             "hero",
@@ -8722,7 +8726,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Varanguard with Deamonforged Blade",
+        "name": "Varanguard with Daemonforged Blade",
         "points": 285,
         "runemarks": [
             "hero",
