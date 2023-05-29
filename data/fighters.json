@@ -25546,7 +25546,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor with Storsmite Maul & Shield",
+        "name": "Sequitor with Storsmite Maul and Soulshield",
         "points": 120,
         "runemarks": [
             "bulwark"
@@ -25571,7 +25571,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor with Tempest Blade & Shield",
+        "name": "Sequitor with Tempest Blade and Soulshield",
         "points": 125,
         "runemarks": [
             "bulwark"
@@ -25621,7 +25621,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Evocator with Tempest Blade & Stormstave",
+        "name": "Evocator with Tempest Blade and Stormstave",
         "points": 150,
         "runemarks": [
             "mystic"
@@ -25646,12 +25646,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor-Prime with Hammer & Shield",
+        "name": "Sequitor-Prime with Stormsmite Maul and Soulshield",
         "points": 165,
         "runemarks": [
             "hero",
-            "bulwark",
-            "frenzied"
+            "bulwark"
         ],
         "toughness": 6,
         "warband": "Stormcast Eternals Sacrosanct Chamber",
@@ -25699,7 +25698,9 @@
         "name": "Sequitor-Prime with Redemption Cache",
         "points": 170,
         "runemarks": [
-            "hero"
+            "hero",
+            "bulwark",
+            "frenzied"
         ],
         "toughness": 6,
         "warband": "Stormcast Eternals Sacrosanct Chamber",
@@ -25721,7 +25722,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor-Prime with Sword & Shield",
+        "name": "Sequitor-Prime with Tempest Blade and Soulshield",
         "points": 175,
         "runemarks": [
             "hero",
@@ -25799,7 +25800,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Incantor",
+        "name": "Knight-Incantor",
         "points": 205,
         "runemarks": [
             "hero",
@@ -25868,11 +25869,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Arcanum",
+        "name": "Lord-Arcanum",
         "points": 210,
         "runemarks": [
             "hero",
-            "ferocious"
+            "berserker"
         ],
         "toughness": 5,
         "warband": "Stormcast Eternals Sacrosanct Chamber",
@@ -25903,11 +25904,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Exorcist",
+        "name": "Lord-Exorcist",
         "points": 210,
         "runemarks": [
             "hero",
-            "ferocious"
+            "frenzied"
         ],
         "toughness": 5,
         "warband": "Stormcast Eternals Sacrosanct Chamber",
@@ -25938,7 +25939,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Ordinator with Paired Hammers",
+        "name": "Lord-Ordinator with Paired Astral Hammers",
         "points": 210,
         "runemarks": [
             "hero",
@@ -25964,7 +25965,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Ordinator with Great Hammer",
+        "name": "Lord-Ordinator with Astral Grandhammer",
         "points": 220,
         "runemarks": [
             "hero",
@@ -26025,7 +26026,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Evocator on Dracoline with Grandstave",
+        "name": "Evocator on Celestial Dracoline with Grandstave",
         "points": 275,
         "runemarks": [
             "mystic",
@@ -26036,7 +26037,7 @@
         "weapons": [
             {
                 "attacks": 4,
-                "dmg_crit": 4,
+                "dmg_crit": 5,
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
@@ -26051,7 +26052,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Evocator on Dracoline with Tempest Blade &Stormstave",
+        "name": "Evocator on Celestial Dracoline with Tempest Blade and Stormstave",
         "points": 285,
         "runemarks": [
             "mystic",
@@ -26077,11 +26078,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Lord Arcanum on Gryph-Charger",
+        "name": "Lord-Arcanum on Gryph-Charger",
         "points": 305,
         "runemarks": [
             "hero",
-            "ferocious",
+            "berserker",
             "mount"
         ],
         "toughness": 5,
@@ -26113,7 +26114,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Evocator-Prime on Dracoline with Grandstave",
+        "name": "Evocator-Prime on Celestial Dracoline with Grandstave",
         "points": 315,
         "runemarks": [
             "hero",
@@ -26140,7 +26141,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Lord Arcanum on Dracoline",
+        "name": "Lord-Arcanum on Celestial Dracoline",
         "points": 315,
         "runemarks": [
             "hero",
@@ -26176,7 +26177,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Evocator-Prime Dracoline with Blade and Stave",
+        "name": "Evocator-Prime on Celestial Dracoline with Tempest Blade and Stave",
         "points": 330,
         "runemarks": [
             "hero",
