@@ -24175,7 +24175,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink with Club & Shield",
+        "name": "Skink with Moonstone Club and Star-buckler",
         "points": 70,
         "runemarks": [
             "minion"
@@ -24203,7 +24203,8 @@
         "name": "Skink Handler",
         "points": 70,
         "runemarks": [
-            "minion"
+            "minion",
+            "trapper"
         ],
         "toughness": 2,
         "warband": "Seraphon",
@@ -24225,7 +24226,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink with Boltspitter and Club",
+        "name": "Skink with Boltspitter and Moonstone Club",
         "points": 75,
         "runemarks": [
             "minion"
@@ -24259,7 +24260,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink with Javelin and Shield",
+        "name": "Skink with Meteoric Javelin and Star-buckler",
         "points": 80,
         "runemarks": [
             "minion"
@@ -24293,7 +24294,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Saurus Warrior with Club",
+        "name": "Saurus Warrior with Celestite Club",
         "points": 85,
         "runemarks": [
             "warrior"
@@ -24318,7 +24319,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Saurus Warrior with Spear",
+        "name": "Saurus Warrior with Celestite Spear",
         "points": 90,
         "runemarks": [
             "warrior"
@@ -24343,7 +24344,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink Alpha with Club & Shield",
+        "name": "Skink Alpha with Moonstone Club and Star-buckler",
         "points": 100,
         "runemarks": [
             "hero",
@@ -24369,7 +24370,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink Alpha with Bonespitter & Club",
+        "name": "Skink Alpha with Boltspitter and Moonstone Club",
         "points": 105,
         "runemarks": [
             "hero",
@@ -24451,7 +24452,7 @@
             {
                 "attacks": 2,
                 "dmg_crit": 5,
-                "dmg_hit": 3,
+                "dmg_hit": 2,
                 "max_range": 7,
                 "min_range": 3,
                 "runemark": "blast",
@@ -24604,10 +24605,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Saurus Knight with Blade",
+        "name": "Saurus Knight with Celestite Blade",
         "points": 160,
         "runemarks": [
-            "warrior"
+            "warrior",
+            "mount"
         ],
         "toughness": 4,
         "warband": "Seraphon",
@@ -24629,10 +24631,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Saurus Knight with Spear",
+        "name": "Saurus Knight with Celestite Warspear",
         "points": 165,
         "runemarks": [
-            "warrior"
+            "warrior",
+            "mount"
         ],
         "toughness": 4,
         "warband": "Seraphon",
@@ -24695,7 +24698,7 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "reach",
+                "runemark": "fangs",
                 "strength": 4
             },
             {
@@ -24704,8 +24707,8 @@
                 "dmg_hit": 1,
                 "max_range": 3,
                 "min_range": 0,
-                "runemark": "ranged",
-                "strength": 3
+                "runemark": "reach",
+                "strength": 2
             }
         ],
         "wounds": 15
@@ -24730,7 +24733,7 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "spear",
+                "runemark": "fangs",
                 "strength": 4
             },
             {
@@ -24739,7 +24742,7 @@
                 "dmg_hit": 1,
                 "max_range": 8,
                 "min_range": 0,
-                "runemark": "ranged",
+                "runemark": "spear",
                 "strength": 3
             }
         ],
@@ -24890,13 +24893,13 @@
         "warband": "Seraphon",
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "mace",
-                "strength": 4
+                "strength": 5
             }
         ],
         "wounds": 28
@@ -24910,14 +24913,15 @@
         "points": 195,
         "runemarks": [
             "hero",
-            "warrior"
+            "warrior",
+            "mount"
         ],
         "toughness": 4,
         "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 4,
-                "dmg_crit": 4,
+                "dmg_crit": 5,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
