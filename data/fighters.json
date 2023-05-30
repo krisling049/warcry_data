@@ -1185,32 +1185,6 @@
         "wounds": 25
     },
     {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Skullhunter",
-        "points": 260,
-        "runemarks": [
-            "hero",
-            "mount"
-        ],
-        "toughness": 6,
-        "warband": "Blades of Khorne: Bloodbound",
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
-            }
-        ],
-        "wounds": 35
-    },
-    {
         "_id": "13f5bb8d",
         "bladeborn": "",
         "grand_alliance": "chaos",
@@ -1497,6 +1471,32 @@
             }
         ],
         "wounds": 32
+    },
+    {
+        "_id": "5ec5fd0c",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Skullhunter",
+        "points": 260,
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "toughness": 6,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 35
     },
     {
         "_id": "7ccb3e43",
@@ -19414,6 +19414,32 @@
         "wounds": 18
     },
     {
+        "_id": "f4163d5a",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Warden King",
+        "points": 150,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Cities of Sigmar",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 22
+    },
+    {
         "_id": "655fd611",
         "bladeborn": "",
         "grand_alliance": "order",
@@ -19662,32 +19688,6 @@
             }
         ],
         "wounds": 18
-    },
-    {
-        "_id": "f4163d5a",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Warden King",
-        "points": 150,
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
-        "toughness": 5,
-        "warband": "Cities of Sigmar",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "hammer",
-                "strength": 4
-            }
-        ],
-        "wounds": 22
     },
     {
         "_id": "d5f1c574",
