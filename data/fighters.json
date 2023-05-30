@@ -21837,19 +21837,19 @@
         "warband": "Idoneth Deepkin",
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 5,
+                "attacks": 3,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 2,
+                "max_range": 3,
                 "min_range": 0,
                 "runemark": "fangs",
                 "strength": 4
             },
             {
-                "attacks": 3,
-                "dmg_crit": 4,
+                "attacks": 4,
+                "dmg_crit": 5,
                 "dmg_hit": 2,
-                "max_range": 3,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "scythe",
                 "strength": 4
@@ -21878,7 +21878,7 @@
                 "max_range": 2,
                 "min_range": 0,
                 "runemark": "spear",
-                "strength": 3
+                "strength": 4
             }
         ],
         "wounds": 20
@@ -21888,7 +21888,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Ishlaen Guard Lochain Prince",
+        "name": "Akhelian Ishlaen Guard Lochian Prince",
         "points": 250,
         "runemarks": [
             "fly",
@@ -21969,7 +21969,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Akhelian King with Polearm",
+        "name": "Akhelian King with Bladed Polearm",
         "points": 305,
         "runemarks": [
             "fly",
