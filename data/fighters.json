@@ -27,7 +27,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Ungor with Blade and Shield",
+        "name": "Ungor with Ungor Blade and Half-shield",
         "points": 60,
         "runemarks": [],
         "toughness": 4,
@@ -50,7 +50,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Ungor with Spear and Shield",
+        "name": "Ungor with Gnarled Shortspear and Half-shield",
         "points": 60,
         "runemarks": [],
         "toughness": 4,
@@ -73,7 +73,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Gor with Gorblade and Beastshield",
+        "name": "Gor with Gor Blade and Beastshield",
         "points": 65,
         "runemarks": [],
         "toughness": 4,
@@ -351,7 +351,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Beast Lord",
+        "name": "Beastlord",
         "points": 180,
         "runemarks": [
             "hero",
@@ -377,7 +377,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Bullgor with Paired Axes",
+        "name": "Bullgor with Paired Bullgor Axes",
         "points": 185,
         "runemarks": [
             "brute"
@@ -428,7 +428,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Bullgor with Great Axe",
+        "name": "Bullgor with Bullgor Great Axe",
         "points": 195,
         "runemarks": [
             "brute"
@@ -478,7 +478,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Dragon Ogor with War-glaive",
+        "name": "Dragon Ogor with Draconic War-glaive",
         "points": 205,
         "runemarks": [
             "destroyer"
@@ -503,7 +503,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Dragon Ogor with paired Weapons",
+        "name": "Dragon Ogor with Paired Ancient Weapons",
         "points": 210,
         "runemarks": [
             "destroyer"
@@ -528,7 +528,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Bloodkine with Axe and Shield",
+        "name": "Bloodkine with Bullgor Axe and Bullshield",
         "points": 215,
         "runemarks": [
             "hero",
@@ -580,7 +580,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Bloodkine with paired Bullgor Axes",
+        "name": "Bloodkine with Paired Bullgor Axes",
         "points": 245,
         "runemarks": [
             "hero",
@@ -646,7 +646,7 @@
                 "attacks": 3,
                 "dmg_crit": 6,
                 "dmg_hit": 3,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "axe",
                 "strength": 5
@@ -685,7 +685,7 @@
         "bladeborn": "Grashrak's Despoilers",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Korsh the Sneak",
+        "name": "Korsh 'the Sneak'",
         "points": 65,
         "runemarks": [],
         "toughness": 3,
@@ -905,7 +905,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Blood Warrior with Goreaxe & Gorefist",
+        "name": "Blood Warrior with Goreaxe and Gorefist",
         "points": 100,
         "runemarks": [
             "bulwark"
@@ -953,7 +953,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Blood Warrior with Pair Bloodaxes",
+        "name": "Blood Warrior with Pair of Goreaxes",
         "points": 110,
         "runemarks": [],
         "toughness": 4,
@@ -1289,11 +1289,11 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Slaughterpriest with Wrath-hammer & Hackblade",
+        "name": "Slaughterpriest with Wrath-hammer and Hackblade",
         "points": 185,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Blades of Khorne: Bloodbound",
@@ -1328,7 +1328,7 @@
         "points": 195,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Blades of Khorne: Bloodbound",
@@ -1471,6 +1471,32 @@
             }
         ],
         "wounds": 32
+    },
+    {
+        "_id": "5ec5fd0c",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Skullhunter",
+        "points": 260,
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "toughness": 6,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 35
     },
     {
         "_id": "7ccb3e43",
@@ -2850,7 +2876,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Tzaangor with Paired Blades",
+        "name": "Tzaangor with Pair of Savage Blades",
         "points": 75,
         "runemarks": [],
         "toughness": 3,
@@ -2873,7 +2899,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Tzaangor with Blade & Shield",
+        "name": "Tzaangor with Savage Blade and Arcanite Shield",
         "points": 80,
         "runemarks": [],
         "toughness": 4,
@@ -2921,7 +2947,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Kairic Acolyte with Paired Blades",
+        "name": "Kairic Acolyte with Paired Cursed Blades",
         "points": 90,
         "runemarks": [],
         "toughness": 3,
@@ -2985,7 +3011,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Kairic Acolyte with Blade & Shield",
+        "name": "Kairic Acolyte with Cursed Blade and Arcanite Shield",
         "points": 95,
         "runemarks": [],
         "toughness": 4,
@@ -3017,7 +3043,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Kairic Acolyte with Glaive & Shield",
+        "name": "Kairic Acolyte with Cursed Glaive and Arcanite Shield",
         "points": 95,
         "runemarks": [],
         "toughness": 4,
@@ -3081,7 +3107,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Tzaangor with Greatblade",
+        "name": "Tzaangor with Savage Greatblade",
         "points": 105,
         "runemarks": [],
         "toughness": 3,
@@ -3283,7 +3309,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Curseling Eye of Tzeentch",
+        "name": "Curseling, Eye of Tzeentch",
         "points": 205,
         "runemarks": [
             "hero"
@@ -3317,7 +3343,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Tzaangor Enlightened on Disc",
+        "name": "Tzaangor Enlightened on Disc of Tzeentch",
         "points": 220,
         "runemarks": [
             "fly",
@@ -3413,7 +3439,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Magister on Disc",
+        "name": "Magister on Disc of Tzeentch",
         "points": 245,
         "runemarks": [
             "fly",
@@ -3510,8 +3536,8 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Gaunt Summoner of Tzeentch on Disc",
-        "points": 265,
+        "name": "Gaunt Summoner on Disc of Tzeentch",
+        "points": 255,
         "runemarks": [
             "fly",
             "hero",
@@ -3546,7 +3572,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Enlightened Aviarch on Disc",
+        "name": "Enlightened Aviarch on Disc of Tzeentch",
         "points": 275,
         "runemarks": [
             "hero",
@@ -3609,7 +3635,7 @@
         "bladeborn": "Eyes of the Nine",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Brimstone Horrors",
+        "name": "Eyes of the Nine Brimstone Horrors",
         "points": 0,
         "runemarks": [
             "minion"
@@ -3643,7 +3669,7 @@
         "bladeborn": "Eyes of the Nine",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Blue Horror",
+        "name": "Eyes of the Nine Blue Horror",
         "points": 85,
         "runemarks": [
             "warrior"
@@ -4553,7 +4579,7 @@
         "name": "Blissbrew Homonculus",
         "points": 55,
         "runemarks": [
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Hedonites of Slaanesh: Sybarites",
@@ -4747,7 +4773,8 @@
         "name": "Blissbarb Archer High Tempter",
         "points": 130,
         "runemarks": [
-            "Hero. Minion"
+            "hero",
+            "minion"
         ],
         "toughness": 3,
         "warband": "Hedonites of Slaanesh: Sybarites",
@@ -4927,7 +4954,7 @@
         "weapons": [
             {
                 "attacks": 4,
-                "dmg_crit": 5,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
@@ -4983,8 +5010,8 @@
                 "dmg_hit": 1,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "spear",
-                "strength": 4
+                "runemark": "claw",
+                "strength": 3
             }
         ],
         "wounds": 25
@@ -5096,7 +5123,7 @@
                 "attacks": 4,
                 "dmg_crit": 5,
                 "dmg_hit": 3,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "axe",
                 "strength": 4
@@ -5778,7 +5805,7 @@
         "points": 105,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Jade Obelisk",
@@ -6066,7 +6093,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Putrid Blightking with Blighted weapon",
+        "name": "Putrid Blightking with Blighted Weapon",
         "points": 110,
         "runemarks": [],
         "toughness": 4,
@@ -6089,7 +6116,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Putrid Blightking with Shield",
+        "name": "Putrid Blightking with Filth-encrusted Shield",
         "points": 110,
         "runemarks": [],
         "toughness": 5,
@@ -7036,7 +7063,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Plague Monk with Pair of Blades",
+        "name": "Plague Monk with Pair of Foetid Blades",
         "points": 80,
         "runemarks": [
             "agile"
@@ -7061,7 +7088,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Plague Monk with Staff & Blade",
+        "name": "Plague Monk with Foetid Blade and Woe-stave",
         "points": 80,
         "runemarks": [
             "agile"
@@ -7121,7 +7148,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Stormvermin with Halberd & Shield",
+        "name": "Stormvermin with Rusty Halberd and Clanshield",
         "points": 80,
         "runemarks": [
             "elite"
@@ -7180,7 +7207,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Stormvermin with Halberd",
+        "name": "Stormvermin with Rusty Halberd",
         "points": 95,
         "runemarks": [
             "elite"
@@ -7205,7 +7232,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Plague Monk with Censer Bearer",
+        "name": "Plague Censer Bearer",
         "points": 105,
         "runemarks": [
             "agile",
@@ -7359,7 +7386,7 @@
         "runemarks": [
             "hero",
             "agile",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Skaven",
@@ -7446,7 +7473,7 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "wounds": 18
     },
     {
         "_id": "531c33c2",
@@ -7483,7 +7510,7 @@
         "runemarks": [
             "hero",
             "agile",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Skaven",
@@ -8082,7 +8109,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Marauder with Flail",
+        "name": "Chaos Marauder with Barbarian Flail",
         "points": 60,
         "runemarks": [],
         "toughness": 3,
@@ -8105,7 +8132,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Marauder with Axe & Shield",
+        "name": "Chaos Marauder with Barbarian Axe and Darkwood Shield",
         "points": 65,
         "runemarks": [
             "bulwark"
@@ -8130,9 +8157,11 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Warrior with Halberd and Shield",
+        "name": "Chaos Warrior with Chaos Halberd and Chaos Runeshield",
         "points": 105,
-        "runemarks": [],
+        "runemarks": [
+            "bulwark"
+        ],
         "toughness": 6,
         "warband": "Slaves to Darkness",
         "weapons": [
@@ -8178,9 +8207,11 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Warrior with Hand Weapon & Shield",
+        "name": "Chaos Warrior with Chaos Hand Weapon and Chaos Runeshield",
         "points": 110,
-        "runemarks": [],
+        "runemarks": [
+            "bulwark"
+        ],
         "toughness": 6,
         "warband": "Slaves to Darkness",
         "weapons": [
@@ -8201,7 +8232,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Warrior with Greatblade",
+        "name": "Chaos Warrior with Chaos Greatblade",
         "points": 115,
         "runemarks": [],
         "toughness": 5,
@@ -8247,7 +8278,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Marauder Horseman with Axe & Shield",
+        "name": "Chaos Marauder Horseman with Barbarian Axe and Darkwood Shield",
         "points": 125,
         "runemarks": [
             "mount"
@@ -8272,7 +8303,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Marauder Horseman with Flail",
+        "name": "Chaos Marauder Horseman with Marauder Flail",
         "points": 130,
         "runemarks": [
             "mount"
@@ -8281,13 +8312,13 @@
         "warband": "Slaves to Darkness",
         "weapons": [
             {
-                "attacks": 3,
+                "attacks": 4,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 3,
                 "min_range": 0,
                 "runemark": "reach",
-                "strength": 4
+                "strength": 3
             }
         ],
         "wounds": 18
@@ -8297,7 +8328,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Marauder Horseman with Javelin & Shield",
+        "name": "Chaos Marauder Horseman with Marauder Javelin and Darkwood Shield",
         "points": 140,
         "runemarks": [
             "scout",
@@ -8513,7 +8544,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Knight with Lance & Shield",
+        "name": "Chaos Knight with Cursed Lance and Chaos Runeshield",
         "points": 195,
         "runemarks": [
             "mount"
@@ -8538,7 +8569,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Knight Ensorcelled Weapon & Shield",
+        "name": "Chaos Knight with Ensorcelled Weapon and Chaos Runeshield",
         "points": 205,
         "runemarks": [
             "mount"
@@ -8630,7 +8661,7 @@
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "flail",
+                "runemark": "reach",
                 "strength": 4
             }
         ],
@@ -8668,7 +8699,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Lord on Demonic Mount",
+        "name": "Chaos Lord on Daemonic Mount",
         "points": 285,
         "runemarks": [
             "hero",
@@ -8695,7 +8726,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Varanguard with Deamonforged Blade",
+        "name": "Varanguard with Daemonforged Blade",
         "points": 285,
         "runemarks": [
             "hero",
@@ -18080,7 +18111,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Black Ark Corsair with Swords",
+        "name": "Black Ark Corsair with Vicious Blade and Wicked Cutlass",
         "points": 65,
         "runemarks": [],
         "toughness": 3,
@@ -18176,10 +18207,10 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Guard with Sword & Shield",
+        "name": "Freeguild Guard with Sword and Shield",
         "points": 65,
         "runemarks": [
-            "Bulwwark"
+            "bulwark"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -18224,7 +18255,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Longbeard with Hammer & Shield",
+        "name": "Longbeard with Ancestral Weapon and Gromril Shield",
         "points": 70,
         "runemarks": [
             "bulwark"
@@ -18249,7 +18280,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Black Ark Corsair with Sword & Handbow",
+        "name": "Black Ark Corsair with Vicious Blade and Repeater Crossbow",
         "points": 75,
         "runemarks": [
             "scout"
@@ -18331,7 +18362,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Longbeard with Greataxe",
+        "name": "Longbeard with Ancestral Great Axe",
         "points": 75,
         "runemarks": [
             "destroyer"
@@ -18534,7 +18565,7 @@
         "name": "Executioner",
         "points": 100,
         "runemarks": [
-            "ferocious"
+            "destroyer"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -18748,7 +18779,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Old Guard with Weapon and Shield",
+        "name": "Old Guard with Ancestral Weapon and Gromril Shield",
         "points": 110,
         "runemarks": [
             "hero",
@@ -18862,7 +18893,8 @@
         "name": "Ironbeard with Drakefire Pistol and Cinderblast Bomb",
         "points": 120,
         "runemarks": [
-            "hero"
+            "hero",
+            "scout"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -18897,7 +18929,7 @@
         "points": 120,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -18922,7 +18954,8 @@
         "name": "Guardmaster",
         "points": 125,
         "runemarks": [
-            "hero"
+            "hero",
+            "scout"
         ],
         "toughness": 3,
         "warband": "Cities of Sigmar",
@@ -19073,7 +19106,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Freeguild Pistoleer",
+        "name": "Freeguild Pistolier",
         "points": 135,
         "runemarks": [
             "agile",
@@ -19181,7 +19214,7 @@
         "points": 140,
         "runemarks": [
             "hero",
-            "agile"
+            "scout"
         ],
         "toughness": 3,
         "warband": "Cities of Sigmar",
@@ -19302,7 +19335,7 @@
         "points": 145,
         "runemarks": [
             "hero",
-            "ferocious"
+            "destroyer"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -19363,7 +19396,7 @@
         "points": 150,
         "runemarks": [
             "hero",
-            "ferocious"
+            "destroyer"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -19379,6 +19412,32 @@
             }
         ],
         "wounds": 18
+    },
+    {
+        "_id": "f4163d5a",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Warden King",
+        "points": 150,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Cities of Sigmar",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 22
     },
     {
         "_id": "655fd611",
@@ -19424,7 +19483,7 @@
         "points": 155,
         "runemarks": [
             "hero",
-            "ferocious"
+            "destroyer"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -19629,32 +19688,6 @@
             }
         ],
         "wounds": 18
-    },
-    {
-        "_id": "f4163d5a",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Warden King",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
-        "toughness": 5,
-        "warband": "Cities of Sigmar",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "hammer",
-                "strength": 4
-            }
-        ],
-        "wounds": 22
     },
     {
         "_id": "d5f1c574",
@@ -20020,7 +20053,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Witch Aelf with Paired Daggers",
+        "name": "Witch Aelf with Paired Sciansá",
         "points": 65,
         "runemarks": [],
         "toughness": 3,
@@ -20043,7 +20076,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Witch Aelf with Dagger & Shield",
+        "name": "Witch Aelf with Sciansá and Bladed Buckler",
         "points": 65,
         "runemarks": [],
         "toughness": 4,
@@ -20066,7 +20099,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Sister of Slaughter with Whip and Buckler",
+        "name": "Sister of Slaughter with Kruiplash and Bladed Buckler",
         "points": 75,
         "runemarks": [],
         "toughness": 4,
@@ -20089,7 +20122,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Sister of Slaughter with Whip and knife",
+        "name": "Sister of Slaughter with Kruiplash and Sacrificial Knife",
         "points": 80,
         "runemarks": [],
         "toughness": 3,
@@ -20166,7 +20199,7 @@
         "points": 130,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Daughters of Khaine",
@@ -20533,7 +20566,7 @@
                 "dmg_hit": 3,
                 "max_range": 7,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "blast",
                 "strength": 3
             }
         ],
@@ -20786,7 +20819,7 @@
         "points": 150,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Daughters of Khaine",
@@ -20842,7 +20875,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Vulkite Berzerker Fyresteel Weapon and Shield",
+        "name": "Vulkite Berzerker with Fyresteel Weapon and Bladed Slingshield",
         "points": 65,
         "runemarks": [
             "bulwark"
@@ -20867,7 +20900,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Vulkite Berzerker with Twin axes",
+        "name": "Vulkite Berzerker with Pair of Fyresteel Handaxes",
         "points": 70,
         "runemarks": [],
         "toughness": 4,
@@ -20890,7 +20923,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Hearthguard Berzerker with Poleaxe",
+        "name": "Hearthguard Berzerker with Flamestrike Poleaxe",
         "points": 95,
         "runemarks": [
             "warrior"
@@ -20915,7 +20948,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Hearthguard Berzerker with Broadaxe",
+        "name": "Hearthguard Berzerker with Berzerker Broadaxe",
         "points": 100,
         "runemarks": [
             "warrior"
@@ -21055,7 +21088,7 @@
         "points": 120,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Fyreslayers",
@@ -21103,7 +21136,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Auric Runeson with Javelin",
+        "name": "Auric Runeson with Wyrmslayer Javelin",
         "points": 130,
         "runemarks": [
             "hero",
@@ -21129,7 +21162,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Auric Runeson with War-Axe",
+        "name": "Auric Runeson with Ancestral War-Axe",
         "points": 130,
         "runemarks": [
             "hero",
@@ -21180,7 +21213,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Grimwrath Berserker",
+        "name": "Grimwrath Berzerker",
         "points": 135,
         "runemarks": [
             "hero",
@@ -21241,7 +21274,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Hearthguard Berzerker Karl with Broadaxe",
+        "name": "Hearthguard Berzerker Karl with Berzerker Broadaxe",
         "points": 140,
         "runemarks": [
             "hero",
@@ -21267,7 +21300,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Hearthguard Berzerker Karl with Poleaxe",
+        "name": "Hearthguard Berzerker Karl with Flamestrike Poleaxe",
         "points": 140,
         "runemarks": [
             "hero",
@@ -21720,7 +21753,7 @@
         "points": 140,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Idoneth Deepkin",
@@ -21809,7 +21842,7 @@
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "fangs",
+                "runemark": "scythe",
                 "strength": 4
             },
             {
@@ -21818,7 +21851,7 @@
                 "dmg_hit": 2,
                 "max_range": 3,
                 "min_range": 0,
-                "runemark": "scythe",
+                "runemark": "fangs",
                 "strength": 4
             }
         ],
@@ -21845,7 +21878,7 @@
                 "max_range": 2,
                 "min_range": 0,
                 "runemark": "spear",
-                "strength": 3
+                "strength": 4
             }
         ],
         "wounds": 20
@@ -21855,7 +21888,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Ishlaen Guard Lochain Prince",
+        "name": "Akhelian Ishlaen Guard Lochian Prince",
         "points": 250,
         "runemarks": [
             "fly",
@@ -21936,7 +21969,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Akhelian King with Polearm",
+        "name": "Akhelian King with Bladed Polearm",
         "points": 305,
         "runemarks": [
             "fly",
@@ -22146,7 +22179,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Darkflame Warlock with Crossbows",
+        "name": "Darkflame Warlock with Repeater Crossbows",
         "points": 105,
         "runemarks": [
             "mystic"
@@ -23636,7 +23669,7 @@
         "points": 120,
         "runemarks": [
             "hero",
-            "destroyer"
+            "elite"
         ],
         "toughness": 3,
         "warband": "Lumineth Realm-lords",
@@ -23736,7 +23769,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Bladelord Seneschal with Sunmetal Dual blades",
+        "name": "Bladelord Seneschal with Sunmetal Dual Blades",
         "points": 145,
         "runemarks": [
             "hero",
@@ -24142,7 +24175,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink with Club & Shield",
+        "name": "Skink with Moonstone Club and Star-buckler",
         "points": 70,
         "runemarks": [
             "minion"
@@ -24170,7 +24203,8 @@
         "name": "Skink Handler",
         "points": 70,
         "runemarks": [
-            "minion"
+            "minion",
+            "trapper"
         ],
         "toughness": 2,
         "warband": "Seraphon",
@@ -24192,7 +24226,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink with Boltspitter and Club",
+        "name": "Skink with Boltspitter and Moonstone Club",
         "points": 75,
         "runemarks": [
             "minion"
@@ -24226,7 +24260,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink with Javelin and Shield",
+        "name": "Skink with Meteoric Javelin and Star-buckler",
         "points": 80,
         "runemarks": [
             "minion"
@@ -24260,7 +24294,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Saurus Warrior with Club",
+        "name": "Saurus Warrior with Celestite Club",
         "points": 85,
         "runemarks": [
             "warrior"
@@ -24285,7 +24319,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Saurus Warrior with Spear",
+        "name": "Saurus Warrior with Celestite Spear",
         "points": 90,
         "runemarks": [
             "warrior"
@@ -24310,7 +24344,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink Alpha with Club & Shield",
+        "name": "Skink Alpha with Moonstone Club and Star-buckler",
         "points": 100,
         "runemarks": [
             "hero",
@@ -24336,7 +24370,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Skink Alpha with Bonespitter & Club",
+        "name": "Skink Alpha with Boltspitter and Moonstone Club",
         "points": 105,
         "runemarks": [
             "hero",
@@ -24401,7 +24435,7 @@
         "runemarks": [
             "hero",
             "minion",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Seraphon",
@@ -24418,7 +24452,7 @@
             {
                 "attacks": 2,
                 "dmg_crit": 5,
-                "dmg_hit": 3,
+                "dmg_hit": 2,
                 "max_range": 7,
                 "min_range": 3,
                 "runemark": "blast",
@@ -24513,7 +24547,7 @@
         "runemarks": [
             "hero",
             "minion",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Seraphon",
@@ -24571,10 +24605,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Saurus Knight with Blade",
+        "name": "Saurus Knight with Celestite Blade",
         "points": 160,
         "runemarks": [
-            "warrior"
+            "warrior",
+            "mount"
         ],
         "toughness": 4,
         "warband": "Seraphon",
@@ -24596,10 +24631,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Saurus Knight with Spear",
+        "name": "Saurus Knight with Celestite Warspear",
         "points": 165,
         "runemarks": [
-            "warrior"
+            "warrior",
+            "mount"
         ],
         "toughness": 4,
         "warband": "Seraphon",
@@ -24662,7 +24698,7 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "reach",
+                "runemark": "fangs",
                 "strength": 4
             },
             {
@@ -24671,8 +24707,8 @@
                 "dmg_hit": 1,
                 "max_range": 3,
                 "min_range": 0,
-                "runemark": "ranged",
-                "strength": 3
+                "runemark": "reach",
+                "strength": 2
             }
         ],
         "wounds": 15
@@ -24697,7 +24733,7 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "spear",
+                "runemark": "fangs",
                 "strength": 4
             },
             {
@@ -24706,7 +24742,7 @@
                 "dmg_hit": 1,
                 "max_range": 8,
                 "min_range": 0,
-                "runemark": "ranged",
+                "runemark": "spear",
                 "strength": 3
             }
         ],
@@ -24825,7 +24861,7 @@
         "runemarks": [
             "fly",
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Seraphon",
@@ -24857,13 +24893,13 @@
         "warband": "Seraphon",
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "mace",
-                "strength": 4
+                "strength": 5
             }
         ],
         "wounds": 28
@@ -24877,14 +24913,15 @@
         "points": 195,
         "runemarks": [
             "hero",
-            "warrior"
+            "warrior",
+            "mount"
         ],
         "toughness": 4,
         "warband": "Seraphon",
         "weapons": [
             {
                 "attacks": 4,
-                "dmg_crit": 4,
+                "dmg_crit": 5,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
@@ -25509,7 +25546,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor with Storsmite Maul & Shield",
+        "name": "Sequitor with Storsmite Maul and Soulshield",
         "points": 120,
         "runemarks": [
             "bulwark"
@@ -25534,7 +25571,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor with Tempest Blade & Shield",
+        "name": "Sequitor with Tempest Blade and Soulshield",
         "points": 125,
         "runemarks": [
             "bulwark"
@@ -25584,7 +25621,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Evocator with Tempest Blade & Stormstave",
+        "name": "Evocator with Tempest Blade and Stormstave",
         "points": 150,
         "runemarks": [
             "mystic"
@@ -25609,12 +25646,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor-Prime with Hammer & Shield",
+        "name": "Sequitor-Prime with Stormsmite Maul and Soulshield",
         "points": 165,
         "runemarks": [
             "hero",
-            "bulwark",
-            "frenzied"
+            "bulwark"
         ],
         "toughness": 6,
         "warband": "Stormcast Eternals Sacrosanct Chamber",
@@ -25662,7 +25698,9 @@
         "name": "Sequitor-Prime with Redemption Cache",
         "points": 170,
         "runemarks": [
-            "hero"
+            "hero",
+            "bulwark",
+            "frenzied"
         ],
         "toughness": 6,
         "warband": "Stormcast Eternals Sacrosanct Chamber",
@@ -25684,7 +25722,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor-Prime with Sword & Shield",
+        "name": "Sequitor-Prime with Tempest Blade and Soulshield",
         "points": 175,
         "runemarks": [
             "hero",
@@ -25762,7 +25800,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Incantor",
+        "name": "Knight-Incantor",
         "points": 205,
         "runemarks": [
             "hero",
@@ -25831,11 +25869,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Arcanum",
+        "name": "Lord-Arcanum",
         "points": 210,
         "runemarks": [
             "hero",
-            "ferocious"
+            "berserker"
         ],
         "toughness": 5,
         "warband": "Stormcast Eternals Sacrosanct Chamber",
@@ -25866,11 +25904,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Exorcist",
+        "name": "Lord-Exorcist",
         "points": 210,
         "runemarks": [
             "hero",
-            "ferocious"
+            "frenzied"
         ],
         "toughness": 5,
         "warband": "Stormcast Eternals Sacrosanct Chamber",
@@ -25901,7 +25939,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Ordinator with Paired Hammers",
+        "name": "Lord-Ordinator with Paired Astral Hammers",
         "points": 210,
         "runemarks": [
             "hero",
@@ -25927,7 +25965,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Ordinator with Great Hammer",
+        "name": "Lord-Ordinator with Astral Grandhammer",
         "points": 220,
         "runemarks": [
             "hero",
@@ -25988,7 +26026,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Evocator on Dracoline with Grandstave",
+        "name": "Evocator on Celestial Dracoline with Grandstave",
         "points": 275,
         "runemarks": [
             "mystic",
@@ -25999,7 +26037,7 @@
         "weapons": [
             {
                 "attacks": 4,
-                "dmg_crit": 4,
+                "dmg_crit": 5,
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
@@ -26014,7 +26052,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Evocator on Dracoline with Tempest Blade &Stormstave",
+        "name": "Evocator on Celestial Dracoline with Tempest Blade and Stormstave",
         "points": 285,
         "runemarks": [
             "mystic",
@@ -26040,11 +26078,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Lord Arcanum on Gryph-Charger",
+        "name": "Lord-Arcanum on Gryph-Charger",
         "points": 305,
         "runemarks": [
             "hero",
-            "ferocious",
+            "berserker",
             "mount"
         ],
         "toughness": 5,
@@ -26076,7 +26114,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Evocator-Prime on Dracoline with Grandstave",
+        "name": "Evocator-Prime on Celestial Dracoline with Grandstave",
         "points": 315,
         "runemarks": [
             "hero",
@@ -26103,7 +26141,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Lord Arcanum on Dracoline",
+        "name": "Lord-Arcanum on Celestial Dracoline",
         "points": 315,
         "runemarks": [
             "hero",
@@ -26139,7 +26177,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Evocator-Prime Dracoline with Blade and Stave",
+        "name": "Evocator-Prime on Celestial Dracoline with Tempest Blade and Stave",
         "points": 330,
         "runemarks": [
             "hero",
@@ -26228,7 +26266,7 @@
             {
                 "attacks": 3,
                 "dmg_crit": 4,
-                "dmg_hit": 1,
+                "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
                 "runemark": "mace",
@@ -26433,7 +26471,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Vexillor with Banner of Apotheosis",
+        "name": "Knight-Vexillor with Banner of Apotheosis",
         "points": 170,
         "runemarks": [
             "hero",
@@ -26459,7 +26497,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Vindictor Prime",
+        "name": "Vindictor-Prime",
         "points": 170,
         "runemarks": [
             "hero"
@@ -26484,7 +26522,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Annihilator Prime with Meteoric Hammer",
+        "name": "Annihilator-Prime with Meteoric Hammer",
         "points": 180,
         "runemarks": [
             "hero",
@@ -26510,11 +26548,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Relictor",
+        "name": "Knight-Relictor",
         "points": 180,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 5,
         "warband": "Stormcast Eternals Thunderstrike Stormcast",
@@ -26536,7 +26574,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Vanquisher Prime",
+        "name": "Vanquisher-Prime",
         "points": 185,
         "runemarks": [
             "hero",
@@ -26562,7 +26600,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Annihilator Prime with Grandhammer",
+        "name": "Annihilator-Prime with Grandhammer",
         "points": 200,
         "runemarks": [
             "hero",
@@ -26588,7 +26626,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Arcanum",
+        "name": "Knight-Arcanum",
         "points": 205,
         "runemarks": [
             "hero",
@@ -26623,7 +26661,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Praetor Prime",
+        "name": "Praetor-Prime",
         "points": 215,
         "runemarks": [
             "hero",
@@ -26649,7 +26687,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Vigilor Prime",
+        "name": "Vigilor-Prime",
         "points": 225,
         "runemarks": [
             "hero",
@@ -26684,7 +26722,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Judicator",
+        "name": "Knight-Judicator",
         "points": 235,
         "runemarks": [
             "hero",
@@ -26719,7 +26757,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Imperatant",
+        "name": "Lord-Imperatant",
         "points": 240,
         "runemarks": [
             "hero",
@@ -27016,7 +27054,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Knight Zephyros",
+        "name": "Knight-Zephyros",
         "points": 200,
         "runemarks": [
             "hero",
@@ -27224,7 +27262,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Knight Azyros",
+        "name": "Knight-Azyros",
         "points": 260,
         "runemarks": [
             "fly",
@@ -27251,10 +27289,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Pallador Prime with Starstrike Javelin",
+        "name": "Pallador-Prime with Starstrike Javelin",
         "points": 280,
         "runemarks": [
-            "hero"
+            "hero",
+            "mount"
         ],
         "toughness": 5,
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
@@ -27285,7 +27324,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Pallador Prime with Shock Hand-axe",
+        "name": "Pallador-Prime with Shock Hand-axe",
         "points": 285,
         "runemarks": [
             "hero",
@@ -27320,7 +27359,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Lord Aquilor",
+        "name": "Lord-Aquilor",
         "points": 310,
         "runemarks": [
             "hero",
@@ -27355,7 +27394,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Knight Venator",
+        "name": "Knight-Venator",
         "points": 325,
         "runemarks": [
             "hero",
@@ -27515,7 +27554,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator with Hammer & Shield",
+        "name": "Liberator with Warhammer and Sigmarite Shield",
         "points": 120,
         "runemarks": [
             "warrior",
@@ -27541,7 +27580,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator with Sword & Shield",
+        "name": "Liberator with Warblade and Sigmarite Shield",
         "points": 130,
         "runemarks": [
             "warrior",
@@ -27617,7 +27656,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator with 2 Hammers",
+        "name": "Liberator with Paired Warhammers",
         "points": 135,
         "runemarks": [
             "warrior"
@@ -27642,7 +27681,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator with 2 Swords",
+        "name": "Liberator with Paired Warblades",
         "points": 140,
         "runemarks": [
             "warrior"
@@ -27692,7 +27731,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator with Great Hammer",
+        "name": "Liberator with Grandhammer",
         "points": 155,
         "runemarks": [
             "warrior"
@@ -27767,7 +27806,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator-Prime with Hammer & Shield",
+        "name": "Liberator-Prime with Warhammer and Sigmarite Shield",
         "points": 170,
         "runemarks": [
             "hero",
@@ -27794,7 +27833,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Vexillor",
+        "name": "Knight-Vexillor",
         "points": 175,
         "runemarks": [
             "hero",
@@ -27820,7 +27859,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator-Prime with Sword & Shield",
+        "name": "Liberator-Prime with Warblade and Sigmarite Shield",
         "points": 180,
         "runemarks": [
             "hero",
@@ -27847,11 +27886,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Relictor",
+        "name": "Lord-Relictor",
         "points": 180,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 5,
         "warband": "Stormcast Eternals Warrior Chamber",
@@ -27873,7 +27912,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Veritant",
+        "name": "Lord-Veritant",
         "points": 180,
         "runemarks": [
             "hero",
@@ -27899,7 +27938,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Retributor Prime",
+        "name": "Retributor-Prime",
         "points": 180,
         "runemarks": [
             "hero",
@@ -27925,7 +27964,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Heraldor",
+        "name": "Knight-Heraldor",
         "points": 185,
         "runemarks": [
             "hero",
@@ -27951,7 +27990,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Decimator Prime",
+        "name": "Decimator-Prime",
         "points": 190,
         "runemarks": [
             "hero",
@@ -27964,7 +28003,7 @@
                 "attacks": 4,
                 "dmg_crit": 6,
                 "dmg_hit": 3,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "axe",
                 "strength": 4
@@ -27977,7 +28016,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Questor",
+        "name": "Knight-Questor",
         "points": 190,
         "runemarks": [
             "hero",
@@ -28003,7 +28042,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator-Prime with Paired Blades",
+        "name": "Liberator-Prime with Paired Warblades",
         "points": 190,
         "runemarks": [
             "hero",
@@ -28020,6 +28059,32 @@
                 "min_range": 0,
                 "runemark": "sword",
                 "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "208340b5",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator-Prime with Paired Warhammers",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
             }
         ],
         "wounds": 25
@@ -28061,7 +28126,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Castellant",
+        "name": "Lord-Castellant",
         "points": 195,
         "runemarks": [
             "hero",
@@ -28087,7 +28152,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Protector Prime",
+        "name": "Protector-Prime",
         "points": 195,
         "runemarks": [
             "hero",
@@ -28145,7 +28210,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor with Hammer & Shield",
+        "name": "Prosecutor with Celestial Hammer and Sigmarite Shield",
         "points": 200,
         "runemarks": [
             "fly",
@@ -28169,7 +28234,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "hammer",
                 "strength": 4
             }
         ],
@@ -28180,7 +28245,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Celestant",
+        "name": "Lord- Celestant",
         "points": 215,
         "runemarks": [
             "hero",
@@ -28206,7 +28271,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor with Javelin & Shield",
+        "name": "Prosecutor with Stormcall Javelin and Sigmarite Shield",
         "points": 215,
         "runemarks": [
             "fly",
@@ -28230,7 +28295,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "spear",
                 "strength": 4
             }
         ],
@@ -28241,7 +28306,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor with 2 Hammers",
+        "name": "Prosecutor with Paired Celestial Hammers",
         "points": 220,
         "runemarks": [
             "fly"
@@ -28264,7 +28329,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "hammer",
                 "strength": 4
             }
         ],
@@ -28309,7 +28374,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor with Great Axe",
+        "name": "Prosecutor with Grandaxe",
         "points": 230,
         "runemarks": [
             "fly"
@@ -28400,7 +28465,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor with Trident & Shield",
+        "name": "Prosecutor with Stormsurge Trident and Sigmarite Shield",
         "points": 235,
         "runemarks": [
             "fly",
@@ -28424,7 +28489,7 @@
                 "dmg_hit": 3,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "spear",
                 "strength": 4
             }
         ],
@@ -28517,12 +28582,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor-Prime with Hammer & Shield",
+        "name": "Prosecutor-Prime with Celestial Hammer and Sigmarite Shield",
         "points": 255,
         "runemarks": [
             "fly",
-            "hero",
-            "bulwark"
+            "hero"
         ],
         "toughness": 6,
         "warband": "Stormcast Eternals Warrior Chamber",
@@ -28542,7 +28606,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "hammer",
                 "strength": 4
             }
         ],
@@ -28553,7 +28617,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor-Prime with Javelin & Shield",
+        "name": "Prosecutor-Prime with Stormcall Javelin and Sigmarite Shield",
         "points": 275,
         "runemarks": [
             "fly",
@@ -28578,7 +28642,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "spear",
                 "strength": 4
             }
         ],
@@ -28589,17 +28653,17 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor-Prime with paired Hammers",
+        "name": "Prosecutor-Prime with Paired Celestial Hammers",
         "points": 280,
         "runemarks": [
             "fly",
             "hero"
         ],
-        "toughness": 6,
+        "toughness": 5,
         "warband": "Stormcast Eternals Warrior Chamber",
         "weapons": [
             {
-                "attacks": 4,
+                "attacks": 5,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
@@ -28613,7 +28677,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "hammer",
                 "strength": 4
             }
         ],
