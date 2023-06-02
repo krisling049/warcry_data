@@ -62,6 +62,7 @@ class FighterJSONPayload(FighterDataPayload):
         # We treat the fighters.json file as our source of truth so this is the one we load
         with open(self.src_file, 'r') as f:
             data = json.load(f)
+
         return data
 
     def write_aggregate_file_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
@@ -69,7 +70,7 @@ class FighterJSONPayload(FighterDataPayload):
         sorted_data = [dict(sorted(x.items())) for x in self.data]
         with open(dst, 'w') as nf:
             print(f'Writing {len(self.data)} fighters to {dst}...')
-            json.dump(sort_data(sorted_data), nf, ensure_ascii=True, indent=4, sort_keys=False)
+            json.dump(sort_data(sorted_data), nf, ensure_ascii=False, indent=4, sort_keys=False)
 
     def validate_data(self):
         with open(self.schema, 'r') as f:
@@ -100,7 +101,7 @@ class FighterJSONPayload(FighterDataPayload):
                 with open(output_file, 'w') as f:
                     print(f'Writing {len(WARBANDS[warband])} fighters to {output_file}')
                     sorted_warband = sort_data(WARBANDS[warband])
-                    json.dump(sorted_warband, f, ensure_ascii=True, indent=4, sort_keys=False)
+                    json.dump(sorted_warband, f, ensure_ascii=False, indent=4, sort_keys=False)
 
     def write_spreadsheet(self, dst_root: Path = Path(Path(__file__).parent.parent, 'data')):
         # This is crap atm. Need to make sure sheet is sensibly ordered and weapons values go into separate columns
@@ -126,17 +127,22 @@ class Fighter:
     def __repr__(self):
         return self.name
 
-    def ctk(self, t: int, w: int, to_crit: int = 6) -> float:
+    def ctk(self, t: int, w: int, to_crit: int = 6, attack_actions: int = 1) -> float:
+        """
+        Warning! This can take a long time with a high number of attacks. Needs improvement.
+        """
         for wep in self.weapons:
             s = wep['strength']
-            a = wep['attacks']
+            a = wep['attacks'] * attack_actions
             dh = wep['dmg_hit']
             dc = wep['dmg_crit']
 
             to_hit = 4 if s == t else 3 if s > t else 5
-            possible_rolls = list(product(*[list(range(1, 7)) for _ in range(a)]))
+            total_rolls = 0
             killing_rolls = 0
-            for pr in possible_rolls:
+
+            for pr in product(range(1, 7), repeat=a):
+                total_rolls = total_rolls + 1
                 damage = 0
                 for dice in pr:
                     if dice in range(to_hit, to_crit):
@@ -145,7 +151,8 @@ class Fighter:
                         damage = damage + dc
                 if damage >= w:
                     killing_rolls = killing_rolls + 1
-            ctk = killing_rolls / len(possible_rolls)
+            ctk = killing_rolls / total_rolls
+
             return ctk
 
     def has_str(self, s: int) -> bool:
