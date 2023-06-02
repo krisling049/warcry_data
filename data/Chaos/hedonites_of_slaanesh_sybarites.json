@@ -7,7 +7,7 @@
         "name": "Blissbrew Homonculus",
         "points": 55,
         "runemarks": [
-            "Priest"
+            "priest"
         ],
         "toughness": 3,
         "warband": "Hedonites of Slaanesh: Sybarites",
@@ -201,7 +201,8 @@
         "name": "Blissbarb Archer High Tempter",
         "points": 130,
         "runemarks": [
-            "Hero. Minion"
+            "hero",
+            "minion"
         ],
         "toughness": 3,
         "warband": "Hedonites of Slaanesh: Sybarites",
@@ -381,7 +382,7 @@
         "weapons": [
             {
                 "attacks": 4,
-                "dmg_crit": 5,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
@@ -437,8 +438,8 @@
                 "dmg_hit": 1,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "spear",
-                "strength": 4
+                "runemark": "claw",
+                "strength": 3
             }
         ],
         "wounds": 25
@@ -550,7 +551,7 @@
                 "attacks": 4,
                 "dmg_crit": 5,
                 "dmg_hit": 3,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "axe",
                 "strength": 4

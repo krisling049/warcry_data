@@ -50,7 +50,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Blood Warrior with Goreaxe & Gorefist",
+        "name": "Blood Warrior with Goreaxe and Gorefist",
         "points": 100,
         "runemarks": [
             "bulwark"
@@ -98,7 +98,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Blood Warrior with Pair Bloodaxes",
+        "name": "Blood Warrior with Pair of Goreaxes",
         "points": 110,
         "runemarks": [],
         "toughness": 4,
@@ -434,11 +434,11 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Slaughterpriest with Wrath-hammer & Hackblade",
+        "name": "Slaughterpriest with Wrath-hammer and Hackblade",
         "points": 185,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Blades of Khorne: Bloodbound",
@@ -473,7 +473,7 @@
         "points": 195,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Blades of Khorne: Bloodbound",
@@ -616,6 +616,32 @@
             }
         ],
         "wounds": 32
+    },
+    {
+        "_id": "5ec5fd0c",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Skullhunter",
+        "points": 260,
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "toughness": 6,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 35
     },
     {
         "_id": "7ccb3e43",

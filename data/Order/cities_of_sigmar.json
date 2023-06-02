@@ -29,7 +29,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Black Ark Corsair with Swords",
+        "name": "Black Ark Corsair with Vicious Blade and Wicked Cutlass",
         "points": 65,
         "runemarks": [],
         "toughness": 3,
@@ -125,10 +125,10 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Guard with Sword & Shield",
+        "name": "Freeguild Guard with Sword and Shield",
         "points": 65,
         "runemarks": [
-            "Bulwwark"
+            "bulwark"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -173,7 +173,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Longbeard with Hammer & Shield",
+        "name": "Longbeard with Ancestral Weapon and Gromril Shield",
         "points": 70,
         "runemarks": [
             "bulwark"
@@ -198,7 +198,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Black Ark Corsair with Sword & Handbow",
+        "name": "Black Ark Corsair with Vicious Blade and Repeater Crossbow",
         "points": 75,
         "runemarks": [
             "scout"
@@ -280,7 +280,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Longbeard with Greataxe",
+        "name": "Longbeard with Ancestral Great Axe",
         "points": 75,
         "runemarks": [
             "destroyer"
@@ -483,7 +483,7 @@
         "name": "Executioner",
         "points": 100,
         "runemarks": [
-            "ferocious"
+            "destroyer"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -697,7 +697,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Old Guard with Weapon and Shield",
+        "name": "Old Guard with Ancestral Weapon and Gromril Shield",
         "points": 110,
         "runemarks": [
             "hero",
@@ -811,7 +811,8 @@
         "name": "Ironbeard with Drakefire Pistol and Cinderblast Bomb",
         "points": 120,
         "runemarks": [
-            "hero"
+            "hero",
+            "scout"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -846,7 +847,7 @@
         "points": 120,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -871,7 +872,8 @@
         "name": "Guardmaster",
         "points": 125,
         "runemarks": [
-            "hero"
+            "hero",
+            "scout"
         ],
         "toughness": 3,
         "warband": "Cities of Sigmar",
@@ -1022,7 +1024,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Freeguild Pistoleer",
+        "name": "Freeguild Pistolier",
         "points": 135,
         "runemarks": [
             "agile",
@@ -1130,7 +1132,7 @@
         "points": 140,
         "runemarks": [
             "hero",
-            "agile"
+            "scout"
         ],
         "toughness": 3,
         "warband": "Cities of Sigmar",
@@ -1251,7 +1253,7 @@
         "points": 145,
         "runemarks": [
             "hero",
-            "ferocious"
+            "destroyer"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -1312,7 +1314,7 @@
         "points": 150,
         "runemarks": [
             "hero",
-            "ferocious"
+            "destroyer"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -1328,6 +1330,32 @@
             }
         ],
         "wounds": 18
+    },
+    {
+        "_id": "f4163d5a",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Warden King",
+        "points": 150,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Cities of Sigmar",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 22
     },
     {
         "_id": "655fd611",
@@ -1373,7 +1401,7 @@
         "points": 155,
         "runemarks": [
             "hero",
-            "ferocious"
+            "destroyer"
         ],
         "toughness": 4,
         "warband": "Cities of Sigmar",
@@ -1578,32 +1606,6 @@
             }
         ],
         "wounds": 18
-    },
-    {
-        "_id": "f4163d5a",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Warden King",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
-        "toughness": 5,
-        "warband": "Cities of Sigmar",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "hammer",
-                "strength": 4
-            }
-        ],
-        "wounds": 22
     },
     {
         "_id": "d5f1c574",

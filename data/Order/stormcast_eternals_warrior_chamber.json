@@ -29,7 +29,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator with Hammer & Shield",
+        "name": "Liberator with Warhammer and Sigmarite Shield",
         "points": 120,
         "runemarks": [
             "warrior",
@@ -55,7 +55,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator with Sword & Shield",
+        "name": "Liberator with Warblade and Sigmarite Shield",
         "points": 130,
         "runemarks": [
             "warrior",
@@ -131,7 +131,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator with 2 Hammers",
+        "name": "Liberator with Paired Warhammers",
         "points": 135,
         "runemarks": [
             "warrior"
@@ -156,7 +156,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator with 2 Swords",
+        "name": "Liberator with Paired Warblades",
         "points": 140,
         "runemarks": [
             "warrior"
@@ -206,7 +206,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator with Great Hammer",
+        "name": "Liberator with Grandhammer",
         "points": 155,
         "runemarks": [
             "warrior"
@@ -281,7 +281,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator-Prime with Hammer & Shield",
+        "name": "Liberator-Prime with Warhammer and Sigmarite Shield",
         "points": 170,
         "runemarks": [
             "hero",
@@ -308,7 +308,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Vexillor",
+        "name": "Knight-Vexillor",
         "points": 175,
         "runemarks": [
             "hero",
@@ -334,7 +334,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator-Prime with Sword & Shield",
+        "name": "Liberator-Prime with Warblade and Sigmarite Shield",
         "points": 180,
         "runemarks": [
             "hero",
@@ -361,11 +361,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Relictor",
+        "name": "Lord-Relictor",
         "points": 180,
         "runemarks": [
             "hero",
-            "Priest"
+            "priest"
         ],
         "toughness": 5,
         "warband": "Stormcast Eternals Warrior Chamber",
@@ -387,7 +387,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Veritant",
+        "name": "Lord-Veritant",
         "points": 180,
         "runemarks": [
             "hero",
@@ -413,7 +413,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Retributor Prime",
+        "name": "Retributor-Prime",
         "points": 180,
         "runemarks": [
             "hero",
@@ -439,7 +439,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Heraldor",
+        "name": "Knight-Heraldor",
         "points": 185,
         "runemarks": [
             "hero",
@@ -465,7 +465,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Decimator Prime",
+        "name": "Decimator-Prime",
         "points": 190,
         "runemarks": [
             "hero",
@@ -478,7 +478,7 @@
                 "attacks": 4,
                 "dmg_crit": 6,
                 "dmg_hit": 3,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "axe",
                 "strength": 4
@@ -491,7 +491,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight Questor",
+        "name": "Knight-Questor",
         "points": 190,
         "runemarks": [
             "hero",
@@ -517,7 +517,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Liberator-Prime with Paired Blades",
+        "name": "Liberator-Prime with Paired Warblades",
         "points": 190,
         "runemarks": [
             "hero",
@@ -534,6 +534,32 @@
                 "min_range": 0,
                 "runemark": "sword",
                 "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "208340b5",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator-Prime with Paired Warhammers",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
             }
         ],
         "wounds": 25
@@ -575,7 +601,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Castellant",
+        "name": "Lord-Castellant",
         "points": 195,
         "runemarks": [
             "hero",
@@ -601,7 +627,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Protector Prime",
+        "name": "Protector-Prime",
         "points": 195,
         "runemarks": [
             "hero",
@@ -659,7 +685,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor with Hammer & Shield",
+        "name": "Prosecutor with Celestial Hammer and Sigmarite Shield",
         "points": 200,
         "runemarks": [
             "fly",
@@ -683,7 +709,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "hammer",
                 "strength": 4
             }
         ],
@@ -694,7 +720,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord Celestant",
+        "name": "Lord- Celestant",
         "points": 215,
         "runemarks": [
             "hero",
@@ -720,7 +746,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor with Javelin & Shield",
+        "name": "Prosecutor with Stormcall Javelin and Sigmarite Shield",
         "points": 215,
         "runemarks": [
             "fly",
@@ -744,7 +770,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "spear",
                 "strength": 4
             }
         ],
@@ -755,7 +781,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor with 2 Hammers",
+        "name": "Prosecutor with Paired Celestial Hammers",
         "points": 220,
         "runemarks": [
             "fly"
@@ -778,7 +804,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "hammer",
                 "strength": 4
             }
         ],
@@ -823,7 +849,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor with Great Axe",
+        "name": "Prosecutor with Grandaxe",
         "points": 230,
         "runemarks": [
             "fly"
@@ -914,7 +940,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor with Trident & Shield",
+        "name": "Prosecutor with Stormsurge Trident and Sigmarite Shield",
         "points": 235,
         "runemarks": [
             "fly",
@@ -938,7 +964,7 @@
                 "dmg_hit": 3,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "spear",
                 "strength": 4
             }
         ],
@@ -1031,12 +1057,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor-Prime with Hammer & Shield",
+        "name": "Prosecutor-Prime with Celestial Hammer and Sigmarite Shield",
         "points": 255,
         "runemarks": [
             "fly",
-            "hero",
-            "bulwark"
+            "hero"
         ],
         "toughness": 6,
         "warband": "Stormcast Eternals Warrior Chamber",
@@ -1056,7 +1081,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "hammer",
                 "strength": 4
             }
         ],
@@ -1067,7 +1092,7 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor-Prime with Javelin & Shield",
+        "name": "Prosecutor-Prime with Stormcall Javelin and Sigmarite Shield",
         "points": 275,
         "runemarks": [
             "fly",
@@ -1092,7 +1117,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "spear",
                 "strength": 4
             }
         ],
@@ -1103,17 +1128,17 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor-Prime with paired Hammers",
+        "name": "Prosecutor-Prime with Paired Celestial Hammers",
         "points": 280,
         "runemarks": [
             "fly",
             "hero"
         ],
-        "toughness": 6,
+        "toughness": 5,
         "warband": "Stormcast Eternals Warrior Chamber",
         "weapons": [
             {
-                "attacks": 4,
+                "attacks": 5,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
@@ -1127,7 +1152,7 @@
                 "dmg_hit": 2,
                 "max_range": 8,
                 "min_range": 3,
-                "runemark": "ranged",
+                "runemark": "hammer",
                 "strength": 4
             }
         ],
