@@ -112,17 +112,8 @@ class FighterJSONPayload(FighterDataPayload):
 
 class Fighter:
     def __init__(self, fighter_dict: dict):
-        self.name = fighter_dict['name']
-        self._id = fighter_dict['_id']
-        self.bladeborn = fighter_dict['bladeborn']
-        self.grand_alliance = fighter_dict['grand_alliance']
-        self.movement = fighter_dict['movement']
-        self.points = fighter_dict['points']
-        self.runemarks = fighter_dict['runemarks']
-        self.toughness = fighter_dict['toughness']
-        self.warband = fighter_dict['warband']
-        self.weapons = fighter_dict['weapons']
-        self.wounds = fighter_dict['wounds']
+        for key, value in fighter_dict.items():
+            self.__setattr__(key, value)
 
     def __repr__(self):
         return self.name
@@ -190,3 +181,12 @@ class AbilityJSONPayload(AbilityDataPayload):
         with open(self.schema, 'r') as f:
             ability_schema = json.load(f)
         jsonschema.validate(self.data, ability_schema)
+
+
+class Ability:
+    def __init__(self, ability_dict: dict):
+        for key, value in ability_dict.items():
+            self.__setattr__(key, value)
+
+    def __repr__(self):
+        return self.name
