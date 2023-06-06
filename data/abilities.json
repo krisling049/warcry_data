@@ -2813,7 +2813,7 @@
         "name": "Chosen of the King",
         "warband": "Flesh-eater Courts",
         "cost": "double",
-        "description": "A fighter can use this abiltiy only if they are within 6\" of a visible friendly fighter with the Flesh-eater Courts faction runemark and both the Hero and Berserker runemarks. Until the end of this fighter's activation, add 2 to the Attacks characteristic of melee attack actions made by this fighter.\n⠀",
+        "description": "A fighter can use this abiltiy only if they are within 6\" of a visible friendly fighter with the Flesh-eater Courts faction runemark and both the Hero and Berserker runemarks. Until the end of this fighter's activation, add 2 to the Attacks characteristic of melee attack actions made by this fighter.",
         "runemarks": [
             "elite"
         ]
@@ -2823,7 +2823,7 @@
         "name": "Feeding Frenzy",
         "warband": "Flesh-eater Courts",
         "cost": "double",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Remove a number of damage points from this fighter up to the value of this ability.\n⠀",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Remove a number of damage points from this fighter up to the value of this ability.",
         "runemarks": []
     },
     {
@@ -2841,7 +2841,7 @@
         "name": "Skewering Strike",
         "warband": "Flesh-eater Courts",
         "cost": "double",
-        "description": "Add 1 to the Stregnth characteristic of the next melee attack action made by this fighter this activation. In addition, if that attack action scores a critical hit, until the end of the battle round, the target fighter cannot make move actions or disengage actions.\n⠀",
+        "description": "Add 1 to the Stregnth characteristic of the next melee attack action made by this fighter this activation. In addition, if that attack action scores a critical hit, until the end of the battle round, the target fighter cannot make move actions or disengage actions.",
         "runemarks": [
             "agile"
         ]
@@ -2872,7 +2872,7 @@
         "name": "Death Scream",
         "warband": "Flesh-eater Courts",
         "cost": "triple",
-        "description": "Roll a dice for each visible enemy fighter within 8\" of this fighter. On a 5, allocate 1 damage point to the fighter being rolled for. On a 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.\n⠀",
+        "description": "Roll a dice for each visible enemy fighter within 8\" of this fighter. On a 5, allocate 1 damage point to the fighter being rolled for. On a 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
         "runemarks": [
             "agile"
         ]
@@ -2882,7 +2882,7 @@
         "name": "Stir of Black Hunger",
         "warband": "Flesh-eater Courts",
         "cost": "quad",
-        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.\n⠀",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
         "runemarks": [
             "hero",
             "berserker"
@@ -2893,7 +2893,7 @@
         "name": "Terrifying Frenzy",
         "warband": "Flesh-eater Courts",
         "cost": "triple",
-        "description": "Add the 3 to the Attacks characteristic of the next melee attack action made by this fighter this activation.\n⠀",
+        "description": "Add the 3 to the Attacks characteristic of the next melee attack action made by this fighter this activation.",
         "runemarks": [
             "hero",
             "terrifying"
@@ -2904,7 +2904,7 @@
         "name": "The Royal Hunt",
         "warband": "Flesh-eater Courts",
         "cost": "quad",
-        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. In addition, add 1 to the Attacks characteristic of that attack action if this fighter is within 1\" of a visible friendly fighter.\n⠀",
+        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. In addition, add 1 to the Attacks characteristic of that attack action if this fighter is within 1\" of a visible friendly fighter.",
         "runemarks": []
     },
     {
@@ -3011,7 +3011,7 @@
         "name": "Aura of Dread",
         "warband": "Nighthaunt",
         "cost": "double",
-        "description": "Pick a visible enemy fighter within a number of inches of this fighter equal to the value of this ability. Until the end of the battle round, subtract 1 from the Strength characteristic (to a minimum of 1) of attack actions made by that fighter. A fighter can only be targeted once per battle round by this ability.\n⠀",
+        "description": "Pick a visible enemy fighter within a number of inches of this fighter equal to the value of this ability. Until the end of the battle round, subtract 1 from the Strength characteristic (to a minimum of 1) of attack actions made by that fighter. A fighter can only be targeted once per battle round by this ability.",
         "runemarks": []
     },
     {
@@ -3019,7 +3019,7 @@
         "name": "Chilling Horde",
         "warband": "Nighthaunt",
         "cost": "double",
-        "description": "A fighter can use this ability only if there is a visible friendly fighter with the Minion runemark within 3\" of them. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of attack actions made by this fighter.\n⠀",
+        "description": "A fighter can use this ability only if there is a visible friendly fighter with the Minion runemark within 3\" of them. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of attack actions made by this fighter.",
         "runemarks": [
             "minion"
         ]
@@ -3039,7 +3039,7 @@
         "name": "Stolen Hours",
         "warband": "Nighthaunt",
         "cost": "double",
-        "description": "At the end of this fighter's activation, heal a number of damage points allocated to this fighter up to the number of damage points allocated to enemy fighters this activation.\n⠀",
+        "description": "At the end of this fighter's activation, heal a number of damage points allocated to this fighter up to the number of damage points allocated to enemy fighters this activation.",
         "runemarks": [
             "hero",
             "champion"
@@ -3050,7 +3050,7 @@
         "name": "Frightful Touch",
         "warband": "Nighthaunt",
         "cost": "triple",
-        "description": "Until the end of this fighter's activation, count each hit from melee attack actions made by them as a critical hit instead.\n⠀",
+        "description": "Until the end of this fighter's activation, count each hit from melee attack actions made by them as a critical hit instead.",
         "runemarks": [
             "destroyer"
         ]
@@ -3060,7 +3060,7 @@
         "name": "Harrowing Shriek",
         "warband": "Nighthaunt",
         "cost": "triple",
-        "description": "Pick an enemy fighter within a number of inches of this fighter equal to the value of this ability and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions.\n⠀",
+        "description": "Pick an enemy fighter within a number of inches of this fighter equal to the value of this ability and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions.",
         "runemarks": [
             "terrifying"
         ]
@@ -3102,7 +3102,7 @@
         "name": "Spectral Summon",
         "warband": "Nighthaunt",
         "cost": "triple",
-        "description": "Pick a friendly fighter that has been taken down. Set that fighter up on a platform or the battlefield floor wholly within 3\" of this fighter. The fighter set up on the battlefield no longer counts as being taken down. Remove a number of damage points allocated to that fighter equal to the value of this ability.\n⠀",
+        "description": "Pick a friendly fighter that has been taken down. Set that fighter up on a platform or the battlefield floor wholly within 3\" of this fighter. The fighter set up on the battlefield no longer counts as being taken down. Remove a number of damage points allocated to that fighter equal to the value of this ability.",
         "runemarks": [
             "hero"
         ]
@@ -3112,7 +3112,7 @@
         "name": "Unholy Light",
         "warband": "Nighthaunt",
         "cost": "triple",
-        "description": "Remove up to D3 damage points allocated to each friendly fighter within 6\" of this fighter (roll for each).\n⠀",
+        "description": "Remove up to D3 damage points allocated to each friendly fighter within 6\" of this fighter (roll for each).",
         "runemarks": [
             "hero",
             "mystic"
@@ -3123,7 +3123,7 @@
         "name": "Captured Soul-energy",
         "warband": "Nighthaunt",
         "cost": "quad",
-        "description": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation. Remove a number of damage points from all visible friendly fighters within 6\" of this fighter up to the value of this ability.\n⠀",
+        "description": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation. Remove a number of damage points from all visible friendly fighters within 6\" of this fighter up to the value of this ability.",
         "runemarks": [
             "hero",
             "trapper"
@@ -3134,7 +3134,7 @@
         "name": "Reaped Like Corn",
         "warband": "Nighthaunt",
         "cost": "quad",
-        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.\n⠀",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
         "runemarks": [
             "elite"
         ]
@@ -3160,7 +3160,7 @@
         "name": "Endless Duty",
         "warband": "Ossiarch Bonereapers",
         "cost": "double",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.\n⠀",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
         "runemarks": [
             "hero",
             "champion"
@@ -3181,7 +3181,7 @@
         "name": "Hunt and Kill",
         "warband": "Ossiarch Bonereapers",
         "cost": "double",
-        "description": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.\n⠀",
+        "description": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
         "runemarks": [
             "destroyer"
         ]
@@ -3199,7 +3199,7 @@
         "name": "Deathrider Charge",
         "warband": "Ossiarch Bonereapers",
         "cost": "triple",
-        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.\n⠀",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "warrior"
         ]
@@ -3209,7 +3209,7 @@
         "name": "Soul-guide",
         "warband": "Ossiarch Bonereapers",
         "cost": "triple",
-        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.\n⠀",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
         "runemarks": [
             "hero",
             "mystic"
@@ -3220,7 +3220,7 @@
         "name": "The Boneshaper's Art",
         "warband": "Ossiarch Bonereapers",
         "cost": "triple",
-        "description": "Remove up to D3 damage points allocated to each friendly fighter within 6\" of this fighter (roll for each).\n⠀",
+        "description": "Remove up to D3 damage points allocated to each friendly fighter within 6\" of this fighter (roll for each).",
         "runemarks": [
             "hero",
             "trapper"
@@ -3231,7 +3231,7 @@
         "name": "Unbridled Ferocity",
         "warband": "Ossiarch Bonereapers",
         "cost": "triple",
-        "description": "This fighter makes a bonus move action.\n⠀",
+        "description": "This fighter makes a bonus move action.",
         "runemarks": [
             "berserker"
         ]
@@ -3241,7 +3241,7 @@
         "name": "Unstoppable Advance",
         "warband": "Ossiarch Bonereapers",
         "cost": "triple",
-        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters that are in the same battle group as this fighter.\n⠀",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters that are in the same battle group as this fighter.",
         "runemarks": [
             "hero"
         ]
@@ -3251,7 +3251,7 @@
         "name": "Blade-strike Aspect",
         "warband": "Ossiarch Bonereapers",
         "cost": "quad",
-        "description": "Until the end of this fighter's activation, add 3 to the Attacks characteristic of attack actions made by this fighter.\n⠀",
+        "description": "Until the end of this fighter's activation, add 3 to the Attacks characteristic of attack actions made by this fighter.",
         "runemarks": [
             "destroyer"
         ]
@@ -3612,7 +3612,7 @@
         "name": "An Eye for Weakness",
         "warband": "Bonesplitterz",
         "cost": "triple",
-        "description": "Pick a visible enemy fighter within 12\" of this fighter. Until the end of the battle round, add 3 to the damage points allocated by each critical hit for attacks that target that fighter.\n⠀",
+        "description": "Pick a visible enemy fighter within 12\" of this fighter. Until the end of the battle round, add 3 to the damage points allocated by each critical hit for attacks that target that fighter.",
         "runemarks": [
             "hero",
             "hedkrakka's madmob"
@@ -3675,7 +3675,7 @@
         "name": "Bone Krusha",
         "warband": "Bonesplitterz",
         "cost": "quad",
-        "description": "Pick a visible enemy fighter within 12\" of this figther and roll a number of dice equal to the value of this ability.  For each 2+, allocate 3 damage points to that fighter.  If the enemy fighter is within 3\" of this fighter, allocate 5 damage points to that fighter for each 2+ instead.\n⠀",
+        "description": "Pick a visible enemy fighter within 12\" of this figther and roll a number of dice equal to the value of this ability.  For each 2+, allocate 3 damage points to that fighter.  If the enemy fighter is within 3\" of this fighter, allocate 5 damage points to that fighter for each 2+ instead.",
         "runemarks": [
             "hero",
             "hedkrakka's madmob"
@@ -3731,7 +3731,7 @@
         "name": "Face of Da Bad Moon",
         "warband": "Zarbag's Gitz",
         "cost": "double",
-        "description": "Pick a visible enemy fighter within 9\" of this fighter that is within 1\" of a friendly fighter.  That enemy fighter must make a bonus disengage action.  If the ycannot do so, allocate D6 damage pints to that enemy fighter instead.\n⠀",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter that is within 1\" of a friendly fighter.  That enemy fighter must make a bonus disengage action.  If the ycannot do so, allocate D6 damage pints to that enemy fighter instead.",
         "runemarks": [
             "hero"
         ]
@@ -3800,7 +3800,7 @@
         "name": "Summon Stalagsquig",
         "warband": "Mollog's Mob",
         "cost": "double",
-        "description": "A fighter can only use this ability once per battle.  Pick a point on a platform or the battlefield floor within 3\" of this fighter that is more than 1\" from all enemy fighters and set up the Stalagsquig marker.  Allocate 2D6 damage points to the first enemy fighter to move within 1\" of the marker, then remove the marker.\n⠀",
+        "description": "A fighter can only use this ability once per battle.  Pick a point on a platform or the battlefield floor within 3\" of this fighter that is more than 1\" from all enemy fighters and set up the Stalagsquig marker.  Allocate 2D6 damage points to the first enemy fighter to move within 1\" of the marker, then remove the marker.",
         "runemarks": [
             "hero"
         ]
@@ -3918,7 +3918,7 @@
         "name": "Whirling Death",
         "warband": "Zarbag's Gitz",
         "cost": "quad",
-        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.\n⠀",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
         "runemarks": [
             "frenzied"
         ]
@@ -3976,7 +3976,7 @@
         "name": "Dead 'Ard",
         "warband": "Ironskull's Boyz",
         "cost": "double",
-        "description": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target this figther.\n⠀",
+        "description": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target this figther.",
         "runemarks": []
     },
     {
@@ -4476,7 +4476,7 @@
         "name": "Here You Go, Boss!",
         "warband": "Hrothgorn's Mantrappers",
         "cost": "triple",
-        "description": "A fighter can use this ability only if they are within 2\" of a friendly Hrothgorn Mantrapper.  that Hrothgorn Mantrapper makes a bonus attack action that has a Ranged Weapon runemark.\n⠀",
+        "description": "A fighter can use this ability only if they are within 2\" of a friendly Hrothgorn Mantrapper.  that Hrothgorn Mantrapper makes a bonus attack action that has a Ranged Weapon runemark.",
         "runemarks": [
             "minion"
         ]
