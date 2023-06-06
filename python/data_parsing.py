@@ -169,7 +169,7 @@ class AbilityDataPayload(DataPayload):
 class AbilityJSONPayload(AbilityDataPayload):
 
     def load_data(self) -> List[Dict]:
-        # We treat the fighters.json file as our source of truth so this is the one we load
+        # We treat the abilities.json file as our source of truth so this is the one we load
         with open(self.src_file, 'r') as f:
             data = json.load(f)
 
@@ -177,10 +177,14 @@ class AbilityJSONPayload(AbilityDataPayload):
 
     def write_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'abilities.json')):
         self.validate_data()
-        sorted_data = [dict(sorted(x.items())) for x in self.data]
+
+        the_data = self.data
+        the_data.sort(key=lambda d: d['warband'])
+
+        sorted_data = sorted(the_data, key=lambda d: d['warband'])
         with open(dst, 'w') as nf:
             print(f'Writing {len(self.data)} abilities to {dst}...')
-            json.dump(sort_data(sorted_data), nf, ensure_ascii=False, indent=4, sort_keys=False)
+            json.dump(sorted_data, nf, ensure_ascii=False, indent=4, sort_keys=False)
 
     def validate_data(self):
         with open(self.schema, 'r') as f:

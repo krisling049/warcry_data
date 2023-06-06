@@ -129,96 +129,29 @@ def convert_universal_ability(universal_ability: dict) -> dict:
 
 
 if __name__ == '__main__':
-    src_data = Path(Path(__file__).parent.parent, 'data', 'fighters.json')
+    srcs = [
+        Path(Path(__file__).parent.parent, 'data', 'fighters.json'),
+        Path(Path(__file__).parent.parent, 'data', 'abilities.json')
+    ]
 
     fighter_data_payload = FighterJSONPayload(
-        src_file=src_data,
+        src_file=srcs[0],
         schema=Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_fighter_schema.json')
     )
     fighter_data = fighter_data_payload.data
 
     ability_data_payload = AbilityJSONPayload(
-        src_file=src_data,
+        src_file=srcs[1],
         schema=Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_ability_schema.json')
     )
+    ability_data = ability_data_payload.data
 
-
-    # new_data = list()  # type: List[Dict]
-
-    bladeborns = set()
-    factions = set()
-    for x in fighter_data:
-        factions.add(x['warband'])
-        if x['bladeborn']:
-            bladeborns.add(x['bladeborn'])
-
-    abilities = list()
-    for root, dirs, files in os.walk(
-            r'C:\Users\ceckersley\git_personal\warcry_data\data\abilities\abilties-and-reactions'):
-        for file in files:
-            with open(os.path.join(root, file), 'r') as f:
-                try:
-                    beep = json.load(f)
-                    if file == 'index.json':
-                        for a in beep:
-                            abilities.append(convert_universal_ability(a))
-                    else:
-                        abs = beep['abilities'] + [beep['reaction']] if beep['reaction'] else list()
-                        for a in abs:
-                            try:
-                                abilities.append(
-                                    convert_ability(a, known_warbands=factions, known_bladeborn=bladeborns))
-                            except Exception as e:
-                                print(e)
-                except UnicodeDecodeError as e:
-                    pass
-
-    with open(r'C:\Users\ceckersley\git_personal\warcry_data\data\abilities.json', 'w') as f:
-        json.dump(abilities, f, indent=4, ensure_ascii=False, sort_keys=False)
-
-    # abilities = list()
-    # for root, dir, files in os.walk(r'C:\Users\ceckersley\git_personal\warhammer-age-of-sigmar-warcry'):
-    #     for file in files:
-    #         if 'LeadersAbilities' in file:
-    #             abilities.extend(read_bsdata(Path(root, file)))
-    #
-    # with open(r'C:\Users\ceckersley\git_personal\warcry_data\data\abilities.json', 'w') as f:
-    #     json.dump(abilities, f, indent=4)
 
     # Do stuff with data, add it to new_data
 
-
-    # data_payload.data = sort_data(new_data)
-
-    # fighters = [Fighter(x) for x in data]
-
-    # def sort_pts(guy: Fighter):
-    #     return guy.points
-    #
-    # # cos_toughies = sorted(
-    # #     [Fighter(f) for f in data if f['warband'] == 'Cities of Sigmar' and 'hero' in f['runemarks'] and 'mount' in f['runemarks']],
-    # #     key=sort_pts
-    # # )
-    #
-    # hitters = sorted([f for f in fighters if f.warband == 'Cities of Sigmar' and f.has_str(5)], key=sort_pts)
-
-    # for f in fighters:
-    #     setattr(f, 'ctk_t3w8_actn2', f.ctk(t=3, w=8, attack_actions=2))
-    #     setattr(f, 'ctk_t4w10_actn2', f.ctk(t=4, w=10, attack_actions=2))
-
-    # best_vs_t4w10 = sorted([x for x in fighters if x.ctk_t4w10 >= 0.75], key=lambda x: x.points)
-
-
-    # t3killers = sorted([x for x in fighters if x.ctk(t=3, w=8) > 0.75], key=lambda x: x.points)
-    # non_hero_t3killers = sorted([x for x in fighters if 'hero' not in x.runemarks and x.ctk(t=3, w=8) > 0.75], key=lambda x: x.points)
-    # t3killers = sorted([x for x in fighters if x.ctk(t=3, w=8) > 0.75], key=lambda x: x.points)
-    # non_hero_t3killers = sorted([x for x in fighters if 'hero' not in x.runemarks and x.ctk(t=3, w=8) > 0.75],
-                                # key=lambda x: x.points)
-    # t4killers = sorted([x for x in fighters if x.ctk(t=4, w=10) > 0.8], key=sort_pts)
-
-    # data_payload.write_aggregate_file_to_disk()
-    # data_payload.write_warbands_to_disk()
-
+    # fighter_data_payload.write_aggregate_file_to_disk()
+    # fighter_data_payload.write_warbands_to_disk()
+    # ability_data_payload.write_to_disk(dst=Path(r'C:\Users\ceckersley\git_personal\warcry_data\data\abilities_test.json'))
     # data_payload.write_spreadsheet()
 
     z = 1 + 2

@@ -1,9 +1,9 @@
 {
 	"$schema": "https://json-schema.org/draft/2019-09/schema",
-	"$id": "https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas",
+	"$id": "https://raw.githubusercontent.com/krisling049/warcry_data/abilities/data/schemas",
 	"type": "array",
 	"title": "Schema for aggregate ability data file",
-	"contains": {
-		"$ref": "https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas/ability_schema.json"
+	"items": {
+		"$ref": "https://raw.githubusercontent.com/krisling049/warcry_data/abilities/data/schemas/ability_schema.json"
 	}
 }
