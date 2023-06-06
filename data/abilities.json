@@ -43,7 +43,7 @@
         "name": "Bestial Charge",
         "warband": "Beasts of Chaos",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "warrior"
         ]
@@ -233,7 +233,7 @@
         "name": "Daemon-forged Weapons",
         "warband": "Blades of Khorne: Bloodbound",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
         "runemarks": [
             "destroyer"
         ]
@@ -261,7 +261,7 @@
         "name": "Murderous Charge",
         "warband": "Blades of Khorne: Bloodbound",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "mount"
         ]
@@ -271,7 +271,7 @@
         "name": "Blood-fuelled Assault",
         "warband": "Blades of Khorne: Bloodbound",
         "cost": "quad",
-        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. In addition, until the end of this fighter’s activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter.",
+        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. In addition, until the end of this fighter's activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter.",
         "runemarks": [
             "frenzied"
         ]
@@ -316,7 +316,7 @@
         "name": "Decapitating Strike",
         "warband": "Blades of Khorne: Daemons",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
         "runemarks": [
             "frenzied"
         ]
@@ -346,7 +346,7 @@
         "name": "Murderous Charge",
         "warband": "Blades of Khorne: Daemons",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "destroyer"
         ]
@@ -451,7 +451,7 @@
         "name": "Drunken Stagger",
         "warband": "",
         "cost": "double",
-        "description": "Roll a number of dice equal to the value of this ability. Until the end of this fighter’s activation, for each roll of 1, subtract 1 from this fighter’s Move characteristic (to a minimum of 1), then for each roll of 2+, add 1 to this fighter’s Move characteristic.",
+        "description": "Roll a number of dice equal to the value of this ability. Until the end of this fighter's activation, for each roll of 1, subtract 1 from this fighter's Move characteristic (to a minimum of 1), then for each roll of 2+, add 1 to this fighter's Move characteristic.",
         "runemarks": [
             "brute",
             "chaotic beasts"
@@ -495,7 +495,7 @@
         "name": "Outrunner of Chaos",
         "warband": "",
         "cost": "double",
-        "description": "Add 3 to this fighter’s Move characteristic for their next move action in this activation.",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": [
             "scout",
             "chaotic beasts"
@@ -528,7 +528,7 @@
         "name": "Roaring Charge",
         "warband": "",
         "cost": "double",
-        "description": "Add 3 to this fighter’s Move characteristic for their next move action in this activation.",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": [
             "frenzied",
             "chaotic beasts"
@@ -561,7 +561,7 @@
         "name": "Arcane Fury",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
         "runemarks": [
             "chaotic beasts",
             "champion"
@@ -572,7 +572,7 @@
         "name": "Avalanche of Flesh",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "minion",
             "chaotic beasts"
@@ -594,7 +594,7 @@
         "name": "Crazed Flock",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, for each other friendly fighter within 3\" of this fighter that has the same runemarks as this fighter, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, for each other friendly fighter within 3\" of this fighter that has the same runemarks as this fighter, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
         "runemarks": [
             "berserker",
             "chaotic beasts"
@@ -638,7 +638,7 @@
         "name": "Mighty Kick",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "brute",
             "chaotic beasts"
@@ -660,7 +660,7 @@
         "name": "Rampaging Charge",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "destroyer",
             "chaotic beasts"
@@ -682,7 +682,7 @@
         "name": "Uncontrollable Stampede",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "ferocious",
             "chaotic beasts"
@@ -814,7 +814,7 @@
         "name": "Rampaging Charge",
         "warband": "",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "elite",
             "chaotic beasts"
@@ -847,7 +847,7 @@
         "name": "Trampling Charge",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter.  Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter.  Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "chaotic beasts",
             "icon bearer"
@@ -951,7 +951,7 @@
         "name": "Swift Climb",
         "warband": "Corvus Cabal",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, do not count the vertical distance moved when this fighter is climbing.",
+        "description": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing.",
         "runemarks": [
             "champion"
         ]
@@ -1013,7 +1013,7 @@
         "name": "Acrobatic Leap",
         "warband": "Cypher Lords",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to their Move characteristic, and they can fly when making move actions; however, when flying, they cannot move vertically upwards more than 3\".",
+        "description": "Until the end of this fighter's activation, add 1 to their Move characteristic, and they can fly when making move actions; however, when flying, they cannot move vertically upwards more than 3\".",
         "runemarks": []
     },
     {
@@ -1057,7 +1057,7 @@
         "name": "Spinning Somersault Strike",
         "warband": "Cypher Lords",
         "cost": "quad",
-        "description": "Until the end of this fighter’s activation, they can fly when making move actions; however, when flying, they cannot move vertically upwards more than 3\". In addition, this fighter makes a bonus move action. Then, they can make a bonus attack action.",
+        "description": "Until the end of this fighter's activation, they can fly when making move actions; however, when flying, they cannot move vertically upwards more than 3\". In addition, this fighter makes a bonus move action. Then, they can make a bonus attack action.",
         "runemarks": []
     },
     {
@@ -1073,7 +1073,7 @@
         "name": "A Vow Fulfilled",
         "warband": "Darkoath Savagers",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, each time an enemy fighter is taken down, you can pick either this fighter’s Toughness characteristic or the Attacks or Strength characteristic of 1 weapon this fighter is armed with. Until the end of the battle, add 1 to the characteristic you picked.",
+        "description": "Until the end of this fighter's activation, each time an enemy fighter is taken down, you can pick either this fighter's Toughness characteristic or the Attacks or Strength characteristic of 1 weapon this fighter is armed with. Until the end of the battle, add 1 to the characteristic you picked.",
         "runemarks": []
     },
     {
@@ -1101,7 +1101,7 @@
         "name": "Curse of Withering",
         "warband": "Darkoath Savagers",
         "cost": "quad",
-        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4-5, until the end of the battle round, subtract 1 from that fighter’s Toughness characteristic (to a minimum of 1). For each roll of 6, until the end of the battle, subtract 1 from that fighter’s Toughness characteristic (to a minimum of 1).",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4-5, until the end of the battle round, subtract 1 from that fighter's Toughness characteristic (to a minimum of 1). For each roll of 6, until the end of the battle, subtract 1 from that fighter's Toughness characteristic (to a minimum of 1).",
         "runemarks": [
             "mystic"
         ]
@@ -1365,7 +1365,7 @@
         "name": "Lithe and Swift",
         "warband": "Hedonites of Slaanesh: Daemons",
         "cost": "double",
-        "description": "Add 3 to this fighter’s Move characteristic for their next move action in this activation.",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": []
     },
     {
@@ -1373,7 +1373,7 @@
         "name": "Sadistic Killers",
         "warband": "Hedonites of Slaanesh: Daemons",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter.",
         "runemarks": [
             "warrior"
         ]
@@ -1383,7 +1383,7 @@
         "name": "Impaling Strike",
         "warband": "Hedonites of Slaanesh: Daemons",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "destroyer"
         ]
@@ -1432,7 +1432,7 @@
         "name": "Dance of the Wailing Blade",
         "warband": "Hedonites of Slaanesh: Sybarites",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter.",
         "runemarks": [
             "warrior"
         ]
@@ -1452,7 +1452,7 @@
         "name": "Unrivalled Velocity",
         "warband": "Hedonites of Slaanesh: Sybarites",
         "cost": "double",
-        "description": "Add 3 to this fighter’s Move characteristic for their next move action in this activation.",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": []
     },
     {
@@ -1470,7 +1470,7 @@
         "name": "Impaling Strike",
         "warband": "Hedonites of Slaanesh: Sybarites",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "destroyer"
         ]
@@ -1608,7 +1608,7 @@
         "name": "Spine-crushing Blow",
         "warband": "",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add the value of this ability to the Strength characteristic of melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the Strength characteristic of melee attack actions made by this fighter.",
         "runemarks": [
             "iron golem",
             "brute"
@@ -1640,7 +1640,7 @@
         "name": "Living Battering Ram",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "iron golem",
             "destroyer"
@@ -1859,7 +1859,7 @@
         "name": "Stream of Corruption",
         "warband": "Maggotkin of Nurgle: Rotbringers",
         "cost": "triple",
-        "description": "Pick a visible enemy fighter within 7\" of this fighter and roll 3 dice. For each roll of 5+, allocate 1 damage point to that fighter and, until the end of the battle round, subtract 1 from that fighter’s Toughness characteristic (to a minimum of 1).",
+        "description": "Pick a visible enemy fighter within 7\" of this fighter and roll 3 dice. For each roll of 5+, allocate 1 damage point to that fighter and, until the end of the battle round, subtract 1 from that fighter's Toughness characteristic (to a minimum of 1).",
         "runemarks": [
             "hero",
             "mystic"
@@ -2022,7 +2022,7 @@
         "name": "Beheading Strike",
         "warband": "Scions of the Flame",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from the next melee attack action made by this fighter.",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from the next melee attack action made by this fighter.",
         "runemarks": [
             "brute"
         ]
@@ -2032,7 +2032,7 @@
         "name": "Fiery Might",
         "warband": "Scions of the Flame",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter.",
         "runemarks": []
     },
     {
@@ -2149,7 +2149,7 @@
         "name": "Crushing Charge",
         "warband": "Skaven",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "brute"
         ]
@@ -2177,7 +2177,7 @@
         "name": "Running Death",
         "warband": "Skaven",
         "cost": "triple",
-        "description": "This fighter makes a bonus move action or bonus disengage action. In addition, until the end of this fighter’s activation, add 1 to the damage points allocated to enemy fighters by each critical hit from attack actions made by this fighter.",
+        "description": "This fighter makes a bonus move action or bonus disengage action. In addition, until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each critical hit from attack actions made by this fighter.",
         "runemarks": [
             "hero",
             "scout"
@@ -2247,7 +2247,7 @@
         "name": "Imbued with Dark Power",
         "warband": "Slaves to Darkness",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add the value of this ability to the Strength characteristic of melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the Strength characteristic of melee attack actions made by this fighter.",
         "runemarks": []
     },
     {
@@ -2266,7 +2266,7 @@
         "name": "Shield Ram",
         "warband": "Slaves to Darkness",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 2-5, allocate 2 damage points to that fighter. On a roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 2-5, allocate 2 damage points to that fighter. On a roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "bulwark"
         ]
@@ -2327,7 +2327,7 @@
         "name": "Mask of Darkness",
         "warband": "Khagra's Ravagers",
         "cost": "triple",
-        "description": "Pick a friendly fighter with the [Khagra’s Ravagers] runemark within 12\" of this fighter. Remove that fighter from the battlefield and then immediately set them up anywhere on the battlefield within 6\" of this fighter .",
+        "description": "Pick a friendly fighter with the [Khagra's Ravagers] runemark within 12\" of this fighter. Remove that fighter from the battlefield and then immediately set them up anywhere on the battlefield within 6\" of this fighter .",
         "runemarks": [
             "mystic"
         ]
@@ -2348,7 +2348,7 @@
         "name": "Trampling Hooves",
         "warband": "Slaves to Darkness",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "mount"
         ]
@@ -2449,7 +2449,7 @@
         "name": "Shield Ram",
         "warband": "Spire Tyrants",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 2-5, allocate 2 damage points to that fighter. On a roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 2-5, allocate 2 damage points to that fighter. On a roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "bulwark"
         ]
@@ -2513,7 +2513,7 @@
         "name": "Poisoned Weapon",
         "warband": "Splintered Fang",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, the Strength characteristic of attack actions made by this fighter count as being higher than the target’s Toughness characteristic.",
+        "description": "Until the end of this fighter's activation, the Strength characteristic of attack actions made by this fighter count as being higher than the target's Toughness characteristic.",
         "runemarks": []
     },
     {
@@ -2537,7 +2537,7 @@
         "name": "Paralysing Venom",
         "warband": "Splintered Fang",
         "cost": "quad",
-        "description": "Until the end of this fighter’s activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from attack actions made by this fighter. In addition, until the end of this fighter’s activation, after each attack action made by this fighter, roll a dice. On a roll of 5+, until the end of this battle round, the target fighter cannot make move actions or disengage actions.",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from attack actions made by this fighter. In addition, until the end of this fighter's activation, after each attack action made by this fighter, roll a dice. On a roll of 5+, until the end of this battle round, the target fighter cannot make move actions or disengage actions.",
         "runemarks": []
     },
     {
@@ -2571,7 +2571,7 @@
         "name": "Skittering Ascent",
         "warband": "Tarantulos Brood",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, do not count the vertical distance moved when this fighter is climbing.",
+        "description": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing.",
         "runemarks": [
             "agile"
         ]
@@ -2619,7 +2619,7 @@
         "name": "Barbed Strike",
         "warband": "The Unmade",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, if an attack action made by this fighter scores any hits or critical hits, subtract 1 from the target fighter’s Toughness characteristic (to a minimum of 1) until the end of the battle round.",
+        "description": "Until the end of this fighter's activation, if an attack action made by this fighter scores any hits or critical hits, subtract 1 from the target fighter's Toughness characteristic (to a minimum of 1) until the end of the battle round.",
         "runemarks": []
     },
     {
@@ -2719,7 +2719,7 @@
         "name": "Pounce",
         "warband": "Untamed Beasts",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "beast"
         ]
@@ -3050,7 +3050,7 @@
         "name": "Frightful Touch",
         "warband": "Nighthaunt",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, count each hit from melee attack actions made by them as a critical hit instead.\n⠀",
+        "description": "Until the end of this fighter's activation, count each hit from melee attack actions made by them as a critical hit instead.\n⠀",
         "runemarks": [
             "destroyer"
         ]
@@ -3199,7 +3199,7 @@
         "name": "Deathrider Charge",
         "warband": "Ossiarch Bonereapers",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.\n⠀",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.\n⠀",
         "runemarks": [
             "warrior"
         ]
@@ -3452,7 +3452,7 @@
         "name": "Vampiric Agility",
         "warband": "Soulblight Gravelords",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, do not count the vertical distance moved when this fighter is climbing.",
+        "description": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing.",
         "runemarks": [
             "agile"
         ]
@@ -3462,7 +3462,7 @@
         "name": "Deathly Charge",
         "warband": "Soulblight Gravelords",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points equal to the value of this ability to that fighter.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points equal to the value of this ability to that fighter.",
         "runemarks": [
             "mount"
         ]
@@ -3520,7 +3520,7 @@
     },
     {
         "_id": "27d4c9c2",
-        "name": "Vanhel’s Danse Macabre",
+        "name": "Vanhel's Danse Macabre",
         "warband": "Soulblight Gravelords",
         "cost": "quad",
         "description": "Pick a number of visible friendly fighters with the Soulblight Gravelords faction runemark and the Minion runemark up to the value of this ability within 6\" of this fighter. Those fighters can each make a bonus move action or a bonus attack action (some can make bonus move actions and others bonus attack actions).",
@@ -3601,7 +3601,7 @@
         "name": "Weird Squig",
         "warband": "Bonesplitterz",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to the Attacks characteristic of missile attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks characteristic of missile attack actions made by this fighter.",
         "runemarks": [
             "hero",
             "ferocious"
@@ -3655,7 +3655,7 @@
         "name": "Tusker Charge",
         "warband": "Bonesplitterz",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "mount"
         ]
@@ -3697,7 +3697,7 @@
         "name": "Rampaging Destroyer",
         "warband": "Bonesplitterz",
         "cost": "quad",
-        "description": "Until the end of this fighter’s activation, add 1 to the Attacks characteristic of attack actions made by this fighter. In addition, until the end of this fighter’s activation, after an enemy fighter is taken down by an attack action made by this fighter, this fighter can make a bonus move action.",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks characteristic of attack actions made by this fighter. In addition, until the end of this fighter's activation, after an enemy fighter is taken down by an attack action made by this fighter, this fighter can make a bonus move action.",
         "runemarks": []
     },
     {
@@ -3713,7 +3713,7 @@
         "name": "Backstabbing Mob",
         "warband": "Gloomspite Gitz",
         "cost": "double",
-        "description": "A fighter can only use this ability if there is a visible friendly fighter within 1\" of them. Until the end of this fighter’s activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
+        "description": "A fighter can only use this ability if there is a visible friendly fighter within 1\" of them. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
         "runemarks": []
     },
     {
@@ -3930,7 +3930,7 @@
         "cost": "double",
         "description": "Until the end of this fighter's activation, after the enemy fighter is taken down by a melee attack action made this fighter, this fighter can make a bonus move action nor a bonus attack action.",
         "runemarks": [
-            "grinkrak’s looncourt",
+            "grinkrak's looncourt",
             "hero"
         ]
     },
@@ -3941,7 +3941,7 @@
         "cost": "double",
         "description": "Pick a visible friendly fighter with the Grinkrak's Looncourt runemark within 3\" of this fighter that has not activated yet this battle round.  That fighter suffers impact damage.  You can activate that fighter immediately after this fighter's activation ends.",
         "runemarks": [
-            "grinkrak’s looncourt"
+            "grinkrak's looncourt"
         ]
     },
     {
@@ -3952,7 +3952,7 @@
         "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
         "runemarks": [
             "icon bearer",
-            "grinkrak’s looncourt"
+            "grinkrak's looncourt"
         ]
     },
     {
@@ -3984,7 +3984,7 @@
         "name": "Duff Up Da Big Thing",
         "warband": "Ironjawz",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter that target an enemy fighter with a Wounds characteristic of 15 or more.",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter that target an enemy fighter with a Wounds characteristic of 15 or more.",
         "runemarks": [
             "brute"
         ]
@@ -4045,7 +4045,7 @@
         "name": "Gore-grunta Charge",
         "warband": "Ironjawz",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "ferocious"
         ]
@@ -4076,7 +4076,7 @@
         "name": "Rampaging Destroyer",
         "warband": "Ironjawz",
         "cost": "quad",
-        "description": "Until the end of this fighter’s activation, add 1 to the Attacks characteristic of attack actions made by this fighter. In addition, until the end of this fighter’s activation, after an enemy fighter is taken down by an attack action made by this fighter, this fighter can make a bonus move action.",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks characteristic of attack actions made by this fighter. In addition, until the end of this fighter's activation, after an enemy fighter is taken down by an attack action made by this fighter, this fighter can make a bonus move action.",
         "runemarks": []
     },
     {
@@ -4092,7 +4092,7 @@
         "name": "Aimed Shot",
         "warband": "Kruleboyz",
         "cost": "double",
-        "description": "A fighter can only use this ability if they have not made a move action this activation. If this fighter’s next action is a missile attack action, critical hits are scored on a 4+ for that attack action.",
+        "description": "A fighter can only use this ability if they have not made a move action this activation. If this fighter's next action is a missile attack action, critical hits are scored on a 4+ for that attack action.",
         "runemarks": [
             "trapper"
         ]
@@ -4133,7 +4133,7 @@
         "name": "Venom-encrusted Weapon",
         "warband": "Kruleboyz",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter.",
         "runemarks": [
             "warrior"
         ]
@@ -4224,7 +4224,7 @@
         "name": "Drunken Stagger",
         "warband": "",
         "cost": "double",
-        "description": "Roll a number of dice equal to the value of this ability. Until the end of this fighter’s activation, for each roll of 1, subtract 1 from this fighter’s Move characteristic (to a minimum of 1), then for each roll of 2+, add 1 to this fighter’s Move characteristic.",
+        "description": "Roll a number of dice equal to the value of this ability. Until the end of this fighter's activation, for each roll of 1, subtract 1 from this fighter's Move characteristic (to a minimum of 1), then for each roll of 2+, add 1 to this fighter's Move characteristic.",
         "runemarks": [
             "brute",
             "monster"
@@ -4277,7 +4277,7 @@
         "name": "Wall Crawler",
         "warband": "",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, do not count the vertical distance moved when this fighter is climbing.",
+        "description": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing.",
         "runemarks": [
             "destroyer",
             "monster"
@@ -4299,7 +4299,7 @@
         "name": "Mighty Kick",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "brute",
             "monster"
@@ -4310,7 +4310,7 @@
         "name": "Paralysing Venom",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, after each attack action made by this fighter, roll a dice. On a roll of 2+, until the end of the battle round, the target of that attack action cannot make move actions or disengage actions.",
+        "description": "Until the end of this fighter's activation, after each attack action made by this fighter, roll a dice. On a roll of 2+, until the end of the battle round, the target of that attack action cannot make move actions or disengage actions.",
         "runemarks": [
             "destroyer",
             "monster"
@@ -4425,7 +4425,7 @@
         "name": "On the Mawpath",
         "warband": "Ogor Mawtribes",
         "cost": "double",
-        "description": "Add 3 to this fighter’s Move characteristic for their next move action in this activation.",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": [
             "brute"
         ]
@@ -4455,7 +4455,7 @@
         "name": "Bullcharge",
         "warband": "Ogor Mawtribes",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "brute"
         ]
@@ -4551,7 +4551,7 @@
         "name": "Inspiring Presence",
         "warband": "universal",
         "cost": "triple",
-        "description": "Pick a visible friendly fighter within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter’s activation ends.",
+        "description": "Pick a visible friendly fighter within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends.",
         "runemarks": [
             "Hero"
         ]
@@ -4617,7 +4617,7 @@
         "name": "Monstrous Reach",
         "warband": "universal",
         "cost": "double",
-        "description": "Until the end of this monster’s activation, do not count the vertical distance when measuring the range for attack actions made by this monster.",
+        "description": "Until the end of this monster's activation, do not count the vertical distance when measuring the range for attack actions made by this monster.",
         "runemarks": [
             "monster"
         ]
@@ -4676,7 +4676,7 @@
         "name": "Hunters of the Hidden Paths",
         "warband": "Cities of Sigmar",
         "cost": "double",
-        "description": "Add 3 to this fighter’s Move characteristic for their next move action in this activation.",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": []
     },
     {
@@ -4692,7 +4692,7 @@
         "name": "Merciless Raiders",
         "warband": "Cities of Sigmar",
         "cost": "double",
-        "description": "A fighter can only use this ability if it is the first battle round. Until the end of this fighter’s activation, add 2 to the Move characteristic of this fighter and add 1 to the Attacks characteristic of melee attack actions made by this fighter.",
+        "description": "A fighter can only use this ability if it is the first battle round. Until the end of this fighter's activation, add 2 to the Move characteristic of this fighter and add 1 to the Attacks characteristic of melee attack actions made by this fighter.",
         "runemarks": []
     },
     {
@@ -4708,7 +4708,7 @@
         "name": "Pulverising Strike",
         "warband": "Cities of Sigmar",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
         "runemarks": [
             "destroyer"
         ]
@@ -4728,7 +4728,7 @@
         "name": "Reclaim for Sigmar",
         "warband": "Cities of Sigmar",
         "cost": "double",
-        "description": "A fighter can only use this ability if they are within 3\" of an objective. Until the end of this fighter’s activation, add 1 to the Strength and Attacks characteristics of melee attack actions made by this fighter.",
+        "description": "A fighter can only use this ability if they are within 3\" of an objective. Until the end of this fighter's activation, add 1 to the Strength and Attacks characteristics of melee attack actions made by this fighter.",
         "runemarks": []
     },
     {
@@ -4764,7 +4764,7 @@
         "name": "Cavalry Charge",
         "warband": "Cities of Sigmar",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "elite"
         ]
@@ -4991,7 +4991,7 @@
         "name": "Martial Discipline",
         "warband": "Cities of Sigmar",
         "cost": "reaction",
-        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made.  Add 1 to this fighter’s Toughness characteristic during that attack action.",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made.  Add 1 to this fighter's Toughness characteristic during that attack action.",
         "runemarks": [
             "hammerhal"
         ]
@@ -5001,7 +5001,7 @@
         "name": "Bathe In Blood",
         "warband": "Daughters of Khaine",
         "cost": "double",
-        "description": "A fighter can only use this ability if they are within 3\" of a visible enemy fighter with 1 or more damage points allocated to them. Until the end of this fighter’s activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
+        "description": "A fighter can only use this ability if they are within 3\" of a visible enemy fighter with 1 or more damage points allocated to them. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
         "runemarks": []
     },
     {
@@ -5093,7 +5093,7 @@
         "name": "Slaughter's Strength",
         "warband": "Daughters of Khaine",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter.",
         "runemarks": []
     },
     {
@@ -5265,7 +5265,7 @@
         "name": "Slingshield Charge",
         "warband": "Fyreslayers",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "bulwark"
         ]
@@ -5286,7 +5286,7 @@
         "name": "Unleash Runic Fury",
         "warband": "Fyreslayers",
         "cost": "quad",
-        "description": "Until the end of this fighter’s activation, add the value of this ability to the Attacks characteristic of melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the Attacks characteristic of melee attack actions made by this fighter.",
         "runemarks": []
     },
     {
@@ -5412,7 +5412,7 @@
         "name": "Storm Fire",
         "warband": "Idoneth Deepkin",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to the Attacks characteristic of missile attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks characteristic of missile attack actions made by this fighter.",
         "runemarks": [
             "agile"
         ]
@@ -5505,7 +5505,7 @@
         "name": "Fade from Memory",
         "warband": "Idoneth Deepkin",
         "cost": "reaction",
-        "description": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them. If there is another friendly fighter visible to that enemy fighter and within range of at least one of that enemy fighter’s melee weapons, for the rest of the battle round that enemy fighter cannot target this fighter.",
+        "description": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them. If there is another friendly fighter visible to that enemy fighter and within range of at least one of that enemy fighter's melee weapons, for the rest of the battle round that enemy fighter cannot target this fighter.",
         "runemarks": []
     },
     {
@@ -5533,7 +5533,7 @@
         "name": "Shadow Leap",
         "warband": "Khainite Shadowstalkers",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, this fighter can fly when making move actions.",
+        "description": "Until the end of this fighter's activation, this fighter can fly when making move actions.",
         "runemarks": []
     },
     {
@@ -5541,7 +5541,7 @@
         "name": "Dance of Death",
         "warband": "Khainite Shadowstalkers",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, this fighter can finish disengage actions within 1\" of enemy fighters.",
+        "description": "Until the end of this fighter's activation, this fighter can finish disengage actions within 1\" of enemy fighters.",
         "runemarks": []
     },
     {
@@ -5603,7 +5603,7 @@
         "name": "Supercharged Endrinharness",
         "warband": "Kharadron Overlords",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to the Strength and Attacks characteristics of melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add 1 to the Strength and Attacks characteristics of melee attack actions made by this fighter.",
         "runemarks": [
             "hero",
             "brute"
@@ -5645,7 +5645,7 @@
         "name": "Master the Skies",
         "warband": "Kharadron Overlords",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to the damage points allocated to enemy fighters with the Fly runemark by each hit and critical hit from attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters with the Fly runemark by each hit and critical hit from attack actions made by this fighter.",
         "runemarks": [
             "fly"
         ]
@@ -5684,7 +5684,7 @@
         "name": "Return Fire",
         "warband": "Kharadron Overlords",
         "cost": "reaction",
-        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made if the attacker is within range of at least one of the target’s weapons. For each hit roll from that attack action that misses, allocate 1 damage point to the attacking fighter. For each hit roll of 1, allocate 2 damage points to the attacking fighter instead.",
+        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made if the attacker is within range of at least one of the target's weapons. For each hit roll from that attack action that misses, allocate 1 damage point to the attacking fighter. For each hit roll of 1, allocate 2 damage points to the attacking fighter instead.",
         "runemarks": []
     },
     {
@@ -5692,7 +5692,7 @@
         "name": "Go Where the Wind Blows",
         "warband": "",
         "cost": "double",
-        "description": "Add half the value of this ability (rounding up) to this fighter’s Move characteristic for their next move action in this activation.",
+        "description": "Add half the value of this ability (rounding up) to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": [
             "berserker",
             "lumineth realmlords"
@@ -5784,7 +5784,7 @@
         "name": "Lances of the Dawn",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points equal to the value of this ability to that fighter.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points equal to the value of this ability to that fighter.",
         "runemarks": [
             "lumineth realmlords",
             "mount"
@@ -5795,7 +5795,7 @@
         "name": "Move Like the Wind",
         "warband": "",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, this fighter can finish disengage actions within 1\" of enemy fighters.",
+        "description": "Until the end of this fighter's activation, this fighter can finish disengage actions within 1\" of enemy fighters.",
         "runemarks": [
             "agile",
             "lumineth realmlords"
@@ -5956,7 +5956,7 @@
         "name": "Lead from On High",
         "warband": "Seraphon",
         "cost": "double",
-        "description": "Add 3 to this fighter’s Move characteristic for their next move action in this activation.",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": [
             "hero",
             "agile"
@@ -6020,7 +6020,7 @@
         "name": "Rain Meteoric Barrage",
         "warband": "Seraphon",
         "cost": "triple",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "frenzied"
         ]
@@ -6085,7 +6085,7 @@
         "name": "Meteoric Slam",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
         "runemarks": [
             "hero",
             "brute"
@@ -6167,7 +6167,7 @@
         "name": "Thunderous Pounce",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
         "cost": "quad",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to double the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to double the value of this ability.",
         "runemarks": [
             "ferocious"
         ]
@@ -6206,7 +6206,7 @@
         "name": "Tireless Hunters",
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
         "cost": "double",
-        "description": "Add 3 to this fighter’s Move characteristic for their next move action in this activation.",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": []
     },
     {
@@ -6263,7 +6263,7 @@
         "name": "Aimed Strike",
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
         "cost": "quad",
-        "description": "Until the end of this fighter’s activation, add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter.",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter.",
         "runemarks": []
     },
     {
@@ -6308,7 +6308,7 @@
         "name": "Lay Low the Tyrants",
         "warband": "Stormcast Eternals Warrior Chamber",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter that target an enemy fighter with a Wounds characteristic of 15 or more.",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter that target an enemy fighter with a Wounds characteristic of 15 or more.",
         "runemarks": [
             "warrior"
         ]
@@ -6318,7 +6318,7 @@
         "name": "Sigmarite Shield Bash",
         "warband": "Stormcast Eternals Warrior Chamber",
         "cost": "double",
-        "description": "Until the end of this fighter’s activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 3+, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 3+, allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "bulwark"
         ]
@@ -6403,7 +6403,7 @@
         "name": "Wings of Divine Life",
         "warband": "Stormcast Eternals Warrior Chamber",
         "cost": "double",
-        "description": "Add 3 to this fighter’s Move characteristic for their next move action in this activation.",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": [
             "fly"
         ]
