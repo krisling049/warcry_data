@@ -3,7 +3,7 @@
 	"$id": "https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas",
 	"type": "array",
 	"title": "Schema for warband and aggregate data files",
-	"items": {
+	"contains": {
 		"$ref": "https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas/fighter_schema.json"
 	}
 }

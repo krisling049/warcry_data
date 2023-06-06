@@ -28,10 +28,10 @@ class DataPayload:
     load data from a single data file (e.g. data/fighters.json).
     """
 
-    def __init__(self, src_file: Path, src_format: str = None):
+    def __init__(self, src_file: Path, schema: Path, src_format: str = None):
         self.src_file = src_file
         self.src_format = src_format if src_format else src_file.suffix  # xlsx, json, csv etc
-        self.schema = Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_schema.json')
+        self.schema = schema
         self.data = self.load_data()
         self.validate_data()
 
@@ -161,3 +161,28 @@ class Fighter:
                 return True
         return False
 
+
+class AbilityDataPayload(DataPayload):
+    ...
+
+
+class AbilityJSONPayload(AbilityDataPayload):
+
+    def load_data(self) -> List[Dict]:
+        # We treat the fighters.json file as our source of truth so this is the one we load
+        with open(self.src_file, 'r') as f:
+            data = json.load(f)
+
+        return data
+
+    def write_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'abilities.json')):
+        self.validate_data()
+        sorted_data = [dict(sorted(x.items())) for x in self.data]
+        with open(dst, 'w') as nf:
+            print(f'Writing {len(self.data)} abilities to {dst}...')
+            json.dump(sort_data(sorted_data), nf, ensure_ascii=False, indent=4, sort_keys=False)
+
+    def validate_data(self):
+        with open(self.schema, 'r') as f:
+            ability_schema = json.load(f)
+        jsonschema.validate(self.data, ability_schema)
