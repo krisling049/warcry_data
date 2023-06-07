@@ -40,7 +40,7 @@ class DataPayload:
         raise NotImplementedError('class requires a load_data class method')
 
     @classmethod
-    def write_to_disk(cls, dst: Path):
+    def write_to_disk(cls):
         raise NotImplementedError('class requires a write_to_disk class method')
 
     @classmethod
@@ -65,7 +65,7 @@ class FighterJSONPayload(FighterDataPayload):
 
         return data
 
-    def write_aggregate_file_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
+    def write_aggregate_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
         self.validate_data()
         sorted_data = [dict(sorted(x.items())) for x in self.data]
         with open(dst, 'w') as nf:
@@ -108,6 +108,11 @@ class FighterJSONPayload(FighterDataPayload):
         # Also need to add derived statistics (pts/wound, chance to kill vs. T3, T4 etc)
         xlsx_data = pd.DataFrame(self.data)
         xlsx_data.to_excel(Path(dst_root, 'fighters.xlsx'))
+
+    def write_to_disk(self):
+        self.write_aggregate_to_disk()
+        self.write_warbands_to_disk()
+        self.write_spreadsheet()
 
 
 class Fighter:
@@ -154,7 +159,15 @@ class Fighter:
 
 
 class AbilityDataPayload(DataPayload):
-    ...
+
+    def load_data(self):
+        raise NotImplementedError('class requires a load_data class method')
+
+    def write_to_disk(self):
+        raise NotImplementedError('class requires a write_to_disk class method')
+
+    def validate_data(self):
+        raise NotImplementedError('class requires a validate_data class method')
 
 
 class AbilityJSONPayload(AbilityDataPayload):
