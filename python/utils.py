@@ -60,10 +60,6 @@ if __name__ == '__main__':
     ftrs = [Fighter(x) for x in fighters.data]
     ftrs = assign_abilities(fighters=ftrs, abilities=abs)
 
-    # ally_ability_map = dict()
-    # allies = [x for x in ftrs if x.points == 130 and 'hero' in x.runemarks and x.grand_alliance == 'chaos']
-
-
     # Do stuff with data, add it to new_data
 
     # export_files([fighter_data_payload, ability_data_payload])

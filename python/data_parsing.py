@@ -1,9 +1,10 @@
 from pathlib import Path
 import json
-from typing import List, Dict
-from itertools import product
+from typing import List, Dict, Tuple
+from itertools import product, combinations_with_replacement
 import jsonschema
 import pandas as pd
+import datetime
 
 
 def sort_data(data_to_sort: List[Dict]) -> List[Dict]:
@@ -123,21 +124,38 @@ class Fighter:
     def __repr__(self):
         return self.name
 
-    def ctk(self, t: int, w: int, to_crit: int = 6, attack_actions: int = 1) -> float:
+    def calc_ctk(
+            self,
+            vs_t: int,
+            vs_w: int,
+            weapon_index: int = 0,
+            to_crit: int = 6,
+            attack_actions: int = 1
+    ) -> List[Tuple[int, float]]:
         """
-        Warning! This can take a long time with a high number of attacks. Needs improvement.
+        Calculates the % chance of a weapon killing a fighter with the supplied wounds/toughness.
+        :param vs_t: Toughness of the target fighter
+        :param vs_w: Wounds of the target fighter
+        :param weapon_index: index of the weapon to use, if not provided then the highest ctk will be returned
+        :param to_crit: If critting on a roll other than 6, provide the number here
+        :param attack_actions: How many actions the fighter can use against the target
+        :return: Returns a tuple of the weapon index and that weapon's ctk
         """
-        for wep in self.weapons:
+
+        to_check = self.weapons[weapon_index] if weapon_index else self.weapons
+        to_ret = list()
+
+        for wep in to_check:
             s = wep['strength']
             a = wep['attacks'] * attack_actions
             dh = wep['dmg_hit']
             dc = wep['dmg_crit']
 
-            to_hit = 4 if s == t else 3 if s > t else 5
+            to_hit = 4 if s == vs_t else 3 if s > vs_t else 5
             total_rolls = 0
             killing_rolls = 0
 
-            for pr in product(range(1, 7), repeat=a):
+            for pr in combinations_with_replacement(range(1, 7), a):
                 total_rolls = total_rolls + 1
                 damage = 0
                 for dice in pr:
@@ -145,11 +163,14 @@ class Fighter:
                         damage = damage + dh
                     if dice >= to_crit:
                         damage = damage + dc
-                if damage >= w:
+                if damage >= vs_w:
                     killing_rolls = killing_rolls + 1
             ctk = killing_rolls / total_rolls
+            to_ret.append((weapon_index, ctk))
+            if weapon_index == 0:
+                weapon_index = weapon_index + 1
 
-            return ctk
+        return to_ret
 
     def has_str(self, s: int) -> bool:
         for wep in self.weapons:
