@@ -25,6 +25,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r ./python/requirements.txt
-    - name: Validating json
+    - name: Validating fighters json
       run: |
         python ./python/validation.py
+    - name: Validating abilities json
+      run: >
+        python ./python/validation.py 
+        --data /home/runner/work/warcry_data/warcry_data/data/abilities.json 
+        --schema /home/runner/work/warcry_data/warcry_data/data/schemas/aggregate_fighter_schema.json
