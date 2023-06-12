@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser.add_argument(
         "--schema",
         type=pathlib.Path,
-        default=pathlib.Path(pathlib.Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_schema.json'),
+        default=pathlib.Path(pathlib.Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_fighter_schema.json'),
         help="absolute path to schema file"
     )
     args = parser.parse_args()
