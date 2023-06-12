@@ -32,4 +32,4 @@ jobs:
       run: >
         python ./python/validation.py 
         --data /home/runner/work/warcry_data/warcry_data/data/abilities.json 
-        --schema /home/runner/work/warcry_data/warcry_data/data/schemas/aggregate_fighter_schema.json
+        --schema /home/runner/work/warcry_data/warcry_data/data/schemas/aggregate_ability_schema.json
