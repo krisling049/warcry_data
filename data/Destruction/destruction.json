@@ -1,5 +1,58 @@
 [
     {
+        "_id": "b7da3ff4",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Fellwater Troggoth",
+        "points": 175,
+        "runemarks": [
+            "thrall",
+            "trapper",
+            "bulwark"
+        ],
+        "toughness": 4,
+        "warband": "destruction",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "a47621f5",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Rockgut Troggoth",
+        "points": 185,
+        "runemarks": [
+            "thrall",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "destruction",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+    {
         "_id": "b616e449",
         "bladeborn": "",
         "grand_alliance": "destruction",
@@ -10,7 +63,7 @@
             "monster"
         ],
         "toughness": 4,
-        "warband": "destruction_monster",
+        "warband": "destruction",
         "weapons": [
             {
                 "attacks": 3,
@@ -36,7 +89,7 @@
             "brute"
         ],
         "toughness": 4,
-        "warband": "destruction_monster",
+        "warband": "destruction",
         "weapons": [
             {
                 "attacks": 4,
@@ -62,7 +115,7 @@
             "destroyer"
         ],
         "toughness": 4,
-        "warband": "destruction_monster",
+        "warband": "destruction",
         "weapons": [
             {
                 "attacks": 4,
