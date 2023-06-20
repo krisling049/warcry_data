@@ -1077,7 +1077,7 @@
         "name": "Death from Above",
         "warband": "Corvus Cabal",
         "cost": "quad",
-        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. Add 1 to the Strength characteristic of that attack action if the fighter finished the move action 3\" or more vertically lower than their starting position. ",
+        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. Add 1 to the Strength characteristic of that attack action if the fighter finished the move action 3\" or more vertically lower than their starting position.",
         "runemarks": []
     },
     {
@@ -3382,7 +3382,7 @@
         "name": "Disgustingly Resilient",
         "warband": "Maggotkin of Nurgle: Daemons",
         "cost": "double",
-        "description": "Roll a number of dice equal to the value of this ability. For each roll of 3+, remove up to 1 damage point allocated to this fighter.\n",
+        "description": "Roll a number of dice equal to the value of this ability. For each roll of 3+, remove up to 1 damage point allocated to this fighter.",
         "runemarks": []
     },
     {
@@ -3530,7 +3530,7 @@
         "name": "Rotsword Stab",
         "warband": "Maggotkin of Nurgle: Rotbringers",
         "cost": "triple",
-        "description": "This fighter can make a bonus melee attack action. If that bonus attack action scores any critical hits, roll a dice. On a roll of 4+, until the end of the battle, subtract 1 from the Move characteristic (to a minimum of 1) of the target fighter. ",
+        "description": "This fighter can make a bonus melee attack action. If that bonus attack action scores any critical hits, roll a dice. On a roll of 4+, until the end of the battle, subtract 1 from the Move characteristic (to a minimum of 1) of the target fighter.",
         "runemarks": [
             "hero",
             "terrifying"
@@ -4202,7 +4202,7 @@
         "name": "Engulf in Flames",
         "warband": "Scions of the Flame",
         "cost": "quad",
-        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll 6 dice. For each roll of 2+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). In addition, for each roll of 6, roll an extra dice as above (and so on). ",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll 6 dice. For each roll of 2+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). In addition, for each roll of 6, roll an extra dice as above (and so on).",
         "runemarks": [
             "mystic"
         ]
@@ -4474,7 +4474,7 @@
         "name": "Expend Warpstone Spark Canister",
         "warband": "Skaven",
         "cost": "quad",
-        "description": "This fighter makes a bonus attack action. In addition, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each hit and critical hit from that attack action. ",
+        "description": "This fighter makes a bonus attack action. In addition, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each hit and critical hit from that attack action.",
         "runemarks": [
             "destroyer"
         ]
@@ -5803,7 +5803,7 @@
         "name": "Gift of Agony",
         "warband": "The Unmade",
         "cost": "quad",
-        "description": "This fighter makes a bonus attack action. Add 3 to the Strength and Attacks characteristics of that attack action if this fighter has 1 or more damage points allocated to them. ",
+        "description": "This fighter makes a bonus attack action. Add 3 to the Strength and Attacks characteristics of that attack action if this fighter has 1 or more damage points allocated to them.",
         "runemarks": []
     },
     {
@@ -5979,7 +5979,7 @@
         "name": "Berserk",
         "warband": "chaos",
         "cost": "double",
-        "description": "A fighter can only use this ability if 20 or more damage points have been allocated to them.  Add half the value of this ability (rounding up) to the Attacks characteristic of the next attack action made by this fighter this activation that has a Range characteristic of 3 or less.",
+        "description": "A fighter can only use this ability if 20 or more damage points have been allocated to them. Add 3 to the Attacks characteristic of the next melee attack action made by this fighter in this activation.",
         "runemarks": [
             "champion"
         ]
@@ -6137,7 +6137,7 @@
         "warband": "chaos",
         "monster": "Cygor",
         "cost": "triple",
-        "description": "This fighter can only use this ability if they are not empty-handed (see below). At the start of the battle, this fighter is not empty- handed. Pick a visible enemy fighter within 15\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 5 damage points to that fighter. After using this ability, this fighter is said to be empty-handed.",
+        "description": "This fighter can only use this ability if they are not empty-handed (see below). At the start of the battle, this fighter is not empty-handed. Pick a visible enemy fighter within 15\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 5 damage points to that fighter. After using this ability, this fighter is said to be empty-handed.",
         "runemarks": [
             "terrifying"
         ]
@@ -6243,7 +6243,7 @@
         "name": "Blood Marshal",
         "warband": "chaos",
         "cost": "triple",
-        "description": "Pick a visible friendly fighter within 4\" of this fighter. Allocate 1 damage point to that fighter. If that fighter is not taken down, they can make a bonus melee attack action. ",
+        "description": "Pick a visible friendly fighter within 4\" of this fighter. Allocate 1 damage point to that fighter. If that fighter is not taken down, they can make a bonus melee attack action.",
         "runemarks": [
             "champion"
         ]
@@ -6274,7 +6274,7 @@
         "warband": "chaos",
         "monster": "chimera",
         "cost": "quad",
-        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 4\" of this fighter. ",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 4\" of this fighter.",
         "runemarks": [
             "bulwark"
         ]
@@ -6428,6 +6428,16 @@
     },
     {
         "_id": "620f1610",
+        "name": "Spiteful Reprisal",
+        "warband": "chaos",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made. For each hit roll from that attack action that misses, reduce the value of one of the attacker's controlling player's [doubles], [triples] or [quads] to 1.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "f1937df2",
         "name": "Spiteful Reprisal",
         "warband": "chaos",
         "cost": "reaction",
