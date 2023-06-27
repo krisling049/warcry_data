@@ -2981,7 +2981,9 @@
         "movement": 4,
         "name": "Kairic Acolyte with Vulcharc",
         "points": 90,
-        "runemarks": [],
+        "runemarks": [
+            "scout"
+        ],
         "toughness": 3,
         "warband": "Disciples of Tzeentch: Arcanites",
         "weapons": [
