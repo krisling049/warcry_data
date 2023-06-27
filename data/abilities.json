@@ -90,7 +90,7 @@
         "name": "Devolve",
         "warband": "Beasts of Chaos",
         "cost": "double",
-        "description": "Pick a visible enemy fighter within 6\" of this fighter. That enemy fighter makes a bonus move action directly towards this fighter, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action. ",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter. That enemy fighter makes a bonus move action directly towards this fighter, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action.",
         "runemarks": [
             "hero",
             "mystic"
@@ -1629,7 +1629,7 @@
         "name": "Empowered Bolts",
         "warband": "Eyes of the Nine",
         "cost": "quad",
-        "description": "This fighter makes a bonus attack action. In addition, if that bonus attack action has the Blast runemark, add half the value of this ablilty (rounding up) to the Attacks and Strength characteristics of that bonus attack action. ",
+        "description": "This fighter makes a bonus attack action. In addition, if that bonus attack action has the Blast runemark, add half the value of this ablilty (rounding up) to the Attacks and Strength characteristics of that bonus attack action.",
         "runemarks": []
     },
     {
@@ -1803,7 +1803,7 @@
         "name": "Volcano's Call",
         "warband": "Fyreslayers",
         "cost": "double",
-        "description": "Pick a visible enemy fighter on the battlefield floor within 12\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 2 damage points to that fighter.\n",
+        "description": "Pick a visible enemy fighter on the battlefield floor within 12\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 2 damage points to that fighter.",
         "runemarks": [
             "hero",
             "priest"
@@ -1892,7 +1892,7 @@
         "name": "Ever Advancing",
         "warband": "Garrek's Reavers",
         "cost": "double",
-        "description": "Add half the value of this ability (rounding up) to the Move characteristic of this fighter for the next move action they make this activation. ",
+        "description": "Add half the value of this ability (rounding up) to the Move characteristic of this fighter for the next move action they make this activation.",
         "runemarks": []
     },
     {
@@ -2716,7 +2716,7 @@
         "name": "Whirlwind of Death",
         "warband": "Iron Golems",
         "cost": "quad",
-        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter. ",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
         "runemarks": [
             "berserker"
         ]
@@ -3000,7 +3000,7 @@
         "name": "Ensnaring Darkness",
         "warband": "Khainite Shadowstalkers",
         "cost": "quad",
-        "description": "Either allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter, or allocate 3 damage points to this fighter and a number of damage points equal to the value of this ability to all visible enemy fighters within 6\" of this fighter. ",
+        "description": "Either allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter, or allocate 3 damage points to this fighter and a number of damage points equal to the value of this ability to all visible enemy fighters within 6\" of this fighter.",
         "runemarks": [
             "hero"
         ]
@@ -3209,7 +3209,7 @@
         "name": "Kunnin' Attack",
         "warband": "Kruleboyz",
         "cost": "quad",
-        "description": "A fighter can use this ability only if there are more friendly fighters with the Warrior runemark within 6\" of this fighter than there are enemy fighters within 6\" of this fighter. Those friendly fighters can each make a bonus move action or a bonus melee attack action (some can make a bonus move action and others can make a bonus melee attack action). ",
+        "description": "A fighter can use this ability only if there are more friendly fighters with the Warrior runemark within 6\" of this fighter than there are enemy fighters within 6\" of this fighter. Those friendly fighters can each make a bonus move action or a bonus melee attack action (some can make a bonus move action and others can make a bonus melee attack action).",
         "runemarks": [
             "hero"
         ]
@@ -3431,7 +3431,7 @@
         "name": "Disgusting Sneeze",
         "warband": "Maggotkin of Nurgle: Daemons",
         "cost": "triple",
-        "description": "Pick a visible enemy fighter within 7\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 1 damage point to that fighter. ",
+        "description": "Pick a visible enemy fighter within 7\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 1 damage point to that fighter.",
         "runemarks": [
             "hero",
             "champion"
@@ -5102,7 +5102,7 @@
         "name": "Darting Attack",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
         "cost": "triple",
-        "description": "This fighter makes a bonus attack action. Then, they can make a bonus disengage action.\n",
+        "description": "This fighter makes a bonus attack action. Then, they can make a bonus disengage action.",
         "runemarks": [
             "beast"
         ]
@@ -5190,7 +5190,7 @@
         "name": "Plant the Banner of the Reforged",
         "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "cost": "double",
-        "description": "Remove up to D3 damage points allocated to each friendly fighter within 6\" of this fighter (roll for each).\n",
+        "description": "Remove up to D3 damage points allocated to each friendly fighter within 6\" of this fighter (roll for each).",
         "runemarks": [
             "hero",
             "icon-bearer"
@@ -5613,7 +5613,7 @@
         "name": "Walk the Spirit Paths",
         "warband": "Sylvaneth",
         "cost": "triple",
-        "description": "Remove this fighter from the battlefield and set them up anywhere on the battlefield floor more than 5\" from any enemy fighters. ",
+        "description": "Remove this fighter from the battlefield and set them up anywhere on the battlefield floor more than 5\" from any enemy fighters.",
         "runemarks": [
             "warrior"
         ]
