@@ -30,8 +30,6 @@ def assign_abilities(fighters: List[Fighter], abilities: List[Ability]) -> List[
 
     return fighters
 
-
-
 def generate_id() -> str:
     return str(uuid.uuid4()).split('-')[0]
 
@@ -46,12 +44,12 @@ def export_files(payloads: List[DataPayload]):
 
 if __name__ == '__main__':
 
-    fighters = FighterJSONPayload(
+    fighter_data_payload = FighterJSONPayload(
         src_file=Path(Path(__file__).parent.parent, 'data', 'fighters.json'),
         schema=Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_fighter_schema.json')
     )
 
-    abilities = AbilityJSONPayload(
+    ability_data_payload = AbilityJSONPayload(
         src_file=Path(Path(__file__).parent.parent, 'data', 'abilities.json'),
         schema=Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_ability_schema.json')
     )
@@ -63,5 +61,7 @@ if __name__ == '__main__':
     # Do stuff with data, add it to new_data
 
     # export_files([fighter_data_payload, ability_data_payload])
+    # ability_data_payload.write_to_disk()
+    # fighter_data_payload.write_to_disk()
 
     z = 1 + 2
