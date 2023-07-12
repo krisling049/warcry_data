@@ -1,11 +1,13 @@
 """
 Utility functions and script for data manipulation and management
 """
+import json
 
 from data_parsing import FighterJSONPayload, AbilityJSONPayload, Fighter, Ability, DataPayload
 from pathlib import Path
 from typing import List, Dict
 import uuid
+import urllib.request
 
 
 def cheapest_fighters(fighter_data: List[Dict]) -> Dict:
@@ -23,12 +25,13 @@ def assign_abilities(fighters: List[Fighter], abilities: List[Ability]) -> List[
         f.__setattr__('abilities', list())
 
     for a in abilities:
-        faction_match = [x for x in ftrs if x.warband == a.warband or a.warband == 'universal']
+        faction_match = [x for x in fighters if x.warband == a.warband or a.warband == 'universal']
         for f in faction_match:
             if set(a.runemarks).issubset(set(f.runemarks)):
                 f.abilities.append(a)
 
     return fighters
+
 
 def generate_id() -> str:
     return str(uuid.uuid4()).split('-')[0]
@@ -54,14 +57,7 @@ if __name__ == '__main__':
         schema=Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_ability_schema.json')
     )
 
-    abs = [Ability(x) for x in abilities.data]
-    ftrs = [Fighter(x) for x in fighters.data]
-    ftrs = assign_abilities(fighters=ftrs, abilities=abs)
-
     # Do stuff with data, add it to new_data
 
     # export_files([fighter_data_payload, ability_data_payload])
-    # ability_data_payload.write_to_disk()
-    # fighter_data_payload.write_to_disk()
 
-    z = 1 + 2
