@@ -1,5 +1,133 @@
 [
     {
+        "_id": "4a376f06",
+        "name": "Forgefire",
+        "warband": "Anvilgard Loyalists",
+        "cost": "double",
+        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
+        "runemarks": [
+            "priest",
+            "hero"
+        ]
+    },
+    {
+        "_id": "78b1916d",
+        "name": "Form Shieldwall",
+        "warband": "Anvilgard Loyalists",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Cities of Sigmar faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "a0d057d3",
+        "name": "Merciless Raiders",
+        "warband": "Anvilgard Loyalists",
+        "cost": "double",
+        "description": "A fighter can only use this ability if it is the first battle round. Until the end of this fighter's activation, add 2 to the Move characteristic of this fighter and add 1 to the Attacks characteristic of melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "a256be65",
+        "name": "Pulverising Strike",
+        "warband": "Anvilgard Loyalists",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "6e399fd7",
+        "name": "Rapid Redeploy",
+        "warband": "Anvilgard Loyalists",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "49e9d751",
+        "name": "Cavalry Charge",
+        "warband": "Anvilgard Loyalists",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "bfdeea56",
+        "name": "Martial Exemplar",
+        "warband": "Anvilgard Loyalists",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "destroyer",
+            "hero"
+        ]
+    },
+    {
+        "_id": "5979a9d0",
+        "name": "Volley of Shots",
+        "warband": "Anvilgard Loyalists",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "36f2be62",
+        "name": "Show No Mercy",
+        "warband": "Anvilgard Loyalists",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. In addition, if the target of that attack action has 1 or more damage points allocated to them, add half the value of this ability (rounding up) to the damage points allocated to that fighter by each hit and critical hit from that attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "bb5baac0",
+        "name": "Vitriolic Spray",
+        "warband": "Anvilgard Loyalists",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 3 damage points to that fighter. In addition, until the end of the battle round, halve the Toughness characteristic of that fighter (rounding up).",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "b1993de2",
+        "name": "Perfect Position",
+        "warband": "Anvilgard Loyalists",
+        "cost": "double",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "agile",
+            "hero"
+        ]
+    },
+    {
+        "_id": "cea819c5",
+        "name": "Make an Example of the Weak",
+        "warband": "Anvilgard Loyalists",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter within 3\" of this fighter. That fighter is taken down. Until the end of the battle round, add 1 to the Attacks and Strength characteristics of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "2bed28cd",
+        "name": "Cutthroat Strike",
+        "warband": "Anvilgard Loyalists",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when a visible enemy fighter within 1\" of them makes a disengage action but before that fighter moves away. Roll a dice. On a 3+, allocate D6 damage points to that enemy fighter.",
+        "runemarks": []
+    },
+    {
         "_id": "48f97b6e",
         "name": "Moment of Savagery",
         "warband": "Askurgan Trueblades",
@@ -408,7 +536,9 @@
         "warband": "Bonesplitterz",
         "cost": "double",
         "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters while they are within 6\" of this fighter.",
-        "runemarks": []
+        "runemarks": [
+            "mystic"
+        ]
     },
     {
         "_id": "ab5c803d",
@@ -437,17 +567,6 @@
         "runemarks": [
             "hero",
             "ferocious"
-        ]
-    },
-    {
-        "_id": "7bb09959",
-        "name": "An Eye for Weakness",
-        "warband": "Bonesplitterz",
-        "cost": "triple",
-        "description": "Pick a visible enemy fighter within 12\" of this fighter. Until the end of the battle round, add 3 to the damage points allocated by each critical hit for attacks that target that fighter.",
-        "runemarks": [
-            "hero",
-            "hedkrakka's madmob"
         ]
     },
     {
@@ -500,17 +619,6 @@
         "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
         "runemarks": [
             "hero"
-        ]
-    },
-    {
-        "_id": "4a0aa589",
-        "name": "Bone Krusha",
-        "warband": "Bonesplitterz",
-        "cost": "quad",
-        "description": "Pick a visible enemy fighter within 12\" of this figther and roll a number of dice equal to the value of this ability.  For each 2+, allocate 3 damage points to that fighter.  If the enemy fighter is within 3\" of this fighter, allocate 5 damage points to that fighter for each 2+ instead.",
-        "runemarks": [
-            "hero",
-            "hedkrakka's madmob"
         ]
     },
     {
@@ -605,360 +713,6 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when an enemy fighter ends their move action visible to this fighter and within 3\" of this fighter.  Pick another friendly fighter within 3\" of this fighter.  That fighter makes a bonus move action.  After that move action that fighter must be within 1\" of the enemy fighter that made the move action.",
         "runemarks": []
-    },
-    {
-        "_id": "7207a681",
-        "name": "Forgefire",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
-        "runemarks": [
-            "priest",
-            "hero"
-        ]
-    },
-    {
-        "_id": "58b5f9ed",
-        "name": "Form Shieldwall",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Cities of Sigmar faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
-        "runemarks": [
-            "hero"
-        ]
-    },
-    {
-        "_id": "e4da5f47",
-        "name": "Greywater Welcome",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "A fighter can use this ability only if it is the first battle round. This fighter makes a bonus missile attack action.",
-        "runemarks": []
-    },
-    {
-        "_id": "8c3bd8fe",
-        "name": "Hunters of the Hidden Paths",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
-        "runemarks": []
-    },
-    {
-        "_id": "d6ac98d2",
-        "name": "Imbued with Eldritch Energy",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "Until the end of the battle round, treat the value of abilities used by visible enemy fighters while they are within 3\" of this fighter as 1.",
-        "runemarks": []
-    },
-    {
-        "_id": "a0d057d3",
-        "name": "Merciless Raiders",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "A fighter can only use this ability if it is the first battle round. Until the end of this fighter's activation, add 2 to the Move characteristic of this fighter and add 1 to the Attacks characteristic of melee attack actions made by this fighter.",
-        "runemarks": []
-    },
-    {
-        "_id": "2bce082b",
-        "name": "Outriders of the Realms",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "A fighter can only use this ability if it is the first battle round. This fighter makes a bonus move action.",
-        "runemarks": []
-    },
-    {
-        "_id": "6aa64bc6",
-        "name": "Pulverising Strike",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
-        "runemarks": [
-            "destroyer"
-        ]
-    },
-    {
-        "_id": "a0bb71fa",
-        "name": "Rapid Redeploy",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
-        "runemarks": [
-            "agile"
-        ]
-    },
-    {
-        "_id": "d332b477",
-        "name": "Reclaim for Sigmar",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "A fighter can only use this ability if they are within 3\" of an objective. Until the end of this fighter's activation, add 1 to the Strength and Attacks characteristics of melee attack actions made by this fighter.",
-        "runemarks": []
-    },
-    {
-        "_id": "a841b663",
-        "name": "Vengeful Revenant",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "A fighter can use this ability only if a friendly fighter has been taken down this battle round. This fighter makes a bonus melee attack action.",
-        "runemarks": []
-    },
-    {
-        "_id": "bf8c9b73",
-        "name": "Ambush",
-        "warband": "Cities of Sigmar",
-        "cost": "triple",
-        "description": "A fighter can use this ability only if it is the first battle round. Until the end of the battle round, add 1 to the Attacks characteristic of attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
-        "runemarks": [
-            "hero"
-        ]
-    },
-    {
-        "_id": "c53b853f",
-        "name": "Blessing of the Ur-Phoenix",
-        "warband": "Cities of Sigmar",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Toughness characteristic of friendly fighters while they are within 3\" of this fighter.",
-        "runemarks": [
-            "hero"
-        ]
-    },
-    {
-        "_id": "987e7d58",
-        "name": "Cavalry Charge",
-        "warband": "Cities of Sigmar",
-        "cost": "triple",
-        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
-        "runemarks": [
-            "elite"
-        ]
-    },
-    {
-        "_id": "66bab44a",
-        "name": "For Sigmar and for Hammerhal!",
-        "warband": "Cities of Sigmar",
-        "cost": "triple",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
-        "runemarks": [
-            "hero"
-        ]
-    },
-    {
-        "_id": "eb63be26",
-        "name": "Martial Exemplar",
-        "warband": "Cities of Sigmar",
-        "cost": "triple",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
-        "runemarks": [
-            "destroyer",
-            "hero"
-        ]
-    },
-    {
-        "_id": "d8d70868",
-        "name": "Rune of Unfaltering Aim",
-        "warband": "Cities of Sigmar",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add 1 to the damage points allocated to enemy fighters by each critical hit from missile attack actions made by friendly fighters while they are within 6\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "priest"
-        ]
-    },
-    {
-        "_id": "3ac31bea",
-        "name": "Swift as the Wind",
-        "warband": "Cities of Sigmar",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add half the value of this ability to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
-        "runemarks": [
-            "hero"
-        ]
-    },
-    {
-        "_id": "e5e5a25f",
-        "name": "Volley of Shots",
-        "warband": "Cities of Sigmar",
-        "cost": "triple",
-        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation. [Quad] Righteous Purpose: This fighter makes a bonus melee attack action. Then, pick a visible friendly fighter within 3\" of this fighter. That fighter makes a bonus melee attack action.",
-        "runemarks": [
-            "scout"
-        ]
-    },
-    {
-        "_id": "ae0b318e",
-        "name": "Warding Brand",
-        "warband": "Cities of Sigmar",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Toughness characteristic of friendly fighters while they are within 3\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "mystic"
-        ]
-    },
-    {
-        "_id": "acd244fc",
-        "name": "Arcane Channeling",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "Roll a number of dice equal to the value of this ability. For each roll of 4+, add one wild dice to your saved wild dice.",
-        "runemarks": []
-    },
-    {
-        "_id": "b051f263",
-        "name": "Descending Ash Cloud",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 9\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "mystic"
-        ]
-    },
-    {
-        "_id": "916bef87",
-        "name": "Golden Mist",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "Remove a number of damage points up to the value of this ability allocated to each friendly fighter within 6\" of this fighter.",
-        "runemarks": [
-            "mystic",
-            "hero"
-        ]
-    },
-    {
-        "_id": "f9495d9a",
-        "name": "Ignite Weapons",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of attack actions made by friendly fighters while they are within 6\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "mystic"
-        ]
-    },
-    {
-        "_id": "deb7c3ce",
-        "name": "Lifesurge",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "Roll 3 dice and add up the total. Then, pick a visible friendly fighter within 9\" of this fighter. Remove a number of damage points allocated to that fighter equal to the total rolled.",
-        "runemarks": [
-            "hero",
-            "mystic"
-        ]
-    },
-    {
-        "_id": "bd1ee4a3",
-        "name": "Outmanoeuvre the Foe",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "Pick a number of visible friendly fighters up to the value of this ability within 6\" of this fighter. Those fighters can each make a bonus move action or a bonus disengage action (some can make a bonus move action and others can make a bonus disengage action).",
-        "runemarks": []
-    },
-    {
-        "_id": "e206026e",
-        "name": "Righteous Purpose",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "This fighter makes a bonus attack action that has a Range characteristic of 3 or less. Then, pick 1 friendly fighter within 3\" of this fighter.  That fighter makes a bonus attack action that has a Range characteristic of 3 or less.",
-        "runemarks": []
-    },
-    {
-        "_id": "4fc70b75",
-        "name": "Runic Munitions",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "This fighter makes a bonus missile attack action. In addition, add the value of this ability to the Strength characteristic of that attack action.",
-        "runemarks": []
-    },
-    {
-        "_id": "36f2be62",
-        "name": "Show No Mercy",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "This fighter makes a bonus attack action. In addition, if the target of that attack action has 1 or more damage points allocated to them, add half the value of this ability (rounding up) to the damage points allocated to that fighter by each hit and critical hit from that attack action.",
-        "runemarks": []
-    },
-    {
-        "_id": "b4ba7aaf",
-        "name": "Strike and Melt Away",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "This fighter makes a bonus attack action. Then, they make either a bonus move action or a bonus disengage action.",
-        "runemarks": []
-    },
-    {
-        "_id": "492da49b",
-        "name": "Summon Eagle Strike",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "Pick a visible enemy fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 3 damage points to that fighter. In addition, until the end of the battle round, halve the Move characteristic (rounding up) of that fighter.",
-        "runemarks": [
-            "hero",
-            "mystic"
-        ]
-    },
-    {
-        "_id": "1b8daa51",
-        "name": "Twin-tailed Comet",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "Pick a visible enemy fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate 3 damage points to that fighter.",
-        "runemarks": [
-            "hero",
-            "mystic"
-        ]
-    },
-    {
-        "_id": "bb5baac0",
-        "name": "Vitriolic Spray",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 3 damage points to that fighter. In addition, until the end of the battle round, halve the Toughness characteristic of that fighter (rounding up).",
-        "runemarks": [
-            "hero",
-            "mystic"
-        ]
-    },
-    {
-        "_id": "66bdef90",
-        "name": "Witness to Destiny",
-        "warband": "Cities of Sigmar",
-        "cost": "quad",
-        "description": "This fighter makes a bonus attack action. In addition, until the end of the battle round, subtract 2 from the damage points allocated to this fighter by each hit and critical hit (to a minimum of 1) made by an enemy fighter.",
-        "runemarks": []
-    },
-    {
-        "_id": "1b2cdd66",
-        "name": "Perfect Position",
-        "warband": "Cities of Sigmar",
-        "cost": "double",
-        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability.",
-        "runemarks": [
-            "scout",
-            "hero"
-        ]
-    },
-    {
-        "_id": "cea819c5",
-        "name": "Make an Example of the Weak",
-        "warband": "Cities of Sigmar",
-        "cost": "triple",
-        "description": "Pick a visible friendly fighter within 3\" of this fighter. That fighter is taken down. Until the end of the battle round, add 1 to the Attacks and Strength characteristics of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
-        "runemarks": [
-            "hero"
-        ]
-    },
-    {
-        "_id": "5249b4dc",
-        "name": "Martial Discipline",
-        "warband": "Cities of Sigmar",
-        "cost": "reaction",
-        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made.  Add 1 to this fighter's Toughness characteristic during that attack action.",
-        "runemarks": [
-            "hammerhal"
-        ]
     },
     {
         "_id": "3b26491a",
@@ -1762,7 +1516,7 @@
         "_id": "f9471479",
         "name": "Masterflame Rune",
         "warband": "Fyreslayers",
-        "cost": "double",
+        "cost": "reaction",
         "description": "A fighter can make this reaction when a friendly fighter is taken down. Until the end of the battle round, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by friendly fighters while they are within 6\" of this fighter.",
         "runemarks": [
             "hero",
@@ -2055,7 +1809,7 @@
     },
     {
         "_id": "103c0992",
-        "name": "I'm Da Boss, Now Stab 'Em Good!",
+        "name": "I'm Da Boss; Now Stab 'Em Good!",
         "warband": "Gloomspite Gitz",
         "cost": "quad",
         "description": "Until the end of the battle round, add the value of this ability to the Attacks characteristic of melee attack actions made by friendly fighters with the Gloomspite Gitz faction runemark while they are within 6\" of this fighter.",
@@ -2073,44 +1827,32 @@
         "runemarks": []
     },
     {
-        "_id": "a523f4de",
-        "name": "Questin' Knight",
-        "warband": "Gloomspite Gitz",
-        "cost": "double",
-        "description": "Until the end of this fighter's activation, after the enemy fighter is taken down by a melee attack action made this fighter, this fighter can make a bonus move action nor a bonus attack action.",
-        "runemarks": [
-            "grinkrak's looncourt",
-            "hero"
-        ]
-    },
-    {
-        "_id": "80846cd7",
-        "name": "Enthusiastic Dubbin'",
-        "warband": "Gloomspite Gitz",
-        "cost": "double",
-        "description": "Pick a visible friendly fighter with the Grinkrak's Looncourt runemark within 3\" of this fighter that has not activated yet this battle round.  That fighter suffers impact damage.  You can activate that fighter immediately after this fighter's activation ends.",
-        "runemarks": [
-            "grinkrak's looncourt"
-        ]
-    },
-    {
-        "_id": "5550a018",
-        "name": "Sound da Charge!",
-        "warband": "Gloomspite Gitz",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
-        "runemarks": [
-            "icon-bearer",
-            "grinkrak's looncourt"
-        ]
-    },
-    {
         "_id": "c15373cf",
         "name": "Pile On",
         "warband": "Gloomspite Gitz",
         "cost": "reaction",
         "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter with the Gloomspite Gitz runemark. That fighter makes a bonus move action. After that move action, that fighter must be within 1\" of the enemy fighter that made the move action.",
         "runemarks": []
+    },
+    {
+        "_id": "16486f1f",
+        "name": "Spore Cloud",
+        "warband": "Gloomspite Gitz",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after a friendly fighter within 3\" of this fighter is targeted by a missile attack action but before the hit rolls are made. Until the end of the round, friendly fighters are considered to be in cover while they are within 3\" of this fighter.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "ae5c000d",
+        "name": "Spiteful Demise",
+        "warband": "Gloomspite Gitz",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Roll a dice. On a roll of 4+, allocate 3 damage points to their attacker.",
+        "runemarks": [
+            "ally"
+        ]
     },
     {
         "_id": "770d0514",
@@ -2175,6 +1917,171 @@
         ]
     },
     {
+        "_id": "72210ab8",
+        "name": "Forgefire",
+        "warband": "Greywater Fastness",
+        "cost": "double",
+        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
+        "runemarks": [
+            "priest",
+            "hero"
+        ]
+    },
+    {
+        "_id": "35c799f3",
+        "name": "Form Shieldwall",
+        "warband": "Greywater Fastness",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Cities of Sigmar faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "e4da5f47",
+        "name": "Greywater Welcome",
+        "warband": "Greywater Fastness",
+        "cost": "double",
+        "description": "A fighter can use this ability only if it is the first battle round. This fighter makes a bonus missile attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "f477dffb",
+        "name": "Pulverising Strike",
+        "warband": "Greywater Fastness",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "bc79185e",
+        "name": "Rapid Redeploy",
+        "warband": "Greywater Fastness",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "66d0d925",
+        "name": "Cavalry Charge",
+        "warband": "Greywater Fastness",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "90778328",
+        "name": "Martial Exemplar",
+        "warband": "Greywater Fastness",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "destroyer",
+            "hero"
+        ]
+    },
+    {
+        "_id": "d8d70868",
+        "name": "Rune of Unfaltering Aim",
+        "warband": "Greywater Fastness",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the damage points allocated to enemy fighters by each critical hit from missile attack actions made by friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "38273dd6",
+        "name": "Volley of Shots",
+        "warband": "Greywater Fastness",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "b051f263",
+        "name": "Descending Ash Cloud",
+        "warband": "Greywater Fastness",
+        "cost": "quad",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "4fc70b75",
+        "name": "Runic Munitions",
+        "warband": "Greywater Fastness",
+        "cost": "quad",
+        "description": "This fighter makes a bonus missile attack action. In addition, add the value of this ability to the Strength characteristic of that attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "45a0c67a",
+        "name": "Perfect Position",
+        "warband": "Greywater Fastness",
+        "cost": "double",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "agile",
+            "hero"
+        ]
+    },
+    {
+        "_id": "f95597c4",
+        "name": "Return Fire",
+        "warband": "Greywater Fastness",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made, if the attacker is within range of at least one of the target's weapons. For each hit roll from that attack action that misses, allocate 1 damage point to the attacking fighter. For each hit roll of 1, allocate 2 damage points to the attacking fighter instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "a523f4de",
+        "name": "Questin' Knight",
+        "warband": "Grinkrak's Looncourt",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, after the enemy fighter is taken down by a melee attack action made this fighter, this fighter can make a bonus move action nor a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "80846cd7",
+        "name": "Enthusiastic Dubbin'",
+        "warband": "Grinkrak's Looncourt",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Grinkrak's Looncourt runemark within 3\" of this fighter that has not activated yet this battle round.  That fighter suffers impact damage.  You can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": []
+    },
+    {
+        "_id": "5550a018",
+        "name": "Sound da Charge!",
+        "warband": "Grinkrak's Looncourt",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "23a2faeb",
+        "name": "Tuff Nut",
+        "warband": "Grinkrak's Looncourt",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the kit rolls are made. Count up to two critical hits from that attack action as hits instead.",
+        "runemarks": []
+    },
+    {
         "_id": "2c353eb1",
         "name": "Peerless Combatant",
         "warband": "Gryselle's Arenai",
@@ -2197,6 +2104,280 @@
         "cost": "triple",
         "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Gryselle's Arenai runemark while they are within 6\" of this fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "b3eb52dd",
+        "name": "Acrobatic Display",
+        "warband": "Gryselle's Arenai",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by an attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1).",
+        "runemarks": []
+    },
+    {
+        "_id": "bfefc6b6",
+        "name": "Forgefire",
+        "warband": "Hallowheart",
+        "cost": "double",
+        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
+        "runemarks": [
+            "priest",
+            "hero"
+        ]
+    },
+    {
+        "_id": "6d423002",
+        "name": "Form Shieldwall",
+        "warband": "Hallowheart",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Cities of Sigmar faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "d6ac98d2",
+        "name": "Imbued with Eldritch Energy",
+        "warband": "Hallowheart",
+        "cost": "double",
+        "description": "Until the end of the battle round, treat the value of abilities used by visible enemy fighters while they are within 3\" of this fighter as 1.",
+        "runemarks": []
+    },
+    {
+        "_id": "32f76f90",
+        "name": "Pulverising Strike",
+        "warband": "Hallowheart",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "b984901a",
+        "name": "Rapid Redeploy",
+        "warband": "Hallowheart",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "897ffbf1",
+        "name": "Cavalry Charge",
+        "warband": "Hallowheart",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "a6107e25",
+        "name": "Martial Exemplar",
+        "warband": "Hallowheart",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "destroyer",
+            "hero"
+        ]
+    },
+    {
+        "_id": "447a3b75",
+        "name": "Volley of Shots",
+        "warband": "Hallowheart",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "ae0b318e",
+        "name": "Warding Brand",
+        "warband": "Hallowheart",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Toughness characteristic of friendly fighters while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "acd244fc",
+        "name": "Arcane Channelling",
+        "warband": "Hallowheart",
+        "cost": "quad",
+        "description": "Roll a number of dice equal to the value of this ability. For each roll of 4+, add one wild dice to your saved wild dice.",
+        "runemarks": []
+    },
+    {
+        "_id": "f9495d9a",
+        "name": "Ignite Weapons",
+        "warband": "Hallowheart",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of attack actions made by friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "5a59c14d",
+        "name": "Perfect Position",
+        "warband": "Hallowheart",
+        "cost": "double",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "agile",
+            "hero"
+        ]
+    },
+    {
+        "_id": "4da0d021",
+        "name": "Stern Stuff",
+        "warband": "Hallowheart",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1).",
+        "runemarks": []
+    },
+    {
+        "_id": "7207a681",
+        "name": "Forgefire",
+        "warband": "Hammerhal",
+        "cost": "double",
+        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
+        "runemarks": [
+            "priest",
+            "hero"
+        ]
+    },
+    {
+        "_id": "58b5f9ed",
+        "name": "Form Shieldwall",
+        "warband": "Hammerhal",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Cities of Sigmar faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "6aa64bc6",
+        "name": "Pulverising Strike",
+        "warband": "Hammerhal",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "a0bb71fa",
+        "name": "Rapid Redeploy",
+        "warband": "Hammerhal",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "d332b477",
+        "name": "Reclaim for Sigmar",
+        "warband": "Hammerhal",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 3\" of an objective. Until the end of this fighter's activation, add 1 to the Strength and Attacks characteristics of melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "987e7d58",
+        "name": "Cavalry Charge",
+        "warband": "Hammerhal",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "66bab44a",
+        "name": "For Sigmar and for Hammerhal!",
+        "warband": "Hammerhal",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "e5e5a25f",
+        "name": "Volley of Shots",
+        "warband": "Hammerhal",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "e206026e",
+        "name": "Righteous Purpose",
+        "warband": "Hammerhal",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action that has a Range characteristic of 3 or less. Then, pick 1 friendly fighter within 3\" of this fighter.  That fighter makes a bonus attack action that has a Range characteristic of 3 or less.",
+        "runemarks": []
+    },
+    {
+        "_id": "1b8daa51",
+        "name": "Twin-tailed Comet",
+        "warband": "Hammerhal",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "1b2cdd66",
+        "name": "Perfect Position",
+        "warband": "Hammerhal",
+        "cost": "double",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "agile",
+            "hero"
+        ]
+    },
+    {
+        "_id": "5249b4dc",
+        "name": "Martial Discipline",
+        "warband": "Hammerhal",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made.  Add 1 to this fighter's Toughness characteristic during that attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "7bb09959",
+        "name": "An Eye for Weakness",
+        "warband": "Hedkrakka's Madmob",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 12\" of this fighter. Until the end of the battle round, add 3 to the damage points allocated by each critical hit for attacks that target that fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "4a0aa589",
+        "name": "Bone Krusha",
+        "warband": "Hedkrakka's Madmob",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 12\" of this figther and roll a number of dice equal to the value of this ability.  For each 2+, allocate 3 damage points to that fighter.  If the enemy fighter is within 3\" of this fighter, allocate 5 damage points to that fighter for each 2+ instead.",
+        "runemarks": [
+            "hero"
+        ]
     },
     {
         "_id": "1d23c490",
@@ -2625,7 +2806,7 @@
     },
     {
         "_id": "997d8ddd",
-        "name": "Scryfish Shoul",
+        "name": "Scryfish Shoal",
         "warband": "Idoneth Deepkin",
         "cost": "triple",
         "description": "Pick a visible enemy fighter within 10\" of this fighter and roll 6 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 2 damage points to that fighter.",
@@ -3225,7 +3406,7 @@
     {
         "_id": "45a57d8c",
         "name": "Go Where the Wind Blows",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "double",
         "description": "Add half the value of this ability (rounding up) to this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": [
@@ -3235,7 +3416,7 @@
     {
         "_id": "26d53a6b",
         "name": "Lone Agent",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "double",
         "description": "A fighter can only use this ability if there are no other friendly fighters within 6\" of this fighter. This fighter makes a bonus move action.",
         "runemarks": [
@@ -3246,7 +3427,7 @@
     {
         "_id": "8232a785",
         "name": "Moonfire Flask",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "double",
         "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points equal to the value of this ability to that fighter.",
         "runemarks": [
@@ -3257,7 +3438,7 @@
     {
         "_id": "982850c8",
         "name": "Mountain Stance",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "double",
         "description": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target this fighter.",
         "runemarks": [
@@ -3267,7 +3448,7 @@
     {
         "_id": "ddf04ee7",
         "name": "Sharp-eyed Scryhawk",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "triple",
         "description": "Pick an enemy fighter within 20\" of this fighter. Until the end of the battle round, add 1 to the Attacks characteristic of attack actions that target that fighter.",
         "runemarks": [
@@ -3278,7 +3459,7 @@
     {
         "_id": "c0016767",
         "name": "Shining Company",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "double",
         "description": "A fighter can only use this ability if there are 2 or more other friendly fighters with both the Lumineth Realm-lords faction runemark and the Warrior runemark within 1\" of this fighter. Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they target a fighter within 1\" of this fighter.",
         "runemarks": [
@@ -3288,7 +3469,7 @@
     {
         "_id": "81390092",
         "name": "Emotional Transference",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "triple",
         "description": "Pick a visible friendly fighter with the Lumineth Realm-lords faction runemark that has 1 or more damage points allocated to them and that is within 12\" of this fighter. Then, pick a visible enemy fighter within 12\" of this fighter. Roll a number of dice equal to the number of damage points allocated to that friendly fighter. For each 4+, allocate 1 damage point to that enemy fighter.",
         "runemarks": [
@@ -3299,7 +3480,7 @@
     {
         "_id": "8c2e5b33",
         "name": "Lances of the Dawn",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "triple",
         "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points equal to the value of this ability to that fighter.",
         "runemarks": [
@@ -3309,7 +3490,7 @@
     {
         "_id": "593efa51",
         "name": "Move Like the Wind",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "triple",
         "description": "Until the end of this fighter's activation, this fighter can finish disengage actions within 1\" of enemy fighters.",
         "runemarks": [
@@ -3319,7 +3500,7 @@
     {
         "_id": "273344b9",
         "name": "Realmscribe",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "double",
         "description": "Pick a point on the battlefield within 9\" of this fighter and place a special token there. Until the end of the battle round, subtract 1 from the damage points allocated by each critical hit from attack actions that target friendly fighters while they are within 6\" of the centre of that token.",
         "runemarks": [
@@ -3330,7 +3511,7 @@
     {
         "_id": "7aeeb3c3",
         "name": "Gravitic Redirection",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "quad",
         "description": "Allocate D3 damage points to all visible enemy fighters within 6\" of this fighter (roll for each). In addition, until the end of the battle round, halve the Move characteristic (rounding up) of all fighters while they make a move action that starts within 6\" of this fighter.",
         "runemarks": [
@@ -3341,7 +3522,7 @@
     {
         "_id": "2e4114a8",
         "name": "Perfect Strike",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "quad",
         "description": "This fighter makes a bonus attack action. In addition, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from that attack action.",
         "runemarks": [
@@ -3351,7 +3532,7 @@
     {
         "_id": "f9a0b0b3",
         "name": "Blinding Brilliance",
-        "warband": "Lumineth Realmlords",
+        "warband": "Lumineth Realm-lords",
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a missile attack action but before the hit rolls are made. After the hit rolls have been made, roll a dice for each critical hit. On a roll of 4+, that critical hit becomes a hit instead.",
         "runemarks": []
@@ -3609,6 +3790,16 @@
         "cost": "triple",
         "description": "A fighter can use this ability only if the yare within 1\" of a visible enemy fighter with the Gargantuan runemark.  This fighter can make a bonus attack action that targets that fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "98ece5ab",
+        "name": "Daughters of the First Temple",
+        "warband": "Morgwaeth's Blade-Coven",
+        "cost": "double",
+        "description": "Pick another visible friendly fighter with teh Morgwaeth's blade-Coven runemark within 3\" of this fighter. That fighter can make a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
     },
     {
         "_id": "927cb4b0",
@@ -4013,7 +4204,7 @@
     },
     {
         "_id": "18a0ccfa",
-        "name": "Ferocious Presence",
+        "name": "Ferocious Pounce",
         "warband": "Rippa's Snarlfangs",
         "cost": "quad",
         "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter.  Allocate a number of damage points equal to the value of this ability to that fighter.",
@@ -4312,7 +4503,7 @@
     },
     {
         "_id": "0bcb02c6",
-        "name": "Rain Meteoric Barrage",
+        "name": "Meteoric Barrage",
         "warband": "Seraphon",
         "cost": "triple",
         "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
@@ -4618,6 +4809,36 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Remove 3 damage points allocated to this fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "d02db365",
+        "name": "Sleepless Sentinel",
+        "warband": "Sons of Velmorn",
+        "cost": "double",
+        "description": "Until the end of the battle round, friendly fighters with both the Sons of Velmorn runemark and the Hero runemark cannot be targeted while  they are within 1\" of this fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "9aa5e9d2",
+        "name": "Deadly Command",
+        "warband": "Sons of Velmorn",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by visible friendly fighters with both the Sons of Velmorn runemark and the Minion runemark while they are within 8\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "47185e2d",
+        "name": "Sibling Rivalry",
+        "warband": "Sons of Velmorn",
+        "cost": "double",
+        "description": "A fighter can only use this ability if another friendly fighter with both the Sons of Velmorn runemark and the Minion runemark has made an attack action in this battle round.  until the end of this fighter's activation, add 2 to the Attacks characteristic of melee attack actions made by this fighter.",
+        "runemarks": [
+            "minion"
+        ]
     },
     {
         "_id": "bce2a409",
@@ -5058,7 +5279,7 @@
     },
     {
         "_id": "0c743bc2",
-        "name": "Cleanse the Realm of Taint",
+        "name": "Cleanse the Realms of Taint",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
         "cost": "double",
         "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
@@ -5130,7 +5351,7 @@
     },
     {
         "_id": "84ec2ed7",
-        "name": "Open the Redemption Cache",
+        "name": "Open Redemption Cache",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
         "cost": "quad",
         "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
@@ -5332,7 +5553,9 @@
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
         "cost": "triple",
         "description": "Add 2 to the Attacks characteristic of the next missile attack action made by this fighter this activation.",
-        "runemarks": []
+        "runemarks": [
+            "bulwark"
+        ]
     },
     {
         "_id": "86a90c64",
@@ -5383,6 +5606,14 @@
         "runemarks": [
             "scout"
         ]
+    },
+    {
+        "_id": "90f154cc",
+        "name": "Thunderous Departure",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Allocate D6 damage points to their attacker. Fighters with the Beast runemark or both the Scout and Fly runemarks cannot make this reaction.",
+        "runemarks": []
     },
     {
         "_id": "6641bbd3",
@@ -5567,7 +5798,7 @@
     },
     {
         "_id": "6d4ff90b",
-        "name": "Zephyrite's Tail Pincers",
+        "name": "Zephyrspite's Tail Pincers",
         "warband": "Sylvaneth",
         "cost": "double",
         "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 3+, allocate 3 damage points to that fighter.",
@@ -5725,12 +5956,196 @@
         "runemarks": []
     },
     {
+        "_id": "def4ad07",
+        "name": "Forgefire",
+        "warband": "Tempest's Eye",
+        "cost": "double",
+        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
+        "runemarks": [
+            "priest",
+            "hero"
+        ]
+    },
+    {
+        "_id": "4b3e7602",
+        "name": "Form Shieldwall",
+        "warband": "Tempest's Eye",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Cities of Sigmar faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "2bce082b",
+        "name": "Outriders of the Realms",
+        "warband": "Tempest's Eye",
+        "cost": "double",
+        "description": "A fighter can only use this ability if it is the first battle round. This fighter makes a bonus move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "710f7736",
+        "name": "Pulverising Strike",
+        "warband": "Tempest's Eye",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "e32ec6aa",
+        "name": "Rapid Redeploy",
+        "warband": "Tempest's Eye",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "29831838",
+        "name": "Cavalry Charge",
+        "warband": "Tempest's Eye",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "65b5e575",
+        "name": "Martial Exemplar",
+        "warband": "Tempest's Eye",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "destroyer",
+            "hero"
+        ]
+    },
+    {
+        "_id": "3ac31bea",
+        "name": "Swift as the Wind",
+        "warband": "Tempest's Eye",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "2c38293e",
+        "name": "Volley of Shots",
+        "warband": "Tempest's Eye",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "bd1ee4a3",
+        "name": "Outmanoeuvre the Foe",
+        "warband": "Tempest's Eye",
+        "cost": "quad",
+        "description": "Pick a number of visible friendly fighters up to the value of this ability within 6\" of this fighter. Those fighters can each make a bonus move action or a bonus disengage action (some can make a bonus move action and others can make a bonus disengage action).",
+        "runemarks": []
+    },
+    {
+        "_id": "492da49b",
+        "name": "Summon Eagle Strike",
+        "warband": "Tempest's Eye",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 3 damage points to that fighter. In addition, until the end of the battle round, halve the Move characteristic (rounding up) of that fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "5d81b98f",
+        "name": "Perfect Position",
+        "warband": "Tempest's Eye",
+        "cost": "double",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "agile",
+            "hero"
+        ]
+    },
+    {
+        "_id": "2a561d43",
+        "name": "Oracular Insight",
+        "warband": "Tempest's Eye",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action within 3\" of, and visible to, this fighter. Add one wild dice to your saved wild dice.",
+        "runemarks": []
+    },
+    {
+        "_id": "3382fbfd",
+        "name": "The Chosen Kin",
+        "warband": "The Chosen Axes",
+        "cost": "double",
+        "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Fjul-Grimnir.  Until the end of this fighter's activation, add 2 to the Attacks characteristic of attack actions made by this fighter that have the Axe runemark.",
+        "runemarks": []
+    },
+    {
+        "_id": "235d62bf",
+        "name": "Fiendish Lure",
+        "warband": "The Crimson Court",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 2 to the damage points allocated by each critical hit from attack actions made by friendly fighters that target an enemy fighter within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "243cf0a5",
+        "name": "The Thrill of the Hunt",
+        "warband": "The Crimson Court",
+        "cost": "double",
+        "description": "If the next attack action made by this fighter this activation targets an enemy fighter with any damage points allocated to them, add 2 to the Attacks and Strength characteristics of that attack action.",
+        "runemarks": []
+    },
+    {
         "_id": "60eaf064",
         "name": "Cavalcade of Madness",
         "warband": "The Dread Pageant",
         "cost": "quad",
         "description": "This fighter makes a bonus attack action. In addition, if either this fighter or the target of the attack has any damage points allocated to them, add 1 to the Attacks characteristic of that bonus attack action. If both this fighter and the target fighter have any damage points allocated to them, add 3 to the Attacks characteristic of that bonus attack action instead.",
         "runemarks": []
+    },
+    {
+        "_id": "43139422",
+        "name": "Crackling Arcs",
+        "warband": "The Exiled Dead",
+        "cost": "double",
+        "description": "Roll a number of dice equal to the value of this ability.  For each roll of 5+, pick a visible enemy fighter within 3\" of this fighter.  Allocate 1 damage point to that fighter for each friendly fighter with this ability's runemarks within 3\" of that fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "7442c30c",
+        "name": "Dread Puppetry",
+        "warband": "The Exiled Dead",
+        "cost": "double",
+        "description": "Pick a friendly fighter with both the Exiled Dead and Bulwark runemarks and has not activated yet this battle round.  you can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": [
+            "sentience"
+        ]
+    },
+    {
+        "_id": "21e1790c",
+        "name": "Dynamic Enhancer",
+        "warband": "The Exiled Dead",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Attack characteristic of attack actions with a Range characteristic of 3 or less made by visible friendly fighters with both the Exiled Dead and Frienzied runemarks while they are within 9\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
     },
     {
         "_id": "6a8cfa78",
@@ -5748,6 +6163,280 @@
         "warband": "The Grymwatch",
         "cost": "double",
         "description": "Pick a visible friendly fighter with both The Grymwatch runemark and the Minion runemark within 3\" of this fighter. That fighter can make a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "cbb45a9d",
+        "name": "Forgefire",
+        "warband": "The Living City",
+        "cost": "double",
+        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
+        "runemarks": [
+            "priest",
+            "hero"
+        ]
+    },
+    {
+        "_id": "3c20fa0e",
+        "name": "Form Shieldwall",
+        "warband": "The Living City",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Cities of Sigmar faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "8c3bd8fe",
+        "name": "Hunters of the Hidden Paths",
+        "warband": "The Living City",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "e5479651",
+        "name": "Pulverising Strike",
+        "warband": "The Living City",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "68545cc2",
+        "name": "Rapid Redeploy",
+        "warband": "The Living City",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "498ae9a8",
+        "name": "Cavalry Charge",
+        "warband": "The Living City",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "eb63be26",
+        "name": "Martial Exemplar",
+        "warband": "The Living City",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "destroyer",
+            "hero"
+        ]
+    },
+    {
+        "_id": "d0c3929b",
+        "name": "Volley of Shots",
+        "warband": "The Living City",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "deb7c3ce",
+        "name": "Lifesurge",
+        "warband": "The Living City",
+        "cost": "quad",
+        "description": "Roll 3 dice and add up the total. Then, pick a visible friendly fighter within 9\" of this fighter. Remove a number of damage points allocated to that fighter equal to the total rolled.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "b4ba7aaf",
+        "name": "Strike and Melt Away",
+        "warband": "The Living City",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. Then, they make either a bonus move action or a bonus disengage action.",
+        "runemarks": []
+    },
+    {
+        "_id": "9afc2407",
+        "name": "Perfect Position",
+        "warband": "The Living City",
+        "cost": "double",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "agile",
+            "hero"
+        ]
+    },
+    {
+        "_id": "91d26e3c",
+        "name": "Dazzling Feint",
+        "warband": "The Living City",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. After that action, this fighter makes a bonus disengage action.",
+        "runemarks": []
+    },
+    {
+        "_id": "e9cbe5f6",
+        "name": "Forgefire",
+        "warband": "The Phoenicium",
+        "cost": "double",
+        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
+        "runemarks": [
+            "priest",
+            "hero"
+        ]
+    },
+    {
+        "_id": "1497cec8",
+        "name": "Form Shieldwall",
+        "warband": "The Phoenicium",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Cities of Sigmar faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "b7bc1022",
+        "name": "Pulverising Strike",
+        "warband": "The Phoenicium",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "77faabde",
+        "name": "Rapid Redeploy",
+        "warband": "The Phoenicium",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "a841b663",
+        "name": "Vengeful Revenant",
+        "warband": "The Phoenicium",
+        "cost": "double",
+        "description": "A fighter can use this ability only if a friendly fighter has been taken down this battle round. This fighter makes a bonus melee attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "c53b853f",
+        "name": "Blessing of the Ur-Phoenix",
+        "warband": "The Phoenicium",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Toughness characteristic of friendly fighters while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "896b8402",
+        "name": "Cavalry Charge",
+        "warband": "The Phoenicium",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "b0121194",
+        "name": "Martial Exemplar",
+        "warband": "The Phoenicium",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "destroyer",
+            "hero"
+        ]
+    },
+    {
+        "_id": "0a6019da",
+        "name": "Volley of Shots",
+        "warband": "The Phoenicium",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "916bef87",
+        "name": "Golden Mist",
+        "warband": "The Phoenicium",
+        "cost": "quad",
+        "description": "Remove a number of damage points up to the value of this ability allocated to each friendly fighter within 6\" of this fighter.",
+        "runemarks": [
+            "mystic",
+            "hero"
+        ]
+    },
+    {
+        "_id": "66bdef90",
+        "name": "Witness to Destiny",
+        "warband": "The Phoenicium",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. In addition, until the end of the battle round, subtract 2 from the damage points allocated to this fighter by each hit and critical hit (to a minimum of 1) made by an enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "343a5ac0",
+        "name": "Perfect Position",
+        "warband": "The Phoenicium",
+        "cost": "double",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "agile",
+            "hero"
+        ]
+    },
+    {
+        "_id": "0be62935",
+        "name": "Indomitable Spirit",
+        "warband": "The Phoenicium",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Remove 3 damage points allocated to this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "f1a69fd6",
+        "name": "Frightening Charge",
+        "warband": "The Sepulchral Guard",
+        "cost": "triple",
+        "description": "A fighter can use this ability only if there is a visible enemy fighter within 6\" of them.  This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "fa891e0e",
+        "name": "Chameleon Ambush",
+        "warband": "The Starblood Stalkers",
+        "cost": "double",
+        "description": "This fighter can use this ability only if there are no visible enemy fighters within 12\" of this fighter.  This fighter makes a bonus move action.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "da1dd1e6",
+        "name": "Imbue with Azyrite Energy",
+        "warband": "The Starblood Stalkers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Move and Toughness characteristics of friendly fighters while they are within 9\" of this fighter.",
         "runemarks": [
             "hero"
         ]

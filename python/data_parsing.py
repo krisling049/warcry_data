@@ -107,7 +107,14 @@ class FighterJSONPayload(FighterDataPayload):
     def write_spreadsheet(self, dst_root: Path = Path(Path(__file__).parent.parent, 'data')):
         # This is crap atm. Need to make sure sheet is sensibly ordered and weapons values go into separate columns
         # Also need to add derived statistics (pts/wound, chance to kill vs. T3, T4 etc)
-        xlsx_data = pd.DataFrame(self.data)
+        temp_data = self.data.copy()
+        for fighter in temp_data:
+            for i, w in enumerate(fighter['weapons']):
+                for k, v in w.items():
+                    fighter[f'weapon_{i + 1}_{k}'] = v
+            del fighter['weapons']
+
+        xlsx_data = pd.DataFrame(temp_data)
         xlsx_data.to_excel(Path(dst_root, 'fighters.xlsx'))
 
     def write_to_disk(self):
