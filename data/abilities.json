@@ -3208,7 +3208,9 @@
         "warband": "Kharadron Overlords",
         "cost": "triple",
         "description": "A fighter can only use this ability if they are more than 3\" from any enemy fighters. Pick a point that is on an obstacle and is within 20\" of this fighter. Remove this fighter from the battlefield, then set that fighter up on a platform or the battlefield floor, wholly within 3\" of the point picked.",
-        "runemarks": []
+        "runemarks": [
+            "agile"
+        ]
     },
     {
         "_id": "49638f8a",
@@ -5452,7 +5454,7 @@
         "_id": "5ee74fcf",
         "name": "Darting Attack",
         "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "cost": "double",
+        "cost": "triple",
         "description": "This fighter makes a bonus attack action. Then, they can make a bonus disengage action.",
         "runemarks": [
             "beast"
