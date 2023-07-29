@@ -4301,7 +4301,7 @@
         "name": "Pack Tactics",
         "warband": "Royal Beastflayers",
         "cost": "triple",
-        "description": "Pick an enemy fighter that is visible to  this fighter.  Allocate a number of damage points to that enemy fighter equal to twice the number of friendly fighters within 3\" of that enemy fighter.",
+        "description": "Choose an enemy fighter that is visible to this fighter. Allocate a number of damage points to that enemy fighter equal to twice the number of friendly fighters with the Royal Beastflayers runemark within 3\" of them.",
         "runemarks": [
             "hero"
         ]
@@ -5250,7 +5250,7 @@
         "name": "Translocation",
         "warband": "Stormcast Eternals Questor Soulsworn",
         "cost": "quad",
-        "description": "Pick a friendly fighter within 3\" of this fighter.  Remove that fighter from the battlefield and then immediately set them up anywhere on the battlefield more than 4\" from all enemy fighters.",
+        "description": "Choose a friendly fighter with a Stormcast Eternals runemark within 3\" of this fighter. Remove that fighter from the battlefield and then immediately set them up anywhere on the battlefield more than 4\" from all enemy fighters.",
         "runemarks": [
             "priest"
         ]
@@ -7425,7 +7425,7 @@
         "name": "Rampage",
         "warband": "universal",
         "cost": "quad",
-        "description": "This fighter can make a bonus move action. Then, they can make a bonus attack action.",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability. Then, they can make a bonus attack action.",
         "runemarks": []
     },
     {
