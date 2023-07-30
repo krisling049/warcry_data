@@ -5576,7 +5576,9 @@
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
         "cost": "quad",
         "description": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter.",
-        "runemarks": []
+        "runemarks": [
+            "elite"
+        ]
     },
     {
         "_id": "6908dc7d",
