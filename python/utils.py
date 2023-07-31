@@ -1,13 +1,10 @@
 """
 Utility functions and script for data manipulation and management
 """
-import json
-
 from data_parsing import FighterJSONPayload, AbilityJSONPayload, Fighter, Ability, DataPayload
 from pathlib import Path
 from typing import List, Dict
 import uuid
-import urllib.request
 
 
 def cheapest_fighters(fighter_data: List[Dict]) -> Dict:
@@ -56,6 +53,8 @@ if __name__ == '__main__':
         src_file=Path(Path(__file__).parent.parent, 'data', 'abilities.json'),
         schema=Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_ability_schema.json')
     )
+
+    new_data = list()
 
     # Do stuff with data, add it to new_data
 
