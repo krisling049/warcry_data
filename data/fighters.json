@@ -13456,6 +13456,31 @@
         "wounds": 28
     },
     {
+        "_id": "463478bd",
+        "bladeborn": "The Crimson Court",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Vellas Von Faine",
+        "points": 105,
+        "runemarks": [
+            "terrifying"
+        ],
+        "toughness": 4,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "wounds": 16
+    },
+    {
         "_id": "212b60f9",
         "bladeborn": "The Crimson Court",
         "grand_alliance": "death",
@@ -13476,31 +13501,6 @@
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "mace",
-                "strength": 3
-            }
-        ],
-        "wounds": 16
-    },
-    {
-        "_id": "463478bd",
-        "bladeborn": "The Crimson Court",
-        "grand_alliance": "death",
-        "movement": 5,
-        "name": "Vellas Von Faine",
-        "points": 105,
-        "runemarks": [
-            "terrifying"
-        ],
-        "toughness": 4,
-        "warband": "Soulblight Gravelords",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
                 "strength": 3
             }
         ],
