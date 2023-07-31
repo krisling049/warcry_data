@@ -1,10 +1,9 @@
 from pathlib import Path
 import json
 from typing import List, Dict, Tuple
-from itertools import product, combinations_with_replacement
+from itertools import combinations_with_replacement
 import jsonschema
 import pandas as pd
-import datetime
 
 
 def sort_data(data_to_sort: List[Dict]) -> List[Dict]:
@@ -58,13 +57,42 @@ class FighterDataPayload(DataPayload):
 
 
 class FighterJSONPayload(FighterDataPayload):
+    def __init__(self, src_file: Path, schema: Path, src_format: str = None):
+        super().__init__(src_file, schema, src_format)
+        self.max_values, self.min_values = self._get_extreme_values()
+        self.fighters = [Fighter(x) for x in self.data]
 
     def load_data(self) -> List[Dict]:
         # We treat the fighters.json file as our source of truth so this is the one we load
         with open(self.src_file, 'r') as f:
-            data = json.load(f)
-
+            data = json.load(f)                 # type: List[Dict]
         return data
+
+    def _get_extreme_values(self) -> Tuple[Dict[str, int], Dict[str, int]]:
+        max_values = dict()
+        min_values = dict()
+
+        def update_values(key: str, value: int):
+            if key not in max_values.keys():
+                max_values[key] = value
+            else:
+                max_values[key] = value if value > max_values[key] else max_values[key]
+            if key not in min_values.keys():
+                min_values[key] = value
+            else:
+                min_values[key] = value if value < min_values[key] else min_values[key]
+
+        for fighter in self.data:
+            for k, v in fighter.items():
+                if isinstance(v, int):
+                    update_values(k, v)
+                if isinstance(v, list) and all([isinstance(x, dict) for x in v]):
+                    for d in v:
+                        for k2, v2 in d.items():
+                            if isinstance(v2, int):
+                                update_values(k2, v2)
+
+        return max_values, min_values
 
     def write_aggregate_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
         self.validate_data()
@@ -123,10 +151,58 @@ class FighterJSONPayload(FighterDataPayload):
         self.write_spreadsheet()
 
 
+class Weapon:
+    def __init__(self, w_dict: dict):
+        self.attacks = w_dict['attacks']                                                        # type: int
+        self.dmg_crit = w_dict['dmg_crit']                                                      # type: int
+        self.dmg_hit = w_dict['dmg_hit']                                                        # type: int
+        self.max_range = w_dict['max_range']                                                    # type: int
+        self.min_range = w_dict['min_range']                                                    # type: int
+        self.runemark = w_dict['runemark']                                                      # type: str
+        self.strength = w_dict['strength']                                                      # type: int
+        self.dmg_rolls = self.damage_rolls()                                                    # type: List[Tuple[int]]
+        self.avg_dmg_vs_lower, self.avg_dmg_vs_same, self.avg_dmg_vs_higher = self.avg_dmgs()   # type: float
+
+    def __repr__(self):
+        return self.runemark
+
+    def damage_rolls(self) -> List[Tuple[int]]:
+        rolls = [x for x in combinations_with_replacement(range(1, 7), self.attacks)]
+        return rolls
+
+    def avg_dmgs(self) -> float:
+        for i in [3, 4, 5]:
+            to_hit = i
+            total_rolls = 0
+            damages = list()
+
+            for pr in self.dmg_rolls:
+                total_rolls = total_rolls + 1
+                damage = 0
+                for dice in pr:
+                    if dice in range(to_hit, 6):
+                        damage = damage + self.dmg_hit
+                    if dice >= 6:
+                        damage = damage + self.dmg_crit
+                damages.append(damage)
+
+            avg = sum(damages) / len(damages)
+            yield avg
+
+
 class Fighter:
-    def __init__(self, fighter_dict: dict):
-        for key, value in fighter_dict.items():
-            self.__setattr__(key, value)
+    def __init__(self, profile: dict):
+        self._id = profile['_id']                                   # type: str
+        self.bladeborn = profile['bladeborn']                       # type: str
+        self.grand_alliance = profile['grand_alliance']             # type: str
+        self.movement = profile['movement']                         # type: int
+        self.name = profile['name']                                 # type: str
+        self.point = profile['points']                              # type: int
+        self.runemarks = profile['runemarks']                       # type: List[str]
+        self.toughness = profile['toughness']                       # type: int
+        self.warband = profile['warband']                           # type: str
+        self.weapons = [Weapon(x) for x in profile['weapons']]      # type: List[Weapon]
+        self.wounds = profile['wounds']                             # type: int
 
     def __repr__(self):
         return self.name
@@ -181,7 +257,7 @@ class Fighter:
 
     def has_str(self, s: int) -> bool:
         for wep in self.weapons:
-            if wep['strength'] >= s:
+            if wep.strength >= s:
                 return True
         return False
 
@@ -226,8 +302,12 @@ class AbilityJSONPayload(AbilityDataPayload):
 
 class Ability:
     def __init__(self, ability_dict: dict):
-        for key, value in ability_dict.items():
-            self.__setattr__(key, value)
+        self._id = ability_dict['_id']                      # type: str
+        self.name = ability_dict['name']                    # type: str
+        self.warband = ability_dict['warband']              # type: str
+        self.cost = ability_dict['cost']                    # type: str
+        self.description = ability_dict['description']      # type: str
+        self.runemarks = ability_dict['runemarks']          # type: List[str]
 
     def __repr__(self):
         return self.name

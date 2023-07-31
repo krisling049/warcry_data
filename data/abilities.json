@@ -1021,17 +1021,6 @@
         "runemarks": []
     },
     {
-        "_id": "98ece5ab",
-        "name": "Daughters of the First Temple",
-        "warband": "Daughters of Khaine",
-        "cost": "double",
-        "description": "Pick another visible friendly fighter with teh Morgwaeth's blade-Coven runemark within 3\" of this fighter. That fighter can make a bonus attack action.",
-        "runemarks": [
-            "morgwaeth's blade coven",
-            "hero"
-        ]
-    },
-    {
         "_id": "1d8101c7",
         "name": "Killing Stroke",
         "warband": "Daughters of Khaine",
@@ -1540,16 +1529,6 @@
         "runemarks": [
             "hero",
             "mystic"
-        ]
-    },
-    {
-        "_id": "3382fbfd",
-        "name": "The Chosen Kin",
-        "warband": "Fyreslayers",
-        "cost": "double",
-        "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Fjul-Grimnir.  Until the end of this fighter's activation, add 2 to the Attacks characteristic of attack actions made by this fighter that have the Axe runemark.",
-        "runemarks": [
-            "chosen axes"
         ]
     },
     {
@@ -3798,7 +3777,7 @@
         "name": "Daughters of the First Temple",
         "warband": "Morgwaeth's Blade-Coven",
         "cost": "double",
-        "description": "Pick another visible friendly fighter with teh Morgwaeth's blade-Coven runemark within 3\" of this fighter. That fighter can make a bonus attack action.",
+        "description": "Pick another visible friendly fighter with the Morgwaeth's blade-Coven runemark within 3\" of this fighter. That fighter can make a bonus attack action.",
         "runemarks": [
             "hero"
         ]
@@ -4409,17 +4388,6 @@
         "runemarks": []
     },
     {
-        "_id": "fa891e0e",
-        "name": "Chameleon Ambush",
-        "warband": "Seraphon",
-        "cost": "double",
-        "description": "This fighter can use this ability only if there are no visible enemy fighters within 12\" of this fighter.  This fighter makes a bonus move action.",
-        "runemarks": [
-            "starblood stalkers",
-            "scout"
-        ]
-    },
-    {
         "_id": "7e0c051b",
         "name": "Cold-blooded Commander",
         "warband": "Seraphon",
@@ -4479,17 +4447,6 @@
         "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to that fighter.",
         "runemarks": [
             "destroyer"
-        ]
-    },
-    {
-        "_id": "da1dd1e6",
-        "name": "Imbue with Azyrite Energy",
-        "warband": "Seraphon",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add 1 to the Move and Toughness characteristics of friendly fighters while they are within 9\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "starblood stalkers"
         ]
     },
     {
@@ -4864,39 +4821,6 @@
         ]
     },
     {
-        "_id": "43139422",
-        "name": "Crackling Arcs",
-        "warband": "Soulblight Gravelords",
-        "cost": "double",
-        "description": "Roll a number of dice equal to the value of this ability.  For each roll of 5+, pick a visible enemy fighter within 3\" of this fighter.  Allocate 1 damage point to that fighter for each friendly fighter with this ability's runemarks within 3\" of that fighter.",
-        "runemarks": [
-            "exiled dead",
-            "frenzied"
-        ]
-    },
-    {
-        "_id": "7442c30c",
-        "name": "Dread Puppetry",
-        "warband": "Soulblight Gravelords",
-        "cost": "double",
-        "description": "Pick a friendly fighter with both the Exiled Dead and Bulwark runemarks and has not activated yet this battle round.  you can activate that fighter immediately after this fighter's activation ends.",
-        "runemarks": [
-            "exiled dead",
-            "sentience"
-        ]
-    },
-    {
-        "_id": "235d62bf",
-        "name": "Fiendish Lure",
-        "warband": "Soulblight Gravelords",
-        "cost": "double",
-        "description": "Until the end of the battle round, add 1 to the damage points allocated by each critical hit from attack actions made by friendly fighters that target an enemy fighter within 6\" of this fighter.",
-        "runemarks": [
-            "crimson court",
-            "hero"
-        ]
-    },
-    {
         "_id": "cf6468c5",
         "name": "Necrotic Siphon",
         "warband": "Soulblight Gravelords",
@@ -4915,16 +4839,6 @@
         "description": "A fighter can only use this ability if they are within 6\" of a visible friendly fighter with the Soulblight Gravelords faction runemark and the Hero runemark. This fighter can make a bonus move action up to a number of inches equal to the value of this ability.",
         "runemarks": [
             "minion"
-        ]
-    },
-    {
-        "_id": "243cf0a5",
-        "name": "The Thrill of the Hunt",
-        "warband": "Soulblight Gravelords",
-        "cost": "double",
-        "description": "If the next attack action made by this fighter this activation targets an enemy fighter with any damage points allocated to them, add 2 to the Attacks and Strength characteristics of that attack action.",
-        "runemarks": [
-            "crimson court"
         ]
     },
     {
@@ -4956,27 +4870,6 @@
         "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points equal to the value of this ability to that fighter.",
         "runemarks": [
             "mount"
-        ]
-    },
-    {
-        "_id": "21e1790c",
-        "name": "Dynamic Enhancer",
-        "warband": "Soulblight Gravelords",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add 1 to the Attack characteristic of attack actions with a Range characteristic of 3 or less made by visible friendly fighters with both the Exiled Dead and Frienzied runemarks while they are within 9\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "exiled dead"
-        ]
-    },
-    {
-        "_id": "f1a69fd6",
-        "name": "Frightening Charge",
-        "warband": "Soulblight Gravelords",
-        "cost": "triple",
-        "description": "A fighter can use this ability only if there is a visible enemy fighter within 6\" of them.  This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
-        "runemarks": [
-            "sepulchral guard"
         ]
     },
     {
@@ -5018,39 +4911,6 @@
         "runemarks": [
             "hero",
             "mystic"
-        ]
-    },
-    {
-        "_id": "d02db365",
-        "name": "Sleepless Sentinel",
-        "warband": "Soulblight Gravelords",
-        "cost": "double",
-        "description": "Until the end of the battle round, friendly fighters with both the Sons of Velmorn runemark and the Hero runemark cannot be targeted while  they are within 1\" of this fighter.",
-        "runemarks": [
-            "sons of velmorn",
-            "champion"
-        ]
-    },
-    {
-        "_id": "9aa5e9d2",
-        "name": "Deadly Command",
-        "warband": "Soulblight Gravelords",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by visible friendly fighters with both the Sons of Velmorn runemark and the Minion runemark while they are within 8\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "sons of velmorn"
-        ]
-    },
-    {
-        "_id": "47185e2d",
-        "name": "Sibling Rivalry",
-        "warband": "Soulblight Gravelords",
-        "cost": "double",
-        "description": "A fighter can only use this ability if another friendly fighter with both the Sons of Velmorn runemark and the Minion runemark has made an attack action in this battle round.  until the end of this fighter's activation, add 2 to the Attacks characteristic of melee attack actions made by this fighter.",
-        "runemarks": [
-            "sons of velmorn",
-            "minion"
         ]
     },
     {
@@ -6090,7 +5950,7 @@
         "name": "The Chosen Kin",
         "warband": "The Chosen Axes",
         "cost": "double",
-        "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Fjul-Grimnir.  Until the end of this fighter's activation, add 2 to the Attacks characteristic of attack actions made by this fighter that have the Axe runemark.",
+        "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Fjul-Grimnir. Until the end of this fighter's activation, add 2 to the Attacks characteristic of attack actions made by this fighter that have the Axe runemark.",
         "runemarks": []
     },
     {
@@ -6124,7 +5984,7 @@
         "name": "Crackling Arcs",
         "warband": "The Exiled Dead",
         "cost": "double",
-        "description": "Roll a number of dice equal to the value of this ability.  For each roll of 5+, pick a visible enemy fighter within 3\" of this fighter.  Allocate 1 damage point to that fighter for each friendly fighter with this ability's runemarks within 3\" of that fighter.",
+        "description": "Roll a number of dice equal to the value of this ability. For each roll of 5+, pick a visible enemy fighter within 3\" of this fighter.  Allocate 1 damage point to that fighter for each friendly fighter with this ability's runemarks within 3\" of that fighter.",
         "runemarks": [
             "frenzied"
         ]
@@ -6420,7 +6280,7 @@
         "name": "Frightening Charge",
         "warband": "The Sepulchral Guard",
         "cost": "triple",
-        "description": "A fighter can use this ability only if there is a visible enemy fighter within 6\" of them.  This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
+        "description": "A fighter can use this ability only if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
         "runemarks": []
     },
     {
@@ -6428,7 +6288,7 @@
         "name": "Chameleon Ambush",
         "warband": "The Starblood Stalkers",
         "cost": "double",
-        "description": "This fighter can use this ability only if there are no visible enemy fighters within 12\" of this fighter.  This fighter makes a bonus move action.",
+        "description": "This fighter can use this ability only if there are no visible enemy fighters within 12\" of this fighter. This fighter makes a bonus move action.",
         "runemarks": [
             "scout"
         ]
@@ -7417,7 +7277,7 @@
         "cost": "triple",
         "description": "Pick a visible friendly fighter within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends.",
         "runemarks": [
-            "Hero"
+            "hero"
         ]
     },
     {
