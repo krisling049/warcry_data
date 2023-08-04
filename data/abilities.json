@@ -1612,7 +1612,7 @@
     },
     {
         "_id": "a659404f",
-        "name": "Decapacitating Strike",
+        "name": "Decapitating Strike",
         "warband": "Garrek's Reavers",
         "cost": "double",
         "description": "Add half the value of this ability (rounding up) to the number of damage points allocated by each critical hit from the next attack action made by this fighter this activation that has a Range characteristic of 3 or less.",
@@ -1627,16 +1627,6 @@
         "cost": "double",
         "description": "Add half the value of this ability (rounding up) to the Move characteristic of this fighter for the next move action they make this activation.",
         "runemarks": []
-    },
-    {
-        "_id": "9459ef33",
-        "name": "Decapitating Strike",
-        "warband": "Garrek's Reavers",
-        "cost": "double",
-        "description": "Add half the value of this ability (rounding up) to the number of damage points allocated by each critical hit from the next attack action made by this fighter this activation that has a Range characteristic of 3 or less.",
-        "runemarks": [
-            "hero"
-        ]
     },
     {
         "_id": "17f594a0",
@@ -5446,7 +5436,9 @@
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
         "cost": "quad",
         "description": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter.",
-        "runemarks": []
+        "runemarks": [
+            "elite"
+        ]
     },
     {
         "_id": "6908dc7d",
