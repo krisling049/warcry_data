@@ -197,12 +197,13 @@ class Fighter:
         self.grand_alliance = profile['grand_alliance']             # type: str
         self.movement = profile['movement']                         # type: int
         self.name = profile['name']                                 # type: str
-        self.point = profile['points']                              # type: int
+        self.points = profile['points']                             # type: int
         self.runemarks = profile['runemarks']                       # type: List[str]
         self.toughness = profile['toughness']                       # type: int
         self.warband = profile['warband']                           # type: str
         self.weapons = [Weapon(x) for x in profile['weapons']]      # type: List[Weapon]
         self.wounds = profile['wounds']                             # type: int
+        self.abilities = list()                                     # type: List[Ability]
 
     def __repr__(self):
         return self.name

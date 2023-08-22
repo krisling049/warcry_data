@@ -58,5 +58,5 @@ if __name__ == '__main__':
 
     # Do stuff with data, add it to new_data
 
-    # export_files([fighter_data_payload, ability_data_payload])
+    export_files([fighter_data_payload, ability_data_payload])
 
