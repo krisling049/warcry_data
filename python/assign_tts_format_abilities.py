@@ -7,7 +7,7 @@ from typing import List, Dict
 def assign_abilities(fighters: List[Dict], abilities: List[Dict]) -> List[Dict]:
 
     for a in abilities:
-        faction_match = [x for x in fighters if x['warband'] == a['warband']]
+        faction_match = [x for x in fighters if x['warband'] == a['warband'] or x['bladeborn'] == a['warband']]
         for f in faction_match:
             if set(a['runemarks']).issubset(set(f['runemarks'])):
                 f['abilities'].append(a)
@@ -21,7 +21,7 @@ def convert_ability_format(fighter: Dict):
         if a['warband'] == 'universal':
             continue
         new_abilities.append(f'{a["cost"].capitalize()} - {a["name"]}')
-    fighter['abilities'] = new_abilities
+    fighter['abilities'] = sorted(new_abilities)
     return fighter
 
 
