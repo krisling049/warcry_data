@@ -57,7 +57,12 @@ class FighterDataPayload(DataPayload):
 
 
 class FighterJSONPayload(FighterDataPayload):
-    def __init__(self, src_file: Path, schema: Path, src_format: str = None):
+    def __init__(
+            self,
+            src_file: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json'),
+            schema: Path = Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_fighter_schema.json'),
+            src_format: str = None
+    ):
         super().__init__(src_file, schema, src_format)
         self.max_values, self.min_values = self._get_extreme_values()
         self.fighters = [Fighter(x) for x in self.data]
@@ -276,6 +281,13 @@ class AbilityDataPayload(DataPayload):
 
 
 class AbilityJSONPayload(AbilityDataPayload):
+
+    def __init__(
+            self,
+            src_file: Path = Path(Path(__file__).parent.parent, 'data', 'abilities.json'),
+            schema: Path = Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_ability_schema.json')
+    ):
+        super().__init__(src_file, schema)
 
     def load_data(self) -> List[Dict]:
         # We treat the abilities.json file as our source of truth so this is the one we load
