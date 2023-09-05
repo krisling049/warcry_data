@@ -4236,6 +4236,123 @@
         "wounds": 25
     },
     {
+        "_id": "dfc42316",
+        "bladeborn": "Ephilim's Pandaemonium",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Ephilim The Unknowable",
+        "points": 1,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 1,
+        "warband": "Disciples of Tzeentch: Daemons",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "76510ed7",
+        "bladeborn": "Ephilim's Pandaemonium",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Spawnmaw",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Disciples of Tzeentch: Daemons",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "0cb83e11",
+        "bladeborn": "Ephilim's Pandaemonium",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Kindlefinger",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Disciples of Tzeentch: Daemons",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "d8da0969",
+        "bladeborn": "Ephilim's Pandaemonium",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Flamespooler",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Disciples of Tzeentch: Daemons",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "61958b24",
+        "bladeborn": "Ephilim's Pandaemonium",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Apo'trax, the Starefysh",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Disciples of Tzeentch: Daemons",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
         "_id": "4ef0a642",
         "bladeborn": "",
         "grand_alliance": "chaos",
@@ -7976,6 +8093,146 @@
             }
         ],
         "wounds": 35
+    },
+    {
+        "_id": "c78e134b",
+        "bladeborn": "Skabbik's Plaguepack",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Skabbik Plagueseeker",
+        "points": 1,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 1,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "8d15f83e",
+        "bladeborn": "Skabbik's Plaguepack",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Rabidius Skench",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "c9eba256",
+        "bladeborn": "Skabbik's Plaguepack",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Itchitt",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "fad4fd48",
+        "bladeborn": "Skabbik's Plaguepack",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Poxlix",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "cb061958",
+        "bladeborn": "Skabbik's Plaguepack",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Rikkit",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "26afa1a8",
+        "bladeborn": "Skabbik's Plaguepack",
+        "grand_alliance": "chaos",
+        "movement": 1,
+        "name": "Skritter",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
     },
     {
         "_id": "c7d98639",
@@ -11987,6 +12244,100 @@
             }
         ],
         "wounds": 28
+    },
+    {
+        "_id": "1e81b270",
+        "bladeborn": "The Headsmen's Curse",
+        "grand_alliance": "death",
+        "movement": 1,
+        "name": "Wielder of the Blade",
+        "points": 1,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 1,
+        "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "72d7f991",
+        "bladeborn": "The Headsmen's Curse",
+        "grand_alliance": "death",
+        "movement": 1,
+        "name": "Bearer of the Block",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "5fe9e5ac",
+        "bladeborn": "The Headsmen's Curse",
+        "grand_alliance": "death",
+        "movement": 1,
+        "name": "Scriptor of the Sentence",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "46469a66",
+        "bladeborn": "The Headsmen's Curse",
+        "grand_alliance": "death",
+        "movement": 1,
+        "name": "Sharpener of the Blade",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
     },
     {
         "_id": "85729664",
@@ -26792,6 +27143,77 @@
         "wounds": 30
     },
     {
+        "_id": "ac8f1a28",
+        "bladeborn": "Domitan’s Stormcoven",
+        "grand_alliance": "order",
+        "movement": 1,
+        "name": "Domitan, Eye of the Storm",
+        "points": 1,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 1,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "2ed0ed36",
+        "bladeborn": "Domitan’s Stormcoven",
+        "grand_alliance": "order",
+        "movement": 1,
+        "name": "Sarpon, the Cyclone",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
+        "_id": "ed6a5c53",
+        "bladeborn": "Domitan’s Stormcoven",
+        "grand_alliance": "order",
+        "movement": 1,
+        "name": "Leona Stratosi",
+        "points": 1,
+        "runemarks": [],
+        "toughness": 1,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 1
+    },
+    {
         "_id": "b0072259",
         "bladeborn": "Xandire's Truthseekers",
         "grand_alliance": "order",
@@ -29673,427 +30095,5 @@
             }
         ],
         "wounds": 45
-    },
-        {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Ephilim's Pandaemonium",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Ephilim The Unknowable",
-        "points": 1,
-        "runemarks": [
-            "hero"
-        ],
-        "toughness": 1,
-        "warband": "Disciples of Tzeentch: Daemons",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Ephilim's Pandaemonium",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Spawnmaw",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Disciples of Tzeentch: Daemons",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Ephilim's Pandaemonium",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Kindlefinger",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Disciples of Tzeentch: Daemons",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Ephilim's Pandaemonium",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Flamespooler",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Disciples of Tzeentch: Daemons",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Ephilim's Pandaemonium",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Apo'trax, the Starefysh",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Disciples of Tzeentch: Daemons",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Domitan’s Stormcoven",
-        "grand_alliance": "order",
-        "movement": 1,
-        "name": "Domitan, Eye of the Storm",
-        "points": 1,
-        "runemarks": [
-            "hero"
-        ],
-        "toughness": 1,
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Domitan’s Stormcoven",
-        "grand_alliance": "order",
-        "movement": 1,
-        "name": "Sarpon, the Cyclone",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Domitan’s Stormcoven",
-        "grand_alliance": "order",
-        "movement": 1,
-        "name": "Leona Stratosi",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Skabbik's Plaguepack",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Skabbik Plagueseeker",
-        "points": 1,
-        "runemarks": [
-            "hero"
-        ],
-        "toughness": 1,
-        "warband": "Skaven",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Skabbik's Plaguepack",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Rabidius Skench",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Skaven",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Skabbik's Plaguepack",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Itchitt",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Skaven",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Skabbik's Plaguepack",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Poxlix",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Skaven",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Skabbik's Plaguepack",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Rikkit",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Skaven",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "Skabbik's Plaguepack",
-        "grand_alliance": "chaos",
-        "movement": 1,
-        "name": "Skritter",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Skaven",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "The Headsmen's Curse",
-        "grand_alliance": "death",
-        "movement": 1,
-        "name": "Wielder of the Blade",
-        "points": 1,
-        "runemarks": [
-            "hero"
-        ],
-        "toughness": 1,
-        "warband": "Nighthaunt",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "The Headsmen's Curse",
-        "grand_alliance": "death",
-        "movement": 1,
-        "name": "Bearer of the Block",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Nighthaunt",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "The Headsmen's Curse",
-        "grand_alliance": "death",
-        "movement": 1,
-        "name": "Scriptor of the Sentence",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Nighthaunt",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
-    },
-    {
-        "_id": "PLACEHOLDER",
-        "bladeborn": "The Headsmen's Curse",
-        "grand_alliance": "death",
-        "movement": 1,
-        "name": "Sharpener of the Blade",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
-        "warband": "Nighthaunt",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 1
     }
 ]
