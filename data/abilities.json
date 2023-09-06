@@ -4758,36 +4758,6 @@
         "runemarks": []
     },
     {
-        "_id": "d02db365",
-        "name": "Sleepless Sentinel",
-        "warband": "Sons of Velmorn",
-        "cost": "double",
-        "description": "Until the end of the battle round, friendly fighters with both the Sons of Velmorn runemark and the Hero runemark cannot be targeted while  they are within 1\" of this fighter.",
-        "runemarks": [
-            "champion"
-        ]
-    },
-    {
-        "_id": "9aa5e9d2",
-        "name": "Deadly Command",
-        "warband": "Sons of Velmorn",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by visible friendly fighters with both the Sons of Velmorn runemark and the Minion runemark while they are within 8\" of this fighter.",
-        "runemarks": [
-            "hero"
-        ]
-    },
-    {
-        "_id": "47185e2d",
-        "name": "Sibling Rivalry",
-        "warband": "Sons of Velmorn",
-        "cost": "double",
-        "description": "A fighter can only use this ability if another friendly fighter with both the Sons of Velmorn runemark and the Minion runemark has made an attack action in this battle round.  until the end of this fighter's activation, add 2 to the Attacks characteristic of melee attack actions made by this fighter.",
-        "runemarks": [
-            "minion"
-        ]
-    },
-    {
         "_id": "bce2a409",
         "name": "Beheading Strike",
         "warband": "Soulblight Gravelords",
@@ -6272,6 +6242,36 @@
         "cost": "triple",
         "description": "A fighter can use this ability only if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
         "runemarks": []
+    },
+    {
+        "_id": "d02db365",
+        "name": "Sleepless Sentinel",
+        "warband": "The Sons of Velmorn",
+        "cost": "double",
+        "description": "Until the end of the battle round, friendly fighters with both the The Sons of Velmorn runemark and the Hero runemark cannot be targeted while  they are within 1\" of this fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "9aa5e9d2",
+        "name": "Deadly Command",
+        "warband": "The Sons of Velmorn",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by visible friendly fighters with both the The Sons of Velmorn runemark and the Minion runemark while they are within 8\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "47185e2d",
+        "name": "Sibling Rivalry",
+        "warband": "The Sons of Velmorn",
+        "cost": "double",
+        "description": "A fighter can only use this ability if another friendly fighter with both the The Sons of Velmorn runemark and the Minion runemark has made an attack action in this battle round.  until the end of this fighter's activation, add 2 to the Attacks characteristic of melee attack actions made by this fighter.",
+        "runemarks": [
+            "minion"
+        ]
     },
     {
         "_id": "fa891e0e",
