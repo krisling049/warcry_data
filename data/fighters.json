@@ -13458,6 +13458,132 @@
         "wounds": 28
     },
     {
+        "_id": "fd34051b",
+        "bladeborn": "Sons of Velmorn",
+        "grand_alliance": "death",
+        "movement": 3,
+        "name": "Helmwar the Hewer",
+        "points": 60,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "f8b3dcac",
+        "bladeborn": "Sons of Velmorn",
+        "grand_alliance": "death",
+        "movement": 3,
+        "name": "Marshal Faulk Velmorn",
+        "points": 65,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "e018ee9c",
+        "bladeborn": "Sons of Velmorn",
+        "grand_alliance": "death",
+        "movement": 3,
+        "name": "Thain Fourth-and-Last",
+        "points": 70,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "60313159",
+        "bladeborn": "Sons of Velmorn",
+        "grand_alliance": "death",
+        "movement": 3,
+        "name": "Sir Jedran Falseborn",
+        "points": 150,
+        "runemarks": [
+            "champion"
+        ],
+        "toughness": 5,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "wounds": 30
+    },
+    {
+        "_id": "f7fdf3c0",
+        "bladeborn": "Sons of Velmorn",
+        "grand_alliance": "death",
+        "movement": 3,
+        "name": "King Morlak Velmorn",
+        "points": 160,
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "toughness": 5,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
         "_id": "463478bd",
         "bladeborn": "The Crimson Court",
         "grand_alliance": "death",
@@ -13892,132 +14018,6 @@
             }
         ],
         "wounds": 18
-    },
-    {
-        "_id": "fd34051b",
-        "bladeborn": "The Sons of Velmorn",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "Helmwar the Hewer",
-        "points": 60,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 4,
-        "warband": "Soulblight Gravelords",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 5
-            }
-        ],
-        "wounds": 10
-    },
-    {
-        "_id": "f8b3dcac",
-        "bladeborn": "The Sons of Velmorn",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "Marshal Faulk Velmorn",
-        "points": 65,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 4,
-        "warband": "Soulblight Gravelords",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
-        "wounds": 10
-    },
-    {
-        "_id": "e018ee9c",
-        "bladeborn": "The Sons of Velmorn",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "Thain Fourth-and-Last",
-        "points": 70,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 3,
-        "warband": "Soulblight Gravelords",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 5
-            }
-        ],
-        "wounds": 10
-    },
-    {
-        "_id": "60313159",
-        "bladeborn": "The Sons of Velmorn",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "Sir Jedran Falseborn",
-        "points": 150,
-        "runemarks": [
-            "champion"
-        ],
-        "toughness": 5,
-        "warband": "Soulblight Gravelords",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 5
-            }
-        ],
-        "wounds": 30
-    },
-    {
-        "_id": "f7fdf3c0",
-        "bladeborn": "The Sons of Velmorn",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "King Morlak Velmorn",
-        "points": 160,
-        "runemarks": [
-            "hero",
-            "berserker"
-        ],
-        "toughness": 5,
-        "warband": "Soulblight Gravelords",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            }
-        ],
-        "wounds": 25
     },
     {
         "_id": "58c57168",
