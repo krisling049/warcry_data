@@ -4239,118 +4239,154 @@
         "_id": "dfc42316",
         "bladeborn": "Ephilim's Pandaemonium",
         "grand_alliance": "chaos",
-        "movement": 1,
+        "movement": 4,
         "name": "Ephilim The Unknowable",
-        "points": 1,
+        "points": 145,
         "runemarks": [
-            "hero"
+            "hero",
+            "mystic"
         ],
-        "toughness": 1,
+        "toughness": 3,
         "warband": "Disciples of Tzeentch: Daemons",
         "weapons": [
             {
-                "attacks": 1,
-                "dmg_crit": 1,
+                "attacks": 3,
+                "dmg_crit": 3,
                 "dmg_hit": 1,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
             }
         ],
-        "wounds": 1
+        "wounds": 18
     },
     {
         "_id": "76510ed7",
         "bladeborn": "Ephilim's Pandaemonium",
         "grand_alliance": "chaos",
-        "movement": 1,
+        "movement": 5,
         "name": "Spawnmaw",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
+        "points": 105,
+        "runemarks": [
+            "beast",
+            "berserker"
+        ],
+        "toughness": 3,
         "warband": "Disciples of Tzeentch: Daemons",
         "weapons": [
             {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
+                "runemark": "fangs",
+                "strength": 4
             }
         ],
-        "wounds": 1
+        "wounds": 12
     },
     {
         "_id": "0cb83e11",
         "bladeborn": "Ephilim's Pandaemonium",
         "grand_alliance": "chaos",
-        "movement": 1,
+        "movement": 4,
         "name": "Kindlefinger",
-        "points": 1,
-        "runemarks": [],
+        "points": 55,
+        "runemarks": [
+            "beast"
+        ],
         "toughness": 1,
         "warband": "Disciples of Tzeentch: Daemons",
         "weapons": [
             {
-                "attacks": 1,
-                "dmg_crit": 1,
+                "attacks": 2,
+                "dmg_crit": 2,
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
+                "runemark": "claws",
+                "strength": 1
+            },
+            {
+                "attacks": 5,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 6,
+                "min_range": 3,
+                "runemark": "blast",
                 "strength": 1
             }
         ],
-        "wounds": 1
+        "wounds": 6
     },
     {
         "_id": "d8da0969",
         "bladeborn": "Ephilim's Pandaemonium",
         "grand_alliance": "chaos",
-        "movement": 1,
+        "movement": 4,
         "name": "Flamespooler",
-        "points": 1,
+        "points": 95,
         "runemarks": [],
-        "toughness": 1,
+        "toughness": 3,
         "warband": "Disciples of Tzeentch: Daemons",
         "weapons": [
             {
-                "attacks": 1,
-                "dmg_crit": 1,
+                "attacks": 3,
+                "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
+                "runemark": "claws",
+                "strength": 2
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 2
             }
         ],
-        "wounds": 1
+        "wounds": 12
     },
     {
         "_id": "61958b24",
         "bladeborn": "Ephilim's Pandaemonium",
         "grand_alliance": "chaos",
-        "movement": 1,
+        "movement": 4,
         "name": "Apo'trax, the Starefysh",
-        "points": 1,
-        "runemarks": [],
-        "toughness": 1,
+        "points": 70,
+        "runemarks": [
+            "beast",
+            "fly"
+        ],
+        "toughness": 3,
         "warband": "Disciples of Tzeentch: Daemons",
         "weapons": [
             {
                 "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
+                "runemark": "claws",
+                "strength": 4
             }
         ],
-        "wounds": 1
+        "wounds": 10
     },
     {
         "_id": "4ef0a642",
