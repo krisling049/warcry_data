@@ -1252,8 +1252,7 @@
         "cost": "double",
         "description": "Pick a visible enemy fighter within 9\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
-            "hero",
-            "mystic"
+            "hero"
         ]
     },
     {
@@ -7348,12 +7347,50 @@
     },
     {
         "_id": "c382b2b8",
-        "name": "Demolishing Rampage:",
+        "name": "Demolishing Rampage",
         "warband": "universal",
         "cost": "quad",
         "description": "Pick a terrain feature within 1\" of this monster. In an order of your choice, place each objective, treasure token and fighter that is on that terrain feature, and on any other terrain feature that is on that terrain feature, on the battlefield floor in a location of your choice as close as possible horizontally to its current location. Then, in an order of your choice, each fighter placed on the battlefield in this manner suffers impact damage. Then, remove the terrain feature(s).",
         "runemarks": [
             "monster"
+        ]
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Hypnotise",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "double",
+        "description": "Pick an enemy fighter within 6\" of this fighter. That enemy fighter makes a move action directly towards this fighter, as if they were jumping, up to a number of inches equal to their Move characteristic.",
+        "runemarks": [
+            "fly"
+        ]
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Sudden Warp-portal",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "double",
+        "description": "Pick another friendly fighter with the Ephilim’s Pandaemonium runemark within 12\" ofthis fighter. Make a note of that fighter’s location, then remove that fighter from the battlefield, and immediately set them up within 3\" of this fighter. Then remove this fighter from the battlefield, and set them up within 3\" of the other friendly fighter’s original location.",
+        "runemarks": []
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Engulfing Bite",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "triple",
+        "description": "Add 2 to the Attacks and Strength characteristics of the next melee attack action made by this fighter in this activation. In addition, add 2 to the damage points allocated to enemy fighters by each critical hit from that attack action.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Summoned Abomination",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "quad",
+        "description": "Pick a friendly fighter with the Ephilim’s Pandaemonium runemark that has been taken down. Set up that fighter on a platform or the battlefield floor, wholly within 3\" of this fighter. That fighter no longer counts as being taken down and has no damage points allocated to it.",
+        "runemarks": [
+            "hero"
         ]
     }
 ]
