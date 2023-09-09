@@ -7392,5 +7392,115 @@
         "runemarks": [
             "hero"
         ]
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Aetherforce",
+        "warband": "Domitan's Stormcoven",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of this fighter and add 2 to the Move characteristic of this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Scouring Blows",
+        "warband": "Domitan's Stormcoven",
+        "cost": "double",
+        "description": "In the next melee attack action made by this fighter, critical hits are scored on a 5+ for that attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Rushing Gales",
+        "warband": "Domitan's Stormcoven",
+        "cost": "triple",
+        "description": "Until the end of the battle round, friendly fighters with the Domitan's Stormcoven runemark can fly when making move actions.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Electrokinetic Blast",
+        "warband": "Domitan's Stormcoven",
+        "cost": "quad",
+        "description": "Pick a point on the battlefield within 12\" of and visible to this fighter, and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate D3 damage points to each enemy fighter within 3\" of that point.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Befoul the Land",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "double",
+        "description": "Pick an objective within 3\" of this fighter or a treasure token within 3\" of this fighter. That treasure token can be one that is being carried by a fighter if that fighter is visible to this fighter. Roll a dice at the end of the battle round for each enemy fighter within 3\" of that objective or treasure token. On a roll of 3+, allocate D3 damage points for the fighter being rolled for. The same objective or treasure token cannot be picked more than once per battle round.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Disgusting Appearance",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of melee attack actions made by enemy fighters that target this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Unctuous Citations",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Skabbik's Plaguepack runemark that is within 7\" of this fighter. This fighter can make a bonus move action or a bonus attack action, and then the fighter you picked can make the same bonus action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Manifestation of a Great Plague",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "quad",
+        "description": "Pick this fighter, or pick a number of objectives visible to this fighter equal to half the value of this ability (rounding up). Allocate a number of damage points equal to the value of this ability to all enemy fighters within 3\" of either this fighter or those objectives.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Swift Judgement",
+        "warband": "The Headsmen's Curse",
+        "cost": "double",
+        "description": "This fighter makes a bonus move action of up to a number of 3 inches equal to the value of this ability and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Sharpen",
+        "warband": "The Headsmen's Curse",
+        "cost": "double",
+        "description": "Pick a friendly fighter with the Hero runemark and The Headsmen’s Curse runemark within 3\" of this fighter. Add 2 to the damage points allocated to enemy fighters by each critical hit from the next melee attack action made by that fighter.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "Hold Them Still",
+        "warband": "The Headsmen's Curse",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 1\" of this fighter. That fighter cannot make disengage actions until the end of the battle round. In addition, subtract the value of this ability from that fighter’s Move characteristic until the end of the battle round (to a minimum of 0).",
+        "runemarks": []
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "name": "The Court Sentences You... To Death!",
+        "warband": "The Headsmen's Curse",
+        "cost": "quad",
+        "description": "This fighter makes a bonus move action. Add x to the Attacks  characteristic of the next melee attack action made by this fighter in this activation and add x to the damage points allocated to enemy fighters by each critical hit from that attack action, where x is the number of friendly fighters with The Headsmen’s Curse runemark within 3\" of the target.",
+        "runemarks": [
+            "hero"
+        ]
     }
 ]
