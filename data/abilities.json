@@ -1252,8 +1252,7 @@
         "cost": "double",
         "description": "Pick a visible enemy fighter within 9\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
-            "hero",
-            "mystic"
+            "hero"
         ]
     },
     {
@@ -1326,6 +1325,42 @@
         ]
     },
     {
+        "_id": "1cbf55e2",
+        "name": "Aetherforce",
+        "warband": "Domitan's Stormcoven",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of this fighter and add 2 to the Move characteristic of this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "4542248b",
+        "name": "Scouring Blows",
+        "warband": "Domitan's Stormcoven",
+        "cost": "double",
+        "description": "In the next melee attack action made by this fighter, critical hits are scored on a 5+ for that attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "edcf7815",
+        "name": "Rushing Gales",
+        "warband": "Domitan's Stormcoven",
+        "cost": "triple",
+        "description": "Until the end of the battle round, friendly fighters with the Domitan's Stormcoven runemark can fly when making move actions.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "fcaf3366",
+        "name": "Electrokinetic Blast",
+        "warband": "Domitan's Stormcoven",
+        "cost": "quad",
+        "description": "Pick a point on the battlefield within 12\" of and visible to this fighter, and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate D3 damage points to each enemy fighter within 3\" of that point.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
         "_id": "efc50c98",
         "name": "Soulnet",
         "warband": "Elathain's Soulraid",
@@ -1343,6 +1378,44 @@
         "description": "This fighter makes a bonus attack action.  After that attack action, the fighter targeted by that attack action makes a bonus move action directly towards this figther, as if they were jumping, a number of inches equal to the value of this ability.",
         "runemarks": [
             "trapper"
+        ]
+    },
+    {
+        "_id": "1adaca07",
+        "name": "Hypnotise",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "double",
+        "description": "Pick an enemy fighter within 6\" of this fighter. That enemy fighter makes a move action directly towards this fighter, as if they were jumping, up to a number of inches equal to their Move characteristic.",
+        "runemarks": [
+            "fly"
+        ]
+    },
+    {
+        "_id": "13d3aa59",
+        "name": "Sudden Warp-portal",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "double",
+        "description": "Pick another friendly fighter with the Ephilim’s Pandaemonium runemark within 12\" ofthis fighter. Make a note of that fighter’s location, then remove that fighter from the battlefield, and immediately set them up within 3\" of this fighter. Then remove this fighter from the battlefield, and set them up within 3\" of the other friendly fighter’s original location.",
+        "runemarks": []
+    },
+    {
+        "_id": "7449a726",
+        "name": "Engulfing Bite",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "triple",
+        "description": "Add 2 to the Attacks and Strength characteristics of the next melee attack action made by this fighter in this activation. In addition, add 2 to the damage points allocated to enemy fighters by each critical hit from that attack action.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "5fad888f",
+        "name": "Summoned Abomination",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "quad",
+        "description": "Pick a friendly fighter with the Ephilim’s Pandaemonium runemark that has been taken down. Set up that fighter on a platform or the battlefield floor, wholly within 3\" of this fighter. That fighter no longer counts as being taken down and has no damage points allocated to it.",
+        "runemarks": [
+            "hero"
         ]
     },
     {
@@ -4496,6 +4569,44 @@
         "runemarks": []
     },
     {
+        "_id": "bb49daff",
+        "name": "Befoul the Land",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "double",
+        "description": "Pick an objective within 3\" of this fighter or a treasure token within 3\" of this fighter. That treasure token can be one that is being carried by a fighter if that fighter is visible to this fighter. Roll a dice at the end of the battle round for each enemy fighter within 3\" of that objective or treasure token. On a roll of 3+, allocate D3 damage points for the fighter being rolled for. The same objective or treasure token cannot be picked more than once per battle round.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "8b4be7d4",
+        "name": "Disgusting Appearance",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of melee attack actions made by enemy fighters that target this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "dc1c6e1b",
+        "name": "Unctuous Citations",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Skabbik's Plaguepack runemark that is within 7\" of this fighter. This fighter can make a bonus move action or a bonus attack action, and then the fighter you picked can make the same bonus action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "9ad3e526",
+        "name": "Manifestation of a Great Plague",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "quad",
+        "description": "Pick this fighter, or pick a number of objectives visible to this fighter equal to half the value of this ability (rounding up). Allocate a number of damage points equal to the value of this ability to all enemy fighters within 3\" of either this fighter or those objectives.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
         "_id": "c29c2e03",
         "name": "Might of Kurnoth",
         "warband": "Skaeth's Wild Hunt",
@@ -6020,6 +6131,42 @@
         ]
     },
     {
+        "_id": "120b6102",
+        "name": "Swift Judgement",
+        "warband": "The Headsmen's Curse",
+        "cost": "double",
+        "description": "This fighter makes a bonus move action of up to a number of 3 inches equal to the value of this ability and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "2223f1bb",
+        "name": "Sharpen",
+        "warband": "The Headsmen's Curse",
+        "cost": "double",
+        "description": "Pick a friendly fighter with the Hero runemark and The Headsmen’s Curse runemark within 3\" of this fighter. Add 2 to the damage points allocated to enemy fighters by each critical hit from the next melee attack action made by that fighter.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "7b5f8cee",
+        "name": "Hold Them Still",
+        "warband": "The Headsmen's Curse",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 1\" of this fighter. That fighter cannot make disengage actions until the end of the battle round. In addition, subtract the value of this ability from that fighter’s Move characteristic until the end of the battle round (to a minimum of 0).",
+        "runemarks": []
+    },
+    {
+        "_id": "525a92c8",
+        "name": "The Court Sentences You... To Death!",
+        "warband": "The Headsmen's Curse",
+        "cost": "quad",
+        "description": "This fighter makes a bonus move action. Add x to the Attacks  characteristic of the next melee attack action made by this fighter in this activation and add x to the damage points allocated to enemy fighters by each critical hit from that attack action, where x is the number of friendly fighters with The Headsmen’s Curse runemark within 3\" of the target.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
         "_id": "cbb45a9d",
         "name": "Forgefire",
         "warband": "The Living City",
@@ -7348,7 +7495,7 @@
     },
     {
         "_id": "c382b2b8",
-        "name": "Demolishing Rampage:",
+        "name": "Demolishing Rampage",
         "warband": "universal",
         "cost": "quad",
         "description": "Pick a terrain feature within 1\" of this monster. In an order of your choice, place each objective, treasure token and fighter that is on that terrain feature, and on any other terrain feature that is on that terrain feature, on the battlefield floor in a location of your choice as close as possible horizontally to its current location. Then, in an order of your choice, each fighter placed on the battlefield in this manner suffers impact damage. Then, remove the terrain feature(s).",

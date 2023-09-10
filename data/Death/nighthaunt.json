@@ -692,6 +692,117 @@
         "wounds": 28
     },
     {
+        "_id": "46469a66",
+        "bladeborn": "The Headsmen's Curse",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Sharpener of the Blade",
+        "points": 80,
+        "runemarks": [
+            "fly",
+            "agile"
+        ],
+        "toughness": 4,
+        "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 6,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 1
+            }
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "5fe9e5ac",
+        "bladeborn": "The Headsmen's Curse",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Scriptor of the Sentence",
+        "points": 115,
+        "runemarks": [
+            "fly"
+        ],
+        "toughness": 4,
+        "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 9,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 14
+    },
+    {
+        "_id": "72d7f991",
+        "bladeborn": "The Headsmen's Curse",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Bearer of the Block",
+        "points": 135,
+        "runemarks": [
+            "fly"
+        ],
+        "toughness": 4,
+        "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 16
+    },
+    {
+        "_id": "1e81b270",
+        "bladeborn": "The Headsmen's Curse",
+        "grand_alliance": "death",
+        "movement": 6,
+        "name": "Wielder of the Blade",
+        "points": 175,
+        "runemarks": [
+            "fly",
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "wounds": 20
+    },
+    {
         "_id": "85729664",
         "bladeborn": "Thorns of the Briar Queen",
         "grand_alliance": "death",
