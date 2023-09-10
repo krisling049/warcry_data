@@ -503,6 +503,111 @@
         "wounds": 30
     },
     {
+        "_id": "2ed0ed36",
+        "bladeborn": "Domitan's Stormcoven",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Sarpon, the Cyclone",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "ac8f1a28",
+        "bladeborn": "Domitan's Stormcoven",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Domitan, Eye of the Storm",
+        "points": 200,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 5
+            }
+        ],
+        "wounds": 30
+    },
+    {
+        "_id": "ed6a5c53",
+        "bladeborn": "Domitan's Stormcoven",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Leona Stratosi",
+        "points": 200,
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 7,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 28
+    },
+    {
         "_id": "b0072259",
         "bladeborn": "Xandire's Truthseekers",
         "grand_alliance": "order",

@@ -153,7 +153,7 @@ class FighterJSONPayload(FighterDataPayload):
     def write_to_disk(self):
         self.write_aggregate_to_disk()
         self.write_warbands_to_disk()
-        self.write_spreadsheet()
+        # self.write_spreadsheet()
 
 
 class Weapon:
