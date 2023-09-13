@@ -6044,7 +6044,9 @@
         "warband": "Tempest's Eye",
         "cost": "reaction",
         "description": "A fighter can make this reaction after an enemy fighter finishes a move action within 3\" of, and visible to, this fighter. Add one wild dice to your saved wild dice.",
-        "runemarks": []
+        "runemarks": [
+            "hero"
+        ]
     },
     {
         "_id": "3382fbfd",
