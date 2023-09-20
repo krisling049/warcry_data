@@ -870,7 +870,9 @@
         "warband": "Cypher Lords",
         "cost": "double",
         "description": "Roll a dice for each visible enemy fighter within 2\" of this fighter. On a roll of 4-5, allocate 1 damage point to the fighter being rolled for. On a roll of 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
-        "runemarks": []
+        "runemarks": [
+            "destroyer"
+        ]
     },
     {
         "_id": "038f12f3",
