@@ -30199,5 +30199,313 @@
             }
         ],
         "wounds": 45
+    },
+    {
+        "_id": "gorger-1",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "name": "TBC Gorger 1",
+        "points": 180,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Gorger Mawtribe",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "wounds": 30
+    },
+    {
+        "_id": "gorger-2",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 0,
+        "name": "TBC Gorger 2",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Gorger Mawtribe",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "gorger-3",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 0,
+        "name": "TBC Gorger 3",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Gorger Mawtribe",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "gorger-4",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 0,
+        "name": "TBC Gorger 4",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Gorger Mawtribe",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "gorger-5",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 0,
+        "name": "TBC Gorger 5",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Gorger Mawtribe",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "windercorps-1",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "TBC Wildercorps 1",
+        "points": 100,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "windercorps-2",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Wildercorps 2",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "windercorps-3",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Wildercorps 3",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "windercorps-4",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Wildercorps 4",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "windercorps-5",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Wildercorps 5",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "windercorps-6",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Wildercorps 6",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "windercorps-7",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Wildercorps 7",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "windercorps-8",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Wildercorps 8",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
     }
 ]
