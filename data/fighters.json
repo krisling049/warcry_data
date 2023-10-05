@@ -30207,7 +30207,9 @@
         "movement": 5,
         "name": "TBC Gorger 1",
         "points": 180,
-        "runemarks": [],
+        "runemarks": [
+            "beast"
+        ],
         "toughness": 3,
         "warband": "Gorger Mawpack",
         "weapons": [
@@ -30322,7 +30324,10 @@
         "movement": 4,
         "name": "TBC Wildercorps 1",
         "points": 100,
-        "runemarks": [],
+        "runemarks": [
+            "champion",
+            "warrior"
+        ],
         "toughness": 3,
         "warband": "Wildercorps Hunters",
         "weapons": [
