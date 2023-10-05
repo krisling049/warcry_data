@@ -1949,6 +1949,62 @@
         ]
     },
     {
+        "_id": "e3ae1ed5",
+        "name": "Rending Bite",
+        "warband": "Gorger Mawpack",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If none of the hit rolls from that attack action result in a critical hit, allocate 6 damage points to the attacking fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "cab60322",
+        "name": "TBC Double",
+        "warband": "Gorger Mawpack",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "6a45bb85",
+        "name": "TBC Double",
+        "warband": "Gorger Mawpack",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "bfae953f",
+        "name": "TBC Double",
+        "warband": "Gorger Mawpack",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "bebbf0d1",
+        "name": "TBC Triple",
+        "warband": "Gorger Mawpack",
+        "cost": "triple",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "2cedb53d",
+        "name": "TBC Triple",
+        "warband": "Gorger Mawpack",
+        "cost": "triple",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "1d3da6e3",
+        "name": "Starving Rampage",
+        "warband": "Gorger Mawpack",
+        "cost": "quad",
+        "description": "Until the end of the battle round, this fighter is considered to have the Beast runemark. If this fighter is carrying treasure, they drop that treasure. This fighter can make 1 bonus melee attack action for each visible enemy fighter within 1\" of them. Each of these attack actions must target a different fighter.",
+        "runemarks": []
+    },
+    {
         "_id": "fbce3d1d",
         "name": "Savage Bolt",
         "warband": "Grashrak's Despoilers",
@@ -6599,6 +6655,65 @@
         "runemarks": []
     },
     {
+        "_id": "ce5ea450",
+        "name": "Smart Step Backwards",
+        "warband": "Wildercorps Hunters",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they have been allocated damage points by a melee attack action. This fighter makes a bonus disengage action.",
+        "runemarks": []
+    },
+    {
+        "_id": "a4350dad",
+        "name": "TBC Double",
+        "warband": "Wildercorps Hunters",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "481d3beb",
+        "name": "TBC Double",
+        "warband": "Wildercorps Hunters",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "29090cad",
+        "name": "TBC Double",
+        "warband": "Wildercorps Hunters",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "071c01f6",
+        "name": "Kill!",
+        "warband": "Wildercorps Hunters",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter. Allocate a number of damage points to that enemy fighter equal to three times the number of friendly fighters with both the Wildercorps Hunters faction runemark and the Beast runemark within 3\" of them.",
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "75157160",
+        "name": "TBC Triple",
+        "warband": "Wildercorps Hunters",
+        "cost": "triple",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "23ad24c1",
+        "name": "TBC Quad",
+        "warband": "Wildercorps Hunters",
+        "cost": "quad",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
         "_id": "b0a0b989",
         "name": "Lantern Astrala",
         "warband": "Xandire's Truthseekers",
@@ -7506,120 +7621,5 @@
         "runemarks": [
             "monster"
         ]
-    },
-    {
-        "_id": "gorger-1",
-        "name": "Rending Bite",
-        "warband": "Gorger Mawpack",
-        "cost": "reaction",
-        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If none of the hit rolls from that attack action result in a critical hit, allocate 6 damage points to the attacking fighter.",
-        "runemarks": []
-    },
-    {
-        "_id": "gorger-2",
-        "name": "TBC Double",
-        "warband": "Gorger Mawpack",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "gorger-3",
-        "name": "TBC Double",
-        "warband": "Gorger Mawpack",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "gorger-4",
-        "name": "TBC Double",
-        "warband": "Gorger Mawpack",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "gorger-5",
-        "name": "TBC Triple",
-        "warband": "Gorger Mawpack",
-        "cost": "triple",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "gorger-6",
-        "name": "TBC Triple",
-        "warband": "Gorger Mawpack",
-        "cost": "triple",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "gorger-7",
-        "name": "Starving Rampage",
-        "warband": "Gorger Mawpack",
-        "cost": "quad",
-        "description": "Until the end of the battle round, this fighter is considered to have the Beast runemark. If this fighter is carrying treasure, they drop that treasure. This fighter can make 1 bonus melee attack action for each visible enemy fighter within 1\" of them. Each of these attack actions must target a different fighter.",
-        "runemarks": []
-    },
-    {
-        "_id": "wildercorps-1",
-        "name": "Smart Step Backwards",
-        "warband": "Wildercorps Hunters",
-        "cost": "reaction",
-        "description": "A fighter can make this reaction after they have been allocated damage points by a melee attack action. This fighter makes a bonus disengage action.",
-        "runemarks": []
-    },
-    {
-        "_id": "wildercorps-2",
-        "name": "TBC Double",
-        "warband": "Wildercorps Hunters",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "wildercorps-3",
-        "name": "TBC Double",
-        "warband": "Wildercorps Hunters",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "wildercorps-4",
-        "name": "TBC Double",
-        "warband": "Wildercorps Hunters",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "wildercorps-5",
-        "name": "Kill!",
-        "warband": "Wildercorps Hunters",
-        "cost": "triple",
-        "description": "Pick a visible enemy fighter. Allocate a number of damage points to that enemy fighter equal to three times the number of friendly fighters with both the Wildercorps Hunters faction runemark and the Beast runemark within 3\" of them.",
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ]
-    },
-    {
-        "_id": "wildercorps-6",
-        "name": "TBC Triple",
-        "warband": "Wildercorps Hunters",
-        "cost": "triple",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "wildercorps-7",
-        "name": "TBC Quad",
-        "warband": "Wildercorps Hunters",
-        "cost": "quad",
-        "description": "TBC.",
-        "runemarks": []
     }
 ]
