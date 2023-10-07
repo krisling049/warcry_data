@@ -1,7 +1,7 @@
 """
 Utility functions and script for data manipulation and management
 """
-from data_parsing import FighterJSONPayload, AbilityJSONPayload, Fighter, Ability, DataPayload
+from data_parsing import FighterJSONPayload, AbilityJSONPayload, Fighter, Ability, DataPayload, Weapon
 from pathlib import Path
 from typing import List, Dict
 import uuid
@@ -40,6 +40,10 @@ def export_files(payloads: List[DataPayload]):
     """
     for p in payloads:
         p.write_to_disk()
+
+
+def by_points(fighter: Fighter) -> int:
+    return fighter.points
 
 
 if __name__ == '__main__':

@@ -3512,6 +3512,64 @@
         "runemarks": []
     },
     {
+        "_id": "2a3d1d3e",
+        "name": "Krule Trap",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "reaction",
+        "description": "After an enemy fighter within 6\" of this fighter ends a move action, roll a dice. On a roll of a 5+, pick one: that enemy fighter cannot make move actions for the rest of the battle round, or allocate 4 damage points to that enemy fighter. Otherwise, allocate 2 damage points to that enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "6a76938e",
+        "name": "TBC Double",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "f54e7999",
+        "name": "TBC Double",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "a65e52e8",
+        "name": "TBC Double",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "fa51972c",
+        "name": "Drum and Holler",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "triple",
+        "description": "Until the end of the battle round, enemy fighters within 6\" of this fighter cannot make reactions.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "77f385b7",
+        "name": "TBC Triple",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "triple",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "91c3121c",
+        "name": "TBC Quad",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "quad",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
         "_id": "45a57d8c",
         "name": "Go Where the Wind Blows",
         "warband": "Lumineth Realm-lords",
@@ -6663,6 +6721,66 @@
         "runemarks": []
     },
     {
+        "_id": "898148e6",
+        "name": "Runic Flare",
+        "warband": "Vulkyn Fyreslayers",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Count up to 2 critical hits from that attack action as hits instead.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "7f6cb9c8",
+        "name": "Kyndlebreath",
+        "warband": "Vulkyn Fyreslayers",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of a 5+, allocate 1 damage point to that fighter and to each other visible enemy fighter within 2\" of that fighter.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "7b080e60",
+        "name": "TBC Double",
+        "warband": "Vulkyn Fyreslayers",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "d854accf",
+        "name": "TBC Double",
+        "warband": "Vulkyn Fyreslayers",
+        "cost": "double",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "5f5f7e4f",
+        "name": "TBC Triple",
+        "warband": "Vulkyn Fyreslayers",
+        "cost": "triple",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "2b449c1f",
+        "name": "TBC Triple",
+        "warband": "Vulkyn Fyreslayers",
+        "cost": "triple",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
+        "_id": "3321a1f9",
+        "name": "TBC Quad",
+        "warband": "Vulkyn Fyreslayers",
+        "cost": "quad",
+        "description": "TBC.",
+        "runemarks": []
+    },
+    {
         "_id": "ce5ea450",
         "name": "Smart Step Backwards",
         "warband": "Wildercorps Hunters",
@@ -7637,123 +7755,5 @@
         "runemarks": [
             "monster"
         ]
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "Runic Flare",
-        "warband": "Vulkyn Fyreslayers",
-        "cost": "reaction",
-        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Count up to 2 critical hits from that attack action as hits instead.",
-        "runemarks": [
-            "elite"
-        ]
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "Kyndlebreath",
-        "warband": "Vulkyn Fyreslayers",
-        "cost": "double",
-        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of a 5+, allocate 1 damage point to that fighter and to each other visible enemy fighter within 2\" of that fighter.",
-        "runemarks": [
-            "beast"
-        ]
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "TBC Double",
-        "warband": "Vulkyn Fyreslayers",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "TBC Double",
-        "warband": "Vulkyn Fyreslayers",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "TBC Triple",
-        "warband": "Vulkyn Fyreslayers",
-        "cost": "triple",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "TBC Triple",
-        "warband": "Vulkyn Fyreslayers",
-        "cost": "triple",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "TBC Quad",
-        "warband": "Vulkyn Fyreslayers",
-        "cost": "quad",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "Krule Trap",
-        "warband": "Kruleboyz Monsta-killaz",
-        "cost": "reaction",
-        "description": "After an enemy fighter within 6\" of this fighter ends a move action, roll a dice. On a roll of a 5+, pick one: that enemy fighter cannot make move actions for the rest of the battle round, or allocate 4 damage points to that enemy fighter. Otherwise, allocate 2 damage points to that enemy fighter.",
-        "runemarks": []
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "TBC Double",
-        "warband": "Kruleboyz Monsta-killaz",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "TBC Double",
-        "warband": "Kruleboyz Monsta-killaz",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "TBC Double",
-        "warband": "Kruleboyz Monsta-killaz",
-        "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "Drum and Holler",
-        "warband": "Kruleboyz Monsta-killaz",
-        "cost": "triple",
-        "description": "Until the end of the battle round, enemy fighters within 6\" of this fighter cannot make reactions.",
-        "runemarks": [
-            "icon-bearer"
-        ]
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "TBC Triple",
-        "warband": "Kruleboyz Monsta-killaz",
-        "cost": "triple",
-        "description": "TBC.",
-        "runemarks": []
-    },
-    {
-        "_id": "XXXXXX",
-        "name": "TBC Quad",
-        "warband": "Kruleboyz Monsta-killaz",
-        "cost": "quad",
-        "description": "TBC.",
-        "runemarks": []
     }
 ]

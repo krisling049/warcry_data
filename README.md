@@ -10,7 +10,11 @@ The repo also contains tools for loading, manipulating and saving the data in da
 Currently, this only exists for python but other languages may be added into their own directories.
 
 ###   Access
-To retrieve data programmatically you can GET https://raw.githubusercontent.com/krisling049/warcry_data/main/data/fighters.json
+To retrieve data programmatically you can GET  
+https://raw.githubusercontent.com/krisling049/warcry_data/main/data/fighters.json  
+or  
+https://raw.githubusercontent.com/krisling049/warcry_data/main/data/fighters.json
+
 
 ###  Acknowledgements
 Huge thanks to the following for their valuable contributions:

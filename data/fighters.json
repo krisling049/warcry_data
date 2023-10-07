@@ -16379,57 +16379,6 @@
         "wounds": 16
     },
     {
-        "_id": "8b4dc952",
-        "bladeborn": "",
-        "grand_alliance": "destruction",
-        "movement": 5,
-        "name": "Clawback",
-        "points": 235,
-        "runemarks": [
-            "hero"
-        ],
-        "toughness": 3,
-        "warband": "Gorger Mawpack",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 5
-            }
-        ],
-        "wounds": 35
-    },
-    {
-        "_id": "2046056e",
-        "bladeborn": "",
-        "grand_alliance": "destruction",
-        "movement": 5,
-        "name": "Cave Howler",
-        "points": 220,
-        "runemarks": [
-            "beast",
-            "berserker"
-        ],
-        "toughness": 3,
-        "warband": "Gorger Mawpack",
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 4
-            }
-        ],
-        "wounds": 30
-    },
-    {
         "_id": "17aa80a6",
         "bladeborn": "",
         "grand_alliance": "destruction",
@@ -16450,6 +16399,31 @@
                 "min_range": 0,
                 "runemark": "club",
                 "strength": 5
+            }
+        ],
+        "wounds": 30
+    },
+    {
+        "_id": "d7c8e406",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "name": "Gorger",
+        "points": 180,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 3,
+        "warband": "Gorger Mawpack",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
             }
         ],
         "wounds": 30
@@ -16481,21 +16455,22 @@
         "wounds": 30
     },
     {
-        "_id": "d7c8e406",
+        "_id": "2046056e",
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 5,
-        "name": "Gorger",
-        "points": 180,
+        "name": "Cave Howler",
+        "points": 220,
         "runemarks": [
-            "beast"
+            "beast",
+            "berserker"
         ],
         "toughness": 3,
         "warband": "Gorger Mawpack",
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 5,
+                "attacks": 5,
+                "dmg_crit": 6,
                 "dmg_hit": 3,
                 "max_range": 1,
                 "min_range": 0,
@@ -16504,6 +16479,31 @@
             }
         ],
         "wounds": 30
+    },
+    {
+        "_id": "8b4dc952",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "name": "Clawback",
+        "points": 235,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 3,
+        "warband": "Gorger Mawpack",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "wounds": 35
     },
     {
         "_id": "11e83c0f",
@@ -23972,6 +23972,202 @@
         "wounds": 18
     },
     {
+        "_id": "3ff6e9f8",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Kruleboyz 2",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Kruleboyz Monsta-killaz",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "3101b10f",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Kruleboyz 3",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Kruleboyz Monsta-killaz",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "1f54a824",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Kruleboyz 4",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Kruleboyz Monsta-killaz",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "5318c226",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Kruleboyz 5",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Kruleboyz Monsta-killaz",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "3f6612bc",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Kruleboyz 6",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Kruleboyz Monsta-killaz",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "81eebace",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Kruleboyz 7",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Kruleboyz Monsta-killaz",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "79ed7e35",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Kruleboyz 8",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Kruleboyz Monsta-killaz",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "monsta-killaz-1",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Neckslicer",
+        "points": 115,
+        "runemarks": [
+            "trapper",
+            "destroyer"
+        ],
+        "toughness": 3,
+        "warband": "Kruleboyz Monsta-killaz",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
         "_id": "0e863d75",
         "bladeborn": "",
         "grand_alliance": "order",
@@ -30276,42 +30472,233 @@
         "wounds": 20
     },
     {
-        "_id": "2359254e",
+        "_id": "64ee2181",
         "bladeborn": "",
         "grand_alliance": "order",
-        "movement": 4,
-        "name": "Wildercorps Warden with Double-bitted Axe",
-        "points": 115,
+        "movement": 0,
+        "name": "TBC Fyreslayers 2",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Vulkyn Fyreslayers",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "a9d356ed",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Fyreslayers 3",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Vulkyn Fyreslayers",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "22956036",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Fyreslayers 4",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Vulkyn Fyreslayers",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "8770f3ac",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Fyreslayers 5",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Vulkyn Fyreslayers",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "56748d38",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Fyreslayers 6",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Vulkyn Fyreslayers",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "df9fe661",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Fyreslayers 7",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Vulkyn Fyreslayers",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "e00e73d1",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 0,
+        "name": "TBC Fyreslayers 8",
+        "points": 0,
+        "runemarks": [],
+        "toughness": 0,
+        "warband": "Vulkyn Fyreslayers",
+        "weapons": [
+            {
+                "attacks": 0,
+                "dmg_crit": 0,
+                "dmg_hit": 0,
+                "max_range": 0,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 0
+            }
+        ],
+        "wounds": 0
+    },
+    {
+        "_id": "vulkyn-1",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Scalebreaker",
+        "points": 95,
         "runemarks": [
-            "hero",
-            "champion",
-            "warrior"
+            "elite"
+        ],
+        "toughness": 4,
+        "warband": "Vulkyn Fyreslayers",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "4dec3bd0",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Trailhound",
+        "points": 60,
+        "runemarks": [
+            "beast"
         ],
         "toughness": 3,
         "warband": "Wildercorps Hunters",
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 4,
+                "attacks": 2,
+                "dmg_crit": 3,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
+                "runemark": "fangs",
+                "strength": 3
             }
         ],
-        "wounds": 20
+        "wounds": 6
     },
     {
-        "_id": "bde180a8",
+        "_id": "fcab23e7",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Wildercorps Warden with Hunting Crossbow",
-        "points": 120,
+        "name": "Wildercorps Scout with Hunting Crossbow",
+        "points": 75,
         "runemarks": [
-            "hero",
-            "champion",
             "warrior"
         ],
         "toughness": 3,
@@ -30321,33 +30708,31 @@
                 "attacks": 2,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
-                "max_range": 15,
-                "min_range": 3,
-                "runemark": "ranged",
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
                 "strength": 3
             },
             {
                 "attacks": 2,
                 "dmg_crit": 3,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "fangs",
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "wounds": 10
     },
     {
-        "_id": "605b1c5c",
+        "_id": "32d49466",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Wildercorps Warden with Grizzled Trailhound",
-        "points": 115,
+        "name": "Wildercorps Scout woth Paired Hatchets",
+        "points": 75,
         "runemarks": [
-            "hero",
-            "sentience",
             "warrior"
         ],
         "toughness": 3,
@@ -30356,14 +30741,23 @@
             {
                 "attacks": 4,
                 "dmg_crit": 3,
-                "dmg_hit": 2,
+                "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "fangs",
+                "runemark": "axe",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "axe",
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "wounds": 10
     },
     {
         "_id": "1e46811e",
@@ -30380,21 +30774,21 @@
         "warband": "Wildercorps Hunters",
         "weapons": [
             {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 8,
-                "min_range": 0,
-                "runemark": "ranged",
-                "strength": 3
-            },
-            {
                 "attacks": 4,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "sword",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
@@ -30427,40 +30821,6 @@
         "wounds": 12
     },
     {
-        "_id": "8cb98abe",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Arbalester",
-        "points": 175,
-        "runemarks": [
-            "warrior"
-        ],
-        "toughness": 3,
-        "warband": "Wildercorps Hunters",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 8,
-                "dmg_hit": 4,
-                "max_range": 20,
-                "min_range": 6,
-                "runemark": "unarmed",
-                "strength": 4
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 2,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "dagger",
-                "strength": 3
-            }
-        ],
-        "wounds": 12
-    },
-    {
         "_id": "e8f540bc",
         "bladeborn": "",
         "grand_alliance": "order",
@@ -30487,99 +30847,6 @@
         "wounds": 12
     },
     {
-        "_id": "XXXXXX-w1",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Wildercorps Scout with Hunting Crossbow",
-        "points": 75,
-        "runemarks": [
-            "warrior"
-        ],
-        "toughness": 3,
-        "warband": "Wildercorps Hunters",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 15,
-                "min_range": 3,
-                "runemark": "ranged",
-                "strength": 3
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 3
-            }
-        ],
-        "wounds": 10
-    },
-    {
-        "_id": "XXXXXX-w2",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Wildercorps Scout woth Paired Hatchets",
-        "points": 75,
-        "runemarks": [
-            "warrior"
-        ],
-        "toughness": 3,
-        "warband": "Wildercorps Hunters",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 8,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 3
-            },
-            {
-                "attacks": 4,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 3
-            }
-        ],
-        "wounds": 10
-    },
-    {
-        "_id": "XXXXXX-w3",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Trailhound",
-        "points": 60,
-        "runemarks": [
-            "beast"
-        ],
-        "toughness": 3,
-        "warband": "Wildercorps Hunters",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 3
-            }
-        ],
-        "wounds": 6
-    },
-    {
         "_id": "93a3a07a",
         "bladeborn": "",
         "grand_alliance": "order",
@@ -30597,21 +30864,144 @@
                 "attacks": 2,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
-                "max_range": 15,
-                "min_range": 3,
-                "runemark": "ranged",
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
                 "strength": 3
             },
             {
                 "attacks": 2,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "2359254e",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Wildercorps Warden with Double-bitted Axe",
+        "points": 115,
+        "runemarks": [
+            "hero",
+            "champion",
+            "warrior"
+        ],
+        "toughness": 3,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "605b1c5c",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Wildercorps Warden with Grizzled Trailhound",
+        "points": 115,
+        "runemarks": [
+            "hero",
+            "sentience",
+            "warrior"
+        ],
+        "toughness": 3,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
                 "strength": 3
             }
-            
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "bde180a8",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Wildercorps Warden with Hunting Crossbow",
+        "points": 120,
+        "runemarks": [
+            "hero",
+            "champion",
+            "warrior"
+        ],
+        "toughness": 3,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "8cb98abe",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Arbalester",
+        "points": 175,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 3,
+        "warband": "Wildercorps Hunters",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 20,
+                "min_range": 6,
+                "runemark": "unarmed",
+                "strength": 4
+            }
         ],
         "wounds": 12
     },
@@ -30666,396 +31056,5 @@
             }
         ],
         "wounds": 45
-    },
-    {
-        "_id": "vulkyn-1",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Scalebreaker",
-        "points": 95,
-        "runemarks": [
-            "elite"
-        ],
-        "toughness": 4,
-        "warband": "Vulkyn Fyreslayers",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 4
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 8,
-                "min_range": 0,
-                "runemark": "ranged",
-                "strength": 4
-            }
-        ],
-        "wounds": 12
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Fyreslayers 2",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Vulkyn Fyreslayers",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Fyreslayers 3",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Vulkyn Fyreslayers",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Fyreslayers 4",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Vulkyn Fyreslayers",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Fyreslayers 5",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Vulkyn Fyreslayers",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Fyreslayers 6",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Vulkyn Fyreslayers",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Fyreslayers 7",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Vulkyn Fyreslayers",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Fyreslayers 8",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Vulkyn Fyreslayers",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "monsta-killaz-1",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Neckslicer",
-        "points": 115,
-        "runemarks": [
-            "trapper",
-            "destroyer"
-        ],
-        "toughness": 3,
-        "warband": "Kruleboyz Monsta-killaz",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 3,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 4
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 8,
-                "min_range": 0,
-                "runemark": "ranged",
-                "strength": 4
-            }
-        ],
-        "wounds": 15
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 2",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Kruleboyz Monsta-killaz",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 3",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Kruleboyz Monsta-killaz",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 4",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Kruleboyz Monsta-killaz",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 5",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Kruleboyz Monsta-killaz",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 6",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Kruleboyz Monsta-killaz",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 7",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Kruleboyz Monsta-killaz",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
-    },
-    {
-        "_id": "XXXXXX",
-        "bladeborn": "",
-        "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 8",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
-        "warband": "Kruleboyz Monsta-killaz",
-        "weapons": [
-            {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
-            }
-        ],
-        "wounds": 0
     }
 ]
