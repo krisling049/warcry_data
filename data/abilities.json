@@ -1958,43 +1958,51 @@
     },
     {
         "_id": "cab60322",
-        "name": "TBC Double",
+        "name": "Bounding Leaps",
         "warband": "Gorger Mawpack",
         "cost": "double",
-        "description": "TBC.",
+        "description": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
         "runemarks": []
     },
     {
         "_id": "6a45bb85",
-        "name": "TBC Double",
+        "name": "Glimmer of Consciousness",
         "warband": "Gorger Mawpack",
         "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
+        "description": "Until the start of the next battle round, this fighter is not considered to have the Beast  runemark. If this fighter is carrying treasure at the start of the next battle round, it drops that treasure.",
+        "runemarks": [
+            "beast"
+        ]
     },
     {
         "_id": "bfae953f",
-        "name": "TBC Double",
+        "name": "Unnatural Force",
         "warband": "Gorger Mawpack",
         "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "hero"
+        ]
     },
     {
         "_id": "bebbf0d1",
-        "name": "TBC Triple",
+        "name": "Agonising Roar",
         "warband": "Gorger Mawpack",
         "cost": "triple",
-        "description": "TBC.",
-        "runemarks": []
+        "description": "Roll a dice for each enemy fighter within 6\" of this fighter. On a roll of 4+, until the end of the battle round, the fighter being rolled for cannot make disengage actions.",
+        "runemarks": [
+            "berserker"
+        ]
     },
     {
         "_id": "2cedb53d",
-        "name": "TBC Triple",
+        "name": "Maddened Blows",
         "warband": "Gorger Mawpack",
         "cost": "triple",
-        "description": "TBC.",
-        "runemarks": []
+        "description": "Until the end of this fighter's activation, hit rolls for attack actions made by this fighter score a critical hit on a roll of 5+.",
+        "runemarks": [
+            "destroyer"
+        ]
     },
     {
         "_id": "1d3da6e3",
@@ -6664,27 +6672,33 @@
     },
     {
         "_id": "a4350dad",
-        "name": "TBC Double",
+        "name": "Death Grip",
         "warband": "Wildercorps Hunters",
         "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
+        "description": "After this fighter's next melee attack action in this activation, if at least 1 hit roll from that attack action results in a hit, the target forfeits 1 of their actions in this battle round. If the target has already activated or if they have no more actions to forfeit, allocate 3 damage points to the target instead.",
+        "runemarks": [
+            "beast"
+        ]
     },
     {
         "_id": "481d3beb",
-        "name": "TBC Double",
+        "name": "Hunting Pack",
         "warband": "Wildercorps Hunters",
         "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
+        "description": "Pick a friendly fighter with the Wildercorps Hunters faction runemark within 2\" of this fighter. That fighter makes a bonus attack action that must target an enemy fighter within 2\" of this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
     },
     {
         "_id": "29090cad",
-        "name": "TBC Double",
+        "name": "Hunter's Eye",
         "warband": "Wildercorps Hunters",
         "cost": "double",
-        "description": "TBC.",
-        "runemarks": []
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter.",
+        "runemarks": [
+            "champion"
+        ]
     },
     {
         "_id": "071c01f6",
@@ -6694,24 +6708,26 @@
         "description": "Pick a visible enemy fighter. Allocate a number of damage points to that enemy fighter equal to three times the number of friendly fighters with both the Wildercorps Hunters faction runemark and the Beast runemark within 3\" of them.",
         "runemarks": [
             "hero",
-            "destroyer"
+            "sentience"
         ]
     },
     {
         "_id": "75157160",
-        "name": "TBC Triple",
+        "name": "Trailblazer's Might",
         "warband": "Wildercorps Hunters",
         "cost": "triple",
-        "description": "TBC.",
+        "description": "Until the end of this fighter's activation, attack actions made by this fighter score a critical hit on a roll of 5+.",
         "runemarks": []
     },
     {
         "_id": "23ad24c1",
-        "name": "TBC Quad",
+        "name": "Regroup!",
         "warband": "Wildercorps Hunters",
         "cost": "quad",
-        "description": "TBC.",
-        "runemarks": []
+        "description": "Each visible friendly fighter with the Wildercorps Hunters faction runemark within 6\" of this fighter can make a bonus move action or a bonus disengage action (some can make a bonus move action and others can make a bonus disengage action).",
+        "runemarks": [
+            "warrior"
+        ]
     },
     {
         "_id": "b0a0b989",
