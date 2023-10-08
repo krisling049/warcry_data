@@ -23975,169 +23975,196 @@
         "_id": "3ff6e9f8",
         "bladeborn": "",
         "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 2",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
+        "movement": 4,
+        "name": "Beastnob",
+        "points": 200,
+        "runemarks": [
+            "hero",
+            "trapper"
+        ],
+        "toughness": 4,
         "warband": "Kruleboyz Monsta-killaz",
         "weapons": [
             {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
+                "runemark": "mace",
+                "strength": 6
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
             }
         ],
-        "wounds": 0
+        "wounds": 25
     },
     {
         "_id": "3101b10f",
         "bladeborn": "",
         "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 3",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
+        "movement": 6,
+        "name": "Gnarlwood Howla",
+        "points": 125,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 3,
         "warband": "Kruleboyz Monsta-killaz",
         "weapons": [
             {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
+                "runemark": "claws",
+                "strength": 3
             }
         ],
-        "wounds": 0
+        "wounds": 18
     },
     {
         "_id": "1f54a824",
         "bladeborn": "",
         "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 4",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
+        "movement": 4,
+        "name": "Klutcha-grot",
+        "points": 60,
+        "runemarks": [
+            "trapper"
+        ],
+        "toughness": 4,
         "warband": "Kruleboyz Monsta-killaz",
         "weapons": [
             {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
+                "runemark": "claws",
+                "strength": 2
             }
         ],
-        "wounds": 0
+        "wounds": 6
     },
     {
         "_id": "5318c226",
         "bladeborn": "",
         "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 5",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
+        "movement": 4,
+        "name": "Neckslicer with Bonehakka",
+        "points": 120,
+        "runemarks": [
+            "trapper",
+            "berserker"
+        ],
+        "toughness": 3,
         "warband": "Kruleboyz Monsta-killaz",
         "weapons": [
             {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
+                "runemark": "axe",
+                "strength": 5
             }
         ],
-        "wounds": 0
+        "wounds": 15
     },
     {
         "_id": "3f6612bc",
         "bladeborn": "",
         "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 6",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
+        "movement": 4,
+        "name": "Neckslicer with Smasha",
+        "points": 110,
+        "runemarks": [
+            "trapper"
+        ],
+        "toughness": 3,
         "warband": "Kruleboyz Monsta-killaz",
         "weapons": [
             {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
+                "runemark": "club",
+                "strength": 4
             }
         ],
-        "wounds": 0
+        "wounds": 15
     },
     {
         "_id": "81eebace",
         "bladeborn": "",
         "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 7",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
+        "movement": 4,
+        "name": "Brawla Boy with Stabba",
+        "points": 110,
+        "runemarks": [
+            "trapper",
+            "icon-bearer"
+        ],
+        "toughness": 3,
         "warband": "Kruleboyz Monsta-killaz",
         "weapons": [
             {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
+                "runemark": "dagger",
+                "strength": 4
             }
         ],
-        "wounds": 0
+        "wounds": 15
     },
     {
         "_id": "79ed7e35",
         "bladeborn": "",
         "grand_alliance": "order",
-        "movement": 0,
-        "name": "TBC Kruleboyz 8",
-        "points": 0,
-        "runemarks": [],
-        "toughness": 0,
+        "movement": 4,
+        "name": "Brawla Boy with Flogga",
+        "points": 110,
+        "runemarks": [
+            "trapper",
+            "icon-bearer"
+        ],
+        "toughness": 3,
         "warband": "Kruleboyz Monsta-killaz",
         "weapons": [
             {
-                "attacks": 0,
-                "dmg_crit": 0,
-                "dmg_hit": 0,
-                "max_range": 0,
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 3,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 0
+                "runemark": "reach",
+                "strength": 3
             }
         ],
-        "wounds": 0
+        "wounds": 15
     },
     {
         "_id": "monsta-killaz-1",
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Neckslicer",
+        "name": "Neckslicer with Beaststikka Harpoon",
         "points": 115,
         "runemarks": [
             "trapper",
