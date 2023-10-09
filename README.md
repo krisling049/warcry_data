@@ -13,7 +13,7 @@ Currently, this only exists for python but other languages may be added into the
 To retrieve data programmatically you can GET  
 https://raw.githubusercontent.com/krisling049/warcry_data/main/data/fighters.json  
 or  
-https://raw.githubusercontent.com/krisling049/warcry_data/main/data/fighters.json
+https://raw.githubusercontent.com/krisling049/warcry_data/main/data/abilities.json
 
 
 ###  Acknowledgements
