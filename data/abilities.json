@@ -4839,7 +4839,9 @@
         "warband": "Skaven",
         "cost": "triple",
         "description": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 3+, allocate a number of damage points equal to half the value of this ability (rounding up) to that fighter.",
-        "runemarks": []
+        "runemarks": [
+            "berserker"
+        ]
     },
     {
         "_id": "acb87496",
@@ -6845,7 +6847,9 @@
         "warband": "Wildercorps Hunters",
         "cost": "triple",
         "description": "Until the end of this fighter's activation, attack actions made by this fighter score a critical hit on a roll of 5+.",
-        "runemarks": []
+        "runemarks": [
+            "trapper"
+        ]
     },
     {
         "_id": "23ad24c1",
