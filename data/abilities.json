@@ -6756,42 +6756,46 @@
     },
     {
         "_id": "7b080e60",
-        "name": "TBC Double",
+        "name": "Blazing Impetus",
         "warband": "Vulkyn Flameseekers",
         "cost": "double",
-        "description": "TBC.",
+        "description": "A fighter can use this ability only after making two move actions in the same activation. This fighter makes a bonus move action or a bonus disengage action.",
         "runemarks": []
     },
     {
         "_id": "d854accf",
-        "name": "TBC Double",
+        "name": "Ignite Weapon",
         "warband": "Vulkyn Flameseekers",
         "cost": "double",
-        "description": "TBC.",
+        "description": "Count 1 miss from the next attack action made by this fighter this activation as a critical hit instead.",
         "runemarks": []
     },
     {
         "_id": "5f5f7e4f",
-        "name": "TBC Triple",
+        "name": "Beserk Rampage",
         "warband": "Vulkyn Flameseekers",
         "cost": "triple",
-        "description": "TBC.",
-        "runemarks": []
+        "description": "Pick an enemy fighter within 1\" of this fighter and roll 6 dice. For each result that matches the value of this ability, allocate a number of damage points to that enemy fighter equal to the value of this ability. For each other result, allocate 1 damage point to that fighter.",
+        "runemarks": [
+            "berserker"
+        ]
     },
     {
         "_id": "2b449c1f",
-        "name": "TBC Triple",
+        "name": "Creed of Flame",
         "warband": "Vulkyn Flameseekers",
         "cost": "triple",
-        "description": "TBC.",
-        "runemarks": []
+        "description": "Pick a friendly fighter that is not within 6\" of this fighter. That fighter makes 2 bonus move actions or a bonus attack action. If that friendly fighter has the Beast runemark, that fighter makes 2 bonus move actions, then a bonus attack action",
+        "runemarks": [
+            "destroyer"
+        ]
     },
     {
         "_id": "3321a1f9",
-        "name": "TBC Quad",
+        "name": "Aspect of the Scale",
         "warband": "Vulkyn Flameseekers",
         "cost": "quad",
-        "description": "TBC.",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll 6 dice. For each roll of 2+, allocated a number of damage points to that fighter equal to half the value of this ability (rounding up).",
         "runemarks": []
     },
     {
