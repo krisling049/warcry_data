@@ -333,6 +333,54 @@
         ]
     },
     {
+        "_id": "af6705e7",
+        "name": "Shield of Azyr",
+        "warband": "Blacktalons",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead. If this fighter has the Hero runemark and is within 6\" of another friendly fighter with the Blacktalons runemark and the Champion or Destroyer runemark, count up to three critical hits from that attack action as hits instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "f4925187",
+        "name": "Storm of Justice",
+        "warband": "Blacktalons",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Blacktalons runemark within a number of inches of this fighter equal to the value of this ability. That fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "cc2a11b5",
+        "name": "Headshot",
+        "warband": "Blacktalons",
+        "cost": "triple",
+        "description": "Add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from the next ranged attack action made by this fighter in this activation.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "ba962bd6",
+        "name": "Nebulous Sea-fog",
+        "warband": "Blacktalons",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "a6ff68ea",
+        "name": "Windrider",
+        "warband": "Blacktalons",
+        "cost": "quad",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Remove this fighter from the battlefield, then set this fighter up on a platform or the battlefield floor, more than 6\" from all enemy fighters. You can subtract the value of this ability from that 6\", to a minimum of 0.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
         "_id": "73a644b7",
         "name": "Blood for the Blood God",
         "warband": "Blades of Khorne: Bloodbound",
@@ -711,6 +759,313 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when an enemy fighter ends their move action visible to this fighter and within 3\" of this fighter.  Pick another friendly fighter within 3\" of this fighter.  That fighter makes a bonus move action.  After that move action that fighter must be within 1\" of the enemy fighter that made the move action.",
         "runemarks": []
+    },
+    {
+        "_id": "be7e8fe2",
+        "name": "Castelite Wall",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made if they are within 3\" of another friendly fighter with the Bulwark and/or Elite runemark. If the other friendly fighter has the Bulwark runemark, add 1 to this fighter's Toughness characteristic until the end of the activation. If the other friendly fighter has the Elite runemark, for each hit roll from that attack action that misses, allocate 2 damage points to the attacking fighter. If the other friendly fighter has both the Bulwark and Elite runemarks, apply both effects.",
+        "runemarks": []
+    },
+    {
+        "_id": "fbfb0c43",
+        "name": "For Sigmar, Charge!",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with both the Cities of Sigmar: Castelite Hosts faction runemark and the Mount runemark that is within 6\" of this fighter and that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": [
+            "mount"
+        ]
+    },
+    {
+        "_id": "64779ea3",
+        "name": "Castelite Formation",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 2 to the Toughness characteristic of friendly fighters with the Cities of Sigmar: Castelite Hosts faction runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "d58adaf5",
+        "name": "Rousing Speech",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by other friendly fighters with the Cities of Sigmar: Castelite Hosts faction runemark while they are within 6\" of this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "ccfc40cf",
+        "name": "You Won't Even Miss It",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 3\" of this fighter. Remove up to D6 damage points allocated to that fighter.",
+        "runemarks": [
+            "sentience"
+        ]
+    },
+    {
+        "_id": "7e4b2898",
+        "name": "Take Aim!",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the damage points allocated by each critical hit from ranged attack actions made by friendly fighters with both the Cities of Sigmar: Castelite Hosts faction runemark and the Elite runemark while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "elite"
+        ]
+    },
+    {
+        "_id": "f6eb6f6a",
+        "name": "To Me, Warriors!",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "triple",
+        "description": "Each friendly fighter with the Cities of Sigmar: Castelite Hosts faction runemark within 6\" of this fighter can make a bonus move action. That move action must end closer to this fighter.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "0484e57b",
+        "name": "Tune of the Corpus Somni",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "triple",
+        "description": "Roll a number of dice equal to the number of friendly fighters with the Cities of Sigmar: Castelite Hosts faction runemark that have been taken down and/ or have 1 or more damage points allocated to them. For each roll of 4+, add one wild dice to your saved wild dice.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "7189a938",
+        "name": "Blazing Weapons",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Cities of Sigmar: Castelite Hosts faction runemark within 6\" of this fighter. For each critical hit from the next melee attack action made by that fighter this battle round, allocate 2 additional damage points to the target fighter.",
+        "runemarks": [
+            "hero",
+            "warrior"
+        ]
+    },
+    {
+        "_id": "4b27ad43",
+        "name": "Sinister Spymaster",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "quad",
+        "description": "Roll 3 dice. For each roll of 4+, your opponent must discard one wild dice from their saved wild dice.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "fac70527",
+        "name": "For the Dawn!",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, add 2 to this fighter's Move characteristic and the Attacks characteristic of attack actions made by this fighter. This ability cannot be used by fighters with the Hero runemark.",
+        "runemarks": []
+    },
+    {
+        "_id": "9a705dd1",
+        "name": "Enchant Weapons",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of attack actions made by friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "70a5f036",
+        "name": "Cut-throat Strike",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when a visible enemy fighter within 1\" of them makes a disengage action but before that fighter moves away. Roll a dice. On a roll of 3+, allocate D6 damage points to that enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "7c1293c8",
+        "name": "Merciless Raiders",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "double",
+        "description": "A fighter can only use this ability if it is the first battle round. Until the end of this fighter's activation, add 2 to the Move characteristic of this fighter and add 1 to the Attacks characteristic of melee attack actions made by this fighter.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "131697f8",
+        "name": "Executioner's Strike",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "5a1f0437",
+        "name": "Swift Disengage",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "mount",
+            "agile"
+        ]
+    },
+    {
+        "_id": "b9abbfb5",
+        "name": "Steel and Sorcery",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 2 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target this fighter while it is within 3\" of a friendly fighter with both the Cities of Sigmar: Darkling Covens faction runemark and the Mystic runemark.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "1b9d036d",
+        "name": "Form Shieldwall",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 2 to the Toughness characteristic of friendly fighters with both the Cities of Sigmar: Darkling Covens faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "a35477d9",
+        "name": "Cavalry Charge",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "1f3a3aaa",
+        "name": "Volley of Shots",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "842a6074",
+        "name": "Vitriolic Spray",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 3 damage points to that fighter. In addition, until the end of the battle round, halve the Toughness characteristic of that fighter (rounding up).",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "4aaba4d0",
+        "name": "Grudgebearers",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Pick another friendly fighter. That fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "4e9bf91b",
+        "name": "Grim Last Stand",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target friendly fighters with the Cities of Sigmar: Dispossessed faction runemark while they are within 3\" of this fighter and have not made any move actions this battle round.",
+        "runemarks": []
+    },
+    {
+        "_id": "fe6e96a6",
+        "name": "Over My Dead Body",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Until the end of the battle round, this fighter counts as 2 additional fighters when determining which player controls an objective.",
+        "runemarks": []
+    },
+    {
+        "_id": "650dced5",
+        "name": "Back In My Day…",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Strength characteristic of other friendly fighters with the Cities of Sigmar: Dispossessed faction runemark while they are within 6\" of this fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "aa014211",
+        "name": "Kingsguard",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Add 1 to the Move characteristic of this fighter until the end of their activation. In addition, if any friendly fighters with both the Cities of Sigmar: Dispossessed faction runemark and the Hero runemark are within 1\" of any enemy fighters, add 1 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "c955b2cf",
+        "name": "Stand Together",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Pick another visible friendly fighter with both the Cities of Sigmar: Dispossessed faction runemark and the Bulwark runemark within 6\" of this fighter. That fighter can make two bonus move actions. After those move actions, that fighter must be within 1\" of this fighter and cannot make any more move actions until the end of this battle round.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "8f77042d",
+        "name": "Forgefire",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "d9a24311",
+        "name": "Raking Fire",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of ranged attack actions made by this fighter.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "190c721a",
+        "name": "Flesh-melting Torrent",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter. Until the end of this fighter's activation, subtract 3 from the Toughness characteristic of that fighter (to a minimum of 1).",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "c9708363",
+        "name": "Fearless Leader",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "quad",
+        "description": "Each friendly fighter with the Cities of Sigmar: Dispossessed faction runemark within 6\" of this fighter can make a bonus move action.",
+        "runemarks": [
+            "brute"
+        ]
     },
     {
         "_id": "3b26491a",
@@ -6187,54 +6542,6 @@
         ]
     },
     {
-        "_id": "af6705e7",
-        "name": "Shield of Azyr",
-        "warband": "Blacktalons",
-        "cost": "reaction",
-        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead. If this fighter has the Hero runemark and is within 6\" of another friendly fighter with the Blacktalons runemark and the Champion or Destroyer runemark, count up to three critical hits from that attack action as hits instead.",
-        "runemarks": []
-    },
-    {
-        "_id": "f4925187",
-        "name": "Storm of Justice",
-        "warband": "Blacktalons",
-        "cost": "double",
-        "description": "Pick a visible friendly fighter with the Blacktalons runemark within a number of inches of this fighter equal to the value of this ability. That fighter makes a bonus move action or a bonus attack action.",
-        "runemarks": [
-            "champion"
-        ]
-    },
-    {
-        "_id": "cc2a11b5",
-        "name": "Headshot",
-        "warband": "Blacktalons",
-        "cost": "triple",
-        "description": "Add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from the next ranged attack action made by this fighter in this activation.",
-        "runemarks": [
-            "destroyer"
-        ]
-    },
-    {
-        "_id": "ba962bd6",
-        "name": "Nebulous Sea-fog",
-        "warband": "Blacktalons",
-        "cost": "triple",
-        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
-        "runemarks": [
-            "mystic"
-        ]
-    },
-    {
-        "_id": "a6ff68ea",
-        "name": "Windrider",
-        "warband": "Blacktalons",
-        "cost": "quad",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Remove this fighter from the battlefield, then set this fighter up on a platform or the battlefield floor, more than 6\" from all enemy fighters. You can subtract the value of this ability from that 6\", to a minimum of 0.",
-        "runemarks": [
-            "hero"
-        ]
-    },
-    {
         "_id": "3382fbfd",
         "name": "The Chosen Kin",
         "warband": "The Chosen Axes",
@@ -7822,312 +8129,6 @@
         "description": "Pick a terrain feature within 1\" of this monster. In an order of your choice, place each objective, treasure token and fighter that is on that terrain feature, and on any other terrain feature that is on that terrain feature, on the battlefield floor in a location of your choice as close as possible horizontally to its current location. Then, in an order of your choice, each fighter placed on the battlefield in this manner suffers impact damage. Then, remove the terrain feature(s).",
         "runemarks": [
             "monster"
-        ]
-    },
-
-    {
-        "_id": "be7e8fe2",
-        "name": "Castelite Wall",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "reaction",
-        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made if they are within 3\" of another friendly fighter with the Bulwark and/or Elite runemark. If the other friendly fighter has the Bulwark runemark, add 1 to this fighter's Toughness characteristic until the end of the activation. If the other friendly fighter has the Elite runemark, for each hit roll from that attack action that misses, allocate 2 damage points to the attacking fighter. If the other friendly fighter has both the Bulwark and Elite runemarks, apply both effects.",
-        "runemarks": []
-    },
-    {
-        "_id": "fbfb0c43",
-        "name": "For Sigmar, Charge!",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "double",
-        "description": "Pick a visible friendly fighter with both the Cities of Sigmar: Castelite Hosts faction runemark and the Mount runemark that is within 6\" of this fighter and that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends.",
-        "runemarks": [
-            "mount"
-        ]
-    },
-    {
-        "_id": "64779ea3",
-        "name": "Castelite Formation",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "double",
-        "description": "Until the end of the battle round, add 2 to the Toughness characteristic of friendly fighters with the Cities of Sigmar: Castelite Hosts faction runemark while they are within 3\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ]
-    },
-    {
-        "_id": "d58adaf5",
-        "name": "Rousing Speech",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "double",
-        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by other friendly fighters with the Cities of Sigmar: Castelite Hosts faction runemark while they are within 6\" of this fighter.",
-        "runemarks": [
-            "destroyer"
-        ]
-    },
-    {
-        "_id": "ccfc40cf",
-        "name": "You Won't Even Miss It",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "double",
-        "description": "Pick a visible friendly fighter within 3\" of this fighter. Remove up to D6 damage points allocated to that fighter.",
-        "runemarks": [
-            "sentience"
-        ]
-    },
-    {
-        "_id": "7e4b2898",
-        "name": "Take Aim!",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add 1 to the damage points allocated by each critical hit from ranged attack actions made by friendly fighters with both the Cities of Sigmar: Castelite Hosts faction runemark and the Elite runemark while they are within 6\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "elite"
-        ]
-    },
-    {
-        "_id": "f6eb6f6a",
-        "name": "To Me, Warriors!",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "triple",
-        "description": "Each friendly fighter with the Cities of Sigmar: Castelite Hosts faction runemark within 6\" of this fighter can make a bonus move action. That move action must end closer to this fighter.",
-        "runemarks": [
-            "icon-bearer"
-        ]
-    },
-    {
-        "_id": "0484e57b",
-        "name": "Tune of the Corpus Somni",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "triple",
-        "description": "Roll a number of dice equal to the number of friendly fighters with the Cities of Sigmar: Castelite Hosts faction runemark that have been taken down and/ or have 1 or more damage points allocated to them. For each roll of 4+, add one wild dice to your saved wild dice.",
-        "runemarks": [
-            "hero",
-            "priest"
-        ]
-    },
-    {
-        "_id": "7189a938",
-        "name": "Blazing Weapons",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "triple",
-        "description": "Pick a friendly fighter with the Cities of Sigmar: Castelite Hosts faction runemark within 6\" of this fighter. For each critical hit from the next melee attack action made by that fighter this battle round, allocate 2 additional damage points to the target fighter.",
-        "runemarks": [
-            "hero",
-            "warrior"
-        ]
-    },
-    {
-        "_id": "4b27ad43",
-        "name": "Sinister Spymaster",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "quad",
-        "description": "Roll 3 dice. For each roll of 4+, your opponent must discard one wild dice from their saved wild dice.",
-        "runemarks": ["agile"]
-    },
-    {
-        "_id": "fac70527",
-        "name": "For the Dawn!",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "quad",
-        "description": "Until the end of this fighter's activation, add 2 to this fighter's Move characteristic and the Attacks characteristic of attack actions made by this fighter. This ability cannot be used by fighters with the Hero runemark.",
-        "runemarks": []
-    },
-    {
-        "_id": "9a705dd1",
-        "name": "Enchant Weapons",
-        "warband": "Cities of Sigmar: Castelite Hosts",
-        "cost": "quad",
-        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of attack actions made by friendly fighters while they are within 6\" of this fighter.",
-        "runemarks": [
-        "hero",
-        "mystic"
-    ]
-    },
-    {
-        "_id": "70a5f036",
-        "name": "Cut-throat Strike",
-        "warband": "Cities of Sigmar: Darkling Covens",
-        "cost": "reaction",
-        "description": "A fighter can make this reaction when a visible enemy fighter within 1\" of them makes a disengage action but before that fighter moves away. Roll a dice. On a roll of 3+, allocate D6 damage points to that enemy fighter.",
-        "runemarks": []
-    },
-    {
-        "_id": "7c1293c8",
-        "name": "Merciless Raiders",
-        "warband": "Cities of Sigmar: Darkling Covens",
-        "cost": "double",
-        "description": "A fighter can only use this ability if it is the first battle round. Until the end of this fighter's activation, add 2 to the Move characteristic of this fighter and add 1 to the Attacks characteristic of melee attack actions made by this fighter.",
-        "runemarks": [
-            "elite"
-        ]
-    },
-    {
-        "_id": "131697f8",
-        "name": "Executioner's Strike",
-        "warband": "Cities of Sigmar: Darkling Covens",
-        "cost": "double",
-        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
-        "runemarks": [
-            "destroyer"
-        ]
-    },
-    {
-        "_id": "5a1f0437",
-        "name": "Swift Disengage",
-        "warband": "Cities of Sigmar: Darkling Covens",
-        "cost": "double",
-        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
-        "runemarks": [
-            "mount",
-            "agile"
-        ]
-    },
-    {
-        "_id": "b9abbfb5",
-        "name": "Steel and Sorcery",
-        "warband": "Cities of Sigmar: Darkling Covens",
-        "cost": "double",
-        "description": "Until the end of the battle round, subtract 2 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target this fighter while it is within 3\" of a friendly fighter with both the Cities of Sigmar: Darkling Covens faction runemark and the Mystic runemark.",
-        "runemarks": [
-            "berserker"
-        ]
-    },
-    {
-        "_id": "1b9d036d",
-        "name": "Form Shieldwall",
-        "warband": "Cities of Sigmar: Darkling Covens",
-        "cost": "double",
-        "description": "Until the end of the battle round, add 2 to the Toughness characteristic of friendly fighters with both the Cities of Sigmar: Darkling Covens faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ]
-    },
-    {
-        "_id": "a35477d9",
-        "name": "Cavalry Charge",
-        "warband": "Cities of Sigmar: Darkling Covens",
-        "cost": "triple",
-        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
-        "runemarks": [
-            "frenzied"
-        ]
-    },
-    {
-        "_id": "1f3a3aaa",
-        "name": "Volley of Shots",
-        "warband": "Cities of Sigmar: Darkling Covens",
-        "cost": "triple",
-        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation.",
-        "runemarks": [
-            "scout"
-        ]
-    },
-    {
-        "_id": "842a6074",
-        "name": "Vitriolic Spray",
-        "warband": "Cities of Sigmar: Darkling Covens",
-        "cost": "quad",
-        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 3 damage points to that fighter. In addition, until the end of the battle round, halve the Toughness characteristic of that fighter (rounding up).",
-        "runemarks": [
-            "hero",
-            "mystic"
-        ]
-    },
-    {
-        "_id": "4aaba4d0",
-        "name": "Grudgebearers",
-        "warband": "Cities of Sigmar: Dispossessed",
-        "cost": "reaction",
-        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Pick another friendly fighter. That fighter makes a bonus move action or a bonus attack action.",
-        "runemarks": []
-    },
-    {
-        "_id": "4e9bf91b",
-        "name": "Grim Last Stand",
-        "warband": "Cities of Sigmar: Dispossessed",
-        "cost": "double",
-        "description": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target friendly fighters with the Cities of Sigmar: Dispossessed faction runemark while they are within 3\" of this fighter and have not made any move actions this battle round.",
-        "runemarks": []
-    },
-    {
-        "_id": "fe6e96a6",
-        "name": "Over My Dead Body",
-        "warband": "Cities of Sigmar: Dispossessed",
-        "cost": "double",
-        "description": "Until the end of the battle round, this fighter counts as 2 additional fighters when determining which player controls an objective.",
-        "runemarks": []
-    },
-    {
-        "_id": "650dced5",
-        "name": "Back In My Day…",
-        "warband": "Cities of Sigmar: Dispossessed",
-        "cost": "double",
-        "description": "Until the end of the battle round, add 1 to the Strength characteristic of other friendly fighters with the Cities of Sigmar: Dispossessed faction runemark while they are within 6\" of this fighter.",
-        "runemarks": [
-            "champion"
-        ]
-    },
-    {
-        "_id": "aa014211",
-        "name": "Kingsguard",
-        "warband": "Cities of Sigmar: Dispossessed",
-        "cost": "double",
-        "description": "Add 1 to the Move characteristic of this fighter until the end of their activation. In addition, if any friendly fighters with both the Cities of Sigmar: Dispossessed faction runemark and the Hero runemark are within 1\" of any enemy fighters, add 1 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation.",
-        "runemarks": [
-            "destroyer"
-        ]
-    },
-    {
-        "_id": "c955b2cf",
-        "name": "Stand Together",
-        "warband": "Cities of Sigmar: Dispossessed",
-        "cost": "double",
-        "description": "Pick another visible friendly fighter with both the Cities of Sigmar: Dispossessed faction runemark and the Bulwark runemark within 6\" of this fighter. That fighter can make two bonus move actions. After those move actions, that fighter must be within 1\" of this fighter and cannot make any more move actions until the end of this battle round.",
-        "runemarks": [
-            "bulwark"
-        ]
-    },
-    {
-        "_id": "8f77042d",
-        "name": "Forgefire",
-        "warband": "Cities of Sigmar: Dispossessed",
-        "cost": "double",
-        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
-        "runemarks": [
-            "hero",
-            "priest"
-        ]
-    },
-    {
-        "_id": "d9a24311",
-        "name": "Raking Fire",
-        "warband": "Cities of Sigmar: Dispossessed",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of ranged attack actions made by this fighter.",
-        "runemarks": [
-            "trapper"
-        ]
-    },
-    {
-        "_id": "190c721a",
-        "name": "Flesh-melting Torrent",
-        "warband": "Cities of Sigmar: Dispossessed",
-        "cost": "triple",
-        "description": "Pick a visible enemy fighter within 6\" of this fighter. Until the end of this fighter's activation, subtract 3 from the Toughness characteristic of that fighter (to a minimum of 1).",
-        "runemarks": [
-            "elite"
-        ]
-    },
-    {
-        "_id": "c9708363",
-        "name": "Fearless Leader",
-        "warband": "Cities of Sigmar: Dispossessed",
-        "cost": "quad",
-        "description": "Each friendly fighter with the Cities of Sigmar: Dispossessed faction runemark within 6\" of this fighter can make a bonus move action.",
-        "runemarks": [
-            "brute"
         ]
     }
 ]
