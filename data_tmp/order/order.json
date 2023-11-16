@@ -1,0 +1,60 @@
+{
+    "_id": "faad80e5",
+    "fighters": [
+        {
+            "_id": "15bedde9",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 6,
+            "name": "War Hydra",
+            "points": 420,
+            "runemarks": [
+                "monster",
+                "destroyer"
+            ],
+            "toughness": 4,
+            "warband": "order",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 8,
+                    "dmg_hit": 4,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "fangs",
+                    "strength": 5
+                }
+            ],
+            "wounds": 45
+        },
+        {
+            "_id": "69f4a22a",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 6,
+            "name": "Kharibdyss",
+            "points": 425,
+            "runemarks": [
+                "monster",
+                "berserker"
+            ],
+            "toughness": 4,
+            "warband": "order",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 8,
+                    "dmg_hit": 4,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "fangs",
+                    "strength": 5
+                }
+            ],
+            "wounds": 45
+        }
+    ],
+    "grand_alliance": "order",
+    "name": "order",
+    "warband_runemark": "order"
+}

@@ -1,0 +1,440 @@
+{
+    "_id": "29368c2a",
+    "fighters": [
+        {
+            "_id": "5c13b735",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 8,
+            "name": "Chaos Warhound",
+            "points": 85,
+            "runemarks": [
+                "thrall",
+                "scout",
+                "beast"
+            ],
+            "toughness": 3,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 3,
+                    "dmg_hit": 1,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "fangs",
+                    "strength": 3
+                }
+            ],
+            "wounds": 10
+        },
+        {
+            "_id": "42cd09a1",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 5,
+            "name": "Raptoryx",
+            "points": 85,
+            "runemarks": [
+                "thrall",
+                "beast",
+                "berserker"
+            ],
+            "toughness": 4,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 4,
+                    "dmg_hit": 1,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "claws",
+                    "strength": 4
+                }
+            ],
+            "wounds": 12
+        },
+        {
+            "_id": "4c982c53",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 8,
+            "name": "Fury",
+            "points": 95,
+            "runemarks": [
+                "fly",
+                "thrall",
+                "sentience"
+            ],
+            "toughness": 3,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 2,
+                    "dmg_hit": 1,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "claws",
+                    "strength": 3
+                }
+            ],
+            "wounds": 8
+        },
+        {
+            "_id": "3062e7a9",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 5,
+            "name": "Chaos Spawn",
+            "points": 170,
+            "runemarks": [
+                "thrall",
+                "agile",
+                "beast"
+            ],
+            "toughness": 4,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "fangs",
+                    "strength": 4
+                }
+            ],
+            "wounds": 30
+        },
+        {
+            "_id": "ee042882",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 8,
+            "name": "Razorgor",
+            "points": 205,
+            "runemarks": [
+                "thrall",
+                "beast",
+                "ferocious"
+            ],
+            "toughness": 4,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 5,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "fangs",
+                    "strength": 4
+                }
+            ],
+            "wounds": 25
+        },
+        {
+            "_id": "0014b0b1",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 5,
+            "name": "Fomoroid Crusher",
+            "points": 260,
+            "runemarks": [
+                "ally",
+                "destroyer"
+            ],
+            "toughness": 6,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 8,
+                    "dmg_hit": 4,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "unarmed",
+                    "strength": 6
+                }
+            ],
+            "wounds": 35
+        },
+        {
+            "_id": "10fcdb0b",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 8,
+            "name": "Mindstealer Sphiranx",
+            "points": 260,
+            "runemarks": [
+                "ally",
+                "mystic"
+            ],
+            "toughness": 5,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 5,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "claws",
+                    "strength": 5
+                }
+            ],
+            "wounds": 30
+        },
+        {
+            "_id": "f2e9c403",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 5,
+            "name": "Ogroid Myrmidon",
+            "points": 265,
+            "runemarks": [
+                "ally",
+                "champion"
+            ],
+            "toughness": 6,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 8,
+                    "dmg_hit": 4,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "spear",
+                    "strength": 5
+                }
+            ],
+            "wounds": 30
+        },
+        {
+            "_id": "2137fdcf",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 10,
+            "name": "Centaurian Marshal",
+            "points": 295,
+            "runemarks": [
+                "ally",
+                "icon-bearer",
+                "mount"
+            ],
+            "toughness": 5,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 6,
+                    "dmg_hit": 3,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "club",
+                    "strength": 5
+                },
+                {
+                    "attacks": 3,
+                    "dmg_crit": 5,
+                    "dmg_hit": 2,
+                    "max_range": 3,
+                    "min_range": 0,
+                    "runemark": "spear",
+                    "strength": 6
+                }
+            ],
+            "wounds": 35
+        },
+        {
+            "_id": "d695c03d",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 6,
+            "name": "Cygor",
+            "points": 415,
+            "runemarks": [
+                "monster",
+                "terrifying"
+            ],
+            "toughness": 4,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 8,
+                    "dmg_hit": 4,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "unarmed",
+                    "strength": 4
+                }
+            ],
+            "wounds": 50
+        },
+        {
+            "_id": "23768752",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 6,
+            "name": "Chaos Gargant",
+            "points": 420,
+            "runemarks": [
+                "monster",
+                "brute"
+            ],
+            "toughness": 4,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 8,
+                    "dmg_hit": 4,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "club",
+                    "strength": 5
+                }
+            ],
+            "wounds": 45
+        },
+        {
+            "_id": "858b966f",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 8,
+            "name": "Mutalith Vortex Beast",
+            "points": 425,
+            "runemarks": [
+                "monster",
+                "trapper"
+            ],
+            "toughness": 4,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 8,
+                    "dmg_hit": 4,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "fangs",
+                    "strength": 4
+                }
+            ],
+            "wounds": 50
+        },
+        {
+            "_id": "6d84da35",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 6,
+            "name": "Ghorgon",
+            "points": 445,
+            "runemarks": [
+                "monster",
+                "frenzied"
+            ],
+            "toughness": 4,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 5,
+                    "dmg_crit": 10,
+                    "dmg_hit": 4,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "unarmed",
+                    "strength": 6
+                }
+            ],
+            "wounds": 50
+        },
+        {
+            "_id": "718e4ffe",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 6,
+            "name": "Hell Pit Abomination",
+            "points": 465,
+            "runemarks": [
+                "monster",
+                "minion"
+            ],
+            "toughness": 4,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 5,
+                    "dmg_crit": 10,
+                    "dmg_hit": 4,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "claws",
+                    "strength": 4
+                }
+            ],
+            "wounds": 55
+        },
+        {
+            "_id": "c01737a3",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 8,
+            "name": "Slaughterbrute",
+            "points": 490,
+            "runemarks": [
+                "monster",
+                "elite"
+            ],
+            "toughness": 4,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 5,
+                    "dmg_crit": 8,
+                    "dmg_hit": 4,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "claws",
+                    "strength": 4
+                }
+            ],
+            "wounds": 50
+        },
+        {
+            "_id": "4ddf17fb",
+            "bladeborn": "",
+            "grand_alliance": "chaos",
+            "movement": 12,
+            "name": "Chimera",
+            "points": 515,
+            "runemarks": [
+                "fly",
+                "monster",
+                "bulwark"
+            ],
+            "toughness": 4,
+            "warband": "chaos",
+            "weapons": [
+                {
+                    "attacks": 6,
+                    "dmg_crit": 10,
+                    "dmg_hit": 5,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "fangs",
+                    "strength": 6
+                }
+            ],
+            "wounds": 45
+        }
+    ],
+    "grand_alliance": "chaos",
+    "name": "chaos",
+    "warband_runemark": "chaos"
+}

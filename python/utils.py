@@ -1,7 +1,12 @@
 """
 Utility functions and script for data manipulation and management
 """
-from data_parsing import FighterJSONPayload, AbilityJSONPayload, Fighter, Ability, DataPayload, Weapon
+import json
+
+from data_parsing.fighters import Fighter, FighterJSONDataPayload
+from data_parsing.abilities import Ability, AbilityJSONDataPayload
+from data_parsing.models import DataPayload, PROJECT_ROOT
+from data_parsing.warbands import WarbandDataPayload
 from pathlib import Path
 from typing import List, Dict
 import uuid
@@ -48,19 +53,52 @@ def by_points(fighter: Fighter) -> int:
 
 if __name__ == '__main__':
 
-    fighter_data_payload = FighterJSONPayload(
-        src_file=Path(Path(__file__).parent.parent, 'data', 'fighters.json'),
-        schema=Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_fighter_schema.json')
+    fighter_data_payload = FighterJSONDataPayload(
+        src_file=Path(PROJECT_ROOT, 'data', 'fighters.json'),
+        schema=Path(PROJECT_ROOT, 'data', 'schemas', 'aggregate_fighter_schema.json')
+    )
+    #
+    ability_data_payload = AbilityJSONDataPayload(
+        src_file=Path(PROJECT_ROOT, 'data', 'abilities.json'),
+        schema=Path(PROJECT_ROOT, 'data', 'schemas', 'aggregate_ability_schema.json')
     )
 
-    ability_data_payload = AbilityJSONPayload(
-        src_file=Path(Path(__file__).parent.parent, 'data', 'abilities.json'),
-        schema=Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_ability_schema.json')
+    blacktalons = WarbandDataPayload(
+        warband_file=Path(r'C:\Users\ceckersley\git_personal\warcry_data\data\Order\the_blacktalons.json')
     )
 
-    new_data = list()
+    warbands = dict()
+    for fighter in fighter_data_payload.data:
+        if fighter['warband'] not in warbands.keys():
+            warbands[fighter['warband']] = dict()
+        warbands[fighter['warband']]['name'] = fighter['warband']
+        warbands[fighter['warband']]['grand_alliance'] = fighter['grand_alliance']
+        warbands[fighter['warband']]['_id'] = generate_id()
+        warbands[fighter['warband']]['warband_runemark'] = fighter['warband']
+        if 'fighters' not in warbands[fighter['warband']].keys():
+            warbands[fighter['warband']]['fighters'] = list()
+        warbands[fighter['warband']]['fighters'].append(fighter)
+
+    # blacktalons.write_to_disk()
+
+    data_tmp = Path(r'C:\Users\ceckersley\git_personal\warcry_data\data_tmp')
+    for v in warbands.values():
+        filename = v['name'].lower().replace(' ', '_')
+        for illegal_char in r'\\/:*?\"<>|':
+            filename = str(filename).replace(illegal_char, '')
+        out_path = Path(data_tmp, v['grand_alliance'], f'{filename}.json')
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(out_path, 'w') as f:
+            json.dump(v, f, sort_keys=True, indent=4)
+
+
+    # warbuubble = [WarbandDataPayload.from_dict(x) for x in warbands.values()]
+
+    x = 1
+
+
 
     # Do stuff with data, add it to new_data
 
-    export_files([fighter_data_payload, ability_data_payload])
+    # export_files([fighter_data_payload, ability_data_payload])
 

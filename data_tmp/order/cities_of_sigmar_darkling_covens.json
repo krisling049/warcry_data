@@ -1,0 +1,550 @@
+{
+    "_id": "46831b0a",
+    "fighters": [
+        {
+            "_id": "1921c507",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Dreadspear",
+            "points": 55,
+            "runemarks": [
+                "bulwark"
+            ],
+            "toughness": 4,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 2,
+                    "dmg_crit": 4,
+                    "dmg_hit": 1,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "spear",
+                    "strength": 3
+                }
+            ],
+            "wounds": 8
+        },
+        {
+            "_id": "820f3f99",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Bleaksword",
+            "points": 55,
+            "runemarks": [
+                "bulwark"
+            ],
+            "toughness": 4,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 3,
+                    "dmg_hit": 1,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 3
+                }
+            ],
+            "wounds": 8
+        },
+        {
+            "_id": "dd601a1f",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Black Ark Corsair with Vicious Blade and Wicked Cutlass",
+            "points": 60,
+            "runemarks": [
+                "elite"
+            ],
+            "toughness": 3,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 3,
+                    "dmg_hit": 1,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 3
+                }
+            ],
+            "wounds": 8
+        },
+        {
+            "_id": "86380319",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Black Ark Corsair with Vicious Blade and Repeater Crossbow",
+            "points": 65,
+            "runemarks": [
+                "elite"
+            ],
+            "toughness": 3,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 3,
+                    "dmg_hit": 1,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 3
+                },
+                {
+                    "attacks": 2,
+                    "dmg_crit": 2,
+                    "dmg_hit": 1,
+                    "max_range": 8,
+                    "min_range": 0,
+                    "runemark": "ranged",
+                    "strength": 3
+                }
+            ],
+            "wounds": 8
+        },
+        {
+            "_id": "986b8f6e",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Darkshard",
+            "points": 80,
+            "runemarks": [
+                "scout"
+            ],
+            "toughness": 3,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 2,
+                    "dmg_crit": 2,
+                    "dmg_hit": 1,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "dagger",
+                    "strength": 3
+                },
+                {
+                    "attacks": 2,
+                    "dmg_crit": 3,
+                    "dmg_hit": 1,
+                    "max_range": 12,
+                    "min_range": 3,
+                    "runemark": "ranged",
+                    "strength": 3
+                }
+            ],
+            "wounds": 8
+        },
+        {
+            "_id": "4be81271",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Black Guard",
+            "points": 85,
+            "runemarks": [
+                "berserker"
+            ],
+            "toughness": 4,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "axe",
+                    "strength": 3
+                }
+            ],
+            "wounds": 10
+        },
+        {
+            "_id": "45ab5bd5",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Executioner",
+            "points": 90,
+            "runemarks": [
+                "destroyer"
+            ],
+            "toughness": 4,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 3
+                }
+            ],
+            "wounds": 10
+        },
+        {
+            "_id": "cef76417",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Lordling",
+            "points": 95,
+            "runemarks": [
+                "hero",
+                "bulwark"
+            ],
+            "toughness": 4,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 3
+                }
+            ],
+            "wounds": 12
+        },
+        {
+            "_id": "c1616ad6",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Guardmaster",
+            "points": 100,
+            "runemarks": [
+                "hero",
+                "scout"
+            ],
+            "toughness": 3,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 3,
+                    "dmg_hit": 1,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "dagger",
+                    "strength": 3
+                },
+                {
+                    "attacks": 3,
+                    "dmg_crit": 3,
+                    "dmg_hit": 1,
+                    "max_range": 12,
+                    "min_range": 3,
+                    "runemark": "ranged",
+                    "strength": 3
+                }
+            ],
+            "wounds": 12
+        },
+        {
+            "_id": "45b85990",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Black Ark Reaver",
+            "points": 100,
+            "runemarks": [
+                "hero",
+                "elite"
+            ],
+            "toughness": 3,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 3
+                }
+            ],
+            "wounds": 12
+        },
+        {
+            "_id": "c32ee9c8",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Captain of the Black Guard",
+            "points": 120,
+            "runemarks": [
+                "hero",
+                "berserker"
+            ],
+            "toughness": 4,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "axe",
+                    "strength": 3
+                }
+            ],
+            "wounds": 15
+        },
+        {
+            "_id": "e1ff4687",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Sorceress",
+            "points": 125,
+            "runemarks": [
+                "hero",
+                "mystic"
+            ],
+            "toughness": 3,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 4,
+                    "dmg_hit": 1,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "club",
+                    "strength": 3
+                },
+                {
+                    "attacks": 2,
+                    "dmg_crit": 6,
+                    "dmg_hit": 3,
+                    "max_range": 7,
+                    "min_range": 3,
+                    "runemark": "blast",
+                    "strength": 3
+                }
+            ],
+            "wounds": 18
+        },
+        {
+            "_id": "6b25e07f",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Draich Master",
+            "points": 135,
+            "runemarks": [
+                "hero",
+                "destroyer"
+            ],
+            "toughness": 4,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 4
+                }
+            ],
+            "wounds": 15
+        },
+        {
+            "_id": "f25d7854",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Black Ark Fleetmaster",
+            "points": 135,
+            "runemarks": [
+                "hero",
+                "elite"
+            ],
+            "toughness": 3,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 4
+                }
+            ],
+            "wounds": 18
+        },
+        {
+            "_id": "40d6d734",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 10,
+            "name": "Dark Rider",
+            "points": 150,
+            "runemarks": [
+                "agile",
+                "mount"
+            ],
+            "toughness": 4,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 4,
+                    "dmg_hit": 1,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "spear",
+                    "strength": 3
+                },
+                {
+                    "attacks": 2,
+                    "dmg_crit": 3,
+                    "dmg_hit": 1,
+                    "max_range": 12,
+                    "min_range": 3,
+                    "runemark": "ranged",
+                    "strength": 3
+                }
+            ],
+            "wounds": 18
+        },
+        {
+            "_id": "0575da5a",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 8,
+            "name": "Drakespawn Knight",
+            "points": 165,
+            "runemarks": [
+                "frenzied",
+                "mount"
+            ],
+            "toughness": 5,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 2,
+                    "min_range": 0,
+                    "runemark": "spear",
+                    "strength": 3
+                }
+            ],
+            "wounds": 20
+        },
+        {
+            "_id": "db14c72d",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 6,
+            "name": "Assassin",
+            "points": 165,
+            "runemarks": [
+                "hero"
+            ],
+            "toughness": 3,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 5,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "dagger",
+                    "strength": 4
+                }
+            ],
+            "wounds": 18
+        },
+        {
+            "_id": "72d65c5c",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 10,
+            "name": "Dark Rider Herald",
+            "points": 180,
+            "runemarks": [
+                "hero",
+                "scout",
+                "mount"
+            ],
+            "toughness": 4,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "axe",
+                    "strength": 3
+                },
+                {
+                    "attacks": 3,
+                    "dmg_crit": 3,
+                    "dmg_hit": 1,
+                    "max_range": 12,
+                    "min_range": 3,
+                    "runemark": "ranged",
+                    "strength": 3
+                }
+            ],
+            "wounds": 22
+        },
+        {
+            "_id": "a194a160",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 8,
+            "name": "Dread Knight",
+            "points": 200,
+            "runemarks": [
+                "hero",
+                "frenzied",
+                "mount"
+            ],
+            "toughness": 5,
+            "warband": "Cities of Sigmar: Darkling Covens",
+            "weapons": [
+                {
+                    "attacks": 5,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 3
+                }
+            ],
+            "wounds": 25
+        }
+    ],
+    "grand_alliance": "order",
+    "name": "Cities of Sigmar: Darkling Covens",
+    "warband_runemark": "Cities of Sigmar: Darkling Covens"
+}

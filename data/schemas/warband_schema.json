@@ -1,0 +1,52 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"$id": "https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas/warband_schema.json",
+	"type": "object",
+	"title": "Warband Schema",
+	"required": [
+		"_id",
+		"name",
+		"grand_alliance",
+		"warband_runemark",
+		"fighters"
+	],
+		"properties": {
+			"_id": {
+				"type": "string",
+				"description": "A unique ID for this Warband. Is generated from the beginning of a uuid4.",
+				"examples": [
+					"c0fadcc5"
+				]
+			},
+			"name": {
+				"type": "string",
+				"description": "Name of the Warband as it appears at the top of their rules page",
+				"examples": [
+					"The Blacktalons"
+				]
+			},
+			"grand_alliance": {
+				"type": "string",
+				"description": "Lowercase name of the Grand Alliance to which this Warband belongs",
+				"examples": [
+					"chaos",
+					"order",
+					"destruction",
+					"death"
+				]
+			},
+			"warband_runemark": {
+				"type": "string",
+				"description": "The name of this warband's faction runemark - this may be different to the Warband name",
+				"examples": [
+					"Blacktalons"
+				]
+			},
+			"fighters": {
+				"type": "array",
+				"items": {
+					"$ref": "https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas/fighter_schema.json"
+				}
+			}
+		}
+}

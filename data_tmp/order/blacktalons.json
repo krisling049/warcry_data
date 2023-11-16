@@ -1,0 +1,170 @@
+{
+    "_id": "666cdbe1",
+    "fighters": [
+        {
+            "_id": "fe3c9b45",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 4,
+            "name": "Hendrick, The Silver Wolf",
+            "points": 155,
+            "runemarks": [
+                "champion"
+            ],
+            "toughness": 5,
+            "warband": "Blacktalons",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 4
+                },
+                {
+                    "attacks": 3,
+                    "dmg_crit": 5,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 5
+                }
+            ],
+            "wounds": 25
+        },
+        {
+            "_id": "5feaf59c",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 5,
+            "name": "Lorai, Child of the Abyss",
+            "points": 160,
+            "runemarks": [
+                "fly",
+                "mystic"
+            ],
+            "toughness": 3,
+            "warband": "Blacktalons",
+            "weapons": [
+                {
+                    "attacks": 2,
+                    "dmg_crit": 3,
+                    "dmg_hit": 1,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "dagger",
+                    "strength": 3
+                },
+                {
+                    "attacks": 3,
+                    "dmg_crit": 7,
+                    "dmg_hit": 3,
+                    "max_range": 7,
+                    "min_range": 3,
+                    "runemark": "blast",
+                    "strength": 3
+                }
+            ],
+            "wounds": 20
+        },
+        {
+            "_id": "349b6dfe",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 4,
+            "name": "Shakana Goldenblade",
+            "points": 180,
+            "runemarks": [
+                "destroyer"
+            ],
+            "toughness": 5,
+            "warband": "Blacktalons",
+            "weapons": [
+                {
+                    "attacks": 3,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "sword",
+                    "strength": 4
+                },
+                {
+                    "attacks": 4,
+                    "dmg_crit": 2,
+                    "dmg_hit": 1,
+                    "max_range": 15,
+                    "min_range": 3,
+                    "runemark": "ranged",
+                    "strength": 3
+                }
+            ],
+            "wounds": 25
+        },
+        {
+            "_id": "a0fb0704",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 4,
+            "name": "Rostus Oxenhammer",
+            "points": 200,
+            "runemarks": [
+                "champion"
+            ],
+            "toughness": 6,
+            "warband": "Blacktalons",
+            "weapons": [
+                {
+                    "attacks": 4,
+                    "dmg_crit": 6,
+                    "dmg_hit": 3,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "hammer",
+                    "strength": 6
+                }
+            ],
+            "wounds": 25
+        },
+        {
+            "_id": "41cc2020",
+            "bladeborn": "",
+            "grand_alliance": "order",
+            "movement": 7,
+            "name": "Neave Blacktalon",
+            "points": 285,
+            "runemarks": [
+                "hero"
+            ],
+            "toughness": 5,
+            "warband": "Blacktalons",
+            "weapons": [
+                {
+                    "attacks": 6,
+                    "dmg_crit": 4,
+                    "dmg_hit": 2,
+                    "max_range": 1,
+                    "min_range": 0,
+                    "runemark": "axe",
+                    "strength": 5
+                },
+                {
+                    "attacks": 3,
+                    "dmg_crit": 4,
+                    "dmg_hit": 1,
+                    "max_range": 10,
+                    "min_range": 0,
+                    "runemark": "ranged",
+                    "strength": 4
+                }
+            ],
+            "wounds": 30
+        }
+    ],
+    "grand_alliance": "order",
+    "name": "The Blacktalons",
+    "warband_runemark": "Blacktalons"
+}
