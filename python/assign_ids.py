@@ -1,6 +1,7 @@
 from data_parsing import FighterJSONPayload, AbilityJSONPayload
 import uuid
 from pathlib import Path
+import re
 
 
 def generate_id() -> str:
@@ -20,9 +21,11 @@ if __name__ == '__main__':
         )
     ]
 
+    placeholder_pattern = re.compile(f'^PLACEHOLDER.*|^XXXXXX.*')
+
     for p in payloads:
         for entity in p.data:
-            if '_id' not in entity.keys() or entity['_id'] in ['PLACEHOLDER', 'XXXXXX']:
+            if '_id' not in entity.keys() or placeholder_pattern.match(entity['_id']):
                 print(f'assigning _id for {entity["name"]}')
                 entity['_id'] = generate_id()
 
