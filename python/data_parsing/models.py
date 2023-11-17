@@ -43,7 +43,7 @@ class JSONDataPayload(DataPayload):
             dst = self.src_file
         print(f'writing to {dst}')
         with open(dst, 'w') as f:
-            json.dump(self.data, f, indent=4, sort_keys=True)
+            json.dump(self.data, f, ensure_ascii=False, indent=4, sort_keys=True)
 
     def validate_data(self):
         with open(self.schema, 'r') as f:

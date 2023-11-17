@@ -45,4 +45,4 @@ if __name__ == '__main__':
         convert_ability_format(f)
 
     with open(Path(Path(__file__).parent.parent, 'data', 'tts_fighters.json'), 'w') as f:
-        json.dump(new_fighters, f, sort_keys=True, indent=4)
+        json.dump(new_fighters, f, ensure_ascii=False, sort_keys=True, indent=4)
