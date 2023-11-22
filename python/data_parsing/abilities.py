@@ -29,6 +29,9 @@ class AbilityJSONDataPayload(JSONDataPayload):
     ):
         super().__init__(src_file, schema)
 
+    def __repr__(self):
+        return 'AbilityData'
+
     def write_to_disk(self, dst: Path = Path(PROJECT_ROOT, 'data', 'abilities.json')):
         self.validate_data()
 

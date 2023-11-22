@@ -22,6 +22,9 @@ class WarbandsJSONDataPayload(DataPayload):
         self.fighters = Fighters(self.data['fighters'])
         self.abilities = [Ability(x) for x in self.data['abilities']]
 
+    def __repr__(self):
+        return 'WarbandData'
+
     def load_data(self):
         data = {'fighters': list(), 'abilities': list()}
         for file in self.src.rglob(self._filter_str):
@@ -129,4 +132,3 @@ class WarbandsJSONDataPayload(DataPayload):
         with open(self.schema, 'r') as f:
             warband_schema = json.load(f)
         jsonschema.validate(self.data, warband_schema)
-        x = 1

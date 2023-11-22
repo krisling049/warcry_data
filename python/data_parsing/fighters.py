@@ -197,6 +197,9 @@ class FighterJSONDataPayload(JSONDataPayload):
         super().__init__(src_file, schema, 'json')
         self.fighters = Fighters(self.data)
 
+    def __repr__(self):
+        return 'FighterData'
+
     def load_data(self) -> List[Dict]:
         # We treat the fighters.json file as our source of truth so this is the one we load
         with open(self.src, 'r') as f:
