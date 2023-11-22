@@ -1,0 +1,97 @@
+[
+    {
+        "_id": "4aaba4d0",
+        "name": "Grudgebearers",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Pick another friendly fighter. That fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "4e9bf91b",
+        "name": "Grim Last Stand",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target friendly fighters with the Cities of Sigmar: Dispossessed faction runemark while they are within 3\" of this fighter and have not made any move actions this battle round.",
+        "runemarks": []
+    },
+    {
+        "_id": "fe6e96a6",
+        "name": "Over My Dead Body",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Until the end of the battle round, this fighter counts as 2 additional fighters when determining which player controls an objective.",
+        "runemarks": []
+    },
+    {
+        "_id": "650dced5",
+        "name": "Back In My Day...",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Strength characteristic of other friendly fighters with the Cities of Sigmar: Dispossessed faction runemark while they are within 6\" of this fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "aa014211",
+        "name": "Kingsguard",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Add 1 to the Move characteristic of this fighter until the end of their activation. In addition, if any friendly fighters with both the Cities of Sigmar: Dispossessed faction runemark and the Hero runemark are within 1\" of any enemy fighters, add 1 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "c955b2cf",
+        "name": "Stand Together",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Pick another visible friendly fighter with both the Cities of Sigmar: Dispossessed faction runemark and the Bulwark runemark within 6\" of this fighter. That fighter can make two bonus move actions. After those move actions, that fighter must be within 1\" of this fighter and cannot make any more move actions until the end of this battle round.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "8f77042d",
+        "name": "Forgefire",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "double",
+        "description": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "d9a24311",
+        "name": "Raking Fire",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of ranged attack actions made by this fighter.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "190c721a",
+        "name": "Flesh-melting Torrent",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter. Until the end of this fighter's activation, subtract 3 from the Toughness characteristic of that fighter (to a minimum of 1).",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "c9708363",
+        "name": "Fearless Leader",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "quad",
+        "description": "Each friendly fighter with the Cities of Sigmar: Dispossessed faction runemark within 6\" of this fighter can make a bonus move action.",
+        "runemarks": [
+            "brute"
+        ]
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "_id": "c36ec45c",
+        "name": "Blood for the Blood God",
+        "warband": "Blades of Khorne: Daemons",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "e9961769",
+        "name": "Decapitating Strike",
+        "warband": "Blades of Khorne: Daemons",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "d0d11a2d",
+        "name": "Hungry for Flesh",
+        "warband": "Blades of Khorne: Daemons",
+        "cost": "double",
+        "description": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "1ad0696e",
+        "name": "Locus of Fury",
+        "warband": "Blades of Khorne: Daemons",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "243e5340",
+        "name": "Murderous Charge",
+        "warband": "Blades of Khorne: Daemons",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "89363620",
+        "name": "Burning Roar",
+        "warband": "Blades of Khorne: Daemons",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 8\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 2 damage points to that fighter.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "ad67abad",
+        "name": "Khorne's Due",
+        "warband": "Blades of Khorne: Daemons",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, allocate 2 damage points to the attacking fighter. For each critical hit from that attack action, allocate 1 additional damage point to this fighter.",
+        "runemarks": []
+    }
+]

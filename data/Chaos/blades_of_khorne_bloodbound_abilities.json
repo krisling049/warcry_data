@@ -1,0 +1,188 @@
+[
+    {
+        "_id": "73a644b7",
+        "name": "Blood for the Blood God",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "c809cf34",
+        "name": "Bloodbind",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 8\" of this fighter. That enemy fighter makes a bonus move action directly towards this fighter, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "116fbfdb",
+        "name": "Flesh Hound's Blood-dark Claws",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll 2 dice. For each roll of 4-5, allocate D3 damage points to that fighter. For each roll of 6, allocate D6 damage points to that fighter.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "a33d848b",
+        "name": "Gorefist",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 3+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "83ac22a1",
+        "name": "Lashing Bone Tentacles",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "088bc8b5",
+        "name": "Whipped to Fury",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Ferocious runemark within 4\" of this fighter. That fighter makes a bonus attack action.",
+        "runemarks": [
+            "trapper",
+            "hero"
+        ]
+    },
+    {
+        "_id": "1086976f",
+        "name": "Bloodboil",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 8\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate D3 damage points to that fighter.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "1ceb4736",
+        "name": "Daemon-forged Weapons",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "a6a3c9f1",
+        "name": "Lord of Skulls",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "9a6e199b",
+        "name": "Murderous Charge",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "mount"
+        ]
+    },
+    {
+        "_id": "458d0aa1",
+        "name": "Blood-fuelled Assault",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "quad",
+        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. In addition, until the end of this fighter's activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "6ec5fa66",
+        "name": "Rage of Khorne",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by friendly fighters while they are within 8\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "017ae05b",
+        "name": "Khorne's Due",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, allocate 2 damage points to the attacking fighter. For each critical hit from that attack action, allocate 1 additional damage point to this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "a659404f",
+        "name": "Decapitating Strike",
+        "warband": "Garrek's Reavers",
+        "cost": "double",
+        "description": "Add half the value of this ability (rounding up) to the number of damage points allocated by each critical hit from the next attack action made by this fighter this activation that has a Range characteristic of 3 or less.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "bf38750f",
+        "name": "Ever Advancing",
+        "warband": "Garrek's Reavers",
+        "cost": "double",
+        "description": "Add half the value of this ability (rounding up) to the Move characteristic of this fighter for the next move action they make this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "17f594a0",
+        "name": "Frenzied Attack",
+        "warband": "Garrek's Reavers",
+        "cost": "triple",
+        "description": "Allocate a number of damage points equal to half the value of this ability (roudning up) to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "08af612c",
+        "name": "Khorne Cares Not",
+        "warband": "Garrek's Reavers",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. In addition, count the number of fighters that have been taken down during this battle round and add the total to the Attacks characteristic of that bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "11e3cee9",
+        "name": "Daemonic Maw",
+        "warband": "Magore's Fiends",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability.  For each 4-5, allocate 1 damage point to that fighter.  For each 6, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "f7fedb39",
+        "name": "Bloodscent",
+        "warband": "Magore's Fiends",
+        "cost": "triple",
+        "description": "Each friendly fighter with the Magore's Fiends runemark within 6\" of this fighter when this fighter uses this ability can make a bonus move action.",
+        "runemarks": [
+            "beast"
+        ]
+    }
+]

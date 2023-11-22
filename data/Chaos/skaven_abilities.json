@@ -1,0 +1,183 @@
+[
+    {
+        "_id": "bb49daff",
+        "name": "Befoul the Land",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "double",
+        "description": "Pick an objective within 3\" of this fighter or a treasure token within 3\" of this fighter. That treasure token can be one that is being carried by a fighter if that fighter is visible to this fighter. Roll a dice at the end of the battle round for each enemy fighter within 3\" of that objective or treasure token. On a roll of 3+, allocate D3 damage points for the fighter being rolled for. The same objective or treasure token cannot be picked more than once per battle round.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "8b4be7d4",
+        "name": "Disgusting Appearance",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of melee attack actions made by enemy fighters that target this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "dc1c6e1b",
+        "name": "Unctuous Citations",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Skabbik's Plaguepack runemark that is within 7\" of this fighter. This fighter can make a bonus move action or a bonus attack action, and then the fighter you picked can make the same bonus action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "9ad3e526",
+        "name": "Manifestation of a Great Plague",
+        "warband": "Skabbik's Plaguepack",
+        "cost": "quad",
+        "description": "Pick this fighter, or pick a number of objectives visible to this fighter equal to half the value of this ability (rounding up). Allocate a number of damage points equal to the value of this ability to all enemy fighters within 3\" of either this fighter or those objectives.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "08221e76",
+        "name": "Consume Warpstone Token",
+        "warband": "Skaven",
+        "cost": "double",
+        "description": "Roll a number of dice equal to the value of this ability. For each roll of 1, allocate 1 damage point to this fighter. For each roll of 4+, add 1 to the damage points allocated to enemy fighters by each hit or critical hit from the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "1cbbec6b",
+        "name": "Crack the Whip",
+        "warband": "Skaven",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Beast runemark within 4\" of this fighter. That fighter makes a bonus melee attack action.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "e331bd06",
+        "name": "Flesh-mend",
+        "warband": "Skaven",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Beast runemark within 4\" of this fighter. Remove a number of damage points allocated to that fighter up to half the value of this ability (rounding up).",
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "a5cebf6e",
+        "name": "Hired Bodyguard",
+        "warband": "Skaven",
+        "cost": "double",
+        "description": "Until the end of the battle round, friendly fighters with the Hero runemark cannot be targeted while they are within 1\" of this fighter.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "2a537a2f",
+        "name": "Scurry Away",
+        "warband": "Skaven",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 3\" of an enemy fighter. Roll a dice. On a roll of 2+, this fighter makes a bonus disengage action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "567933d7",
+        "name": "Warp Lightning",
+        "warband": "Skaven",
+        "cost": "double",
+        "description": "Pick a number of enemy fighters up to the value of this ability. The first fighter picked must be within 6\" of, and visible to, this fighter and each subsequent fighter picked must be within 3\" of, and visible to, a fighter that has already been picked. The same fighter cannot be picked more than once. Allocate 1 damage point to each fighter picked.",
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "142acdc4",
+        "name": "Crushing Charge",
+        "warband": "Skaven",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "70ff8318",
+        "name": "Lead From The Back",
+        "warband": "Skaven",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "36ef106a",
+        "name": "Poisonous Fumes",
+        "warband": "Skaven",
+        "cost": "triple",
+        "description": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 3+, allocate a number of damage points equal to half the value of this ability (rounding up) to that fighter.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "acb87496",
+        "name": "Running Death",
+        "warband": "Skaven",
+        "cost": "triple",
+        "description": "This fighter makes a bonus move action or bonus disengage action. In addition, until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each critical hit from attack actions made by this fighter.",
+        "runemarks": [
+            "hero",
+            "scout"
+        ]
+    },
+    {
+        "_id": "1dfee2a6",
+        "name": "Expend Warpstone Spark Canister",
+        "warband": "Skaven",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. In addition, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each hit and critical hit from that attack action.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "dfbe1c5c",
+        "name": "Recite from the Book of Woes",
+        "warband": "Skaven",
+        "cost": "triple",
+        "description": "Until the end of the battle round, enemy fighters cannot use abilities while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "836d0e6d",
+        "name": "Musk of Fear",
+        "warband": "Skaven",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter with the Skaven faction runemark within 3\" of this fighter. That fighter makes a bonus move action or a bonus disengage action, and must end that action more than 3\" away from the enemy fighter that made the move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "dad15d02",
+        "name": "There Are Always More",
+        "warband": "Spiteclaw's Swarm",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with both the Spiteclaw's Swarm and the Minion runemark that has been taken down.  Set up that fighter once more on the battlefield wholly within 3\" of this fighter.  The fighter set up on the battlefield no longer counts as being taken down.  Remove a number of damage points allocated to that fighter up to the value of this ability.",
+        "runemarks": [
+            "hero"
+        ]
+    }
+]

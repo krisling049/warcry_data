@@ -1,0 +1,139 @@
+[
+    {
+        "_id": "a6ef56dc",
+        "name": "Brutal Rage",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "double",
+        "description": "A fighter can only use this ability if 15 or more damage points have been allocated to them. Until the end of the battle, add 1 to the Attacks characteristic of melee attack actions made by this fighter.",
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "c829d5b7",
+        "name": "Locus of Sorcery",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "double",
+        "description": "Add half the value of this ability (rounding up) to the Strength characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "e385f02e",
+        "name": "Uttered Words of Arcane Power",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "double",
+        "description": "Add 1 to the Attacks and Strength characteristics of the next melee attack action made by this fighter in this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "91876e2b",
+        "name": "Vicious Beak",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to that fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "1c4dcce8",
+        "name": "Vulcharc",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "double",
+        "description": "Pick an enemy fighter within 20\" of this fighter. Until the end of the battle round, that fighter cannot make disengage actions.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "b75d4835",
+        "name": "Guided by the Past",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "triple",
+        "description": "Add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from the next melee attack action made by this fighter in this activation that targets an enemy fighter that has activated this battle round.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "7e2ed59f",
+        "name": "Master of Destiny",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add the value of this ability to the value of other abilities (to a maximum of 6) used by friendly fighters within 12\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "9841c042",
+        "name": "Warptongue Blade",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "hero",
+            "berserker"
+        ]
+    },
+    {
+        "_id": "2c60887f",
+        "name": "Guided by the Future",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each hit and critical hit from the next attack action made by this fighter in this activation that targets an enemy fighter that has not activated this battle round.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "cc46e0de",
+        "name": "Lord of Fate",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
+    },
+    {
+        "_id": "b3d111fb",
+        "name": "Twist of Fate",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made. Pick one of the hit rolls, and change the value of one of your [doubles] to that value.",
+        "runemarks": []
+    },
+    {
+        "_id": "9a8df7e9",
+        "name": "Split Into Brimstone Horrors",
+        "warband": "Eyes of the Nine",
+        "cost": "double",
+        "description": "A fighter can use this ablility only if they have 1 or more damage points allocated to them. Set up 1 new fighter with both the Eyes of the Nine and the Minion runemark on the battlefield within 3\" of this fighter. Then, this fighter is taken down.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "695e3dd7",
+        "name": "Cleaving Strike",
+        "warband": "Eyes of the Nine",
+        "cost": "triple",
+        "description": "Add half the value of the ability (rounding up) to the number of damage points allocated by each hit and critical hit from the next attack action made by this fighter this activation that has a Range characteristic of 3 or less.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "edeed6be",
+        "name": "Empowered Bolts",
+        "warband": "Eyes of the Nine",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. In addition, if that bonus attack action has the Blast runemark, add half the value of this ablilty (rounding up) to the Attacks and Strength characteristics of that bonus attack action.",
+        "runemarks": []
+    }
+]

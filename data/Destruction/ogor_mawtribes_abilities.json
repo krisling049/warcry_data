@@ -1,0 +1,176 @@
+[
+    {
+        "_id": "dac75ae0",
+        "name": "Bird Strike",
+        "warband": "Blackpowder's Buccaneers",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 6\" of this fighter that has both the Blackpowder's Buccaneers and the Fly runemarks.  That fighter can make a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "40159f70",
+        "name": "Sic 'Em",
+        "warband": "Blackpowder's Buccaneers",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 6\" of this fighter that has both the Blackpowder's Buccaneers and the Frienzied runemarks.  That fighter can make a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "cafaa4d4",
+        "name": "Broadside",
+        "warband": "Blackpowder's Buccaneers",
+        "cost": "triple",
+        "description": "Add 3 to the Attacks characteristic of the next attack action made by this fighter that targets an enemy fighter more than 3\" away in this activation.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "f700a7cf",
+        "name": "Lay Mantrap",
+        "warband": "Hrothgorn's Mantrappers",
+        "cost": "double",
+        "description": "A fighter can only use this ability once per battle.  Pick a point on a platform or the battlefield floor within 3\" of this fighter that is more than 1\" away from all enemy fighters and set up the Bushwakka's Trap marker.  Allocate 2D6 damage pints to the first enemy fighter to move within 1\" of the marker, then remove the marker.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "27400a51",
+        "name": "Here You Go, Boss!",
+        "warband": "Hrothgorn's Mantrappers",
+        "cost": "triple",
+        "description": "A fighter can use this ability only if they are within 2\" of a friendly Hrothgorn Mantrapper.  that Hrothgorn Mantrapper makes a bonus attack action that has a Ranged Weapon runemark.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "8e24e130",
+        "name": "Bloodgruel",
+        "warband": "Ogor Mawtribes",
+        "cost": "double",
+        "description": "Remove a number of damage points from this fighter up to the value of this ability.",
+        "runemarks": [
+            "mystic",
+            "hero"
+        ]
+    },
+    {
+        "_id": "ac53eae6",
+        "name": "Bounding Leaps",
+        "warband": "Ogor Mawtribes",
+        "cost": "double",
+        "description": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "c45c8a49",
+        "name": "Ironfist",
+        "warband": "Ogor Mawtribes",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll 2 dice. For each roll of 3-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "4d1168cf",
+        "name": "Lead the Skal",
+        "warband": "Ogor Mawtribes",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Beast runemark within 4\" of this fighter. That friendly fighter makes a bonus attack action.",
+        "runemarks": [
+            "hero",
+            "scout"
+        ]
+    },
+    {
+        "_id": "0562672c",
+        "name": "Might Makes Right",
+        "warband": "Ogor Mawtribes",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "27d60586",
+        "name": "On the Mawpath",
+        "warband": "Ogor Mawtribes",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "ee97ec8b",
+        "name": "Bullcharge",
+        "warband": "Ogor Mawtribes",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "f908717e",
+        "name": "Bully of the First Degree",
+        "warband": "Ogor Mawtribes",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter within 2\" of this fighter. Allocate a number of damage points to that friendly fighter equal to half the value of this ability (rounding up). Then, that friendly fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
+    },
+    {
+        "_id": "62590600",
+        "name": "Sneaky Traps",
+        "warband": "Ogor Mawtribes",
+        "cost": "double",
+        "description": "Until the end of the battle round, each time an enemy fighter finishes a move action within 3\" of this fighter, that fighter suffers impact damage.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "ef08e341",
+        "name": "Fire Breath",
+        "warband": "Ogor Mawtribes",
+        "cost": "quad",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "0fbe4c5b",
+        "name": "Thunderous Blast of Hot Metal",
+        "warband": "Ogor Mawtribes",
+        "cost": "quad",
+        "description": "Add 3 to the Attacks and Strength characteristics of the next missile attack action made by this fighter this activation.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "5021d08c",
+        "name": "Quick Bite",
+        "warband": "Ogor Mawtribes",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If none of the hit rolls from that attack action result in a critical hit, allocate 3 damage points to the attacking fighter, and remove up to 3 damage points allocated to this fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "_id": "a5e1cbb7",
+        "name": "Barbed Strike",
+        "warband": "The Unmade",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, if an attack action made by this fighter scores any hits or critical hits, subtract 1 from the target fighter's Toughness characteristic (to a minimum of 1) until the end of the battle round.",
+        "runemarks": []
+    },
+    {
+        "_id": "4343d81b",
+        "name": "Chain Garrotte",
+        "warband": "The Unmade",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 5\" of this fighter and roll a dice. On a roll of 3-4, allocate 1 damage point to that fighter. On a roll of 5+, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "4ef5e91c",
+        "name": "Nightmarish Visage",
+        "warband": "The Unmade",
+        "cost": "double",
+        "description": "Pick an enemy fighter within a number of inches of this fighter equal to the value of this ability and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions.",
+        "runemarks": []
+    },
+    {
+        "_id": "87158e67",
+        "name": "Flaying Frenzy",
+        "warband": "The Unmade",
+        "cost": "triple",
+        "description": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 3-4, allocate 1 damage point to the fighter being rolled for. On a roll of 5+, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "e1dc954d",
+        "name": "Vessel of Torment",
+        "warband": "The Unmade",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter can make a bonus move action. Then, this fighter can make a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "7bf89ac5",
+        "name": "Gift of Agony",
+        "warband": "The Unmade",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. Add 3 to the Strength and Attacks characteristics of that attack action if this fighter has 1 or more damage points allocated to them.",
+        "runemarks": []
+    },
+    {
+        "_id": "07cf5c8a",
+        "name": "Shared Pain",
+        "warband": "The Unmade",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action.\n\nAfter the damage is totalled but before it is allocated to this fighter, roll a dice for each critical hit scoredA fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead. from that attack action.",
+        "runemarks": []
+    }
+]

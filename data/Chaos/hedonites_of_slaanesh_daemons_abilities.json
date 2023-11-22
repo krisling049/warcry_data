@@ -1,0 +1,90 @@
+[
+    {
+        "_id": "1d23c490",
+        "name": "Crushing Grip",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 2+, until the end of the battle round, that fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "dad2c7a5",
+        "name": "Discordant Disruption",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "8a98ff14",
+        "name": "Lithe and Swift",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "83678d74",
+        "name": "Sadistic Killers",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "68315ec3",
+        "name": "Impaling Strike",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "416b283a",
+        "name": "Locus of Excruciation",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "672c6343",
+        "name": "Mirror of Absorption",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter. That fighter cannot activate or make reactions in this battle round.",
+        "runemarks": [
+            "terrifying",
+            "hero"
+        ]
+    },
+    {
+        "_id": "c3cace86",
+        "name": "Deadly Venom",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each hit and critical hit from the next melee attack action made by this fighter in this activation.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "c981e213",
+        "name": "Shared Pain",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead.",
+        "runemarks": []
+    }
+]

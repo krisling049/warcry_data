@@ -13,8 +13,6 @@ def validate_data(data: Union[List[Dict], pathlib.Path], schema: Dict) -> bool:
     try:
         jsonschema.validate(data, schema)
     except jsonschema.exceptions.ValidationError as ve:
-        failing_fighter = data[ve.absolute_path[0]]['name']
-        print(f'ERROR: {failing_fighter}', flush=True)
         raise ve
     # If we reach this point, the data has validated successfully, so we can return
     return True

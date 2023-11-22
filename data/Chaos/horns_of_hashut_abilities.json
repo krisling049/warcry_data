@@ -1,0 +1,70 @@
+[
+    {
+        "_id": "1f5b44d7",
+        "name": "Lay to Waste",
+        "warband": "Horns of Hashut",
+        "cost": "double",
+        "description": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation.  This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "dcb7451d",
+        "name": "Merciless Cruelty",
+        "warband": "Horns of Hashut",
+        "cost": "double",
+        "description": "The next attack action made by this fighter this activation scores a critical hit on a 5+ if the target fighter already has 5 or more damage points allocated to them before the attack action is made.",
+        "runemarks": []
+    },
+    {
+        "_id": "718c4bfb",
+        "name": "Stampede of Iron",
+        "warband": "Horns of Hashut",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice.  On a 4-5, allocate 1 damage point to that fighter.  On a 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "f386768b",
+        "name": "Ash Bomb",
+        "warband": "Horns of Hashut",
+        "cost": "triple",
+        "description": "Pick a visible point within 6\" of this fighter that is on the battlefield floor or a platform and place a token there.  That token is an ash bomb token.  While an enemy fighter is within 3\" of any ash bomb tokens, subtract 1 from their Toughness characteristic and subtract 1 from the Attacks characteristic of attack actions made by them (both to a minimum of 1).  At the end of the battle round, remove the token.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "f9977ab4",
+        "name": "Engulfing Flames of Dark Artifice",
+        "warband": "Horns of Hashut",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll a number of dice equal to the value of this ability.  For each 4+, allocate 3 damage points to that fighter.  Then, do the same for each other visible enemy fighter within 2\" of that enemy fighter but instead roll a number of dice equal to half the value of this ability (rounding up).",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "e2f0ddbc",
+        "name": "Unleash the Raging Taurus",
+        "warband": "Horns of Hashut",
+        "cost": "quad",
+        "description": "This fighter makes a bonus melee attack action.  In addition, add 1 to the damage points allocated by each critical hit scored from that bonus attack aciton.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "bf2f6194",
+        "name": "Breath of Cinder and Smoke",
+        "warband": "Horns of Hashut",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them.  Roll a dice.  If the roll is equal to or greater than that enemy fighter's toughness characteristic, allocate 3 damage points to that enemy fighter and subtract 1 from the Strength characteristic of melee attack actions made by that enemy fighter until the end of the battle round.",
+        "runemarks": [
+            "warrior"
+        ]
+    }
+]

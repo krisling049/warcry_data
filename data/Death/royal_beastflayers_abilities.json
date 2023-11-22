@@ -1,0 +1,68 @@
+[
+    {
+        "_id": "6ae16d7b",
+        "name": "Feed the Hounds",
+        "warband": "Royal Beastflayers",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter was taken down by an attack action made by them this activation.  Remove a number of damage points from each other friendly fighter within 3\" of this fighter, up  to the value of this ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "bd62865f",
+        "name": "Sound the Hunt",
+        "warband": "Royal Beastflayers",
+        "cost": "double",
+        "description": "Pick a number of visible friendly fighters equal to half the value of this ability (rounding up) that are within 3\" of this fighter.  Those fighters can each make a bonus move action of a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "a11bf441",
+        "name": "Pack Tactics",
+        "warband": "Royal Beastflayers",
+        "cost": "triple",
+        "description": "Choose an enemy fighter that is visible to this fighter. Allocate a number of damage points to that enemy fighter equal to twice the number of friendly fighters with the Royal Beastflayers runemark within 3\" of them.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "cc051723",
+        "name": "Unleash the Hounds",
+        "warband": "Royal Beastflayers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up)  to the move characteristic of friendly fighters with the Royal Beastflayers runemark while they make a move action that starts wtihin 3\" of this fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "98fdc691",
+        "name": "Clambering Horrors",
+        "warband": "Royal Beastflayers",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "ade2c4fa",
+        "name": "No rest till our Quest is Done",
+        "warband": "Royal Beastflayers",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add 2 to the Strength characteric of melee attack actions made by visible friendly fighters while the yare within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "210d401d",
+        "name": "Tenacious Hunters",
+        "warband": "Royal Beastflayers",
+        "cost": "reaction",
+        "description": "After a visible enemy fighter within 1\" of this fighter makes a disengage action, allocate D3 damage points to that fighter.",
+        "runemarks": []
+    }
+]

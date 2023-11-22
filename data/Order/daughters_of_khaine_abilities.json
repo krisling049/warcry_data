@@ -1,0 +1,162 @@
+[
+    {
+        "_id": "879f9846",
+        "name": "Bathe In Blood",
+        "warband": "Daughters of Khaine",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 3\" of a visible enemy fighter with 1 or more damage points allocated to them. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "1d8101c7",
+        "name": "Killing Stroke",
+        "warband": "Daughters of Khaine",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 3+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "trapper",
+            "hero"
+        ]
+    },
+    {
+        "_id": "1ea8e8d5",
+        "name": "Turned to Crystal",
+        "warband": "Daughters of Khaine",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "971edd8f",
+        "name": "Witchbrew",
+        "warband": "Daughters of Khaine",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 3\" of this fighter. Until the end of the battle round, add the value of this ability to the Strength characteristic of the next melee attack action made by that fighter.",
+        "runemarks": [
+            "priest",
+            "hero"
+        ]
+    },
+    {
+        "_id": "27ef2336",
+        "name": "Bloodwrack Stare",
+        "warband": "Daughters of Khaine",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within a number of inches of this fighter equal to the value of this ability and roll 2 dice. If either dice rolls a 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions. In addition, for each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "mystic",
+            "hero"
+        ]
+    },
+    {
+        "_id": "dd4d59b4",
+        "name": "Doomfire Bolt",
+        "warband": "Daughters of Khaine",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 2 damage points to that fighter.",
+        "runemarks": [
+            "mount"
+        ]
+    },
+    {
+        "_id": "f40299bf",
+        "name": "Heartseekers",
+        "warband": "Daughters of Khaine",
+        "cost": "triple",
+        "description": "After the next missile attack action made by this fighter in this activation, if it scored one or more hits, allocate a number of damage points to the target of that attack action equal to the value of this ability.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "b87b3267",
+        "name": "Sacrifice to Khaine",
+        "warband": "Daughters of Khaine",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "26f66ad2",
+        "name": "Slaughter's Strength",
+        "warband": "Daughters of Khaine",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "ce7caf2f",
+        "name": "Death on the Wind",
+        "warband": "Daughters of Khaine",
+        "cost": "quad",
+        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. Add 1 to the Strength characteristic of that attack action if the fighter finished the move action 6\" or more from their starting position.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "55556335",
+        "name": "Orgy of Slaughter",
+        "warband": "Daughters of Khaine",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by friendly fighters while they are within 8\" of this fighter.",
+        "runemarks": [
+            "destroyer",
+            "hero"
+        ]
+    },
+    {
+        "_id": "4e213d1d",
+        "name": "Gladiatorial Display",
+        "warband": "Daughters of Khaine",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If none of the hit rolls from that attack action result in a critical hit, allocate 4 damage points to the attacking fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "2c353eb1",
+        "name": "Peerless Combatant",
+        "warband": "Gryselle's Arenai",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, damage cannot be allocated to this fighter by enemy fighters' reactions.",
+        "runemarks": []
+    },
+    {
+        "_id": "b3047b15",
+        "name": "Combination Attack",
+        "warband": "Gryselle's Arenai",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been allocated damage by a melee attack action made by them this activation.  This fighter makes a bonus melee attack action that targets that enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "be42bda3",
+        "name": "Marshal the Bladestorm",
+        "warband": "Gryselle's Arenai",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Gryselle's Arenai runemark while they are within 6\" of this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "b3eb52dd",
+        "name": "Acrobatic Display",
+        "warband": "Gryselle's Arenai",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by an attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1).",
+        "runemarks": []
+    },
+    {
+        "_id": "98ece5ab",
+        "name": "Daughters of the First Temple",
+        "warband": "Morgwaeth's Blade-Coven",
+        "cost": "double",
+        "description": "Pick another visible friendly fighter with the Morgwaeth's blade-Coven runemark within 3\" of this fighter. That fighter can make a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "_id": "3ffa85e3",
+        "name": "Acrobatic Leap",
+        "warband": "Cypher Lords",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to their Move characteristic, and they can fly when making move actions; however, when flying, they cannot move vertically upwards more than 3\".",
+        "runemarks": []
+    },
+    {
+        "_id": "dccce837",
+        "name": "Low Sweeping Blow",
+        "warband": "Cypher Lords",
+        "cost": "double",
+        "description": "Roll a dice for each visible enemy fighter within 2\" of this fighter. On a roll of 4-5, allocate 1 damage point to the fighter being rolled for. On a roll of 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "038f12f3",
+        "name": "Throwing Stars and Chakrams",
+        "warband": "Cypher Lords",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "a865d13b",
+        "name": "Shadowy Recall",
+        "warband": "Cypher Lords",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Cypher Lords faction runemark and the Minion runemark that is within 12\" of this fighter. Remove that fighter from the battlefield, then set that fighter up on a platform or the battlefield floor, wholly within a number of inches of this fighter equal to the value of this ability.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "d2a7ed23",
+        "name": "Shattered Gloom Globe",
+        "warband": "Cypher Lords",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "b1ded338",
+        "name": "Spinning Somersault Strike",
+        "warband": "Cypher Lords",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, they can fly when making move actions; however, when flying, they cannot move vertically upwards more than 3\". In addition, this fighter makes a bonus move action. Then, they can make a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "a4ef9ab9",
+        "name": "Unexpected Assault",
+        "warband": "Cypher Lords",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter with the Cypher Lords faction runemark and the Mystic runemark. That fighter makes a bonus move action. After that move action that fighter must be within 1\" of the enemy fighter that made the move action.",
+        "runemarks": []
+    }
+]

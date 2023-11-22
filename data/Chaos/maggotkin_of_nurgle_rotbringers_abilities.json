@@ -1,0 +1,109 @@
+[
+    {
+        "_id": "e5b4ec78",
+        "name": "Stream of Corruption",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 7\" of this fighter and roll 3 dice. For each roll of 5+, allocate 1 damage point to that fighter and, until the end of the battle round, subtract 1 from that fighter's Toughness characteristic (to a minimum of 1).",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "07e66087",
+        "name": "Thrice-ripened Death's Head",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 7\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "bulwark",
+            "hero"
+        ]
+    },
+    {
+        "_id": "dc696c9b",
+        "name": "Toll of the Sonorous Tocsin",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Move characteristic of friendly fighters while they make a move action that starts within 7\" of this fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "db96f167",
+        "name": "Venomous Sting",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 2+, until the end of this battle round, that fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "cad56a1d",
+        "name": "Virulent Discharge",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to that fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "77852703",
+        "name": "Blighted Icon",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of visible friendly fighters while they are within 7\" of this fighter.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "4ae93ad6",
+        "name": "Grandfather's Blessing",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by visible friendly fighters while they are within 7\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "43344368",
+        "name": "Rotsword Stab",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "triple",
+        "description": "This fighter can make a bonus melee attack action. If that bonus attack action scores any critical hits, roll a dice. On a roll of 4+, until the end of the battle, subtract 1 from the Move characteristic (to a minimum of 1) of the target fighter.",
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "87f770a5",
+        "name": "Unnatural Regeneration",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if there are no enemy fighters within 1\" of this fighter. Remove a number of damage points allocated to this fighter up to double the value of this ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "3ae55ee5",
+        "name": "Impossible to Wound",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1).",
+        "runemarks": []
+    },
+    {
+        "_id": "99104002",
+        "name": "Draw Upon the Retchling's Power",
+        "warband": "The Wurmspat",
+        "cost": "double",
+        "description": "A fighter can only use this ability once per battle.  This fighter makes a bonus attack action that has the Blast runemark.",
+        "runemarks": [
+            "hero"
+        ]
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "_id": "17c7c7d4",
+        "name": "Channelled Empowerment",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "double",
+        "description": "Add the value of this ability to the Strength characteristic of the next melee attack action made by this fighter in this activation. Fighters with the Beast  runemark cannot use this ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "0c743bc2",
+        "name": "Cleanse the Realms of Taint",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "89d633d2",
+        "name": "Meteoric Slam",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
+        "runemarks": [
+            "hero",
+            "brute"
+        ]
+    },
+    {
+        "_id": "d4790a75",
+        "name": "Summon Celestial Lightning",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to that enemy fighter.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "4c650b05",
+        "name": "Burst of Celestial Lightning",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each hit and critical hit from the next missile attack action made by this fighter this activation.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "b10cbb4f",
+        "name": "Darting Attack",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "triple",
+        "description": "This fighter makes a bonus attack action. Then, they can make a bonus disengage action.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "d6de3d94",
+        "name": "Shatter Spirit Flask",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "triple",
+        "description": "Allocate a number of damage points equal to the value of this ability to this fighter and to all visible fighters within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "berserker"
+        ]
+    },
+    {
+        "_id": "68419ac4",
+        "name": "Soul-shield Channelling",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "triple",
+        "description": "Until the end of the battle round, count each critical hit from attack actions that target this fighter as a hit instead.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "84ec2ed7",
+        "name": "Open Redemption Cache",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "quad",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "34ececfd",
+        "name": "Thunderous Pounce",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to double the value of this ability.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "872ecca8",
+        "name": "Thunderous Departure",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Allocate D6 damage points to their attacker. Fighters with the Beast  runemark or both the Scout  and Fly  runemarks cannot make this reaction.",
+        "runemarks": []
+    },
+    {
+        "_id": "38af3e28",
+        "name": "Storm of Eldritch Lightning",
+        "warband": "Stormsire's Cursebreakers",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter and roll a number of dice equal to the value of this ability.  For each 3+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    }
+]

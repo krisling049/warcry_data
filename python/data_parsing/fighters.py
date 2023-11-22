@@ -2,7 +2,7 @@ from itertools import combinations_with_replacement
 from pathlib import Path
 from typing import List, Tuple, Dict
 from .abilities import Ability
-from .models import JSONDataPayload
+from .models import JSONDataPayload, PROJECT_ROOT
 import json
 import jsonschema
 import pandas as pd
@@ -81,6 +81,9 @@ class Fighter:
     def __repr__(self):
         return self.name
 
+    def as_dict(self) -> dict:
+        return self.__dict__
+
     def calc_ctk(
             self,
             vs_t: int,
@@ -103,10 +106,10 @@ class Fighter:
         to_ret = list()
 
         for wep in to_check:
-            s = wep['strength']
-            a = wep['attacks'] * attack_actions
-            dh = wep['dmg_hit']
-            dc = wep['dmg_crit']
+            s = wep.strength
+            a = wep.attacks * attack_actions
+            dh = wep.dmg_hit
+            dc = wep.dmg_crit
 
             to_hit = 4 if s == vs_t else 3 if s > vs_t else 5
             total_rolls = 0
@@ -123,7 +126,7 @@ class Fighter:
                 if damage >= vs_w:
                     killing_rolls = killing_rolls + 1
             ctk = killing_rolls / total_rolls
-            to_ret.append((weapon_index, ctk))
+            to_ret.append(((weapon_index, wep.runemark), ctk))
             if weapon_index == 0:
                 weapon_index = weapon_index + 1
 
@@ -136,21 +139,10 @@ class Fighter:
         return False
 
 
-class FighterJSONDataPayload(JSONDataPayload):
-    def __init__(
-            self,
-            src_file: Path,
-            schema: Path = Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_fighter_schema.json')
-    ):
-        super().__init__(src_file, schema, 'json')
+class Fighters:
+    def __init__(self, fighters: List[Dict]):
+        self.fighters = [Fighter(x) for x in fighters]
         self.max_values, self.min_values = self._get_extreme_values()
-        self.fighters = [Fighter(x) for x in self.data]
-
-    def load_data(self) -> List[Dict]:
-        # We treat the fighters.json file as our source of truth so this is the one we load
-        with open(self.src_file, 'r') as f:
-            data = json.load(f)  # type: List[Dict]
-        return data
 
     def _get_extreme_values(self) -> Tuple[Dict[str, int], Dict[str, int]]:
         max_values = dict()
@@ -166,8 +158,8 @@ class FighterJSONDataPayload(JSONDataPayload):
             else:
                 min_values[key] = value if value < min_values[key] else min_values[key]
 
-        for fighter in self.data:
-            for k, v in fighter.items():
+        for fighter in self.fighters:
+            for k, v in fighter.as_dict().items():
                 if isinstance(v, int):
                     update_values(k, v)
                 if isinstance(v, list) and all([isinstance(x, dict) for x in v]):
@@ -177,6 +169,39 @@ class FighterJSONDataPayload(JSONDataPayload):
                                 update_values(k2, v2)
 
         return max_values, min_values
+
+    def expected_damages(self) -> pd.DataFrame:
+        damage_index = list()
+        expected_damages = dict()
+        for t in range(3, 8):
+            for w in [3, 4, 6, 8, 10, 12, 15, 20, 25]:
+                key = f'T{t}W{w}'
+                damage_index.append(key)
+                for f in self.fighters:
+                    if f.name not in expected_damages.keys():
+                        expected_damages[f.name] = list()
+                    ctk = f.calc_ctk(vs_t=t, vs_w=w)                # type: list[tuple[int, float]]
+                    ctk_percent = int(ctk[0][1] * 100)
+                    expected_damages[f.name].append(ctk_percent)
+
+        df = pd.DataFrame(expected_damages, index=damage_index)
+        return df
+
+
+class FighterJSONDataPayload(JSONDataPayload):
+    def __init__(
+            self,
+            src_file: Path = Path(PROJECT_ROOT, 'data', 'fighters.json'),
+            schema: Path = Path(PROJECT_ROOT, 'data', 'schemas', 'aggregate_fighter_schema.json')
+    ):
+        super().__init__(src_file, schema, 'json')
+        self.fighters = Fighters(self.data)
+
+    def load_data(self) -> List[Dict]:
+        # We treat the fighters.json file as our source of truth so this is the one we load
+        with open(self.src, 'r') as f:
+            data = json.load(f)  # type: List[Dict]
+        return data
 
     def write_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
         self.validate_data()
@@ -190,15 +215,21 @@ class FighterJSONDataPayload(JSONDataPayload):
             aggregate_schema = json.load(f)
         jsonschema.validate(self.data, aggregate_schema)
 
-    def write_spreadsheet(self, dst_root: Path = Path(Path(__file__).parent.parent, 'data')):
-        # This is crap atm. Need to make sure sheet is sensibly ordered and weapons values go into separate columns
-        # Also need to add derived statistics (pts/wound, chance to kill vs. T3, T4 etc)
+    def as_dataframe(self) -> pd.DataFrame:
         temp_data = self.data.copy()
+        # The fighters need to be flattened for their weapon values to fit into rows/columns
         for fighter in temp_data:
             for i, w in enumerate(fighter['weapons']):
                 for k, v in w.items():
                     fighter[f'weapon_{i + 1}_{k}'] = v
             del fighter['weapons']
 
-        xlsx_data = pd.DataFrame(temp_data)
-        xlsx_data.to_excel(Path(dst_root, 'fighters.xlsx'))
+        return pd.DataFrame(temp_data)
+
+    def write_xlsx(self, dst_root: Path = Path(PROJECT_ROOT, 'data_tmp')):
+        to_write = self.as_dataframe()
+        to_write.to_excel(Path(dst_root, 'fighters.xlsx'))
+
+    def write_markdown_table(self, dst_root: Path = Path(PROJECT_ROOT, 'data_tmp')):
+        to_write = self.as_dataframe()
+        to_write.to_markdown(Path(dst_root, 'fighters.md'))

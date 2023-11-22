@@ -1,0 +1,70 @@
+[
+    {
+        "_id": "35f0c3bc",
+        "name": "Scuttling Symbiosis",
+        "warband": "Tarantulos Brood",
+        "cost": "double",
+        "description": "Pick a friendly Spider Swarm within 6\" of this fighter or within 9\" of this fighter if the value of this ability is 4 or greater. That Spider Swarm can make a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "sentience"
+        ]
+    },
+    {
+        "_id": "a99d16c8",
+        "name": "Silken Strangle-nets",
+        "warband": "Tarantulos Brood",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 3+, until the end of the battle round, that enemy fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "cd0304e1",
+        "name": "Skittering Ascent",
+        "warband": "Tarantulos Brood",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "46201775",
+        "name": "Creeping Summons",
+        "warband": "Tarantulos Brood",
+        "cost": "triple",
+        "description": "Pick a friendly Spider Swarm that has been taken down. Set that fighter up on a platform or the battlefield floor, wholly within 3\" of this fighter. That Spider Swarm no longer counts as being taken down and has no damage points allocated to it.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "eb8d9c87",
+        "name": "Envenomed Projectile",
+        "warband": "Tarantulos Brood",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate a number damage points to that fighter equal to half the value of this ability (rounding up). For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "d55af385",
+        "name": "Gifts of the Eightfold Watcher",
+        "warband": "Tarantulos Brood",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. After that attack action, roll a number of dice equal to the value of this ability. If you rolled any 6s, allocate 10 damage points to the fighter targeted by that attack action, and until the end of the battle round, that fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "b2cfd6ba",
+        "name": "Defensive Blades",
+        "warband": "Tarantulos Brood",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll of 1 or 2 from that attack action, allocate 2 damage points to the attacking fighter.",
+        "runemarks": []
+    }
+]

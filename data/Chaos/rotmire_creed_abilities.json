@@ -1,0 +1,68 @@
+[
+    {
+        "_id": "7bef6213",
+        "name": "Blowpipe",
+        "warband": "Rotmire Creed",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice.  For each 4+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up).  In addition, for each 6, subtract 1 from that fighter's Toughness characteristic until the end of the battle round.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "82851512",
+        "name": "Gruesome Harvest",
+        "warband": "Rotmire Creed",
+        "cost": "double",
+        "description": "A fighter can use this ability only if an enemy fighter has been taken down by a melee attack action made by them this activation.  This fighter now has a *potent vial* until the end of the battle.  While a fighter has a potent vial, when they use an ability, the value of the ability is treated as being 6 even if the ability dice show a different score.",
+        "runemarks": []
+    },
+    {
+        "_id": "2f1ffed7",
+        "name": "Hooked Net",
+        "warband": "Rotmire Creed",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice.  On a 3+, allocate a number of damage points to that figther equal to the roll, and that fighter cannot make move actions or disengage actions for the rest of the battle round.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "beceda3a",
+        "name": "Lethal Injection",
+        "warband": "Rotmire Creed",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability.  For each roll that exceeds the Toughness characteristic of that fighter, allocate 5 damage points to them.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "810d4f1f",
+        "name": "Slashing Attack",
+        "warband": "Rotmire Creed",
+        "cost": "triple",
+        "description": "Roll a dice for each visible enemy fighter within 3\" of this fighter.  On a 3-4, allocate 1 damage point to the fighter being rolled for.  On a 5-6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "6e7c6843",
+        "name": "Ensnaring Strike",
+        "warband": "Rotmire Creed",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action.  In addition, if that attack action scores any critical hits, the target fighter cannot make move actions or disengage actions for the rest of the battle round.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "65b404e9",
+        "name": "Bile Blood",
+        "warband": "Rotmire Creed",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action.  After the damage is totalled but before it is allocated to this fighter, roll a dice for each critical hit scored from that attack action.  For each 3+, allocate 3 damage points to the fighter that made that attack action.",
+        "runemarks": []
+    }
+]

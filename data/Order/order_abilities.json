@@ -1,0 +1,57 @@
+[
+    {
+        "_id": "9f01600b",
+        "name": "Quick with the Lash",
+        "warband": "order",
+        "monster": "War Hydra",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "69a56b0c",
+        "name": "Fiery Breath",
+        "warband": "order",
+        "monster": "War Hydra",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll a dice for that fighter and each other fighter within 3\" of that fighter and visible to that fighter. On a roll of 4+, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "98a476a3",
+        "name": "Sever One Head, Another Takes Its Place",
+        "warband": "order",
+        "monster": "War Hydra",
+        "cost": "quad",
+        "description": "Remove a number of damage points allocated to this fighter up to double the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "7a9f79ce",
+        "name": "Quick with the Lash",
+        "warband": "order",
+        "monster": "Kharibdyss",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "86b60a14",
+        "name": "Spiked Tail",
+        "warband": "order",
+        "monster": "Kharibdyss",
+        "cost": "quad",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "berserker"
+        ]
+    }
+]

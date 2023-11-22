@@ -1,0 +1,71 @@
+[
+    {
+        "_id": "ce5ea450",
+        "name": "Smart Step Backwards",
+        "warband": "Wildercorps Hunters",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they have been allocated damage points by a melee attack action. This fighter makes a bonus disengage action.",
+        "runemarks": []
+    },
+    {
+        "_id": "a4350dad",
+        "name": "Death Grip",
+        "warband": "Wildercorps Hunters",
+        "cost": "double",
+        "description": "After this fighter's next melee attack action in this activation, if at least 1 hit roll from that attack action results in a hit, the target forfeits 1 of their actions in this battle round. If the target has already activated or if they have no more actions to forfeit, allocate 3 damage points to the target instead.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "481d3beb",
+        "name": "Hunting Pack",
+        "warband": "Wildercorps Hunters",
+        "cost": "double",
+        "description": "Pick a friendly fighter with the Wildercorps Hunters faction runemark within 2\" of this fighter. That fighter makes a bonus attack action that must target an enemy fighter within 2\" of this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "29090cad",
+        "name": "Hunter's Eye",
+        "warband": "Wildercorps Hunters",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "071c01f6",
+        "name": "Kill!",
+        "warband": "Wildercorps Hunters",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter. Allocate a number of damage points to that enemy fighter equal to three times the number of friendly fighters with both the Wildercorps Hunters faction runemark and the Beast runemark within 3\" of them.",
+        "runemarks": [
+            "hero",
+            "sentience"
+        ]
+    },
+    {
+        "_id": "75157160",
+        "name": "Trailblazer's Might",
+        "warband": "Wildercorps Hunters",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, attack actions made by this fighter score a critical hit on a roll of 5+.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "23ad24c1",
+        "name": "Regroup!",
+        "warband": "Wildercorps Hunters",
+        "cost": "quad",
+        "description": "Each visible friendly fighter with the Wildercorps Hunters faction runemark within 6\" of this fighter can make a bonus move action or a bonus disengage action (some can make a bonus move action and others can make a bonus disengage action).",
+        "runemarks": [
+            "warrior"
+        ]
+    }
+]

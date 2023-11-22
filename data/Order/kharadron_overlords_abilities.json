@@ -1,0 +1,119 @@
+[
+    {
+        "_id": "500bda45",
+        "name": "Ancestral Fortitude",
+        "warband": "Kharadron Overlords",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "01f45dea",
+        "name": "Grapnel Launcher",
+        "warband": "Kharadron Overlords",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if they are more than 3\" from any enemy fighters. Pick a point that is on an obstacle and is within 20\" of this fighter. Remove this fighter from the battlefield, then set that fighter up on a platform or the battlefield floor, wholly within 3\" of the point picked.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "49638f8a",
+        "name": "Harrying Drillbill",
+        "warband": "Kharadron Overlords",
+        "cost": "double",
+        "description": "Pick an enemy fighter within 20\" of this fighter. Until the end of the battle round, that fighter cannot make disengage actions.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "98131dd5",
+        "name": "Supercharged Endrinharness",
+        "warband": "Kharadron Overlords",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the Strength and Attacks characteristics of melee attack actions made by this fighter.",
+        "runemarks": [
+            "hero",
+            "brute"
+        ]
+    },
+    {
+        "_id": "76fc95e1",
+        "name": "Atmospheric Isolation",
+        "warband": "Kharadron Overlords",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "48c586d4",
+        "name": "Fight for Profit",
+        "warband": "Kharadron Overlords",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of attack actions made by friendly fighters while they are within 3\" of this fighter. If this fighter is carrying treasure or is within 3\" of an objective, add 2 to the Attacks characteristic instead.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "c434229e",
+        "name": "Keep Your Distance",
+        "warband": "Kharadron Overlords",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if they are within 3\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "1637d730",
+        "name": "Master the Skies",
+        "warband": "Kharadron Overlords",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters with the Fly runemark by each hit and critical hit from attack actions made by this fighter.",
+        "runemarks": [
+            "fly"
+        ]
+    },
+    {
+        "_id": "4a3d1c1b",
+        "name": "Aetherstorm",
+        "warband": "Kharadron Overlords",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "70d72c9d",
+        "name": "Timed Charges",
+        "warband": "Kharadron Overlords",
+        "cost": "quad",
+        "description": "A fighter can only use this ability if they are within 3\" of an enemy fighter. Allocate a number of damage points equal to the value of this ability to enemy fighters within 1\" of this fighter. Then, this fighter makes a bonus disengage action or a bonus move action.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "11442553",
+        "name": "Return Fire",
+        "warband": "Kharadron Overlords",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made if the attacker is within range of at least one of the target's weapons. For each hit roll from that attack action that misses, allocate 1 damage point to the attacking fighter. For each hit roll of 1, allocate 2 damage points to the attacking fighter instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "cce1c9d6",
+        "name": "Win Recognition",
+        "warband": "Thundrik's Profiteers",
+        "cost": "triple",
+        "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Bjorgen Thundrik and it is the third battle round or later.  This fighter can make a bonus attack action.",
+        "runemarks": []
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "_id": "1223c872",
+        "name": "Chosen of the King",
+        "warband": "Flesh-eater Courts",
+        "cost": "double",
+        "description": "A fighter can use this abiltiy only if they are within 6\" of a visible friendly fighter with the Flesh-eater Courts faction runemark and both the Hero and Berserker runemarks. Until the end of this fighter's activation, add 2 to the Attacks characteristic of melee attack actions made by this fighter.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "a35dcbba",
+        "name": "Feeding Frenzy",
+        "warband": "Flesh-eater Courts",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Remove a number of damage points from this fighter up to the value of this ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "c201a16b",
+        "name": "Skewering Strike",
+        "warband": "Flesh-eater Courts",
+        "cost": "double",
+        "description": "Add 1 to the Stregnth characteristic of the next melee attack action made by this fighter this activation. In addition, if that attack action scores a critical hit, until the end of the battle round, the target fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "84df9e3b",
+        "name": "Unnatural Vitality",
+        "warband": "Flesh-eater Courts",
+        "cost": "double",
+        "description": "Remove a number of damage points from this fighter up to the value of this ability.",
+        "runemarks": [
+            "hero",
+            "berserker"
+        ]
+    },
+    {
+        "_id": "9f8bae1a",
+        "name": "Bringer of Death",
+        "warband": "Flesh-eater Courts",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "a471d576",
+        "name": "Death Scream",
+        "warband": "Flesh-eater Courts",
+        "cost": "triple",
+        "description": "Roll a dice for each visible enemy fighter within 8\" of this fighter. On a 5, allocate 1 damage point to the fighter being rolled for. On a 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "19b79e8e",
+        "name": "Stir of Black Hunger",
+        "warband": "Flesh-eater Courts",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "berserker"
+        ]
+    },
+    {
+        "_id": "65e8fe81",
+        "name": "Terrifying Frenzy",
+        "warband": "Flesh-eater Courts",
+        "cost": "triple",
+        "description": "Add the 3 to the Attacks characteristic of the next melee attack action made by this fighter this activation.",
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "ff7e8503",
+        "name": "The Royal Hunt",
+        "warband": "Flesh-eater Courts",
+        "cost": "quad",
+        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. In addition, add 1 to the Attacks characteristic of that attack action if this fighter is within 1\" of a visible friendly fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "0d073880",
+        "name": "Baffling Parlay",
+        "warband": "Flesh-eater Courts",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made.  Subtract 1 from the Attacks characteristic of that attack action, to a minimum of 1.",
+        "runemarks": []
+    },
+    {
+        "_id": "60f9e076",
+        "name": "Royal Decree",
+        "warband": "The Grymwatch",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with both The Grymwatch runemark and the Minion runemark within 3\" of this fighter. That fighter can make a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    }
+]

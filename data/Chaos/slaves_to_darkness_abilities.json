@@ -1,0 +1,203 @@
+[
+    {
+        "_id": "770d0514",
+        "name": "Self-Command",
+        "warband": "Gnarlspirit Pack",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of this fighter and add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "a2760cc0",
+        "name": "Unleash",
+        "warband": "Gnarlspirit Pack",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to this fighter's Move characteristic, add 1 to the Attacks characteristic of melee attack actions made by this fighter, and this fighter has the Beast runemark.",
+        "runemarks": []
+    },
+    {
+        "_id": "0e50e126",
+        "name": "In Control",
+        "warband": "Gnarlspirit Pack",
+        "cost": "quad",
+        "description": "Each other friendly fighter with the Gnarlspirit Pack runemark can make a bonus move action or a bonus attack action (some can make a bonus move action and others can make a bonus attack action).",
+        "runemarks": []
+    },
+    {
+        "_id": "675458df",
+        "name": "Hunting Hound",
+        "warband": "Godsworn Hunt",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with both the Godsworn Hunt and the Beast runemark within 6\" of this fighter. That fighter takes a bonus move action.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "9c13b815",
+        "name": "Oathsworn Attack",
+        "warband": "Godsworn Hunt",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. In addition, add half the value of this ability (rounding up) to the Attack characteristic of that bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "bb78388f",
+        "name": "Enfeeble",
+        "warband": "Godsworn Hunt",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 12\" of this fighter and roll a die. Until the end of the battle round, subtract the value of the roll from the Toughness characteristic of that fighter (to a minimum of 1).",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "ca47fc19",
+        "name": "Spite-tongue Curse",
+        "warband": "Khagra's Ravagers",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter and roll a number of dice equal to the value of this ability. For each 4+, allocate 1 damage point to that fighter. For each 1, allocate 1 damage point to the fighter using this ability.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "8dd67b76",
+        "name": "Mask of Darkness",
+        "warband": "Khagra's Ravagers",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the [Khagra's Ravagers] runemark within 12\" of this fighter. Remove that fighter from the battlefield and then immediately set them up anywhere on the battlefield within 6\" of this fighter .",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "86479928",
+        "name": "Desecration",
+        "warband": "Khagra's Ravagers",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. Additionally, if this fighter is within 3\" of any objective markers, add half the value of this ability (rounding up) to the Attacks and Strength characteristics of that bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "99e82b1e",
+        "name": "Daemonic Power",
+        "warband": "Slaves to Darkness",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 8\" of this fighter. Until the end of the battle round, add 1 to the Strength and Attacks characteristics of the next melee attack action made by that fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "37f92b91",
+        "name": "Imbued with Dark Power",
+        "warband": "Slaves to Darkness",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the Strength characteristic of melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "ed768c7b",
+        "name": "Relentless Killers",
+        "warband": "Slaves to Darkness",
+        "cost": "double",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next melee attack action made by this fighter in this activation.",
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "7aa28b1a",
+        "name": "Shield Ram",
+        "warband": "Slaves to Darkness",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 2-5, allocate 2 damage points to that fighter. On a roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "750f9c66",
+        "name": "Throw Javelin",
+        "warband": "Slaves to Darkness",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll a dice. On a roll of 3-4, allocate 1 damage point to that fighter. On a roll of 5+, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "fc79c438",
+        "name": "Champion of Darkness",
+        "warband": "Slaves to Darkness",
+        "cost": "triple",
+        "description": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action. Then, they can make a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "7448436b",
+        "name": "Knights of Chaos",
+        "warband": "Slaves to Darkness",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 2 to the Move characteristic of friendly fighters with the Mount runemark and a Toughness characteristic of 5 or more.",
+        "runemarks": [
+            "hero",
+            "agile"
+        ]
+    },
+    {
+        "_id": "5fd3d1b4",
+        "name": "Spurred by the Gods",
+        "warband": "Slaves to Darkness",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by friendly fighters while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
+    },
+    {
+        "_id": "0fac0955",
+        "name": "Trampling Hooves",
+        "warband": "Slaves to Darkness",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "mount"
+        ]
+    },
+    {
+        "_id": "1f026a5d",
+        "name": "Deathblow",
+        "warband": "Slaves to Darkness",
+        "cost": "quad",
+        "description": "Add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from the next melee attack action made by this fighter in this activation.",
+        "runemarks": [
+            "hero",
+            "elite"
+        ]
+    },
+    {
+        "_id": "e818fc5e",
+        "name": "Lead the Slaughter",
+        "warband": "Slaves to Darkness",
+        "cost": "quad",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 3 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "57d69e94",
+        "name": "Boon of Fortitude",
+        "warband": "Slaves to Darkness",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Remove 3 damage points allocated to this fighter.",
+        "runemarks": []
+    }
+]

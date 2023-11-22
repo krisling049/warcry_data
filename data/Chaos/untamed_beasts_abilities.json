@@ -1,0 +1,66 @@
+[
+    {
+        "_id": "eb8fdbfa",
+        "name": "All-out Attack",
+        "warband": "Untamed Beasts",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "7609f611",
+        "name": "Beastmaster",
+        "warband": "Untamed Beasts",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Beast runemark within 4\" of this fighter. That fighter makes a bonus attack action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "d6b28f28",
+        "name": "Savage Fury",
+        "warband": "Untamed Beasts",
+        "cost": "double",
+        "description": "Add 1 to the Move characteristic of this fighter for the next move action they make in this activation, and add 1 to the Attacks characteristic of the next attack action made by this fighter in this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "eef17740",
+        "name": "Harpoon Snag",
+        "warband": "Untamed Beasts",
+        "cost": "triple",
+        "description": "This fighter makes a bonus attack action. After that attack action, the target of that attack action makes a bonus move action directly towards this fighter, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "69024f7c",
+        "name": "Pounce",
+        "warband": "Untamed Beasts",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "6754dbc8",
+        "name": "Unleash the Beast",
+        "warband": "Untamed Beasts",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "836b5da8",
+        "name": "Brute Resilience",
+        "warband": "Untamed Beasts",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1).",
+        "runemarks": []
+    }
+]

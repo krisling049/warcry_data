@@ -5,6 +5,15 @@ import jsonschema
 
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
+PROJECT_DATA = Path(PROJECT_ROOT, 'data')
+
+
+def sanitise_filename(filename: str) -> str:
+    for illegal_char in r'\\/:*?\"<>|':
+        filename = str(filename).replace(illegal_char, '')
+
+    return filename.lower().replace(' ', '_')
+
 
 class DataPayload:
     """
@@ -12,9 +21,9 @@ class DataPayload:
     load data from a single data file (e.g. data/fighters.json).
     """
 
-    def __init__(self, src_file: Path, schema: Path, src_format: str = None):
-        self.src_file = src_file
-        self.src_format = src_format if src_format else src_file.suffix  # xlsx, json, csv etc
+    def __init__(self, src: Path, schema: Path, src_format: str = None):
+        self.src = src
+        self.src_format = src_format if src_format else src.suffix  # xlsx, json, csv etc
         self.schema = schema
         self.data = self.load_data()
         self.validate_data()
@@ -34,13 +43,13 @@ class DataPayload:
 
 class JSONDataPayload(DataPayload):
     def load_data(self):
-        data = json.loads(self.src_file.read_text())
+        data = json.loads(self.src.read_text())
         return data
 
     def write_to_disk(self, dst: Path = None):
         self.validate_data()
         if not dst:
-            dst = self.src_file
+            dst = self.src
         print(f'writing to {dst}')
         with open(dst, 'w') as f:
             json.dump(self.data, f, ensure_ascii=False, indent=4, sort_keys=True)
@@ -49,4 +58,3 @@ class JSONDataPayload(DataPayload):
         with open(self.schema, 'r') as f:
             schema_data = json.load(f)
         jsonschema.validate(self.data, schema_data)
-

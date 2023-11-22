@@ -1,0 +1,127 @@
+[
+    {
+        "_id": "46a4129f",
+        "name": "Twist of Fate",
+        "warband": "Disciples of Tzeentch: Daemons",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made. Pick one of the hit rolls, and change the value of one of your [doubles] to that value.",
+        "runemarks": []
+    },
+    {
+        "_id": "02cd1655",
+        "name": "Blue Fire",
+        "warband": "Disciples of Tzeentch: Daemons",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "0252a1b5",
+        "name": "Locus of Sorcery",
+        "warband": "Disciples of Tzeentch: Daemons",
+        "cost": "double",
+        "description": "Add half the value of this ability (rounding up) to the Strength characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "5e619423",
+        "name": "Latching Bite",
+        "warband": "Disciples of Tzeentch: Daemons",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the Strength characteristic of the next attack action made by this fighter in this activation. In addition, until the end of the battle round, the target fighter cannot make move or disengage actions.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "b090be06",
+        "name": "Master of Destiny",
+        "warband": "Disciples of Tzeentch: Daemons",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add the value of this ability to the value of other abilities (to a maximum of 6) used by friendly fighters within 12\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "5b81b0c2",
+        "name": "Pink Fire",
+        "warband": "Disciples of Tzeentch: Daemons",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter and roll 9 dice. For each roll of 4+, allocate 1 damage point to that fighter.",
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "a2d51b1c",
+        "name": "Capricious Warpflame",
+        "warband": "Disciples of Tzeentch: Daemons",
+        "cost": "quad",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "82e794dc",
+        "name": "Split",
+        "warband": "Disciples of Tzeentch: Daemons",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by an attack action, after the damage is totalled but before it is allocated to this fighter. Set up 2 new fighters with the Disciples of Tzeentch: Daemons faction runemark and the Warrior runemark on the battlefield within 3\" of this fighter. Then, this fighter is taken down. In a campaign battle, do not make an injury roll for this fighter.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "5d939aff",
+        "name": "Split Again",
+        "warband": "Disciples of Tzeentch: Daemons",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by an attack action, after the damage is totalled but before it is allocated to this fighter. Set up 1 new fighter with the Disciples of Tzeentch: Daemons faction runemark and the Minion runemark on the battlefield within 3\" of this fighter. Then, this fighter is taken down. In a campaign battle, do not make an injury roll for this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "1adaca07",
+        "name": "Hypnotise",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "double",
+        "description": "Pick an enemy fighter within 6\" of this fighter. That enemy fighter makes a move action directly towards this fighter, as if they were jumping, up to a number of inches equal to their Move characteristic.",
+        "runemarks": [
+            "fly"
+        ]
+    },
+    {
+        "_id": "13d3aa59",
+        "name": "Sudden Warp-portal",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "double",
+        "description": "Pick another friendly fighter with the Ephilim’s Pandaemonium runemark within 12\" ofthis fighter. Make a note of that fighter’s location, then remove that fighter from the battlefield, and immediately set them up within 3\" of this fighter. Then remove this fighter from the battlefield, and set them up within 3\" of the other friendly fighter’s original location.",
+        "runemarks": []
+    },
+    {
+        "_id": "7449a726",
+        "name": "Engulfing Bite",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "triple",
+        "description": "Add 2 to the Attacks and Strength characteristics of the next melee attack action made by this fighter in this activation. In addition, add 2 to the damage points allocated to enemy fighters by each critical hit from that attack action.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "5fad888f",
+        "name": "Summoned Abomination",
+        "warband": "Ephilim's Pandaemonium",
+        "cost": "quad",
+        "description": "Pick a friendly fighter with the Ephilim’s Pandaemonium runemark that has been taken down. Set up that fighter on a platform or the battlefield floor, wholly within 3\" of this fighter. That fighter no longer counts as being taken down and has no damage points allocated to it.",
+        "runemarks": [
+            "hero"
+        ]
+    }
+]

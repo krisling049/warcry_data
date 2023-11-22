@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "db4552ec",
+        "name": "Harrying Raven",
+        "warband": "Corvus Cabal",
+        "cost": "double",
+        "description": "Pick an enemy fighter within 20\" of this fighter. Until the end of the battle round, that fighter cannot make disengage actions.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "26c85cff",
+        "name": "Raven Dart",
+        "warband": "Corvus Cabal",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 8\" of this fighter and roll a dice. On a roll of 2-4, allocate 1 damage point to that fighter. On a roll of 5+, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "0f860443",
+        "name": "Swift Climb",
+        "warband": "Corvus Cabal",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "d9fa1342",
+        "name": "Grisly Trophy",
+        "warband": "Corvus Cabal",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "bfe8d30f",
+        "name": "Swooping Attack",
+        "warband": "Corvus Cabal",
+        "cost": "triple",
+        "description": "This fighter makes a bonus move action. In addition, if the fighter finishes that move action 3\" or more vertically lower than their starting position, they can make a bonus attack action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "c5a997f2",
+        "name": "Death from Above",
+        "warband": "Corvus Cabal",
+        "cost": "quad",
+        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. Add 1 to the Strength characteristic of that attack action if the fighter finished the move action 3\" or more vertically lower than their starting position.",
+        "runemarks": []
+    },
+    {
+        "_id": "a4f11133",
+        "name": "Wall Run",
+        "warband": "Corvus Cabal",
+        "cost": "double",
+        "description": "A fighter can use this ability only if they are within 1\" of a dungeon wall.  Until the end of this fighter's next move action this activation, this fighter can move over other fighters as if they could fly.  However, during that move action, this fighter must stay within 1\" of a dungeon wall.",
+        "runemarks": []
+    },
+    {
+        "_id": "54d55383",
+        "name": "Running Strike",
+        "warband": "Corvus Cabal",
+        "cost": "quad",
+        "description": "This fighter uses the \"Wall Run\" ability, then makes a bonus move action, and can then make a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "76419c03",
+        "name": "Raptor Strike",
+        "warband": "Corvus Cabal",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter, within 5\" horizontally and vertically lower than this fighter. This fighter makes a bonus move action and must finish closer to that enemy fighter than they were at the start of that move action. If this fighter ends that move within 1\" of that enemy fighter, this fighter does not suffer impact damage and that enemy fighter suffers impact damage.",
+        "runemarks": []
+    }
+]

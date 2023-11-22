@@ -1,0 +1,122 @@
+[
+    {
+        "_id": "e9de24c7",
+        "name": "Rush",
+        "warband": "universal",
+        "cost": "double",
+        "description": "Add 1 to the Move characteristic of this fighter until the end of their activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "40099170",
+        "name": "Onslaught",
+        "warband": "universal",
+        "cost": "double",
+        "description": "Add 1 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "04bd58bb",
+        "name": "Respite",
+        "warband": "universal",
+        "cost": "triple",
+        "description": "A fighter cannot use this ability if they are within 1\" of any enemy fighters. Remove a number of damage points allocated to this fighter equal to the value of this ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "d04e3a07",
+        "name": "Inspiring Presence",
+        "warband": "universal",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "8e7f9b93",
+        "name": "Rampage",
+        "warband": "universal",
+        "cost": "quad",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability. Then, they can make a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "fe2713fc",
+        "name": "Binding Ropes",
+        "warband": "universal",
+        "cost": "double",
+        "description": "Pick an enemy monster within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each 4+, subtract 1 from the Move characteristic of that monster (to a minimum of 3) until the end of the battle.",
+        "runemarks": []
+    },
+    {
+        "_id": "5c47cc25",
+        "name": "Go for the Eyes",
+        "warband": "universal",
+        "cost": "triple",
+        "description": "If the next attack action made by this fighter this activation that targets an enemy monster scores any critical hits, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by that monster until the end of the battle.",
+        "runemarks": []
+    },
+    {
+        "_id": "d53cedf3",
+        "name": "Taunt:",
+        "warband": "universal",
+        "cost": "quad",
+        "description": "Pick a visible enemy monster within 6\" of this fighter and roll a number of dice equal to the value of this ability. If a 4+ is rolled on any of the dice, then until the end of the battle round or until this fighter is taken down, attack actions made by that monster must target this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "68a583a2",
+        "name": "Counter",
+        "warband": "universal",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, allocate 1 damage point to the attacking fighter. For each hit roll of 1, allocate 2 damage points to the attacking fighter instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "7095764c",
+        "name": "Take Cover",
+        "warband": "universal",
+        "cost": "reaction",
+        "description": "A fighter that is in cover can make this reaction after they are targeted by a missile attack action but before the hit rolls are made. After the hit rolls have been made, roll a dice for each critical hit. On a 4+, that critical hit becomes a hit instead. Fighters with the Mount runemark cannot make this reaction.",
+        "runemarks": []
+    },
+    {
+        "_id": "fddbbcf5",
+        "name": "Strike Them Down",
+        "warband": "universal",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when a visible enemy fighter within 1\" of them makes a disengage action but before that fighter moves away. Roll a dice. On a 4+, allocate D6 damage points to that enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "7588a039",
+        "name": "Monstrous Reach",
+        "warband": "universal",
+        "cost": "double",
+        "description": "Until the end of this monster's activation, do not count the vertical distance when measuring the range for attack actions made by this monster.",
+        "runemarks": [
+            "monster"
+        ]
+    },
+    {
+        "_id": "f6ddb62f",
+        "name": "Drag and Maul",
+        "warband": "universal",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 6\" of this monster. Remove that fighter from the battlefield and set them up within 1\" of this monster. Then, roll a number of dice equal to the value of this ability. For each 4+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "monster"
+        ]
+    },
+    {
+        "_id": "c382b2b8",
+        "name": "Demolishing Rampage",
+        "warband": "universal",
+        "cost": "quad",
+        "description": "Pick a terrain feature within 1\" of this monster. In an order of your choice, place each objective, treasure token and fighter that is on that terrain feature, and on any other terrain feature that is on that terrain feature, on the battlefield floor in a location of your choice as close as possible horizontally to its current location. Then, in an order of your choice, each fighter placed on the battlefield in this manner suffers impact damage. Then, remove the terrain feature(s).",
+        "runemarks": [
+            "monster"
+        ]
+    }
+]

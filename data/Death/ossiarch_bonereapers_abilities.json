@@ -1,0 +1,132 @@
+[
+    {
+        "_id": "76da2eab",
+        "name": "Executioner's Strike",
+        "warband": "Kainan's Reapers",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action.  In addition, add 1 to the Attacks and Strength characteristics of that attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "8fdbd27a",
+        "name": "Endless Duty",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
+    },
+    {
+        "_id": "da3f058b",
+        "name": "Form Shieldwall",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Ossiarch Bonereapers faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "945dc908",
+        "name": "Hunt and Kill",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "double",
+        "description": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "adad4b92",
+        "name": "Nadirite Weapon",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "96120f68",
+        "name": "Deathrider Charge",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "96c6da56",
+        "name": "Soul-guide",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "6d4a1974",
+        "name": "The Boneshaper's Art",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "triple",
+        "description": "Remove up to D3 damage points allocated to each friendly fighter within 6\" of this fighter (roll for each).",
+        "runemarks": [
+            "hero",
+            "trapper"
+        ]
+    },
+    {
+        "_id": "f74dc829",
+        "name": "Unbridled Ferocity",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "triple",
+        "description": "This fighter makes a bonus move action.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "43124d95",
+        "name": "Unstoppable Advance",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters that are in the same battle group as this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "21166137",
+        "name": "Blade-strike Aspect",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, add 3 to the Attacks characteristic of attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "3026ca6f",
+        "name": "Soulreaper Scythe",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "quad",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "cb23e335",
+        "name": "Deathly Prowess",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made.  If each hit roll from that attack action results in a miss, allocate 5 damage points to the attacking fighter.",
+        "runemarks": []
+    }
+]
