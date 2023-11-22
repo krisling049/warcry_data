@@ -26,6 +26,6 @@ if __name__ == '__main__':
         print(f'validating {data}')
         data.validate_data()
 
-    print('Validation passed')
+    print('validation passed')
 
 
