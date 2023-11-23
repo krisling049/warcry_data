@@ -3,7 +3,13 @@ name: ExportData
 on:
   push:
     branches:
-    - main
+      - main
+    paths:
+      - '/data/**'
+    paths-ignore:
+      - '/data/schemas/**'
+      - '/data/fighters.json'
+      - '/data/abilities.json'
   workflow_dispatch:
 
 jobs:
