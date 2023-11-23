@@ -40,6 +40,7 @@ class WarbandsJSONDataPayload(DataPayload):
         return data
 
     def _write_json(self, dst: Path, data: Union[List, Dict]):
+        dst.parent.mkdir(parents=True, exist_ok=True)
         with open(dst, 'w') as f:
             print(f'writing {len(data)} items to {dst}')
             json.dump(data, f, ensure_ascii=False, indent=4, sort_keys=False)
