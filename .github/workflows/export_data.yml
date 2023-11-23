@@ -31,8 +31,10 @@ jobs:
       with:
         commit_message: Update dist/fighters.json
         file_pattern: 'dist/fighters.json'
+    - name: commit fighters.json
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Update dist/abilities.json
         file_pattern: 'dist/abilities.json'
+    - name: commit abilities.json
 
