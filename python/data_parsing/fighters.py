@@ -6,6 +6,7 @@ from .models import JSONDataPayload, PROJECT_ROOT
 import json
 import jsonschema
 import pandas as pd
+from copy import deepcopy
 
 
 def sort_fighters(data_to_sort: List[Dict]) -> List[Dict]:
@@ -225,7 +226,7 @@ class FighterJSONDataPayload(JSONDataPayload):
         jsonschema.validate(self.data, aggregate_schema)
 
     def as_dataframe(self) -> pd.DataFrame:
-        temp_data = self.data.copy()
+        temp_data = deepcopy(self.data)
         # The fighters need to be flattened for their weapon values to fit into rows/columns
         for fighter in temp_data:
             for i, w in enumerate(fighter['weapons']):
@@ -235,14 +236,20 @@ class FighterJSONDataPayload(JSONDataPayload):
 
         return pd.DataFrame(temp_data)
 
-    def write_xlsx(self, dst_root: Path = Path(PROJECT_ROOT, 'data_tmp')):
+    def write_xlsx(self, dst_root: Path = Path(PROJECT_ROOT, 'data')):
         out_file = Path(dst_root, 'fighters.xlsx')
         to_write = self.as_dataframe()
         print(f'writing {out_file.absolute()}')
         to_write.to_excel(out_file)
 
-    def write_markdown_table(self, dst_root: Path = Path(PROJECT_ROOT, 'data_tmp')):
+    def write_markdown_table(self, dst_root: Path = Path(PROJECT_ROOT, 'data')):
         out_file = Path(dst_root, 'fighters.md')
         to_write = self.as_dataframe()
         print(f'writing {out_file.absolute()}')
         to_write.to_markdown(out_file)
+
+    def write_html(self, dst_root: Path = Path(PROJECT_ROOT, 'data')):
+        out_file = Path(dst_root, 'fighters.html')
+        to_write = self.as_dataframe()
+        print(f'writing {out_file.absolute()}')
+        to_write.to_html(out_file)

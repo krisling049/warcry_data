@@ -53,6 +53,12 @@ class WarbandsJSONDataPayload(DataPayload):
     def write_fighters_markdown_table(self, dst_root: Path = PROJECT_DATA):
         FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_markdown_table(dst_root=dst_root)
 
+    def write_fighters_html(self, dst_root: Path = PROJECT_DATA):
+        FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_html(dst_root=dst_root)
+
+    def write_fighters_xlsx(self, dst_root: Path = PROJECT_DATA):
+        FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_xlsx(dst_root=dst_root)
+
     def write_abilities_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json')):
         self.validate_data()
         sorted_data = sorted(self.data['abilities'], key=lambda d: d['warband'])
