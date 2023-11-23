@@ -5,7 +5,7 @@ import json
 
 from data_parsing.fighters import Fighter, FighterJSONDataPayload
 from data_parsing.abilities import Ability, AbilityJSONDataPayload
-from data_parsing.models import DataPayload, PROJECT_DATA
+from data_parsing.models import DataPayload, DIST
 from data_parsing.warbands import WarbandsJSONDataPayload
 from pathlib import Path
 from typing import List, Dict
@@ -109,7 +109,8 @@ if __name__ == '__main__':
     #             json.dump(sorted_data, f, ensure_ascii=False, indent=4, sort_keys=False)
     #
     #
-    warbands.validate_data()
+    fighters = FighterJSONDataPayload(preloaded_data=warbands.data['fighters'])
+    fighters.write_markdown_table(dst_root=DIST)
 
 
 

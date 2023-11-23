@@ -1,4 +1,4 @@
-from .fighters import sort_fighters, Fighters
+from .fighters import sort_fighters, Fighters, FighterJSONDataPayload
 from .abilities import Ability
 from .models import DataPayload, PROJECT_DATA, sanitise_filename
 from pathlib import Path
@@ -49,6 +49,9 @@ class WarbandsJSONDataPayload(DataPayload):
         self.validate_data()
         sorted_data = sort_fighters([dict(sorted(x.items())) for x in self.data['fighters']])
         self._write_json(dst=dst, data=sorted_data)
+
+    def write_fighters_markdown_table(self, dst_root: Path = PROJECT_DATA):
+        FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_markdown_table(dst_root=dst_root)
 
     def write_abilities_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json')):
         self.validate_data()
@@ -124,10 +127,10 @@ class WarbandsJSONDataPayload(DataPayload):
                         data=sort_fighters([dict(sorted(x.items())) for x in content['fighters']])
                     )
 
-    def write_to_disk(self):
-        self.write_fighters_to_disk()
-        self.write_abilities_to_disk()
-        self.write_warbands_to_disk()
+    def write_to_disk(self, dst_root: Path = PROJECT_DATA):
+        self.write_fighters_to_disk(Path(dst_root, 'fighters.json'))
+        self.write_abilities_to_disk(Path(dst_root, 'abilities.json'))
+        self.write_warbands_to_disk(dst_root)
 
     def validate_data(self):
         with open(self.schema, 'r') as f:

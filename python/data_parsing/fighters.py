@@ -192,8 +192,10 @@ class FighterJSONDataPayload(JSONDataPayload):
     def __init__(
             self,
             src_file: Path = Path(PROJECT_ROOT, 'data', 'fighters.json'),
-            schema: Path = Path(PROJECT_ROOT, 'data', 'schemas', 'aggregate_fighter_schema.json')
+            schema: Path = Path(PROJECT_ROOT, 'data', 'schemas', 'aggregate_fighter_schema.json'),
+            preloaded_data: List[Dict] = None
     ):
+        self._preloaded_data = preloaded_data
         super().__init__(src_file, schema, 'json')
         self.fighters = Fighters(self.data)
 
@@ -201,6 +203,10 @@ class FighterJSONDataPayload(JSONDataPayload):
         return 'FighterData'
 
     def load_data(self) -> List[Dict]:
+        if self._preloaded_data:
+            data = self._preloaded_data
+            del self._preloaded_data
+            return data
         # We treat the fighters.json file as our source of truth so this is the one we load
         with open(self.src, 'r') as f:
             data = json.load(f)  # type: List[Dict]
@@ -234,5 +240,7 @@ class FighterJSONDataPayload(JSONDataPayload):
         to_write.to_excel(Path(dst_root, 'fighters.xlsx'))
 
     def write_markdown_table(self, dst_root: Path = Path(PROJECT_ROOT, 'data_tmp')):
+        out_file = Path(dst_root, 'fighters.md')
         to_write = self.as_dataframe()
-        to_write.to_markdown(Path(dst_root, 'fighters.md'))
+        print(f'writing {out_file.absolute()}')
+        to_write.to_markdown(out_file)
