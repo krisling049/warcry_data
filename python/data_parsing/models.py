@@ -6,7 +6,7 @@ import jsonschema
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 PROJECT_DATA = Path(PROJECT_ROOT, 'data')
-DIST = Path(PROJECT_ROOT, 'dist')
+DIST = Path(PROJECT_ROOT, 'docs')
 
 
 def sanitise_filename(filename: str) -> str:

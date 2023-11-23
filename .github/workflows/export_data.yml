@@ -29,12 +29,12 @@ jobs:
         python ./python/export_data.py
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: Update dist/fighters.json
-        file_pattern: 'dist/fighters.json'
+        commit_message: Update docs/fighters.json
+        file_pattern: 'docs/fighters.json'
     - name: commit fighters.json
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: Update dist/abilities.json
-        file_pattern: 'dist/abilities.json'
+        commit_message: Update docs/abilities.json
+        file_pattern: 'docs/abilities.json'
     - name: commit abilities.json
 
