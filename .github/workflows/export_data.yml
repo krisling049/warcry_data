@@ -5,11 +5,10 @@ on:
     branches:
       - main
     paths:
-      - '/data/**'
-    paths-ignore:
-      - '/data/schemas/**'
-      - '/data/fighters.json'
-      - '/data/abilities.json'
+      - 'data/**'
+      - '!data/schemas/**'
+      - '!data/fighters.json'
+      - '!data/abilities.json'
   workflow_dispatch:
 
 jobs:
