@@ -32,14 +32,14 @@ jobs:
     - name: exporting data
       run: |
         python ./python/export_data.py
-    - uses: stefanzweifel/git-auto-commit-action@v5
+    - name: commit fighters.json
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Update docs/fighters.json
         file_pattern: 'docs/fighters.json'
-    - name: commit fighters.json
-    - uses: stefanzweifel/git-auto-commit-action@v5
+    - name: commit abilities.json
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Update docs/abilities.json
         file_pattern: 'docs/abilities.json'
-    - name: commit abilities.json
 
