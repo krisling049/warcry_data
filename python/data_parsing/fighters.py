@@ -236,8 +236,10 @@ class FighterJSONDataPayload(JSONDataPayload):
         return pd.DataFrame(temp_data)
 
     def write_xlsx(self, dst_root: Path = Path(PROJECT_ROOT, 'data_tmp')):
+        out_file = Path(dst_root, 'fighters.xlsx')
         to_write = self.as_dataframe()
-        to_write.to_excel(Path(dst_root, 'fighters.xlsx'))
+        print(f'writing {out_file.absolute()}')
+        to_write.to_excel(out_file)
 
     def write_markdown_table(self, dst_root: Path = Path(PROJECT_ROOT, 'data_tmp')):
         out_file = Path(dst_root, 'fighters.md')
