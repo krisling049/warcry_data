@@ -2,18 +2,21 @@
 A consolidated home for data used by Warcry tools
 
 In this repo you will find json files covering all fighters and abilities in Warcry.  
-data/fighters.json is considered the source of truth for fighter profiles.  
-Individual warband json files, arranged by Grand Alliance, are generated from fighters.json and shouldn't be manually edited.  
-data/abilities.json is considered the source of truth for abilities. 
+The _fighters and _abilities files in data/ are considered the source of truth.
+fighters.json, abilities.json and the contents of /docs/ are generated from the source of truth files and shouldn't be
+manually edited.
 
 The repo also contains tools for loading, manipulating and saving the data in data/.  
 Currently, this only exists for python but other languages may be added into their own directories.
 
+The contents of /docs/ is published via github pages.
+
 ###   Access
 To retrieve data programmatically you can GET  
-https://raw.githubusercontent.com/krisling049/warcry_data/main/data/fighters.json  
+https://krisling049.github.io/warcry_data/fighters.json  
+https://krisling049.github.io/warcry_data/tts_fighters.json 
 or  
-https://raw.githubusercontent.com/krisling049/warcry_data/main/data/abilities.json
+https://krisling049.github.io/warcry_data/abilities.json
 
 
 ###  Acknowledgements
