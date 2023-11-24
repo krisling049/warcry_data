@@ -18,7 +18,7 @@ if __name__ == '__main__':
     combined_data = WarbandsJSONDataPayload()
     combined_data.write_abilities_to_disk(dst=Path(DIST, 'abilities.json'))
     combined_data.write_fighters_to_disk(dst=Path(DIST, 'fighters.json'))
-    combined_data.write_tts_fighters(dst=Path(DIST, 'tts_fighters.json'))
+    combined_data.write_tts_fighters(dst=Path(DIST, 'fighters_tts.json'))
     combined_data.write_fighters_html(dst_root=DIST)
 
     print('done')
