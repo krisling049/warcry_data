@@ -5,6 +5,8 @@ from pathlib import Path
 from typing import Union, List, Dict
 import json
 import jsonschema
+import re
+import uuid
 
 
 class WarbandsJSONDataPayload(DataPayload):
@@ -19,6 +21,7 @@ class WarbandsJSONDataPayload(DataPayload):
             raise TypeError(f'src must be a dir: {src}')
         self._filter_str = filter_string
         super().__init__(src, schema, src_format)
+        self.assign_abilities()
         self.fighters = Fighters(self.data['fighters'])
         self.abilities = [Ability(x) for x in self.data['abilities']]
 
@@ -38,6 +41,16 @@ class WarbandsJSONDataPayload(DataPayload):
             if '_abilities' in file.name:
                 data['abilities'].extend(as_json)
         return data
+
+    def assign_abilities(self):
+        placeholder_pattern = re.compile(f'^PLACEHOLDER.*|^XXXXXX.*', flags=re.IGNORECASE)
+
+        for data in self.data.values():                 # type: List
+            for entity in data:                          # type: Dict
+                if '_id' not in entity.keys() or placeholder_pattern.match(entity['_id']):
+                    new_id = str(uuid.uuid4()).split('-')[0]
+                    print(f'assigning _id for {entity["name"]} - {new_id}')
+                    entity['_id'] = new_id
 
     def _write_json(self, dst: Path, data: Union[List, Dict]):
         dst.parent.mkdir(parents=True, exist_ok=True)
