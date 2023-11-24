@@ -34,11 +34,15 @@ class Weapon:
         self.min_range = w_dict['min_range']                                                    # type: int
         self.runemark = w_dict['runemark']                                                      # type: str
         self.strength = w_dict['strength']                                                      # type: int
+        self._raw_data = w_dict                                                                      # type: Dict
         self.dmg_rolls = self.damage_rolls()                                                    # type: List[Tuple[int]]
         self.avg_dmg_vs_lower, self.avg_dmg_vs_same, self.avg_dmg_vs_higher = self.avg_dmgs()   # type: float
 
     def __repr__(self):
         return self.runemark
+
+    def as_dict(self):
+        return self._raw_data
 
     def damage_rolls(self) -> List[Tuple[int]]:
         rolls = [x for x in combinations_with_replacement(range(1, 7), self.attacks)]
@@ -77,30 +81,35 @@ class Fighter:
         self.warband = profile['warband']                           # type: str
         self.weapons = [Weapon(x) for x in profile['weapons']]      # type: List[Weapon]
         self.wounds = profile['wounds']                             # type: int
+        self._raw_data = profile                                    # type: dict
         self.abilities = list()                                     # type: List[Ability]
 
     def __repr__(self):
         return self.name
 
     def as_dict(self) -> dict:
-        return self.__dict__
+        temp = deepcopy(self._raw_data)
+        if self.abilities and all([isinstance(x, str) for x in self.abilities]):
+            # this indicates tts-format abilities
+            temp['abilities'] = self.abilities
+        return temp
 
-    def calc_ctk(
+    def dmg_chance(
             self,
             vs_t: int,
-            vs_w: int,
+            dmg: int,
             weapon_index: int = 0,
             to_crit: int = 6,
             attack_actions: int = 1
-    ) -> List[Tuple[int, float]]:
+    ) -> List[Tuple[Tuple[int, str], float]]:
         """
-        Calculates the % chance of a weapon killing a fighter with the supplied wounds/toughness.
+        Calculates the % chance of a weapon dealing the given amount of damage to a fighter with the supplied toughness.
         :param vs_t: Toughness of the target fighter
-        :param vs_w: Wounds of the target fighter
+        :param dmg: Target damage
         :param weapon_index: index of the weapon to use, if not provided then the highest ctk will be returned
         :param to_crit: If critting on a roll other than 6, provide the number here
         :param attack_actions: How many actions the fighter can use against the target
-        :return: Returns a tuple of the weapon index and that weapon's ctk
+        :return: Returns a list of ((weapon index, weapon runemark), % chance to deal target damage)
         """
 
         to_check = self.weapons[weapon_index] if weapon_index else self.weapons
@@ -124,10 +133,10 @@ class Fighter:
                         damage = damage + dh
                     if dice >= to_crit:
                         damage = damage + dc
-                if damage >= vs_w:
+                if damage >= dmg:
                     killing_rolls = killing_rolls + 1
-            ctk = killing_rolls / total_rolls
-            to_ret.append(((weapon_index, wep.runemark), ctk))
+            dmg_chance = killing_rolls / total_rolls
+            to_ret.append(((weapon_index, wep.runemark), dmg_chance))
             if weapon_index == 0:
                 weapon_index = weapon_index + 1
 
@@ -181,7 +190,7 @@ class Fighters:
                 for f in self.fighters:
                     if f.name not in expected_damages.keys():
                         expected_damages[f.name] = list()
-                    ctk = f.calc_ctk(vs_t=t, vs_w=w)                # type: list[tuple[int, float]]
+                    ctk = f.dmg_chance(vs_t=t, vs_w=w)                # type: list[tuple[int, float]]
                     ctk_percent = int(ctk[0][1] * 100)
                     expected_damages[f.name].append(ctk_percent)
 

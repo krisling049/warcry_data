@@ -18,7 +18,7 @@ class Ability:
         return self.name
 
     def tts_format(self):
-        raise NotImplementedError
+        return f'{self.cost.capitalize()} - {self.name}'
 
 
 class AbilityJSONDataPayload(JSONDataPayload):

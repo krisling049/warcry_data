@@ -1,6 +1,6 @@
 from .fighters import sort_fighters, Fighters, FighterJSONDataPayload
 from .abilities import Ability
-from .models import DataPayload, PROJECT_DATA, sanitise_filename
+from .models import DataPayload, PROJECT_DATA, sanitise_filename, DIST
 from pathlib import Path
 from typing import Union, List, Dict
 import json
@@ -21,9 +21,9 @@ class WarbandsJSONDataPayload(DataPayload):
             raise TypeError(f'src must be a dir: {src}')
         self._filter_str = filter_string
         super().__init__(src, schema, src_format)
-        self.assign_abilities()
         self.fighters = Fighters(self.data['fighters'])
         self.abilities = [Ability(x) for x in self.data['abilities']]
+        self.assign_abilities()
 
     def __repr__(self):
         return 'WarbandData'
@@ -42,7 +42,7 @@ class WarbandsJSONDataPayload(DataPayload):
                 data['abilities'].extend(as_json)
         return data
 
-    def assign_abilities(self):
+    def assign_ids(self):
         placeholder_pattern = re.compile(f'^PLACEHOLDER.*|^XXXXXX.*', flags=re.IGNORECASE)
 
         for data in self.data.values():                 # type: List
@@ -51,6 +51,14 @@ class WarbandsJSONDataPayload(DataPayload):
                     new_id = str(uuid.uuid4()).split('-')[0]
                     print(f'assigning _id for {entity["name"]} - {new_id}')
                     entity['_id'] = new_id
+
+    def assign_abilities(self):
+
+        for a in self.abilities:
+            faction_match = [x for x in self.fighters.fighters if x.warband == a.warband or a.warband == 'universal']
+            for f in faction_match:
+                if set(a.runemarks).issubset(set(f.runemarks)):
+                    f.abilities.append(a)
 
     def _write_json(self, dst: Path, data: Union[List, Dict]):
         dst.parent.mkdir(parents=True, exist_ok=True)
@@ -62,6 +70,14 @@ class WarbandsJSONDataPayload(DataPayload):
         self.validate_data()
         sorted_data = sort_fighters([dict(sorted(x.items())) for x in self.data['fighters']])
         self._write_json(dst=dst, data=sorted_data)
+
+    def write_tts_fighters(self, dst: Path = Path(PROJECT_DATA, 'tts_fighters.json')):
+        self.assign_abilities()
+        to_write = list()
+        for f in self.fighters.fighters:
+            to_write.append(f.as_dict())
+            to_write[-1]['abilities'] = [a.tts_format() for a in f.abilities]
+        self._write_json(dst=dst, data=to_write)
 
     def write_fighters_markdown_table(self, dst_root: Path = PROJECT_DATA):
         FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_markdown_table(dst_root=dst_root)
