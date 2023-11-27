@@ -18,7 +18,8 @@ class Ability:
         return self.name
 
     def tts_format(self):
-        return f'{self.cost.capitalize()} - {self.name}'
+        tts = f'{self.name}: [{self.cost.capitalize()}]:\n{self.description}'
+        return tts
 
 
 class AbilityJSONDataPayload(JSONDataPayload):

@@ -76,7 +76,7 @@ class WarbandsJSONDataPayload(DataPayload):
         to_write = list()
         for f in self.fighters.fighters:
             to_write.append(f.as_dict())
-            to_write[-1]['abilities'] = [a.tts_format() for a in f.abilities]
+            to_write[-1]['abilities'] = [a.tts_format() for a in f.abilities if a.warband != 'universal']
         self._write_json(dst=dst, data=to_write)
 
     def write_fighters_markdown_table(self, dst_root: Path = PROJECT_DATA):
