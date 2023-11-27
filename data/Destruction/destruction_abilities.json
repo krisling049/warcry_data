@@ -1,0 +1,131 @@
+[
+    {
+        "_id": "c15ac47e",
+        "name": "Drunken Stagger",
+        "warband": "destruction",
+        "monster": "Aleguzzler Gargant",
+        "cost": "double",
+        "description": "Roll a number of dice equal to the value of this ability. Until the end of this fighter's activation, for each roll of 1, subtract 1 from this fighter's Move characteristic (to a minimum of 1), then for each roll of 2+, add 1 to this fighter's Move characteristic.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "dd928981",
+        "name": "Mighty Kick",
+        "warband": "destruction",
+        "monster": "Aleguzzler Gargant",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "4dd76429",
+        "name": "Vicious 'Eadbutt",
+        "warband": "destruction",
+        "monster": "Aleguzzler Gargant",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "c8b9eb22",
+        "name": "Noxious Vomit",
+        "warband": "destruction",
+        "cost": "double",
+        "description": "Roll a number of dice equal to the value of this ability. For each roll of 5+, pick a visible enemy fighter within 6\" of this fighter. Allocate D3 damage points to that fighter.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "6e5b14b2",
+        "name": "Squiggly-beast Followers",
+        "warband": "destruction",
+        "monster": "Dankhold Troggoth",
+        "cost": "double",
+        "description": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 2+, allocate 1 damage point to the fighter being rolled for.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "6a083be7",
+        "name": "Troggoth Regrowth",
+        "warband": "destruction",
+        "cost": "double",
+        "description": "Remove a number of damage points from this fighter up to the value of this ability.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "17e5bdf0",
+        "name": "Troggoth Regrowth",
+        "warband": "destruction",
+        "monster": "Dankhold Troggoth",
+        "cost": "double",
+        "description": "Remove a number of damage points from this fighter up to the value of this ability.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "fcd24c77",
+        "name": "Wall Crawler",
+        "warband": "destruction",
+        "monster": "Skitterstrand Arachnarok",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "835cd781",
+        "name": "Crushing Grip",
+        "warband": "destruction",
+        "monster": "Dankhold Troggoth",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 2 damage points to that fighter.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "e55373fd",
+        "name": "Paralysing Venom",
+        "warband": "destruction",
+        "monster": "Skitterstrand Arachnarok",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, after each attack action made by this fighter, roll a dice. On a roll of 2+, until the end of the battle round, the target of that attack action cannot make move actions or disengage actions.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "d43e0dc0",
+        "name": "Dragged Victim",
+        "warband": "destruction",
+        "monster": "Skitterstrand Arachnarok",
+        "cost": "quad",
+        "description": "Pick an enemy fighter within 1\" of this fighter. Remove that fighter from the battlefield and set them up within 1\" of this fighter. Then, this fighter makes a bonus attack action against that fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "7beccbda",
+        "name": "Horrific Stench",
+        "warband": "destruction",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Subtract 1 from the Attacks characteristic of that attack action, to a minimum of 1.",
+        "runemarks": [
+            "bulwark"
+        ]
+    }
+]

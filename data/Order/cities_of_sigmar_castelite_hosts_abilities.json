@@ -1,0 +1,123 @@
+[
+    {
+        "_id": "be7e8fe2",
+        "name": "Castelite Wall",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made if they are within 3\" of another friendly fighter with the Bulwark and/or Elite runemark. If the other friendly fighter has the Bulwark runemark, add 1 to this fighter's Toughness characteristic until the end of the activation. If the other friendly fighter has the Elite runemark, for each hit roll from that attack action that misses, allocate 2 damage points to the attacking fighter. If the other friendly fighter has both the Bulwark and Elite runemarks, apply both effects.",
+        "runemarks": []
+    },
+    {
+        "_id": "fbfb0c43",
+        "name": "For Sigmar, Charge!",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with both the Cities of Sigmar: Castelite Hosts faction runemark and the Mount runemark that is within 6\" of this fighter and that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": [
+            "mount"
+        ]
+    },
+    {
+        "_id": "64779ea3",
+        "name": "Castelite Formation",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 2 to the Toughness characteristic of friendly fighters with the Cities of Sigmar: Castelite Hosts faction runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "d58adaf5",
+        "name": "Rousing Speech",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by other friendly fighters with the Cities of Sigmar: Castelite Hosts faction runemark while they are within 6\" of this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "ccfc40cf",
+        "name": "You Won't Even Miss It",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 3\" of this fighter. Remove up to D6 damage points allocated to that fighter.",
+        "runemarks": [
+            "sentience"
+        ]
+    },
+    {
+        "_id": "7e4b2898",
+        "name": "Take Aim!",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the damage points allocated by each critical hit from ranged attack actions made by friendly fighters with both the Cities of Sigmar: Castelite Hosts faction runemark and the Elite runemark while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "elite"
+        ]
+    },
+    {
+        "_id": "f6eb6f6a",
+        "name": "To Me, Warriors!",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "triple",
+        "description": "Each friendly fighter with the Cities of Sigmar: Castelite Hosts faction runemark within 6\" of this fighter can make a bonus move action. That move action must end closer to this fighter.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "0484e57b",
+        "name": "Tune of the Corpus Somni",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "triple",
+        "description": "Roll a number of dice equal to the number of friendly fighters with the Cities of Sigmar: Castelite Hosts faction runemark that have been taken down and/ or have 1 or more damage points allocated to them. For each roll of 4+, add one wild dice to your saved wild dice.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "7189a938",
+        "name": "Blazing Weapons",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Cities of Sigmar: Castelite Hosts faction runemark within 6\" of this fighter. For each critical hit from the next melee attack action made by that fighter this battle round, allocate 2 additional damage points to the target fighter.",
+        "runemarks": [
+            "hero",
+            "warrior"
+        ]
+    },
+    {
+        "_id": "4b27ad43",
+        "name": "Sinister Spymaster",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "quad",
+        "description": "Roll 3 dice. For each roll of 4+, your opponent must discard one wild dice from their saved wild dice.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "fac70527",
+        "name": "For the Dawn!",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, add 2 to this fighter's Move characteristic and the Attacks characteristic of attack actions made by this fighter. This ability cannot be used by fighters with the Hero runemark.",
+        "runemarks": []
+    },
+    {
+        "_id": "9a705dd1",
+        "name": "Enchant Weapons",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of attack actions made by friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    }
+]

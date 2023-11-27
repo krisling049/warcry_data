@@ -1,0 +1,50 @@
+name: ExportData
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/**'
+      - '!data/schemas/**'
+      - '!data/fighters.json'
+      - '!data/abilities.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: cd /home/runner/work/warcry_data/
+      run: |
+        cd /home/runner/work/warcry_data/
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r ./python/requirements.txt
+    - name: exporting data
+      run: |
+        python ./python/export_data.py
+    - name: commit fighters.json
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Update docs/fighters.json
+        file_pattern: 'docs/fighters.json'
+    - name: commit abilities.json
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Update docs/abilities.json
+        file_pattern: 'docs/abilities.json'
+    - name: commit fighters_tts.json
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Update docs/fighters_tts.json
+        file_pattern: 'docs/fighters_tts.json'
+

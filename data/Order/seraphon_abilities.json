@@ -1,0 +1,142 @@
+[
+    {
+        "_id": "7e0c051b",
+        "name": "Cold-blooded Commander",
+        "warband": "Seraphon",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "fc86e672",
+        "name": "Hunting Pack",
+        "warband": "Seraphon",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Beast runemark within 2\" of this fighter. That fighter makes a bonus attack action.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "2f33cac4",
+        "name": "Lead from On High",
+        "warband": "Seraphon",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": [
+            "hero",
+            "agile"
+        ]
+    },
+    {
+        "_id": "9dc1bf09",
+        "name": "Nimble Retreat",
+        "warband": "Seraphon",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "eece11bc",
+        "name": "Tide of Serpents",
+        "warband": "Seraphon",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 8\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "b4a104fc",
+        "name": "Voracious Appetite",
+        "warband": "Seraphon",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to that fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "53e140fc",
+        "name": "Lords of Space and Time",
+        "warband": "Seraphon",
+        "cost": "triple",
+        "description": "Pick another friendly fighter with the Seraphon faction runemark that is within 12\" of this fighter. Remove that fighter from the battlefield, then set that fighter up on a platform or the battlefield floor, wholly within a number of inches of this fighter equal to the value of this ability.",
+        "runemarks": [
+            "mystic",
+            "hero"
+        ]
+    },
+    {
+        "_id": "0bcb02c6",
+        "name": "Meteoric Barrage",
+        "warband": "Seraphon",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "7a97b023",
+        "name": "Tearing Bite",
+        "warband": "Seraphon",
+        "cost": "triple",
+        "description": "Add the value of this ability to the damage points allocated by each hit and critical hit from the next melee attack action made by this fighter in this activation.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "9fb8d738",
+        "name": "Revivifying Energies",
+        "warband": "Seraphon",
+        "cost": "quad",
+        "description": "Remove a number of damage points up to the value of this ability allocated to each friendly fighter within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "339d66b0",
+        "name": "Wrath of the Old Ones",
+        "warband": "Seraphon",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "72ea88ae",
+        "name": "Starborn",
+        "warband": "Seraphon",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "fa891e0e",
+        "name": "Chameleon Ambush",
+        "warband": "The Starblood Stalkers",
+        "cost": "double",
+        "description": "This fighter can use this ability only if there are no visible enemy fighters within 12\" of this fighter. This fighter makes a bonus move action.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "da1dd1e6",
+        "name": "Imbue with Azyrite Energy",
+        "warband": "The Starblood Stalkers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Move and Toughness characteristics of friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    }
+]

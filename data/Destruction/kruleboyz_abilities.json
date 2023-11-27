@@ -1,0 +1,134 @@
+[
+    {
+        "_id": "0af73084",
+        "name": "Gang Up",
+        "warband": "Da Kunnin' Krew",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 6\" of this fighter that has both the Da Kunnin' Krew and the Minion runemarks and has not activated yet this battle round.  You can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "f56775f9",
+        "name": "Master of Murk",
+        "warband": "Da Kunnin' Krew",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an obstacle.  Until the end of the battle round, as long as this fighter is within 1\" of an obstacle, they cannot be picked as the target of attack actions made by enemy fighters that are more than 8\" away.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "759bc2a8",
+        "name": "Sneaky Snares",
+        "warband": "Da Kunnin' Krew",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 2\" of this fighter and roll a dice.  On a roll of 2+, until the end of the battle round, that enemy fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "c867eb77",
+        "name": "Aimed Shot",
+        "warband": "Kruleboyz",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they have not made a move action this activation. If this fighter's next action is a missile attack action, critical hits are scored on a 4+ for that attack action.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "2525ab3f",
+        "name": "Bone-crushing Bite",
+        "warband": "Kruleboyz",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to half the value of this ability (rounding up). For each roll of 3+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "hero",
+            "mount"
+        ]
+    },
+    {
+        "_id": "26a4ea2f",
+        "name": "Venom-encrusted Weapon",
+        "warband": "Kruleboyz",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "1af77c38",
+        "name": "You Hold 'Em Off",
+        "warband": "Kruleboyz",
+        "cost": "double",
+        "description": "Pick a friendly fighter with both the Kruleboyz faction runemark and the Bulwark runemark within 3\" of this fighter. That fighter can make a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "berserker",
+            "hero"
+        ]
+    },
+    {
+        "_id": "f7eaecfa",
+        "name": "Breath of the Mire-drake",
+        "warband": "Kruleboyz",
+        "cost": "triple",
+        "description": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 3-4, allocate 1 damage point to the fighter being rolled for. On a roll of 5+, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "icon-bearer",
+            "hero"
+        ]
+    },
+    {
+        "_id": "f2ad33bb",
+        "name": "Brewed Elixir",
+        "warband": "Kruleboyz",
+        "cost": "triple",
+        "description": "Pick a friendly fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, remove up to 3 damage points allocated to that fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "c7f0da76",
+        "name": "Stab 'Em Good",
+        "warband": "Kruleboyz",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of attack actions that have the Dagger runemark made by friendly fighters with the Minion runemark while they are within 6\" of this fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "8c31db62",
+        "name": "Summon Boggy Mist",
+        "warband": "Kruleboyz",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "mystic",
+            "hero"
+        ]
+    },
+    {
+        "_id": "f8fa5631",
+        "name": "Kunnin' Attack",
+        "warband": "Kruleboyz",
+        "cost": "quad",
+        "description": "A fighter can use this ability only if there are more friendly fighters with the Warrior runemark within 6\" of this fighter than there are enemy fighters within 6\" of this fighter. Those friendly fighters can each make a bonus move action or a bonus melee attack action (some can make a bonus move action and others can make a bonus melee attack action).",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "64b1818c",
+        "name": "Kunnin' Trap",
+        "warband": "Kruleboyz",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter within 3\" of this fighter. That fighter makes a bonus attack action that must target the enemy fighter that made the move action.",
+        "runemarks": []
+    }
+]

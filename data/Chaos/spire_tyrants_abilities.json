@@ -1,0 +1,66 @@
+[
+    {
+        "_id": "73945e60",
+        "name": "Gladiator's Net",
+        "warband": "Spire Tyrants",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 3+, until the end of the battle round, that enemy fighter cannot make move actions or disengage actions.",
+        "runemarks": []
+    },
+    {
+        "_id": "a0c80fdf",
+        "name": "Pit Fighter",
+        "warband": "Spire Tyrants",
+        "cost": "double",
+        "description": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation. This fighter can make a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "27158e20",
+        "name": "Shield Ram",
+        "warband": "Spire Tyrants",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 2-5, allocate 2 damage points to that fighter. On a roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "4fd15d12",
+        "name": "Champion of the Warpits",
+        "warband": "Spire Tyrants",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "8a79eeb6",
+        "name": "Readied Stance",
+        "warband": "Spire Tyrants",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Toughness characteristic of this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "c1ba4e23",
+        "name": "Brutal Strike",
+        "warband": "Spire Tyrants",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 2+, allocate 8 damage points to that fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "632890a8",
+        "name": "Gladiatorial Display",
+        "warband": "Spire Tyrants",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If none of the hit rolls from that attack action result in a critical hit, allocate 4 damage points to the attacking fighter.",
+        "runemarks": []
+    }
+]

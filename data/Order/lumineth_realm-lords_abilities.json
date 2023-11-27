@@ -1,0 +1,146 @@
+[
+    {
+        "_id": "45a57d8c",
+        "name": "Go Where the Wind Blows",
+        "warband": "Lumineth Realm-lords",
+        "cost": "double",
+        "description": "Add half the value of this ability (rounding up) to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "26d53a6b",
+        "name": "Lone Agent",
+        "warband": "Lumineth Realm-lords",
+        "cost": "double",
+        "description": "A fighter can only use this ability if there are no other friendly fighters within 6\" of this fighter. This fighter makes a bonus move action.",
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "8232a785",
+        "name": "Moonfire Flask",
+        "warband": "Lumineth Realm-lords",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points equal to the value of this ability to that fighter.",
+        "runemarks": [
+            "hero",
+            "trapper"
+        ]
+    },
+    {
+        "_id": "982850c8",
+        "name": "Mountain Stance",
+        "warband": "Lumineth Realm-lords",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target this fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "ddf04ee7",
+        "name": "Sharp-eyed Scryhawk",
+        "warband": "Lumineth Realm-lords",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 20\" of this fighter. Until the end of the battle round, add 1 to the Attacks characteristic of attack actions that target that fighter.",
+        "runemarks": [
+            "hero",
+            "scout"
+        ]
+    },
+    {
+        "_id": "c0016767",
+        "name": "Shining Company",
+        "warband": "Lumineth Realm-lords",
+        "cost": "double",
+        "description": "A fighter can only use this ability if there are 2 or more other friendly fighters with both the Lumineth Realm-lords faction runemark and the Warrior runemark within 1\" of this fighter. Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they target a fighter within 1\" of this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "81390092",
+        "name": "Emotional Transference",
+        "warband": "Lumineth Realm-lords",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter with the Lumineth Realm-lords faction runemark that has 1 or more damage points allocated to them and that is within 12\" of this fighter. Then, pick a visible enemy fighter within 12\" of this fighter. Roll a number of dice equal to the number of damage points allocated to that friendly fighter. For each 4+, allocate 1 damage point to that enemy fighter.",
+        "runemarks": [
+            "terrifying",
+            "hero"
+        ]
+    },
+    {
+        "_id": "8c2e5b33",
+        "name": "Lances of the Dawn",
+        "warband": "Lumineth Realm-lords",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points equal to the value of this ability to that fighter.",
+        "runemarks": [
+            "mount"
+        ]
+    },
+    {
+        "_id": "593efa51",
+        "name": "Move Like the Wind",
+        "warband": "Lumineth Realm-lords",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, this fighter can finish disengage actions within 1\" of enemy fighters.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "273344b9",
+        "name": "Realmscribe",
+        "warband": "Lumineth Realm-lords",
+        "cost": "double",
+        "description": "Pick a point on the battlefield within 9\" of this fighter and place a special token there. Until the end of the battle round, subtract 1 from the damage points allocated by each critical hit from attack actions that target friendly fighters while they are within 6\" of the centre of that token.",
+        "runemarks": [
+            "hero",
+            "elite"
+        ]
+    },
+    {
+        "_id": "7aeeb3c3",
+        "name": "Gravitic Redirection",
+        "warband": "Lumineth Realm-lords",
+        "cost": "quad",
+        "description": "Allocate D3 damage points to all visible enemy fighters within 6\" of this fighter (roll for each). In addition, until the end of the battle round, halve the Move characteristic (rounding up) of all fighters while they make a move action that starts within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "2e4114a8",
+        "name": "Perfect Strike",
+        "warband": "Lumineth Realm-lords",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. In addition, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from that attack action.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "f9a0b0b3",
+        "name": "Blinding Brilliance",
+        "warband": "Lumineth Realm-lords",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a missile attack action but before the hit rolls are made. After the hit rolls have been made, roll a dice for each critical hit. On a roll of 4+, that critical hit becomes a hit instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "927cb4b0",
+        "name": "Dazzling Light",
+        "warband": "Myari's Purifiers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    }
+]

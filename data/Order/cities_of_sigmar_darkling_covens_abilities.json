@@ -1,0 +1,93 @@
+[
+    {
+        "_id": "70a5f036",
+        "name": "Cut-throat Strike",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when a visible enemy fighter within 1\" of them makes a disengage action but before that fighter moves away. Roll a dice. On a roll of 3+, allocate D6 damage points to that enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "7c1293c8",
+        "name": "Merciless Raiders",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "double",
+        "description": "A fighter can only use this ability if it is the first battle round. Until the end of this fighter's activation, add 2 to the Move characteristic of this fighter and add 1 to the Attacks characteristic of melee attack actions made by this fighter.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "131697f8",
+        "name": "Executioner's Strike",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "5a1f0437",
+        "name": "Swift Disengage",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "mount",
+            "agile"
+        ]
+    },
+    {
+        "_id": "b9abbfb5",
+        "name": "Steel and Sorcery",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 2 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target this fighter while it is within 3\" of a friendly fighter with both the Cities of Sigmar: Darkling Covens faction runemark and the Mystic runemark.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "1b9d036d",
+        "name": "Form Shieldwall",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 2 to the Toughness characteristic of friendly fighters with both the Cities of Sigmar: Darkling Covens faction runemark and the Bulwark runemark while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "a35477d9",
+        "name": "Cavalry Charge",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "1f3a3aaa",
+        "name": "Volley of Shots",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "triple",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next missile attack action made by this fighter in this activation.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "842a6074",
+        "name": "Vitriolic Spray",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 3 damage points to that fighter. In addition, until the end of the battle round, halve the Toughness characteristic of that fighter (rounding up).",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    }
+]

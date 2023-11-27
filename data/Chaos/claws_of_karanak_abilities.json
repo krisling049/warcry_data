@@ -1,0 +1,66 @@
+[
+    {
+        "_id": "3b26491a",
+        "name": "Pack Hunters",
+        "warband": "Claws of Karanak",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 6\" of this fighter that has both the Claws of Karanak runemark and the Agile runemark and has not activated yet this battle round.  You can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "0f23907a",
+        "name": "Blood for the Blood God",
+        "warband": "Claws of Karanak",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "335848c5",
+        "name": "Savage Mauling",
+        "warband": "Claws of Karanak",
+        "cost": "quad",
+        "description": "Pick an enemy fighter within 1\" of this fighter that has a Wounds characteristic of 20 or less.  Remove that fighter from the battlefield and set them up within 1\" of this fighter.  Then, this fighter makes a bonus attack action against that fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "8c956a79",
+        "name": "Horrifying Trophies",
+        "warband": "Claws of Karanak",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation.  Until the end of the battle round, visible enemy fighters within 6\" of this fighter cannot use abilities.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "cab5e578",
+        "name": "Scent of Weakness",
+        "warband": "Claws of Karanak",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation.  Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 8\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "bd012690",
+        "name": "Flaming Breath",
+        "warband": "Claws of Karanak",
+        "cost": "double",
+        "description": "Roll a dice for each visible enemy figther within 1\" of this fighter.  On a roll of 4+, allocate 3 damage points to the fighter being rolled for.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "6964dbf2",
+        "name": "Bay for Coward's Blood",
+        "warband": "Claws of Karanak",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after a visible enemy fighter within 1\" of them makes a disengage action.  Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by friendly fighters that target that enemy fighter.",
+        "runemarks": []
+    }
+]

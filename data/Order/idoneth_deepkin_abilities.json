@@ -1,0 +1,143 @@
+[
+    {
+        "_id": "efc50c98",
+        "name": "Soulnet",
+        "warband": "Elathain's Soulraid",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice.  On a 3+, that fighter cannot make move actions or disengage actions until the end of the battle round.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "f5bce2eb",
+        "name": "Riptide Harpoon",
+        "warband": "Elathain's Soulraid",
+        "cost": "triple",
+        "description": "This fighter makes a bonus attack action.  After that attack action, the fighter targeted by that attack action makes a bonus move action directly towards this figther, as if they were jumping, a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "7c49099a",
+        "name": "Hangman's Knot",
+        "warband": "Idoneth Deepkin",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "10f4fc28",
+        "name": "Low Tide",
+        "warband": "Idoneth Deepkin",
+        "cost": "double",
+        "description": "A fighter can use this ability only if it is the first battle round. This fighter can make a bonus move action up to a number of inches equal to the value of this ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "fe0cb3c3",
+        "name": "Riptide",
+        "warband": "Idoneth Deepkin",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 12\" of this fighter. Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by that fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "e9d22c1c",
+        "name": "Storm Fire",
+        "warband": "Idoneth Deepkin",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks characteristic of missile attack actions made by this fighter.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "f498473c",
+        "name": "Storm of Blows",
+        "warband": "Idoneth Deepkin",
+        "cost": "double",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next melee attack action made by this fighter in this activation.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
+    },
+    {
+        "_id": "094f07e8",
+        "name": "Sweeping Blow",
+        "warband": "Idoneth Deepkin",
+        "cost": "double",
+        "description": "Roll a dice for each visible enemy fighter within 2\" of this fighter. On a roll of 5, allocate 1 damage point to the fighter being rolled for. On a roll of 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "60bba3cb",
+        "name": "Biovoltaic Barrier",
+        "warband": "Idoneth Deepkin",
+        "cost": "triple",
+        "description": "Until the end of the battle round, count each critical hit from attack actions that target this fighter as a hit instead.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "be1c62dd",
+        "name": "High Tide",
+        "warband": "Idoneth Deepkin",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if it is the third battle round. Add 1 to the Attacks and Strength characteristics of melee attack actions made by friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "997d8ddd",
+        "name": "Scryfish Shoal",
+        "warband": "Idoneth Deepkin",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 10\" of this fighter and roll 6 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 2 damage points to that fighter.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "4d837d86",
+        "name": "Way of the Depths",
+        "warband": "Idoneth Deepkin",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by this fighter and by visible friendly fighters with the Idoneth Deepkin faction runemark and either the Agile or Minion runemarks while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "sentience"
+        ]
+    },
+    {
+        "_id": "190ec318",
+        "name": "Biovoltaic Blast",
+        "warband": "Idoneth Deepkin",
+        "cost": "quad",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "f76c0a5e",
+        "name": "Fade from Memory",
+        "warband": "Idoneth Deepkin",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them. If there is another friendly fighter visible to that enemy fighter and within range of at least one of that enemy fighter's melee weapons, for the rest of the battle round that enemy fighter cannot target this fighter.",
+        "runemarks": []
+    }
+]

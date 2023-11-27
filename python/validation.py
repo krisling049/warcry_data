@@ -1,23 +1,9 @@
-import json
 import pathlib
-import jsonschema
 import argparse
-from typing import List, Dict, Union
-
-
-def validate_data(data: Union[List[Dict], pathlib.Path], schema: Dict) -> bool:
-    if isinstance(data, pathlib.Path):
-        with open(data, 'r') as f:
-            data = json.load(f)
-
-    try:
-        jsonschema.validate(data, schema)
-    except jsonschema.exceptions.ValidationError as ve:
-        failing_fighter = data[ve.absolute_path[0]]['name']
-        print(f'ERROR: {failing_fighter}', flush=True)
-        raise ve
-    # If we reach this point, the data has validated successfully, so we can return
-    return True
+from data_parsing.models import PROJECT_DATA
+from data_parsing.fighters import FighterJSONDataPayload
+from data_parsing.abilities import AbilityJSONDataPayload
+from data_parsing.warbands import WarbandsJSONDataPayload
 
 
 if __name__ == '__main__':
@@ -25,24 +11,21 @@ if __name__ == '__main__':
     parser.add_argument(
         "--data",
         type=pathlib.Path,
-        default=pathlib.Path(pathlib.Path(__file__).parent.parent, 'data', 'fighters.json'),
-        help="absolute path to json to be validated"
-    )
-    parser.add_argument(
-        "--schema",
-        type=pathlib.Path,
-        default=pathlib.Path(pathlib.Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_fighter_schema.json'),
-        help="absolute path to schema file"
+        default=PROJECT_DATA,
+        help="path to project data folder"
     )
     args = parser.parse_args()
 
-    print(f'Loading schema: {args.schema.absolute()}')
-    with open(args.schema.absolute(), 'r') as s:
-        loaded_schema = json.load(s)
+    to_validate = [
+        FighterJSONDataPayload(),
+        AbilityJSONDataPayload(),
+        WarbandsJSONDataPayload()
+    ]
 
-    print(f'Validating {args.data.name} using {args.schema.name}...')
+    for data in to_validate:
+        print(f'validating {data}')
+        data.validate_data()
 
-    if validate_data(args.data, loaded_schema):
-        print('Validation passed.')
+    print('validation passed')
 
 

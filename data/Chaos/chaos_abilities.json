@@ -1,0 +1,454 @@
+[
+    {
+        "_id": "43a52834",
+        "name": "Berserk",
+        "warband": "chaos",
+        "cost": "double",
+        "description": "A fighter can only use this ability if 20 or more damage points have been allocated to them. Add 3 to the Attacks characteristic of the next melee attack action made by this fighter in this activation.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "2d6a9f87",
+        "name": "Hurl Masonry",
+        "warband": "chaos",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of an obstacle. Pick a visible enemy fighter within 8\" of this fighter and roll a dice. On a roll of 2-4, allocate 1 damage point to that fighter. On a roll of 5+, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "8a3c74a0",
+        "name": "Maw Tentacles",
+        "warband": "chaos",
+        "monster": "Mutalith Vortex Beast",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter. That enemy fighter makes a bonus move action directly towards this fighter, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "cf5c1090",
+        "name": "Mighty Jaws",
+        "warband": "chaos",
+        "monster": "Slaughterbrute",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate 1 damage point to that fighter.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "639d31e7",
+        "name": "Outrunner of Chaos",
+        "warband": "chaos",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "94cb55a7",
+        "name": "Regenerating Monstrosity",
+        "warband": "chaos",
+        "monster": "Hell Pit Abomination",
+        "cost": "double",
+        "description": "Roll a number of dice equal to the value of this ability. For each roll of 4+, remove up to 3 damage points allocated to this fighter.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "a2ab02f6",
+        "name": "Rip and Tear Masonry",
+        "warband": "chaos",
+        "monster": "Cygor",
+        "cost": "double",
+        "description": "This fighter can only use this ability if they are within 1\" of an obstacle. If this fighter is empty-handed (see below), they are no longer empty-handed.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "e2a3a52d",
+        "name": "Roaring Charge",
+        "warband": "chaos",
+        "monster": "Ghorgon",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "5966dc17",
+        "name": "Tail Whip",
+        "warband": "chaos",
+        "monster": "chimera",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 4+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "ec0cec2a",
+        "name": "Telepathic Threatening",
+        "warband": "chaos",
+        "cost": "double",
+        "description": "Pick an enemy fighter within a number of inches of this fighter equal to the value of this ability and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "7bbc8ec9",
+        "name": "Arcane Fury",
+        "warband": "chaos",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "4ea5d6ac",
+        "name": "Avalanche of Flesh",
+        "warband": "chaos",
+        "monster": "Hell Pit Abomination",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "14938b02",
+        "name": "Cower",
+        "warband": "chaos",
+        "cost": "triple",
+        "description": "Until the end of the battle round, count each critical hit from attack actions that target this fighter as a hit instead.",
+        "runemarks": [
+            "sentience"
+        ]
+    },
+    {
+        "_id": "432cbdbc",
+        "name": "Crazed Flock",
+        "warband": "chaos",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, for each other friendly fighter within 3\" of this fighter that has the same runemarks as this fighter, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "c6ede27d",
+        "name": "Dominate Mind",
+        "warband": "chaos",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "e849e327",
+        "name": "Hurl Boulder",
+        "warband": "chaos",
+        "monster": "Cygor",
+        "cost": "triple",
+        "description": "This fighter can only use this ability if they are not empty-handed (see below). At the start of the battle, this fighter is not empty-handed. Pick a visible enemy fighter within 15\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 5 damage points to that fighter. After using this ability, this fighter is said to be empty-handed.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "e19e1937",
+        "name": "Leonine Roar",
+        "warband": "chaos",
+        "monster": "chimera",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "f498740f",
+        "name": "Mutant Regeneration",
+        "warband": "chaos",
+        "monster": "Mutalith Vortex Beast",
+        "cost": "triple",
+        "description": "Roll a number of dice equal to the value of this ability. For each roll of 4+, remove up to 3 damage points allocated to this fighter.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "9a527ccb",
+        "name": "Rampaging Charge",
+        "warband": "chaos",
+        "monster": "Slaughterbrute",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "04e790c9",
+        "name": "Slavering Maw",
+        "warband": "chaos",
+        "monster": "Ghorgon",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "b26ac39f",
+        "name": "Uncontrollable Stampede",
+        "warband": "chaos",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "df25190d",
+        "name": "The Master's Voice",
+        "warband": "chaos",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action within 3\" of a friendly fighter with the Hero runemark. This fighter makes a bonus move action. After that move action that fighter must be within 1\" of the enemy fighter that made the move action. Then, this fighter makes a bonus attack action.",
+        "runemarks": [
+            "thrall"
+        ]
+    },
+    {
+        "_id": "e9455430",
+        "name": "Writhing Tentacles",
+        "warband": "chaos",
+        "cost": "triple",
+        "description": "Add the value of this ability to the Attacks characteristic of the next melee attack action made by this fighter in this activation.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "b7b106a5",
+        "name": "Aura of Mutation",
+        "warband": "chaos",
+        "monster": "Mutalith Vortex Beast",
+        "cost": "quad",
+        "description": "Allocate 3 damage points to all visible enemy fighters within 3\" of this fighter. In addition, roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 6, that fighter cannot activate this battle round.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "c3d76f91",
+        "name": "Beast Unbound",
+        "warband": "chaos",
+        "monster": "Slaughterbrute",
+        "cost": "triple",
+        "description": "This fighter makes a bonus attack action or a bonus move action.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "739e521e",
+        "name": "Blood Marshal",
+        "warband": "chaos",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter within 4\" of this fighter. Allocate 1 damage point to that fighter. If that fighter is not taken down, they can make a bonus melee attack action.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "68c2f956",
+        "name": "Bloody Trophy",
+        "warband": "chaos",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Add one wild dice to your saved wild dice.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "f86e1ac0",
+        "name": "Charm",
+        "warband": "chaos",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within a number of inches of this fighter equal to the value of this ability. That fighter cannot activate or make reactions in this battle round.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "cd07297b",
+        "name": "Draconic Head's Fiery Breath",
+        "warband": "chaos",
+        "monster": "chimera",
+        "cost": "quad",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 4\" of this fighter.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "2d016ef5",
+        "name": "Ravenous Bloodgreed",
+        "warband": "chaos",
+        "monster": "Ghorgon",
+        "cost": "quad",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability. Then, this fighter can make a bonus attack action.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "8922ef18",
+        "name": "Soul-eater",
+        "warband": "chaos",
+        "monster": "Cygor",
+        "cost": "quad",
+        "description": "Roll a dice for each enemy fighter within 6\" of this fighter. On a roll of 4+, allocate 3 damage points to the fighter being rolled for and remove 3 damage points allocated to this fighter.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "53858b0f",
+        "name": "Too Horrible to Die",
+        "warband": "chaos",
+        "monster": "Hell Pit Abomination",
+        "cost": "quad",
+        "description": "Until the end of the battle round, after each melee attack action that targets this fighter, roll 3 dice. For each roll of 5+, allocate 3 damage points to the fighter that made the attack action.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "29de0ba8",
+        "name": "Rampaging Charge",
+        "warband": "chaos",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "fb6f504b",
+        "name": "Skewer, Drag and Bludgeon",
+        "warband": "chaos",
+        "cost": "quad",
+        "description": "This fighter can make a bonus attack action with its spear.  In addition, if that bonus attack action scores any critical hits, the target fighter moves 3\"  directly towards this fighter as if they were jumping, even if they are within 1\" of any enemy fighters.  If the target fighter finishes that move within 1\" of this fighter, this fighter can make a bonus attack action with its club.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "bf43048a",
+        "name": "Marshal's Net",
+        "warband": "chaos",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice.  On a 3+, that fighter cannot make move actions or disengage actions this round.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "a2752287",
+        "name": "Trampling Charge",
+        "warband": "chaos",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter.  Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "710715ea",
+        "name": "Unthinking Destruction",
+        "warband": "chaos",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action on an open platform and within 3\" horizontally and 5\" vertically of this fighter. The controlling player for each fighter within 1/2\" of the edge of that platform must take a falling test, and on a roll of 1 or 2 that fighter falls.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "a7e23cab",
+        "name": "Death Scream",
+        "warband": "chaos",
+        "monster": "Terrorgheist",
+        "cost": "triple",
+        "description": "Roll a dice for each visible enemy fighter within 8\" of this fighter. On a roll of 5, allocate 1 damage point to the fighter being rolled for. On a roll of 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "90a08960",
+        "name": "Drunken Stagger",
+        "warband": "chaos",
+        "monster": "Chaos Gargant",
+        "cost": "double",
+        "description": "Roll a number of dice equal to the value of this ability. Until the end of this fighter's activation, for each roll of 1, subtract 1 from this fighter's Move characteristic (to a minimum of 1), then for each roll of 2+, add 1 to this fighter's Move characteristic.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "7bbcb219",
+        "name": "Mighty Kick",
+        "warband": "chaos",
+        "monster": "Chaos Gargant",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "8613c6ea",
+        "name": "Vicious 'Eadbutt",
+        "warband": "chaos",
+        "monster": "Chaos Gargant",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "2908288b",
+        "name": "Test of Skill",
+        "warband": "chaos",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If each hit roll from that attack action results in a miss, allocate 10 damage points to the attacking fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "261f0ed9",
+        "name": "Spiteful Reprisal",
+        "warband": "chaos",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made. For each hit roll from that attack action that misses, reduce the value of one of the attacker's controlling player's [doubles], [triples] or [quads] to 1.",
+        "runemarks": [
+            "mystic"
+        ]
+    }
+]

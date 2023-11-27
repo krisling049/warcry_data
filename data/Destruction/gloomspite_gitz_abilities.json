@@ -1,0 +1,281 @@
+[
+    {
+        "_id": "a2f5c060",
+        "name": "Backstabbing Mob",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "A fighter can only use this ability if there is a visible friendly fighter within 1\" of them. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "501349fc",
+        "name": "Barbed Net",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "da790fc4",
+        "name": "Loonshine Potion",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 3\" of this fighter. Until the end of the battle round, add 3 to the Attacks characteristic of the next melee attack action made by that fighter.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "bd41d7ed",
+        "name": "Mesmerise",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "Pick an enemy fighter within a number of inches of this fighter equal to the value of this ability and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "6eaa49d2",
+        "name": "Poison Brew",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 3\" of this fighter. Until the end of the battle round, add the value of this ability to the Strength characteristic of the next melee attack action made by that fighter.",
+        "runemarks": [
+            "sentience"
+        ]
+    },
+    {
+        "_id": "8329b962",
+        "name": "Speed of the Spider God",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Move characteristic of friendly fighters with the Destroyer runemark that start their activation within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "0ec7a143",
+        "name": "Bogeyman Dance",
+        "warband": "Gloomspite Gitz",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter within 6\" of this fighter. Until the end of the battle round, add 3 to the Move characteristic of that fighter.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "7ba53615",
+        "name": "Madcap Destruction",
+        "warband": "Gloomspite Gitz",
+        "cost": "triple",
+        "description": "Roll a dice. This fighter can make a bonus move action up to double the value of the result. If this fighter finishes that move action within 1\" of one or more visible enemy fighters, pick one of those enemy fighters. Allocate a number of damage points to that enemy fighter equal to the value of the result.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "e6090ac7",
+        "name": "Fungoid Cloud",
+        "warband": "Gloomspite Gitz",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within a number of inches of this fighter equal to the value of this ability. Until the end of the battle round, subtract half the value of this ability (rounding up) from the Attacks characteristic (to a minimum of 1) of attack actions made by that fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "e9f0c865",
+        "name": "Go Dat Way!",
+        "warband": "Gloomspite Gitz",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Beast runemark within 4\" of this fighter. That fighter makes a bonus move action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "83341ebc",
+        "name": "Magic Spore Maws",
+        "warband": "Gloomspite Gitz",
+        "cost": "triple",
+        "description": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 3-4, allocate 1 damage point to the fighter being rolled for. On a roll of 5+, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "757c3331",
+        "name": "Spider Bite",
+        "warband": "Gloomspite Gitz",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "315054de",
+        "name": "Stab 'Em Good",
+        "warband": "Gloomspite Gitz",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "103c0992",
+        "name": "I'm Da Boss; Now Stab 'Em Good!",
+        "warband": "Gloomspite Gitz",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add the value of this ability to the Attacks characteristic of melee attack actions made by friendly fighters with the Gloomspite Gitz faction runemark while they are within 6\" of this fighter.",
+        "runemarks": [
+            "champion",
+            "hero"
+        ]
+    },
+    {
+        "_id": "59b00d5a",
+        "name": "Sneaky Stab",
+        "warband": "Gloomspite Gitz",
+        "cost": "quad",
+        "description": "This fighter makes a bonus move action. Then, they can make a bonus melee attack action. In addition, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from that attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "c15373cf",
+        "name": "Pile On",
+        "warband": "Gloomspite Gitz",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter with the Gloomspite Gitz runemark. That fighter makes a bonus move action. After that move action, that fighter must be within 1\" of the enemy fighter that made the move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "16486f1f",
+        "name": "Spore Cloud",
+        "warband": "Gloomspite Gitz",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after a friendly fighter within 3\" of this fighter is targeted by a missile attack action but before the hit rolls are made. Until the end of the round, friendly fighters are considered to be in cover while they are within 3\" of this fighter.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "ae5c000d",
+        "name": "Spiteful Demise",
+        "warband": "Gloomspite Gitz",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Roll a dice. On a roll of 4+, allocate 3 damage points to their attacker.",
+        "runemarks": [
+            "ally"
+        ]
+    },
+    {
+        "_id": "a523f4de",
+        "name": "Questin' Knight",
+        "warband": "Grinkrak's Looncourt",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, after the enemy fighter is taken down by a melee attack action made this fighter, this fighter can make a bonus move action nor a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "80846cd7",
+        "name": "Enthusiastic Dubbin'",
+        "warband": "Grinkrak's Looncourt",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Grinkrak's Looncourt runemark within 3\" of this fighter that has not activated yet this battle round.  That fighter suffers impact damage.  You can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": []
+    },
+    {
+        "_id": "5550a018",
+        "name": "Sound da Charge!",
+        "warband": "Grinkrak's Looncourt",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "23a2faeb",
+        "name": "Tuff Nut",
+        "warband": "Grinkrak's Looncourt",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "120bc628",
+        "name": "Hurl Jabbertoad",
+        "warband": "Mollog's Mob",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice.  For each 4-5, allocate 1 damaage point to that fighter.  For each 6, allocate a number of damage pints equal to the value of this ability to that fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "16395fb8",
+        "name": "Summon Stalagsquig",
+        "warband": "Mollog's Mob",
+        "cost": "double",
+        "description": "A fighter can only use this ability once per battle.  Pick a point on a platform or the battlefield floor within 3\" of this fighter that is more than 1\" from all enemy fighters and set up the Stalagsquig marker.  Allocate 2D6 damage points to the first enemy fighter to move within 1\" of the marker, then remove the marker.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "16aaac30",
+        "name": "Summon Spiteshroom",
+        "warband": "Mollog's Mob",
+        "cost": "triple",
+        "description": "A fighter can only use this ability once per battle.  Pick a point on a platform or the battlefield floor within 3\" of this fighter that is more than 1\" from all enemy fighters and set up the Spiteshroom marker.  Subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by the enemy fighters while they are within 6\" of the Spiteshroom marker.  Fighters cannot end a move on the Spiteshroom marker.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "5ed43c1c",
+        "name": "Snarlfang's Jaws",
+        "warband": "Rippa's Snarlfangs",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll 2 dice.  For each 4-5, allocate 1 damage point to that fighter.  For each 6, allocate a number of damage points equal to the value of this ability to that fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "18a0ccfa",
+        "name": "Ferocious Pounce",
+        "warband": "Rippa's Snarlfangs",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter.  Allocate a number of damage points equal to the value of this ability to that fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "75b35f0c",
+        "name": "Face of Da Bad Moon",
+        "warband": "Zarbag's Gitz",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter that is within 1\" of a friendly fighter.  That enemy fighter must make a bonus disengage action.  If the ycannot do so, allocate D6 damage pints to that enemy fighter instead.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "46e10186",
+        "name": "Whirling Death",
+        "warband": "Zarbag's Gitz",
+        "cost": "quad",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    }
+]

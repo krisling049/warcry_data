@@ -1,7 +1,12 @@
 """
 Utility functions and script for data manipulation and management
 """
-from data_parsing import FighterJSONPayload, AbilityJSONPayload, Fighter, Ability, DataPayload, Weapon
+import json
+
+from data_parsing.fighters import Fighter, FighterJSONDataPayload
+from data_parsing.abilities import Ability, AbilityJSONDataPayload
+from data_parsing.models import DataPayload, DIST
+from data_parsing.warbands import WarbandsJSONDataPayload
 from pathlib import Path
 from typing import List, Dict
 import uuid
@@ -47,20 +52,69 @@ def by_points(fighter: Fighter) -> int:
 
 
 if __name__ == '__main__':
+    # fighters = FighterJSONDataPayload()
+    # abilities = AbilityJSONDataPayload()
 
-    fighter_data_payload = FighterJSONPayload(
-        src_file=Path(Path(__file__).parent.parent, 'data', 'fighters.json'),
-        schema=Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_fighter_schema.json')
-    )
+    warbands = WarbandsJSONDataPayload()
 
-    ability_data_payload = AbilityJSONPayload(
-        src_file=Path(Path(__file__).parent.parent, 'data', 'abilities.json'),
-        schema=Path(Path(__file__).parent.parent, 'data', 'schemas', 'aggregate_ability_schema.json')
-    )
+    # for warband in Path(PROJECT_ROOT, 'data').rglob('*.json'):
+    #     if warband.name in ['fighters.json', 'abilities.json']:
+    #         continue
+    #     if warband.parent.name == 'schemas':
+    #         continue
+    #     payload = FighterJSONDataPayload(src_file=warband)
+    #     dst = warband if '_fighters' in warband.name else warband.with_name(f'{warband.stem}_fighters.json')
+    #     payload.write_to_disk(dst=dst)
 
-    new_data = list()
+    # abs_by_warband = {'chaos': dict(), 'death': dict(), 'destruction': dict(), 'order': dict(), 'universal': dict()}
+    # # {ga: warband: [abilities]}
+    # bladeborn_mapping = {'universal': 'universal'}
+    # old_cities = [
+    #             'Anvilgard Loyalists',
+    #             'The Phoenicium',
+    #             'Greywater Fastness',
+    #             "Tempest's Eye",
+    #             'The Living City',
+    #             'Hallowheart',
+    #             'Hammerhal'
+    #         ]
+    # for c in old_cities:
+    #     bladeborn_mapping[c] = 'Cities of Sigmar'
+    #
+    # for ability in abilities.data:
+    #     grand_alliance = 'universal' if ability['warband'] == 'universal' else None
+    #     if not grand_alliance:
+    #         if ability['warband'] in old_cities:
+    #             grand_alliance = 'order'
+    #         for f in fighters.data:
+    #             if f['bladeborn']:
+    #                 bladeborn_mapping[f['bladeborn']] = f['warband']
+    #             bladeborn_mapping[f['warband']] = f['warband']
+    #             if f['warband'] == ability['warband'] or f['bladeborn'] == ability['warband']:
+    #                 grand_alliance = f['grand_alliance']
+    #                 break
+    #     if not grand_alliance:
+    #         x = 1
+    #     if bladeborn_mapping[ability["warband"]] not in abs_by_warband[grand_alliance].keys():
+    #         abs_by_warband[grand_alliance][bladeborn_mapping[ability["warband"]]] = list()
+    #     abs_by_warband[grand_alliance][bladeborn_mapping[ability["warband"]]].append(ability)
+    #
+    # for grand_alliance, warbands in abs_by_warband.items():
+    #     for warband, warband_abilities in warbands.items():
+    #         out_path = Path(PROJECT_ROOT, 'data', grand_alliance, f'{sanitise_filename(warband)}_abilities.json')
+    #         sorted_data = sorted(warband_abilities, key=lambda d: d['warband'])
+    #         out_path.parent.mkdir(parents=True, exist_ok=True)
+    #         with open(out_path, 'w') as f:
+    #             print(f'Writing {len(sorted_data)} abilities to {out_path}...')
+    #             json.dump(sorted_data, f, ensure_ascii=False, indent=4, sort_keys=False)
+    #
+    #
+    fighters = FighterJSONDataPayload(preloaded_data=warbands.data['fighters'])
+    fighters.write_markdown_table(dst_root=DIST)
+
+
 
     # Do stuff with data, add it to new_data
 
-    export_files([fighter_data_payload, ability_data_payload])
+    # export_files([fighter_data_payload, ability_data_payload])
 

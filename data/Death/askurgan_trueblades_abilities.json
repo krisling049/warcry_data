@@ -1,0 +1,68 @@
+[
+    {
+        "_id": "48f97b6e",
+        "name": "Moment of Savagery",
+        "warband": "Askurgan Trueblades",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation.  This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "a9afcaaa",
+        "name": "Perfect Strike",
+        "warband": "Askurgan Trueblades",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, attack actions made by this fighter score a critical hit on a 5+.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "878a98e7",
+        "name": "Worthy Foes",
+        "warband": "Askurgan Trueblades",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, add 2 to this fighter's Move characteristic and the Attacks characteristic of melee attack actions made by this fighter.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "f2a7365f",
+        "name": "Beast Familiar",
+        "warband": "Askurgan Trueblades",
+        "cost": "double",
+        "description": "Pick an enemy fighter within 20\" of this fighter.  Until the end of the battle round, that fighter cannot make disengage actions.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "309d7f51",
+        "name": "Terrifying Howl",
+        "warband": "Askurgan Trueblades",
+        "cost": "double",
+        "description": "Until the end of the battle round, enemy fighters within 3\" of this fighter cannot make reactions.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "401d92b1",
+        "name": "Magisterial Poise",
+        "warband": "Askurgan Trueblades",
+        "cost": "triple",
+        "description": "A figther can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation.  Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 8\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "ef244143",
+        "name": "Lofty Disdain",
+        "warband": "Askurgan Trueblades",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made.  Add 1 to this fighter's Toughness characteristic during that attack action.",
+        "runemarks": []
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "_id": "3a2c183b",
+        "name": "Thundering Strides",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "cost": "double",
+        "description": "Pick another friendly fighter within 6\" of this fighter.  That fighter makes a bonus move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "c9ece71e",
+        "name": "With the Force of a Thunderbolt",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "cost": "double",
+        "description": "A fighter can only use this ability after they finish a move action within 1\" of 2 or more enemy fighters.  This fighter makes a bonus attack action.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "3e3777bd",
+        "name": "Searing Light",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "cost": "triple",
+        "description": "Allocate 3 damage points to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "ba51b7f7",
+        "name": "Face Me, Cowards!",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "cost": "triple",
+        "description": "Enemy fighters that begin their actvation within 3\" of this fighter cannot make disengage actions or end move actions further from this fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "54b02d01",
+        "name": "Translocation",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "cost": "quad",
+        "description": "Choose a friendly fighter with a Stormcast Eternals runemark within 3\" of this fighter. Remove that fighter from the battlefield and then immediately set them up anywhere on the battlefield more than 4\" from all enemy fighters.",
+        "runemarks": [
+            "priest"
+        ]
+    },
+    {
+        "_id": "5b24ebcb",
+        "name": "You Won't Even Slow Me Down",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation.  This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "838252a4",
+        "name": "Swift Retribution",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down.  Pick another friendly fighter.  That fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": []
+    }
+]

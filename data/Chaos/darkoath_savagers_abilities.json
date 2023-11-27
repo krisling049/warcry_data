@@ -1,0 +1,66 @@
+[
+    {
+        "_id": "964fb133",
+        "name": "A Vow Fulfilled",
+        "warband": "Darkoath Savagers",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, each time an enemy fighter is taken down, you can pick either this fighter's Toughness characteristic or the Attacks or Strength characteristic of 1 weapon this fighter is armed with. Until the end of the battle, add 1 to the characteristic you picked.",
+        "runemarks": []
+    },
+    {
+        "_id": "dfe65d68",
+        "name": "Display of Brutality",
+        "warband": "Darkoath Savagers",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "ef30be4b",
+        "name": "Visions of Glory",
+        "warband": "Darkoath Savagers",
+        "cost": "double",
+        "description": "Roll a number of dice equal to the value of this ability. For each roll of 5+, add one wild dice to your saved wild dice.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "fc38e638",
+        "name": "Curse of Withering",
+        "warband": "Darkoath Savagers",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4-5, until the end of the battle round, subtract 1 from that fighter's Toughness characteristic (to a minimum of 1). For each roll of 6, until the end of the battle, subtract 1 from that fighter's Toughness characteristic (to a minimum of 1).",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "a3ec1906",
+        "name": "Furious Rampage",
+        "warband": "Darkoath Savagers",
+        "cost": "triple",
+        "description": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 3-4, allocate 1 damage point to the fighter being rolled for. On a roll of 5+, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "812e4d39",
+        "name": "Deathblow",
+        "warband": "Darkoath Savagers",
+        "cost": "quad",
+        "description": "Add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from the next melee attack action made by this fighter in this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "dbb2c7b4",
+        "name": "Instinctive Dodge",
+        "warband": "Darkoath Savagers",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by an attack action, after the hit rolls have been made. Roll a dice for each critical hit. On a roll of 4+, that critical hit becomes a hit instead.",
+        "runemarks": []
+    }
+]

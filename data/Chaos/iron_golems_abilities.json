@@ -1,0 +1,68 @@
+[
+    {
+        "_id": "f73c77a3",
+        "name": "Spine-crushing Blow",
+        "warband": "Iron Golems",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the Strength characteristic of melee attack actions made by this fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "379739f5",
+        "name": "Lead with Strength",
+        "warband": "Iron Golems",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "4f9ac0c4",
+        "name": "Throw Bolas",
+        "warband": "Iron Golems",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "d40f57a3",
+        "name": "Living Battering Ram",
+        "warband": "Iron Golems",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "a690cb84",
+        "name": "Stand Defiant",
+        "warband": "Iron Golems",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "d41d5159",
+        "name": "Whirlwind of Death",
+        "warband": "Iron Golems",
+        "cost": "quad",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "1bbc1dfd",
+        "name": "Clashing Iron",
+        "warband": "Iron Golems",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead.",
+        "runemarks": []
+    }
+]

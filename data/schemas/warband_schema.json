@@ -1,0 +1,20 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"$id": "https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas/warbands_schema.json",
+	"type": "object",
+	"title": "Schema for warband and aggregate data files",
+	"properties": {
+		"fighters": {
+			"type": "array",
+			"items": {
+				"$ref": "https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas/fighter_schema.json"
+			}
+		},
+		"abilities": {
+			"type": "array",
+			"items": {
+				"$ref": "https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas/ability_schema.json"
+			}
+		}
+	}
+}

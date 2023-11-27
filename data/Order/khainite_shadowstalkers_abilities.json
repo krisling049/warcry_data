@@ -1,0 +1,66 @@
+[
+    {
+        "_id": "27a6269a",
+        "name": "Cursed Darts",
+        "warband": "Khainite Shadowstalkers",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter and roll 2 dice. For each roll of 4+, allocate 2 damage points to that fighter. In addition, if either dice rolls a 6, until the end of the battle round, halve the Move characteristic of that fighter (rounding up).",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "c3899b32",
+        "name": "Instrument of Khaine",
+        "warband": "Khainite Shadowstalkers",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "8574d874",
+        "name": "Shadow Leap",
+        "warband": "Khainite Shadowstalkers",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, this fighter can fly when making move actions.",
+        "runemarks": []
+    },
+    {
+        "_id": "863437da",
+        "name": "Dance of Death",
+        "warband": "Khainite Shadowstalkers",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, this fighter can finish disengage actions within 1\" of enemy fighters.",
+        "runemarks": []
+    },
+    {
+        "_id": "a73ee76a",
+        "name": "Harness Shadow",
+        "warband": "Khainite Shadowstalkers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they target a fighter within 3\" of this fighter.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "7bb5e8da",
+        "name": "Ensnaring Darkness",
+        "warband": "Khainite Shadowstalkers",
+        "cost": "quad",
+        "description": "Either allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter, or allocate 3 damage points to this fighter and a number of damage points equal to the value of this ability to all visible enemy fighters within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "0639c5be",
+        "name": "Slip Between Shadows",
+        "warband": "Khainite Shadowstalkers",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them. Note the distance between this fighter and the enemy fighter that made the move action. Remove this fighter from the battlefield and then set this fighter up on a platform or the battlefield floor no further from the enemy fighter that made the move action.",
+        "runemarks": []
+    }
+]

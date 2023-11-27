@@ -1,0 +1,68 @@
+[
+    {
+        "_id": "36774520",
+        "name": "Hammering Strikes",
+        "warband": "Jade Obelisk",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been allocated damage points by an attack action made by them this activation.  Add half the value of this ability (rounding up) to the damage points allocated by each hit and critical hit from the next melee attack action this activation that targets that enemy fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "3dea36d7",
+        "name": "Rock-shattering Blow",
+        "warband": "Jade Obelisk",
+        "cost": "double",
+        "description": "Add 1 to the Strength characteristic of the next melee attack action made by this fighter this activation and add 1 to the damage points allocated by each hit and critical hit from that attack action.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "de2478b0",
+        "name": "Stonewarp",
+        "warband": "Jade Obelisk",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 9\" of a visible friendly fighter with the Jade Obelisk and icon-bearer runemarks.  Remove a number of damage points allocated to this fighter equal to half the value of this ability (rounding up).  If this fighter is also within 6\" of a friendly fighter with the Jade Obelisk and Priest runemarks, remove a number of damage points allocated to this fighter equal to the value of this ability instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "7be64433",
+        "name": "Bloody Tribute",
+        "warband": "Jade Obelisk",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by them this activation.  Pick a friendly fighter within 9\" of a visible friendly fighter with the Jade Obelisk and icon-bearer runemarks.  That fighter makes a bonus move action.",
+        "runemarks": [
+            "priest"
+        ]
+    },
+    {
+        "_id": "7bb0cd4b",
+        "name": "Gaze of the Idolarc",
+        "warband": "Jade Obelisk",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter.  Subtract half the value of this ability (rounding up) from either the Move characteristic or the Toughness characteristic of that fighter (to a minimum of 1) until the end of the battle round.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "c9f0d8ea",
+        "name": "Might of the Speaker",
+        "warband": "Jade Obelisk",
+        "cost": "quad",
+        "description": "Pick a visible friendly fighter within a number of inches of this fighter equal to the value of this ability.  Add 3 to the value of this ability if a friendly fighter with the Jade Obelisk and Priest runemarks is on the battlefield.  That fighter can make up to 2 bonus move actions, bonus attack actions or bonus disengage actions in any combination.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "0aeea1c5",
+        "name": "The Curse of Jade",
+        "warband": "Jade Obelisk",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made.  Subtract 1 from the damage points allocated to this fighter by each hit and critical hit from that attack action (to a minimum of 1).",
+        "runemarks": []
+    }
+]

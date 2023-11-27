@@ -1,0 +1,70 @@
+[
+    {
+        "_id": "2a3d1d3e",
+        "name": "Krule Trap",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "reaction",
+        "description": "After an enemy fighter within 6\" of this fighter ends a move action, roll a dice. On a roll of a 5+, pick one: that enemy fighter cannot make move actions for the rest of the battle round, or allocate 4 damage points to that enemy fighter. Otherwise, allocate 2 damage points to that enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "6a76938e",
+        "name": "Krule Taunt",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "double",
+        "description": "Pick an enemy fighter that is within a number of inches of this fighter equal to the value of this ability. Until the end of the battle round, subtract 2 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions made by the chosen fighter, unless those attack actions target this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "f54e7999",
+        "name": "Rip It Out",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "double",
+        "description": "After the next attack action that has the Spear or Ranged Weapon runemark made by this fighter in this activation, if it scored 1 or more hits, allocate a number of damage points to the target of that attack action equal to the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "a65e52e8",
+        "name": "Krule Stabbin'",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated by each hit and critical hit from melee attack actions made by this fighter that target an enemy fighter that has 5 or more damage points allocated to them.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "fa51972c",
+        "name": "Drum and Holler",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "triple",
+        "description": "Until the end of the battle round, enemy fighters within 6\" of this fighter cannot make reactions.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "77f385b7",
+        "name": "Saw 'Em Up",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 2\" of this fighter and roll a number of dice equal to the value of this ability (to a minimum of 2). If you can make a group of 2 or more dice in consecutive numerical order (e.g. 2, 3, 4) excluding any duplicates, allocate 3 damage points to the chosen fighter for each dice in that group.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "91c3121c",
+        "name": "Nasty Muggin'",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "quad",
+        "description": "Pick an enemy fighter within 1\" of this fighter. Each friendly fighter with the Kruleboyz Monsta-killaz runemark within 3\" of that enemy fighter can make one bonus attack action that must target that enemy fighter.",
+        "runemarks": [
+            "trapper"
+        ]
+    }
+]

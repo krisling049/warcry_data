@@ -1,0 +1,108 @@
+[
+    {
+        "_id": "e20d873a",
+        "name": "Dance of the Wailing Blade",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "982a97f2",
+        "name": "Slaves to Impulse",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "double",
+        "description": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "25ae4b3e",
+        "name": "Unrivalled Velocity",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "96b6782c",
+        "name": "Violence and Excess",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "2e0f4291",
+        "name": "Impaling Strike",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "94ed80a4",
+        "name": "Paragon of Depravity",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add the value of this ability to the Strength characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "champion",
+            "hero"
+        ]
+    },
+    {
+        "_id": "e7fd1214",
+        "name": "Tendrils of Unnatural Smoke",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "260bfd0f",
+        "name": "Volley of Tearing Blades",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "triple",
+        "description": "Add 2 to the Attacks characteristic of the next missile attack action made by this fighter in this activation. In addition, add 1 to the Strength characteristic of that action while this fighter is within 3\" of a friendly fighter with the Hedonites of Slaanesh: Sybarites faction runemark and the Priest runemark.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "a8b8d908",
+        "name": "Ego-driven Excess",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "quad",
+        "description": "This fighter can make a bonus move action or a bonus attack action. In addition, each time a fighter is taken down by an attack action made by this fighter this activation, this fighter can make a further bonus move action or bonus attack action.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "d9e17b86",
+        "name": "Shared Pain",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "60eaf064",
+        "name": "Cavalcade of Madness",
+        "warband": "The Dread Pageant",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. In addition, if either this fighter or the target of the attack has any damage points allocated to them, add 1 to the Attacks characteristic of that bonus attack action. If both this fighter and the target fighter have any damage points allocated to them, add 3 to the Attacks characteristic of that bonus attack action instead.",
+        "runemarks": []
+    }
+]

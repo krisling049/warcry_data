@@ -1,0 +1,72 @@
+[
+    {
+        "_id": "0b3e0162",
+        "name": "Agile Climbers",
+        "warband": "Hunters of Huanchi",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "0bb29a64",
+        "name": "Envenomed Weapons",
+        "warband": "Hunters of Huanchi",
+        "cost": "double",
+        "description": "Add 1 to the damage points allocated by each hit and critical hit from the next attack action made by this fighter this activation.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "50fdb642",
+        "name": "Hurled Bolas",
+        "warband": "Hunters of Huanchi",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 8\" of this fighter and roll a number of dice equal to the value of this ability.  If 1 of the dice scores a 6, that fighter makes 1 fewer action in this battle round (to a minimum of 0).  If a fighter is reduced to 0 actions in this way, that fighter cannot be activated in this battle round.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
+        "_id": "642e57d4",
+        "name": "Bellow of the Carnosaur",
+        "warband": "Hunters of Huanchi",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 6\" of this fighter.  Until the end of the battle round, subtract 1 from the Move characteristic of that fighter (to a minimum of 1) and subtract 1 from the damage points allocated by each hit and critical hit from attack actions made by that fighter (to a minimum of 1).",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "fac6ce44",
+        "name": "Call of the Hunt",
+        "warband": "Hunters of Huanchi",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Hunters of Huanchi and Beast runemarks within 9\" of this fighter.  That fighter makes a bonus move action.  Then pick a visible enemy fighter within 1\" of the fighter that made the bonus move action and allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "08b62c60",
+        "name": "Hit and Run",
+        "warband": "Hunters of Huanchi",
+        "cost": "quad",
+        "description": "This fighter makes a bonus move action or a bonus disengage action, then this fighter makes a bonus attack action or a bonus move action.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "133bc02c",
+        "name": "Slippery",
+        "warband": "Hunters of Huanchi",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they have been allocated damage points by a melee attack action. This fighter makes a bonus disengage action.",
+        "runemarks": [
+            "agile"
+        ]
+    }
+]

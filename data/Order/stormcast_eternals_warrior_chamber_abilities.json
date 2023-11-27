@@ -1,0 +1,152 @@
+[
+    {
+        "_id": "54330cc8",
+        "name": "Heroic Guard",
+        "warband": "Steelheart's Champions",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "6641bbd3",
+        "name": "Furious Avengers",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "double",
+        "description": "A fighter can only use this ability if there is another friendly fighter within 6\" of this fighter with 1 or more damage points allocated to them. This fighter makes a bonus move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "249422d1",
+        "name": "Lay Low the Tyrants",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter that target an enemy fighter with a Wounds characteristic of 15 or more.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "bdfcb284",
+        "name": "Sigmarite Shield Bash",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 3+, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "bbf887b2",
+        "name": "Staunch Defender",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "c85bbc80",
+        "name": "Warcloak's Storm Magic",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
+    },
+    {
+        "_id": "4787d117",
+        "name": "Battle-horn Thunderblast",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 12\" of this fighter that is on a platform. Roll a dice for that fighter and for each other enemy fighter within 6\" of that fighter. On a roll of 4+, allocate 3 damage points to the fighter being rolled for.",
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "212678fb",
+        "name": "Darting Attack",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "triple",
+        "description": "This fighter makes a bonus attack action. Then, they can make a bonus disengage action.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "7e1800a5",
+        "name": "Lantern of Abjuration",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 1 from the value of abilities (to a minimum of 1) used by visible enemy fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "berserker"
+        ]
+    },
+    {
+        "_id": "3721f845",
+        "name": "Lightning Storm",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 12\" and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 1 damage point to that fighter.",
+        "runemarks": [
+            "priest",
+            "hero"
+        ]
+    },
+    {
+        "_id": "1ac592af",
+        "name": "Warding Lantern",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "312c27f0",
+        "name": "Wings of Divine Life",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": [
+            "fly"
+        ]
+    },
+    {
+        "_id": "8efe94c3",
+        "name": "Earth-shattering Blow",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "quad",
+        "description": "This fighter makes a bonus attack action. In addition, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each hit and critical hit from that attack action.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "f1dcea64",
+        "name": "Tempest Winds",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add the value of this ability to the Move characteristic of friendly fighters while they make a move action that starts within 12\" of this fighter.",
+        "runemarks": [
+            "icon-bearer",
+            "hero"
+        ]
+    },
+    {
+        "_id": "8cb2d5ee",
+        "name": "Thunderous Departure",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Allocate D6 damage points to their attacker. Fighters with the Beast runemark or both the Scout and Fly  runemarks cannot make this reaction.",
+        "runemarks": []
+    }
+]

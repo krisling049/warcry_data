@@ -1,0 +1,66 @@
+[
+    {
+        "_id": "aac239ca",
+        "name": "Ensnaring Net",
+        "warband": "Splintered Fang",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter. Until the end of the battle round, that enemy fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "798e3939",
+        "name": "Fanged Buckler",
+        "warband": "Splintered Fang",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 3+, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "5557403e",
+        "name": "Poisoned Attacks",
+        "warband": "Splintered Fang",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, the Strength characteristic of attack actions made by this fighter count as being higher than the target's Toughness characteristic.",
+        "runemarks": []
+    },
+    {
+        "_id": "523cf1af",
+        "name": "Relentless Assault",
+        "warband": "Splintered Fang",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action. Then, they can make a bonus attack action.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "3bb90969",
+        "name": "Snake Charmer",
+        "warband": "Splintered Fang",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Beast runemark within 4\" of this fighter. That fighter makes a bonus attack action.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "2dc0b5df",
+        "name": "Paralysing Venom",
+        "warband": "Splintered Fang",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from attack actions made by this fighter. In addition, until the end of this fighter's activation, after each attack action made by this fighter, roll a dice. On a roll of 5+, until the end of this battle round, the target fighter cannot make move actions or disengage actions.",
+        "runemarks": []
+    },
+    {
+        "_id": "7c1b88d5",
+        "name": "Vicious Riposte",
+        "warband": "Splintered Fang",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll of 1 or 2 from that attack action, allocate 2 damage points to the attacking fighter.",
+        "runemarks": []
+    }
+]

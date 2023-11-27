@@ -1,0 +1,148 @@
+[
+    {
+        "_id": "7fd8398d",
+        "name": "Encase in Molten Rock",
+        "warband": "Fyreslayers",
+        "cost": "double",
+        "description": "The next time this fighter makes an attack action in this activation, subtract half the value of this ability (rounding up) from the Move characteristic of the target fighter (to a minimum of 1) until the end of the battle round.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "e8fe0845",
+        "name": "Fyresteel Throwing Axe",
+        "warband": "Fyreslayers",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "bd3f9bdd",
+        "name": "Lodge Leader",
+        "warband": "Fyreslayers",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "brute"
+        ]
+    },
+    {
+        "_id": "f9471479",
+        "name": "Masterflame Rune",
+        "warband": "Fyreslayers",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when a friendly fighter is taken down. Until the end of the battle round, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "9986b64c",
+        "name": "Relentless Zeal",
+        "warband": "Fyreslayers",
+        "cost": "double",
+        "description": "Add 3 to the Move characteristic of the next move action made by this fighter in this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "fff4a629",
+        "name": "Runic Empowerment",
+        "warband": "Fyreslayers",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter within 3\" of this fighter. Until the end of the battle round, add the value of this ability to the Strength characteristic of the next melee attack action made by that fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "bd63f7d0",
+        "name": "Volcano's Call",
+        "warband": "Fyreslayers",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter on the battlefield floor within 12\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 2 damage points to that fighter.",
+        "runemarks": [
+            "hero",
+            "priest"
+        ]
+    },
+    {
+        "_id": "7971a824",
+        "name": "Duty Unto Death",
+        "warband": "Fyreslayers",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if they have 5 or more damage points allocated to them. This fighter makes a bonus move action. Then, they can make a bonus attack action.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "5adfeed4",
+        "name": "Honour Our Oaths",
+        "warband": "Fyreslayers",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "b8932927",
+        "name": "Icon of Grimnir",
+        "warband": "Fyreslayers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Toughness characteristic of friendly fighters while they are within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "9e8dde65",
+        "name": "Slingshield Charge",
+        "warband": "Fyreslayers",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "0ef93182",
+        "name": "Battle Fury",
+        "warband": "Fyreslayers",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add the value of this ability to the Move characteristic of this fighter. In addition, this fighter makes a bonus move action. Then, they can make a bonus attack action.",
+        "runemarks": [
+            "hero",
+            "berserker"
+        ]
+    },
+    {
+        "_id": "8d633d3b",
+        "name": "Unleash Runic Fury",
+        "warband": "Fyreslayers",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the Attacks characteristic of melee attack actions made by this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "18341dd4",
+        "name": "Gathered Heroes",
+        "warband": "Fyreslayers",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter within 3\" of this fighter. That fighter makes a bonus move action. After that move action that fighter must be within 1\" of the enemy fighter that made the move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "3382fbfd",
+        "name": "The Chosen Kin",
+        "warband": "The Chosen Axes",
+        "cost": "double",
+        "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Fjul-Grimnir. Until the end of this fighter's activation, add 2 to the Attacks characteristic of attack actions made by this fighter that have the Axe runemark.",
+        "runemarks": []
+    }
+]
