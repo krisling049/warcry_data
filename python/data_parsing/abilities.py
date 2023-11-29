@@ -17,8 +17,9 @@ class Ability:
     def __repr__(self):
         return self.name
 
-    def tts_format(self):
-        return f'{self.cost.capitalize()} - {self.name}'
+    def tts_format(self) -> dict:
+        tts = {self.name: {'cost': self.cost.capitalize(), 'description': self.description}}
+        return tts
 
 
 class AbilityJSONDataPayload(JSONDataPayload):
