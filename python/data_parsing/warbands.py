@@ -15,7 +15,7 @@ class WarbandsJSONDataPayload(DataPayload):
             src: Path = PROJECT_DATA,
             schema: Path = Path(PROJECT_DATA, 'schemas', 'warband_schema.json'),
             src_format: str = 'json',
-            filter_string: str = '*.json'
+            filter_string: str = '*_*.json'
     ):
         if not src.is_dir():
             raise TypeError(f'src must be a dir: {src}')
@@ -35,11 +35,12 @@ class WarbandsJSONDataPayload(DataPayload):
                 continue
             if file.parent.name.lower() == 'schemas':
                 continue
-            as_json = json.loads(file.read_text())
-            if '_fighters' in file.name:
-                data['fighters'].extend(as_json)
-            if '_abilities' in file.name:
-                data['abilities'].extend(as_json)
+            if file.name.endswith('_fighters.json'):
+                data['fighters'].extend(json.loads(file.read_text()))
+                continue
+            if file.name.endswith('_abilities.json'):
+                data['abilities'].extend(json.loads(file.read_text()))
+                continue
         return data
 
     def assign_ids(self):
@@ -72,7 +73,6 @@ class WarbandsJSONDataPayload(DataPayload):
         self._write_json(dst=dst, data=sorted_data)
 
     def write_tts_fighters(self, dst: Path = Path(PROJECT_DATA, 'tts_fighters.json')):
-        self.assign_abilities()
         to_write = list()
         for f in self.fighters.fighters:
             to_write.append(f.as_dict())
