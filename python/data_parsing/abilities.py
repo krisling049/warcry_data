@@ -17,8 +17,8 @@ class Ability:
     def __repr__(self):
         return self.name
 
-    def tts_format(self):
-        tts = f'{self.name}: [{self.cost.capitalize()}]:\n{self.description}'
+    def tts_format(self) -> dict:
+        tts = {self.name: {'cost': self.cost.capitalize(), 'description': self.description}}
         return tts
 
 
