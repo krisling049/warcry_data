@@ -24094,6 +24094,10 @@
                 "cost": "Double",
                 "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation."
             },
+            "Abyssal Howl": {
+                "cost": "Triple",
+                "description": "Roll a dice for each enemy fighter within a number of inches of this fighter equal to the value of this ability. On a roll of 3+, until the end of the battle round, the fighter being rolled for cannot make move actions or disengage actions."
+            },
             "Spiked Tail": {
                 "cost": "Quad",
                 "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter."
