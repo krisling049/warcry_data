@@ -44,6 +44,17 @@
         ]
     },
     {
+        "_id": "87348921",
+        "name": "Abyssal Howl",
+        "warband": "order",
+        "monster": "Kharibdyss",
+        "cost": "triple",
+        "description": "Roll a dice for each enemy fighter within a number of inches of this fighter equal to the value of this ability. On a roll of 3+, until the end of the battle round, the fighter being rolled for cannot make move actions or disengage actions.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
         "_id": "86b60a14",
         "name": "Spiked Tail",
         "warband": "order",
