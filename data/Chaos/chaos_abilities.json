@@ -88,7 +88,7 @@
         "_id": "5966dc17",
         "name": "Tail Whip",
         "warband": "chaos",
-        "monster": "chimera",
+        "monster": "Chimera",
         "cost": "double",
         "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 4+, allocate 3 damage points to that fighter.",
         "runemarks": [
@@ -171,7 +171,7 @@
         "_id": "e19e1937",
         "name": "Leonine Roar",
         "warband": "chaos",
-        "monster": "chimera",
+        "monster": "Chimera",
         "cost": "triple",
         "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
         "runemarks": [
@@ -297,7 +297,7 @@
         "_id": "cd07297b",
         "name": "Draconic Head's Fiery Breath",
         "warband": "chaos",
-        "monster": "chimera",
+        "monster": "Chimera",
         "cost": "quad",
         "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 4\" of this fighter.",
         "runemarks": [
@@ -385,17 +385,6 @@
         "description": "A fighter can make this reaction after an enemy fighter finishes a move action on an open platform and within 3\" horizontally and 5\" vertically of this fighter. The controlling player for each fighter within 1/2\" of the edge of that platform must take a falling test, and on a roll of 1 or 2 that fighter falls.",
         "runemarks": [
             "destroyer"
-        ]
-    },
-    {
-        "_id": "a7e23cab",
-        "name": "Death Scream",
-        "warband": "chaos",
-        "monster": "Terrorgheist",
-        "cost": "triple",
-        "description": "Roll a dice for each visible enemy fighter within 8\" of this fighter. On a roll of 5, allocate 1 damage point to the fighter being rolled for. On a roll of 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
-        "runemarks": [
-            "terrifying"
         ]
     },
     {
