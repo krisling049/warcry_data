@@ -3,11 +3,9 @@ Utility functions and script for data manipulation and management
 """
 import json
 
-from data_parsing.fighters import Fighter, FighterJSONDataPayload
-from data_parsing.abilities import Ability, AbilityJSONDataPayload
-from data_parsing.models import DataPayload, DIST
-from data_parsing.warbands import WarbandsJSONDataPayload
-from pathlib import Path
+from data_parsing.fighters import Fighter
+from data_parsing.abilities import Ability
+from data_parsing.models import DataPayload
 from typing import List, Dict
 import uuid
 
@@ -49,18 +47,3 @@ def export_files(payloads: List[DataPayload]):
 
 def by_points(fighter: Fighter) -> int:
     return fighter.points
-
-
-if __name__ == '__main__':
-    # fighters = FighterJSONDataPayload()
-    # abilities = AbilityJSONDataPayload()
-
-    warbands = WarbandsJSONDataPayload()
-
-
-
-
-    # Do stuff with data, add it to new_data
-
-    # export_files([fighter_data_payload, ability_data_payload])
-

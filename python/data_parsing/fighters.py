@@ -180,17 +180,21 @@ class Fighters:
 
         return max_values, min_values
 
-    def expected_damages(self) -> pd.DataFrame:
+    def expected_damages(
+            self,
+            vs_toughnesses: List[int] = range(3, 8), wounds: List[int] = None)-> pd.DataFrame:
         damage_index = list()
         expected_damages = dict()
-        for t in range(3, 8):
-            for w in [3, 4, 6, 8, 10, 12, 15, 20, 25]:
+        if not wounds:
+            wounds = [3, 4, 6, 8, 10, 12, 15, 20, 25]
+        for t in vs_toughnesses:
+            for w in wounds:
                 key = f'T{t}W{w}'
                 damage_index.append(key)
                 for f in self.fighters:
                     if f.name not in expected_damages.keys():
                         expected_damages[f.name] = list()
-                    ctk = f.dmg_chance(vs_t=t, vs_w=w)                # type: list[tuple[int, float]]
+                    ctk = f.dmg_chance(vs_t=t, dmg=w)                # type: List[Tuple[Tuple[int, str], float]]
                     ctk_percent = int(ctk[0][1] * 100)
                     expected_damages[f.name].append(ctk_percent)
 
