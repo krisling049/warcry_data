@@ -7379,7 +7379,7 @@
         "_id": "5966dc17",
         "name": "Tail Whip",
         "warband": "chaos",
-        "monster": "chimera",
+        "monster": "Chimera",
         "cost": "double",
         "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 4+, allocate 3 damage points to that fighter.",
         "runemarks": [
@@ -7462,7 +7462,7 @@
         "_id": "e19e1937",
         "name": "Leonine Roar",
         "warband": "chaos",
-        "monster": "chimera",
+        "monster": "Chimera",
         "cost": "triple",
         "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter.",
         "runemarks": [
@@ -7588,7 +7588,7 @@
         "_id": "cd07297b",
         "name": "Draconic Head's Fiery Breath",
         "warband": "chaos",
-        "monster": "chimera",
+        "monster": "Chimera",
         "cost": "quad",
         "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 4\" of this fighter.",
         "runemarks": [
@@ -7679,17 +7679,6 @@
         ]
     },
     {
-        "_id": "a7e23cab",
-        "name": "Death Scream",
-        "warband": "chaos",
-        "monster": "Terrorgheist",
-        "cost": "triple",
-        "description": "Roll a dice for each visible enemy fighter within 8\" of this fighter. On a roll of 5, allocate 1 damage point to the fighter being rolled for. On a roll of 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
-        "runemarks": [
-            "terrifying"
-        ]
-    },
-    {
         "_id": "90a08960",
         "name": "Drunken Stagger",
         "warband": "chaos",
@@ -7772,6 +7761,17 @@
         "description": "Add 3 this fighter's Move characteristic for their next move action in this activation.",
         "runemarks": [
             "brute"
+        ]
+    },
+    {
+        "_id": "a7e23cab",
+        "name": "Death Scream",
+        "warband": "death",
+        "monster": "Terrorgheist",
+        "cost": "triple",
+        "description": "Roll a dice for each visible enemy fighter within 8\" of this fighter. On a roll of 5, allocate 1 damage point to the fighter being rolled for. On a roll of 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "runemarks": [
+            "terrifying"
         ]
     },
     {
