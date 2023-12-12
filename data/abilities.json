@@ -83,7 +83,7 @@
         "_id": "36f2be62",
         "name": "Show No Mercy",
         "warband": "Anvilgard Loyalists",
-        "cost": "quad",
+        "cost": "triple",
         "description": "This fighter makes a bonus attack action. In addition, if the target of that attack action has 1 or more damage points allocated to them, add half the value of this ability (rounding up) to the damage points allocated to that fighter by each hit and critical hit from that attack action.",
         "runemarks": []
     },
@@ -5519,7 +5519,9 @@
         "warband": "Spire Tyrants",
         "cost": "double",
         "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 3+, until the end of the battle round, that enemy fighter cannot make move actions or disengage actions.",
-        "runemarks": []
+        "runemarks": [
+            "trapper"
+        ]
     },
     {
         "_id": "a0c80fdf",

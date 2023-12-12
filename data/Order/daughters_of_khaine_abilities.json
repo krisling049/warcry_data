@@ -158,5 +158,43 @@
         "runemarks": [
             "hero"
         ]
-    }
+    },
+    [
+        {
+          "_id": "ab45a9bd",
+          "name": "Slip Between Shadows",
+          "warband": "The Shadeborn",
+          "cost": "reaction",
+          "description": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them. Note the distance between this fighter and the enemy fighter that made the move action. Remove this fighter from the battlefield, then set this fighter up on a platform or the battlefield floor, no further from the enemy fighter that made the move action.",
+          "runemarks": []
+        },
+        {
+          "_id": "3b009c24",
+          "name": "Shadestalker Darts",
+          "warband": "The Shadeborn",
+          "cost": "double",
+          "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 2 damage points to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability (minimum 2).",
+          "runemarks": []
+        },
+        {
+          "_id": "2c3fa72f",
+          "name": "Gloomweb Hex",
+          "warband": "The Shadeborn",
+          "cost": "triple",
+          "description": "Pick an enemy fighter within 6\" of this fighter. Subtract half of the value of this ability (rounding up) from the Attacks characteristic (to a minimum of 1) attack actions made by that fighter until the end of the battle round.",
+          "runemarks": [
+            "trapper"
+          ]
+        },
+        {
+          "_id": "e3a5da77",
+          "name": "Shadow Ambush",
+          "warband": "The Shadeborn",
+          "cost": "quad",
+          "description": "Remove this fighter from the battlefield and then immediately set them up anywhere on the battlefield.",
+          "runemarks": [
+            "hero"
+          ]
+        }
+      ]
 ]
