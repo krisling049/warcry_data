@@ -1219,6 +1219,144 @@
         "wounds": 20
     },
     {
+        "_id": "cec12f58",
+        "bladeborn": "Skittershank's Clawpack",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Krowch't",
+        "points": 70,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "534541c1",
+        "bladeborn": "Skittershank's Clawpack",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Skulck",
+        "points": 75,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "32d3ac51",
+        "bladeborn": "Skittershank's Clawpack",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Kreep Kinwhisper",
+        "points": 95,
+        "runemarks": [
+            "champion"
+        ],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "19f4ae18",
+        "bladeborn": "Skittershank's Clawpack",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Snyp Padpaw",
+        "points": 105,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "8ce3d257",
+        "bladeborn": "Skittershank's Clawpack",
+        "grand_alliance": "chaos",
+        "movement": 7,
+        "name": "Slynk Skittershank",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 18
+    },
+    {
         "_id": "c7d98639",
         "bladeborn": "Spiteclaw's Swarm",
         "grand_alliance": "chaos",
@@ -1346,145 +1484,5 @@
             }
         ],
         "wounds": 18
-    },
-    [
-        {
-          "_id": "8ce3d257",
-          "bladeborn": "Skittershank's Clawpack",
-          "grand_alliance": "chaos",
-          "movement": 7,
-          "name": "Slynk Skittershank",
-          "points": 190,
-          "runemarks": [
-            "hero",
-            "champion"
-          ],
-          "toughness": 3,
-          "warband": "Skaven",
-          "weapons": [
-            {
-              "attacks": 5,
-              "dmg_crit": 4,
-              "dmg_hit": 2,
-              "max_range": 1,
-              "min_range": 0,
-              "runemark": "sword",
-              "strength": 4
-            }
-          ],
-          "wounds": 18
-        },
-        {
-          "_id": "19f4ae18",
-          "bladeborn": "Skittershank's Clawpack",
-          "grand_alliance": "chaos",
-          "movement": 6,
-          "name": "Snyp Padpaw",
-          "points": 105,
-          "runemarks": [],
-          "toughness": 3,
-          "warband": "Skaven",
-          "weapons": [
-            {
-              "attacks": 4,
-              "dmg_crit": 4,
-              "dmg_hit": 2,
-              "max_range": 1,
-              "min_range": 0,
-              "runemark": "sword",
-              "strength": 3
-            }
-          ],
-          "wounds": 12
-        },
-        {
-          "_id": "32d3ac51",
-          "bladeborn": "Skittershank's Clawpack",
-          "grand_alliance": "chaos",
-          "movement": 6,
-          "name": "Kreep Kinwhisper",
-          "points": 95,
-          "runemarks": [
-            "champion"
-          ],
-          "toughness": 3,
-          "warband": "Skaven",
-          "weapons": [
-            {
-              "attacks": 4,
-              "dmg_crit": 4,
-              "dmg_hit": 1,
-              "max_range": 1,
-              "min_range": 0,
-              "runemark": "dagger",
-              "strength": 3
-            },
-            {
-              "attacks": 3,
-              "dmg_crit": 3,
-              "dmg_hit": 1,
-              "max_range": 8,
-              "min_range": 0,
-              "runemark": "ranged",
-              "strength": 3
-            }
-          ],
-          "wounds": 10
-        },
-        {
-          "_id": "534541c1",
-          "bladeborn": "Skittershank's Clawpack",
-          "grand_alliance": "chaos",
-          "movement": 6,
-          "name": "Skulck",
-          "points": 75,
-          "runemarks": [],
-          "toughness": 3,
-          "warband": "Skaven",
-          "weapons": [
-            {
-              "attacks": 3,
-              "dmg_crit": 3,
-              "dmg_hit": 1,
-              "max_range": 1,
-              "min_range": 0,
-              "runemark": "dagger",
-              "strength": 3
-            },
-            {
-              "attacks": 2,
-              "dmg_crit": 2,
-              "dmg_hit": 1,
-              "max_range": 8,
-              "min_range": 0,
-              "runemark": "ranged",
-              "strength": 3
-            }
-          ],
-          "wounds": 8
-        },
-        {
-          "_id": "cec12f58",
-          "bladeborn": "Skittershank's Clawpack",
-          "grand_alliance": "chaos",
-          "movement": 6,
-          "name": "Krowch't",
-          "points": 70,
-          "runemarks": [],
-          "toughness": 3,
-          "warband": "Skaven",
-          "weapons": [
-            {
-              "attacks": 4,
-              "dmg_crit": 3,
-              "dmg_hit": 1,
-              "max_range": 1,
-              "min_range": 0,
-              "runemark": "dagger",
-              "strength": 3
-            }
-          ],
-          "wounds": 8
-        }
-      ]
+    }
 ]
