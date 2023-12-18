@@ -166,6 +166,36 @@
         "runemarks": []
     },
     {
+        "_id": "71bb3212",
+        "name": "Overhead Smash",
+        "warband": "Gorechosen of Dromm",
+        "cost": "double",
+        "description": "You can only use this ability if this fighter has fallen 3\" or more this activation. Pick an enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 3 damage points to that enemy fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "f785a02a",
+        "name": "Chains of Blood",
+        "warband": "Gorechosen of Dromm",
+        "cost": "triple",
+        "description": "Add half the value of this ability to the Range characteristic of this fighter's melee attack actinos until the end of this activation.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "7491920a",
+        "name": "Would the Realm",
+        "warband": "Gorechosen of Dromm",
+        "cost": "quad",
+        "description": "Pick two visible battlefield corners or pick two visible objective tokens and draw a 1mm line between each. Roll a dice for each model touching that line. On a 3+, allocate a number of damage points equal to the value of this ability to that fighter.",
+        "runemarks": [
+            "priest"
+        ]
+    },
+    {
         "_id": "11e3cee9",
         "name": "Daemonic Maw",
         "warband": "Magore's Fiends",

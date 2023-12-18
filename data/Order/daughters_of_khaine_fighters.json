@@ -820,5 +820,110 @@
             }
         ],
         "wounds": 22
+    },
+    {
+        "_id": "4de7fa87",
+        "bladeborn": "The Shadeborn",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Sylarc Greyblood",
+        "points": 100,
+        "runemarks": [
+            "trapper"
+        ],
+        "toughness": 3,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "52f751d2",
+        "bladeborn": "The Shadeborn",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Valyssa Umbrael",
+        "points": 105,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "210817c7",
+        "bladeborn": "The Shadeborn",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Drusylla Vyserax",
+        "points": 115,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "de50c997",
+        "bladeborn": "The Shadeborn",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Slythael Shadestalker",
+        "points": 210,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
     }
 ]

@@ -171,6 +171,34 @@
         "runemarks": []
     },
     {
+        "_id": "755687fc",
+        "name": "Way of the Slinking Rat",
+        "warband": "Skittershank's Clawpack",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 3\" of an enemy fighter. Roll a dice. On a roll of 2+, this fighter can make a bonus disengage action.",
+        "runemarks": []
+    },
+    {
+        "_id": "9b2b9d48",
+        "name": "Spitting Cobra Technique",
+        "warband": "Skittershank's Clawpack",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 6\" of this fighter and roll a number of dice equal to the value of this ability. For each roll that equals or exceeds that enemy fighter's Toughness characteristic, allocate 3 damage points to that enemy fighter.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "27bb8a85",
+        "name": "Way of the Hidden Paw",
+        "warband": "Skittershank's Clawpack",
+        "cost": "quad",
+        "description": "This fighter can make a bonus move action. Then this fighter can make a bonus attack action. Add X to the Attacks characteristic of that bonus attack action, where X is the number of friendly fighters with the Skittershank's Clawpack runemark within 1\" of the target.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
         "_id": "dad15d02",
         "name": "There Are Always More",
         "warband": "Spiteclaw's Swarm",
