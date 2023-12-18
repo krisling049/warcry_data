@@ -72,15 +72,18 @@ class WarbandsJSONDataPayload(DataPayload):
         sorted_data = sort_fighters([dict(sorted(x.items())) for x in self.data['fighters']])
         self._write_json(dst=dst, data=sorted_data)
 
-    def write_tts_fighters(self, dst: Path = Path(PROJECT_DATA, 'tts_fighters.json')):
-        to_write = list()
+    def as_tts_format(self) -> List[dict]:
+        tts_data = list()
         for f in self.fighters.fighters:
-            to_write.append(f.as_dict())
+            tts_data.append(f.as_dict())
             ab_dict = dict()
             for ability in [a for a in f.abilities if a.warband != 'universal']:
                 ab_dict.update(ability.tts_format())
-            to_write[-1]['abilities'] = ab_dict
-        self._write_json(dst=dst, data=to_write)
+            tts_data[-1]['abilities'] = ab_dict
+        return tts_data
+
+    def write_tts_fighters(self, dst: Path = Path(PROJECT_DATA, 'tts_fighters.json')):
+        self._write_json(dst=dst, data=self.as_tts_format())
 
     def write_fighters_markdown_table(self, dst_root: Path = PROJECT_DATA):
         FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_markdown_table(dst_root=dst_root)
