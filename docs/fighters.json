@@ -1644,6 +1644,82 @@
         "wounds": 22
     },
     {
+        "_id": "742ef8d7",
+        "bladeborn": "Gorechosen of Dromm",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Skullgrinder Herax",
+        "points": 155,
+        "runemarks": [
+            "elite"
+        ],
+        "toughness": 5,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "wounds": 24
+    },
+    {
+        "_id": "b850aa39",
+        "bladeborn": "Gorechosen of Dromm",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Dromm, Wounder of Worlds",
+        "points": 205,
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "toughness": 4,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 30
+    },
+    {
+        "_id": "8293a286",
+        "bladeborn": "Gorechosen of Dromm",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "The Gorehulk",
+        "points": 225,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 5,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 6
+            }
+        ],
+        "wounds": 36
+    },
+    {
         "_id": "30840ed1",
         "bladeborn": "Magore's Fiends",
         "grand_alliance": "chaos",
@@ -7414,7 +7490,7 @@
         "grand_alliance": "chaos",
         "movement": 6,
         "name": "Warpfire Thrower",
-        "points": 105,
+        "points": 110,
         "runemarks": [
             "destroyer"
         ],
@@ -8286,6 +8362,144 @@
             }
         ],
         "wounds": 20
+    },
+    {
+        "_id": "cec12f58",
+        "bladeborn": "Skittershank's Clawpack",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Krowch't",
+        "points": 70,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "534541c1",
+        "bladeborn": "Skittershank's Clawpack",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Skulck",
+        "points": 75,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "32d3ac51",
+        "bladeborn": "Skittershank's Clawpack",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Kreep Kinwhisper",
+        "points": 95,
+        "runemarks": [
+            "champion"
+        ],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "19f4ae18",
+        "bladeborn": "Skittershank's Clawpack",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Snyp Padpaw",
+        "points": 105,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "8ce3d257",
+        "bladeborn": "Skittershank's Clawpack",
+        "grand_alliance": "chaos",
+        "movement": 7,
+        "name": "Slynk Skittershank",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 18
     },
     {
         "_id": "c7d98639",
@@ -23384,6 +23598,111 @@
         "wounds": 22
     },
     {
+        "_id": "4de7fa87",
+        "bladeborn": "The Shadeborn",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Sylarc Greyblood",
+        "points": 100,
+        "runemarks": [
+            "trapper"
+        ],
+        "toughness": 3,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "52f751d2",
+        "bladeborn": "The Shadeborn",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Valyssa Umbrael",
+        "points": 105,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "210817c7",
+        "bladeborn": "The Shadeborn",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Drusylla Vyserax",
+        "points": 115,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "de50c997",
+        "bladeborn": "The Shadeborn",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Slythael Shadestalker",
+        "points": 210,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
         "_id": "d93fb6db",
         "bladeborn": "",
         "grand_alliance": "order",
@@ -26682,6 +27001,185 @@
             }
         ],
         "wounds": 20
+    },
+    {
+        "_id": "1d0c5423",
+        "bladeborn": "Hexbane's Hunters",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Grotbiter",
+        "points": 55,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 3,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 3
+            }
+        ],
+        "wounds": 6
+    },
+    {
+        "_id": "84a2c1df",
+        "bladeborn": "Hexbane's Hunters",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Ratspike",
+        "points": 55,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 3,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 3
+            }
+        ],
+        "wounds": 6
+    },
+    {
+        "_id": "93db72a2",
+        "bladeborn": "Hexbane's Hunters",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Brydget Axwold",
+        "points": 95,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 3,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 5
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "23ee45b1",
+        "bladeborn": "Hexbane's Hunters",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Aemos Duncarrow",
+        "points": 105,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "210e343f",
+        "bladeborn": "Hexbane's Hunters",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Haskel Hexbane",
+        "points": 125,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "5a274449",
+        "bladeborn": "Hexbane's Hunters",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Quiet Pock",
+        "points": 150,
+        "runemarks": [
+            "brute",
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
     },
     {
         "_id": "a9714107",
