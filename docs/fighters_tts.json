@@ -11914,10 +11914,6 @@
                 "cost": "Double",
                 "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action."
             },
-            "Flesh Hound's Blood-dark Claws": {
-                "cost": "Double",
-                "description": "Pick a visible enemy fighter within 1\" of this fighter and roll 2 dice. For each roll of 4-5, allocate D3 damage points to that fighter. For each roll of 6, allocate D6 damage points to that fighter."
-            },
             "Lashing Bone Tentacles": {
                 "cost": "Double",
                 "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability."
@@ -12079,6 +12075,10 @@
             "Blood for the Blood God": {
                 "cost": "Double",
                 "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action."
+            },
+            "Flesh Hound's Blood-dark Claws": {
+                "cost": "Double",
+                "description": "Pick a visible enemy fighter within 1\" of this fighter and roll 2 dice. For each roll of 4-5, allocate D3 damage points to that fighter. For each roll of 6, allocate D6 damage points to that fighter."
             },
             "Lord of Skulls": {
                 "cost": "Triple",
