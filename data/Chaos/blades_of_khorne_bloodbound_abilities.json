@@ -25,7 +25,8 @@
         "cost": "double",
         "description": "Pick a visible enemy fighter within 1\" of this fighter and roll 2 dice. For each roll of 4-5, allocate D3 damage points to that fighter. For each roll of 6, allocate D6 damage points to that fighter.",
         "runemarks": [
-            "ferocious"
+            "hero",
+            "champion"
         ]
     },
     {
