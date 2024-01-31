@@ -27,6 +27,7 @@ def sort_fighters(data_to_sort: List[Dict]) -> List[Dict]:
 
 class Weapon:
     def __init__(self, w_dict: dict):
+        self._raw_data = w_dict                                                                 # type: Dict
         self.attacks = w_dict['attacks']                                                        # type: int
         self.dmg_crit = w_dict['dmg_crit']                                                      # type: int
         self.dmg_hit = w_dict['dmg_hit']                                                        # type: int
@@ -34,17 +35,16 @@ class Weapon:
         self.min_range = w_dict['min_range']                                                    # type: int
         self.runemark = w_dict['runemark']                                                      # type: str
         self.strength = w_dict['strength']                                                      # type: int
-        self._raw_data = w_dict                                                                      # type: Dict
-        self.dmg_rolls = self.damage_rolls()                                                    # type: List[Tuple[int]]
+        self.dmg_rolls = self.damage_rolls()                                                    # type: List[Tuple[int, ...]]
         self.avg_dmg_vs_lower, self.avg_dmg_vs_same, self.avg_dmg_vs_higher = self.avg_dmgs()   # type: float
 
     def __repr__(self):
-        return self.runemark
+        return f'{self.runemark.capitalize()}  -  {self.attacks},{self.strength},{self.dmg_hit}/{self.dmg_crit}'
 
     def as_dict(self):
         return self._raw_data
 
-    def damage_rolls(self) -> List[Tuple[int]]:
+    def damage_rolls(self) -> List[Tuple[int, ...]]:
         rolls = [x for x in combinations_with_replacement(range(1, 7), self.attacks)]
         return rolls
 
@@ -66,6 +66,39 @@ class Weapon:
 
             avg = sum(damages) / len(damages)
             yield avg
+
+    def chance_to_kill(
+            self,
+            target_toughness: int,
+            target_wounds: int,
+            to_crit: int = 6,
+            attack_actions: int = 1
+    ) -> float:
+        """
+        Calculates the % chance of a weapon dealing the given amount of damage to a fighter with the supplied toughness.
+        :param target_toughness: Toughness of the target fighter
+        :param target_wounds: Target's wounds characteristic
+        :param to_crit: If critting on a roll other than 6, provide the number here
+        :param attack_actions: How many actions the fighter can use against the target
+        :return: a float, % chance to deal target damage)
+        """
+
+        to_hit = 4 if self.strength == target_toughness else 3 if self.strength > target_toughness else 5
+        total_rolls = 0
+        rolls_over_target_dmg = 0
+
+        for pr in combinations_with_replacement(range(1, 7), self.attacks * attack_actions):
+            total_rolls += 1
+            wounds_caused = 0
+            for dice in pr:
+                if dice in range(to_hit, to_crit):
+                    wounds_caused += self.dmg_hit
+                if dice >= to_crit:
+                    wounds_caused += self.dmg_crit
+            if wounds_caused >= target_wounds:
+                rolls_over_target_dmg += 1
+        dmg_chance = round(rolls_over_target_dmg / total_rolls, 3)
+        return dmg_chance
 
 
 class Fighter:
@@ -94,6 +127,13 @@ class Fighter:
             temp['abilities'] = self.abilities
         return temp
 
+    def is_ally(self, src_fighter = None):
+        can_ally = any(['hero' in self.runemarks, 'ally' in self.runemarks])
+        if src_fighter:
+            return all([can_ally, src_fighter.grand_alliance == self.grand_alliance])
+        return can_ally
+
+
     def dmg_chance(
             self,
             vs_t: int,
@@ -116,29 +156,10 @@ class Fighter:
         to_ret = list()
 
         for wep in to_check:
-            s = wep.strength
-            a = wep.attacks * attack_actions
-            dh = wep.dmg_hit
-            dc = wep.dmg_crit
-
-            to_hit = 4 if s == vs_t else 3 if s > vs_t else 5
-            total_rolls = 0
-            killing_rolls = 0
-
-            for pr in combinations_with_replacement(range(1, 7), a):
-                total_rolls = total_rolls + 1
-                damage = 0
-                for dice in pr:
-                    if dice in range(to_hit, to_crit):
-                        damage = damage + dh
-                    if dice >= to_crit:
-                        damage = damage + dc
-                if damage >= dmg:
-                    killing_rolls = killing_rolls + 1
-            dmg_chance = killing_rolls / total_rolls
-            to_ret.append(((weapon_index, wep.runemark), dmg_chance))
+            chance = wep.chance_to_kill(target_toughness=vs_t, target_wounds=dmg, to_crit=to_crit, attack_actions=attack_actions)
+            to_ret.append(((weapon_index, wep.runemark), chance))
             if weapon_index == 0:
-                weapon_index = weapon_index + 1
+                weapon_index += 1
 
         return to_ret
 
@@ -200,6 +221,10 @@ class Fighters:
 
         df = pd.DataFrame(expected_damages, index=damage_index)
         return df
+
+    def allies(self) -> List[Fighter]:
+        allies = [x for x in self.fighters if 'hero' in x.runemarks or 'ally' in x.runemarks]
+        return allies
 
 
 class FighterJSONDataPayload(JSONDataPayload):
