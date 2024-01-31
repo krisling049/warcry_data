@@ -81,7 +81,7 @@
         "points": 165,
         "runemarks": [
             "hero",
-            "berserker"
+            "frenzied"
         ],
         "toughness": 4,
         "warband": "Flesh-eater Courts",
@@ -483,5 +483,31 @@
             }
         ],
         "wounds": 20
+    },
+    {
+        "_id": "0dcac829",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Abhorrant Cardinal",
+        "points": 130,
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "toughness": 4,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "wounds": 18
     }
 ]
