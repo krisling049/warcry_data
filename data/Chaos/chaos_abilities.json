@@ -358,6 +358,16 @@
         ]
     },
     {
+        "_id": "bb806355",
+        "name": "Cruel Strike",
+        "warband": "chaos",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when a visible enemy fighter within 1\" of them makes a disengage action but before that fighter moves away. Roll a dice. On a 2+, allocate D6 damage points to that enemy fighter.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
         "_id": "bf43048a",
         "name": "Marshal's Net",
         "warband": "chaos",
