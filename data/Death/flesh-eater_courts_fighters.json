@@ -5,8 +5,10 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Crypt Ghoul",
-        "points": 55,
-        "runemarks": [],
+        "points": 60,
+        "runemarks": [
+            "minion"
+        ],
         "toughness": 3,
         "warband": "Flesh-eater Courts",
         "weapons": [
@@ -28,7 +30,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Crypt Ghast",
-        "points": 105,
+        "points": 115,
         "runemarks": [
             "hero"
         ],
@@ -53,7 +55,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Crypt Ghast Courtier",
-        "points": 135,
+        "points": 145,
         "runemarks": [
             "hero"
         ],
@@ -81,7 +83,7 @@
         "points": 165,
         "runemarks": [
             "hero",
-            "berserker"
+            "frenzied"
         ],
         "toughness": 4,
         "warband": "Flesh-eater Courts",
@@ -104,10 +106,8 @@
         "grand_alliance": "death",
         "movement": 6,
         "name": "Crypt Horror",
-        "points": 185,
-        "runemarks": [
-            "elite"
-        ],
+        "points": 180,
+        "runemarks": [],
         "toughness": 4,
         "warband": "Flesh-eater Courts",
         "weapons": [
@@ -207,10 +207,9 @@
         "grand_alliance": "death",
         "movement": 6,
         "name": "Crypt Haunter Courtier",
-        "points": 250,
+        "points": 2550,
         "runemarks": [
-            "hero",
-            "elite"
+            "hero"
         ],
         "toughness": 4,
         "warband": "Flesh-eater Courts",
@@ -233,7 +232,7 @@
         "grand_alliance": "death",
         "movement": 10,
         "name": "Crypt Infernal",
-        "points": 275,
+        "points": 285,
         "runemarks": [
             "fly",
             "hero",
@@ -260,9 +259,8 @@
         "grand_alliance": "death",
         "movement": 8,
         "name": "Varghulf Courtier",
-        "points": 285,
+        "points": 300,
         "runemarks": [
-            "fly",
             "hero",
             "terrifying"
         ],
@@ -270,10 +268,10 @@
         "warband": "Flesh-eater Courts",
         "weapons": [
             {
-                "attacks": 3,
+                "attacks": 4,
                 "dmg_crit": 5,
                 "dmg_hit": 3,
-                "max_range": 2,
+                "max_range": 1,
                 "min_range": 0,
                 "runemark": "claws",
                 "strength": 5
@@ -287,7 +285,7 @@
         "grand_alliance": "death",
         "movement": 10,
         "name": "Crypt Infernal Courtier",
-        "points": 305,
+        "points": 315,
         "runemarks": [
             "fly",
             "hero",
@@ -307,6 +305,269 @@
             }
         ],
         "wounds": 36
+    },
+    {
+        "_id": "be78aafb",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Abhorrant Cardinal",
+        "points": 130,
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "toughness": 4,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "6fdd0e19",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 10,
+        "name": "Abhorrant Gorewarden",
+        "points": 225,
+        "runemarks": [
+            "hero",
+            "trapper",
+            "fly"
+        ],
+        "toughness": 3,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "f7e9b234",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 10,
+        "name": "Champion of Morbheg",
+        "points": 295,
+        "runemarks": [
+            "hero",
+            "mount",
+            "fly"
+        ],
+        "toughness": 5,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "48828f14",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Crypt Captain with Cursed Blade",
+        "points": 135,
+        "runemarks": [
+            "hero",
+            "bulwark",
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "8de8ea05",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Crypt Captain with Cursed Halberd",
+        "points": 140,
+        "runemarks": [
+            "hero",
+            "bulwark",
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "d90931c1",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Marrowscroll Herald",
+        "points": 155,
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ],
+        "toughness": 4,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "109ef3fa",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Royal Decapitator",
+        "points": 175,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 5
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "9305b756",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Cryptguard with Cursed Blade",
+        "points": 80,
+        "runemarks": [
+            "bulwark",
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "f1999f34",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Cryptguard with Cursed Halberd",
+        "points": 85,
+        "runemarks": [
+            "bulwark",
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "169ae3b2",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 10,
+        "name": "Morbheg Knights",
+        "points": 220,
+        "runemarks": [
+            "mount",
+            "fly"
+        ],
+        "toughness": 5,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
     },
     {
         "_id": "4e96345e",
