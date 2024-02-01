@@ -157,8 +157,7 @@
         "name": "Crypt Haunter",
         "points": 225,
         "runemarks": [
-            "hero",
-            "elite"
+            "hero"
         ],
         "toughness": 4,
         "warband": "Flesh-eater Courts",
@@ -307,32 +306,6 @@
         "wounds": 36
     },
     {
-        "_id": "be78aafb",
-        "bladeborn": "",
-        "grand_alliance": "death",
-        "movement": 5,
-        "name": "Abhorrant Cardinal",
-        "points": 130,
-        "runemarks": [
-            "hero",
-            "priest"
-        ],
-        "toughness": 4,
-        "warband": "Flesh-eater Courts",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 3
-            }
-        ],
-        "wounds": 18
-    },
-    {
         "_id": "6fdd0e19",
         "bladeborn": "",
         "grand_alliance": "death",
@@ -407,7 +380,7 @@
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "claws",
+                "runemark": "sword",
                 "strength": 3
             }
         ],
@@ -485,7 +458,7 @@
                 "dmg_hit": 4,
                 "max_range": 2,
                 "min_range": 0,
-                "runemark": "claws",
+                "runemark": "axe",
                 "strength": 5
             }
         ],
