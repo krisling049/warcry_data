@@ -838,7 +838,6 @@
         "cost": "triple",
         "description": "Roll a number of dice equal to the number of friendly fighters with the Cities of Sigmar: Castelite Hosts faction runemark that have been taken down and/ or have 1 or more damage points allocated to them. For each roll of 4+, add one wild dice to your saved wild dice.",
         "runemarks": [
-            "hero",
             "priest"
         ]
     },
@@ -1753,7 +1752,7 @@
         "name": "Sudden Warp-portal",
         "warband": "Ephilim's Pandaemonium",
         "cost": "double",
-        "description": "Pick another friendly fighter with the Ephilim’s Pandaemonium runemark within 12\" ofthis fighter. Make a note of that fighter’s location, then remove that fighter from the battlefield, and immediately set them up within 3\" of this fighter. Then remove this fighter from the battlefield, and set them up within 3\" of the other friendly fighter’s original location.",
+        "description": "Pick another friendly fighter with the Ephilim's Pandaemonium runemark within 12\" ofthis fighter. Make a note of that fighter's location, then remove that fighter from the battlefield, and immediately set them up within 3\" of this fighter. Then remove this fighter from the battlefield, and set them up within 3\" of the other friendly fighter's original location.",
         "runemarks": []
     },
     {
@@ -1771,7 +1770,7 @@
         "name": "Summoned Abomination",
         "warband": "Ephilim's Pandaemonium",
         "cost": "quad",
-        "description": "Pick a friendly fighter with the Ephilim’s Pandaemonium runemark that has been taken down. Set up that fighter on a platform or the battlefield floor, wholly within 3\" of this fighter. That fighter no longer counts as being taken down and has no damage points allocated to it.",
+        "description": "Pick a friendly fighter with the Ephilim's Pandaemonium runemark that has been taken down. Set up that fighter on a platform or the battlefield floor, wholly within 3\" of this fighter. That fighter no longer counts as being taken down and has no damage points allocated to it.",
         "runemarks": [
             "hero"
         ]
@@ -1805,52 +1804,72 @@
         "runemarks": []
     },
     {
-        "_id": "1223c872",
-        "name": "Chosen of the King",
+        "_id": "0d073880",
+        "name": "Baffling Parlay",
         "warband": "Flesh-eater Courts",
-        "cost": "double",
-        "description": "A fighter can use this abiltiy only if they are within 6\" of a visible friendly fighter with the Flesh-eater Courts faction runemark and both the Hero and Berserker runemarks. Until the end of this fighter's activation, add 2 to the Attacks characteristic of melee attack actions made by this fighter.",
-        "runemarks": [
-            "elite"
-        ]
-    },
-    {
-        "_id": "a35dcbba",
-        "name": "Feeding Frenzy",
-        "warband": "Flesh-eater Courts",
-        "cost": "double",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Remove a number of damage points from this fighter up to the value of this ability.",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made.  Subtract 1 from the Attacks characteristic of that attack action, to a minimum of 1.",
         "runemarks": []
     },
     {
-        "_id": "c201a16b",
-        "name": "Skewering Strike",
+        "_id": "bec6b159",
+        "name": "Royal Bodyguard",
         "warband": "Flesh-eater Courts",
-        "cost": "double",
-        "description": "Add 1 to the Stregnth characteristic of the next melee attack action made by this fighter this activation. In addition, if that attack action scores a critical hit, until the end of the battle round, the target fighter cannot make move actions or disengage actions.",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when a friendly fighter with the Hero runemark within 3\" of them is targeted by an attack action, after the damage is totalled but before it is allocated, if it is enough for that fighter to be taken down. Allocate those damage points, one at a time, to this fighter instead. If this fighter is taken down, allocate any remaining damage points to that friendly Hero.",
         "runemarks": [
-            "agile"
+            "bulwark"
         ]
     },
     {
-        "_id": "84df9e3b",
-        "name": "Unnatural Vitality",
+        "_id": "79d9faa1",
+        "name": "Scrabbling Hordes",
         "warband": "Flesh-eater Courts",
         "cost": "double",
-        "description": "Remove a number of damage points from this fighter up to the value of this ability.",
+        "description": "Pick a visible friendly fighter within 6\" of this fighter that has the Flesh-eater Courts runemark and the Minion runemark that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "2e4501f8",
+        "name": "Hungry Talons",
+        "warband": "Flesh-eater Courts",
+        "cost": "double",
+        "description": "Until the end of the battle round, each time an enemy fighter within 6\" of this fighter makes a disengage action but before that fighter moves away, allocate D6 damage points to that fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "01e51087",
+        "name": "Winds of Shyish",
+        "warband": "Flesh-eater Courts",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are not within 3\" of any enemy fighters. Pick a visible friendly fighter that has a Wounds characteristic of 12 or less within 3\" of this fighter. Remove that fighter and this fighter from the battlefield and immediately set them up on the battlefield more than 5\" from all enemy fighters and wholly within 3\" of each other.",
         "runemarks": [
             "hero",
-            "berserker"
+            "trapper"
         ]
     },
     {
-        "_id": "9f8bae1a",
-        "name": "Bringer of Death",
+        "_id": "e986e07a",
+        "name": "Noble Winged Beast",
         "warband": "Flesh-eater Courts",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, do not count the vertical distance when measuring the range for attack actions made by this fighter.",
         "runemarks": [
-            "hero"
+            "hero",
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "6e8e86a1",
+        "name": "Speak in Tongues",
+        "warband": "Flesh-eater Courts",
+        "cost": "double",
+        "description": "Pick an enemy fighter within 3\" of this fighter and roll a dice. On a 3+, that fighter makes 1 less action in their next activation (to a minimum of 1).",
+        "runemarks": [
+            "hero",
+            "priest"
         ]
     },
     {
@@ -1858,20 +1877,9 @@
         "name": "Death Scream",
         "warband": "Flesh-eater Courts",
         "cost": "triple",
-        "description": "Roll a dice for each visible enemy fighter within 8\" of this fighter. On a 5, allocate 1 damage point to the fighter being rolled for. On a 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.",
+        "description": "Until the end of the battle round, enemy fighters within 6\" of this fighter cannot make reactions.",
         "runemarks": [
             "agile"
-        ]
-    },
-    {
-        "_id": "19b79e8e",
-        "name": "Stir of Black Hunger",
-        "warband": "Flesh-eater Courts",
-        "cost": "quad",
-        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
-        "runemarks": [
-            "hero",
-            "berserker"
         ]
     },
     {
@@ -1886,20 +1894,53 @@
         ]
     },
     {
+        "_id": "98b3a5d8",
+        "name": "Predator's Pounce",
+        "warband": "Flesh-eater Courts",
+        "cost": "triple",
+        "description": "This fighter can make a bonus disengage action. Then this fighter can make a bonus move action.",
+        "runemarks": [
+            "mount"
+        ]
+    },
+    {
+        "_id": "183defcb",
+        "name": "King's Entreaty",
+        "warband": "Flesh-eater Courts",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter. That enemy fighter's player must accept or reject an infected bone. If they accept it, until the end of the battle, after that fighter's activation, roll a dice. On a 5+, that fighter is taken down. If they reject it, until the end of the battle, that fighter cannot use abilities.",
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "489f11f2",
+        "name": "Victory Feast",
+        "warband": "Flesh-eater Courts",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Remove a number of damage points allocated to each friendly fighter within 6\" of this fighter, up to half the value of this ability (rounding up). If this fighter has the Frenzied runemark, add 4 to the value of this ability, to a maximum of 7.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
         "_id": "ff7e8503",
         "name": "The Royal Hunt",
         "warband": "Flesh-eater Courts",
         "cost": "quad",
-        "description": "This fighter makes a bonus move action. Then, they can make a bonus attack action. In addition, add 1 to the Attacks characteristic of that attack action if this fighter is within 1\" of a visible friendly fighter.",
+        "description": "Add 1 to the Attacks and Damage characteristics of this fighter's melee weapons for each visible friendly fighter within 3\" of them until the end of their activation.",
         "runemarks": []
     },
     {
-        "_id": "0d073880",
-        "name": "Baffling Parlay",
+        "_id": "4d8af2ce",
+        "name": "Decree of Chivalry",
         "warband": "Flesh-eater Courts",
-        "cost": "reaction",
-        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made.  Subtract 1 from the Attacks characteristic of that attack action, to a minimum of 1.",
-        "runemarks": []
+        "cost": "quad",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter. If this fighter has the Berserker runemark, increase the range of this ability by a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "hero"
+        ]
     },
     {
         "_id": "7fd8398d",
@@ -2326,7 +2367,7 @@
     },
     {
         "_id": "7491920a",
-        "name": "Would the Realm",
+        "name": "Wound the Realm",
         "warband": "Gorechosen of Dromm",
         "cost": "quad",
         "description": "Pick two visible battlefield corners or pick two visible objective tokens and draw a 1mm line between each. Roll a dice for each model touching that line. On a 3+, allocate a number of damage points equal to the value of this ability to that fighter.",
@@ -6731,7 +6772,7 @@
         "name": "Swift Judgement",
         "warband": "The Headsmen's Curse",
         "cost": "double",
-        "description": "This fighter makes a bonus move action of up to a number of 3 inches equal to the value of this ability and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
+        "description": "This fighter makes a bonus move action of up to a number of inches equal to the value of this ability and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
         "runemarks": []
     },
     {
@@ -6739,7 +6780,7 @@
         "name": "Sharpen",
         "warband": "The Headsmen's Curse",
         "cost": "double",
-        "description": "Pick a friendly fighter with the Hero runemark and The Headsmen’s Curse runemark within 3\" of this fighter. Add 2 to the damage points allocated to enemy fighters by each critical hit from the next melee attack action made by that fighter.",
+        "description": "Pick a friendly fighter with the Hero runemark and The Headsmen's Curse runemark within 3\" of this fighter. Add 2 to the damage points allocated to enemy fighters by each critical hit from the next melee attack action made by that fighter.",
         "runemarks": [
             "agile"
         ]
@@ -6749,7 +6790,7 @@
         "name": "Hold Them Still",
         "warband": "The Headsmen's Curse",
         "cost": "triple",
-        "description": "Pick an enemy fighter within 1\" of this fighter. That fighter cannot make disengage actions until the end of the battle round. In addition, subtract the value of this ability from that fighter’s Move characteristic until the end of the battle round (to a minimum of 0).",
+        "description": "Pick an enemy fighter within 1\" of this fighter. That fighter cannot make disengage actions until the end of the battle round. In addition, subtract the value of this ability from that fighter's Move characteristic until the end of the battle round (to a minimum of 0).",
         "runemarks": []
     },
     {
@@ -6757,7 +6798,7 @@
         "name": "The Court Sentences You... To Death!",
         "warband": "The Headsmen's Curse",
         "cost": "quad",
-        "description": "This fighter makes a bonus move action. Add x to the Attacks  characteristic of the next melee attack action made by this fighter in this activation and add x to the damage points allocated to enemy fighters by each critical hit from that attack action, where x is the number of friendly fighters with The Headsmen’s Curse runemark within 3\" of the target.",
+        "description": "This fighter makes a bonus move action. Add x to the Attacks  characteristic of the next melee attack action made by this fighter in this activation and add x to the damage points allocated to enemy fighters by each critical hit from that attack action, where x is the number of friendly fighters with The Headsmen's Curse runemark within 3\" of the target.",
         "runemarks": [
             "hero"
         ]
@@ -7781,6 +7822,16 @@
         "warband": "chaos",
         "cost": "quad",
         "description": "This fighter can make a bonus attack action with its spear.  In addition, if that bonus attack action scores any critical hits, the target fighter moves 3\"  directly towards this fighter as if they were jumping, even if they are within 1\" of any enemy fighters.  If the target fighter finishes that move within 1\" of this fighter, this fighter can make a bonus attack action with its club.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "bb806355",
+        "name": "Cruel Strike",
+        "warband": "chaos",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when a visible enemy fighter within 1\" of them makes a disengage action but before that fighter moves away. Roll a dice. On a 2+, allocate D6 damage points to that enemy fighter.",
         "runemarks": [
             "icon-bearer"
         ]
