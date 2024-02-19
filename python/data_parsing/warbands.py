@@ -1,4 +1,4 @@
-from .fighters import sort_fighters, Fighters, FighterJSONDataPayload
+from .fighters import sort_fighters, Fighter, Fighters, FighterJSONDataPayload
 from .abilities import Ability
 from .models import DataPayload, PROJECT_DATA, sanitise_filename, DIST
 from pathlib import Path
@@ -72,14 +72,21 @@ class WarbandsJSONDataPayload(DataPayload):
         sorted_data = sort_fighters([dict(sorted(x.items())) for x in self.data['fighters']])
         self._write_json(dst=dst, data=sorted_data)
 
+    def _exclude_from_tts(self, fighter: Fighter):
+        excluded = False
+        if fighter.warband == 'Cities of Sigmar':
+            excluded = True
+        return excluded
+
     def as_tts_format(self) -> List[dict]:
         tts_data = list()
         for f in self.fighters.fighters:
-            tts_data.append(f.as_dict())
-            ab_dict = dict()
-            for ability in [a for a in f.abilities if a.warband != 'universal']:
-                ab_dict.update(ability.tts_format())
-            tts_data[-1]['abilities'] = ab_dict
+            if not self._exclude_from_tts(f):
+                tts_data.append(f.as_dict())
+                ab_dict = dict()
+                for ability in [a for a in f.abilities if a.warband != 'universal']:
+                    ab_dict.update(ability.tts_format())
+                tts_data[-1]['abilities'] = ab_dict
         return tts_data
 
     def write_tts_fighters(self, dst: Path = Path(PROJECT_DATA, 'tts_fighters.json')):

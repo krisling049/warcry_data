@@ -18,7 +18,8 @@ class Ability:
         return self.name
 
     def tts_format(self) -> dict:
-        tts = {self.name: {'cost': self.cost.capitalize(), 'description': self.description}}
+        # tts = {self.name: {'cost': self.cost.capitalize(), 'description': self.description}}
+        tts = {self.name: {'cost': self.cost.capitalize()}}
         return tts
 
 
