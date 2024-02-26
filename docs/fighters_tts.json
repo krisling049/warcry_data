@@ -1215,6 +1215,9 @@
             },
             "Brute Resilience": {
                 "cost": "Reaction"
+            },
+            "Savage Bolt": {
+                "cost": "Quad"
             }
         }
     },
@@ -3404,6 +3407,9 @@
             },
             "Shared Pain": {
                 "cost": "Reaction"
+            },
+            "Cavalcade of Madness": {
+                "cost": "Quad"
             }
         }
     },
@@ -3449,6 +3455,9 @@
             },
             "Shared Pain": {
                 "cost": "Reaction"
+            },
+            "Cavalcade of Madness": {
+                "cost": "Quad"
             }
         }
     },
@@ -3485,6 +3494,9 @@
             },
             "Shared Pain": {
                 "cost": "Reaction"
+            },
+            "Cavalcade of Madness": {
+                "cost": "Quad"
             }
         }
     },
@@ -3525,6 +3537,9 @@
             },
             "Shared Pain": {
                 "cost": "Reaction"
+            },
+            "Cavalcade of Madness": {
+                "cost": "Quad"
             }
         }
     },
@@ -5506,6 +5521,9 @@
             },
             "Twist of Fate": {
                 "cost": "Reaction"
+            },
+            "Empowered Bolts": {
+                "cost": "Quad"
             }
         }
     },
@@ -5548,6 +5566,12 @@
             },
             "Twist of Fate": {
                 "cost": "Reaction"
+            },
+            "Split Into Brimstone Horrors": {
+                "cost": "Double"
+            },
+            "Empowered Bolts": {
+                "cost": "Quad"
             }
         }
     },
@@ -5588,6 +5612,9 @@
             },
             "Twist of Fate": {
                 "cost": "Reaction"
+            },
+            "Empowered Bolts": {
+                "cost": "Quad"
             }
         }
     },
@@ -5628,6 +5655,9 @@
             },
             "Twist of Fate": {
                 "cost": "Reaction"
+            },
+            "Empowered Bolts": {
+                "cost": "Quad"
             }
         }
     },
@@ -5661,6 +5691,12 @@
             },
             "Twist of Fate": {
                 "cost": "Reaction"
+            },
+            "Cleaving Strike": {
+                "cost": "Triple"
+            },
+            "Empowered Bolts": {
+                "cost": "Quad"
             }
         }
     },
@@ -5709,6 +5745,9 @@
             },
             "Twist of Fate": {
                 "cost": "Reaction"
+            },
+            "Empowered Bolts": {
+                "cost": "Quad"
             }
         }
     },
@@ -6617,6 +6656,9 @@
             },
             "Locus of Sorcery": {
                 "cost": "Double"
+            },
+            "Sudden Warp-portal": {
+                "cost": "Double"
             }
         }
     },
@@ -6650,6 +6692,12 @@
                 "cost": "Reaction"
             },
             "Locus of Sorcery": {
+                "cost": "Double"
+            },
+            "Hypnotise": {
+                "cost": "Double"
+            },
+            "Sudden Warp-portal": {
                 "cost": "Double"
             }
         }
@@ -6691,6 +6739,9 @@
             },
             "Locus of Sorcery": {
                 "cost": "Double"
+            },
+            "Sudden Warp-portal": {
+                "cost": "Double"
             }
         }
     },
@@ -6728,6 +6779,12 @@
             },
             "Capricious Warpflame": {
                 "cost": "Quad"
+            },
+            "Sudden Warp-portal": {
+                "cost": "Double"
+            },
+            "Engulfing Bite": {
+                "cost": "Triple"
             }
         }
     },
@@ -6777,6 +6834,12 @@
             },
             "Master of Destiny": {
                 "cost": "Triple"
+            },
+            "Sudden Warp-portal": {
+                "cost": "Double"
+            },
+            "Summoned Abomination": {
+                "cost": "Quad"
             }
         }
     },
@@ -8236,6 +8299,12 @@
         ],
         "wounds": 4,
         "abilities": {
+            "Befoul the Land": {
+                "cost": "Double"
+            },
+            "Disgusting Appearance": {
+                "cost": "Double"
+            },
             "Musk of Fear": {
                 "cost": "Reaction"
             }
@@ -8264,6 +8333,9 @@
         ],
         "wounds": 12,
         "abilities": {
+            "Disgusting Appearance": {
+                "cost": "Double"
+            },
             "Musk of Fear": {
                 "cost": "Reaction"
             }
@@ -8292,6 +8364,9 @@
         ],
         "wounds": 12,
         "abilities": {
+            "Disgusting Appearance": {
+                "cost": "Double"
+            },
             "Musk of Fear": {
                 "cost": "Reaction"
             }
@@ -8331,6 +8406,12 @@
         ],
         "wounds": 12,
         "abilities": {
+            "Befoul the Land": {
+                "cost": "Double"
+            },
+            "Disgusting Appearance": {
+                "cost": "Double"
+            },
             "Musk of Fear": {
                 "cost": "Reaction"
             }
@@ -8362,6 +8443,12 @@
         ],
         "wounds": 14,
         "abilities": {
+            "Befoul the Land": {
+                "cost": "Double"
+            },
+            "Disgusting Appearance": {
+                "cost": "Double"
+            },
             "Poisonous Fumes": {
                 "cost": "Triple"
             },
@@ -8396,6 +8483,18 @@
         ],
         "wounds": 20,
         "abilities": {
+            "Befoul the Land": {
+                "cost": "Double"
+            },
+            "Disgusting Appearance": {
+                "cost": "Double"
+            },
+            "Unctuous Citations": {
+                "cost": "Triple"
+            },
+            "Manifestation of a Great Plague": {
+                "cost": "Quad"
+            },
             "Lead From The Back": {
                 "cost": "Triple"
             },
@@ -8429,6 +8528,9 @@
         "abilities": {
             "Musk of Fear": {
                 "cost": "Reaction"
+            },
+            "Way of the Slinking Rat": {
+                "cost": "Double"
             }
         }
     },
@@ -8466,6 +8568,9 @@
         "abilities": {
             "Musk of Fear": {
                 "cost": "Reaction"
+            },
+            "Way of the Slinking Rat": {
+                "cost": "Double"
             }
         }
     },
@@ -8505,6 +8610,12 @@
         "abilities": {
             "Musk of Fear": {
                 "cost": "Reaction"
+            },
+            "Way of the Slinking Rat": {
+                "cost": "Double"
+            },
+            "Spitting Cobra Technique": {
+                "cost": "Triple"
             }
         }
     },
@@ -8533,6 +8644,9 @@
         "abilities": {
             "Musk of Fear": {
                 "cost": "Reaction"
+            },
+            "Way of the Slinking Rat": {
+                "cost": "Double"
             }
         }
     },
@@ -8567,6 +8681,15 @@
             },
             "Musk of Fear": {
                 "cost": "Reaction"
+            },
+            "Way of the Slinking Rat": {
+                "cost": "Double"
+            },
+            "Spitting Cobra Technique": {
+                "cost": "Triple"
+            },
+            "Way of the Hidden Paw": {
+                "cost": "Quad"
             }
         }
     },
@@ -8739,6 +8862,9 @@
             },
             "Musk of Fear": {
                 "cost": "Reaction"
+            },
+            "There Are Always More": {
+                "cost": "Triple"
             }
         }
     },
@@ -9747,6 +9873,12 @@
             },
             "Khorne's Due": {
                 "cost": "Reaction"
+            },
+            "Ever Advancing": {
+                "cost": "Double"
+            },
+            "Khorne Cares Not": {
+                "cost": "Quad"
             }
         }
     },
@@ -9778,6 +9910,12 @@
             },
             "Khorne's Due": {
                 "cost": "Reaction"
+            },
+            "Ever Advancing": {
+                "cost": "Double"
+            },
+            "Khorne Cares Not": {
+                "cost": "Quad"
             }
         }
     },
@@ -9811,6 +9949,15 @@
             },
             "Khorne's Due": {
                 "cost": "Reaction"
+            },
+            "Ever Advancing": {
+                "cost": "Double"
+            },
+            "Frenzied Attack": {
+                "cost": "Triple"
+            },
+            "Khorne Cares Not": {
+                "cost": "Quad"
             }
         }
     },
@@ -9842,6 +9989,12 @@
             },
             "Khorne's Due": {
                 "cost": "Reaction"
+            },
+            "Ever Advancing": {
+                "cost": "Double"
+            },
+            "Khorne Cares Not": {
+                "cost": "Quad"
             }
         }
     },
@@ -9878,6 +10031,15 @@
             },
             "Khorne's Due": {
                 "cost": "Reaction"
+            },
+            "Decapitating Strike": {
+                "cost": "Double"
+            },
+            "Ever Advancing": {
+                "cost": "Double"
+            },
+            "Khorne Cares Not": {
+                "cost": "Quad"
             }
         }
     },
@@ -9911,6 +10073,9 @@
             },
             "Khorne's Due": {
                 "cost": "Reaction"
+            },
+            "Chains of Blood": {
+                "cost": "Triple"
             }
         }
     },
@@ -9954,6 +10119,9 @@
             },
             "Khorne's Due": {
                 "cost": "Reaction"
+            },
+            "Wound the Realm": {
+                "cost": "Quad"
             }
         }
     },
@@ -9987,6 +10155,9 @@
             },
             "Khorne's Due": {
                 "cost": "Reaction"
+            },
+            "Overhead Smash": {
+                "cost": "Double"
             }
         }
     },
@@ -10095,6 +10266,9 @@
             },
             "Khorne's Due": {
                 "cost": "Reaction"
+            },
+            "Daemonic Maw": {
+                "cost": "Double"
             }
         }
     },
@@ -10128,6 +10302,9 @@
             },
             "Khorne's Due": {
                 "cost": "Reaction"
+            },
+            "Bloodscent": {
+                "cost": "Triple"
             }
         }
     },
@@ -10697,6 +10874,9 @@
             },
             "Impossible to Wound": {
                 "cost": "Reaction"
+            },
+            "Draw Upon the Retchling's Power": {
+                "cost": "Double"
             }
         }
     },
@@ -12732,6 +12912,15 @@
         ],
         "wounds": 15,
         "abilities": {
+            "Self-Command": {
+                "cost": "Triple"
+            },
+            "Unleash": {
+                "cost": "Double"
+            },
+            "In Control": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -12772,6 +12961,15 @@
         ],
         "wounds": 15,
         "abilities": {
+            "Self-Command": {
+                "cost": "Triple"
+            },
+            "Unleash": {
+                "cost": "Double"
+            },
+            "In Control": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -12803,6 +13001,15 @@
         ],
         "wounds": 18,
         "abilities": {
+            "Self-Command": {
+                "cost": "Triple"
+            },
+            "Unleash": {
+                "cost": "Double"
+            },
+            "In Control": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -12846,6 +13053,15 @@
         ],
         "wounds": 20,
         "abilities": {
+            "Self-Command": {
+                "cost": "Triple"
+            },
+            "Unleash": {
+                "cost": "Double"
+            },
+            "In Control": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -12882,6 +13098,9 @@
         ],
         "wounds": 6,
         "abilities": {
+            "Oathsworn Attack": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -12915,6 +13134,9 @@
         ],
         "wounds": 10,
         "abilities": {
+            "Oathsworn Attack": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -12949,6 +13171,9 @@
         ],
         "wounds": 10,
         "abilities": {
+            "Oathsworn Attack": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -12980,6 +13205,9 @@
         ],
         "wounds": 10,
         "abilities": {
+            "Oathsworn Attack": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -13022,6 +13250,12 @@
         ],
         "wounds": 10,
         "abilities": {
+            "Hunting Hound": {
+                "cost": "Double"
+            },
+            "Oathsworn Attack": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -13064,6 +13298,12 @@
         ],
         "wounds": 18,
         "abilities": {
+            "Oathsworn Attack": {
+                "cost": "Quad"
+            },
+            "Enfeeble": {
+                "cost": "Triple"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -13098,6 +13338,9 @@
         ],
         "wounds": 16,
         "abilities": {
+            "Desecration": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -13140,6 +13383,15 @@
         ],
         "wounds": 20,
         "abilities": {
+            "Spite-tongue Curse": {
+                "cost": "Double"
+            },
+            "Mask of Darkness": {
+                "cost": "Triple"
+            },
+            "Desecration": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -13173,6 +13425,9 @@
         ],
         "wounds": 16,
         "abilities": {
+            "Desecration": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -13209,6 +13464,9 @@
         ],
         "wounds": 26,
         "abilities": {
+            "Desecration": {
+                "cost": "Quad"
+            },
             "Imbued with Dark Power": {
                 "cost": "Double"
             },
@@ -16617,6 +16875,9 @@
         ],
         "wounds": 6,
         "abilities": {
+            "Gang Up": {
+                "cost": "Double"
+            },
             "Venom-encrusted Weapon": {
                 "cost": "Double"
             },
@@ -16651,6 +16912,12 @@
         ],
         "wounds": 6,
         "abilities": {
+            "Gang Up": {
+                "cost": "Double"
+            },
+            "Sneaky Snares": {
+                "cost": "Double"
+            },
             "Kunnin' Trap": {
                 "cost": "Reaction"
             }
@@ -16691,6 +16958,9 @@
         ],
         "wounds": 8,
         "abilities": {
+            "Gang Up": {
+                "cost": "Double"
+            },
             "Stab 'Em Good": {
                 "cost": "Triple"
             },
@@ -16725,6 +16995,9 @@
         ],
         "wounds": 20,
         "abilities": {
+            "Sneaky Snares": {
+                "cost": "Double"
+            },
             "Venom-encrusted Weapon": {
                 "cost": "Double"
             },
@@ -16759,6 +17032,9 @@
         ],
         "wounds": 28,
         "abilities": {
+            "Master of Murk": {
+                "cost": "Double"
+            },
             "Venom-encrusted Weapon": {
                 "cost": "Double"
             },
@@ -17898,6 +18174,12 @@
             },
             "Pile On": {
                 "cost": "Reaction"
+            },
+            "Enthusiastic Dubbin'": {
+                "cost": "Double"
+            },
+            "Tuff Nut": {
+                "cost": "Reaction"
             }
         }
     },
@@ -17931,6 +18213,12 @@
                 "cost": "Quad"
             },
             "Pile On": {
+                "cost": "Reaction"
+            },
+            "Enthusiastic Dubbin'": {
+                "cost": "Double"
+            },
+            "Tuff Nut": {
                 "cost": "Reaction"
             }
         }
@@ -17977,6 +18265,15 @@
             },
             "Pile On": {
                 "cost": "Reaction"
+            },
+            "Enthusiastic Dubbin'": {
+                "cost": "Double"
+            },
+            "Sound da Charge!": {
+                "cost": "Triple"
+            },
+            "Tuff Nut": {
+                "cost": "Reaction"
             }
         }
     },
@@ -18010,6 +18307,12 @@
                 "cost": "Quad"
             },
             "Pile On": {
+                "cost": "Reaction"
+            },
+            "Enthusiastic Dubbin'": {
+                "cost": "Double"
+            },
+            "Tuff Nut": {
                 "cost": "Reaction"
             }
         }
@@ -18054,6 +18357,12 @@
             },
             "Pile On": {
                 "cost": "Reaction"
+            },
+            "Enthusiastic Dubbin'": {
+                "cost": "Double"
+            },
+            "Tuff Nut": {
+                "cost": "Reaction"
             }
         }
     },
@@ -18097,6 +18406,15 @@
             },
             "Pile On": {
                 "cost": "Reaction"
+            },
+            "Questin' Knight": {
+                "cost": "Double"
+            },
+            "Enthusiastic Dubbin'": {
+                "cost": "Double"
+            },
+            "Tuff Nut": {
+                "cost": "Reaction"
             }
         }
     },
@@ -18136,6 +18454,12 @@
                 "cost": "Quad"
             },
             "Pile On": {
+                "cost": "Reaction"
+            },
+            "Enthusiastic Dubbin'": {
+                "cost": "Double"
+            },
+            "Tuff Nut": {
                 "cost": "Reaction"
             }
         }
@@ -18213,6 +18537,15 @@
             },
             "Pile On": {
                 "cost": "Reaction"
+            },
+            "Hurl Jabbertoad": {
+                "cost": "Double"
+            },
+            "Summon Stalagsquig": {
+                "cost": "Double"
+            },
+            "Summon Spiteshroom": {
+                "cost": "Triple"
             }
         }
     },
@@ -18249,6 +18582,12 @@
             },
             "Pile On": {
                 "cost": "Reaction"
+            },
+            "Snarlfang's Jaws": {
+                "cost": "Double"
+            },
+            "Ferocious Pounce": {
+                "cost": "Quad"
             }
         }
     },
@@ -18294,6 +18633,12 @@
             },
             "Pile On": {
                 "cost": "Reaction"
+            },
+            "Snarlfang's Jaws": {
+                "cost": "Double"
+            },
+            "Ferocious Pounce": {
+                "cost": "Quad"
             }
         }
     },
@@ -18334,6 +18679,12 @@
             },
             "Pile On": {
                 "cost": "Reaction"
+            },
+            "Snarlfang's Jaws": {
+                "cost": "Double"
+            },
+            "Ferocious Pounce": {
+                "cost": "Quad"
             }
         }
     },
@@ -18494,6 +18845,9 @@
             },
             "Pile On": {
                 "cost": "Reaction"
+            },
+            "Whirling Death": {
+                "cost": "Quad"
             }
         }
     },
@@ -18542,6 +18896,9 @@
             },
             "Pile On": {
                 "cost": "Reaction"
+            },
+            "Face of Da Bad Moon": {
+                "cost": "Double"
             }
         }
     },
@@ -20116,7 +20473,11 @@
             }
         ],
         "wounds": 6,
-        "abilities": {}
+        "abilities": {
+            "Sic 'Em": {
+                "cost": "Double"
+            }
+        }
     },
     {
         "_id": "40acb702",
@@ -20168,7 +20529,11 @@
             }
         ],
         "wounds": 6,
-        "abilities": {}
+        "abilities": {
+            "Sic 'Em": {
+                "cost": "Double"
+            }
+        }
     },
     {
         "_id": "8acd7368",
@@ -20232,6 +20597,12 @@
         ],
         "wounds": 30,
         "abilities": {
+            "Bird Strike": {
+                "cost": "Double"
+            },
+            "Broadside": {
+                "cost": "Triple"
+            },
             "Might Makes Right": {
                 "cost": "Double"
             },
@@ -20271,6 +20642,9 @@
         ],
         "wounds": 8,
         "abilities": {
+            "Lay Mantrap": {
+                "cost": "Double"
+            },
             "Sneaky Traps": {
                 "cost": "Double"
             }
@@ -20300,7 +20674,11 @@
             }
         ],
         "wounds": 8,
-        "abilities": {}
+        "abilities": {
+            "Here You Go, Boss!": {
+                "cost": "Triple"
+            }
+        }
     },
     {
         "_id": "2abad3bb",
@@ -21366,6 +21744,12 @@
             },
             "Get Stuck In": {
                 "cost": "Reaction"
+            },
+            "An Eye for Weakness": {
+                "cost": "Triple"
+            },
+            "Bone Krusha": {
+                "cost": "Quad"
             }
         }
     },
@@ -22069,6 +22453,9 @@
             },
             "Get Stuck In": {
                 "cost": "Reaction"
+            },
+            "Dead 'Ard": {
+                "cost": "Double"
             }
         }
     },
@@ -22103,6 +22490,9 @@
             },
             "Get Stuck In": {
                 "cost": "Reaction"
+            },
+            "Dead 'Ard": {
+                "cost": "Double"
             }
         }
     },
@@ -22137,6 +22527,9 @@
             },
             "Get Stuck In": {
                 "cost": "Reaction"
+            },
+            "Dead 'Ard": {
+                "cost": "Double"
             }
         }
     },
@@ -22176,6 +22569,9 @@
             },
             "Get Stuck In": {
                 "cost": "Reaction"
+            },
+            "Dead 'Ard": {
+                "cost": "Double"
             }
         }
     },
@@ -22218,6 +22614,9 @@
             },
             "Get Stuck In": {
                 "cost": "Reaction"
+            },
+            "Beastbashas": {
+                "cost": "Triple"
             }
         }
     },
@@ -22260,6 +22659,9 @@
             },
             "Get Stuck In": {
                 "cost": "Reaction"
+            },
+            "Beastbashas": {
+                "cost": "Triple"
             }
         }
     },
@@ -22306,6 +22708,9 @@
             },
             "Get Stuck In": {
                 "cost": "Reaction"
+            },
+            "Beastbashas": {
+                "cost": "Triple"
             }
         }
     },
@@ -23587,6 +23992,15 @@
             },
             "Flickering Form": {
                 "cost": "Reaction"
+            },
+            "Swift Judgement": {
+                "cost": "Double"
+            },
+            "Sharpen": {
+                "cost": "Double"
+            },
+            "Hold Them Still": {
+                "cost": "Triple"
             }
         }
     },
@@ -23632,6 +24046,12 @@
             },
             "Flickering Form": {
                 "cost": "Reaction"
+            },
+            "Swift Judgement": {
+                "cost": "Double"
+            },
+            "Hold Them Still": {
+                "cost": "Triple"
             }
         }
     },
@@ -23668,6 +24088,12 @@
             },
             "Flickering Form": {
                 "cost": "Reaction"
+            },
+            "Swift Judgement": {
+                "cost": "Double"
+            },
+            "Hold Them Still": {
+                "cost": "Triple"
             }
         }
     },
@@ -23708,6 +24134,15 @@
             },
             "Flickering Form": {
                 "cost": "Reaction"
+            },
+            "Swift Judgement": {
+                "cost": "Double"
+            },
+            "Hold Them Still": {
+                "cost": "Triple"
+            },
+            "The Court Sentences You... To Death!": {
+                "cost": "Quad"
             }
         }
     },
@@ -23877,6 +24312,9 @@
             },
             "Flickering Form": {
                 "cost": "Reaction"
+            },
+            "Howling Vortex": {
+                "cost": "Triple"
             }
         }
     },
@@ -24708,6 +25146,9 @@
         ],
         "wounds": 10,
         "abilities": {
+            "Sibling Rivalry": {
+                "cost": "Double"
+            },
             "Shambling Horde": {
                 "cost": "Double"
             },
@@ -24741,6 +25182,9 @@
         ],
         "wounds": 10,
         "abilities": {
+            "Sibling Rivalry": {
+                "cost": "Double"
+            },
             "Shambling Horde": {
                 "cost": "Double"
             },
@@ -24774,6 +25218,9 @@
         ],
         "wounds": 10,
         "abilities": {
+            "Sibling Rivalry": {
+                "cost": "Double"
+            },
             "Shambling Horde": {
                 "cost": "Double"
             },
@@ -24807,6 +25254,9 @@
         ],
         "wounds": 30,
         "abilities": {
+            "Sleepless Sentinel": {
+                "cost": "Double"
+            },
             "Chosen Champion": {
                 "cost": "Quad"
             },
@@ -24841,6 +25291,9 @@
         ],
         "wounds": 25,
         "abilities": {
+            "Deadly Command": {
+                "cost": "Triple"
+            },
             "Beheading Strike": {
                 "cost": "Double"
             },
@@ -24882,6 +25335,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "The Thrill of the Hunt": {
+                "cost": "Double"
             }
         }
     },
@@ -24916,6 +25372,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "The Thrill of the Hunt": {
+                "cost": "Double"
             }
         }
     },
@@ -24949,6 +25408,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "The Thrill of the Hunt": {
+                "cost": "Double"
             }
         }
     },
@@ -24989,6 +25451,12 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Fiendish Lure": {
+                "cost": "Double"
+            },
+            "The Thrill of the Hunt": {
+                "cost": "Double"
             }
         }
     },
@@ -25057,6 +25525,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Crackling Arcs": {
+                "cost": "Double"
             }
         }
     },
@@ -25091,6 +25562,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Crackling Arcs": {
+                "cost": "Double"
             }
         }
     },
@@ -25125,6 +25599,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Crackling Arcs": {
+                "cost": "Double"
             }
         }
     },
@@ -25159,6 +25636,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Crackling Arcs": {
+                "cost": "Double"
             }
         }
     },
@@ -25189,6 +25669,9 @@
         "abilities": {
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Dread Puppetry": {
+                "cost": "Double"
             }
         }
     },
@@ -25238,6 +25721,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Dynamic Enhancer": {
+                "cost": "Triple"
             }
         }
     },
@@ -25266,6 +25752,9 @@
         "abilities": {
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Frightening Charge": {
+                "cost": "Triple"
             }
         }
     },
@@ -25294,6 +25783,9 @@
         "abilities": {
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Frightening Charge": {
+                "cost": "Triple"
             }
         }
     },
@@ -25322,6 +25814,9 @@
         "abilities": {
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Frightening Charge": {
+                "cost": "Triple"
             }
         }
     },
@@ -25355,6 +25850,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Frightening Charge": {
+                "cost": "Triple"
             }
         }
     },
@@ -25388,6 +25886,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Frightening Charge": {
+                "cost": "Triple"
             }
         }
     },
@@ -25421,6 +25922,9 @@
             },
             "Unfeeling Flesh": {
                 "cost": "Reaction"
+            },
+            "Frightening Charge": {
+                "cost": "Triple"
             }
         }
     },
@@ -26755,6 +27259,9 @@
             },
             "Decree of Chivalry": {
                 "cost": "Quad"
+            },
+            "Royal Decree": {
+                "cost": "Double"
             }
         }
     },
@@ -27723,6 +28230,9 @@
         ],
         "wounds": 26,
         "abilities": {
+            "Executioner's Strike": {
+                "cost": "Quad"
+            },
             "Nadirite Weapon": {
                 "cost": "Double"
             },
@@ -29316,6 +29826,9 @@
             },
             "Return Fire": {
                 "cost": "Reaction"
+            },
+            "Win Recognition": {
+                "cost": "Triple"
             }
         }
     },
@@ -29356,6 +29869,9 @@
             },
             "Return Fire": {
                 "cost": "Reaction"
+            },
+            "Win Recognition": {
+                "cost": "Triple"
             }
         }
     },
@@ -29401,6 +29917,9 @@
             },
             "Return Fire": {
                 "cost": "Reaction"
+            },
+            "Win Recognition": {
+                "cost": "Triple"
             }
         }
     },
@@ -29450,6 +29969,9 @@
             },
             "Return Fire": {
                 "cost": "Reaction"
+            },
+            "Win Recognition": {
+                "cost": "Triple"
             }
         }
     },
@@ -29495,6 +30017,9 @@
             },
             "Return Fire": {
                 "cost": "Reaction"
+            },
+            "Win Recognition": {
+                "cost": "Triple"
             }
         }
     },
@@ -29706,6 +30231,9 @@
         ],
         "wounds": 10,
         "abilities": {
+            "Explosive Bolts": {
+                "cost": "Double"
+            },
             "Grim Resolve": {
                 "cost": "Reaction"
             },
@@ -31061,6 +31589,12 @@
         ],
         "wounds": 28,
         "abilities": {
+            "Aetherforce": {
+                "cost": "Double"
+            },
+            "Scouring Blows": {
+                "cost": "Double"
+            },
             "Blaze of Glory": {
                 "cost": "Double"
             },
@@ -31107,6 +31641,12 @@
         ],
         "wounds": 30,
         "abilities": {
+            "Aetherforce": {
+                "cost": "Double"
+            },
+            "Electrokinetic Blast": {
+                "cost": "Quad"
+            },
             "Blaze of Glory": {
                 "cost": "Double"
             },
@@ -31153,6 +31693,12 @@
         ],
         "wounds": 28,
         "abilities": {
+            "Aetherforce": {
+                "cost": "Double"
+            },
+            "Rushing Gales": {
+                "cost": "Triple"
+            },
             "Blaze of Glory": {
                 "cost": "Double"
             },
@@ -31234,6 +31780,9 @@
             },
             "Thunderous Departure": {
                 "cost": "Reaction"
+            },
+            "Staggering Blow": {
+                "cost": "Double"
             }
         }
     },
@@ -31279,6 +31828,9 @@
             },
             "Thunderous Departure": {
                 "cost": "Reaction"
+            },
+            "Quick Volley": {
+                "cost": "Triple"
             }
         }
     },
@@ -31319,6 +31871,9 @@
             },
             "Thunderous Departure": {
                 "cost": "Reaction"
+            },
+            "Lantern Astrala": {
+                "cost": "Double"
             }
         }
     },
@@ -32654,6 +33209,9 @@
         ],
         "wounds": 12,
         "abilities": {
+            "Might of Kurnoth": {
+                "cost": "Triple"
+            },
             "Draw from the Spirit-song": {
                 "cost": "Double"
             },
@@ -32736,6 +33294,9 @@
             },
             "Vengeful Spites": {
                 "cost": "Reaction"
+            },
+            "Vigour and Wrath": {
+                "cost": "Double"
             }
         }
     },
@@ -32767,6 +33328,9 @@
             },
             "Vengeful Spites": {
                 "cost": "Reaction"
+            },
+            "Vigour and Wrath": {
+                "cost": "Double"
             }
         }
     },
@@ -32798,6 +33362,9 @@
             },
             "Vengeful Spites": {
                 "cost": "Reaction"
+            },
+            "Vigour and Wrath": {
+                "cost": "Double"
             }
         }
     },
@@ -32843,6 +33410,12 @@
             },
             "Vengeful Spites": {
                 "cost": "Reaction"
+            },
+            "Vigour and Wrath": {
+                "cost": "Double"
+            },
+            "The Reaping": {
+                "cost": "Quad"
             }
         }
     },
@@ -34330,6 +34903,9 @@
             },
             "Starborn": {
                 "cost": "Reaction"
+            },
+            "Chameleon Ambush": {
+                "cost": "Double"
             }
         }
     },
@@ -34469,6 +35045,9 @@
             },
             "Starborn": {
                 "cost": "Reaction"
+            },
+            "Imbue with Azyrite Energy": {
+                "cost": "Triple"
             }
         }
     },
@@ -35358,6 +35937,9 @@
             },
             "Thunderous Departure": {
                 "cost": "Reaction"
+            },
+            "Guided by the Astral Compass": {
+                "cost": "Triple"
             }
         }
     },
@@ -36280,6 +36862,18 @@
             },
             "Gladiatorial Display": {
                 "cost": "Reaction"
+            },
+            "Peerless Combatant": {
+                "cost": "Double"
+            },
+            "Combination Attack": {
+                "cost": "Triple"
+            },
+            "Marshal the Bladestorm": {
+                "cost": "Triple"
+            },
+            "Acrobatic Display": {
+                "cost": "Reaction"
             }
         }
     },
@@ -36313,6 +36907,18 @@
                 "cost": "Triple"
             },
             "Gladiatorial Display": {
+                "cost": "Reaction"
+            },
+            "Peerless Combatant": {
+                "cost": "Double"
+            },
+            "Combination Attack": {
+                "cost": "Triple"
+            },
+            "Marshal the Bladestorm": {
+                "cost": "Triple"
+            },
+            "Acrobatic Display": {
                 "cost": "Reaction"
             }
         }
@@ -36348,6 +36954,18 @@
             },
             "Gladiatorial Display": {
                 "cost": "Reaction"
+            },
+            "Peerless Combatant": {
+                "cost": "Double"
+            },
+            "Combination Attack": {
+                "cost": "Triple"
+            },
+            "Marshal the Bladestorm": {
+                "cost": "Triple"
+            },
+            "Acrobatic Display": {
+                "cost": "Reaction"
             }
         }
     },
@@ -36381,6 +36999,18 @@
                 "cost": "Triple"
             },
             "Gladiatorial Display": {
+                "cost": "Reaction"
+            },
+            "Peerless Combatant": {
+                "cost": "Double"
+            },
+            "Combination Attack": {
+                "cost": "Triple"
+            },
+            "Marshal the Bladestorm": {
+                "cost": "Triple"
+            },
+            "Acrobatic Display": {
                 "cost": "Reaction"
             }
         }
@@ -36420,6 +37050,18 @@
                 "cost": "Triple"
             },
             "Gladiatorial Display": {
+                "cost": "Reaction"
+            },
+            "Peerless Combatant": {
+                "cost": "Double"
+            },
+            "Combination Attack": {
+                "cost": "Triple"
+            },
+            "Marshal the Bladestorm": {
+                "cost": "Triple"
+            },
+            "Acrobatic Display": {
                 "cost": "Reaction"
             }
         }
@@ -36566,6 +37208,9 @@
             },
             "Gladiatorial Display": {
                 "cost": "Reaction"
+            },
+            "Daughters of the First Temple": {
+                "cost": "Double"
             }
         }
     },
@@ -36659,6 +37304,15 @@
             },
             "Gladiatorial Display": {
                 "cost": "Reaction"
+            },
+            "Slip Between Shadows": {
+                "cost": "Reaction"
+            },
+            "Shadestalker Darts": {
+                "cost": "Double"
+            },
+            "Gloomweb Hex": {
+                "cost": "Triple"
             }
         }
     },
@@ -36693,6 +37347,12 @@
             },
             "Gladiatorial Display": {
                 "cost": "Reaction"
+            },
+            "Slip Between Shadows": {
+                "cost": "Reaction"
+            },
+            "Shadestalker Darts": {
+                "cost": "Double"
             }
         }
     },
@@ -36727,6 +37387,12 @@
             },
             "Gladiatorial Display": {
                 "cost": "Reaction"
+            },
+            "Slip Between Shadows": {
+                "cost": "Reaction"
+            },
+            "Shadestalker Darts": {
+                "cost": "Double"
             }
         }
     },
@@ -36766,6 +37432,15 @@
             },
             "Gladiatorial Display": {
                 "cost": "Reaction"
+            },
+            "Slip Between Shadows": {
+                "cost": "Reaction"
+            },
+            "Shadestalker Darts": {
+                "cost": "Double"
+            },
+            "Shadow Ambush": {
+                "cost": "Quad"
             }
         }
     },
@@ -39153,6 +39828,9 @@
         ],
         "wounds": 22,
         "abilities": {
+            "Heroic Guard": {
+                "cost": "Double"
+            },
             "Furious Avengers": {
                 "cost": "Double"
             },
@@ -39192,6 +39870,9 @@
         ],
         "wounds": 22,
         "abilities": {
+            "Heroic Guard": {
+                "cost": "Double"
+            },
             "Furious Avengers": {
                 "cost": "Double"
             },
@@ -39229,6 +39910,9 @@
         ],
         "wounds": 30,
         "abilities": {
+            "Heroic Guard": {
+                "cost": "Double"
+            },
             "Furious Avengers": {
                 "cost": "Double"
             },
@@ -40090,6 +40774,9 @@
             },
             "Gathered Heroes": {
                 "cost": "Reaction"
+            },
+            "The Chosen Kin": {
+                "cost": "Double"
             }
         }
     },
@@ -40127,6 +40814,9 @@
             },
             "Gathered Heroes": {
                 "cost": "Reaction"
+            },
+            "The Chosen Kin": {
+                "cost": "Double"
             }
         }
     },
@@ -40164,6 +40854,9 @@
             },
             "Gathered Heroes": {
                 "cost": "Reaction"
+            },
+            "The Chosen Kin": {
+                "cost": "Double"
             }
         }
     },
@@ -40210,6 +40903,9 @@
             },
             "Gathered Heroes": {
                 "cost": "Reaction"
+            },
+            "The Chosen Kin": {
+                "cost": "Double"
             }
         }
     },
@@ -42640,6 +43336,9 @@
         ],
         "wounds": 10,
         "abilities": {
+            "Riptide Harpoon": {
+                "cost": "Triple"
+            },
             "Low Tide": {
                 "cost": "Double"
             },
@@ -42746,6 +43445,9 @@
         ],
         "wounds": 24,
         "abilities": {
+            "Soulnet": {
+                "cost": "Double"
+            },
             "Low Tide": {
                 "cost": "Double"
             },
@@ -44415,6 +45117,9 @@
             },
             "Blinding Brilliance": {
                 "cost": "Reaction"
+            },
+            "Dazzling Light": {
+                "cost": "Triple"
             }
         }
     },
@@ -45543,6 +46248,9 @@
             },
             "Thunderous Departure": {
                 "cost": "Reaction"
+            },
+            "Storm of Eldritch Lightning": {
+                "cost": "Triple"
             }
         }
     }
