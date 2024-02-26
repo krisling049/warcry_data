@@ -56,7 +56,9 @@ class WarbandsJSONDataPayload(DataPayload):
     def assign_abilities(self):
 
         for a in self.abilities:
-            faction_match = [x for x in self.fighters.fighters if x.warband == a.warband or a.warband == 'universal']
+            faction_match = [
+                x for x in self.fighters.fighters if a.warband in [x.warband, x.bladeborn, 'universal']
+            ]
             for f in faction_match:
                 if set(a.runemarks).issubset(set(f.runemarks)):
                     f.abilities.append(a)
