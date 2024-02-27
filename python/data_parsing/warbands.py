@@ -7,6 +7,7 @@ import json
 import jsonschema
 import re
 import uuid
+from copy import deepcopy
 
 
 class WarbandsJSONDataPayload(DataPayload):
@@ -186,3 +187,16 @@ class WarbandsJSONDataPayload(DataPayload):
         with open(self.schema, 'r') as f:
             warband_schema = json.load(f)
         jsonschema.validate(self.data, warband_schema)
+
+    def write_localised_data(self, loc_file: Path, dst: Path):
+        data = sorted(self.get_localisation(patch_file=loc_file), key=lambda d: d['warband'])
+        self._write_json(dst=dst, data=data)
+
+
+    def get_localisation(self, patch_file: Path) -> List[dict]:
+        temp_data = deepcopy(self.data['abilities'])
+        loc_data = json.loads(patch_file.read_text(encoding='latin-1'))     # type: dict
+        for ability in temp_data:
+            ability.update(loc_data[ability['_id']])
+        return temp_data
+
