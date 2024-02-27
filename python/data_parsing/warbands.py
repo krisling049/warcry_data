@@ -64,9 +64,9 @@ class WarbandsJSONDataPayload(DataPayload):
                 if set(a.runemarks).issubset(set(f.runemarks)):
                     f.abilities.append(a)
 
-    def _write_json(self, dst: Path, data: Union[List, Dict]):
+    def _write_json(self, dst: Path, data: Union[List, Dict], encoding: str = 'latin-1'):
         dst.parent.mkdir(parents=True, exist_ok=True)
-        with open(dst, 'w') as f:
+        with open(dst, 'w', encoding=encoding) as f:
             print(f'writing {len(data)} items to {dst}')
             json.dump(data, f, ensure_ascii=False, indent=4, sort_keys=False)
 
@@ -193,10 +193,13 @@ class WarbandsJSONDataPayload(DataPayload):
         self._write_json(dst=dst, data=data)
 
 
-    def get_localisation(self, patch_file: Path) -> List[dict]:
+    def get_localisation(self, patch_file: Path, encoding: str = 'latin-1') -> List[dict]:
         temp_data = deepcopy(self.data['abilities'])
-        loc_data = json.loads(patch_file.read_text(encoding='latin-1'))     # type: dict
+        loc_data = json.loads(patch_file.read_text(encoding=encoding))     # type: dict
         for ability in temp_data:
-            ability.update(loc_data[ability['_id']])
+            if ability['_id'] in loc_data.keys():
+                ability.update(loc_data[ability['_id']])
+            else:
+                print(f'warning -- {ability["_id"]} {ability["name"]} not found in {patch_file}')
         return temp_data
 
