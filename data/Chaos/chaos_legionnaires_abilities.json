@@ -32,7 +32,7 @@
         "name": "Shield Ram",
         "warband": "Chaos Legionnaires",
         "cost": "double",
-        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of this fighter and roll a dice.  On a 4-5, allocate 1 damage point to that fighter.  On a 6, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice.  On a 4-5, allocate 1 damage point to that fighter.  On a 6, allocate a number of damage points to that fighter equal to the value of this ability.",
         "runemarks": [
             "bulwark"
         ]
