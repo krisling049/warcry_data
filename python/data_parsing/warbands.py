@@ -37,10 +37,10 @@ class WarbandsJSONDataPayload(DataPayload):
             if file.parent.name.lower() == 'schemas':
                 continue
             if file.name.endswith('_fighters.json'):
-                data['fighters'].extend(json.loads(file.read_text()))
+                data['fighters'].extend(json.loads(file.read_text(encoding='latin-1')))
                 continue
             if file.name.endswith('_abilities.json'):
-                data['abilities'].extend(json.loads(file.read_text()))
+                data['abilities'].extend(json.loads(file.read_text(encoding='latin-1')))
                 continue
         return data
 
