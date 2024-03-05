@@ -7,6 +7,7 @@ import json
 import jsonschema
 import re
 import uuid
+from copy import deepcopy
 
 
 class WarbandsJSONDataPayload(DataPayload):
@@ -63,9 +64,9 @@ class WarbandsJSONDataPayload(DataPayload):
                 if set(a.runemarks).issubset(set(f.runemarks)):
                     f.abilities.append(a)
 
-    def _write_json(self, dst: Path, data: Union[List, Dict]):
+    def _write_json(self, dst: Path, data: Union[List, Dict], encoding: str = 'latin-1'):
         dst.parent.mkdir(parents=True, exist_ok=True)
-        with open(dst, 'w') as f:
+        with open(dst, 'w', encoding=encoding) as f:
             print(f'writing {len(data)} items to {dst}')
             json.dump(data, f, ensure_ascii=False, indent=4, sort_keys=False)
 
@@ -186,3 +187,19 @@ class WarbandsJSONDataPayload(DataPayload):
         with open(self.schema, 'r') as f:
             warband_schema = json.load(f)
         jsonschema.validate(self.data, warband_schema)
+
+    def write_localised_data(self, loc_file: Path, dst: Path):
+        data = sorted(self.get_localisation(patch_file=loc_file), key=lambda d: d['warband'])
+        self._write_json(dst=dst, data=data)
+
+
+    def get_localisation(self, patch_file: Path, encoding: str = 'latin-1') -> List[dict]:
+        temp_data = deepcopy(self.data['abilities'])
+        loc_data = json.loads(patch_file.read_text(encoding=encoding))     # type: dict
+        for ability in temp_data:
+            if ability['_id'] in loc_data.keys():
+                ability.update(loc_data[ability['_id']])
+            else:
+                print(f'warning -- {ability["_id"]} {ability["name"]} not found in {patch_file}')
+        return temp_data
+

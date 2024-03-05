@@ -35,11 +35,11 @@ class Weapon:
         self.min_range = w_dict['min_range']                                                    # type: int
         self.runemark = w_dict['runemark']                                                      # type: str
         self.strength = w_dict['strength']                                                      # type: int
-        self.dmg_rolls = self.damage_rolls()                                                    # type: List[Tuple[int, ...]]
+        self._dmg_rolls = self.damage_rolls()                                                    # type: List[Tuple[int, ...]]
         self.avg_dmg_vs_lower, self.avg_dmg_vs_same, self.avg_dmg_vs_higher = self.avg_dmgs()   # type: float
 
     def __repr__(self):
-        return f'{self.runemark.capitalize()}  -  {self.attacks},{self.strength},{self.dmg_hit}/{self.dmg_crit}'
+        return f'{self.runemark.capitalize()}  -  {self.attacks}/{self.strength}/{self.dmg_hit}/{self.dmg_crit}'
 
     def as_dict(self):
         return self._raw_data
@@ -54,7 +54,7 @@ class Weapon:
             total_rolls = 0
             damages = list()
 
-            for pr in self.dmg_rolls:
+            for pr in self._dmg_rolls:
                 total_rolls = total_rolls + 1
                 damage = 0
                 for dice in pr:
@@ -203,7 +203,9 @@ class Fighters:
 
     def expected_damages(
             self,
-            vs_toughnesses: List[int] = range(3, 8), wounds: List[int] = None)-> pd.DataFrame:
+            vs_toughnesses: List[int] = range(3, 8),
+            wounds: List[int] = None
+    ) -> pd.DataFrame:
         damage_index = list()
         expected_damages = dict()
         if not wounds:
@@ -213,12 +215,14 @@ class Fighters:
                 key = f'T{t}W{w}'
                 damage_index.append(key)
                 for f in self.fighters:
-                    if f.name not in expected_damages.keys():
-                        expected_damages[f.name] = list()
+                    fighter_key = f'{f.name} - {f.warband}'
+                    if fighter_key not in expected_damages.keys():
+                        expected_damages[fighter_key] = list()
                     ctk = f.dmg_chance(vs_t=t, dmg=w)                # type: List[Tuple[Tuple[int, str], float]]
                     ctk_percent = int(ctk[0][1] * 100)
-                    expected_damages[f.name].append(ctk_percent)
-
+                    expected_damages[fighter_key].append(ctk_percent)
+        # ValueError: Length of values (20) does not match length of index (10)
+        problem = [{x: expected_damages[x]} for x in expected_damages.keys() if len(expected_damages[x]) != 10]
         df = pd.DataFrame(expected_damages, index=damage_index)
         return df
 
@@ -263,10 +267,10 @@ class FighterJSONDataPayload(JSONDataPayload):
             aggregate_schema = json.load(f)
         jsonschema.validate(self.data, aggregate_schema)
 
-    def as_dataframe(self) -> pd.DataFrame:
+    def as_dataframe(self, add_formulae: bool = False) -> pd.DataFrame:
         temp_data = deepcopy(self.data)
-        # The fighters need to be flattened for their weapon values to fit into rows/columns
         for fighter in temp_data:
+            # The fighters need to be flattened for their weapon values to fit into rows/columns
             for i, w in enumerate(fighter['weapons']):
                 for k, v in w.items():
                     fighter[f'weapon_{i + 1}_{k}'] = v
@@ -278,7 +282,7 @@ class FighterJSONDataPayload(JSONDataPayload):
         out_file = Path(dst_root, 'fighters.xlsx')
         to_write = self.as_dataframe()
         print(f'writing {out_file.absolute()}')
-        to_write.to_excel(out_file)
+        to_write.to_excel(out_file, engine='xlsxwriter')
 
     def write_markdown_table(self, dst_root: Path = Path(PROJECT_ROOT, 'data')):
         out_file = Path(dst_root, 'fighters.md')
