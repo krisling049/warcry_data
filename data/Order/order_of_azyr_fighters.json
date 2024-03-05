@@ -177,5 +177,187 @@
             }
         ],
         "wounds": 10
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Hanniver Toll",
+        "points": 125,
+        "runemarks": [
+            "hero",
+            "agile",
+            "warrior"
+        ],
+        "toughness": 3,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Armand Callis",
+        "points": 130,
+        "runemarks": [
+            "scout",
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Valius, The Keeper Aqshian",
+        "points": 220,
+        "runemarks": [
+            "bulwark",
+            "warrior"
+        ],
+        "toughness": 6,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "wounds": 30
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Mistress Verentia",
+        "points": 100,
+        "runemarks": [
+            "terrifying"
+        ],
+        "toughness": 3,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            },
+            {
+                "attacks": 1,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Lyssa Revenya",
+        "points": 75,
+        "runemarks": [
+            "trapper",
+            "fly"
+        ],
+        "toughness": 3,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 3
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "PLACEHOLDER",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Balthus",
+        "points": 95,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 4,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "wounds": 8
     }
 ]
