@@ -4208,6 +4208,56 @@
         ]
     },
     {
+        "_id": "955712d2",
+        "name": "Right Tool for the Job",
+        "warband": "Order of Azyr",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 3\" of this fighter. Melee attack actions made by this fighter this activation that target that enemy fighter score a critical hit on a 5+.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "56c1f56c",
+        "name": "Give 'Em Both Barrels",
+        "warband": "Order of Azyr",
+        "cost": "triple",
+        "description": "This fighter makes a bonus ranged attack action. The Range characteristic for that attack action is double the value of this ability.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "fd209b57",
+        "name": "They Will Break Upon My Shield",
+        "warband": "Order of Azyr",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract the value of this ability from the damage points allocated to this fighter by each hit and critical hit from attack actions that target this fighter (to a minimum of 1).",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "00dbeb85",
+        "name": "Secrets from the Shadows",
+        "warband": "Order of Azyr",
+        "cost": "triple",
+        "description": "Pick a [double], [triple] or [quad] from your opponent's ability dice. Roll a dice and add the value of this ability to the roll. On a 7+, that [double], [triple] or [quad] is discarded.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "40b73e05",
+        "name": "Tangle Them Up",
+        "warband": "Order of Azyr",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter. Until the end of the battle round, subtract 2 from the Attacks characteristic (to a minimum of 1) of melee attack actions made by that fighter.",
+        "runemarks": [
+            "trapper"
+        ]
+    },
+    {
         "_id": "8fdbd27a",
         "name": "Endless Duty",
         "warband": "Ossiarch Bonereapers",
