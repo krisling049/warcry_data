@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "25a93cd6",
+    "name": "Lethal Gyre",
+    "warband": "Ydrilan Riverblades",
+    "cost": "reaction",
+    "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll of 1 from that attack action, allocate 3 damage points to the attacking fighter, or if this fighter has the Agile runemark, allocate 3 damage points to each enemy fighter within 1\" instead.",
+    "runemarks": []
+  },
+  {
+    "_id": "0e14ad5e",
+    "name": "Riverblades",
+    "warband": "Ydrilan Riverblades",
+    "cost": "double",
+    "description": "Until the end of this fighter's activation, add 1 to this fighter's Move characteristic, and after each action this fighter takes, other than wait actions, roll a dice. On a roll of 2+, deal 1 damage to 1 visible enemy fighter within 8\".",
+    "runemarks": []
+  },
+  {
+    "_id": "ef131c72",
+    "name": "Rapids Rising Leap",
+    "warband": "Ydrilan Riverblades",
+    "cost": "double",
+    "description": "Until the end of this fighter's activation, they can fly when making move actions; however, when flying, they cannot move vertically upwards of more than 3\".",
+    "runemarks": ["elite"]
+  },
+  {
+    "_id": "a553063f",
+    "name": "Whitecrest Strike",
+    "warband": "Ydrilan Riverblades",
+    "cost": "double",
+    "description": "Until the end of this fighter's activation, add 1 to the Strength characteristic of attack actions made by this fighter.",
+    "runemarks": ["hero"]
+  },
+  {
+    "_id": "5254442e",
+    "name": "Standing Wave Stance",
+    "warband": "Ydrilan Riverblades",
+    "cost": "triple",
+    "description": "A fighter can only use this ability if this fighter has not made a move or disengage action this activation, and if a fighter uses this ability they cannot make a move or disengage action this activation. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actinos made by this fighter, and until the end of the battle round, add 1 to the Toughness characteristic of this fighter.",
+    "runemarks": []
+  },
+  {
+    "_id": "5be919af",
+    "name": "Release the River",
+    "warband": "Ydrilan Riverblades",
+    "cost": "triple",
+    "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
+    "runemarks": ["hero"]
+  },
+  {
+    "_id": "988d3836",
+    "name": "Boiling Wrath",
+    "warband": "Ydrilan Riverblades",
+    "cost": "quad",
+    "description": "This fighter makes a number of bonus actions, which may be any combination of move, attack, and disengage actions, equal to the number of fighters from that fighter's battle group that have been taken down.",
+    "runemarks": []
+  }
+]

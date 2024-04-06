@@ -1,0 +1,64 @@
+[
+  {
+    "_id": "22050b34",
+    "name": "Balefire Cremation",
+    "warband": "Pyregheists",
+    "cost": "reaction",
+    "description": "When an ability tells you to cremate a fighter, remove that fighter from the battlefield and place a Pyre token at the centre of the space occupied by that fighter. At the end of the battle round, after determining control of objectives, allocate 3 damage to each enemy fighter within 1\" of the centre of one or more Pyre tokens.",
+    "runemarks": []
+  },
+
+  {
+    "_id": "78f7d995",
+    "name": "Fan the Flames",
+    "warband": "Pyregheists",
+    "cost": "double",
+    "description": "Add 1 to the damage points allocated by each hit and each critical hit form the next melee attack action made by this fighter this activation.",
+    "runemarks": []
+  },
+
+  {
+    "_id": "20a38f4f",
+    "name": "Pyrerobber's Curse",
+    "warband": "Pyregheists",
+    "cost": "double",
+    "description": "Until the end of this fighter's activation, add 1 to the Strength characteristic of attack actions made by this fighter. Until the end of this fighter's activation, when their attack action takes down an enemy fighter, cremate that enemy fighter.",
+    "runemarks": ["frenzied"]
+  },
+
+  {
+    "_id": "779e2be9",
+    "name": "Unblinking Guardian",
+    "warband": "Pyregheists",
+    "cost": "double",
+    "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Elite or Hero runemarks while they are within 3\" of this fighter.",
+    "runemarks": ["elite"]
+  },
+
+  {
+    "_id": "85b75c37",
+    "name": "Light the Pyre",
+    "warband": "Pyregheists",
+    "cost": "triple",
+    "description": "A fighter can only use this ability when their attack action takes down an enemy fighter. Cremate that enemy fighter.",
+    "runemarks": []
+  },
+
+  {
+    "_id": "6bb4417d",
+    "name": "Soulblaze",
+    "warband": "Pyregheists",
+    "cost": "triple",
+    "description": "A fighter can only use this ability if an enemy fighter has been taken down this battle round. Pick a number of visible friendly fighters with the Pyregheists runemark equal to half the value of this ability (rounding up). Each fighter you picked can make a bonus move action or a bonus attack action (some can make a bonus move action and others can make a bonus attack action).",
+    "runemarks": ["hero"]
+  },
+
+  {
+    "_id": "ad5d0eb1",
+    "name": "Agonising Penance",
+    "warband": "Pyregheists",
+    "cost": "quad",
+    "description": "Pick a visible enemy fighter within 6\" of this fighter. That enemy fighter makes a bonus move action directly towards the closest other fighter from their warband, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action. After that move action, allocate 3 damage points to that fighter and to each other enemy fighter within 2\" of that fighter. Cremate each fighter taken down by this ability.",
+    "runemarks": []
+  }
+]
