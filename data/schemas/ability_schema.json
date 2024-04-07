@@ -35,9 +35,10 @@
 		},
 		"cost": {
 			"type": "string",
-			"description": "reaction, double, triple or quad",
+			"description": "passive, reaction, double, triple or quad",
 			"enum": [
-				"reaction",
+				"passive",
+    "reaction",
 				"double",
 				"triple",
 				"quad"
