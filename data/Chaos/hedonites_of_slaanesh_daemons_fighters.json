@@ -336,5 +336,92 @@
             }
         ],
         "wounds": 25
-    }
+    },
+    {
+        "_id": "a9593653",
+        "bladeborn": "Thricefold Discord",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Vexmor",
+        "points": 150,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "toughness": 6,
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 10,
+                "dmg_hit": 5,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 10
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "9d52fbc0",
+        "bladeborn": "Thricefold Discord",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Vashtiss the Coiled",
+        "points": 115,
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "wounds": 16
+    },
+    {
+        "_id": "67c45005",
+        "bladeborn": "Thricefold Discord",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Lascivyr, the Bladed Blessing",
+        "points": 135,
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "toughness": 3,
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "weapons": [
+            {
+                "attacks": 6,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 16
+    },
 ]
