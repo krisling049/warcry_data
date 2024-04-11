@@ -752,7 +752,7 @@
         "name": "Gristla Tenderhooke",
         "points": 160,
         "runemarks": [
-            "hero",
+            "hero"
         ],
         "toughness": 4,
         "warband": "Flesh-eater Courts",
@@ -811,6 +811,7 @@
                 "min_range": 0,
                 "runemark": "dagger",
                 "strength": 3
+            }
          
         ],
         "wounds": 8
@@ -834,6 +835,7 @@
                 "min_range": 0,
                 "runemark": "reach",
                 "strength": 3
+            }
          
         ],
         "wounds": 8
@@ -859,6 +861,7 @@
                 "min_range": 0,
                 "runemark": "claws",
                 "strength": 3
+            }
          
         ],
         "wounds": 10
