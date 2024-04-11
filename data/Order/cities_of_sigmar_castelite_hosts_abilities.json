@@ -118,5 +118,37 @@
             "hero",
             "mystic"
         ]
+    },
+    {
+        "_id": "387652bc",
+        "name": "Ultimate Resistor",
+        "warband": "Brethren of the Bolt",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1).",
+        "runemarks": []
+    },
+    {
+        "_id": "2239ee7f",
+        "name": "Thunderous Blast",
+        "warband": "Brethren of the Bolt",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll 3 dice. For each roll of 3+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). You can pick an enemy fighter within 3\" of another visible friendly fighter with the Brethren of the Bolt runemark if that friendly fighter is within 6\" of this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "f44687c7",
+        "name": "Furious Abandon",
+        "warband": "Brethren of the Bolt",
+        "cost": "triple",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability. Then, they can make a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "5f9ed484",
+        "name": "Unleashing His Fury",
+        "warband": "Brethren of the Bolt",
+        "cost": "quad",
+        "description": "This fighter makes a bonus ranged attack action. When that attack action is made, you can pick another friendly fighter that is visible to the attacker to be part of a chain. Then, you can pick a third friendly fighter that is within 6\" of and visible to the second fighter to be the next part of the chain, and so on. Once the last fighter in the chain is picked, you can measure the range of that bonus attack action from the last fighter in the chain. Add 1 to the Attacks, Strength and Damage characteristics of that weapon for each fighter in the chain. Each fighter in the chain must have the Brethren of the Bolt runemark.",
+        "runemarks": []
     }
 ]
