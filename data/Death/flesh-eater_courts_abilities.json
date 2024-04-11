@@ -136,5 +136,37 @@
         "runemarks": [
             "hero"
         ]
+    },
+    {
+        "_id": "c4d22bf7",
+        "name": "Back to the Kitchens!",
+        "warband": "Skinnerkin",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they have been allocated damage points by a melee attack action. This fighter makes a bonus disengage action.",
+        "runemarks": []
+    },
+    {
+        "_id": "746efa59",
+        "name": "Get out of My Larder!",
+        "warband": "Skinnerkin",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Skinnerkin runemark that is within 6\" of this fighter and has not activated this battle round. This fighter and that fighter can each make a bonus move action up to the value of this ability. You can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": []
+    },
+    {
+        "_id": "78d24670",
+        "name": "Plated Banquet",
+        "warband": "Skinnerkin",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Place a banquet token at the centre of the space occupied by that fighter before removing that fighter from the battlefield. At the end of the battle round, after determining control of objectives, you can remove up to 3 damage points allocated to each friendly fighter within 6\" of the centre of any banquet tokens.",
+        "runemarks": []
+    },
+    {
+        "_id": "32d0d02e",
+        "name": "Precise Filleting",
+        "warband": "Skinnerkin",
+        "cost": "quad",
+        "description": "The next melee attack action made by this fighter scores critical hits on a 3+ regardless of the Toughness characteristic of the target.",
+        "runemarks": []
     }
 ]
