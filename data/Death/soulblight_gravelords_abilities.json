@@ -107,7 +107,7 @@
         "name": "Summon Undead Minions",
         "warband": "Soulblight Gravelords",
         "cost": "triple",
-        "description": "Pick a friendly fighter with the Soulblight Gravelords faction runemark and the Minion runemark that has been taken down. Set that fighter up on a platform or\nthe battlefield floor, wholly within 3\" of this fighter. If that fighter has the Elite runemark, remove a number of damage points allocated to that fighter equal to the value of this ability. Otherwise, that fighter has no damage points allocated to it. That fighter no longer counts as being taken down.",
+        "description": "Pick a friendly fighter with the Soulblight Gravelords faction runemark and the Minion runemark that has been taken down. Set that fighter up on a platform or\nthe battlefield floor, wholly within 3\" of this fighter. That fighter no longer counts as being taken down and has no damage points allocated to it.",
         "runemarks": [
             "hero"
         ]
@@ -206,5 +206,43 @@
         "cost": "triple",
         "description": "A fighter can use this ability only if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
         "runemarks": []
-    }
+    },
+    {
+        "_id": "c56b33cb",
+        "name": "Lost Love",
+        "warband": "Zondara's Gravebreakers",
+        "cost": "reaction",
+        "description": "A fighter can only make this reaction if they have the Hero runemark or the Agile runemark, in addition to the Zondara's Gravebreakers runemark, after another fighter with two of those runemarks is taken down. When this reaction is made, add 1 to the fighter's Move characteristic and 2 to the Attacks characteristic of this fighter's weapons until the end of the battle.",
+        "runemarks": []
+    },
+    {
+        "_id": "fdb16861",
+        "name": "Gravebreaking",
+        "warband": "Zondara's Gravebreakers",
+        "cost": "double",
+        "description": "Each friendly fighter with the Minion runemark and the Zondara's Gravebreakers runemark that is within 3\" of an objective can make a bonus attack action. Each other friendly fighter with the Zondara's Gravebreakers runemark and the Minion runemark can make a bonus move action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "cccc7200",
+        "name": "Devoted Strike",
+        "warband": "Zondara's Gravebreakers",
+        "cost": "triple",
+        "description": "Add 2 to the Attacks and Strength characteristics of melee attack actions made by this fighter in this activation while that attack action targets an enemy fighter within 3\" of a friendly fighter with the Zondara's Gravebreakers runemark and the Hero runemark.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "552e00ac",
+        "name": "Blind Devotion",
+        "warband": "Zondara's Gravebreakers",
+        "cost": "quad",
+        "description": "This fighter and a friendly fighter with the Zondara's Gravebreakers runemark and the Agile runemark can each make either a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
 ]

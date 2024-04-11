@@ -1139,5 +1139,140 @@
             }
         ],
         "wounds": 18
-    }
+    },
+    {
+        "_id": "ff4efe16",
+        "bladeborn": "Zondara's Gravebreakers",
+        "grand_alliance": "death",
+        "movement": 4,
+        "name": "Zondara Rivenheart",
+        "points": 170,
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "toughness": 4,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "28196462",
+        "bladeborn": "Zondara's Gravebreakers",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Lost Ferlain",
+        "points": 195,
+        "runemarks": [
+            "agile",
+        ],
+        "toughness": 4,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "a1daca5a",
+        "bladeborn": "Zondara's Gravebreakers",
+        "grand_alliance": "death",
+        "movement": 3,
+        "name": "Toyle",
+        "points": 65,
+        "runemarks": [
+            "minion",
+        ],
+        "toughness": 3,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "bd96618b",
+        "bladeborn": "Zondara's Gravebreakers",
+        "grand_alliance": "death",
+        "movement": 3,
+        "name": "Cracktomb",
+        "points": 55,
+        "runemarks": [
+            "minion",
+        ],
+        "toughness": 3,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "7ebc9e7e",
+        "bladeborn": "Zondara's Gravebreakers",
+        "grand_alliance": "death",
+        "movement": 3,
+        "name": "Pikk",
+        "points": 55,
+        "runemarks": [
+            "minion",
+        ],
+        "toughness": 3,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
 ]
