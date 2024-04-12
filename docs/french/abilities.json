@@ -568,6 +568,38 @@
         "runemarks": []
     },
     {
+        "_id": "387652bc",
+        "name": "Ultimate Resistor",
+        "warband": "Brethren of the Bolt",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1).",
+        "runemarks": []
+    },
+    {
+        "_id": "2239ee7f",
+        "name": "Thunderous Blast",
+        "warband": "Brethren of the Bolt",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll 3 dice. For each roll of 3+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). You can pick an enemy fighter within 3\" of another visible friendly fighter with the Brethren of the Bolt runemark if that friendly fighter is within 6\" of this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "f44687c7",
+        "name": "Furious Abandon",
+        "warband": "Brethren of the Bolt",
+        "cost": "triple",
+        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability. Then, they can make a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "5f9ed484",
+        "name": "Unleashing His Fury",
+        "warband": "Brethren of the Bolt",
+        "cost": "quad",
+        "description": "This fighter makes a bonus ranged attack action. When that attack action is made, you can pick another friendly fighter that is visible to the attacker to be part of a chain. Then, you can pick a third friendly fighter that is within 6\" of and visible to the second fighter to be the next part of the chain, and so on. Once the last fighter in the chain is picked, you can measure the range of that bonus attack action from the last fighter in the chain. Add 1 to the Attacks, Strength and Damage characteristics of that weapon for each fighter in the chain. Each fighter in the chain must have the Brethren of the Bolt runemark.",
+        "runemarks": []
+    },
+    {
         "_id": "6abd317b",
         "name": "Sombre Pacte",
         "warband": "Chaos Legionnaires",
@@ -1146,6 +1178,46 @@
         "runemarks": []
     },
     {
+        "_id": "6d695b7a",
+        "name": "Ink Jet",
+        "warband": "Cyreni's Razors",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, after that attack action is resolved, you can move this fighter up to 2\". In addition, if all of the hit rolls missed, that enemy fighter cannot make attack actions until the end of the battle round.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "7479b3ed",
+        "name": "Hurl Lanmari Blade",
+        "warband": "Cyreni's Razors",
+        "cost": "double",
+        "description": "Add the value of this ability to the Range characteristic of the next melee attack action made by this fighter this activation. After that attack action, this fighter cannot make melee attack actions for the rest of this activation.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "06b33bb6",
+        "name": "Hammertide",
+        "warband": "Cyreni's Razors",
+        "cost": "triple",
+        "description": "Pick a corner of the battlefield and draw a straight line 1mm wide between the centre of this fighter's base and that corner. Enemy fighters whose base touches that line cannot jump, fly or climb until the end of this battle round. In addition, roll a number of dice equal to the value of this ability for each such enemy fighter. Allocate 1 damage point to that fighter for each roll of 3+.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "c5c07e49",
+        "name": "Crushing Wrap",
+        "warband": "Cyreni's Razors",
+        "cost": "quad",
+        "description": "A fighter can only use this ability before it would make a melee attack action. Roll 8 dice. For each roll of 3+, add 1 to this fighter's Strength characteristic for that attack action and allocate 2 damage points to the target of that attack action. If the target is taken out of action, the melee attack action has no effect.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
         "_id": "0af73084",
         "name": "Tous sur lui",
         "warband": "Da Kunnin' Krew",
@@ -1173,6 +1245,46 @@
         "description": "Choisissez un combattant ennemi visible à 2\" de ce combattane et jetez un dé. Sur un jet de 2+, jusqu'à la fin du round de bataille, le combattant choisi ne peut pas faire d'actions de mouvement ni de désengagement.",
         "runemarks": [
             "scout"
+        ]
+    },
+    {
+        "_id": "574b4620",
+        "name": "Leave Ya Bleedin'",
+        "warband": "Daggok's Stab-ladz",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter was allocated damage points by an attack action made by them this activation. Roll a dice for each wound allocated to that enemy fighter at the end of the battle round. For each 4+, allocate 1 damage point to that fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "eaba1b07",
+        "name": "Hookin' Your Guts",
+        "warband": "Daggok's Stab-ladz",
+        "cost": "double",
+        "description": "Until the end of the battle round, after an enemy fighter makes a disengage action that began within 3\" of this fighter, allocate D6 damage points to that fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "cc8aa230",
+        "name": "Roar of Kragnos",
+        "warband": "Daggok's Stab-ladz",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "6b7e69c6",
+        "name": "Stealin' Your Finks",
+        "warband": "Daggok's Stab-ladz",
+        "cost": "quad",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Gain a number of wild dice equal to the value of this ability, then this fighter makes a bonus move action.",
+        "runemarks": [
+            "hero"
         ]
     },
     {
@@ -4955,6 +5067,38 @@
         "runemarks": []
     },
     {
+        "_id": "c4d22bf7",
+        "name": "Back to the Kitchens!",
+        "warband": "Skinnerkin",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they have been allocated damage points by a melee attack action. This fighter makes a bonus disengage action.",
+        "runemarks": []
+    },
+    {
+        "_id": "746efa59",
+        "name": "Get Out of My Larder!",
+        "warband": "Skinnerkin",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Skinnerkin runemark that is within 6\" of this fighter and has not activated this battle round. This fighter and that fighter can each make a bonus move action up to the value of this ability. You can activate that fighter immediately after this fighter's activation ends.",
+        "runemarks": []
+    },
+    {
+        "_id": "78d24670",
+        "name": "Plated Banquet",
+        "warband": "Skinnerkin",
+        "cost": "triple",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Place a banquet token at the centre of the space occupied by that fighter before removing that fighter from the battlefield. At the end of the battle round, after determining control of objectives, you can remove up to 3 damage points allocated to each friendly fighter within 6\" of the centre of any banquet tokens.",
+        "runemarks": []
+    },
+    {
+        "_id": "32d0d02e",
+        "name": "Precise Filleting",
+        "warband": "Skinnerkin",
+        "cost": "quad",
+        "description": "The next melee attack action made by this fighter scores critical hits on a 3+ regardless of the Toughness characteristic of the target.",
+        "runemarks": []
+    },
+    {
         "_id": "755687fc",
         "name": "Way of the Slinking Rat",
         "warband": "Skittershank's Clawpack",
@@ -6420,6 +6564,47 @@
         ]
     },
     {
+        "_id": "43a7aafc",
+        "name": "Triumphant Tittering",
+        "warband": "Thricefold Discord",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction without forfeiting one of their actions in that battle round, and can make this reaction even if they already activated this battle round. A fighter can make this reaction after another friendly fighter with the Thricefold Discord runemark is slain. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "33e89464",
+        "name": "The Coiled Lash",
+        "warband": "Thricefold Discord",
+        "cost": "double",
+        "description": "Until the end of the battle round, enemy fighters cannot make disengage actions while within 1\" of this fighter. At the end of the battle round, allocate a number of damage points equal to half the value of this ability (rounded up) to each visible enemy fighter within 1\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "fb09bc82",
+        "name": "The Bladed Blessing",
+        "warband": "Thricefold Discord",
+        "cost": "triple",
+        "description": "This fighter makes a bonus melee attack action. Subtract 5 from the Toughness characteristic of the target of that attack action, to a minimum of 1, for that attack action.",
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "e3d1a85a",
+        "name": "Undignified Effort",
+        "warband": "Thricefold Discord",
+        "cost": "quad",
+        "description": "Add 2 to the Attacks characteristic of the next melee attack action made by this fighter in this activation.",
+        "runemarks": [
+            "hero",
+            "brute"
+        ]
+    },
+    {
         "_id": "cce1c9d6",
         "name": "Besoin de Gratitude",
         "warband": "Thundrik's Profiteers",
@@ -6752,6 +6937,44 @@
         "description": "Allouez autant de points de dégâts que la valeur de cette aptitude à tous les combattants ennemis visibles à 3\" de ce combattant.",
         "runemarks": [
             "frenzied"
+        ]
+    },
+    {
+        "_id": "c56b33cb",
+        "name": "Lost Love",
+        "warband": "Zondara's Gravebreakers",
+        "cost": "reaction",
+        "description": "A fighter can only make this reaction if they have the Hero runemark or the Agile runemark, in addition to the Zondara's Gravebreakers runemark, after another fighter with two of those runemarks is taken down. When this reaction is made, add 1 to the fighter's Move characteristic and 2 to the Attacks characteristic of this fighter's weapons until the end of the battle.",
+        "runemarks": []
+    },
+    {
+        "_id": "fdb16861",
+        "name": "Gravebreaking",
+        "warband": "Zondara's Gravebreakers",
+        "cost": "double",
+        "description": "Each friendly fighter with the Minion runemark and the Zondara's Gravebreakers runemark that is within 3\" of an objective can make a bonus attack action. Each other friendly fighter with the Zondara's Gravebreakers runemark and the Minion runemark can make a bonus move action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "cccc7200",
+        "name": "Devoted Strike",
+        "warband": "Zondara's Gravebreakers",
+        "cost": "triple",
+        "description": "Add 2 to the Attacks and Strength characteristics of melee attack actions made by this fighter in this activation while that attack action targets an enemy fighter within 3\" of a friendly fighter with the Zondara's Gravebreakers runemark and the Hero runemark.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "552e00ac",
+        "name": "Blind Devotion",
+        "warband": "Zondara's Gravebreakers",
+        "cost": "quad",
+        "description": "This fighter and a friendly fighter with the Zondara's Gravebreakers runemark and the Agile runemark can each make either a bonus move action or a bonus attack action.",
+        "runemarks": [
+            "hero"
         ]
     },
     {
