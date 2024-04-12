@@ -25,7 +25,7 @@
         "name": "Lithe and Swift",
         "warband": "Hedonites of Slaanesh: Daemons",
         "cost": "double",
-        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action this activation.",
         "runemarks": []
     },
     {
@@ -86,5 +86,46 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead.",
         "runemarks": []
+    },
+    {
+        "_id": "43a7aafc",
+        "name": "Triumphant Tittering",
+        "warband": "Thricefold Discord",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction without forfeiting one of their actions in that battle round, and can make this reaction even if they already activated this battle round. A fighter can make this reaction after another friendly fighter with the Thricefold Discord runemark is slain. This fighter makes a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "33e89464",
+        "name": "The Coiled Lash",
+        "warband": "Thricefold Discord",
+        "cost": "double",
+        "description": "Until the end of the battle round, enemy fighters cannot make disengage actions while within 1\" of this fighter. At the end of the battle round, allocate a number of damage points equal to half the value of this ability (rounded up) to each visible enemy fighter within 1\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "fb09bc82",
+        "name": "The Bladed Blessing",
+        "warband": "Thricefold Discord",
+        "cost": "triple",
+        "description": "This fighter makes a bonus melee attack action. Subtract 5 from the Toughness characteristic of the target of that attack action, to a minimum of 1, for that attack action.",
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "e3d1a85a",
+        "name": "Undignified Effort",
+        "warband": "Thricefold Discord",
+        "cost": "quad",
+        "description": "Add 2 to the Attacks characteristic of the next melee attack action made by this fighter in this activation.",
+        "runemarks": [
+            "hero",
+            "brute"
+        ]
     }
 ]

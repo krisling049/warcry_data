@@ -743,5 +743,127 @@
             }
         ],
         "wounds": 18
+    },
+    {
+        "_id": "b8e65e65",
+        "bladeborn": "Skinnerkin",
+        "grand_alliance": "death",
+        "movement": 4,
+        "name": "Gristla Tenderhooke",
+        "points": 160,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "c01a33d6",
+        "bladeborn": "Skinnerkin",
+        "grand_alliance": "death",
+        "movement": 4,
+        "name": "Young Master Kretch",
+        "points": 75,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "87dca115",
+        "bladeborn": "Skinnerkin",
+        "grand_alliance": "death",
+        "movement": 4,
+        "name": "Flensemaster Pewdrig",
+        "points": 65,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+         
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "6688125c",
+        "bladeborn": "Skinnerkin",
+        "grand_alliance": "death",
+        "movement": 4,
+        "name": "Seddrik the Chain",
+        "points": 60,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 3
+            }
+         
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "051a483b",
+        "bladeborn": "Skinnerkin",
+        "grand_alliance": "death",
+        "movement": 7,
+        "name": "The Carnskyr",
+        "points": 120,
+        "runemarks": [
+	    "fly"
+    ],
+        "toughness": 3,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+         
+        ],
+        "wounds": 10
     }
 ]

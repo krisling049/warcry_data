@@ -472,5 +472,132 @@
             }
         ],
         "wounds": 24
+    },
+    {
+        "_id": "05bc352b",
+        "bladeborn": "Cyreni's Razors",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Cyreni of the Abyss",
+        "points": 200,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 3,
+        "warband": "Idoneth Deepkin",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 7,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "3099608e",
+        "bladeborn": "Cyreni's Razors",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Alathyrr",
+        "points": 110,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Idoneth Deepkin",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "17c711cf",
+        "bladeborn": "Cyreni's Razors",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Renglaith",
+        "points": 105,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Idoneth Deepkin",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "48027599",
+        "bladeborn": "Cyreni's Razors",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Cephanyr",
+        "points": 120,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 4,
+        "warband": "Idoneth Deepkin",
+        "weapons": [
+            {
+                "attacks": 8,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 3
+            }
+        ],
+        "wounds": 18
     }
 ]
