@@ -25676,7 +25676,9 @@
         "movement": 4,
         "name": "Savage Orruk Morboy",
         "points": 95,
-        "runemarks": [],
+        "runemarks": [
+            "elite"
+        ],
         "toughness": 3,
         "warband": "Bonesplitterz",
         "weapons": [
@@ -25693,6 +25695,9 @@
         "wounds": 15,
         "abilities": {
             "Charge!": {
+                "cost": "Double"
+            },
+            "Toof Shiv": {
                 "cost": "Double"
             },
             "Rampaging Destroyer": {
@@ -26187,7 +26192,7 @@
         "name": "Savage Boarboy Maniak",
         "points": 185,
         "runemarks": [
-            "hero",
+            "elite",
             "mount"
         ],
         "toughness": 3,
@@ -26208,10 +26213,10 @@
             "Charge!": {
                 "cost": "Double"
             },
-            "Tusker Charge": {
-                "cost": "Triple"
+            "Toof Shiv": {
+                "cost": "Double"
             },
-            "Waaagh!": {
+            "Tusker Charge": {
                 "cost": "Triple"
             },
             "Rampaging Destroyer": {

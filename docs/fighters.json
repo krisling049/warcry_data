@@ -15621,7 +15621,9 @@
         "movement": 4,
         "name": "Savage Orruk Morboy",
         "points": 95,
-        "runemarks": [],
+        "runemarks": [
+            "elite"
+        ],
         "toughness": 3,
         "warband": "Bonesplitterz",
         "weapons": [
@@ -15958,7 +15960,7 @@
         "name": "Savage Boarboy Maniak",
         "points": 185,
         "runemarks": [
-            "hero",
+            "elite",
             "mount"
         ],
         "toughness": 3,
