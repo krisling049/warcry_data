@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Dict
 from pathlib import Path
 import json
 import jsonschema
@@ -17,9 +17,9 @@ class Ability:
     def __repr__(self):
         return self.name
 
-    def tts_format(self) -> dict:
+    def tts_format(self) -> Dict[str, str]:
         # tts = {self.name: {'cost': self.cost.capitalize(), 'description': self.description}}
-        tts = {self.name: {'cost': self.cost.capitalize()}}
+        tts = {'_id': self._id}
         return tts
 
 
