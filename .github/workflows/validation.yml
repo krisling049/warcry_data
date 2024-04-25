@@ -4,9 +4,20 @@ on:
   push:
     branches:
     - main
+    paths:
+      - 'data/**'
+      - '!data/schemas/**'
+      - '!data/fighters.json'
+      - '!data/abilities.json'
   pull_request:
     branches:
     - main
+    paths:
+      - 'data/**'
+      - '!data/schemas/**'
+      - '!data/fighters.json'
+      - '!data/abilities.json'
+
   workflow_dispatch:
 
 jobs:
