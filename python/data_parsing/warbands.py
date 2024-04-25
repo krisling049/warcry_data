@@ -86,10 +86,9 @@ class WarbandsJSONDataPayload(DataPayload):
         for f in self.fighters.fighters:
             if not self._exclude_from_tts(f):
                 tts_data.append(f.as_dict())
-                ab_dict = dict()
-                for ability in [a for a in f.abilities if a.warband != 'universal']:
-                    ab_dict.update(ability.tts_format())
-                tts_data[-1]['abilities'] = ab_dict
+                tts_abs = [a.tts_format() for a in f.abilities if a.warband != 'universal']
+                tts_data[-1]['abilities'] = tts_abs
+                x = 1
         return tts_data
 
     def write_tts_fighters(self, dst: Path = Path(PROJECT_DATA, 'tts_fighters.json')):
@@ -200,6 +199,6 @@ class WarbandsJSONDataPayload(DataPayload):
             if ability['_id'] in loc_data.keys():
                 ability.update(loc_data[ability['_id']])
             else:
-                print(f'warning -- {ability["_id"]} {ability["name"]} not found in {patch_file}')
+                print(f'warning -- {ability["_id"]} - {ability["name"]} - not found in {patch_file}')
         return temp_data
 
