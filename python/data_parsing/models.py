@@ -7,6 +7,7 @@ import jsonschema
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 PROJECT_DATA = Path(PROJECT_ROOT, 'data')
 DIST = Path(PROJECT_ROOT, 'docs')
+LOCAL_DATA = Path(PROJECT_DATA, 'local')
 LOCALISATION_DATA = Path(PROJECT_ROOT, 'localisation')
 
 
