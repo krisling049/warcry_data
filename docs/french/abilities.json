@@ -5405,7 +5405,9 @@
         "warband": "Spire Tyrants",
         "cost": "double",
         "description": "Choisissez un combattant ennemi visible à 3\" de ce combattant et jetez un dé. Sur un jet de 3+, le combattant ennemi ne peut pas faire d'actions de mouvement ni de désengagement jusqu'à la fin du round.",
-        "runemarks": []
+        "runemarks": [
+            "trapper"
+        ]
     },
     {
         "_id": "a0c80fdf",

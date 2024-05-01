@@ -5405,7 +5405,9 @@
         "warband": "Spire Tyrants",
         "cost": "double",
         "description": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 3+, until the end of the battle round, that enemy fighter cannot make move actions or disengage actions.",
-        "runemarks": []
+        "runemarks": [
+            "trapper"
+        ]
     },
     {
         "_id": "a0c80fdf",
