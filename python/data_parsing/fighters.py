@@ -295,3 +295,9 @@ class FighterJSONDataPayload(JSONDataPayload):
         to_write = self.as_dataframe()
         print(f'writing {out_file.absolute()}')
         to_write.to_html(out_file)
+
+    def write_csv(self, dst_root: Path = Path(PROJECT_ROOT, 'data')):
+        out_file = Path(dst_root, 'fighters.csv')
+        to_write = self.as_dataframe()
+        print(f'writing {out_file.absolute()}')
+        to_write.to_csv(out_file)

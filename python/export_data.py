@@ -14,15 +14,18 @@ def get_data_files(data_loc: Path = DIST) -> List[Path]:
                 to_ret.append(file)
     return to_ret
 
+
 @dataclass
 class TypedArgs:
-    local: str
+    local: bool
+
 
 def parse_args() -> TypedArgs:
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-local', action='store_true', help='export data to untracked folder instead of docs')
     return TypedArgs(**vars(parser.parse_args()))
+
 
 if __name__ == '__main__':
     args = parse_args()
@@ -34,6 +37,7 @@ if __name__ == '__main__':
     combined_data.write_fighters_to_disk(dst=Path(out_dir, 'fighters.json'))
     combined_data.write_tts_fighters(dst=Path(out_dir, 'fighters_tts.json'))
     combined_data.write_fighters_html(dst_root=out_dir)
+    combined_data.write_fighters_csv(dst_root=out_dir)
     for file in LOCALISATION_DATA.iterdir():
         lang = file.stem
         combined_data.write_localised_data(dst=Path(out_dir, lang, 'abilities.json'), loc_file=file)
