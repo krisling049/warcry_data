@@ -64,5 +64,35 @@
         "runemarks": [
             "berserker"
         ]
+    },
+    {
+        "_id": "115a9054",
+        "name": "Knowing Just Where to Strike",
+        "warband": "order",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, ranged attack actions made by this fighter score a critical hit on a roll of 3+.",
+        "runemarks": [
+            "grombrindal"
+        ]
+    },
+    {
+        "_id": "966269c7",
+        "name": "Grombindal's Wisdom",
+        "warband": "order",
+        "cost": "triple",
+        "description": "Pick another friendly fighter within 3\" of this fighter to dispense some sagely wisdom to. Add 1 to that fighter's Move characteristic and the Attacks characteristic of melee attack actions made by that fighter until the end of the round. In addition, that fighter counts as 2 additional fighters for the purpose of controlling objectives until the end of the round.",
+        "runemarks": [
+            "grombrindal"
+        ]
+    },
+    {
+        "_id": "4b48ae9b",
+        "name": "Nothing I Haven't Seen Before",
+        "warband": "order",
+        "cost": "quad",
+        "description": "Until the end of the round, enemy fighters within 6\" of this fighter cannot use reactions. In addition, until the end of the round, abilities used by enemy fighters have no effect on enemy or friendly fighters within 6\" of this fighter.",
+        "runemarks": [
+            "grombrindal"
+        ]
     }
 ]
