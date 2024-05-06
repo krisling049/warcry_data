@@ -50,5 +50,42 @@
             }
         ],
         "wounds": 45
+    },
+    {
+        "_id": "bc293e96",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Grombrindal, the White Dwarf",
+        "points": 210,
+        "runemarks": [
+            "grombrindal",
+            "ally",
+            "hero"
+        ],
+        "toughness": 5,
+        "warband": "order",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            },
+            {
+                "attacks": 1,
+                "dmg_crit": 6,
+                "dmg_hit": 4,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 5
+            }
+        ],
+        "wounds": 25
     }
+    
 ]
