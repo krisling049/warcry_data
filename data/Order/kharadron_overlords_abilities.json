@@ -115,5 +115,15 @@
         "cost": "triple",
         "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Bjorgen Thundrik and it is the third battle round or later.  This fighter can make a bonus attack action.",
         "runemarks": []
+    },
+    {
+        "_id": "9c64c8f5",
+        "name": "I Think You’ll Find...",
+        "warband": "Kharadron Overlords",
+        "cost": "double",
+        "description": "Enemy fighters cannot use abilities or reactions until the next time a friendly fighter activates this battle round or until the end of the battle round, whichever comes first.",
+        "runemarks": [
+            "icon-bearer"
+        ]
     }
 ]
