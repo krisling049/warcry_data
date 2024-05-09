@@ -5,7 +5,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Mortek Guard with Soulcleaver Greatblade",
-        "points": 50,
+        "points": 60,
         "runemarks": [],
         "toughness": 4,
         "warband": "Ossiarch Bonereapers",
@@ -28,7 +28,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Mortek Guard with Nadirite Blade",
-        "points": 55,
+        "points": 60,
         "runemarks": [
             "bulwark"
         ],
@@ -53,7 +53,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Mortek Guard with Nadirite Spear",
-        "points": 55,
+        "points": 60,
         "runemarks": [
             "bulwark"
         ],
@@ -486,6 +486,41 @@
             }
         ],
         "wounds": 35
+    },
+    {
+        "_id": "6ac50bd5",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "name": "Mortisan Ossifector",
+        "points": 140,
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "toughness": 4,
+        "warband": "Ossiarch Bonereapers",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "wounds": 20
     },
     {
         "_id": "98a12abf",

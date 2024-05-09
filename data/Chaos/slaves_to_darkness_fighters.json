@@ -245,31 +245,6 @@
         "wounds": 18
     },
     {
-        "_id": "40867af6",
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Chaos Chosen",
-        "points": 145,
-        "runemarks": [
-            "warrior"
-        ],
-        "toughness": 5,
-        "warband": "Slaves to Darkness",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 5
-            }
-        ],
-        "wounds": 20
-    },
-    {
         "_id": "8036bff4",
         "bladeborn": "",
         "grand_alliance": "chaos",
@@ -380,32 +355,6 @@
             }
         ],
         "wounds": 20
-    },
-    {
-        "_id": "c76eda97",
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Exalted Champion",
-        "points": 185,
-        "runemarks": [
-            "hero",
-            "warrior"
-        ],
-        "toughness": 5,
-        "warband": "Slaves to Darkness",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 5
-            }
-        ],
-        "wounds": 25
     },
     {
         "_id": "7ed88e20",
@@ -695,6 +644,186 @@
             }
         ],
         "wounds": 38
+    },
+    {
+        "_id": "f08f6892",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Chaos Lord on Karkadrak",
+        "points": 375,
+        "runemarks": [
+            "hero",
+            "agile",
+            "mount"
+        ],
+        "toughness": 6,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "wounds": 38
+    },
+    {
+        "_id": "810bb2cc",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Chaos Chosen Exalted Champion",
+        "points": 210,
+        "runemarks": [
+            "hero",
+            "warrior"        
+        ],
+        "toughness": 5,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 24
+    },
+    {
+        "_id": "f5bbf9d4",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Thorakon with Goroan Falchion and Shield",
+        "points": 210,
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "toughness": 6,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "44766ee9",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Thorakon with Goroan Great Axe",
+        "points": 275,
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "toughness": 5,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "ac1ef533",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Chaos Chosen",
+        "points": 155,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "09dc4fa3",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Ogroid Theridon with Goroan Falchion and Shield",
+        "points": 195,
+        "runemarks": [
+            "ferocious"
+        ],
+        "toughness": 6,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "c69e2171",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Ogroid Theridon with Goroan Great Axe",
+        "points": 220,
+        "runemarks": [
+            "ferocious"
+        ],
+        "toughness": 5,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
     },
     {
         "_id": "5b4489f1",

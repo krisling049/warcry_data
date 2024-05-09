@@ -150,7 +150,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Brewgit",
-        "points": 70,
+        "points": 90,
         "runemarks": [
             "ally",
             "bulwark"
@@ -706,6 +706,127 @@
         "wounds": 26
     },
     {
+        "_id": "1565a04c",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Rabble-Rowza",
+        "points": 130,
+        "runemarks": [
+            "hero",
+            "sentience"
+        ],
+        "toughness": 4,
+        "warband": "Gloomspite Gitz",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "wounds": 16
+    },
+    {
+        "_id": "9dd13a32",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Squigboss with Gnasha-Squig",
+        "points": 135,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "toughness": 3,
+        "warband": "Gloomspite Gitz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
+        "wounds": 16
+    },
+    {
+        "_id": "7cc958a6",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "name": "Snarlfang Rider Gitboss",
+        "points": 215,
+        "runemarks": [
+            "hero",
+            "scout"
+        ],
+        "toughness": 4,
+        "warband": "Gloomspite Gitz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "a12b0b25",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "name": "Snarlfang Rider",
+        "points": 175,
+        "runemarks": [
+            "scout"
+        ],
+        "toughness": 4,
+        "warband": "Gloomspite Gitz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 15
+    },
+    {
         "_id": "3050f851",
         "bladeborn": "Grinkrak's Looncourt",
         "grand_alliance": "destruction",
@@ -1034,7 +1155,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Prog Da Netter",
-        "points": 50,
+        "points": 65,
         "runemarks": [
             "trapper"
         ],

@@ -5,7 +5,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Deadwalker Zombie",
-        "points": 40,
+        "points": 50,
         "runemarks": [
             "minion"
         ],
@@ -30,7 +30,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Skeleton with Ancient Blade",
-        "points": 40,
+        "points": 50,
         "runemarks": [
             "minion"
         ],
@@ -55,7 +55,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Skeleton with Ancient Spear",
-        "points": 40,
+        "points": 50,
         "runemarks": [
             "minion"
         ],
@@ -80,7 +80,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Grave Guard with Wight Blade and Crypt Shield",
-        "points": 55,
+        "points": 60,
         "runemarks": [
             "minion",
             "elite"
@@ -106,7 +106,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Grave Guard with Great Wight Blade",
-        "points": 65,
+        "points": 70,
         "runemarks": [
             "minion",
             "elite"
@@ -583,10 +583,11 @@
         "bladeborn": "Sons of Velmorn",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Helmwar the Hewer",
-        "points": 60,
+        "name": "Helmar the Hewer",
+        "points": 65,
         "runemarks": [
-            "minion"
+            "minion",
+            "elite"
         ],
         "toughness": 4,
         "warband": "Soulblight Gravelords",
@@ -609,9 +610,10 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Marshal Faulk Velmorn",
-        "points": 65,
+        "points": 70,
         "runemarks": [
-            "minion"
+            "minion",
+            "elite"
         ],
         "toughness": 4,
         "warband": "Soulblight Gravelords",
@@ -636,7 +638,8 @@
         "name": "Thain Fourth-and-Last",
         "points": 70,
         "runemarks": [
-            "minion"
+            "minion",
+            "elite"
         ],
         "toughness": 3,
         "warband": "Soulblight Gravelords",

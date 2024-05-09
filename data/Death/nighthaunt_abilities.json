@@ -43,10 +43,8 @@
         "name": "Frightful Touch",
         "warband": "Nighthaunt",
         "cost": "triple",
-        "description": "Until the end of this fighter's activation, count each hit from melee attack actions made by them as a critical hit instead.",
-        "runemarks": [
-            "destroyer"
-        ]
+        "description": "Until the end of this fighter's activation, count each hit from melee attack actions made by them as a critical hit instead. In addition, if this fighter has the Destroyer runemark, add 1 to the Attacks characteristic of melee attack actions made by this fighter this activation.",
+        "runemarks": []
     },
     {
         "_id": "e5e07960",

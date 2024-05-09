@@ -359,7 +359,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Crusher",
-        "points": 245,
+        "points": 255,
         "runemarks": [
             "hero",
             "brute",
@@ -386,7 +386,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Gutlord",
-        "points": 280,
+        "points": 290,
         "runemarks": [
             "hero",
             "brute"
@@ -501,7 +501,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Tyrant",
-        "points": 315,
+        "points": 325,
         "runemarks": [
             "hero",
             "brute",
@@ -566,6 +566,41 @@
             }
         ],
         "wounds": 40
+    },
+    {
+        "_id": "6be53983",
+        "bladeborn": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "name": "Bloodpelt Hunter",
+        "points": 280,
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "toughness": 4,
+        "warband": "Ogor Mawtribes",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 6
+            }
+        ],
+        "wounds": 30
     },
     {
         "_id": "a5a705f7",
@@ -734,7 +769,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Quiv",
-        "points": 45,
+        "points": 60,
         "runemarks": [
             "minion"
         ],

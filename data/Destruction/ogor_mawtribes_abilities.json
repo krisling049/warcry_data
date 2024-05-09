@@ -172,5 +172,15 @@
         "runemarks": [
             "brute"
         ]
+    },
+    {
+        "_id": "ee876af0",
+        "name": "Haul 'Em In",
+        "warband": "Ogor Mawtribes",
+        "cost": "triple",
+        "description": "This fighter makes a bonus attack action. After that attack action, the target of that attack action makes a bonus move action directly towards this fighter, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action.",
+        "runemarks": [
+            "ferocious"
+        ]
     }
 ]

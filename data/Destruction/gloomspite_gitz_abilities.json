@@ -177,6 +177,36 @@
         ]
     },
     {
+        "_id": "4b5b9619",
+        "name": "Over Here, Ya Lug!",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter with the Monster runemark that is within 6\" of this fighter. Until the end of the battle round, that enemy fighter cannot end move actions further from this fighter.",
+        "runemarks": [
+            "sentience"
+        ]
+    },
+    {
+        "_id": "7f30905f",
+        "name": "Can't Catch Us!",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they have made one or more ranged attack actions this activation. This fighter makes a bonus move action of a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "9af44d1d",
+        "name": "Mycophile's Pouch",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": " Until the end of the battle round, add 1 to the Attacks characteristic of friendly fighters with the Gloomspite Gitz faction runemark and either the Fly runemark or the Beast runemark while they are within 6\" of this fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
         "_id": "a523f4de",
         "name": "Questin' Knight",
         "warband": "Grinkrak's Looncourt",
