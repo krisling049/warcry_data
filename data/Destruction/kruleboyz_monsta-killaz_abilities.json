@@ -54,7 +54,7 @@
         "name": "Saw 'Em Up",
         "warband": "Kruleboyz Monsta-killaz",
         "cost": "triple",
-        "description": "Pick a visible enemy fighter within 2\" of this fighter and roll a number of dice equal to the value of this ability (to a minimum of 2). If you can make a group of 2 or more dice in consecutive numerical order (e.g. 2, 3, 4) excluding any duplicates, allocate 3 damage points to the chosen fighter for each dice in that group.",
+        "description": "Pick a visible enemy fighter within 2\" of this fighter and roll a number of dice equal to the value of this ability (to a minimum of 2). Make a single group of 2 or more dice in consecutive numerical order (e.g. 2, 3, 4), excluding duplicates. Then allocate 3 damage points to the chosen fighter for each dice in that group.",
         "runemarks": [
             "berserker"
         ]
