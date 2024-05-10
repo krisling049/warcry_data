@@ -367,6 +367,350 @@
         "wounds": 16
     },
     {
+        "_id": "a4d524f1",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Aggradon Lancer Alpha with Celestite Club",
+        "points": 245,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "85f572ca",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Aggradon Lancer Alpha with Celestite Spear",
+        "points": 235,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "eb7ea713",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Raptadon Hunter Alpha",
+        "points": 140,
+        "runemarks": [
+            "hero",
+            "minion",
+            "mount"
+        ],
+        "toughness": 2,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 2
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 14
+    },
+    {
+        "_id": "d52aba81",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Raptadon Charger Alpha",
+        "points": 135,
+        "runemarks": [
+            "hero",
+            "minion",
+            "mount"
+        ],
+        "toughness": 2,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 3
+            }
+        ],
+        "wounds": 14
+    },
+    {
+        "_id": "ebfc0cf2",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Saurus Scar-Veteran on Aggradon",
+        "points": 295,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "wounds": 30
+    },
+    {
+        "_id": "26043eca",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Aggradon Lancer with Celestite Club",
+        "points": 185,
+        "runemarks": [
+            "warrior",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "9f1e68b5",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Aggradon Lancer with Celestite Spear",
+        "points": 180,
+        "runemarks": [
+            "warrior",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "1545eb4d",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Raptadon Charger",
+        "points": 110,
+        "runemarks": [
+            "minion",
+            "mount"
+        ],
+        "toughness": 2,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "5b66f32a",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Raptadon Hunter",
+        "points": 120,
+        "runemarks": [
+            "minion",
+            "mount"
+        ],
+        "toughness": 2,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 2
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "ddbd41e4",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Spawn of Chotec",
+        "points": 130,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 4,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 5
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "9bc16a41",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Kroxigor",
+        "points": 200,
+        "runemarks": [
+            "warrior",
+            "brute"
+        ],
+        "toughness": 5,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 6
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "c95ad268",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Kroxigor Warspawned",
+        "points": 205,
+        "runemarks": [
+            "warrior",
+            "sentience"
+        ],
+        "toughness": 5,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+
+    {
         "_id": "97071a01",
         "bladeborn": "",
         "grand_alliance": "order",

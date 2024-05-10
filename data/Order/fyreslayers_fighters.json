@@ -570,5 +570,31 @@
             }
         ],
         "wounds": 26
+    },
+    {
+        "_id": "4e68aa26",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Grimhold Exile",
+        "points": 165,
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "toughness": 5,
+        "warband": "Fyreslayers",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
     }
 ]

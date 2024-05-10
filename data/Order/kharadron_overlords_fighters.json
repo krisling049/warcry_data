@@ -1098,5 +1098,40 @@
             }
         ],
         "wounds": 18
+    },
+    {
+        "_id": "311fd049",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Codewright",
+        "points": 95,
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ],
+        "toughness": 4,
+        "warband": "Kharadron Overlords",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 16
     }
 ]
