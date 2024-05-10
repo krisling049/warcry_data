@@ -199,5 +199,15 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Remove 3 damage points allocated to this fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "b2199fe2",
+        "name": "Unleashed Savagery",
+        "warband": "Slaves to Darkness",
+        "cost": "double",
+        "description": "A fighter can only use this ability once per battle. Roll a number of dice equal to the value of this ability. For each roll of 4+, add 1 to the Strength and Attacks characteristics of the next melee attack action made by this fighter this activation. Add 1 to each roll if there is a visible friendly Ogroid Myrmidon within 6\" of this fighter.",
+        "runemarks": [
+            "ferocious"
+        ]
     }
 ]

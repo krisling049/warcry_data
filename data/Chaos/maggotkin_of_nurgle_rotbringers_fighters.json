@@ -368,5 +368,31 @@
             }
         ],
         "wounds": 28
+    },
+    {
+        "_id": "75a035fc",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Harbinger of Decay with Doom Bell",
+        "points": 150,
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "toughness": 4,
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "scythe",
+                "strength": 3
+            }
+        ],
+        "wounds": 25
     }
 ]

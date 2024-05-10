@@ -560,6 +560,32 @@
         "wounds": 25
     },
     {
+        "_id": "282ca0b9",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Lord of Hubris",
+        "points": 155,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 4,
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
         "_id": "46b82fd9",
         "bladeborn": "The Dread Pageant",
         "grand_alliance": "chaos",

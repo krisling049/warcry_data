@@ -144,5 +144,15 @@
         "cost": "double",
         "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Fjul-Grimnir. Until the end of this fighter's activation, add 2 to the Attacks characteristic of attack actions made by this fighter that have the Axe runemark.",
         "runemarks": []
+    },
+    {
+        "_id": "8c393095",
+        "name": "Lodge-fire Blaze",
+        "warband": "Fyreslayers",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll 6 dice. For each roll of 4+, allocate 1 damage point to that fighter. If that fighter has a Wounds characteristic of 30 or more, for each roll of 3+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up) instead.",
+        "runemarks": [
+            "destroyer"
+        ]
     }
 ]

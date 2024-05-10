@@ -5,7 +5,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Arkanaut Company Privateer with Privateer Pistol and Arkanaut Cutter",
-        "points": 50,
+        "points": 55,
         "runemarks": [],
         "toughness": 3,
         "warband": "Kharadron Overlords",
@@ -251,7 +251,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Grundstok Thunderer with Aethercannon",
-        "points": 110,
+        "points": 130,
         "runemarks": [
             "elite"
         ],
@@ -320,7 +320,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Grundstok Thunderer with Grundstok Mortar",
-        "points": 130,
+        "points": 145,
         "runemarks": [
             "elite"
         ],
@@ -380,7 +380,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Arkanaut Admiral",
-        "points": 145,
+        "points": 155,
         "runemarks": [
             "hero"
         ],
@@ -1098,5 +1098,40 @@
             }
         ],
         "wounds": 18
+    },
+    {
+        "_id": "311fd049",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Codewright",
+        "points": 95,
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ],
+        "toughness": 4,
+        "warband": "Kharadron Overlords",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 16
     }
 ]

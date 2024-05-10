@@ -128,5 +128,15 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made.  If each hit roll from that attack action results in a miss, allocate 5 damage points to the attacking fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "c6ad14aa",
+        "name": "Refined Creations",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Ossiarch Bonereapers faction runemark and the Fly runemark within 3\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Attacks characteristic of the next melee attack action made by that fighter.",
+        "runemarks": [
+            "elite"
+        ]
     }
 ]
