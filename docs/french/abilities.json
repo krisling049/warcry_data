@@ -2056,6 +2056,16 @@
         "runemarks": []
     },
     {
+        "_id": "8c393095",
+        "name": "Lodge-fire Blaze",
+        "warband": "Fyreslayers",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll 6 dice. For each roll of 4+, allocate 1 damage point to that fighter. If that fighter has a Wounds characteristic of 30 or more, for each roll of 3+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up) instead.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
         "_id": "a659404f",
         "name": "Frappe Décapitante",
         "warband": "Garrek's Reavers",
@@ -2269,6 +2279,36 @@
         ]
     },
     {
+        "_id": "4b5b9619",
+        "name": "Over Here, Ya Lug!",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter with the Monster runemark that is within 6\" of this fighter. Until the end of the battle round, that enemy fighter cannot end move actions further from this fighter.",
+        "runemarks": [
+            "sentience"
+        ]
+    },
+    {
+        "_id": "7f30905f",
+        "name": "Can't Catch Us!",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they have made one or more ranged attack actions this activation. This fighter makes a bonus move action of a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "9af44d1d",
+        "name": "Mycophile's Pouch",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of friendly fighters with the Gloomspite Gitz faction runemark and either the Fly runemark or the Beast runemark while they are within 6\" of this fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
         "_id": "770d0514",
         "name": "Self-Command",
         "warband": "Gnarlspirit Pack",
@@ -2325,7 +2365,7 @@
         "name": "Overhead Smash",
         "warband": "Gorechosen of Dromm",
         "cost": "double",
-        "description": "You can only use this ability if this fighter has fallen 3\" or more this activation. Pick an enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 3 damage points to that enemy fighter.",
+        "description": "You can only use this ability if this fighter has jumped and then moved 2\" or more vertically downwards during this activation. Pick an enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 3 damage points to that enemy fighter.",
         "runemarks": [
             "brute"
         ]
@@ -2335,7 +2375,7 @@
         "name": "Chains of Blood",
         "warband": "Gorechosen of Dromm",
         "cost": "triple",
-        "description": "Add half the value of this ability to the Range characteristic of this fighter's melee attack actinos until the end of this activation.",
+        "description": "Add half the value of this ability to the Range characteristic of this fighter's melee attack actions until the end of this activation.",
         "runemarks": [
             "elite"
         ]
@@ -2697,6 +2737,16 @@
         "cost": "reaction",
         "description": "Un combattant peut faire cette réaction après avoir été ciblé par une action d'attaque de mêlée mais avant de faire les jets de touche. Pour chaque jet de touche de cette action d'attaque qui réussit, allouez 1 dégât au combattant attaquant. Pour chaque touche critique, allouez à la place 2 dégâts au combattant attaquant.",
         "runemarks": []
+    },
+    {
+        "_id": "d001e554",
+        "name": " You First, I Insist",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter. That enemy fighter makes a bonus attack action targeting this fighter. Until the end of this f ighter's activation: \n- Add 2 to the Attacks and Strength characteristics of melee attack actions made by this fighter that target that enemy fighter. \n- Add 3 to the damage points allocated by each critical hit from melee attack actions made by this fighter that target that enemy fighter.",
+        "runemarks": [
+            "bulwark"
+        ]
     },
     {
         "_id": "68f565a2",
@@ -3447,6 +3497,16 @@
         "runemarks": []
     },
     {
+        "_id": "9c64c8f5",
+        "name": "I Think You'll Find...",
+        "warband": "Kharadron Overlords",
+        "cost": "double",
+        "description": "Enemy fighters cannot use abilities or reactions until the next time a friendly fighter activates this battle round or until the end of the battle round, whichever comes first.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
         "_id": "c867eb77",
         "name": "Tir de Précision",
         "warband": "Kruleboyz",
@@ -3949,6 +4009,16 @@
         "runemarks": []
     },
     {
+        "_id": "54617d11",
+        "name": "Toll of the Doom Bell",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "quad",
+        "description": "Until the end of the battle round, enemy fighters cannot use reactions or abilities while they are within 7\" of this fighter.",
+        "runemarks": [
+            "priest"
+        ]
+    },
+    {
         "_id": "11e3cee9",
         "name": "Gueule démoniaque",
         "warband": "Magore's Fiends",
@@ -4071,9 +4141,7 @@
         "warband": "Nighthaunt",
         "cost": "triple",
         "description": "Jusqu'à la fin de l'activation de ce combattant, chaque touche de ses actions d'attaque de mêlée compte comme une touche critique.",
-        "runemarks": [
-            "destroyer"
-        ]
+        "runemarks": []
     },
     {
         "_id": "e5e07960",
@@ -4290,6 +4358,16 @@
         ]
     },
     {
+        "_id": "ee876af0",
+        "name": "Haul 'Em In",
+        "warband": "Ogor Mawtribes",
+        "cost": "triple",
+        "description": "This fighter makes a bonus attack action. After that attack action, the target of that attack action makes a bonus move action directly towards this fighter, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
         "_id": "f223520e",
         "name": "Grim Resolve",
         "warband": "Order of Azyr",
@@ -4488,6 +4566,16 @@
         "cost": "reaction",
         "description": "Un combattant peut faire cette réaction après avoir été ciblé par une action d'attaque de mêlée mais avant de faire les jets de touche. Si chaque jet de touche de l'action d'attaque rate, allouez 5 dégâts au combattant attaquant.",
         "runemarks": []
+    },
+    {
+        "_id": "c6ad14aa",
+        "name": "Refined Creations",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with the Ossiarch Bonereapers faction runemark and the Fly runemark within 3\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Attacks characteristic of the next melee attack action made by that fighter.",
+        "runemarks": [
+            "elite"
+        ]
     },
     {
         "_id": "22050b34",
@@ -4886,6 +4974,48 @@
         "runemarks": []
     },
     {
+        "_id": "2ba76301",
+        "name": "Predatory Leap",
+        "warband": "Seraphon",
+        "cost": "triple",
+        "description": "This fighter makes a bonus move action up to 3\" and can fly as part of that move action. After this fighter finishes that move, you can pick a visible enemy fighter within 1\" of this fighter. If you do so, allocate a number of damage points equal to half the value of this ability (rounding up) to that fighter.",
+        "runemarks": [
+            "warrior",
+            "mount"
+        ]
+    },
+    {
+        "_id": "5851f8af",
+        "name": "Brutal Blows",
+        "warband": "Seraphon",
+        "cost": "double",
+        "description": "A fighter can only use this ability if they are within 1\" of 2 or more enemy fighters. Add half the value of this ability (rounding up) to the Attacks characteristic of the next melee attack action made by this fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "a2bd176b",
+        "name": "Spawn of Sotek",
+        "warband": "Seraphon",
+        "cost": "double",
+        "description": "Add 2 to the Attacks characteristic of melee attack actions made by this fighter this activation while 1 or more endangered friendly fighters are within 6\" of them. A friendly fighter is endangered if it has the Minion runemark and is: within 1\" of 1 or more enemy fighters and/or has 1 or more damage points allocated to them.",
+        "runemarks": [
+            "sentience"
+        ]
+    },
+    {
+        "_id": "b11571a1",
+        "name": "Raptadon Tactics",
+        "warband": "Seraphon",
+        "cost": "double",
+        "description": "If this fighter has a weapon with the Ranged Weapon runemark on their fighter profile, this fighter makes a bonus move action of a number of inches equal to the value of this ability. Otherwise, add 2 to the Attacks characteristic of this fighter’s melee attack actions until the end of their activation.",
+        "runemarks": [
+            "minion",
+            "mount"
+        ]
+    },
+    {
         "_id": "bb49daff",
         "name": "Befoul the Land",
         "warband": "Skabbik's Plaguepack",
@@ -5246,6 +5376,16 @@
         "cost": "reaction",
         "description": "Un combattant peut faire cette réaction après avoir été ciblé par une action d'attaque de mêlée mais avant de faire les jets de touche. Retirez 3 dégâts alloués à ce combattant.",
         "runemarks": []
+    },
+    {
+        "_id": "b2199fe2",
+        "name": "Unleashed Savagery",
+        "warband": "Slaves to Darkness",
+        "cost": "double",
+        "description": "A fighter can only use this ability once per battle. Roll a number of dice equal to the value of this ability. For each roll of 4+, add 1 to the Strength and Attacks characteristics of the next melee attack action made by this fighter this activation. Add 1 to each roll if there is a visible friendly Ogroid Myrmidon within 6\" of this fighter.",
+        "runemarks": [
+            "ferocious"
+        ]
     },
     {
         "_id": "d02db365",
