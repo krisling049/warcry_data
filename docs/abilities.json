@@ -4590,7 +4590,7 @@
         "name": "Fan the Flames",
         "warband": "Pyregheists",
         "cost": "double",
-        "description": "Add 1 to the damage points allocated by each hit and each critical hit form the next melee attack action made by this fighter this activation.",
+        "description": "Add 1 to the damage points allocated by each hit and each critical hit from the next melee attack action made by this fighter this activation.",
         "runemarks": []
     },
     {
@@ -5495,7 +5495,7 @@
         "name": "Summon Undead Minions",
         "warband": "Soulblight Gravelords",
         "cost": "triple",
-        "description": "Pick a friendly fighter with the Soulblight Gravelords faction runemark and the Minion runemark that has been taken down. Set that fighter up on a platform or\nthe battlefield floor, wholly within 3\" of this fighter. That fighter no longer counts as being taken down and has no damage points allocated to it.",
+        "description": "Pick a friendly fighter with the Soulblight Gravelords faction runemark and the Minion runemark that has been taken down. Set that fighter up on a platform or the battlefield floor, wholly within 3\" of this fighter. If that fighter has the Elite runemark, remove a number of damage points allocated to that fighter equal to the value of this ability. Otherwise, that fighter has no damage points allocated to it. That fighter no longer counts as being taken down and has no damage points allocated to it.",
         "runemarks": [
             "hero"
         ]
