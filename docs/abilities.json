@@ -680,6 +680,7 @@
         "cost": "double",
         "description": "Pick a visible friendly fighter with both the Cities of Sigmar: Castelite Hosts faction runemark and the Mount runemark that is within 6\" of this fighter and that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends.",
         "runemarks": [
+            "hero",
             "mount"
         ]
     },
@@ -6682,7 +6683,7 @@
         "name": "Shared Pain",
         "warband": "The Unmade",
         "cost": "reaction",
-        "description": "A fighter can make this reaction when they are targeted by a melee attack action.\n\nAfter the damage is totalled but before it is allocated to this fighter, roll a dice for each critical hit scoredA fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead. from that attack action.",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead.",
         "runemarks": []
     },
     {
@@ -7066,7 +7067,7 @@
         "name": "Face of Da Bad Moon",
         "warband": "Zarbag's Gitz",
         "cost": "double",
-        "description": "Pick a visible enemy fighter within 9\" of this fighter that is within 1\" of a friendly fighter.  That enemy fighter must make a bonus disengage action.  If the ycannot do so, allocate D6 damage pints to that enemy fighter instead.",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter that is within 1\" of a friendly fighter. That enemy fighter must make a bonus disengage action. If they cannot do so, allocate D6 damage pints to that enemy fighter instead.",
         "runemarks": [
             "hero"
         ]

@@ -680,6 +680,7 @@
         "cost": "double",
         "description": "Choisissez un combattant ami visible qui a à la fois la marque runique de faction des Cités de Sigmar : Osts Castelains et la marque de Monture, qui est à 6\" du combattant qui utilise cette aptitude et qui n'a pas encore été activé à ce round. Vous pouvez activer le combattant choisi juste après l'activation du combattant qui utilise cette aptitude.",
         "runemarks": [
+            "hero",
             "mount"
         ]
     },
