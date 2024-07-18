@@ -14,6 +14,7 @@
         "cost": "double",
         "description": "Pick a visible friendly fighter with both the Cities of Sigmar: Castelite Hosts faction runemark and the Mount runemark that is within 6\" of this fighter and that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends.",
         "runemarks": [
+            "hero",
             "mount"
         ]
     },

@@ -58,7 +58,7 @@
         "name": "Shared Pain",
         "warband": "The Unmade",
         "cost": "reaction",
-        "description": "A fighter can make this reaction when they are targeted by a melee attack action.\n\nAfter the damage is totalled but before it is allocated to this fighter, roll a dice for each critical hit scoredA fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead. from that attack action.",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead.",
         "runemarks": []
     }
 ]
