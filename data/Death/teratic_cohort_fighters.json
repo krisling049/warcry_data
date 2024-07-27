@@ -6,7 +6,7 @@
         "movement": 7,
         "name": "Kavalos Centari",
         "points": 110,
-        "runemarks": ["hero", "elite", "mounted"],
+        "runemarks": ["hero", "elite", "mount"],
         "toughness": 4,
         "warband": "Teratic Cohort",
         "weapons": [
@@ -28,7 +28,7 @@
         "grand_alliance": "death",
         "movement": 4,
         "name": "Mortek Cykloptian with Dread Glaive",
-        "points": 110,
+        "points": 145,
         "runemarks": ["elite"],
         "toughness": 4,
         "warband": "Teratic Cohort",
@@ -97,7 +97,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Aviarch Harpy",
-        "points": 110,
+        "points": 115,
         "runemarks": ["beast", "fly"],
         "toughness": 4,
         "warband": "Teratic Cohort",
@@ -112,6 +112,6 @@
                 "strength": 4
             }
         ],
-        "wounds": 115
+        "wounds": 10
     }
 ]
