@@ -15679,33 +15679,6 @@
         "wounds": 10
     },
     {
-        "_id": "0kvxvl2d",
-        "bladeborn": "",
-        "grand_alliance": "death",
-        "movement": 7,
-        "name": "Kavalos Centari",
-        "points": 110,
-        "runemarks": [
-            "hero",
-            "elite",
-            "mount"
-        ],
-        "toughness": 4,
-        "warband": "Teratic Cohort",
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 3,
-                "min_range": 0,
-                "runemark": "reach",
-                "strength": 4
-            }
-        ],
-        "wounds": 20
-    },
-    {
         "_id": "nqyjc38a",
         "bladeborn": "",
         "grand_alliance": "death",
@@ -15780,6 +15753,33 @@
             }
         ],
         "wounds": 18
+    },
+    {
+        "_id": "0kvxvl2d",
+        "bladeborn": "",
+        "grand_alliance": "death",
+        "movement": 7,
+        "name": "Kavalos Centari",
+        "points": 235,
+        "runemarks": [
+            "hero",
+            "elite",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Teratic Cohort",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
     },
     {
         "_id": "58c57168",
