@@ -148,7 +148,7 @@
                 "strength": 4
             }
         ],
-        "wounds": 12,
+        "wounds": 22,
         "abilities": [
             {
                 "_id": "4bs13vtk"
@@ -258,21 +258,18 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Twistroot Warden with Guardian Halberd",
-        "points": 110,
-        "runemarks": [
-            "berserker",
-            "destroyer"
-        ],
+        "points": 125,
+        "runemarks": [],
         "toughness": 4,
         "warband": "Twistweald",
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 2,
-                "max_range": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "reach",
+                "runemark": "axe",
                 "strength": 5
             }
         ],
@@ -282,13 +279,7 @@
                 "_id": "4bs13vtk"
             },
             {
-                "_id": "bbrllj1a"
-            },
-            {
                 "_id": "kc377aly"
-            },
-            {
-                "_id": "1juhnrny"
             },
             {
                 "_id": "9alh24h5"
@@ -28593,7 +28584,7 @@
         "runemarks": [
             "hero",
             "elite",
-            "mounted"
+            "mount"
         ],
         "toughness": 4,
         "warband": "Teratic Cohort",
@@ -28636,7 +28627,7 @@
         "grand_alliance": "death",
         "movement": 4,
         "name": "Mortek Cykloptian with Dread Glaive",
-        "points": 110,
+        "points": 145,
         "runemarks": [
             "elite"
         ],
@@ -28765,7 +28756,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Aviarch Harpy",
-        "points": 110,
+        "points": 115,
         "runemarks": [
             "beast",
             "fly"
@@ -28783,7 +28774,7 @@
                 "strength": 4
             }
         ],
-        "wounds": 115,
+        "wounds": 10,
         "abilities": [
             {
                 "_id": "mbqlebrx"
