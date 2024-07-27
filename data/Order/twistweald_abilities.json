@@ -1,0 +1,72 @@
+[
+
+    {
+        "_id": "4bs13vtk",
+        "name": "Mycelial Ravaging",
+        "warband": "Twistweald",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. For each hit roll of 5+ from that attack action, allocate 2 damage points to the attacking fighter.",
+        "runemarks": [
+        ]
+    },
+    {
+        "_id": "bbrllj1a",
+        "name": "Flesh-piercing Talons",
+        "warband": "Twistweald",
+        "cost": "double",
+        "description": "During the next melee attack action made by this fighter, critical hits are scored on a 5 + for that attack action.",
+        "runemarks": [ 
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "yj8f61pb",
+        "name": "Voracious Swarm",
+        "warband": "Twistweald",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 12\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate i damage point to that enemy fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "kc377aly",
+        "name": "Eruption of Thorns",
+        "warband": "Twistweald",
+        "cost": "double",
+        "description": "Roll a dice for each visible enemy fighter within 1\" of this fighter. On a roll of 4+, allocate a number of damage points to the fighter being rolled for equal to half the value of this ability.",
+        "runemarks": [
+        ]
+    },
+    {
+        "_id": "1juhnrny",
+        "name": "Thorned Grasp",
+        "warband": "Twistweald",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter, then roll a dice. On a roll of 2+, allocate 2 damage points to the fighter being rolled for. Keep rolling in this way and allocating damage points to that fighter until a roll is equal to or lower than the previous roll.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "ftsgeyxb",
+        "name": "Devour Infection",
+        "warband": "Twistweald",
+        "cost": "triple",
+        "description": "Pick a friendly fighter within 12\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to that friendly fighter. For each damage point allocated to that fighter by this ability, add 1 to the Attacks characteristic of the next melee attack action made by that fighter until the end of the battle round.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "9alh24h5",
+        "name": "Twisted Song",
+        "warband": "Twistweald",
+        "cost": "quad",
+        "description": "Remove a number of damage points allocated to this fighter equal to the value of this ability. This fighter can then make a bonus move action or a bonus attack action.",
+        "runemarks": [
+        ]
+    }
+
+  
+]
