@@ -27,9 +27,11 @@
         "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Twistroot Revenant",
+        "name": "Twistroot Revenant with Harvester Blade",
         "points": 110,
-        "runemarks": ["destroyer"],
+        "runemarks": [
+            "destroyer"
+        ],
         "toughness": 4,
         "warband": "Twistweald",
         "weapons": [
@@ -52,7 +54,10 @@
         "movement": 4,
         "name": "Twistroot Spite-revenant with Briarlash",
         "points": 110,
-        "runemarks": ["berserker", "destroyer"],
+        "runemarks": [
+            "berserker",
+            "destroyer"
+        ],
         "toughness": 4,
         "warband": "Twistweald",
         "weapons": [
@@ -75,7 +80,10 @@
         "movement": 4,
         "name": "Swarmsage",
         "points": 190,
-        "runemarks": ["berserker", "hero"],
+        "runemarks": [
+            "berserker",
+            "hero"
+        ],
         "toughness": 4,
         "warband": "Twistweald",
         "weapons": [
@@ -139,7 +147,9 @@
         "movement": 5,
         "name": "Twistroot Dryad",
         "points": 110,
-        "runemarks": ["destroyer"],
+        "runemarks": [
+            "destroyer"
+        ],
         "toughness": 4,
         "warband": "Twistweald",
         "weapons": [
