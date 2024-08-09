@@ -1,11 +1,12 @@
 package main
 
 import (
-	wcd "./warcry_go"
 	"encoding/json"
 	"flag"
 	"fmt"
+	wcd "github.com/krisling049/warcry_data/warcry_go"
 	"log"
+	"net/http"
 	"os"
 	"path/filepath"
 )
@@ -18,6 +19,7 @@ func init() {
 var (
 	AllFighters  = wcd.Fighters{}
 	AllAbilities = wcd.Abilities{}
+	AllWarbands  = wcd.Warbands{}
 	DataRoot     string
 )
 
@@ -72,7 +74,21 @@ func LoadData(dataRoot string) {
 func main() {
 	LoadData(DataRoot)
 
-	AllWarbands := wcd.LoadWarbands(&AllFighters, &AllAbilities)
-	fmt.Printf("Warbands: %v\n", len(*AllWarbands))
+	AllWarbands = *wcd.LoadWarbands(&AllFighters, &AllAbilities)
+	if AllWarbands != nil {
+		log.Println("data loaded")
+	}
+
+	mux := http.NewServeMux()
+
+	// Register the routes and handlers
+	mux.Handle("/fighters", &wcd.FighterHandler{Fighters: AllFighters})
+
+	// Run the server
+	serveErr := http.ListenAndServe(":4424", mux)
+	if serveErr != nil {
+		log.Fatalln(serveErr)
+	}
+
 	fmt.Println("done")
 }
