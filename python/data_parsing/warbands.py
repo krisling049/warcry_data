@@ -1,13 +1,15 @@
-from .fighters import sort_fighters, Fighter, Fighters, FighterJSONDataPayload
-from .abilities import Ability
-from .models import DataPayload, PROJECT_DATA, sanitise_filename, DIST
-from pathlib import Path
-from typing import Union, List, Dict
 import json
-import jsonschema
 import re
 import uuid
 from copy import deepcopy
+from pathlib import Path
+from typing import Union, List, Dict
+
+import jsonschema
+
+from .abilities import Ability
+from .fighters import sort_fighters, Fighter, Fighters, FighterJSONDataPayload
+from .models import DataPayload, PROJECT_DATA, sanitise_filename
 
 
 class WarbandsJSONDataPayload(DataPayload):
@@ -108,7 +110,14 @@ class WarbandsJSONDataPayload(DataPayload):
 
     def write_abilities_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json')):
         self.validate_data()
-        sorted_data = sorted(self.data['abilities'], key=lambda d: d['warband'])
+        no_battletraits = [x for x in self.data['abilities'] if x['cost'] != 'battletrait']
+        sorted_data = sorted(no_battletraits, key=lambda d: d['warband'])
+        self._write_json(dst=dst, data=sorted_data)
+
+    def write_battletraits_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json')):
+        self.validate_data()
+        battletraits = [x for x in self.data['abilities'] if x['cost'] == 'battletrait']
+        sorted_data = sorted(battletraits, key=lambda d: d['warband'])
         self._write_json(dst=dst, data=sorted_data)
 
     def write_warbands_to_disk(self, dst: Path = PROJECT_DATA):
