@@ -68,5 +68,13 @@
         "runemarks": [
             "agile"
         ]
+    },
+    {
+        "_id": "257f7546",
+        "name": "Hidden Hunters",
+        "warband": "Hunters of Huanchi",
+        "cost": "battletrait",
+        "description": "After deployment, each player whose warband has this battle trait can pick a friendly fighter with this battle trait from each friendly battle group that is on the battlefield. One at a time, remove those fighters from the battlefield and pick a different battle group. Then deploy that fighter as if it were part of that battle group.",
+        "runemarks": []
     }
 ]

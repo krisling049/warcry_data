@@ -128,14 +128,12 @@
         ]
     },
     {
-        "_id": "60f9e076",
-        "name": "Royal Decree",
-        "warband": "The Grymwatch",
-        "cost": "double",
-        "description": "Pick a visible friendly fighter with both The Grymwatch runemark and the Minion runemark within 3\" of this fighter. That fighter can make a bonus attack action.",
-        "runemarks": [
-            "hero"
-        ]
+        "_id": "c041c79a",
+        "name": "Form a Lance",
+        "warband": "Flesh-eater Courts",
+        "cost": "battletrait",
+        "description": "Add 1 to the Move characteristics of friendly fighters with this battle trait that were within 1\" of two or more other friendly fighters with this battle trait at the start of their activation. Add 1 to the Strength characteristic of melee attack actions made by friendly fighters with this battle trait while they are within 1\" of two or more other friendly fighters with this battle trait.",
+        "runemarks": []
     },
     {
         "_id": "c4d22bf7",
@@ -168,5 +166,15 @@
         "cost": "quad",
         "description": "The next melee attack action made by this fighter scores critical hits on a 3+ regardless of the Toughness characteristic of the target.",
         "runemarks": []
+    },
+    {
+        "_id": "60f9e076",
+        "name": "Royal Decree",
+        "warband": "The Grymwatch",
+        "cost": "double",
+        "description": "Pick a visible friendly fighter with both The Grymwatch runemark and the Minion runemark within 3\" of this fighter. That fighter can make a bonus attack action.",
+        "runemarks": [
+            "hero"
+        ]
     }
 ]

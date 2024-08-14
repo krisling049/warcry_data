@@ -64,5 +64,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when an enemy fighter ends their move action visible to this fighter and within 3\" of this fighter.  Pick another friendly fighter within 3\" of this fighter.  That fighter makes a bonus move action.  After that move action that fighter must be within 1\" of the enemy fighter that made the move action.",
         "runemarks": []
+    },
+    {
+        "_id": "e59b9ad0",
+        "name": "Master Manipulators",
+        "warband": "Chaos Legionnaires",
+        "cost": "battletrait",
+        "description": "When determining who has the initiative, but not when seizing the initiative, if there is a tie, do not roll off. Instead the player of this warband chooses which tied player has the initiative. If multiple warbands have this battle trait, the players of those warbands roll off, and the winner chooses which tied player has the initiative.",
+        "runemarks": []
     }
 ]

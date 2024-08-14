@@ -64,5 +64,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made.  Add 1 to this fighter's Toughness characteristic during that attack action.",
         "runemarks": []
+    },
+    {
+        "_id": "344f399f",
+        "name": "Worthy Draught",
+        "warband": "Askurgan Trueblades",
+        "cost": "battletrait",
+        "description": "After an enemy fighter with the Hero runemark and/or that has a Wounds characteristic of 30 or greater has been taken down by a melee attack action made by a friendly fighter with this battle trait, remove D6 damage points allocated to that friendly fighter.",
+        "runemarks": []
     }
 ]

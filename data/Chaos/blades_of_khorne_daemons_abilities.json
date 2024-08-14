@@ -64,5 +64,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, allocate 2 damage points to the attacking fighter. For each critical hit from that attack action, allocate 1 additional damage point to this fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "7ea9a3b3",
+        "name": "Blood Calls to Blood",
+        "warband": "Blades of Khorne: Daemons",
+        "cost": "battletrait",
+        "description": "If there are one or more friendly fighters with this battle trait on the battlefield, at the end of each battle round, you can pick an enemy fighter with one or more damage points allocated to them. Roll 2D6. On a roll of 8+, allocate 3 damage points to that fighter.",
+        "runemarks": []
     }
 ]

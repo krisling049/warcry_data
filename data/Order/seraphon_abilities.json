@@ -120,26 +120,6 @@
         "runemarks": []
     },
     {
-        "_id": "fa891e0e",
-        "name": "Chameleon Ambush",
-        "warband": "The Starblood Stalkers",
-        "cost": "double",
-        "description": "This fighter can use this ability only if there are no visible enemy fighters within 12\" of this fighter. This fighter makes a bonus move action.",
-        "runemarks": [
-            "scout"
-        ]
-    },
-    {
-        "_id": "da1dd1e6",
-        "name": "Imbue with Azyrite Energy",
-        "warband": "The Starblood Stalkers",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add 1 to the Move and Toughness characteristics of friendly fighters while they are within 9\" of this fighter.",
-        "runemarks": [
-            "hero"
-        ]
-    },
-    {
         "_id": "2ba76301",
         "name": "Predatory Leap",
         "warband": "Seraphon",
@@ -179,6 +159,34 @@
         "runemarks": [
             "minion",
             "mount"
+        ]
+    },
+    {
+        "_id": "d4de5fe6",
+        "name": "Seraphon",
+        "warband": "Seraphon",
+        "cost": "battletrait",
+        "description": "After you pick your warband, pick either Coalesced or Starborne and gain the corresponding battle trait listed below:Coalesced:Friendly fighters with this battle trait can add a 1 to the value of any [triple] spent to use the Tearing bite ability, to a maximum of 6. Starborne:Fighters with this battle trait can make the \"Starborn\" reaction when they are targeted by melee and ranged attack actions.",
+        "runemarks": []
+    },
+    {
+        "_id": "fa891e0e",
+        "name": "Chameleon Ambush",
+        "warband": "The Starblood Stalkers",
+        "cost": "double",
+        "description": "This fighter can use this ability only if there are no visible enemy fighters within 12\" of this fighter. This fighter makes a bonus move action.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "da1dd1e6",
+        "name": "Imbue with Azyrite Energy",
+        "warband": "The Starblood Stalkers",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Move and Toughness characteristics of friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "hero"
         ]
     }
 ]

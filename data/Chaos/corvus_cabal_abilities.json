@@ -78,5 +78,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter, within 5\" horizontally and vertically lower than this fighter. This fighter makes a bonus move action and must finish closer to that enemy fighter than they were at the start of that move action. If this fighter ends that move within 1\" of that enemy fighter, this fighter does not suffer impact damage and that enemy fighter suffers impact damage.",
         "runemarks": []
+    },
+    {
+        "_id": "f90c6d85",
+        "name": "Plunging Killers",
+        "warband": "Corvus Cabal",
+        "cost": "battletrait",
+        "description": "Add 2 of the Strength characteristics of melee attack actions made by friendly fighters with this battle trait if they fell this activation.",
+        "runemarks": []
     }
 ]

@@ -64,5 +64,13 @@
         "cost": "reaction",
         "description": "After a visible enemy fighter within 1\" of this fighter makes a disengage action, allocate D3 damage points to that fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "3bd91588",
+        "name": "The Hounds Bay",
+        "warband": "Royal Beastflayers",
+        "cost": "battletrait",
+        "description": "After an enemy fighter has been taken down by a melee attack action made by a friendly fighter with this battle trait that has the Beast runemark, pick another fighter in your warband. That fighter can make a bonus move action of up to 3\".",
+        "runemarks": []
     }
 ]

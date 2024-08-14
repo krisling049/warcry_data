@@ -62,5 +62,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1).",
         "runemarks": []
+    },
+    {
+        "_id": "7ead189d",
+        "name": "Worthy Prey",
+        "warband": "Untamed Beasts",
+        "cost": "battletrait",
+        "description": "At the start of each battle round, if no enemy fighters are your worthy prey, pick an enemy fighter. That fighter is your worth prey. While that fighter is your worthy prey, abilities that target that fighter are treated as having a value of 6.",
+        "runemarks": []
     }
 ]

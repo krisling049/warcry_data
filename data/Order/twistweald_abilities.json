@@ -13,7 +13,7 @@
         "warband": "Twistweald",
         "cost": "double",
         "description": "During the next melee attack action made by this fighter, critical hits are scored on a 5+ for that attack action.",
-        "runemarks": [ 
+        "runemarks": [
             "destroyer"
         ]
     },
@@ -61,6 +61,14 @@
         "warband": "Twistweald",
         "cost": "quad",
         "description": "Remove a number of damage points allocated to this fighter equal to the value of this ability. This fighter can then make a bonus move action or a bonus attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "506dca98",
+        "name": "Ravaged by Corruption",
+        "warband": "Twistweald",
+        "cost": "battletrait",
+        "description": "At the end of each battle round, you can choose a friendly fighter with this battle trait that is within 1\" of one or more enemy fighters and roll a dice. On a 2+, allocate 1 damage point to that friendly fighter If that friendly fighter is not take down, pick one of those enemy fighters. Allocated D3 damage points to that enemy fighter.",
         "runemarks": []
     }
 ]

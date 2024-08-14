@@ -109,14 +109,6 @@
         "runemarks": []
     },
     {
-        "_id": "cce1c9d6",
-        "name": "Win Recognition",
-        "warband": "Thundrik's Profiteers",
-        "cost": "triple",
-        "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Bjorgen Thundrik and it is the third battle round or later.  This fighter can make a bonus attack action.",
-        "runemarks": []
-    },
-    {
         "_id": "9c64c8f5",
         "name": "I Think You'll Find...",
         "warband": "Kharadron Overlords",
@@ -125,5 +117,21 @@
         "runemarks": [
             "icon-bearer"
         ]
+    },
+    {
+        "_id": "274b8b3a",
+        "name": "A Good Deal",
+        "warband": "Kharadron Overlords",
+        "cost": "battletrait",
+        "description": "Once per battle round, after a friendly fighter with this battle trait is targeted by an attack action but before the hit rolls are made, you can make a deal. If you do so, add one wild dice to your opponent's saved wild dice. Then subtract 2 from the damage points allocated to that fighter by each hit and each critical hit from that attack action (to a minimum of 1)..",
+        "runemarks": []
+    },
+    {
+        "_id": "cce1c9d6",
+        "name": "Win Recognition",
+        "warband": "Thundrik's Profiteers",
+        "cost": "triple",
+        "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Bjorgen Thundrik and it is the third battle round or later.  This fighter can make a bonus attack action.",
+        "runemarks": []
     }
 ]

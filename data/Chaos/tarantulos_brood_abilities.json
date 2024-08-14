@@ -66,5 +66,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll of 1 or 2 from that attack action, allocate 2 damage points to the attacking fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "0a89a316",
+        "name": "Eightfold Allies",
+        "warband": "Tarantulos Brood",
+        "cost": "battletrait",
+        "description": "Once per battle, a friendly fighter with this battle trait can use the 'Creeping Summons' ability without needing or spending any ability dice, and can use that ability as if they had the Hero runemark.",
+        "runemarks": []
     }
 ]

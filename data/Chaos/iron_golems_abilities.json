@@ -64,5 +64,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead.",
         "runemarks": []
+    },
+    {
+        "_id": "cc1d2c0a",
+        "name": "We Make War",
+        "warband": "Iron Golems",
+        "cost": "battletrait",
+        "description": "After the initiative phase, starting with the attacker, each player whose warband has this battle trait can pick a [double], [triple], or [quad] they have. Change the value of those ability dice to 6.",
+        "runemarks": []
     }
 ]

@@ -1,5 +1,45 @@
 [
     {
+        "_id": "6d695b7a",
+        "name": "Ink Jet",
+        "warband": "Cyreni's Razors",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, after that attack action is resolved, you can move this fighter up to 2\". In addition, if all of the hit rolls missed, that enemy fighter cannot make attack actions until the end of the battle round.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "7479b3ed",
+        "name": "Hurl Lanmari Blade",
+        "warband": "Cyreni's Razors",
+        "cost": "double",
+        "description": "Add the value of this ability to the Range characteristic of the next melee attack action made by this fighter this activation. After that attack action, this fighter cannot make melee attack actions for the rest of this activation.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "06b33bb6",
+        "name": "Hammertide",
+        "warband": "Cyreni's Razors",
+        "cost": "triple",
+        "description": "Pick a corner of the battlefield and draw a straight line 1mm wide between the centre of this fighter's base and that corner. Enemy fighters whose base touches that line cannot jump, fly or climb until the end of this battle round. In addition, roll a number of dice equal to the value of this ability for each such enemy fighter. Allocate 1 damage point to that fighter for each roll of 3+.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "c5c07e49",
+        "name": "Crushing Wrap",
+        "warband": "Cyreni's Razors",
+        "cost": "quad",
+        "description": "A fighter can only use this ability before it would make a melee attack action. Roll 8 dice. For each roll of 3+, add 1 to this fighter's Strength characteristic for that attack action and allocate 2 damage points to the target of that attack action. If the target is taken out of action, the melee attack action has no effect.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
         "_id": "efc50c98",
         "name": "Soulnet",
         "warband": "Elathain's Soulraid",
@@ -141,43 +181,11 @@
         "runemarks": []
     },
     {
-        "_id": "6d695b7a",
-        "name": "Ink Jet",
-        "warband": "Cyreni's Razors",
-        "cost": "reaction",
-        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, after that attack action is resolved, you can move this fighter up to 2\". In addition, if all of the hit rolls missed, that enemy fighter cannot make attack actions until the end of the battle round.",
-        "runemarks": [
-            "beast"
-        ]
-    },
-    {
-        "_id": "7479b3ed",
-        "name": "Hurl Lanmari Blade",
-        "warband": "Cyreni's Razors",
-        "cost": "double",
-        "description": "Add the value of this ability to the Range characteristic of the next melee attack action made by this fighter this activation. After that attack action, this fighter cannot make melee attack actions for the rest of this activation.",
-        "runemarks": [
-            "minion"
-        ]
-    },
-    {
-        "_id": "06b33bb6",
-        "name": "Hammertide",
-        "warband": "Cyreni's Razors",
-        "cost": "triple",
-        "description": "Pick a corner of the battlefield and draw a straight line 1mm wide between the centre of this fighter's base and that corner. Enemy fighters whose base touches that line cannot jump, fly or climb until the end of this battle round. In addition, roll a number of dice equal to the value of this ability for each such enemy fighter. Allocate 1 damage point to that fighter for each roll of 3+.",
-        "runemarks": [
-            "hero"
-        ]
-    },
-    {
-        "_id": "c5c07e49",
-        "name": "Crushing Wrap",
-        "warband": "Cyreni's Razors",
-        "cost": "quad",
-        "description": "A fighter can only use this ability before it would make a melee attack action. Roll 8 dice. For each roll of 3+, add 1 to this fighter's Strength characteristic for that attack action and allocate 2 damage points to the target of that attack action. If the target is taken out of action, the melee attack action has no effect.",
-        "runemarks": [
-            "beast"
-        ]
+        "_id": "f9e19991",
+        "name": "Power of the Tides",
+        "warband": "Idoneth Deepkin",
+        "cost": "battletrait",
+        "description": "In battle rounds 1 and 2, add 1 to the Move characteristic of friendly fighters with this battle trait. In battle rounds 3 and 4, add 1 to the Strength characteristic of melee attack actions made by friendly fighters with the battle trait.",
+        "runemarks": []
     }
 ]

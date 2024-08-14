@@ -62,5 +62,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down.  Pick another friendly fighter.  That fighter makes a bonus move action or a bonus attack action.",
         "runemarks": []
+    },
+    {
+        "_id": "57e67ede",
+        "name": "Heroes Without Limits",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "cost": "battletrait",
+        "description": "Fighters with this battle trait can use multiple abilities each activation. Such fighters can use the same ability more than once, and can use multiple abilities when they would normally only be able to use one. Where abilities grant bonus actions, such abilities are used one at a time and are fully resolved before another ability can be used.",
+        "runemarks": []
     }
 ]

@@ -30,6 +30,46 @@
         ]
     },
     {
+        "_id": "574b4620",
+        "name": "Leave Ya Bleedin'",
+        "warband": "Daggok's Stab-ladz",
+        "cost": "double",
+        "description": "A fighter can only use this ability if an enemy fighter was allocated damage points by an attack action made by them this activation. Roll a dice for each wound allocated to that enemy fighter at the end of the battle round. For each 4+, allocate 1 damage point to that fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "eaba1b07",
+        "name": "Hookin' Your Guts",
+        "warband": "Daggok's Stab-ladz",
+        "cost": "double",
+        "description": "Until the end of the battle round, after an enemy fighter makes a disengage action that began within 3\" of this fighter, allocate D6 damage points to that fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "cc8aa230",
+        "name": "Roar of Kragnos",
+        "warband": "Daggok's Stab-ladz",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "6b7e69c6",
+        "name": "Stealin' Your Finks",
+        "warband": "Daggok's Stab-ladz",
+        "cost": "quad",
+        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Gain a number of wild dice equal to the value of this ability, then this fighter makes a bonus move action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
         "_id": "c867eb77",
         "name": "Aimed Shot",
         "warband": "Kruleboyz",
@@ -132,43 +172,11 @@
         "runemarks": []
     },
     {
-        "_id": "574b4620",
-        "name": "Leave Ya Bleedin'",
-        "warband": "Daggok's Stab-ladz",
-        "cost": "double",
-        "description": "A fighter can only use this ability if an enemy fighter was allocated damage points by an attack action made by them this activation. Roll a dice for each wound allocated to that enemy fighter at the end of the battle round. For each 4+, allocate 1 damage point to that fighter.",
-        "runemarks": [
-            "frenzied"
-        ]
-    },
-    {
-        "_id": "eaba1b07",
-        "name": "Hookin' Your Guts",
-        "warband": "Daggok's Stab-ladz",
-        "cost": "double",
-        "description": "Until the end of the battle round, after an enemy fighter makes a disengage action that began within 3\" of this fighter, allocate D6 damage points to that fighter.",
-        "runemarks": [
-            "brute"
-        ]
-    },
-    {
-        "_id": "cc8aa230",
-        "name": "Roar of Kragnos",
-        "warband": "Daggok's Stab-ladz",
-        "cost": "triple",
-        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter.",
-        "runemarks": [
-            "icon-bearer"
-        ]
-    },
-    {
-        "_id": "6b7e69c6",
-        "name": "Stealin' Your Finks",
-        "warband": "Daggok's Stab-ladz",
-        "cost": "quad",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Gain a number of wild dice equal to the value of this ability, then this fighter makes a bonus move action.",
-        "runemarks": [
-            "hero"
-        ]
+        "_id": "b47a0436",
+        "name": "Stick 'Em Good and Quick",
+        "warband": "Kruleboyz",
+        "cost": "battletrait",
+        "description": "Once per battle round, pick a friendly fighter with this battle trait. For that battle round, after that fighter's activation, you can pick an enemy fighter that was allocated 1 or more damage points by a melee attack action made by the fighter you picked. Allocated D3 damage points to that enemy fighter.",
+        "runemarks": []
     }
 ]

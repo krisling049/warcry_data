@@ -94,5 +94,13 @@
         "runemarks": [
             "thrall"
         ]
+    },
+    {
+        "_id": "6321786c",
+        "name": "Deathless Minions",
+        "warband": "death",
+        "cost": "battletrait",
+        "description": "Once per battle round, count the first critical hit from a ranged attack action that targets a friendly fighter with this battle trait that has the Minion runemark as a hit instead.",
+        "runemarks": []
     }
 ]

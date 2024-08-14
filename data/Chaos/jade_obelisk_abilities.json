@@ -64,5 +64,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made.  Subtract 1 from the damage points allocated to this fighter by each hit and critical hit from that attack action (to a minimum of 1).",
         "runemarks": []
+    },
+    {
+        "_id": "8d77431d",
+        "name": "Blessings of the Speaker",
+        "warband": "Jade Obelisk",
+        "cost": "battletrait",
+        "description": "The first time this battle that a friendly fighter with this battle trait uses the 'Bloody Tribute' ability, you can remove each damage point allocated to one friendly fighter with the Icon Bearer runemark.",
+        "runemarks": []
     }
 ]

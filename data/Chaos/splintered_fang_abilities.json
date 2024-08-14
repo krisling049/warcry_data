@@ -62,5 +62,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll of 1 or 2 from that attack action, allocate 2 damage points to the attacking fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "e7ec1fba",
+        "name": "Weapons Dripping with Poison",
+        "warband": "Splintered Fang",
+        "cost": "battletrait",
+        "description": "Once per battle round, a friendly fighter with this battle trait can use the 'Poisoned Attacks' ability without needing or spending any ability dice. Tread the value of that ability as 6.",
+        "runemarks": []
     }
 ]

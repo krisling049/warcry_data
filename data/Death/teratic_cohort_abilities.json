@@ -1,12 +1,11 @@
 [
- {
+    {
         "_id": "mbqlebrx",
         "name": "Predatory Ravage",
         "warband": "Teratic Cohort",
         "cost": "reaction",
         "description": "A fighter with the Teratic Cohort runemark can make this reaction after all the damage points from an enemy fighter's melee attack action have been allocated to them. The reacting fighter can make a melee attack action that targets the attacker. When a fighter uses this reaction, you can discard one of your saved wild dice. If you do not, subtract 1 from the attacks characteristic of that attack action, and subtract 1 from the damage points allocated by each hit and critical hit from that attack action (to a minimum of 1).",
-        "runemarks": [
-        ]
+        "runemarks": []
     },
     {
         "_id": "719op2wr",
@@ -52,8 +51,7 @@
         "warband": "Teratic Cohort",
         "cost": "triple",
         "description": "One critical hit from the next melee attack action made by this fighter in this activation scores 1 additional critical hit. When a fighter uses this ability, you can discard two of your saved wild dice. If you do so, one critical hit from the next melee attack action made by this fighter in this activation scores 2 additional critical hits instead.",
-        "runemarks": [
-        ]
+        "runemarks": []
     },
     {
         "_id": "b1sespft",
@@ -64,6 +62,13 @@
         "runemarks": [
             "elite"
         ]
+    },
+    {
+        "_id": "a0bca675",
+        "name": "Predatory Outriders",
+        "warband": "Teratic Cohort",
+        "cost": "battletrait",
+        "description": "Before deployment, you can pick a friendly battle group that is not In reserve. Fighters from that battle group can deploy within 6\" of their deployment point, but if they do so, must be deployed more than 6\" from each enemy fighter.",
+        "runemarks": []
     }
-
 ]

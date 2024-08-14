@@ -64,5 +64,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead.",
         "runemarks": []
+    },
+    {
+        "_id": "5e51980a",
+        "name": "Seared Wounds",
+        "warband": "Scions of the Flame",
+        "cost": "battletrait",
+        "description": "Each time 1 or more damage points allocated to an enemy fighter would be removed, subtract 1 from the total to be removed, to a minimum of 0.",
+        "runemarks": []
     }
 ]

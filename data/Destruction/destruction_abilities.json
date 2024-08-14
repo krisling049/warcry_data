@@ -127,5 +127,13 @@
         "runemarks": [
             "bulwark"
         ]
+    },
+    {
+        "_id": "4c2fa638",
+        "name": "Relentless Destroyers",
+        "warband": "destruction",
+        "cost": "battletrait",
+        "description": "When a friendly fighter with this battle trait makes a melee attack action, the target cannot add 1 to their Toughness for being in cover.",
+        "runemarks": []
     }
 ]

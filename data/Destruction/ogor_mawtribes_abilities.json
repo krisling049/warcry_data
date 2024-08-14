@@ -182,5 +182,13 @@
         "runemarks": [
             "ferocious"
         ]
+    },
+    {
+        "_id": "cc988df4",
+        "name": "Ogor Mawtribes",
+        "warband": "Ogor Mawtribes",
+        "cost": "battletrait",
+        "description": "Friendly fighters with this battle trait and the Brute or Agile runemarks can make the following action:Devour Corpse:Pick an enemy fighter that is taken down and roll a dice. Remove a number of damage points from this fighter equal to the roll. An enemy fighter cannot be picked as the target of this action more than once per battle.",
+        "runemarks": []
     }
 ]
