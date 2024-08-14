@@ -1,0 +1,530 @@
+[
+    {
+        "_id": "344f399f",
+        "name": "Worthy Draught",
+        "warband": "Askurgan Trueblades",
+        "cost": "battletrait",
+        "description": "After an enemy fighter with the Hero runemark and/or that has a Wounds characteristic of 30 or greater has been taken down by a melee attack action made by a friendly fighter with this battle trait, remove D6 damage points allocated to that friendly fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "3647d6ce",
+        "name": "Beastman Ambush",
+        "warband": "Beasts of Chaos",
+        "cost": "battletrait",
+        "description": "After deployment, you can pick a friendly fighter from each battle group that is on the battlefield. Remove those fighters from the battlefield. At the start of battle rounds 2, 3, and 4, you can place one of those fighters on the battlefield, more than 6\" from each enemy fighter and wholly within 3\" of one or more battlefield edges.",
+        "runemarks": []
+    },
+    {
+        "_id": "8ddef5ee",
+        "name": "No Respite",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "battletrait",
+        "description": "When a friendly fighter with this battle trait is taken down, before they are removed from play, pick a visible enemy fighter within 1\" of them and roll a dice. On a 4+, allocate D3 damage points to that fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "7ea9a3b3",
+        "name": "Blood Calls to Blood",
+        "warband": "Blades of Khorne: Daemons",
+        "cost": "battletrait",
+        "description": "If there are one or more friendly fighters with this battle trait on the battlefield, at the end of each battle round, you can pick an enemy fighter with one or more damage points allocated to them. Roll 2D6. On a roll of 8+, allocate 3 damage points to that fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "ba1dfa32",
+        "name": "Primal Beliefs",
+        "warband": "Bonesplitterz",
+        "cost": "battletrait",
+        "description": "When a player whose warband has this battle trait makes an initiative roll, before initiative is determined, they can re-roll each result of 1.",
+        "runemarks": []
+    },
+    {
+        "_id": "e59b9ad0",
+        "name": "Master Manipulators",
+        "warband": "Chaos Legionnaires",
+        "cost": "battletrait",
+        "description": "When determining who has the initiative, but not when seizing the initiative, if there is a tie, do not roll off. Instead the player of this warband chooses which tied player has the initiative. If multiple warbands have this battle trait, the players of those warbands roll off, and the winner chooses which tied player has the initiative.",
+        "runemarks": []
+    },
+    {
+        "_id": "1586d745",
+        "name": "Dawnbringer Zealots",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "cost": "battletrait",
+        "description": "At the end of each battle round, pick a friendly fighter with this battle trait that is on the battlefield. You can remove up to D3 damage points allocated to that fighter. Remove 1 additional damage point if that fighter is within 3\" of an objective, carrying treasure and/or within 1\" of an obstacle.",
+        "runemarks": []
+    },
+    {
+        "_id": "68830269",
+        "name": "Dawnbringer Zealots",
+        "warband": "Cities of Sigmar: Darkling Covens",
+        "cost": "battletrait",
+        "description": "At the end of each battle round, pick a friendly fighter with this battle trait that is on the battlefield. You can remove up to D3 damage points allocated to that fighter. Remove 1 additional damage point if that fighter is within 3\" of an objective, carrying treasure and/or within 1\" of an obstacle.",
+        "runemarks": []
+    },
+    {
+        "_id": "01fee5b7",
+        "name": "Dawnbringer Zealots",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "cost": "battletrait",
+        "description": "At the end of each battle round, pick a friendly fighter with this battle trait that is on the battlefield. You can remove up to D3 damage points allocated to that fighter. Remove 1 additional damage point if that fighter is within 3\" of an objective, carrying treasure and/or within 1\" of an obstacle.",
+        "runemarks": []
+    },
+    {
+        "_id": "01dc1cd0",
+        "name": "No Claw Unbloodied",
+        "warband": "Claws of Karanak",
+        "cost": "battletrait",
+        "description": "Each time an enemy fighters makes a disengage action, roll a dice. On a roll of 2+, allocate 1 damage point to that enemy fighter for each friendly fighter with this battle trait within 1\" of that enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "f90c6d85",
+        "name": "Plunging Killers",
+        "warband": "Corvus Cabal",
+        "cost": "battletrait",
+        "description": "Add 2 of the Strength characteristics of melee attack actions made by friendly fighters with this battle trait if they fell this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "8a373d09",
+        "name": "Matchless Acrobats",
+        "warband": "Cypher Lords",
+        "cost": "battletrait",
+        "description": "After a friendly fighter with this battle trait uses an ability, roll a dice. On a 5+, add one wild dice to your saved wild dice.",
+        "runemarks": []
+    },
+    {
+        "_id": "dd042d72",
+        "name": "Seeking Glory",
+        "warband": "Darkoath Savagers",
+        "cost": "battletrait",
+        "description": "After an enemy leader has been taken down by a melee attack action made by a friendly fighter with this battle trait, add two wild dice to your saved wild dice.",
+        "runemarks": []
+    },
+    {
+        "_id": "634e3c1f",
+        "name": "Jubilant Bloodletting",
+        "warband": "Daughters of Khaine",
+        "cost": "battletrait",
+        "description": "When a friendly fighter with this battle trait makes a melee attack action, after the hit rolls have been made, if you scored one or more critical hits and one or more hits and/or critical hits, you can pick a [double], [triple], or [quad] you have. Add 2 to the value of that ability dice, to a maximum of 6.",
+        "runemarks": []
+    },
+    {
+        "_id": "a98cd193",
+        "name": "Warp Fate",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "cost": "battletrait",
+        "description": "After the initiative phase, starting with the attacker, each player of a warband with this battle trait can roll one dice for each [double], [triple], or [quad] they have. On a 4+, change the value of those ability dice to 6.",
+        "runemarks": []
+    },
+    {
+        "_id": "d405bcb7",
+        "name": "Warp Destiny",
+        "warband": "Disciples of Tzeentch: Daemons",
+        "cost": "battletrait",
+        "description": "After the initiative phase, each player whose warband has this battle trait can pick two any [double], [triple] or [quad] they have. Swap the values of those ability dice.",
+        "runemarks": []
+    },
+    {
+        "_id": "c041c79a",
+        "name": "Form a Lance",
+        "warband": "Flesh-eater Courts",
+        "cost": "battletrait",
+        "description": "Add 1 to the Move characteristics of friendly fighters with this battle trait that were within 1\" of two or more other friendly fighters with this battle trait at the start of their activation. Add 1 to the Strength characteristic of melee attack actions made by friendly fighters with this battle trait while they are within 1\" of two or more other friendly fighters with this battle trait.",
+        "runemarks": []
+    },
+    {
+        "_id": "38e0f5e7",
+        "name": "Runic Momentum",
+        "warband": "Fyreslayers",
+        "cost": "battletrait",
+        "description": "After a friendly fighter with this battle trait uses an ability, add 1 to their Move characteristic for the next move action they make this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "0a491014",
+        "name": "Da Bad Moon Rises",
+        "warband": "Gloomspite Gitz",
+        "cost": "battletrait",
+        "description": "At the start of a battle round, each player whose warband has this battle trait can roll a dice, starting with the attacker. On a 2+, pick 1 of your opponent's, or your own [double]s, [triple]s, or [quad]s. Change the value of those ability dice to the result of the dice roll.",
+        "runemarks": []
+    },
+    {
+        "_id": "2e2fb526",
+        "name": "Ravenous Gording",
+        "warband": "Gorger Mawpack",
+        "cost": "battletrait",
+        "description": "After an enemy fighter has been taken down by a melee attack action made by a friendly fighter with this battle trait, remove D£ damage points allocated to that friendly fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "77b23b24",
+        "name": "Lure of the Missing God",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "cost": "battletrait",
+        "description": "After the initiative phase,  you can pick an enemy fighter within 1\" of one of more friendly fighters with this battle trait and then roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make disengage actions.",
+        "runemarks": []
+    },
+    {
+        "_id": "4d682138",
+        "name": "Pain-fuelled Rapture",
+        "warband": "Hedonites of Slaanesh: Sybarites",
+        "cost": "battletrait",
+        "description": "After a friendly fighter with this  battle trait is allocated one or more damage points by an attack action or reaction, you can choose for that fighter to enter a pain-fuelled rapture. If they do so, allocate 3 damage points to that friendly fighter, and then add 2 to the Attacks characteristic of the next attack action made by this fighter in this battle round.",
+        "runemarks": []
+    },
+    {
+        "_id": "e6860f13",
+        "name": "A Realm of Fire and Ash",
+        "warband": "Horns of Hashut",
+        "cost": "battletrait",
+        "description": "If one or more friendly fighters with this battle trait are on the battlefield, each time an enemy fighter suffers impact damage, subtract 2 from the dice roll, to a minimum of 1.",
+        "runemarks": []
+    },
+    {
+        "_id": "257f7546",
+        "name": "Hidden Hunters",
+        "warband": "Hunters of Huanchi",
+        "cost": "battletrait",
+        "description": "After deployment, each player whose warband has this battle trait can pick a friendly fighter with this battle trait from each friendly battle group that is on the battlefield. One at a time, remove those fighters from the battlefield and pick a different battle group. Then deploy that fighter as if it were part of that battle group.",
+        "runemarks": []
+    },
+    {
+        "_id": "f9e19991",
+        "name": "Power of the Tides",
+        "warband": "Idoneth Deepkin",
+        "cost": "battletrait",
+        "description": "In battle rounds 1 and 2, add 1 to the Move characteristic of friendly fighters with this battle trait. In battle rounds 3 and 4, add 1 to the Strength characteristic of melee attack actions made by friendly fighters with the battle trait.",
+        "runemarks": []
+    },
+    {
+        "_id": "cc1d2c0a",
+        "name": "We Make War",
+        "warband": "Iron Golems",
+        "cost": "battletrait",
+        "description": "After the initiative phase, starting with the attacker, each player whose warband has this battle trait can pick a [double], [triple], or [quad] they have. Change the value of those ability dice to 6.",
+        "runemarks": []
+    },
+    {
+        "_id": "ce54fd3b",
+        "name": "Enough Messin'",
+        "warband": "Ironjawz",
+        "cost": "battletrait",
+        "description": "Each time an enemy fighter makes a wait action, each player whose warband has this battle trait can pick one friendly fighter. That fighter makes a bonus move action of up to 3\".",
+        "runemarks": []
+    },
+    {
+        "_id": "8d77431d",
+        "name": "Blessings of the Speaker",
+        "warband": "Jade Obelisk",
+        "cost": "battletrait",
+        "description": "The first time this battle that a friendly fighter with this battle trait uses the 'Bloody Tribute' ability, you can remove each damage point allocated to one friendly fighter with the Icon Bearer runemark.",
+        "runemarks": []
+    },
+    {
+        "_id": "1242e8e7",
+        "name": "Swarming Shadows",
+        "warband": "Khainite Shadowstalkers",
+        "cost": "battletrait",
+        "description": "At the end of each battle round, each player whose warband has this battle trait can pick two friendly fighters that are within 9\" of each other, more than 3\" from each enemy fighter and are not carrying treasure. Place each friendly fighter in the position the other fighter was in when they were picked.",
+        "runemarks": []
+    },
+    {
+        "_id": "274b8b3a",
+        "name": "A Good Deal",
+        "warband": "Kharadron Overlords",
+        "cost": "battletrait",
+        "description": "Once per battle round, after a friendly fighter with this battle trait is targeted by an attack action but before the hit rolls are made, you can make a deal. If you do so, add one wild dice to your opponent's saved wild dice. Then subtract 2 from the damage points allocated to that fighter by each hit and each critical hit from that attack action (to a minimum of 1)..",
+        "runemarks": []
+    },
+    {
+        "_id": "b47a0436",
+        "name": "Stick 'Em Good and Quick",
+        "warband": "Kruleboyz",
+        "cost": "battletrait",
+        "description": "Once per battle round, pick a friendly fighter with this battle trait. For that battle round, after that fighter's activation, you can pick an enemy fighter that was allocated 1 or more damage points by a melee attack action made by the fighter you picked. Allocated D3 damage points to that enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "bf2395e5",
+        "name": "'Orrible Trap",
+        "warband": "Kruleboyz Monsta-killaz",
+        "cost": "battletrait",
+        "description": "When a friendly fighter with this battle trait uses the Krule Trap reaction, if the enemy fighter has the Monster runemark, add 2 to the roll.",
+        "runemarks": []
+    },
+    {
+        "_id": "fa01e17f",
+        "name": "Aetherquartz Reserves",
+        "warband": "Lumineth Realm-lords",
+        "cost": "battletrait",
+        "description": "At the start of the first battle round, each player whose warband has this battle trait can pick a friendly fighter. That fighter has an aethrquartz reserve. Once per battle, that fighter can use their aetherquatz reserve. When they do so, the next time that fighter uses an ability, you can treat one [double] you have as a [triple], or one [triple] you have as a [quad].",
+        "runemarks": []
+    },
+    {
+        "_id": "a2de23f6",
+        "name": "Infection Vectors",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "battletrait",
+        "description": "At the start of each battle round, roll a dice for each enemy fighter within 1\" of one or more friendly fighters. On a roll of 5+, allocate 1 damage point to that fighter. Enemy fighters with this battle trait or the 'Disease-ridden' battle trait cannot be affected.",
+        "runemarks": []
+    },
+    {
+        "_id": "7321b833",
+        "name": "Disease-ridden",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "cost": "battletrait",
+        "description": "At the start of each battle round, you can pick one enemy fighter within 1\" of one or more friendly fighters and roll a dice. On a 5+, that fighter cannot use abilities or reactions this battle round. Enemy fighters with this battle trait or the 'Infection Vectors' battle trait cannot be affected.",
+        "runemarks": []
+    },
+    {
+        "_id": "c20df7c5",
+        "name": "Wave of Terror",
+        "warband": "Nighthaunt",
+        "cost": "battletrait",
+        "description": "Add 1 to the Strength characteristics of melee attack actions made by friendly fighters with this battle trait if they made a move action this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "cc988df4",
+        "name": "Ogor Mawtribes",
+        "warband": "Ogor Mawtribes",
+        "cost": "battletrait",
+        "description": "Friendly fighters with this battle trait and the Brute or Agile runemarks can make the following action:Devour Corpse:Pick an enemy fighter that is taken down and roll a dice. Remove a number of damage points from this fighter equal to the roll. An enemy fighter cannot be picked as the target of this action more than once per battle.",
+        "runemarks": []
+    },
+    {
+        "_id": "2eddaae2",
+        "name": "Ranks Unbroken By Dissent",
+        "warband": "Ossiarch Bonereapers",
+        "cost": "battletrait",
+        "description": "If a friendly fighter with this battle trait uses an ability that requires the Ossirach Bonereapers runemark and has a range, add 1\" to the range of the ability.",
+        "runemarks": []
+    },
+    {
+        "_id": "b227b66a",
+        "name": "Pyres of Victory",
+        "warband": "Pyregheists",
+        "cost": "battletrait",
+        "description": "At the end of each battle round, each player whose warband has this battle trait can roll a dice for each friendly Pyre token on the battlefield. For each roll of 3+, add one wild dice to that player's saved wild dice.",
+        "runemarks": []
+    },
+    {
+        "_id": "4a01b3c0",
+        "name": "Waiting for the Lord Leech",
+        "warband": "Rotmire Creed",
+        "cost": "battletrait",
+        "description": "Enemy fighters that are within 1\" of two or more friendly fighters with this battle trait cannot make disengage actions.",
+        "runemarks": []
+    },
+    {
+        "_id": "3bd91588",
+        "name": "The Hounds Bay",
+        "warband": "Royal Beastflayers",
+        "cost": "battletrait",
+        "description": "After an enemy fighter has been taken down by a melee attack action made by a friendly fighter with this battle trait that has the Beast runemark, pick another fighter in your warband. That fighter can make a bonus move action of up to 3\".",
+        "runemarks": []
+    },
+    {
+        "_id": "5e51980a",
+        "name": "Seared Wounds",
+        "warband": "Scions of the Flame",
+        "cost": "battletrait",
+        "description": "Each time 1 or more damage points allocated to an enemy fighter would be removed, subtract 1 from the total to be removed, to a minimum of 0.",
+        "runemarks": []
+    },
+    {
+        "_id": "d4de5fe6",
+        "name": "Seraphon",
+        "warband": "Seraphon",
+        "cost": "battletrait",
+        "description": "After you pick your warband, pick either Coalesced or Starborne and gain the corresponding battle trait listed below:Coalesced:Friendly fighters with this battle trait can add a 1 to the value of any [triple] spent to use the Tearing bite ability, to a maximum of 6. Starborne:Fighters with this battle trait can make the \"Starborn\" reaction when they are targeted by melee and ranged attack actions.",
+        "runemarks": []
+    },
+    {
+        "_id": "742d4be3",
+        "name": "There are Always More",
+        "warband": "Skaven",
+        "cost": "battletrait",
+        "description": "At the end of the battle rounds 2 and 3, you can pick a friendly fighter with this battle trait that is taken down and has a points cost of 70 or less. At the start of the next battle round, you can place that fighter on a platform or on the battlefield floor, more than 6\" from each enemy fighter, objective and treasure token, and within 3\" of one or more battlefield edges.",
+        "runemarks": []
+    },
+    {
+        "_id": "6b9e1c30",
+        "name": "For the Glory of the Dark Gods",
+        "warband": "Slaves to Darkness",
+        "cost": "battletrait",
+        "description": "While more enemy fighters are taken down than friendly fighters with this battle trait are taken down, add 3 to the value of your ability dice, to a maximum of 6. ",
+        "runemarks": []
+    },
+    {
+        "_id": "c5973665",
+        "name": "Sanguine Glory",
+        "warband": "Soulblight Gravelords",
+        "cost": "battletrait",
+        "description": "Each time a friendly fighter with this battle trait uses the \"Thirst for Blood\" ability, if that value of that ability is 1 or 2, increase the value of that ability to 3.",
+        "runemarks": []
+    },
+    {
+        "_id": "3636986f",
+        "name": "Entertain Me!",
+        "warband": "Spire Tyrants",
+        "cost": "battletrait",
+        "description": "Once per battle round, a friendly fighter with this battle trait within 1\" of one or more enemy fighters can pick one of those enemy fighter to duel. When they do so, each time that friendly fighter makes an attack action that targets that enemy fighter, you can change the Strength characteristic of that attack action to equal the Toughness characteristic of that enemy fighter. ",
+        "runemarks": []
+    },
+    {
+        "_id": "e7ec1fba",
+        "name": "Weapons Dripping with Poison",
+        "warband": "Splintered Fang",
+        "cost": "battletrait",
+        "description": "Once per battle round, a friendly fighter with this battle trait can use the 'Poisoned Attacks' ability without needing or spending any ability dice. Tread the value of that ability as 6.",
+        "runemarks": []
+    },
+    {
+        "_id": "57e67ede",
+        "name": "Heroes Without Limits",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "cost": "battletrait",
+        "description": "Fighters with this battle trait can use multiple abilities each activation. Such fighters can use the same ability more than once, and can use multiple abilities when they would normally only be able to use one. Where abilities grant bonus actions, such abilities are used one at a time and are fully resolved before another ability can be used.",
+        "runemarks": []
+    },
+    {
+        "_id": "af254288",
+        "name": "Scions of the Storm",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "cost": "battletrait",
+        "description": "After deployment, you can pick a friendly fighter with this battle trait. If that fighter is on the battlefield, remove them from the battlefield. At the start of the second battle round onwards, starting with the attacker, you can place that fighter on the battlefield more than 5\" from each enemy fighter and more than 3\" from each objective and treasure token.",
+        "runemarks": []
+    },
+    {
+        "_id": "6c0ac666",
+        "name": "Scions of the Storm",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "cost": "battletrait",
+        "description": "After deployment, you can pick a friendly fighter with this battle trait. If that fighter is on the battlefield, remove them from the battlefield. At the start of the second battle round onwards, starting with the attacker, you can place that fighter on the battlefield more than 5\" from each enemy fighter and more than 3\" from each objective and treasure token.",
+        "runemarks": []
+    },
+    {
+        "_id": "f29b1feb",
+        "name": "Scions of the Storm",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "battletrait",
+        "description": "After deployment, you can pick a friendly fighter with this battle trait. If that fighter is on the battlefield, remove them from the battlefield. At the start of the second battle round onwards, starting with the attacker, you can place that fighter on the battlefield more than 5\" from each enemy fighter and more than 3\" from each objective and treasure token.",
+        "runemarks": []
+    },
+    {
+        "_id": "e18be04c",
+        "name": "Scions of the Storm",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "battletrait",
+        "description": "After deployment, you can pick a friendly fighter with this battle trait. If that fighter is on the battlefield, remove them from the battlefield. At the start of the second battle round onwards, starting with the attacker, you can place that fighter on the battlefield more than 5\" from each enemy fighter and more than 3\" from each objective and treasure token.",
+        "runemarks": []
+    },
+    {
+        "_id": "d37ba65e",
+        "name": "Spirit Pathways",
+        "warband": "Sylvaneth",
+        "cost": "battletrait",
+        "description": "Once per battle, a friendly fighter with this battle trait can use the 'Walk The Spirit Paths' ability with needing or spending any ability dice, and can use this ability as if they had the Warrior runemark.",
+        "runemarks": []
+    },
+    {
+        "_id": "0a89a316",
+        "name": "Eightfold Allies",
+        "warband": "Tarantulos Brood",
+        "cost": "battletrait",
+        "description": "Once per battle, a friendly fighter with this battle trait can use the 'Creeping Summons' ability without needing or spending any ability dice, and can use that ability as if they had the Hero runemark.",
+        "runemarks": []
+    },
+    {
+        "_id": "a0bca675",
+        "name": "Predatory Outriders",
+        "warband": "Teratic Cohort",
+        "cost": "battletrait",
+        "description": "Before deployment, you can pick a friendly battle group that is not In reserve. Fighters from that battle group can deploy within 6\" of their deployment point, but if they do so, must be deployed more than 6\" from each enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "d208fe19",
+        "name": "Shared Bliss",
+        "warband": "The Unmade",
+        "cost": "battletrait",
+        "description": "Once per battle, after an enemy fighter is taken down by the damage points allocated by the 'Shared Pain' reaction, roll a dice. On 1 3+, you gain a [quad] ability dice with a value of 1.",
+        "runemarks": []
+    },
+    {
+        "_id": "506dca98",
+        "name": "Ravaged by Corruption",
+        "warband": "Twistweald",
+        "cost": "battletrait",
+        "description": "At the end of each battle round, you can choose a friendly fighter with this battle trait that is within 1\" of one or more enemy fighters and roll a dice. On a 2+, allocate 1 damage point to that friendly fighter If that friendly fighter is not take down, pick one of those enemy fighters. Allocated D3 damage points to that enemy fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "7ead189d",
+        "name": "Worthy Prey",
+        "warband": "Untamed Beasts",
+        "cost": "battletrait",
+        "description": "At the start of each battle round, if no enemy fighters are your worthy prey, pick an enemy fighter. That fighter is your worth prey. While that fighter is your worthy prey, abilities that target that fighter are treated as having a value of 6.",
+        "runemarks": []
+    },
+    {
+        "_id": "81b67ce4",
+        "name": "Vulkyn Flameseekers",
+        "warband": "Vulkyn Flameseekers",
+        "cost": "battletrait",
+        "description": "Friendly fighters with the Berseker runemark can use the following ability:[Triple] Reborn in Flame:Pick a friendly fighter with the Beast runemark that has been taken down. Set that fighter up on a platform or the battlefield floor wholly within 3\" of this fighter. That fighter no longer counts as being taken down. Remove each damage point allocated to that fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "1b4d3043",
+        "name": "Point Blank Volley",
+        "warband": "Wildercorps Hunters",
+        "cost": "battletrait",
+        "description": "Once per battle round, before a friendly fighter this with battle trait makes a ranged attack action, you can have them make a point blank volley. When they do so, you can treat the minimum range of that weapon as 1\".",
+        "runemarks": []
+    },
+    {
+        "_id": "25eb711b",
+        "name": "The River Winds Its Way",
+        "warband": "Ydrilan Riverblades",
+        "cost": "battletrait",
+        "description": "Add 1 to the Move characteristic of friendly fighters with this battle trait that start a move action within 1\" of a terrain feature and on the battlefield floor until the end of that activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "534a3cce",
+        "name": "Aspire to Glory",
+        "warband": "chaos",
+        "cost": "battletrait",
+        "description": "Once per battle round, add 1 to the damage points allocated by the first critical hit from a melee attack action made by any friendly fighter with this battle trait that has a points cost of 125 or less.",
+        "runemarks": []
+    },
+    {
+        "_id": "6321786c",
+        "name": "Deathless Minions",
+        "warband": "death",
+        "cost": "battletrait",
+        "description": "Once per battle round, count the first critical hit from a ranged attack action that targets a friendly fighter with this battle trait that has the Minion runemark as a hit instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "4c2fa638",
+        "name": "Relentless Destroyers",
+        "warband": "destruction",
+        "cost": "battletrait",
+        "description": "When a friendly fighter with this battle trait makes a melee attack action, the target cannot add 1 to their Toughness for being in cover.",
+        "runemarks": []
+    },
+    {
+        "_id": "473ca1b2",
+        "name": "Courageous Defenders",
+        "warband": "order",
+        "cost": "battletrait",
+        "description": "When a friendly fighter with this battle trait makes the 'Take Cover' reaction, critical hits become hits on a roll of 3+ instead of 4+.",
+        "runemarks": []
+    }
+]
