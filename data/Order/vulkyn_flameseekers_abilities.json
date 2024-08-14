@@ -62,5 +62,13 @@
         "cost": "quad",
         "description": "Pick a visible enemy fighter within 3\" of this fighter and roll 6 dice. For each roll of 2+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up).",
         "runemarks": []
+    },
+    {
+        "_id": "81b67ce4",
+        "name": "Vulkyn Flameseekers",
+        "warband": "Vulkyn Flameseekers",
+        "cost": "battletrait",
+        "description": "Friendly fighters with the Berseker runemark can use the following ability:[Triple] Reborn in Flame:Pick a friendly fighter with the Beast runemark that has been taken down. Set that fighter up on a platform or the battlefield floor wholly within 3\" of this fighter. That fighter no longer counts as being taken down. Remove each damage point allocated to that fighter.",
+        "runemarks": []
     }
 ]

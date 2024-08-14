@@ -64,5 +64,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when they are targeted by a melee attack action.  After the damage is totalled but before it is allocated to this fighter, roll a dice for each critical hit scored from that attack action.  For each 3+, allocate 3 damage points to the fighter that made that attack action.",
         "runemarks": []
+    },
+    {
+        "_id": "4a01b3c0",
+        "name": "Waiting for the Lord Leech",
+        "warband": "Rotmire Creed",
+        "cost": "battletrait",
+        "description": "Enemy fighters that are within 1\" of two or more friendly fighters with this battle trait cannot make disengage actions.",
+        "runemarks": []
     }
 ]

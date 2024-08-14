@@ -138,14 +138,6 @@
         "runemarks": []
     },
     {
-        "_id": "3382fbfd",
-        "name": "The Chosen Kin",
-        "warband": "The Chosen Axes",
-        "cost": "double",
-        "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Fjul-Grimnir. Until the end of this fighter's activation, add 2 to the Attacks characteristic of attack actions made by this fighter that have the Axe runemark.",
-        "runemarks": []
-    },
-    {
         "_id": "8c393095",
         "name": "Lodge-fire Blaze",
         "warband": "Fyreslayers",
@@ -154,5 +146,21 @@
         "runemarks": [
             "destroyer"
         ]
+    },
+    {
+        "_id": "38e0f5e7",
+        "name": "Runic Momentum",
+        "warband": "Fyreslayers",
+        "cost": "battletrait",
+        "description": "After a friendly fighter with this battle trait uses an ability, add 1 to their Move characteristic for the next move action they make this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "3382fbfd",
+        "name": "The Chosen Kin",
+        "warband": "The Chosen Axes",
+        "cost": "double",
+        "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Fjul-Grimnir. Until the end of this fighter's activation, add 2 to the Attacks characteristic of attack actions made by this fighter that have the Axe runemark.",
+        "runemarks": []
     }
 ]

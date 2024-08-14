@@ -62,5 +62,13 @@
         "cost": "quad",
         "description": "Until the end of the battle round, this fighter is considered to have the Beast runemark. If this fighter is carrying treasure, they drop that treasure. This fighter can make 1 bonus melee attack action for each visible enemy fighter within 1\" of them. Each of these attack actions must target a different fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "2e2fb526",
+        "name": "Ravenous Gording",
+        "warband": "Gorger Mawpack",
+        "cost": "battletrait",
+        "description": "After an enemy fighter has been taken down by a melee attack action made by a friendly fighter with this battle trait, remove D£ damage points allocated to that friendly fighter.",
+        "runemarks": []
     }
 ]

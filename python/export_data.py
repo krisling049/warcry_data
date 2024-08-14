@@ -1,9 +1,10 @@
-from data_parsing.warbands import WarbandsJSONDataPayload
-from data_parsing.models import DIST, LOCALISATION_DATA, LOCAL_DATA
+import argparse
+from dataclasses import dataclass
 from pathlib import Path
 from typing import List
-from dataclasses import dataclass
-import argparse
+
+from data_parsing.models import DIST, LOCALISATION_DATA, LOCAL_DATA
+from data_parsing.warbands import WarbandsJSONDataPayload
 
 
 def get_data_files(data_loc: Path = DIST) -> List[Path]:
@@ -34,6 +35,7 @@ if __name__ == '__main__':
 
     combined_data = WarbandsJSONDataPayload()
     combined_data.write_abilities_to_disk(dst=Path(out_dir, 'abilities.json'))
+    combined_data.write_battletraits_to_disk(dst=Path(out_dir, 'battletraits.json'))
     combined_data.write_fighters_to_disk(dst=Path(out_dir, 'fighters.json'))
     combined_data.write_tts_fighters(dst=Path(out_dir, 'fighters_tts.json'))
     combined_data.write_fighters_html(dst_root=out_dir)

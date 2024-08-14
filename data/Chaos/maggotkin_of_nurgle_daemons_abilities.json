@@ -97,5 +97,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1).",
         "runemarks": []
+    },
+    {
+        "_id": "a2de23f6",
+        "name": "Infection Vectors",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "battletrait",
+        "description": "At the start of each battle round, roll a dice for each enemy fighter within 1\" of one or more friendly fighters. On a roll of 5+, allocate 1 damage point to that fighter. Enemy fighters with this battle trait or the 'Disease-ridden' battle trait cannot be affected.",
+        "runemarks": []
     }
 ]

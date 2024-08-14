@@ -148,5 +148,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Allocate D6 damage points to their attacker. Fighters with the Beast runemark or both the Scout and Fly  runemarks cannot make this reaction.",
         "runemarks": []
+    },
+    {
+        "_id": "e18be04c",
+        "name": "Scions of the Storm",
+        "warband": "Stormcast Eternals Warrior Chamber",
+        "cost": "battletrait",
+        "description": "After deployment, you can pick a friendly fighter with this battle trait. If that fighter is on the battlefield, remove them from the battlefield. At the start of the second battle round onwards, starting with the attacker, you can place that fighter on the battlefield more than 5\" from each enemy fighter and more than 3\" from each objective and treasure token.",
+        "runemarks": []
     }
 ]

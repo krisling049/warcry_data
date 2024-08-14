@@ -35,10 +35,11 @@
 		},
 		"cost": {
 			"type": "string",
-			"description": "passive, reaction, double, triple or quad",
+			"description": "battletrait, passive, reaction, double, triple or quad",
 			"enum": [
+				"battletrait",
 				"passive",
-    "reaction",
+				"reaction",
 				"double",
 				"triple",
 				"quad"

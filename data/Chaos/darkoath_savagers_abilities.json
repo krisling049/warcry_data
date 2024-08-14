@@ -62,5 +62,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by an attack action, after the hit rolls have been made. Roll a dice for each critical hit. On a roll of 4+, that critical hit becomes a hit instead.",
         "runemarks": []
+    },
+    {
+        "_id": "dd042d72",
+        "name": "Seeking Glory",
+        "warband": "Darkoath Savagers",
+        "cost": "battletrait",
+        "description": "After an enemy leader has been taken down by a melee attack action made by a friendly fighter with this battle trait, add two wild dice to your saved wild dice.",
+        "runemarks": []
     }
 ]

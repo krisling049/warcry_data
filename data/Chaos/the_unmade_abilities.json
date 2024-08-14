@@ -60,5 +60,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead.",
         "runemarks": []
+    },
+    {
+        "_id": "d208fe19",
+        "name": "Shared Bliss",
+        "warband": "The Unmade",
+        "cost": "battletrait",
+        "description": "Once per battle, after an enemy fighter is taken down by the damage points allocated by the 'Shared Pain' reaction, roll a dice. On 1 3+, you gain a [quad] ability dice with a value of 1.",
+        "runemarks": []
     }
 ]

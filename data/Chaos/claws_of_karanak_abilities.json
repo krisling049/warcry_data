@@ -62,5 +62,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after a visible enemy fighter within 1\" of them makes a disengage action.  Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by friendly fighters that target that enemy fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "01dc1cd0",
+        "name": "No Claw Unbloodied",
+        "warband": "Claws of Karanak",
+        "cost": "battletrait",
+        "description": "Each time an enemy fighters makes a disengage action, roll a dice. On a roll of 2+, allocate 1 damage point to that enemy fighter for each friendly fighter with this battle trait within 1\" of that enemy fighter.",
+        "runemarks": []
     }
 ]

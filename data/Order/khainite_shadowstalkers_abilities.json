@@ -62,5 +62,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them. Note the distance between this fighter and the enemy fighter that made the move action. Remove this fighter from the battlefield and then set this fighter up on a platform or the battlefield floor no further from the enemy fighter that made the move action.",
         "runemarks": []
+    },
+    {
+        "_id": "1242e8e7",
+        "name": "Swarming Shadows",
+        "warband": "Khainite Shadowstalkers",
+        "cost": "battletrait",
+        "description": "At the end of each battle round, each player whose warband has this battle trait can pick two friendly fighters that are within 9\" of each other, more than 3\" from each enemy fighter and are not carrying treasure. Place each friendly fighter in the position the other fighter was in when they were picked.",
+        "runemarks": []
     }
 ]

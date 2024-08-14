@@ -64,5 +64,13 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If none of the hit rolls from that attack action result in a critical hit, allocate 4 damage points to the attacking fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "3636986f",
+        "name": "Entertain Me!",
+        "warband": "Spire Tyrants",
+        "cost": "battletrait",
+        "description": "Once per battle round, a friendly fighter with this battle trait within 1\" of one or more enemy fighters can pick one of those enemy fighter to duel. When they do so, each time that friendly fighter makes an attack action that targets that enemy fighter, you can change the Strength characteristic of that attack action to equal the Toughness characteristic of that enemy fighter. ",
+        "runemarks": []
     }
 ]
