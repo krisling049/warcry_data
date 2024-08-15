@@ -34,8 +34,9 @@ if __name__ == '__main__':
     out_dir = LOCAL_DATA if args.local else DIST
 
     combined_data = WarbandsJSONDataPayload()
-    combined_data.write_abilities_to_disk(dst=Path(out_dir, 'abilities.json'))
+    combined_data.write_abilities_to_disk(dst=Path(out_dir, 'abilities.json'), exclude_battletraits=True)
     combined_data.write_battletraits_to_disk(dst=Path(out_dir, 'battletraits.json'))
+    combined_data.write_abilities_to_disk(dst=Path(out_dir, 'abilities_battletraits.json'), exclude_battletraits=False)
     combined_data.write_fighters_to_disk(dst=Path(out_dir, 'fighters.json'))
     combined_data.write_tts_fighters(dst=Path(out_dir, 'fighters_tts.json'))
     combined_data.write_fighters_html(dst_root=out_dir)

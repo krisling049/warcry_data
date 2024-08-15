@@ -108,10 +108,12 @@ class WarbandsJSONDataPayload(DataPayload):
     def write_fighters_csv(self, dst_root: Path = PROJECT_DATA):
         FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_csv(dst_root=dst_root)
 
-    def write_abilities_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json')):
+    def write_abilities_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json'), exclude_battletraits: bool = False):
         self.validate_data()
-        no_battletraits = [x for x in self.data['abilities'] if x['cost'] != 'battletrait']
-        sorted_data = sorted(no_battletraits, key=lambda d: d['warband'])
+        data = deepcopy(self.data['abilities'])
+        if exclude_battletraits:
+            data = [x for x in self.data['abilities'] if x['cost'] != 'battletrait']
+        sorted_data = sorted(data, key=lambda d: d['warband'])
         self._write_json(dst=dst, data=sorted_data)
 
     def write_battletraits_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json')):
