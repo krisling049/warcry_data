@@ -1289,6 +1289,120 @@
         ]
     },
     {
+        "_id": "9b9f771f",
+        "name": "Glorious Death",
+        "warband": "Darkoath",
+        "cost": "reaction",
+        "description": "Fighters with the Beast runemark cannot make this reaction. A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Gain a [double] with a value of 1. If this fighter has the Hero runemark, gain a [triple] with a value of 1 instead. If this fighter is favoured, gain a [quad] with a value of 1 instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "d62e495e",
+        "name": "Oath of Murder",
+        "warband": "Darkoath",
+        "cost": "double",
+        "description": "Fighters with the Beast runemark cannot use this ability. After using this ability, this fighter is oathed for the rest of the battle. After an enemy fighter is taken down during an oathed fighter's activation, that fighter is no longer oathed and is favoured for the rest of the battle. After a friendly fighter becomes favoured, gain a [double] with a value of 1.",
+        "runemarks": []
+    },
+    {
+        "_id": "219e5b66",
+        "name": "Swift Attacker",
+        "warband": "Darkoath",
+        "cost": "double",
+        "description": "This ability can only be used after an activation in which this fighter used a move action and that move ended within 1\" of an enemy fighter. This fighter makes a bonus ranged attack action that must target an enemy fighter within 1\" of them. If this fighter is favoured, add the value of this ability to the damage points allocated by each hit and critical hit from that ranged attack action.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "afac6960",
+        "name": "Raider's Tenacity",
+        "warband": "Darkoath",
+        "cost": "double",
+        "description": "Remove a number of damage points from this fighter up to half the value of this ability. If this fighter is favoured, remove an additional 3 damage points from this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "0841db78",
+        "name": "Warleader",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter with the Darkoath runemark within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends. If this fighter is favoured, pick up to 2 other friendly fighters with the Darkoath runemark. Until the end of the battle round, each fighter you picked, including the first, can use the 'Inspiring Presence' ability without needing or using any ability dice.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "63def363",
+        "name": "Rally the Tribes",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Each friendly fighter with the Darkoath runemark and the Warrior runemark within 6\" of this fighter makes a bonus move action. If this fighter is favoured, until the end of the battle round, each of those fighters also counts as 1 additional fighter when determining which player controls an objective.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "872f0cc8",
+        "name": "Eye of the Dark Patron",
+        "warband": "Darkoath",
+        "cost": "quad",
+        "description": "You can pick a visible friendly fighter with the Darkoath runemark within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends. Then you can pick a visible enemy fighter within 6\" of this fighter and roll 6 dice. For each 4+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). In addition, add 2 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "a30a637f",
+        "name": "Carve a Path to Glory",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Attacks characteristic of melee attack actions made by this fighter. If this fighter is favoured, add the value of this ability to the Attacks characteristic of melee attack actions made by this fighter instead.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "d1c0f8c0",
+        "name": "Uncanny Shot",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Attacks characteristic of ranged attack actions made by this fighter. While this fighter is favoured and/or targeting an enemy fighter within 1\" of a friendly Gunnar Brand, add the value of this ability to the Attacks characteristic of ranged attack actions made by this fighter instead.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "1b457528",
+        "name": "Warqueen's Fury",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "This fighter makes a number of bonus melee attack actions equal to the number of enemy fighters within 1\" of them. If this fighter is favoured, they make a number of bonus melee attack actions equal to the number of enemy fighters within 3\" of them instead and the Range characteristic of those bonus attack actions is increased to 3. In both cases, each bonus attack action must target a different enemy fighter, even if that enemy fighter is more than 1\" from this fighter but so long as each enemy fighter within 1\" of this fighter has been targeted first.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "52332400",
+        "name": "Withering Death",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter and roll 6 dice. For each 4+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). If this fighter is favoured, roll 9 dice instead of 6.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "ed5d80fc",
+        "name": "Demolishing Strikes",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, melee attack actions made by this fighter score a hit on a 3+. If this fighter is favoured, in addition, until the end of this fighter's activation, melee attack actions made by this fighter score a critical hit on a 5+.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
         "_id": "964fb133",
         "name": "A Vow Fulfilled",
         "warband": "Darkoath Savagers",
@@ -2061,7 +2175,7 @@
         "name": "Lodge-fire Blaze",
         "warband": "Fyreslayers",
         "cost": "triple",
-        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll 6 dice. For each roll of 4+, allocate 1 damage point to that fighter. If that fighter has a Wounds characteristic of 30 or more, for each roll of 3+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up) instead.",
+        "description": "Pick a visible enemy fighter within 3\" of this fighter and roll 6 dice. For each roll of 4+, allocate 1 damage point to that fighter. If that fighter has a Wounds characteristic of 25 or more, for each roll of 3+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up) instead.",
         "runemarks": [
             "destroyer"
         ]
@@ -3211,6 +3325,36 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter within 3\" of this fighter. That fighter makes a bonus move action. After that move action that fighter must be within 1\" of the enemy fighter that made the move action.",
         "runemarks": []
+    },
+    {
+        "_id": "cc3769ad",
+        "name": "You Ain't That Big",
+        "warband": "Ironjawz",
+        "cost": "double",
+        "description": "The following apply to this fighter's next melee attack action if the target has a higher Wounds characteristic than this fighter or has the Hero runemark: • Add 2 to the Attacks characteristic of that attack action. • Critical hits are scored on a 5+ for that attack action.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "bb4f9fa3",
+        "name": "Berserk Whirlwind",
+        "warband": "Ironjawz",
+        "cost": "double",
+        "description": "Allocate a number of damage points equal to half the value of this ability (rounding up) to each visible enemy fighter within 3\" of this fighter.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "966d5766",
+        "name": "Shield Smash",
+        "warband": "Ironjawz",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 1\" of this fighter to be the target. The target moves 3\" directly away from this fighter as if they were jumping, even if they are within 1\" of any enemy fighters. In addition, if this fighter is within 6\" of a friendly fighter with the Ironjawz runemark and the Icon Bearer runemark, allocate a number of damage points to the target equal to the value of this ability.",
+        "runemarks": [
+            "bulwark"
+        ]
     },
     {
         "_id": "928413af",
@@ -5010,7 +5154,7 @@
         "name": "Raptadon Tactics",
         "warband": "Seraphon",
         "cost": "double",
-        "description": "If this fighter has a weapon with the Ranged Weapon runemark on their fighter profile, this fighter makes a bonus move action of a number of inches equal to the value of this ability. Otherwise, add 2 to the Attacks characteristic of this fighter’s melee attack actions until the end of their activation.",
+        "description": "If this fighter has a weapon with the Ranged Weapon runemark on their fighter profile, this fighter makes a bonus move action of a number of inches equal to the value of this ability. Otherwise, add 2 to the Attacks characteristic of this fighter's melee attack actions until the end of their activation.",
         "runemarks": [
             "minion",
             "mount"
@@ -5196,6 +5340,39 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter with the Skaven faction runemark within 3\" of this fighter. That fighter makes a bonus move action or a bonus disengage action, and must end that action more than 3\" away from the enemy fighter that made the move action.",
         "runemarks": []
+    },
+    {
+        "_id": "9d116bf6",
+        "name": "Unleashed Warp-fury",
+        "warband": "Skaven",
+        "cost": "double",
+        "description": "This fighter makes a bonus attack action. At the end of this fighter's activation, allocate a number of damage points to this fighter equal to the number of damage points allocated to this fighter.",
+        "runemarks": [
+            "brute",
+            "beast"
+        ]
+    },
+    {
+        "_id": "bcb8a954",
+        "name": "Forward, Minions!",
+        "warband": "Skaven",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter with the Skaven runemark and that does not have the Hero or Monster runemark wholly within 6\" of this fighter. That fighter can make a bonus attack action and a bonus move action up to a number of inches equal to the value of this ability. If an enemy fighter is not taken down by damage points allocated by that attack action, or if that move action does not end within 1\" of an enemy fighter, allocate D6 damage points to that friendly fighter.",
+        "runemarks": [
+            "hero",
+            "mount"
+        ]
+    },
+    {
+        "_id": "fe91d437",
+        "name": "Warpstone Sights",
+        "warband": "Skaven",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 18\" of this fighter. For the rest of this fighter's activation, subtract the value of this ability from the Toughness characteristic of that enemy fighter (to a minimum of 1). If this fighter has not moved this activation and the value of this ability is equal to or greater than the unmodified Toughness characteristic of that enemy fighter, count each hit scored from the next ranged attack action made by this fighter as a critical hit instead. Before the Total Damage step for each of this fighter's ranged attack actions this activation, this fighter makes a bonus move action up to a number of inches equal to half the value of this ability, directly away from the target of that ranged attack and as if they were jumping.",
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ]
     },
     {
         "_id": "c4d22bf7",
@@ -5753,6 +5930,82 @@
         "runemarks": []
     },
     {
+        "_id": "7fb58601",
+        "name": "Ancient Aura",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when an enemy fighter within 6\" of them uses an ability. Roll a dice. Add 2 to the roll if this fighter has a Memorian token, then remove that token. If the roll equals or exceeds the value of that ability, that ability has no effect.",
+        "runemarks": []
+    },
+    {
+        "_id": "dd34ee2e",
+        "name": "Lightning-scoured Soul",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "double",
+        "description": "This fighter gains a number of ruination dice equal to the value of this ability for the rest of the battle round. Each time this fighter is allocated a damage point, you can roll 1 of their ruination dice. On a 3+, that damage point is not allocated to this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "51c47928",
+        "name": "Through Darkened Skies",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "double",
+        "description": "Remove this fighter from the battlefield, then set them up on a platform or the battlefield floor, more than 5\" from all enemy fighters.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "a6d486d3",
+        "name": "Memories of Past Glories",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "double",
+        "description": "You can give this fighter 1 Memorian token, to a maximum of 1. Until the end of their activation, add 1 to the Move characteristic of this fighter and add half the value of this ability (rounding up) to the Strength characteristics of melee attack actions made by this fighter.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "aadaee1b",
+        "name": "Sense Unholy Sorcery",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "triple",
+        "description": "For the rest of the battle round, the value of abilities used by enemy fighters within a number of inches of this fighter equal to the value of this ability is 1. If there is a friendly Gryph-crow within 6\" of this fighter, the range of this ability is battlefield-wide.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "6f2ab7ef",
+        "name": "Earn an Honourable Death",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "triple",
+        "description": "You can give this fighter 1 Memorian token, to a maximum of 1. Pick one or more friendly fighters with the Ruination Chamber runemark that each have 5 or more damage points allocated to them and are visible to this fighter. Those friendly fighters can each make a bonus attack action.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "376fe5fd",
+        "name": "Blazing Lantern",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "triple",
+        "description": "For the rest of the battle round, critical hits for attacks made by enemy fighters visible to this fighter and within a number of inches of this fighter equal to the value of this ability become hits instead.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "26e558db",
+        "name": "Deliver Judgement",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "quad",
+        "description": "Pick a visible friendly fighter with the Ruination Chamber runemark that has activated this battle round and that is within 6\" of this fighter. You cannot pick a fighter with the Hero runemark. That fighter can be activated once more later in this combat phase.",
+        "runemarks": [
+            "mount"
+        ]
+    },
+    {
         "_id": "17c7c7d4",
         "name": "Channelled Empowerment",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
@@ -5990,6 +6243,26 @@
         "cost": "reaction",
         "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Allocate D6 damage points to their attacker. Fighters with the Beast runemark or both the Scout and Fly runemarks cannot make this reaction.",
         "runemarks": []
+    },
+    {
+        "_id": "4d7cdc4f",
+        "name": "Ordained Quest",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "cost": "double",
+        "description": "Pick an enemy fighter or an objective. Previous uses of this ability by any friendly fighter no longer have any effect and this ability cannot be used again until the enemy fighter you picked is taken down or you control the objective you picked. If you picked an enemy fighter, for the rest of the battle, add 1 to the Attacks characteristic of melee attack actions made by this fighter and friendly fighters with the Questor Soulsworn runemark that target that enemy fighter. If you picked an objective, for the rest of the battle, this fighter and friendly fighters with the Questor Soulsworn runemark each count as 1 additional fighter when determining which player controls that objective.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "ec59cb60",
+        "name": "Lay Low the Tyrants",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter. While targeting an enemy fighter with a Wounds characteristic of 25 or more, count each hit scored from attack actions made by this fighter as a critical hit instead.",
+        "runemarks": [
+            "warrior"
+        ]
     },
     {
         "_id": "f0625e61",
@@ -6445,7 +6718,7 @@
         "name": "Predatory Ravage",
         "warband": "Teratic Cohort",
         "cost": "reaction",
-        "description": "A fighter with the Teratic Cohort runemark can make this reaction after all the damage points from an enemy fighter's melee attack action have been allocated to them. The reacting fighter can make a melee attack action that targets the attacker. When a fighter uses this reaction, you can discard one of your saved wild dice. If you do not, subtract 1 from the attacks characteristic of that attack action, and subtract 1 from the damage points allocated by each hit and critical hit from that attack action (to a minimum of 1).",
+        "description": "A fighter with the Teratic Cohort runemark can make this reaction after all the damage points from an enemy fighter's melee attack action have been allocated to them. The reacting fighter can make a bonus melee attack action that targets the attacker. When a fighter uses this reaction, you can discard one of your saved wild dice. If you do not, subtract 1 from the Attacks characteristic of that attack action, and subtract 1 from the damage points allocated by each hit and critical hit from that attack action (to a minimum of 1).",
         "runemarks": []
     },
     {

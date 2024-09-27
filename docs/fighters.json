@@ -732,7 +732,7 @@
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Gnarl",
-        "points": 80,
+        "points": 85,
         "runemarks": [
             "scout"
         ],
@@ -766,7 +766,7 @@
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Ushkor",
-        "points": 80,
+        "points": 85,
         "runemarks": [
             "scout"
         ],
@@ -800,7 +800,7 @@
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Draknar",
-        "points": 135,
+        "points": 125,
         "runemarks": [
             "warrior"
         ],
@@ -825,7 +825,7 @@
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Grashrak Fellhoof",
-        "points": 205,
+        "points": 185,
         "runemarks": [
             "hero",
             "mystic"
@@ -1530,7 +1530,7 @@
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Arnulf",
-        "points": 80,
+        "points": 70,
         "runemarks": [],
         "toughness": 3,
         "warband": "Blades of Khorne: Bloodbound",
@@ -1553,7 +1553,7 @@
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Targor",
-        "points": 80,
+        "points": 70,
         "runemarks": [],
         "toughness": 3,
         "warband": "Blades of Khorne: Bloodbound",
@@ -1571,12 +1571,35 @@
         "wounds": 12
     },
     {
+        "_id": "eb787473",
+        "bladeborn": "Garrek's Reavers",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Blooded Saek",
+        "points": 115,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 12
+    },
+    {
         "_id": "d93a8925",
         "bladeborn": "Garrek's Reavers",
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Karsus the Chained",
-        "points": 130,
+        "points": 120,
         "runemarks": [
             "berserker"
         ],
@@ -1596,35 +1619,12 @@
         "wounds": 12
     },
     {
-        "_id": "eb787473",
-        "bladeborn": "Garrek's Reavers",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Blooded Saek",
-        "points": 135,
-        "runemarks": [],
-        "toughness": 4,
-        "warband": "Blades of Khorne: Bloodbound",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 5,
-                "dmg_hit": 3,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
-            }
-        ],
-        "wounds": 12
-    },
-    {
         "_id": "9a693167",
         "bladeborn": "Garrek's Reavers",
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Garrek Gorebeard",
-        "points": 185,
+        "points": 170,
         "runemarks": [
             "hero"
         ],
@@ -1725,7 +1725,7 @@
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Ghartok Flayskull",
-        "points": 115,
+        "points": 95,
         "runemarks": [
             "bulwark"
         ],
@@ -1750,7 +1750,7 @@
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Zharkus the Bloodsighted",
-        "points": 115,
+        "points": 95,
         "runemarks": [
             "bulwark"
         ],
@@ -1775,7 +1775,7 @@
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Magore Redhand",
-        "points": 180,
+        "points": 155,
         "runemarks": [
             "hero"
         ],
@@ -1800,7 +1800,7 @@
         "grand_alliance": "chaos",
         "movement": 8,
         "name": "Riptooth",
-        "points": 180,
+        "points": 185,
         "runemarks": [
             "beast"
         ],
@@ -2653,6 +2653,482 @@
             }
         ],
         "wounds": 20
+    },
+    {
+        "_id": "4541799a",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Darkoath Marauder",
+        "points": 70,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "55db755d",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Darkoath Marauder With Spear",
+        "points": 70,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "92a54ad7",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Broken Nadja",
+        "points": 95,
+        "runemarks": [
+            "mystic"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 2
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 2
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "f898a5dd",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Marauder Champion",
+        "points": 100,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "3e5c0f6a",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Marauder Champion With Spear",
+        "points": 100,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "bc47956a",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Darkoath Fellrider",
+        "points": 110,
+        "runemarks": [
+            "mount",
+            "destroyer"
+        ],
+        "toughness": 3,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "1893ed13",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Darkoath Fellrider With Javelin",
+        "points": 125,
+        "runemarks": [
+            "mount",
+            "scout"
+        ],
+        "toughness": 3,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            },
+            {
+                "attacks": 5,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "aa7bec1d",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Dendrel Direbrand",
+        "points": 125,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "2925e2c8",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Darkoath Chieftain",
+        "points": 140,
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "071a6d6b",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Fellrider Champion With Axe",
+        "points": 140,
+        "runemarks": [
+            "hero",
+            "mount",
+            "destroyer"
+        ],
+        "toughness": 3,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "b0ab3657",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Fellrider Champion With Javelin",
+        "points": 145,
+        "runemarks": [
+            "hero",
+            "mount",
+            "scout"
+        ],
+        "toughness": 3,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 2
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "d84ac50b",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Darkoath Warqueen",
+        "points": 155,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "c01ecd2d",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Gunnar Brand",
+        "points": 165,
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "0e98c118",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Warqueen Tanari",
+        "points": 185,
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "5a7fe109",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Singri Brand",
+        "points": 200,
+        "runemarks": [
+            "mount",
+            "agile"
+        ],
+        "toughness": 3,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 18,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "9fe9a6ef",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "name": "Darkoath Chieftain on Warsteed",
+        "points": 220,
+        "runemarks": [
+            "hero",
+            "mount",
+            "ferocious"
+        ],
+        "toughness": 3,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "77ca7f82",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Darkoath Wilderfiend",
+        "points": 300,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 5,
+        "warband": "Darkoath",
+        "weapons": [
+            {
+                "attacks": 6,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 5
+            }
+        ],
+        "wounds": 35
     },
     {
         "_id": "bb6c553d",
@@ -3743,46 +4219,12 @@
         "wounds": 6
     },
     {
-        "_id": "7b98e75f",
-        "bladeborn": "Eyes of the Nine",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Eyes of the Nine Blue Horror",
-        "points": 85,
-        "runemarks": [
-            "warrior"
-        ],
-        "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 3
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 10,
-                "min_range": 3,
-                "runemark": "blast",
-                "strength": 3
-            }
-        ],
-        "wounds": 8
-    },
-    {
         "_id": "3356996c",
         "bladeborn": "Eyes of the Nine",
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Narvia",
-        "points": 110,
+        "points": 75,
         "runemarks": [],
         "toughness": 4,
         "warband": "Disciples of Tzeentch: Arcanites",
@@ -3814,7 +4256,7 @@
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Turosh",
-        "points": 110,
+        "points": 75,
         "runemarks": [],
         "toughness": 4,
         "warband": "Disciples of Tzeentch: Arcanites",
@@ -3841,12 +4283,46 @@
         "wounds": 10
     },
     {
+        "_id": "7b98e75f",
+        "bladeborn": "Eyes of the Nine",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Eyes of the Nine Blue Horror",
+        "points": 90,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 3,
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "wounds": 8
+    },
+    {
         "_id": "4b7ae50d",
         "bladeborn": "Eyes of the Nine",
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "K'Charik",
-        "points": 135,
+        "points": 125,
         "runemarks": [
             "elite"
         ],
@@ -3871,7 +4347,7 @@
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Vortemis the All-seeing",
-        "points": 195,
+        "points": 150,
         "runemarks": [
             "hero"
         ],
@@ -5504,7 +5980,7 @@
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Hadzu",
-        "points": 110,
+        "points": 115,
         "runemarks": [
             "minion"
         ],
@@ -5538,7 +6014,7 @@
         "grand_alliance": "chaos",
         "movement": 6,
         "name": "Slakeslash",
-        "points": 195,
+        "points": 200,
         "runemarks": [
             "ferocious"
         ],
@@ -5563,7 +6039,7 @@
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Vasillac the Gifted",
-        "points": 205,
+        "points": 200,
         "runemarks": [
             "hero",
             "warrior"
@@ -5657,12 +6133,38 @@
         "wounds": 12
     },
     {
+        "_id": "3334417c",
+        "bladeborn": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Ruinator",
+        "points": 125,
+        "runemarks": [
+            "brute",
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Horns of Hashut",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "bident",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
         "_id": "43f8944f",
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Demolisher with Flamehurler",
-        "points": 125,
+        "points": 140,
         "runemarks": [
             "frenzied",
             "warrior"
@@ -5690,32 +6192,6 @@
             }
         ],
         "wounds": 12
-    },
-    {
-        "_id": "3334417c",
-        "bladeborn": "",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Ruinator",
-        "points": 125,
-        "runemarks": [
-            "brute",
-            "warrior"
-        ],
-        "toughness": 4,
-        "warband": "Horns of Hashut",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "bident",
-                "strength": 4
-            }
-        ],
-        "wounds": 15
     },
     {
         "_id": "a8ec49c8",
@@ -6746,35 +7222,12 @@
         "wounds": 42
     },
     {
-        "_id": "d22aa232",
-        "bladeborn": "The Wurmspat",
-        "grand_alliance": "chaos",
-        "movement": 3,
-        "name": "Sepsimus the Plaguesworn",
-        "points": 130,
-        "runemarks": [],
-        "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 5,
-                "dmg_hit": 1,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 4
-            }
-        ],
-        "wounds": 26
-    },
-    {
         "_id": "6ecb17bc",
         "bladeborn": "The Wurmspat",
         "grand_alliance": "chaos",
         "movement": 3,
         "name": "Ghulgoch the Butcher",
-        "points": 140,
+        "points": 100,
         "runemarks": [
             "beast"
         ],
@@ -6794,12 +7247,35 @@
         "wounds": 26
     },
     {
+        "_id": "d22aa232",
+        "bladeborn": "The Wurmspat",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Sepsimus the Plaguesworn",
+        "points": 110,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 26
+    },
+    {
         "_id": "7d372b98",
         "bladeborn": "The Wurmspat",
         "grand_alliance": "chaos",
         "movement": 3,
         "name": "Fecula Flyblown",
-        "points": 205,
+        "points": 170,
         "runemarks": [
             "hero",
             "mystic"
@@ -8112,7 +8588,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Rat Ogor",
+        "name": "Rat Ogor [retired]",
         "points": 225,
         "runemarks": [
             "brute",
@@ -8138,7 +8614,7 @@
         "bladeborn": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Rat Ogor with Warpfire Gun",
+        "name": "Rat Ogor with Warpfire Gun [retired]",
         "points": 225,
         "runemarks": [
             "brute",
@@ -8508,7 +8984,7 @@
         "grand_alliance": "chaos",
         "movement": 6,
         "name": "Krowch't",
-        "points": 70,
+        "points": 75,
         "runemarks": [],
         "toughness": 3,
         "warband": "Skaven",
@@ -8563,7 +9039,7 @@
         "grand_alliance": "chaos",
         "movement": 6,
         "name": "Kreep Kinwhisper",
-        "points": 95,
+        "points": 75,
         "runemarks": [
             "champion"
         ],
@@ -8597,7 +9073,7 @@
         "grand_alliance": "chaos",
         "movement": 6,
         "name": "Snyp Padpaw",
-        "points": 105,
+        "points": 95,
         "runemarks": [],
         "toughness": 3,
         "warband": "Skaven",
@@ -8620,7 +9096,7 @@
         "grand_alliance": "chaos",
         "movement": 7,
         "name": "Slynk Skittershank",
-        "points": 190,
+        "points": 170,
         "runemarks": [
             "hero",
             "champion"
@@ -8646,7 +9122,7 @@
         "grand_alliance": "chaos",
         "movement": 6,
         "name": "Festering Skaven",
-        "points": 80,
+        "points": 85,
         "runemarks": [
             "agile",
             "minion"
@@ -8723,7 +9199,7 @@
         "grand_alliance": "chaos",
         "movement": 6,
         "name": "Lurking Skaven",
-        "points": 90,
+        "points": 85,
         "runemarks": [
             "agile",
             "minion"
@@ -8749,7 +9225,7 @@
         "grand_alliance": "chaos",
         "movement": 6,
         "name": "Skritch Spiteclaw",
-        "points": 125,
+        "points": 120,
         "runemarks": [
             "hero",
             "agile"
@@ -8775,7 +9251,7 @@
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Chaos Marauder with Barbarian Flail",
-        "points": 60,
+        "points": 70,
         "runemarks": [],
         "toughness": 3,
         "warband": "Slaves to Darkness",
@@ -8798,7 +9274,7 @@
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Chaos Marauder with Barbarian Axe and Darkwood Shield",
-        "points": 65,
+        "points": 70,
         "runemarks": [
             "bulwark"
         ],
@@ -9574,7 +10050,7 @@
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Crimson Kheira",
-        "points": 120,
+        "points": 100,
         "runemarks": [],
         "toughness": 4,
         "warband": "Slaves to Darkness",
@@ -9597,7 +10073,7 @@
         "grand_alliance": "chaos",
         "movement": 5,
         "name": "Lupan Longcut",
-        "points": 120,
+        "points": 110,
         "runemarks": [],
         "toughness": 4,
         "warband": "Slaves to Darkness",
@@ -9629,7 +10105,7 @@
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Gorl Spinehammer",
-        "points": 135,
+        "points": 120,
         "runemarks": [],
         "toughness": 4,
         "warband": "Slaves to Darkness",
@@ -9682,6 +10158,31 @@
         "wounds": 20
     },
     {
+        "_id": "3583f198",
+        "bladeborn": "Godsworn Hunt",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "name": "Jagathra",
+        "points": 65,
+        "runemarks": [
+            "scout"
+        ],
+        "toughness": 3,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
         "_id": "ed678a94",
         "bladeborn": "Godsworn Hunt",
         "grand_alliance": "chaos",
@@ -9707,83 +10208,12 @@
         "wounds": 6
     },
     {
-        "_id": "3583f198",
-        "bladeborn": "Godsworn Hunt",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Jagathra",
-        "points": 75,
-        "runemarks": [
-            "scout"
-        ],
-        "toughness": 3,
-        "warband": "Slaves to Darkness",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 3
-            }
-        ],
-        "wounds": 10
-    },
-    {
-        "_id": "0251c9f7",
-        "bladeborn": "Godsworn Hunt",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Grundann Blood-eye",
-        "points": 105,
-        "runemarks": [],
-        "toughness": 4,
-        "warband": "Slaves to Darkness",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
-            }
-        ],
-        "wounds": 10
-    },
-    {
-        "_id": "693114fb",
-        "bladeborn": "Godsworn Hunt",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Shond Head-claimer",
-        "points": 105,
-        "runemarks": [],
-        "toughness": 4,
-        "warband": "Slaves to Darkness",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 3
-            }
-        ],
-        "wounds": 10
-    },
-    {
         "_id": "bb2ead5f",
         "bladeborn": "Godsworn Hunt",
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Ollo",
-        "points": 110,
+        "points": 80,
         "runemarks": [
             "trapper"
         ],
@@ -9812,12 +10242,58 @@
         "wounds": 10
     },
     {
+        "_id": "0251c9f7",
+        "bladeborn": "Godsworn Hunt",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Grundann Blood-eye",
+        "points": 90,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "693114fb",
+        "bladeborn": "Godsworn Hunt",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Shond Head-claimer",
+        "points": 90,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
         "_id": "11d1ed69",
         "bladeborn": "Godsworn Hunt",
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Theddra Skull-scryer",
-        "points": 180,
+        "points": 150,
         "runemarks": [
             "hero"
         ],
@@ -9846,12 +10322,37 @@
         "wounds": 18
     },
     {
+        "_id": "1a7714cb",
+        "bladeborn": "Khagra's Ravagers",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Razek Godblessed",
+        "points": 115,
+        "runemarks": [
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Slaves to Darkness",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 16
+    },
+    {
         "_id": "abdace62",
         "bladeborn": "Khagra's Ravagers",
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Dour Cragan",
-        "points": 140,
+        "points": 125,
         "runemarks": [],
         "toughness": 5,
         "warband": "Slaves to Darkness",
@@ -9874,7 +10375,7 @@
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Zarshia Bittersoul",
-        "points": 140,
+        "points": 135,
         "runemarks": [
             "mystic"
         ],
@@ -9903,37 +10404,12 @@
         "wounds": 20
     },
     {
-        "_id": "1a7714cb",
-        "bladeborn": "Khagra's Ravagers",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Razek Godblessed",
-        "points": 145,
-        "runemarks": [
-            "bulwark"
-        ],
-        "toughness": 6,
-        "warband": "Slaves to Darkness",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
-            }
-        ],
-        "wounds": 16
-    },
-    {
         "_id": "ea6dd24f",
         "bladeborn": "Khagra's Ravagers",
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Khagra the Usurper",
-        "points": 200,
+        "points": 195,
         "runemarks": [
             "hero"
         ],
@@ -12319,7 +12795,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Royal Butcher",
-        "points": 70,
+        "points": 75,
         "runemarks": [
             "minion"
         ],
@@ -12370,7 +12846,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Master Talon",
-        "points": 75,
+        "points": 80,
         "runemarks": [
             "minion"
         ],
@@ -12395,7 +12871,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Gristlewel, Greatsword",
-        "points": 80,
+        "points": 85,
         "runemarks": [
             "minion"
         ],
@@ -12420,7 +12896,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Duke Crakmarrow",
-        "points": 140,
+        "points": 160,
         "runemarks": [
             "hero"
         ],
@@ -13248,7 +13724,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Thorns of the Briar Queen Chainrasp",
-        "points": 90,
+        "points": 70,
         "runemarks": [
             "fly",
             "minion"
@@ -13274,7 +13750,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "The Ever-hanged",
-        "points": 105,
+        "points": 90,
         "runemarks": [
             "fly",
             "minion"
@@ -13300,7 +13776,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Varclav the Cruel",
-        "points": 130,
+        "points": 100,
         "runemarks": [
             "fly",
             "minion"
@@ -13326,7 +13802,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "name": "Briar Queen",
-        "points": 200,
+        "points": 195,
         "runemarks": [
             "hero",
             "fly"
@@ -13884,7 +14360,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Senha",
-        "points": 75,
+        "points": 65,
         "runemarks": [
             "bulwark"
         ],
@@ -13909,7 +14385,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Karu",
-        "points": 80,
+        "points": 65,
         "runemarks": [
             "bulwark"
         ],
@@ -13934,7 +14410,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Nohem",
-        "points": 80,
+        "points": 70,
         "runemarks": [],
         "toughness": 4,
         "warband": "Ossiarch Bonereapers",
@@ -13966,7 +14442,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Hakor",
-        "points": 90,
+        "points": 95,
         "runemarks": [
             "bulwark"
         ],
@@ -13991,7 +14467,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Binar Khenta",
-        "points": 145,
+        "points": 140,
         "runemarks": [
             "bulwark"
         ],
@@ -14016,7 +14492,7 @@
         "grand_alliance": "death",
         "movement": 4,
         "name": "Mir Kainan",
-        "points": 230,
+        "points": 205,
         "runemarks": [
             "hero"
         ],
@@ -15190,7 +15666,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Regulus",
-        "points": 45,
+        "points": 55,
         "runemarks": [
             "minion",
             "bulwark"
@@ -15380,7 +15856,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "Petitioner with Sword",
-        "points": 40,
+        "points": 55,
         "runemarks": [],
         "toughness": 3,
         "warband": "Soulblight Gravelords",
@@ -15403,7 +15879,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "The Harvester",
-        "points": 50,
+        "points": 55,
         "runemarks": [],
         "toughness": 3,
         "warband": "Soulblight Gravelords",
@@ -15499,7 +15975,7 @@
         "grand_alliance": "death",
         "movement": 3,
         "name": "The Sepulchral Warden",
-        "points": 120,
+        "points": 130,
         "runemarks": [
             "hero"
         ],
@@ -16418,7 +16894,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Toofdagga",
-        "points": 105,
+        "points": 95,
         "runemarks": [],
         "toughness": 3,
         "warband": "Bonesplitterz",
@@ -16498,7 +16974,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Hedkrakka, Gob of Gork",
-        "points": 225,
+        "points": 170,
         "runemarks": [
             "hero",
             "frenzied"
@@ -17547,7 +18023,7 @@
         "grand_alliance": "destruction",
         "movement": 6,
         "name": "Bat Squig",
-        "points": 205,
+        "points": 170,
         "runemarks": [
             "beast",
             "fly"
@@ -17573,7 +18049,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Mollog the Mighty",
-        "points": 330,
+        "points": 290,
         "runemarks": [
             "hero"
         ],
@@ -17740,7 +18216,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Drizgit da Squig Herder",
-        "points": 110,
+        "points": 90,
         "runemarks": [
             "agile"
         ],
@@ -17760,37 +18236,12 @@
         "wounds": 12
     },
     {
-        "_id": "0dd373c0",
-        "bladeborn": "Zarbag's Gitz",
-        "grand_alliance": "destruction",
-        "movement": 4,
-        "name": "Snirk Sourtongue",
-        "points": 130,
-        "runemarks": [
-            "frenzied"
-        ],
-        "toughness": 3,
-        "warband": "Gloomspite Gitz",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 3,
-                "min_range": 0,
-                "runemark": "reach",
-                "strength": 4
-            }
-        ],
-        "wounds": 10
-    },
-    {
         "_id": "a8f379d9",
         "bladeborn": "Zarbag's Gitz",
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Zarbag",
-        "points": 145,
+        "points": 125,
         "runemarks": [
             "hero"
         ],
@@ -17819,12 +18270,37 @@
         "wounds": 16
     },
     {
+        "_id": "0dd373c0",
+        "bladeborn": "Zarbag's Gitz",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Snirk Sourtongue",
+        "points": 130,
+        "runemarks": [
+            "frenzied"
+        ],
+        "toughness": 3,
+        "warband": "Gloomspite Gitz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
         "_id": "0d6a8a6a",
         "bladeborn": "Zarbag's Gitz",
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Zarbag's Gitz Squig",
-        "points": 145,
+        "points": 140,
         "runemarks": [
             "beast"
         ],
@@ -17975,7 +18451,7 @@
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Orruk Ardboy with Ardboy Big Choppa",
+        "name": "Orruk Ardboy with Ardboy Big Choppa [retired]",
         "points": 80,
         "runemarks": [],
         "toughness": 4,
@@ -17998,7 +18474,7 @@
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Orruk Ardboy with Ardboy Choppa and Orruk-forged Shield",
+        "name": "Orruk Ardboy with Ardboy Choppa and Orruk-forged Shield [retired]",
         "points": 80,
         "runemarks": [],
         "toughness": 5,
@@ -18021,7 +18497,7 @@
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Orruk Ardboy with Choppas",
+        "name": "Orruk Ardboy with Choppas [retired]",
         "points": 85,
         "runemarks": [],
         "toughness": 4,
@@ -18044,7 +18520,7 @@
         "bladeborn": "",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Ardboy Boss with Ardboy Choppas",
+        "name": "Ardboy Boss with Ardboy Choppas [retired]",
         "points": 140,
         "runemarks": [
             "hero"
@@ -18386,12 +18862,35 @@
         "wounds": 40
     },
     {
+        "_id": "19aa2fa5",
+        "bladeborn": "Ironskull's Boyz",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Bonekutta",
+        "points": 100,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 16
+    },
+    {
         "_id": "ab166f67",
         "bladeborn": "Ironskull's Boyz",
         "grand_alliance": "destruction",
         "movement": 3,
         "name": "Basha",
-        "points": 110,
+        "points": 105,
         "runemarks": [],
         "toughness": 4,
         "warband": "Ironjawz",
@@ -18414,7 +18913,7 @@
         "grand_alliance": "destruction",
         "movement": 3,
         "name": "Hakka",
-        "points": 115,
+        "points": 110,
         "runemarks": [],
         "toughness": 4,
         "warband": "Ironjawz",
@@ -18432,35 +18931,12 @@
         "wounds": 16
     },
     {
-        "_id": "19aa2fa5",
-        "bladeborn": "Ironskull's Boyz",
-        "grand_alliance": "destruction",
-        "movement": 3,
-        "name": "Bonekutta",
-        "points": 125,
-        "runemarks": [],
-        "toughness": 4,
-        "warband": "Ironjawz",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 5
-            }
-        ],
-        "wounds": 16
-    },
-    {
         "_id": "5bf1a2a8",
         "bladeborn": "Ironskull's Boyz",
         "grand_alliance": "destruction",
         "movement": 3,
         "name": "Gurzag Ironskull",
-        "points": 180,
+        "points": 175,
         "runemarks": [
             "hero"
         ],
@@ -18485,7 +18961,7 @@
         "grand_alliance": "destruction",
         "movement": 3,
         "name": "Thugg",
-        "points": 175,
+        "points": 140,
         "runemarks": [
             "brute"
         ],
@@ -18510,7 +18986,7 @@
         "grand_alliance": "destruction",
         "movement": 3,
         "name": "'Ardskull",
-        "points": 190,
+        "points": 165,
         "runemarks": [
             "brute"
         ],
@@ -18535,7 +19011,7 @@
         "grand_alliance": "destruction",
         "movement": 3,
         "name": "Morgok",
-        "points": 240,
+        "points": 220,
         "runemarks": [
             "brute",
             "hero"
@@ -18998,7 +19474,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Gikkit",
-        "points": 55,
+        "points": 50,
         "runemarks": [
             "minion",
             "warrior"
@@ -20087,31 +20563,6 @@
         "wounds": 6
     },
     {
-        "_id": "40acb702",
-        "bladeborn": "Blackpowder's Buccaneers",
-        "grand_alliance": "destruction",
-        "movement": 5,
-        "name": "Mange",
-        "points": 55,
-        "runemarks": [
-            "frenzied"
-        ],
-        "toughness": 3,
-        "warband": "Ogor Mawtribes",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 3
-            }
-        ],
-        "wounds": 6
-    },
-    {
         "_id": "82052c8e",
         "bladeborn": "Blackpowder's Buccaneers",
         "grand_alliance": "destruction",
@@ -20132,6 +20583,31 @@
                 "min_range": 0,
                 "runemark": "reach",
                 "strength": 2
+            }
+        ],
+        "wounds": 6
+    },
+    {
+        "_id": "40acb702",
+        "bladeborn": "Blackpowder's Buccaneers",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "name": "Mange",
+        "points": 65,
+        "runemarks": [
+            "frenzied"
+        ],
+        "toughness": 3,
+        "warband": "Ogor Mawtribes",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 3
             }
         ],
         "wounds": 6
@@ -20168,7 +20644,7 @@
         "grand_alliance": "destruction",
         "movement": 4,
         "name": "Gorlok Blackpowder",
-        "points": 260,
+        "points": 250,
         "runemarks": [
             "hero",
             "brute"
@@ -23060,7 +23536,7 @@
         "grand_alliance": "order",
         "movement": 5,
         "name": "Khamyss",
-        "points": 95,
+        "points": 80,
         "runemarks": [],
         "toughness": 4,
         "warband": "Daughters of Khaine",
@@ -23083,7 +23559,7 @@
         "grand_alliance": "order",
         "movement": 5,
         "name": "Kyrssa",
-        "points": 95,
+        "points": 85,
         "runemarks": [],
         "toughness": 4,
         "warband": "Daughters of Khaine",
@@ -23106,7 +23582,7 @@
         "grand_alliance": "order",
         "movement": 5,
         "name": "Lethyr",
-        "points": 95,
+        "points": 85,
         "runemarks": [],
         "toughness": 4,
         "warband": "Daughters of Khaine",
@@ -23155,7 +23631,7 @@
         "grand_alliance": "order",
         "movement": 7,
         "name": "Kyrae",
-        "points": 185,
+        "points": 175,
         "runemarks": [
             "berserker"
         ],
@@ -23797,7 +24273,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Mad Maegrim",
-        "points": 90,
+        "points": 80,
         "runemarks": [],
         "toughness": 4,
         "warband": "Fyreslayers",
@@ -23820,7 +24296,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Tefk Flamebearer",
-        "points": 90,
+        "points": 80,
         "runemarks": [],
         "toughness": 4,
         "warband": "Fyreslayers",
@@ -23843,7 +24319,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Vol Orrukbane",
-        "points": 110,
+        "points": 95,
         "runemarks": [],
         "toughness": 4,
         "warband": "Fyreslayers",
@@ -23866,7 +24342,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Fjul-Grimnir",
-        "points": 200,
+        "points": 195,
         "runemarks": [
             "hero",
             "brute"
@@ -24436,46 +24912,12 @@
         "wounds": 35
     },
     {
-        "_id": "17c711cf",
-        "bladeborn": "Cyreni's Razors",
-        "grand_alliance": "order",
-        "movement": 5,
-        "name": "Renglaith",
-        "points": 105,
-        "runemarks": [
-            "minion"
-        ],
-        "toughness": 4,
-        "warband": "Idoneth Deepkin",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 4
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 3,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 4
-            }
-        ],
-        "wounds": 10
-    },
-    {
         "_id": "3099608e",
         "bladeborn": "Cyreni's Razors",
         "grand_alliance": "order",
         "movement": 5,
         "name": "Alathyrr",
-        "points": 110,
+        "points": 95,
         "runemarks": [
             "minion"
         ],
@@ -24504,12 +24946,46 @@
         "wounds": 10
     },
     {
+        "_id": "17c711cf",
+        "bladeborn": "Cyreni's Razors",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Renglaith",
+        "points": 95,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 4,
+        "warband": "Idoneth Deepkin",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
         "_id": "48027599",
         "bladeborn": "Cyreni's Razors",
         "grand_alliance": "order",
         "movement": 5,
         "name": "Cephanyr",
-        "points": 120,
+        "points": 100,
         "runemarks": [
             "beast"
         ],
@@ -24534,7 +25010,7 @@
         "grand_alliance": "order",
         "movement": 5,
         "name": "Cyreni of the Abyss",
-        "points": 200,
+        "points": 165,
         "runemarks": [
             "hero"
         ],
@@ -24594,7 +25070,7 @@
         "grand_alliance": "order",
         "movement": 5,
         "name": "Tammael",
-        "points": 85,
+        "points": 90,
         "runemarks": [
             "trapper"
         ],
@@ -24612,6 +25088,31 @@
             }
         ],
         "wounds": 10
+    },
+    {
+        "_id": "45fa3090",
+        "bladeborn": "Elathain's Soulraid",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Duinclaw",
+        "points": 110,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 6,
+        "warband": "Idoneth Deepkin",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 5
+            }
+        ],
+        "wounds": 12
     },
     {
         "_id": "dd0a461e",
@@ -24637,37 +25138,12 @@
         "wounds": 16
     },
     {
-        "_id": "45fa3090",
-        "bladeborn": "Elathain's Soulraid",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Duinclaw",
-        "points": 130,
-        "runemarks": [
-            "beast"
-        ],
-        "toughness": 6,
-        "warband": "Idoneth Deepkin",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 5
-            }
-        ],
-        "wounds": 12
-    },
-    {
         "_id": "52e96d63",
         "bladeborn": "Elathain's Soulraid",
         "grand_alliance": "order",
         "movement": 5,
         "name": "Elathain Ill-fated",
-        "points": 150,
+        "points": 165,
         "runemarks": [
             "hero"
         ],
@@ -24694,6 +25170,194 @@
             }
         ],
         "wounds": 24
+    },
+    {
+        "_id": "27491f65",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Ardboy With Choppa",
+        "points": 100,
+        "runemarks": [
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "f48c1b61",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Ardboy With Stikka",
+        "points": 100,
+        "runemarks": [
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "57b116d4",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Ardboy Boss With Stikka",
+        "points": 140,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "2dd266be",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Ardboy Boss With Choppa",
+        "points": 145,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "41c7e23f",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Brute Rager",
+        "points": 145,
+        "runemarks": [
+            "destroyer"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 6
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "9bc8ac77",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Ardboy Big Boss",
+        "points": 175,
+        "runemarks": [
+            "hero",
+            "bulwark",
+            "icon-bearer"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "69c2e9bf",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Brute Wrekka",
+        "points": 175,
+        "runemarks": [
+            "terrifying"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 6,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
     },
     {
         "_id": "40d5e9b6",
@@ -25864,7 +26528,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Garodd Alensen",
-        "points": 70,
+        "points": 60,
         "runemarks": [],
         "toughness": 3,
         "warband": "Kharadron Overlords",
@@ -25891,44 +26555,12 @@
         "wounds": 14
     },
     {
-        "_id": "4ef78342",
-        "bladeborn": "Thundrik's Profiteers",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Enrik Ironhail",
-        "points": 120,
-        "runemarks": [],
-        "toughness": 3,
-        "warband": "Kharadron Overlords",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 3
-            },
-            {
-                "attacks": 6,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 15,
-                "min_range": 3,
-                "runemark": "ranged",
-                "strength": 3
-            }
-        ],
-        "wounds": 14
-    },
-    {
         "_id": "dde0d2e8",
         "bladeborn": "Thundrik's Profiteers",
         "grand_alliance": "order",
         "movement": 3,
         "name": "Dead-eye Lund",
-        "points": 125,
+        "points": 115,
         "runemarks": [
             "elite"
         ],
@@ -25957,12 +26589,44 @@
         "wounds": 14
     },
     {
+        "_id": "4ef78342",
+        "bladeborn": "Thundrik's Profiteers",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Enrik Ironhail",
+        "points": 140,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Kharadron Overlords",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 6,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 14
+    },
+    {
         "_id": "f49d9de4",
         "bladeborn": "Thundrik's Profiteers",
         "grand_alliance": "order",
         "movement": 3,
         "name": "Bjorgen Thundrik",
-        "points": 180,
+        "points": 170,
         "runemarks": [
             "hero",
             "destroyer"
@@ -25997,7 +26661,7 @@
         "grand_alliance": "order",
         "movement": 10,
         "name": "Khazgan Drakkskewer",
-        "points": 220,
+        "points": 185,
         "runemarks": [
             "fly"
         ],
@@ -26657,6 +27321,31 @@
         "wounds": 28
     },
     {
+        "_id": "8167aef1",
+        "bladeborn": "Myari's Purifiers",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Bahannar",
+        "points": 90,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 4,
+        "warband": "Lumineth Realm-lords",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "wounds": 14
+    },
+    {
         "_id": "a94938d9",
         "bladeborn": "Myari's Purifiers",
         "grand_alliance": "order",
@@ -26717,37 +27406,12 @@
         "wounds": 14
     },
     {
-        "_id": "8167aef1",
-        "bladeborn": "Myari's Purifiers",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Bahannar",
-        "points": 110,
-        "runemarks": [
-            "brute"
-        ],
-        "toughness": 4,
-        "warband": "Lumineth Realm-lords",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "hammer",
-                "strength": 5
-            }
-        ],
-        "wounds": 14
-    },
-    {
         "_id": "28e8eb85",
         "bladeborn": "Myari's Purifiers",
         "grand_alliance": "order",
         "movement": 5,
         "name": "Myari Lightcaller",
-        "points": 150,
+        "points": 120,
         "runemarks": [
             "hero",
             "scout"
@@ -28429,7 +29093,7 @@
         "grand_alliance": "order",
         "movement": 6,
         "name": "Xepic",
-        "points": 65,
+        "points": 75,
         "runemarks": [
             "minion"
         ],
@@ -28523,7 +29187,7 @@
         "grand_alliance": "order",
         "movement": 6,
         "name": "Huachi",
-        "points": 90,
+        "points": 95,
         "runemarks": [
             "minion"
         ],
@@ -28557,7 +29221,7 @@
         "grand_alliance": "order",
         "movement": 6,
         "name": "Kixi-Taka, The Diviner",
-        "points": 135,
+        "points": 130,
         "runemarks": [
             "hero",
             "minion"
@@ -28592,7 +29256,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Klaq-Trok",
-        "points": 190,
+        "points": 175,
         "runemarks": [
             "warrior"
         ],
@@ -28607,6 +29271,139 @@
                 "min_range": 0,
                 "runemark": "club",
                 "strength": 4
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "4ecf8dc1",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Warlock Engineer With Warplock Jezzail",
+        "points": 205,
+        "runemarks": [
+            "hero",
+            "destroyer",
+            "agile"
+        ],
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 2
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 24,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 18
+    },
+    {
+        "_id": "e98eb612",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Clawlord on Gnaw-Beast",
+        "points": 230,
+        "runemarks": [
+            "hero",
+            "mount",
+            "agile"
+        ],
+        "toughness": 4,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            },
+            {
+                "attacks": 6,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 22
+    },
+    {
+        "_id": "1d57af33",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Rat Ogor With Warpfire Gun",
+        "points": 230,
+        "runemarks": [
+            "beast",
+            "brute"
+        ],
+        "toughness": 5,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 12,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "5cf6d806",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Rat Ogor",
+        "points": 240,
+        "runemarks": [
+            "beast",
+            "brute"
+        ],
+        "toughness": 5,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 6
             }
         ],
         "wounds": 28
@@ -28800,6 +29597,267 @@
             }
         ],
         "wounds": 20
+    },
+    {
+        "_id": "7ace3e66",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Gryph-Crow",
+        "points": 60,
+        "runemarks": [
+            "beast"
+        ],
+        "toughness": 3,
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "wounds": 6
+    },
+    {
+        "_id": "614719d2",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Reclusian",
+        "points": 160,
+        "runemarks": [
+            "terrifying"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "dc3af7bb",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Prosecutor",
+        "points": 180,
+        "runemarks": [
+            "fly",
+            "champion"
+        ],
+        "toughness": 4,
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "09eadea6",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Lord-Veritant",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 7,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "149e002e",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Reclusian-Prime",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "5771e4f5",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Prosecutor-Prime",
+        "points": 205,
+        "runemarks": [
+            "hero",
+            "champion",
+            "fly"
+        ],
+        "toughness": 4,
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "9683def2",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Lord-Terminos",
+        "points": 225,
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "557afa14",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Knight-Azyros",
+        "points": 255,
+        "runemarks": [
+            "hero",
+            "icon-bearer",
+            "fly"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "2dfe9f6e",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "name": "Lord-Vigilant on Gryph-Stalker",
+        "points": 280,
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 38
     },
     {
         "_id": "24608845",
@@ -29490,7 +30548,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Ammis Dawnguard",
-        "points": 180,
+        "points": 160,
         "runemarks": [
             "mystic"
         ],
@@ -29515,7 +30573,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Rastus the Charmed",
-        "points": 180,
+        "points": 160,
         "runemarks": [
             "mystic"
         ],
@@ -29540,7 +30598,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Averon Stormsire",
-        "points": 235,
+        "points": 215,
         "runemarks": [
             "hero",
             "frenzied"
@@ -29663,6 +30721,81 @@
                 "min_range": 0,
                 "runemark": "sword",
                 "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "dceff888",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator With Dual Sigmarite Weapons",
+        "points": 140,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "9002c62d",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator With Sigmarite Weapon and Shield",
+        "points": 150,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "2134ed36",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator With Grandhammer",
+        "points": 150,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
             }
         ],
         "wounds": 20
@@ -29803,6 +30936,32 @@
         "wounds": 25
     },
     {
+        "_id": "b1186552",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Knight-Questor",
+        "points": 175,
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
         "_id": "8927d3fc",
         "bladeborn": "",
         "grand_alliance": "order",
@@ -29855,6 +31014,32 @@
         "wounds": 25
     },
     {
+        "_id": "3879ad50",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator-Prime With Dual Sigmarite Weapons",
+        "points": 185,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
         "_id": "a48e97aa",
         "bladeborn": "",
         "grand_alliance": "order",
@@ -29876,6 +31061,32 @@
                 "min_range": 0,
                 "runemark": "hammer",
                 "strength": 5
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "a046509d",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator-Prime With Sigmarite Weapon and Shield",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
             }
         ],
         "wounds": 25
@@ -30821,7 +32032,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Almeric Eagle-eye",
-        "points": 175,
+        "points": 135,
         "runemarks": [],
         "toughness": 5,
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
@@ -30853,7 +32064,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Elias Swiftblade",
-        "points": 175,
+        "points": 135,
         "runemarks": [],
         "toughness": 5,
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
@@ -30885,7 +32096,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Sanson Farstrider",
-        "points": 225,
+        "points": 170,
         "runemarks": [
             "hero",
             "warrior"
@@ -32079,7 +33290,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Angharad Brightshield",
-        "points": 175,
+        "points": 125,
         "runemarks": [
             "bulwark",
             "warrior"
@@ -32105,7 +33316,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Obryn the Bold",
-        "points": 185,
+        "points": 155,
         "runemarks": [
             "warrior"
         ],
@@ -32130,7 +33341,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Severin Steelheart",
-        "points": 205,
+        "points": 190,
         "runemarks": [
             "hero",
             "warrior"
@@ -32771,7 +33982,7 @@
         "grand_alliance": "order",
         "movement": 8,
         "name": "Lighaen",
-        "points": 70,
+        "points": 65,
         "runemarks": [
             "beast"
         ],
@@ -32796,7 +34007,7 @@
         "grand_alliance": "order",
         "movement": 5,
         "name": "Sheoch",
-        "points": 70,
+        "points": 75,
         "runemarks": [],
         "toughness": 3,
         "warband": "Sylvaneth",
@@ -32819,7 +34030,7 @@
         "grand_alliance": "order",
         "movement": 5,
         "name": "Althaen",
-        "points": 80,
+        "points": 75,
         "runemarks": [],
         "toughness": 3,
         "warband": "Sylvaneth",
@@ -32851,7 +34062,7 @@
         "grand_alliance": "order",
         "movement": 5,
         "name": "Karthaen",
-        "points": 80,
+        "points": 85,
         "runemarks": [
             "bulwark"
         ],
@@ -32876,7 +34087,7 @@
         "grand_alliance": "order",
         "movement": 8,
         "name": "Skaeth the Huntsman",
-        "points": 180,
+        "points": 160,
         "runemarks": [
             "hero",
             "mount"
@@ -32902,7 +34113,7 @@
         "grand_alliance": "order",
         "movement": 4,
         "name": "Ahnslaine, Revenant Archer",
-        "points": 85,
+        "points": 65,
         "runemarks": [],
         "toughness": 3,
         "warband": "Sylvaneth",
@@ -32924,6 +34135,29 @@
                 "min_range": 3,
                 "runemark": "ranged",
                 "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "01198dbb",
+        "bladeborn": "Ylthari's Guardians",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Gallanghann of the Glade",
+        "points": 80,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Sylvaneth",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
             }
         ],
         "wounds": 10
@@ -32952,35 +34186,12 @@
         "wounds": 12
     },
     {
-        "_id": "01198dbb",
-        "bladeborn": "Ylthari's Guardians",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Gallanghann of the Glade",
-        "points": 105,
-        "runemarks": [],
-        "toughness": 3,
-        "warband": "Sylvaneth",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
-            }
-        ],
-        "wounds": 10
-    },
-    {
         "_id": "15b05d0e",
         "bladeborn": "Ylthari's Guardians",
         "grand_alliance": "order",
         "movement": 4,
         "name": "Ylthari",
-        "points": 165,
+        "points": 125,
         "runemarks": [
             "hero"
         ],

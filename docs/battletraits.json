@@ -84,7 +84,7 @@
         "name": "Plunging Killers",
         "warband": "Corvus Cabal",
         "cost": "battletrait",
-        "description": "Add 2 of the Strength characteristics of melee attack actions made by friendly fighters with this battle trait if they fell this activation.",
+        "description": "Add 2 to the Strength characteristic of melee attack actions made by friendly fighters with this battle trait if they finished a move action 2\" or more vertically lower than their starting position this activation.",
         "runemarks": []
     },
     {
@@ -148,7 +148,7 @@
         "name": "Da Bad Moon Rises",
         "warband": "Gloomspite Gitz",
         "cost": "battletrait",
-        "description": "At the start of a battle round, each player whose warband has this battle trait can roll a dice, starting with the attacker. On a 2+, pick 1 of your opponent's, or your own [double]s, [triple]s, or [quad]s. Change the value of those ability dice to the result of the dice roll.",
+        "description": "After the initiative phase, each player whose warband has this battle trait can roll a dice, starting with the attacker. On a 2+, pick 1 of your opponent's or your own [doubles], [triples] or [quads]. Change the value of those ability dice to the result of the dice roll.",
         "runemarks": []
     },
     {
