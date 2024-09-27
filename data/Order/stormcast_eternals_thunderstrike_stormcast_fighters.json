@@ -717,5 +717,158 @@
             }
         ],
         "wounds": 25
+    },
+    {
+        "_id": "b1186552",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Knight-Questor",
+        "points": 175,
+        "runemarks": [
+           "hero",
+           "ferocious"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "3879ad50",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator-Prime With Dual Sigmarite Weapons",
+        "points": 185,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "a046509d",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator-Prime With Sigmarite Weapon and Shield",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "dceff888",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator With Dual Sigmarite Weapons",
+        "points": 140,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "9002c62d",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator With Sigmarite Weapon and Shield",
+        "points": 150,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "2134ed36",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Liberator With Grandhammer",
+        "points": 150,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "wounds": 20
     }
 ]

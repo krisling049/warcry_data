@@ -130,5 +130,29 @@
         "cost": "triple",
         "description": "A fighter can use this ability only if the yare within 1\" of a visible enemy fighter with the Gargantuan runemark.  This fighter can make a bonus attack action that targets that fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "cc3769ad",
+        "name": "You Ain't That Big",
+        "warband": "Ironjawz",
+        "cost": "double",
+        "description": "The following apply to this fighter's next melee attack action if the target has a higher Wounds characteristic than this fighter or has the Hero runemark: • Add 2 to the Attacks characteristic of that attack action. • Critical hits are scored on a 5+ for that attack action.",
+        "runemarks": [ "destroyer"]
+    },
+    {
+        "_id": "bb4f9fa3",
+        "name": "Berserk Whirlwind",
+        "warband": "Ironjawz",
+        "cost": "double",
+        "description": "Allocate a number of damage points equal to half the value of this ability (rounding up) to each visible enemy fighter within 3\" of this fighter.",
+        "runemarks": ["terrifying"]
+    },
+    {
+        "_id": "966d5766",
+        "name": "Shield Smash",
+        "warband": "Ironjawz",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 1\" of this fighter to be the target. The target moves 3\" directly away from this fighter as if they were jumping, even if they are within 1\" of any enemy fighters. In addition, if this fighter is within 6\" of a friendly fighter with the Ironjawz runemark and the Icon Bearer runemark, allocate a number of damage points to the target equal to the value of this ability.",
+        "runemarks": [ "bulwark"]
     }
 ]
