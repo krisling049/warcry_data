@@ -1446,7 +1446,9 @@
         "warband": "Darkoath",
         "cost": "quad",
         "description": "You can pick a visible friendly fighter with the Darkoath runemark within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends. Then you can pick a visible enemy fighter within 6\" of this fighter and roll 6 dice. For each 4+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). In addition, add 2 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation.",
-        "runemarks": []
+        "runemarks": [
+            "beast"
+        ]
     },
     {
         "_id": "a30a637f",
