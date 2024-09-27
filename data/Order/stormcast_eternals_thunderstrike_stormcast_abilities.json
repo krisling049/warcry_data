@@ -205,5 +205,25 @@
         "runemarks": [
             "scout"
         ]
+    },
+    {
+        "_id": "4d7cdc4f",
+        "name": "Ordained Quest",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "cost": "double",
+        "description": "Pick an enemy fighter or an objective. Previous uses of this ability by any friendly fighter no longer have any effect and this ability cannot be used again until the enemy fighter you picked is taken down or you control the objective you picked. If you picked an enemy fighter, for the rest of the battle, add 1 to the Attacks characteristic of melee attack actions made by this fighter and friendly fighters with the Questor Soulswor runemark that target that enemy fighter. If you picked an objective, for the rest of the battle, this fighter and friendly fighters with the Questor Soulsworn runemark each count as 1 additional fighter when determining which player controls that objective.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "ec59cb60",
+        "name": "Lay Low the Tyrants",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter. While targeting an enemy fighter with a Wounds characteristic of 25 or more, count each hit scored from attack actions made by this fighter as a critical hit instead.",
+        "runemarks": [
+            "warrior"
+        ]
     }
 ]
