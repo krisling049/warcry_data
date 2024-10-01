@@ -6174,13 +6174,13 @@
         "_id": "92a54ad7",
         "bladeborn": "",
         "grand_alliance": "chaos",
-        "movement": 5,
+        "movement": 3,
         "name": "Broken Nadja",
         "points": 95,
         "runemarks": [
             "mystic"
         ],
-        "toughness": 4,
+        "toughness": 3,
         "warband": "Darkoath",
         "weapons": [
             {
@@ -47944,7 +47944,7 @@
         "weapons": [
             {
                 "attacks": 4,
-                "dmg_crit": 3,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
@@ -47978,7 +47978,7 @@
         "_id": "dc3af7bb",
         "bladeborn": "",
         "grand_alliance": "order",
-        "movement": 4,
+        "movement": 10,
         "name": "Prosecutor",
         "points": 180,
         "runemarks": [
@@ -48230,7 +48230,7 @@
                 "dmg_hit": 3,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "sword",
+                "runemark": "axe",
                 "strength": 4
             }
         ],
@@ -48251,7 +48251,7 @@
         "_id": "9683def2",
         "bladeborn": "",
         "grand_alliance": "order",
-        "movement": 10,
+        "movement": 4,
         "name": "Lord-Terminos",
         "points": 225,
         "runemarks": [
