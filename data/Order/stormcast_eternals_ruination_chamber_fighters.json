@@ -16,7 +16,7 @@
 		"weapons": [
 			{
 				"attacks": 4,
-				"dmg_crit": 3,
+				"dmg_crit": 4,
 				"dmg_hit": 2,
 				"max_range": 1,
 				"min_range": 0,
@@ -39,7 +39,7 @@
 		"_id": "dc3af7bb",
 		"bladeborn": "",
 		"grand_alliance": "order",
-		"movement": 4,
+		"movement": 10,
 		"name": "Prosecutor",
 		"points": 180,
 		"runemarks": [
@@ -228,7 +228,7 @@
 				"dmg_hit": 3,
 				"max_range": 1,
 				"min_range": 0,
-				"runemark": "sword",
+				"runemark": "axe",
 				"strength": 4
 			}
 		],
@@ -238,7 +238,7 @@
 		"_id": "9683def2",
 		"bladeborn": "",
 		"grand_alliance": "order",
-		"movement": 10,
+		"movement": 4,
 		"name": "Lord-Terminos",
 		"points": 225,
 		"runemarks": [
