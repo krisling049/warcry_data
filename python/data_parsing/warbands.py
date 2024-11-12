@@ -3,22 +3,21 @@ import re
 import uuid
 from copy import deepcopy
 from pathlib import Path
-from typing import Union, List, Dict
-
+from typing import List, Dict
 import jsonschema
-
 from .abilities import Ability
 from .fighters import sort_fighters, Fighter, Fighters, FighterJSONDataPayload
-from .models import DataPayload, PROJECT_DATA, sanitise_filename
+from .factions import Factions
+from .models import DataPayload, PROJECT_DATA, PROJECT_ROOT, sanitise_filename, write_json
 
 
 class WarbandsJSONDataPayload(DataPayload):
     def __init__(
             self,
             src: Path = PROJECT_DATA,
-            schema: Path = Path(PROJECT_DATA, 'schemas', 'warband_schema.json'),
+            schema: Path = Path(PROJECT_ROOT, 'schemas', 'warband_schema.json'),
             src_format: str = 'json',
-            filter_string: str = '*_*.json'
+            filter_string: str = '*.json'
     ):
         if not src.is_dir():
             raise TypeError(f'src must be a dir: {src}')
@@ -26,13 +25,15 @@ class WarbandsJSONDataPayload(DataPayload):
         super().__init__(src, schema, src_format)
         self.fighters = Fighters(self.data['fighters'])
         self.abilities = [Ability(x) for x in self.data['abilities']]
+        self.factions = Factions(self.data['factions'])
+        self.assign_factions()
         self.assign_abilities()
 
     def __repr__(self):
         return 'WarbandData'
 
     def load_data(self):
-        data = {'fighters': list(), 'abilities': list()}
+        data = {'fighters': list(), 'abilities': list(), 'factions': list()}
         for file in self.src.rglob(self._filter_str):
             if not file.is_file():
                 continue
@@ -41,9 +42,11 @@ class WarbandsJSONDataPayload(DataPayload):
             if file.name.endswith('_fighters.json'):
                 data['fighters'].extend(json.loads(file.read_text(encoding='latin-1')))
                 continue
-            if file.name.endswith('_abilities.json'):
+            elif file.name.endswith('_abilities.json'):
                 data['abilities'].extend(json.loads(file.read_text(encoding='latin-1')))
                 continue
+            else:
+                data['factions'].append(json.loads(file.read_text(encoding='latin-1')))
         return data
 
     def assign_ids(self):
@@ -60,22 +63,25 @@ class WarbandsJSONDataPayload(DataPayload):
 
         for a in self.abilities:
             faction_match = [
-                x for x in self.fighters.fighters if a.warband in [x.warband, x.bladeborn, 'universal']
+                x for x in self.fighters.fighters if a.warband in [x.warband, 'universal']
             ]
             for f in faction_match:
                 if set(a.runemarks).issubset(set(f.runemarks)):
                     f.abilities.append(a)
 
-    def _write_json(self, dst: Path, data: Union[List, Dict], encoding: str = 'latin-1'):
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        with open(dst, 'w', encoding=encoding) as f:
-            print(f'writing {len(data)} items to {dst}')
-            json.dump(data, f, ensure_ascii=False, indent=4, sort_keys=False)
+    def assign_factions(self):
+        for f in self.fighters.fighters:
+            for faction in self.factions.factions:
+                if f.warband == faction.warband:
+                    f.faction = faction
+                    for subfaction in faction.subfactions:
+                        if any([x for x in f.runemarks if x == subfaction.runemark]):
+                            f.subfaction = subfaction
 
     def write_fighters_to_disk(self, dst: Path = Path(PROJECT_DATA, 'fighters.json')):
         self.validate_data()
         sorted_data = sort_fighters([dict(sorted(x.items())) for x in self.data['fighters']])
-        self._write_json(dst=dst, data=sorted_data)
+        write_json(dst=dst, data=sorted_data)
 
     def _exclude_from_tts(self, fighter: Fighter):
         excluded = False
@@ -94,7 +100,7 @@ class WarbandsJSONDataPayload(DataPayload):
         return tts_data
 
     def write_tts_fighters(self, dst: Path = Path(PROJECT_DATA, 'tts_fighters.json')):
-        self._write_json(dst=dst, data=self.as_tts_format())
+        write_json(dst=dst, data=self.as_tts_format())
 
     def write_fighters_markdown_table(self, dst_root: Path = PROJECT_DATA):
         FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_markdown_table(dst_root=dst_root)
@@ -114,82 +120,68 @@ class WarbandsJSONDataPayload(DataPayload):
         if exclude_battletraits:
             data = [x for x in self.data['abilities'] if x['cost'] != 'battletrait']
         sorted_data = sorted(data, key=lambda d: d['warband'])
-        self._write_json(dst=dst, data=sorted_data)
+        write_json(dst=dst, data=sorted_data)
 
     def write_battletraits_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json')):
         self.validate_data()
         battletraits = [x for x in self.data['abilities'] if x['cost'] == 'battletrait']
         sorted_data = sorted(battletraits, key=lambda d: d['warband'])
-        self._write_json(dst=dst, data=sorted_data)
+        write_json(dst=dst, data=sorted_data)
 
     def write_warbands_to_disk(self, dst: Path = PROJECT_DATA):
-        self.validate_data()
-        old_cities = [
-            'Anvilgard Loyalists',
-            'The Phoenicium',
-            'Greywater Fastness',
-            "Tempest's Eye",
-            'The Living City',
-            'Hallowheart',
-            'Hammerhal'
-        ]
+        # self.validate_data()
 
-        # data is structured as
-        # grand_alliance
-        #  - faction_fighters.json
-        #    - list of fighters (including bladeborn)
-        #  - faction_abilities.json
-        #    - list of abilities (including bladeborn)
-        data_structure = {'universal': {'universal': {'abilities': list()}}}
+        data_structure = {'universal': {'faction': {}, 'fighters': list(), 'abilities': list()}}
+        faction_mapping = {'universal': 'universal'}    # type: dict[str, str]
 
-        # bladeborn -> faction
-        faction_mapping = {'universal': 'universal'}
-        for c in old_cities:
-            faction_mapping[c] = 'Cities of Sigmar'
+        for faction in self.data['factions']:
+            if faction['warband'] not in data_structure.keys():
+                data_structure[faction['warband']] = {'faction': faction, 'fighters': list(), 'abilities': list()}
+            faction_mapping[faction['warband']] = faction['warband']
+            for s in faction['subfactions']:
+                if s['bladeborn']:
+                    faction_mapping[s['runemark']] = faction['warband']
 
         for fighter in self.data['fighters']:
-            ga = fighter['grand_alliance']
-            warband = fighter['warband']
-            bladeborn = fighter['bladeborn']
-
-            if warband in old_cities:
-                warband = 'Cities of Sigmar'
-
-            if ga not in data_structure.keys():
-                data_structure[ga] = dict()
-            if warband not in data_structure[ga].keys():
-                data_structure[ga][warband] = {'fighters': list(), 'abilities': list()}
-            data_structure[ga][warband]['fighters'].append(fighter)
-            # add bladeborn warband to faction mapping to be used by abilities
-            if bladeborn:
-                faction_mapping.update({bladeborn: warband})
-            faction_mapping.update({warband: warband})
+            data_structure[fighter['warband']]['fighters'].append(fighter)
 
         for ability in self.data['abilities']:
             faction = faction_mapping[ability['warband']]
-            ga = None
-            possible_ga = [x for x in data_structure.keys() if faction in data_structure[x].keys()]
-            if len(possible_ga) == 1:
-                ga = possible_ga[0]
-            if not ga:
-                raise RuntimeError(f'unable to identify Grand Alliance for ability: {ability}')
-            data_structure[ga][faction]['abilities'].append(ability)
+            data_structure[faction]['abilities'].append(ability)
 
-        for grand_alliance, warbands in data_structure.items():
-            for warband, content in warbands.items():
+        for warband, warband_data in data_structure.items():
+            for datatype, content in warband_data.items():
+                grand_alliance = 'universal' if warband == 'universal' else warband_data['faction']['grand_alliance']
+                faction_runemark = 'universal' if warband == 'universal' else warband_data['faction']['warband']
 
-                ability_path = Path(dst, grand_alliance, sanitise_filename(f'{warband}_abilities.json'))
-                self._write_json(
-                    dst=ability_path,
-                    data=sorted(content['abilities'], key=lambda d: d['warband'])
-                )
+                if datatype == 'fighters':
+                    for f in content:
+                        if f['bladeborn']:
+                            f['runemarks'].append(f['bladeborn'])
+                        del f['bladeborn']
+                        x = 1
 
-                if warband != 'universal':
-                    fighter_path = Path(dst, grand_alliance, sanitise_filename(f'{warband}_fighters.json'))
-                    self._write_json(
-                        dst=fighter_path,
-                        data=sort_fighters([dict(sorted(x.items())) for x in content['fighters']])
-                    )
+                if faction_runemark == 'universal' and datatype != 'abilities':
+                    continue
+
+                filename = f'{faction_runemark}_{datatype}.json'
+                path_parts = [
+                    p for p in [
+                        dst,
+                        grand_alliance,
+                        sanitise_filename(faction_runemark) if warband != 'universal' else '',
+                        sanitise_filename(filename)
+                    ] if p
+                ]
+                outfile = Path(*path_parts)
+
+                if isinstance(content, list):
+                    print(f'{warband} - writing {len(content)} items to {outfile}')
+                else:
+                    print(f'{warband} - writing {outfile}')
+
+                write_json(dst=outfile, data=content)
+
 
     def write_to_disk(self, dst_root: Path = PROJECT_DATA):
         self.write_fighters_to_disk(Path(dst_root, 'fighters.json'))
@@ -203,7 +195,7 @@ class WarbandsJSONDataPayload(DataPayload):
 
     def write_localised_data(self, loc_file: Path, dst: Path):
         data = sorted(self.get_localisation(patch_file=loc_file), key=lambda d: d['warband'])
-        self._write_json(dst=dst, data=data)
+        write_json(dst=dst, data=data)
 
 
     def get_localisation(self, patch_file: Path, encoding: str = 'latin-1') -> List[dict]:

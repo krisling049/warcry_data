@@ -1,7 +1,8 @@
 from itertools import combinations_with_replacement
 from pathlib import Path
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Optional
 from .abilities import Ability
+from .factions import Faction, SubFaction
 from .models import JSONDataPayload, PROJECT_ROOT
 import json
 import jsonschema
@@ -104,7 +105,6 @@ class Weapon:
 class Fighter:
     def __init__(self, profile: dict):
         self._id = profile['_id']                                   # type: str
-        self.bladeborn = profile['bladeborn']                       # type: str
         self.grand_alliance = profile['grand_alliance']             # type: str
         self.movement = profile['movement']                         # type: int
         self.name = profile['name']                                 # type: str
@@ -116,6 +116,8 @@ class Fighter:
         self.wounds = profile['wounds']                             # type: int
         self._raw_data = profile                                    # type: dict
         self.abilities = list()                                     # type: List[Ability]
+        self.faction = None                                         # type: Optional[Faction]
+        self.subfaction = None                                      # type: Optional[SubFaction]
 
     def __repr__(self):
         return self.name
@@ -127,11 +129,19 @@ class Fighter:
             temp['abilities'] = self.abilities
         return temp
 
-    def is_ally(self, src_fighter = None):
+    def is_ally(self, src_fighter = None) -> bool:
         can_ally = any(['hero' in self.runemarks, 'ally' in self.runemarks])
         if src_fighter:
             return all([can_ally, src_fighter.grand_alliance == self.grand_alliance])
         return can_ally
+
+    def is_bladeborn(self) -> bool:
+        if self.faction and self.faction.bladeborn:
+            return True
+        if self.subfaction and self.subfaction.bladeborn:
+            return True
+        return False
+
 
 
     def dmg_chance(
