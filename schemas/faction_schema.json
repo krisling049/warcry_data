@@ -1,0 +1,60 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"$id": "https://raw.githubusercontent.com/krisling049/warcry_data/main/schemas/faction_schema.json",
+	"type": "object",
+	"title": "Schema for faction data files",
+	"properties": {
+		"_id": {
+			"type": "string",
+			"description": "A unique ID for this faction. In generated from the beginning of a uuid4.",
+			"examples": [
+				"c0fadcc5"
+			]
+		},
+		"grand_alliance": {
+			"type": "string",
+			"description": "The name of the Grand Alliance that this faction belongs to, lowercased.",
+			"examples": [
+				"chaos"
+			]
+		},
+		"runemark": {
+			"type": "string",
+			"description": "The name of the faction runemark",
+			"examples": [
+				"Blades of Khorne: Bloodbound"
+			]
+		},
+		"bladeborn": {
+			"type": "boolean",
+			"description": "True if this faction has a Bladeborn runemark as its runemark, otherwise False"
+		},
+		"heroes_all": {
+			"type": "boolean",
+			"description": "True if this faction/subfaction is subject to a rule similar to the Questor Soulsworn 'Heroes All' rule"
+		},
+		"subfactions": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"runemark": {
+						"type": "string",
+						"description": "The name of the faction runemark",
+						"examples": [
+							"Blades of Khorne: Bloodbound"
+						]
+					},
+					"bladeborn": {
+						"type": "boolean",
+						"description": "True if this faction has a Bladeborn runemark as its runemark, otherwise False"
+					},
+					"heroes_all": {
+						"type": "boolean",
+						"description": "True if this faction/subfaction is subject to a rule similar to the Questor Soulsworn 'Heroes All' rule"
+					}
+				}
+			}
+		}
+	}
+}
