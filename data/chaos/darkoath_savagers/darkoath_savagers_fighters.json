@@ -1,0 +1,283 @@
+[
+    {
+        "_id": "bb6c553d",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Gloryseeker with Greataxe",
+        "points": 65,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "fca5f20c",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Gloryseeker with Paired Weapons",
+        "points": 70,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "3f9e142c",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Gloryseeker with Shield",
+        "points": 70,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "142a930a",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Gloryseeker with Spear",
+        "points": 75,
+        "runemarks": [],
+        "toughness": 3,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "bdbaba1c",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "God-speaker",
+        "points": 105,
+        "runemarks": [
+            "mystic"
+        ],
+        "toughness": 3,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "5895088c",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Wrathtouched",
+        "points": 105,
+        "runemarks": [
+            "berserker"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "8d9ed7ad",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Proven with Greatblade",
+        "points": 115,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "26424ec8",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Proven with Greatflail",
+        "points": 115,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "7cd19807",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Proven with Greatspear",
+        "points": 125,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "10435bcb",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Proven with Greataxe",
+        "points": 130,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "925b24db",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Slaughterborn with Greataxe",
+        "points": 180,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 6
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "3740c412",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Slaughterborn with Greatblade",
+        "points": 180,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Darkoath Savagers",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "wounds": 20
+    }
+]

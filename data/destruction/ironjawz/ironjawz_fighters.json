@@ -1,0 +1,755 @@
+[
+    {
+        "_id": "11e83c0f",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Orruk Ardboy with Ardboy Big Choppa [retired]",
+        "points": 80,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "56d4f9e9",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Orruk Ardboy with Choppas [retired]",
+        "points": 85,
+        "runemarks": [],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "6c9333d1",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Orruk Ardboy with Ardboy Choppa and Orruk-forged Shield [retired]",
+        "points": 80,
+        "runemarks": [],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "dd9a70da",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Ardboy Boss with Ardboy Choppas [retired]",
+        "points": 140,
+        "runemarks": [
+            "hero"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "3ea25444",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Orruk Brute with pair of Brute Choppas",
+        "points": 140,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "44bcd740",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Orruk Brute with Jagged Gore-hacka",
+        "points": 150,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "612b4945",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Orruk Weirdnob Shaman",
+        "points": 170,
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "wounds": 32
+    },
+    {
+        "_id": "da0c7a68",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Orruk Brute with Gore-Choppa",
+        "points": 175,
+        "runemarks": [
+            "brute"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "e28a97d5",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Orruk Warchanter",
+        "points": 180,
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 32
+    },
+    {
+        "_id": "e5cf6edc",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Brute Boss with Boss Choppa",
+        "points": 200,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 6
+            }
+        ],
+        "wounds": 30
+    },
+    {
+        "_id": "1e64b938",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Brute Boss with Boss Klaw and Brute Smasha",
+        "points": 205,
+        "runemarks": [
+            "hero",
+            "brute",
+            "berserker"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "wounds": 30
+    },
+    {
+        "_id": "95a5ddff",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Orruk Megaboss",
+        "points": 225,
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 6
+            }
+        ],
+        "wounds": 35
+    },
+    {
+        "_id": "8838ae10",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "name": "Orruk Gore-Grunta with Jagged Gore-Hacka",
+        "points": 245,
+        "runemarks": [
+            "ferocious",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "wounds": 35
+    },
+    {
+        "_id": "521ead0e",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "name": "Orruk Gore-Grunta with Pig-iron Choppa",
+        "points": 250,
+        "runemarks": [
+            "ferocious",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 35
+    },
+    {
+        "_id": "bfcbe715",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "name": "Gore-grunta Boss with Jagged Gore-hacka",
+        "points": 275,
+        "runemarks": [
+            "hero",
+            "ferocious",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 6
+            }
+        ],
+        "wounds": 40
+    },
+    {
+        "_id": "6d3c693f",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "name": "Gore-Grunta Boss with Pig-iron Choppa",
+        "points": 300,
+        "runemarks": [
+            "hero",
+            "ferocious",
+            "mount"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 40
+    },
+    {
+        "_id": "ab166f67",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Basha",
+        "points": 105,
+        "runemarks": [
+            "Ironskull's Boyz"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 16
+    },
+    {
+        "_id": "23103be7",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Hakka",
+        "points": 110,
+        "runemarks": [
+            "Ironskull's Boyz"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 16
+    },
+    {
+        "_id": "19aa2fa5",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Bonekutta",
+        "points": 100,
+        "runemarks": [
+            "Ironskull's Boyz"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 16
+    },
+    {
+        "_id": "5bf1a2a8",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Gurzag Ironskull",
+        "points": 175,
+        "runemarks": [
+            "hero",
+            "Ironskull's Boyz"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 26
+    },
+    {
+        "_id": "5a630853",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Thugg",
+        "points": 145,
+        "runemarks": [
+            "brute",
+            "Morgok's Krushas"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 26
+    },
+    {
+        "_id": "cdb42889",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "'Ardskull",
+        "points": 165,
+        "runemarks": [
+            "brute",
+            "Morgok's Krushas"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 6
+            }
+        ],
+        "wounds": 26
+    },
+    {
+        "_id": "034336b3",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Morgok",
+        "points": 220,
+        "runemarks": [
+            "brute",
+            "hero",
+            "Morgok's Krushas"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "wounds": 35
+    },
+    {
+        "_id": "27491f65",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Ardboy With Choppa",
+        "points": 100,
+        "runemarks": [
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "f48c1b61",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Ardboy With Stikka",
+        "points": 100,
+        "runemarks": [
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "2dd266be",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Ardboy Boss With Choppa",
+        "points": 145,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "57b116d4",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Ardboy Boss With Stikka",
+        "points": 140,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "9bc8ac77",
+        "grand_alliance": "destruction",
+        "movement": 3,
+        "name": "Ardboy Big Boss",
+        "points": 175,
+        "runemarks": [
+            "hero",
+            "bulwark",
+            "icon-bearer"
+        ],
+        "toughness": 5,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "41c7e23f",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Brute Rager",
+        "points": 145,
+        "runemarks": [
+            "destroyer"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 6
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "69c2e9bf",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Brute Wrekka",
+        "points": 175,
+        "runemarks": [
+            "terrifying"
+        ],
+        "toughness": 4,
+        "warband": "Ironjawz",
+        "weapons": [
+            {
+                "attacks": 6,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    }
+]

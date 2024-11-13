@@ -1,0 +1,78 @@
+[
+    {
+        "_id": "7fb58601",
+        "name": "Ancient Aura",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when an enemy fighter within 6\" of them uses an ability. Roll a dice. Add 2 to the roll if this fighter has a Memorian token, then remove that token. If the roll equals or exceeds the value of that ability, that ability has no effect.",
+        "runemarks": []
+    },
+    {
+        "_id": "dd34ee2e",
+        "name": "Lightning-scoured Soul",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "double",
+        "description": "This fighter gains a number of ruination dice equal to the value of this ability for the rest of the battle round. Each time this fighter is allocated a damage point, you can roll 1 of their ruination dice. On a 3+, that damage point is not allocated to this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "51c47928",
+        "name": "Through Darkened Skies",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "double",
+        "description": "Remove this fighter from the battlefield, then set them up on a platform or the battlefield floor, more than 5\" from all enemy fighters.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "a6d486d3",
+        "name": "Memories of Past Glories",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "double",
+        "description": "You can give this fighter 1 Memorian token, to a maximum of 1. Until the end of their activation, add 1 to the Move characteristic of this fighter and add half the value of this ability (rounding up) to the Strength characteristics of melee attack actions made by this fighter.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "aadaee1b",
+        "name": "Sense Unholy Sorcery",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "triple",
+        "description": "For the rest of the battle round, the value of abilities used by enemy fighters within a number of inches of this fighter equal to the value of this ability is 1. If there is a friendly Gryph-crow within 6\" of this fighter, the range of this ability is battlefield-wide.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "6f2ab7ef",
+        "name": "Earn an Honourable Death",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "triple",
+        "description": "You can give this fighter 1 Memorian token, to a maximum of 1. Pick one or more friendly fighters with the Ruination Chamber runemark that each have 5 or more damage points allocated to them and are visible to this fighter. Those friendly fighters can each make a bonus attack action.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "376fe5fd",
+        "name": "Blazing Lantern",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "triple",
+        "description": "For the rest of the battle round, critical hits for attacks made by enemy fighters visible to this fighter and within a number of inches of this fighter equal to the value of this ability become hits instead.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "26e558db",
+        "name": "Deliver Judgement",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "cost": "quad",
+        "description": "Pick a visible friendly fighter with the Ruination Chamber runemark that has activated this battle round and that is within 6\" of this fighter. You cannot pick a fighter with the Hero runemark. That fighter can be activated once more later in this combat phase.",
+        "runemarks": [
+            "mount"
+        ]
+    }
+]

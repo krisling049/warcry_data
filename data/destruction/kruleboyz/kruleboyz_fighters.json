@@ -1,0 +1,667 @@
+[
+    {
+        "_id": "7564ac24",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Pot-grot",
+        "points": 45,
+        "runemarks": [
+            "destroyer"
+        ],
+        "toughness": 3,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 2
+            }
+        ],
+        "wounds": 6
+    },
+    {
+        "_id": "8dbddf23",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Stab-grot",
+        "points": 45,
+        "runemarks": [
+            "minion",
+            "bulwark"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 2
+            }
+        ],
+        "wounds": 6
+    },
+    {
+        "_id": "c355ca81",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Hobgrot Slitta",
+        "points": 70,
+        "runemarks": [
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 5,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "a364cddf",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Gutrippa with Wicked Hacka",
+        "points": 75,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "2a22ee6d",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Gutrippa with Wicked Stikka",
+        "points": 75,
+        "runemarks": [
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "5a46c16d",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Hobgrot Boss",
+        "points": 75,
+        "runemarks": [
+            "champion",
+            "minion"
+        ],
+        "toughness": 3,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 5,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "a816d256",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Man-skewer Boltboy",
+        "points": 120,
+        "runemarks": [
+            "warrior",
+            "trapper"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "6e6e51a6",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Gutrippa Boss with Mace and Sword",
+        "points": 140,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "874305e9",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Gutrippa Boss with Wicked Stikka",
+        "points": 145,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "toughness": 5,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "757c2767",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Murknob with Belcha-banna",
+        "points": 145,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "icon-bearer"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "ccd102cd",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Swampcalla Shaman",
+        "points": 165,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "mystic"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "bbe9be70",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Boltboy Boss",
+        "points": 170,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "trapper"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "37c85f74",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Killaboss with Boss-Hacka and Skareshield",
+        "points": 180,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "berserker"
+        ],
+        "toughness": 5,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "bed9b520",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Killaboss with Boss-Hacka and Rusting Flail",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "berserker"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "ed4c54f2",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "name": "Killaboss on Great Gnashtoof",
+        "points": 330,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "mount"
+        ],
+        "toughness": 5,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "wounds": 38
+    },
+    {
+        "_id": "4ef8d2c0",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Gikkit",
+        "points": 50,
+        "runemarks": [
+            "minion",
+            "warrior",
+            "Da Kunnin' Krew"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 2
+            }
+        ],
+        "wounds": 6
+    },
+    {
+        "_id": "6a8bd69c",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Shank",
+        "points": 55,
+        "runemarks": [
+            "minion",
+            "scout",
+            "Da Kunnin' Krew"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 2
+            }
+        ],
+        "wounds": 6
+    },
+    {
+        "_id": "80b811c5",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Krookgrin",
+        "points": 80,
+        "runemarks": [
+            "champion",
+            "minion",
+            "Da Kunnin' Krew"
+        ],
+        "toughness": 3,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 5,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "c022ab40",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Torka Tuffskul",
+        "points": 125,
+        "runemarks": [
+            "warrior",
+            "scout",
+            "Da Kunnin' Krew"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "8f7dbf1c",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Mannok Da Kunnin'",
+        "points": 185,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "Da Kunnin' Krew"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "bident",
+                "strength": 4
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "a854fb09",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Daggok Finksteala",
+        "points": 175,
+        "runemarks": [
+            "hero",
+            "warrior",
+            "Daggok's Stab-ladz"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "7bf86ba6",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Jagz da Bleeda",
+        "points": 90,
+        "runemarks": [
+            "frenzied",
+            "warrior",
+            "Daggok's Stab-ladz"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "c5c1fbc0",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Hurrk da Howla",
+        "points": 75,
+        "runemarks": [
+            "icon-bearer",
+            "warrior",
+            "Daggok's Stab-ladz"
+        ],
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 15
+    },
+    {
+        "_id": "8e9ba58e",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Grakk da Hook",
+        "points": 130,
+        "runemarks": [
+            "brute",
+            "warrior",
+            "Daggok's Stab-ladz"
+        ],
+        "toughness": 3,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "hook",
+                "strength": 5
+            }
+        ],
+        "wounds": 15
+    }
+]

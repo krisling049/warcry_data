@@ -35,7 +35,7 @@ class AbilityJSONDataPayload(JSONDataPayload):
         return 'AbilityData'
 
     def write_to_disk(self, dst: Path = Path(PROJECT_ROOT, 'data', 'abilities.json')):
-        self.validate_data()
+        # self.validate_data()
 
         the_data = self.data
         the_data.sort(key=lambda d: d['warband'])

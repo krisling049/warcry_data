@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List, Tuple, Dict, Optional
 from .abilities import Ability
 from .factions import Faction, SubFaction
-from .models import JSONDataPayload, PROJECT_ROOT
+from .models import JSONDataPayload, PROJECT_ROOT, write_json
 import json
 import jsonschema
 import pandas as pd
@@ -18,7 +18,7 @@ def sort_fighters(data_to_sort: List[Dict]) -> List[Dict]:
         key=lambda x: (
             x['grand_alliance'],
             x['warband'],
-            x['bladeborn'],
+            # x['bladeborn'],
             x['points']
         )
     )
@@ -36,7 +36,7 @@ class Weapon:
         self.min_range = w_dict['min_range']                                                    # type: int
         self.runemark = w_dict['runemark']                                                      # type: str
         self.strength = w_dict['strength']                                                      # type: int
-        self._dmg_rolls = self.damage_rolls()                                                    # type: List[Tuple[int, ...]]
+        self._dmg_rolls = self.damage_rolls()                                                   # type: List[Tuple[int, ...]]
         self.avg_dmg_vs_lower, self.avg_dmg_vs_same, self.avg_dmg_vs_higher = self.avg_dmgs()   # type: float
 
     def __repr__(self):
@@ -105,15 +105,15 @@ class Weapon:
 class Fighter:
     def __init__(self, profile: dict):
         self._id = profile['_id']                                   # type: str
-        self.grand_alliance = profile['grand_alliance']             # type: str
-        self.movement = profile['movement']                         # type: int
         self.name = profile['name']                                 # type: str
+        self.grand_alliance = profile['grand_alliance']             # type: str
+        self.warband = profile['warband']                           # type: str
+        self.movement = profile['movement']                         # type: int
+        self.toughness = profile['toughness']                       # type: int
+        self.wounds = profile['wounds']                             # type: int
         self.points = profile['points']                             # type: int
         self.runemarks = profile['runemarks']                       # type: List[str]
-        self.toughness = profile['toughness']                       # type: int
-        self.warband = profile['warband']                           # type: str
         self.weapons = [Weapon(x) for x in profile['weapons']]      # type: List[Weapon]
-        self.wounds = profile['wounds']                             # type: int
         self._raw_data = profile                                    # type: dict
         self.abilities = list()                                     # type: List[Ability]
         self.faction = None                                         # type: Optional[Faction]
@@ -128,6 +128,18 @@ class Fighter:
             # this indicates tts-format abilities
             temp['abilities'] = self.abilities
         return temp
+
+    def legacy_format(self) -> dict:
+        temp = self.as_dict()
+        temp['bladeborn'] = self.subfaction.runemark if self.subfaction and self.subfaction.bladeborn else ''
+        if temp['bladeborn']:
+            temp['runemarks'].remove(self.subfaction.runemark)
+        return temp
+
+    def subfaction_runemark(self) -> Optional[str]:
+        if self.subfaction:
+            return self.subfaction.runemark
+        return None
 
     def is_ally(self, src_fighter = None) -> bool:
         can_ally = any(['hero' in self.runemarks, 'ally' in self.runemarks])
@@ -266,7 +278,7 @@ class FighterJSONDataPayload(JSONDataPayload):
         return data
 
     def write_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
-        self.validate_data()
+        # self.validate_data()
         sorted_data = [dict(sorted(x.items())) for x in self.data]
         with open(dst, 'w') as nf:
             print(f'Writing {len(self.data)} fighters to {dst}...')
@@ -287,6 +299,23 @@ class FighterJSONDataPayload(JSONDataPayload):
             del fighter['weapons']
 
         return pd.DataFrame(temp_data)
+
+    def write_legacy_format(self, dst_root: Path = Path(PROJECT_ROOT, 'data')):
+        out_file = dst_root / 'fighters_legacy.json'
+        to_write = [x.legacy_format() for x in self.fighters.fighters]
+        for f in to_write:
+            f['weapons'] = sorted(f['weapons'], key=lambda x: x['max_range'])
+        to_write = sorted(
+            to_write,
+            key=lambda x: (
+                x['grand_alliance'],
+                x['warband'],
+                x['bladeborn'],
+                x['points']
+            )
+        )
+        print(f'writing {len(to_write)} items to {out_file.absolute()}')
+        write_json(dst=out_file, data=to_write)
 
     def write_xlsx(self, dst_root: Path = Path(PROJECT_ROOT, 'data')):
         out_file = Path(dst_root, 'fighters.xlsx')

@@ -1,0 +1,164 @@
+[
+    {
+        "_id": "32ae9085",
+        "name": "Charge!",
+        "warband": "Ironjawz",
+        "cost": "double",
+        "description": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "06a33891",
+        "name": "Duff Up Da Big Thing",
+        "warband": "Ironjawz",
+        "cost": "double",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter that target an enemy fighter with a Wounds characteristic of 15 or more.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "3a23c80f",
+        "name": "You Messin'",
+        "warband": "Ironjawz",
+        "cost": "triple",
+        "description": "Until control of objectives has been determined at the end of the battle round, enemy fighters with a Wounds characteristic of 14 or less are not counted when determining which player controls an objective within 3\" of this fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "aecd0a65",
+        "name": "Warchanter's Beat",
+        "warband": "Ironjawz",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by other friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "4f9b5078",
+        "name": "Da Grab an' Bash",
+        "warband": "Ironjawz",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions. In addition, on a roll of 6, this fighter can make a bonus attack action that targets that enemy fighter.",
+        "runemarks": [
+            "hero",
+            "berserker"
+        ]
+    },
+    {
+        "_id": "19680c71",
+        "name": "Foot of Gork",
+        "warband": "Ironjawz",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 12\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 3-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 3 damage points to that fighter.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
+        "_id": "9b0f513f",
+        "name": "Gore-grunta Charge",
+        "warband": "Ironjawz",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "cb771b64",
+        "name": "Waaagh!",
+        "warband": "Ironjawz",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "da50dd2f",
+        "name": "Mighty Waaagh!",
+        "warband": "Ironjawz",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add 3 to the Move characteristic of friendly fighters while they make a move action that starts within 9\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
+    },
+    {
+        "_id": "24ef0a67",
+        "name": "Rampaging Destroyer",
+        "warband": "Ironjawz",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, add 1 to the Attacks characteristic of attack actions made by this fighter. In addition, until the end of this fighter's activation, after an enemy fighter is taken down by an attack action made by this fighter, this fighter can make a bonus move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "2531bf9c",
+        "name": "Get Stuck In",
+        "warband": "Ironjawz",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter within 3\" of this fighter. That fighter makes a bonus move action. After that move action that fighter must be within 1\" of the enemy fighter that made the move action.",
+        "runemarks": []
+    },
+    {
+        "_id": "ce54fd3b",
+        "name": "Enough Messin'",
+        "warband": "Ironjawz",
+        "cost": "battletrait",
+        "description": "Each time an enemy fighter makes a wait action, each player whose warband has this battle trait can pick one friendly fighter. That fighter makes a bonus move action of up to 3\".",
+        "runemarks": []
+    },
+    {
+        "_id": "928413af",
+        "name": "Dead 'Ard",
+        "warband": "Ironskull's Boyz",
+        "cost": "double",
+        "description": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target this figther.",
+        "runemarks": []
+    },
+    {
+        "_id": "0c289874",
+        "name": "Beastbashas",
+        "warband": "Morgok's Krushas",
+        "cost": "triple",
+        "description": "A fighter can use this ability only if the yare within 1\" of a visible enemy fighter with the Gargantuan runemark.  This fighter can make a bonus attack action that targets that fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "cc3769ad",
+        "name": "You Ain't That Big",
+        "warband": "Ironjawz",
+        "cost": "double",
+        "description": "The following apply to this fighter's next melee attack action if the target has a higher Wounds characteristic than this fighter or has the Hero runemark: • Add 2 to the Attacks characteristic of that attack action. • Critical hits are scored on a 5+ for that attack action.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "bb4f9fa3",
+        "name": "Berserk Whirlwind",
+        "warband": "Ironjawz",
+        "cost": "double",
+        "description": "Allocate a number of damage points equal to half the value of this ability (rounding up) to each visible enemy fighter within 3\" of this fighter.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "966d5766",
+        "name": "Shield Smash",
+        "warband": "Ironjawz",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 1\" of this fighter to be the target. The target moves 3\" directly away from this fighter as if they were jumping, even if they are within 1\" of any enemy fighters. In addition, if this fighter is within 6\" of a friendly fighter with the Ironjawz runemark and the Icon Bearer runemark, allocate a number of damage points to the target equal to the value of this ability.",
+        "runemarks": [
+            "bulwark"
+        ]
+    }
+]
