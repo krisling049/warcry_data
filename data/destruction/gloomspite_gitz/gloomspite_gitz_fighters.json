@@ -1,15 +1,13 @@
 [
     {
         "_id": "2ae1f047",
+        "name": "Squig Herder",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Squig Herder",
-        "points": 55,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -21,19 +19,20 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "agile"
+        ],
+        "points": 55
     },
     {
         "_id": "62a28eb9",
+        "name": "Stabba with Barbed Net",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Stabba with Barbed Net",
-        "points": 55,
-        "runemarks": [
-            "trapper"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -45,17 +44,20 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 55
     },
     {
         "_id": "c6ca17ad",
+        "name": "Stabba with Pokin' Spear and Moon Shield",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Stabba with Pokin' Spear and Moon Shield",
-        "points": 55,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 2,
@@ -67,17 +69,18 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
+        "runemarks": [],
+        "points": 55
     },
     {
         "_id": "3e1236e8",
+        "name": "Stabba with Stabba and Moon Shield",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Stabba with Stabba and Moon Shield",
-        "points": 55,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -89,17 +92,18 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
+        "runemarks": [],
+        "points": 55
     },
     {
         "_id": "0b7a7d3c",
+        "name": "Sneaky Snuffler",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Sneaky Snuffler",
-        "points": 65,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -111,20 +115,18 @@
                 "strength": 2
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 65
     },
     {
         "_id": "deeef752",
+        "name": "Boggleye",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Boggleye",
-        "points": 70,
-        "runemarks": [
-            "ally",
-            "berserker"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -136,20 +138,21 @@
                 "strength": 2
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "ally",
+            "berserker"
+        ],
+        "points": 70
     },
     {
         "_id": "90fd9264",
+        "name": "Brewgit",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Brewgit",
-        "points": 90,
-        "runemarks": [
-            "ally",
-            "bulwark"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -161,17 +164,21 @@
                 "strength": 2
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "ally",
+            "bulwark"
+        ],
+        "points": 90
     },
     {
         "_id": "f8991498",
+        "name": "Shoota",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Shoota",
-        "points": 75,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -192,20 +199,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 6
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "36434f81",
+        "name": "Spiker",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Spiker",
-        "points": 75,
-        "runemarks": [
-            "ally",
-            "sentience"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -217,19 +222,21 @@
                 "strength": 2
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "ally",
+            "sentience"
+        ],
+        "points": 75
     },
     {
         "_id": "9fe09a30",
+        "name": "Cave Squig",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Cave Squig",
-        "points": 80,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -241,20 +248,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "beast"
+        ],
+        "points": 80
     },
     {
         "_id": "f97d9e55",
+        "name": "Shroomancer",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Shroomancer",
-        "points": 85,
-        "runemarks": [
-            "ally",
-            "frenzied"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 3,
@@ -266,20 +273,21 @@
                 "strength": 2
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "ally",
+            "frenzied"
+        ],
+        "points": 85
     },
     {
         "_id": "065fb829",
+        "name": "Scaremonger",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Scaremonger",
-        "points": 90,
-        "runemarks": [
-            "ally",
-            "terrifying"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -291,20 +299,21 @@
                 "strength": 2
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "ally",
+            "terrifying"
+        ],
+        "points": 90
     },
     {
         "_id": "6e3049bf",
+        "name": "Sporesplatta Fanatic",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 5,
-        "name": "Sporesplatta Fanatic",
-        "points": 100,
-        "runemarks": [
-            "elite",
-            "scout"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -316,19 +325,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "elite",
+            "scout"
+        ],
+        "points": 100
     },
     {
         "_id": "bc47abdc",
+        "name": "Moonclan Boss",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Moonclan Boss",
-        "points": 110,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -340,19 +351,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "hero"
+        ],
+        "points": 110
     },
     {
         "_id": "058bed50",
+        "name": "Loonsmasha Fanatic",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 5,
-        "name": "Loonsmasha Fanatic",
-        "points": 115,
-        "runemarks": [
-            "elite"
-        ],
         "toughness": 5,
-        "warband": "Gloomspite Gitz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -364,20 +376,55 @@
                 "strength": 4
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "elite"
+        ],
+        "points": 115
     },
     {
         "_id": "2bf8f664",
+        "name": "Fungoid Cave-Shaman",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Fungoid Cave-Shaman",
-        "points": 125,
+        "toughness": 3,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
         "runemarks": [
             "hero",
             "mystic"
         ],
-        "toughness": 3,
+        "points": 125
+    },
+    {
+        "_id": "5ee7cd6d",
+        "name": "Webspinner Shaman",
         "warband": "Gloomspite Gitz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 3,
@@ -398,54 +445,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
-    },
-    {
-        "_id": "5ee7cd6d",
-        "grand_alliance": "destruction",
-        "movement": 4,
-        "name": "Webspinner Shaman",
-        "points": 125,
         "runemarks": [
             "hero",
             "priest"
         ],
-        "toughness": 3,
-        "warband": "Gloomspite Gitz",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 3
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 7,
-                "min_range": 3,
-                "runemark": "blast",
-                "strength": 3
-            }
-        ],
-        "wounds": 16
+        "points": 125
     },
     {
         "_id": "55d50942",
+        "name": "Loonboss",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Loonboss",
-        "points": 135,
-        "runemarks": [
-            "hero",
-            "champion"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -457,19 +471,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "points": 135
     },
     {
         "_id": "4bd7d1ce",
+        "name": "Spider Rider",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 10,
-        "name": "Spider Rider",
-        "points": 145,
-        "runemarks": [
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -490,20 +506,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 145
     },
     {
         "_id": "16a08cca",
+        "name": "Spider Rider Boss",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 10,
-        "name": "Spider Rider Boss",
-        "points": 185,
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -524,20 +540,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 185
     },
     {
         "_id": "16d85e5e",
+        "name": "Boingrot Bounder",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Boingrot Bounder",
-        "points": 190,
-        "runemarks": [
-            "elite",
-            "fly"
-        ],
         "toughness": 5,
-        "warband": "Gloomspite Gitz",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -549,20 +566,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
-    },
-    {
-        "_id": "f0e68c6e",
-        "grand_alliance": "destruction",
-        "movement": 10,
-        "name": "Squig Hopper",
-        "points": 200,
         "runemarks": [
             "elite",
             "fly"
         ],
-        "toughness": 4,
+        "points": 190
+    },
+    {
+        "_id": "f0e68c6e",
+        "name": "Squig Hopper",
         "warband": "Gloomspite Gitz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -574,21 +592,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "elite",
+            "fly"
+        ],
+        "points": 200
     },
     {
         "_id": "8094293b",
+        "name": "Bounder Boss",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Bounder Boss",
-        "points": 245,
-        "runemarks": [
-            "fly",
-            "hero",
-            "elite"
-        ],
         "toughness": 5,
-        "warband": "Gloomspite Gitz",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -600,46 +618,48 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "fly",
+            "hero",
+            "elite"
+        ],
+        "points": 245
     },
     {
         "_id": "8ab3d86a",
+        "name": "Scuttleboss",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 10,
-        "name": "Scuttleboss",
-        "points": 245,
+        "toughness": 4,
+        "wounds": 26,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
         "runemarks": [
             "hero",
             "destroyer"
         ],
-        "toughness": 4,
-        "warband": "Gloomspite Gitz",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 4
-            }
-        ],
-        "wounds": 26
+        "points": 245
     },
     {
         "_id": "6aff7fa3",
+        "name": "Squig Hopper Boss",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 10,
-        "name": "Squig Hopper Boss",
-        "points": 255,
-        "runemarks": [
-            "fly",
-            "hero",
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -651,21 +671,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
-    },
-    {
-        "_id": "e08454b0",
-        "grand_alliance": "destruction",
-        "movement": 8,
-        "name": "Loonboss on Giant Cave Squig",
-        "points": 285,
         "runemarks": [
             "fly",
             "hero",
             "elite"
         ],
-        "toughness": 5,
+        "points": 255
+    },
+    {
+        "_id": "e08454b0",
+        "name": "Loonboss on Giant Cave Squig",
         "warband": "Gloomspite Gitz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 26,
         "weapons": [
             {
                 "attacks": 4,
@@ -677,20 +698,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 26
+        "runemarks": [
+            "fly",
+            "hero",
+            "elite"
+        ],
+        "points": 285
     },
     {
         "_id": "1565a04c",
+        "name": "Rabble-Rowza",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Rabble-Rowza",
-        "points": 130,
-        "runemarks": [
-            "hero",
-            "sentience"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 5,
@@ -702,20 +725,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "hero",
+            "sentience"
+        ],
+        "points": 130
     },
     {
         "_id": "9dd13a32",
+        "name": "Squigboss with Gnasha-Squig",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Squigboss with Gnasha-Squig",
-        "points": 135,
-        "runemarks": [
-            "hero",
-            "brute"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 3,
@@ -727,20 +751,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 135
     },
     {
         "_id": "7cc958a6",
+        "name": "Snarlfang Rider Gitboss",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 10,
-        "name": "Snarlfang Rider Gitboss",
-        "points": 215,
-        "runemarks": [
-            "hero",
-            "scout"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -761,19 +786,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "scout"
+        ],
+        "points": 215
     },
     {
         "_id": "a12b0b25",
+        "name": "Snarlfang Rider",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 10,
-        "name": "Snarlfang Rider",
-        "points": 175,
-        "runemarks": [
-            "scout"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -794,19 +821,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "scout"
+        ],
+        "points": 175
     },
     {
         "_id": "3050f851",
+        "name": "Moonface Naggz",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Grinkrak's Looncourt",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Moonface Naggz",
-        "points": 60,
-        "runemarks": [
-            "Grinkrak's Looncourt"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -818,19 +846,18 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
+        "runemarks": [],
+        "points": 60
     },
     {
         "_id": "63a80e3a",
+        "name": "Pointy Burk",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Grinkrak's Looncourt",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Pointy Burk",
-        "points": 60,
-        "runemarks": [
-            "Grinkrak's Looncourt"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 2,
@@ -842,20 +869,18 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
+        "runemarks": [],
+        "points": 60
     },
     {
         "_id": "0fb5dce6",
+        "name": "Snorbo da Spore",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Grinkrak's Looncourt",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Snorbo da Spore",
-        "points": 70,
-        "runemarks": [
-            "icon-bearer",
-            "Grinkrak's Looncourt"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -876,19 +901,20 @@
                 "strength": 1
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "icon-bearer"
+        ],
+        "points": 70
     },
     {
         "_id": "f9b49756",
+        "name": "Pokin' Snark",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Grinkrak's Looncourt",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Pokin' Snark",
-        "points": 100,
-        "runemarks": [
-            "Grinkrak's Looncourt"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -900,19 +926,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 100
     },
     {
         "_id": "c0957f12",
+        "name": "Skolko and Pronk",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Grinkrak's Looncourt",
         "grand_alliance": "destruction",
         "movement": 3,
-        "name": "Skolko and Pronk",
-        "points": 115,
-        "runemarks": [
-            "Grinkrak's Looncourt"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -933,21 +958,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 115
     },
     {
         "_id": "3dae13ee",
+        "name": "Grinkrak the Great",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Grinkrak's Looncourt",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Grinkrak the Great",
-        "points": 140,
-        "runemarks": [
-            "hero",
-            "champion",
-            "Grinkrak's Looncourt"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -959,21 +981,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "points": 140
     },
     {
         "_id": "e775a7b2",
+        "name": "Grib Da Wonky Lance",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Grinkrak's Looncourt",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Grib Da Wonky Lance",
-        "points": 195,
-        "runemarks": [
-            "fly",
-            "elite",
-            "Grinkrak's Looncourt"
-        ],
         "toughness": 5,
-        "warband": "Gloomspite Gitz",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -985,21 +1007,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "fly",
+            "elite"
+        ],
+        "points": 195
     },
     {
         "_id": "5a30c245",
+        "name": "Bat Squig",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Mollog's Mob",
         "grand_alliance": "destruction",
         "movement": 6,
-        "name": "Bat Squig",
-        "points": 170,
-        "runemarks": [
-            "beast",
-            "fly",
-            "Mollog's Mob"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -1011,20 +1033,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "beast",
+            "fly"
+        ],
+        "points": 170
     },
     {
         "_id": "0944de05",
+        "name": "Mollog the Mighty",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Mollog's Mob",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Mollog the Mighty",
-        "points": 290,
-        "runemarks": [
-            "hero",
-            "Mollog's Mob"
-        ],
         "toughness": 5,
-        "warband": "Gloomspite Gitz",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 2,
@@ -1036,20 +1059,20 @@
                 "strength": 6
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "hero"
+        ],
+        "points": 290
     },
     {
         "_id": "8e26ae1f",
+        "name": "Stabbit",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Rippa's Snarlfangs",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Stabbit",
-        "points": 115,
-        "runemarks": [
-            "mount",
-            "Rippa's Snarlfangs"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -1061,20 +1084,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "mount"
+        ],
+        "points": 115
     },
     {
         "_id": "219f8c18",
+        "name": "Mean-eye",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Rippa's Snarlfangs",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Mean-eye",
-        "points": 130,
-        "runemarks": [
-            "mount",
-            "Rippa's Snarlfangs"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 2,
@@ -1095,21 +1118,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "mount"
+        ],
+        "points": 130
     },
     {
         "_id": "2453d9f7",
+        "name": "Rippa Narkbad",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Rippa's Snarlfangs",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Rippa Narkbad",
-        "points": 180,
-        "runemarks": [
-            "hero",
-            "mount",
-            "Rippa's Snarlfangs"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -1121,20 +1143,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 180
     },
     {
         "_id": "8908bfd2",
+        "name": "Prog Da Netter",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Zarbag's Gitz",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Prog Da Netter",
-        "points": 65,
-        "runemarks": [
-            "trapper",
-            "Zarbag's Gitz"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -1146,19 +1169,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 65
     },
     {
         "_id": "03760978",
+        "name": "Zarbag's Gitz Shoota",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Zarbag's Gitz",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Zarbag's Gitz Shoota",
-        "points": 85,
-        "runemarks": [
-            "Zarbag's Gitz"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -1179,20 +1203,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 85
     },
     {
         "_id": "d1abc2a9",
+        "name": "Drizgit da Squig Herder",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Zarbag's Gitz",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Drizgit da Squig Herder",
-        "points": 90,
-        "runemarks": [
-            "agile",
-            "Zarbag's Gitz"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -1204,20 +1226,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "agile"
+        ],
+        "points": 90
     },
     {
         "_id": "0dd373c0",
+        "name": "Snirk Sourtongue",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Zarbag's Gitz",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Snirk Sourtongue",
-        "points": 130,
-        "runemarks": [
-            "frenzied",
-            "Zarbag's Gitz"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -1229,20 +1251,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "frenzied"
+        ],
+        "points": 130
     },
     {
         "_id": "a8f379d9",
+        "name": "Zarbag",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Zarbag's Gitz",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Zarbag",
-        "points": 125,
-        "runemarks": [
-            "hero",
-            "Zarbag's Gitz"
-        ],
         "toughness": 3,
-        "warband": "Gloomspite Gitz",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 3,
@@ -1263,20 +1285,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "hero"
+        ],
+        "points": 125
     },
     {
         "_id": "0d6a8a6a",
+        "name": "Zarbag's Gitz Squig",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Zarbag's Gitz",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Zarbag's Gitz Squig",
-        "points": 140,
-        "runemarks": [
-            "beast",
-            "Zarbag's Gitz"
-        ],
         "toughness": 4,
-        "warband": "Gloomspite Gitz",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -1288,6 +1310,9 @@
                 "strength": 5
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "beast"
+        ],
+        "points": 140
     }
 ]

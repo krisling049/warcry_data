@@ -4,11 +4,13 @@ import uuid
 from copy import deepcopy
 from pathlib import Path
 from typing import List, Dict
+
 import jsonschema
+
 from .abilities import Ability
-from .fighters import sort_fighters, Fighter, Fighters, FighterJSONDataPayload
 from .factions import Factions
-from .models import DataPayload, PROJECT_DATA, PROJECT_ROOT, sanitise_filename, write_json
+from .fighters import sort_fighters, Fighter, Fighters, FighterJSONDataPayload
+from .models import DataPayload, PROJECT_DATA, PROJECT_ROOT, sanitise_filename, write_data_json
 
 
 class WarbandsJSONDataPayload(DataPayload):
@@ -25,7 +27,7 @@ class WarbandsJSONDataPayload(DataPayload):
         super().__init__(src, schema, src_format)
         self.fighters = Fighters(self.data['fighters'])
         self.abilities = [Ability(x) for x in self.data['abilities']]
-        self.factions = Factions(self.data['factions'])
+        self.factions = Factions(self.data['factions'])     # type: Factions
         self.assign_factions()
         self.assign_abilities()
 
@@ -82,7 +84,7 @@ class WarbandsJSONDataPayload(DataPayload):
     def write_fighters_to_disk(self, dst: Path = Path(PROJECT_DATA, 'fighters.json')):
         # self.validate_data()
         sorted_data = sort_fighters([dict(sorted(x.items())) for x in self.data['fighters']])
-        write_json(dst=dst, data=sorted_data)
+        write_data_json(dst=dst, data=sorted_data)
 
     def _exclude_from_tts(self, fighter: Fighter):
         excluded = False
@@ -104,7 +106,7 @@ class WarbandsJSONDataPayload(DataPayload):
         FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_legacy_format(dst_root=dst_root)
 
     def write_tts_fighters(self, dst: Path = Path(PROJECT_DATA, 'tts_fighters.json')):
-        write_json(dst=dst, data=self.as_tts_format())
+        write_data_json(dst=dst, data=self.as_tts_format())
 
     def write_fighters_markdown_table(self, dst_root: Path = PROJECT_DATA):
         FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_markdown_table(dst_root=dst_root)
@@ -124,13 +126,13 @@ class WarbandsJSONDataPayload(DataPayload):
         if exclude_battletraits:
             data = [x for x in self.data['abilities'] if x['cost'] != 'battletrait']
         sorted_data = sorted(data, key=lambda d: d['warband'])
-        write_json(dst=dst, data=sorted_data)
+        write_data_json(dst=dst, data=sorted_data)
 
     def write_battletraits_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json')):
         # self.validate_data()
         battletraits = [x for x in self.data['abilities'] if x['cost'] == 'battletrait']
         sorted_data = sorted(battletraits, key=lambda d: d['warband'])
-        write_json(dst=dst, data=sorted_data)
+        write_data_json(dst=dst, data=sorted_data)
 
     def write_warbands_to_disk(self, dst: Path = PROJECT_DATA):
         # self.validate_data()
@@ -158,13 +160,6 @@ class WarbandsJSONDataPayload(DataPayload):
                 grand_alliance = 'universal' if warband == 'universal' else warband_data['faction']['grand_alliance']
                 faction_runemark = 'universal' if warband == 'universal' else warband_data['faction']['warband']
 
-                if datatype == 'fighters':
-                    for f in content:
-                        if f['bladeborn']:
-                            f['runemarks'].append(f['bladeborn'])
-                        del f['bladeborn']
-                        x = 1
-
                 if faction_runemark == 'universal' and datatype != 'abilities':
                     continue
 
@@ -184,7 +179,7 @@ class WarbandsJSONDataPayload(DataPayload):
                 else:
                     print(f'{warband} - writing {outfile}')
 
-                write_json(dst=outfile, data=content)
+                write_data_json(dst=outfile, data=content)
 
 
     def write_to_disk(self, dst_root: Path = PROJECT_DATA):
@@ -199,7 +194,7 @@ class WarbandsJSONDataPayload(DataPayload):
 
     def write_localised_data(self, loc_file: Path, dst: Path):
         data = sorted(self.get_localisation(patch_file=loc_file), key=lambda d: d['warband'])
-        write_json(dst=dst, data=data)
+        write_data_json(dst=dst, data=data)
 
 
     def get_localisation(self, patch_file: Path, encoding: str = 'latin-1') -> List[dict]:

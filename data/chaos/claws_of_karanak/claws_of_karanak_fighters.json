@@ -1,15 +1,13 @@
 [
     {
         "_id": "4a8e796c",
+        "name": "Blood Whelp with Barb-Spear",
+        "warband": "Claws of Karanak",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Blood Whelp with Barb-Spear",
-        "points": 90,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 3,
-        "warband": "Claws of Karanak",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -21,19 +19,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "31b6f571",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Blood Whelp with Claw-Flail",
-        "points": 90,
         "runemarks": [
             "agile"
         ],
-        "toughness": 3,
+        "points": 90
+    },
+    {
+        "_id": "31b6f571",
+        "name": "Blood Whelp with Claw-Flail",
         "warband": "Claws of Karanak",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -45,19 +44,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "agile"
+        ],
+        "points": 90
     },
     {
         "_id": "5c857cbf",
+        "name": "Brutaliser with Shredder Blade and Meat Hook",
+        "warband": "Claws of Karanak",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Brutaliser with Shredder Blade and Meat Hook",
-        "points": 115,
-        "runemarks": [
-            "terrifying"
-        ],
         "toughness": 3,
-        "warband": "Claws of Karanak",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -69,17 +69,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "terrifying"
+        ],
+        "points": 115
     },
     {
         "_id": "4e7ef80d",
+        "name": "Brutaliser with Shredder Blades",
+        "warband": "Claws of Karanak",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Brutaliser with Shredder Blades",
-        "points": 120,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Claws of Karanak",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -91,20 +94,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [],
+        "points": 120
     },
     {
         "_id": "b2e7309e",
+        "name": "Hound of Wrath",
+        "warband": "Claws of Karanak",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 7,
-        "name": "Hound of Wrath",
-        "points": 170,
-        "runemarks": [
-            "agile",
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "Claws of Karanak",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 5,
@@ -116,19 +117,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "agile",
+            "beast"
+        ],
+        "points": 170
     },
     {
         "_id": "8fb0c3ff",
+        "name": "Packlord",
+        "warband": "Claws of Karanak",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Packlord",
-        "points": 205,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Claws of Karanak",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -140,6 +143,9 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero"
+        ],
+        "points": 205
     }
 ]

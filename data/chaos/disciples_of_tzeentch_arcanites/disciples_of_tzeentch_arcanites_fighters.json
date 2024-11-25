@@ -1,13 +1,13 @@
 [
     {
         "_id": "1e1133a3",
+        "name": "Tzaangor with Pair of Savage Blades",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Tzaangor with Pair of Savage Blades",
-        "points": 75,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -19,17 +19,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "fb90f3c9",
+        "name": "Tzaangor with Savage Blade and Arcanite Shield",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Tzaangor with Savage Blade and Arcanite Shield",
-        "points": 80,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 2,
@@ -41,19 +42,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [],
+        "points": 80
     },
     {
         "_id": "bf25dc84",
+        "name": "Tzaangor Mutant",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Tzaangor Mutant",
-        "points": 85,
-        "runemarks": [
-            "brute"
-        ],
         "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -65,17 +65,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "brute"
+        ],
+        "points": 85
     },
     {
         "_id": "3118b3bc",
+        "name": "Kairic Acolyte with Paired Cursed Blades",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Kairic Acolyte with Paired Cursed Blades",
-        "points": 75,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -96,50 +99,52 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "1aa0e428",
+        "name": "Kairic Acolyte with Vulcharc",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Kairic Acolyte with Vulcharc",
-        "points": 70,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
         "runemarks": [
             "scout"
         ],
-        "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 3
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 15,
-                "min_range": 3,
-                "runemark": "blast",
-                "strength": 3
-            }
-        ],
-        "wounds": 10
+        "points": 70
     },
     {
         "_id": "0caa98da",
+        "name": "Kairic Acolyte with Cursed Blade and Arcanite Shield",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Kairic Acolyte with Cursed Blade and Arcanite Shield",
-        "points": 75,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -160,17 +165,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "4679f5e6",
+        "name": "Kairic Acolyte with Cursed Glaive and Arcanite Shield",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Kairic Acolyte with Cursed Glaive and Arcanite Shield",
-        "points": 75,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -191,17 +197,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "d6bf7d5d",
+        "name": "Kairic Acolyte with Scroll of Dark Arts",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Kairic Acolyte with Scroll of Dark Arts",
-        "points": 95,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -222,17 +229,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 95
     },
     {
         "_id": "b248c71f",
+        "name": "Tzaangor with Savage Greatblade",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Tzaangor with Savage Greatblade",
-        "points": 105,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -244,19 +252,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [],
+        "points": 105
     },
     {
         "_id": "341cf8f7",
+        "name": "Kairic Adept",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Kairic Adept",
-        "points": 130,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 2,
@@ -277,19 +284,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
-    },
-    {
-        "_id": "0cdaf478",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Twistbray",
-        "points": 140,
         "runemarks": [
             "hero"
         ],
-        "toughness": 4,
+        "points": 130
+    },
+    {
+        "_id": "0cdaf478",
+        "name": "Twistbray",
         "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -301,19 +309,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero"
+        ],
+        "points": 140
     },
     {
         "_id": "756b4c29",
+        "name": "Tzaangor Enlightened",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Tzaangor Enlightened",
-        "points": 150,
-        "runemarks": [
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -325,19 +334,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 150
     },
     {
         "_id": "55b01f5d",
+        "name": "Magister",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Magister",
-        "points": 155,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -358,54 +368,55 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero"
+        ],
+        "points": 155
     },
     {
         "_id": "9dea6c10",
+        "name": "Gaunt Summoner of Tzeentch",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Gaunt Summoner of Tzeentch",
-        "points": 165,
+        "toughness": 3,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
         "runemarks": [
             "hero",
             "berserker"
         ],
-        "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 15,
-                "min_range": 3,
-                "runemark": "blast",
-                "strength": 3
-            }
-        ],
-        "wounds": 22
+        "points": 165
     },
     {
         "_id": "3492cfca",
+        "name": "Enlightened Aviarch",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Enlightened Aviarch",
-        "points": 200,
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 5,
@@ -417,19 +428,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 200
     },
     {
         "_id": "55f89eac",
+        "name": "Curseling, Eye of Tzeentch",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Curseling, Eye of Tzeentch",
-        "points": 205,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 5,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -450,20 +463,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "hero"
+        ],
+        "points": 205
     },
     {
         "_id": "47aaca70",
+        "name": "Tzaangor Enlightened on Disc of Tzeentch",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Tzaangor Enlightened on Disc of Tzeentch",
-        "points": 220,
-        "runemarks": [
-            "fly",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -475,20 +488,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "fly",
+            "destroyer"
+        ],
+        "points": 220
     },
     {
         "_id": "5e8e7454",
+        "name": "Ogroid Thaumaturge",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Ogroid Thaumaturge",
-        "points": 225,
-        "runemarks": [
-            "hero",
-            "ferocious"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 4,
@@ -509,20 +523,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 32
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "points": 225
     },
     {
         "_id": "31b7fbbf",
+        "name": "Tzaangor Skyfire",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Tzaangor Skyfire",
-        "points": 225,
-        "runemarks": [
-            "fly",
-            "frenzied"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -543,20 +558,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "fly",
+            "frenzied"
+        ],
+        "points": 225
     },
     {
         "_id": "6ee0e3d3",
+        "name": "Magister on Disc of Tzeentch",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Magister on Disc of Tzeentch",
-        "points": 245,
-        "runemarks": [
-            "fly",
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -577,20 +593,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "fly",
+            "hero"
+        ],
+        "points": 245
     },
     {
         "_id": "8513f27f",
+        "name": "Tzaangor Shaman",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Tzaangor Shaman",
-        "points": 250,
-        "runemarks": [
-            "fly",
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -611,21 +628,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "fly",
+            "hero"
+        ],
+        "points": 250
     },
     {
         "_id": "73362482",
+        "name": "Fatemaster",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Fatemaster",
-        "points": 255,
-        "runemarks": [
-            "fly",
-            "hero",
-            "champion"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -637,21 +654,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
-    },
-    {
-        "_id": "45571dd4",
-        "grand_alliance": "chaos",
-        "movement": 10,
-        "name": "Gaunt Summoner on Disc of Tzeentch",
-        "points": 255,
         "runemarks": [
             "fly",
             "hero",
-            "berserker"
+            "champion"
         ],
-        "toughness": 3,
+        "points": 255
+    },
+    {
+        "_id": "45571dd4",
+        "name": "Gaunt Summoner on Disc of Tzeentch",
         "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -672,21 +690,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "fly",
+            "hero",
+            "berserker"
+        ],
+        "points": 255
     },
     {
         "_id": "22ec204d",
+        "name": "Enlightened Aviarch on Disc of Tzeentch",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Enlightened Aviarch on Disc of Tzeentch",
-        "points": 275,
-        "runemarks": [
-            "hero",
-            "destroyer",
-            "fly"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 26,
         "weapons": [
             {
                 "attacks": 5,
@@ -698,21 +717,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 26
+        "runemarks": [
+            "hero",
+            "destroyer",
+            "fly"
+        ],
+        "points": 275
     },
     {
         "_id": "c774f064",
+        "name": "Skyfire Aviarch",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Skyfire Aviarch",
-        "points": 290,
-        "runemarks": [
-            "fly",
-            "hero",
-            "frenzied"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -733,20 +753,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "fly",
+            "hero",
+            "frenzied"
+        ],
+        "points": 290
     },
     {
         "_id": "df9337b5",
+        "name": "Eyes of the Nine Brimstone Horrors",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "Eyes of the Nine",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Eyes of the Nine Brimstone Horrors",
-        "points": 0,
-        "runemarks": [
-            "minion",
-            "Eyes of the Nine"
-        ],
         "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -767,20 +789,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "minion"
+        ],
+        "points": 0
     },
     {
         "_id": "7b98e75f",
+        "name": "Eyes of the Nine Blue Horror",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "Eyes of the Nine",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Eyes of the Nine Blue Horror",
-        "points": 90,
-        "runemarks": [
-            "warrior",
-            "Eyes of the Nine"
-        ],
         "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -801,19 +823,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 90
     },
     {
         "_id": "3356996c",
+        "name": "Narvia",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "Eyes of the Nine",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Narvia",
-        "points": 75,
-        "runemarks": [
-            "Eyes of the Nine"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -834,19 +857,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "6b06527b",
+        "name": "Turosh",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "Eyes of the Nine",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Turosh",
-        "points": 75,
-        "runemarks": [
-            "Eyes of the Nine"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -867,20 +889,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "4b7ae50d",
+        "name": "K'Charik",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "Eyes of the Nine",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "K'Charik",
-        "points": 125,
-        "runemarks": [
-            "elite",
-            "Eyes of the Nine"
-        ],
         "toughness": 4,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 3,
@@ -892,20 +912,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "elite"
+        ],
+        "points": 125
     },
     {
         "_id": "2f93da8a",
+        "name": "Vortemis the All-seeing",
+        "warband": "Disciples of Tzeentch: Arcanites",
+        "subfaction": "Eyes of the Nine",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Vortemis the All-seeing",
-        "points": 150,
-        "runemarks": [
-            "hero",
-            "Eyes of the Nine"
-        ],
         "toughness": 3,
-        "warband": "Disciples of Tzeentch: Arcanites",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 3,
@@ -926,6 +946,9 @@
                 "strength": 3
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero"
+        ],
+        "points": 150
     }
 ]

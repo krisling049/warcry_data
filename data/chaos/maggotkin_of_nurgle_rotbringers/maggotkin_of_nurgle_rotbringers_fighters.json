@@ -1,13 +1,13 @@
 [
     {
         "_id": "a0c7c03d",
+        "name": "Putrid Blightking with Blighted Weapon",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Putrid Blightking with Blighted Weapon",
-        "points": 110,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 3,
@@ -19,17 +19,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [],
+        "points": 110
     },
     {
         "_id": "5e06958f",
+        "name": "Putrid Blightking with Filth-encrusted Shield",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Putrid Blightking with Filth-encrusted Shield",
-        "points": 110,
-        "runemarks": [],
         "toughness": 5,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 2,
@@ -41,19 +42,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [],
+        "points": 110
     },
     {
         "_id": "693c826f",
+        "name": "Putrid Blightking Icon Bearer",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Putrid Blightking Icon Bearer",
-        "points": 115,
-        "runemarks": [
-            "icon-bearer"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 3,
@@ -65,19 +65,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "icon-bearer"
+        ],
+        "points": 115
     },
     {
         "_id": "c4653f51",
+        "name": "Putrid Blightking with Sonorous Tocsin",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Putrid Blightking with Sonorous Tocsin",
-        "points": 120,
-        "runemarks": [
-            "champion"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -89,20 +90,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "champion"
+        ],
+        "points": 120
     },
     {
         "_id": "b5374eef",
+        "name": "Rotbringer Sorcerer",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Rotbringer Sorcerer",
-        "points": 125,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 3,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 3,
@@ -123,19 +124,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 125
     },
     {
         "_id": "8391675f",
+        "name": "Putrid Blightking Blightlord",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Putrid Blightking Blightlord",
-        "points": 145,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 3,
@@ -147,20 +150,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero"
+        ],
+        "points": 145
     },
     {
         "_id": "8ad9b33a",
+        "name": "Lord of Blights",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Lord of Blights",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
         "toughness": 5,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 3,
@@ -172,19 +175,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 32
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 170
     },
     {
         "_id": "167f9948",
+        "name": "Lord of Plagues",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Lord of Plagues",
-        "points": 170,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 3,
@@ -196,21 +201,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 32
+        "runemarks": [
+            "hero"
+        ],
+        "points": 170
     },
     {
         "_id": "f1437afa",
+        "name": "Harbinger of Decay",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Harbinger of Decay",
-        "points": 195,
-        "runemarks": [
-            "hero",
-            "terrifying",
-            "mount"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -222,20 +226,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "terrifying",
+            "mount"
+        ],
+        "points": 195
     },
     {
         "_id": "537fc489",
+        "name": "Pusgoyle Blightlord",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Pusgoyle Blightlord",
-        "points": 260,
-        "runemarks": [
-            "destroyer",
-            "fly"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 38,
         "weapons": [
             {
                 "attacks": 4,
@@ -247,21 +253,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 38
+        "runemarks": [
+            "destroyer",
+            "fly"
+        ],
+        "points": 260
     },
     {
         "_id": "cfb33ba1",
+        "name": "Lord of Afflictions",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Lord of Afflictions",
-        "points": 320,
-        "runemarks": [
-            "fly",
-            "hero",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 42,
         "weapons": [
             {
                 "attacks": 4,
@@ -273,19 +279,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 42
+        "runemarks": [
+            "fly",
+            "hero",
+            "destroyer"
+        ],
+        "points": 320
     },
     {
         "_id": "d22aa232",
+        "name": "Sepsimus the Plaguesworn",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "The Wurmspat",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Sepsimus the Plaguesworn",
-        "points": 110,
-        "runemarks": [
-            "The Wurmspat"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 26,
         "weapons": [
             {
                 "attacks": 3,
@@ -297,20 +306,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 26
+        "runemarks": [],
+        "points": 110
     },
     {
         "_id": "6ecb17bc",
+        "name": "Ghulgoch the Butcher",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "The Wurmspat",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Ghulgoch the Butcher",
-        "points": 100,
-        "runemarks": [
-            "beast",
-            "The Wurmspat"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 26,
         "weapons": [
             {
                 "attacks": 4,
@@ -322,21 +329,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 26
+        "runemarks": [
+            "beast"
+        ],
+        "points": 100
     },
     {
         "_id": "7d372b98",
+        "name": "Fecula Flyblown",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "The Wurmspat",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Fecula Flyblown",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "mystic",
-            "The Wurmspat"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -357,20 +363,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 170
     },
     {
         "_id": "75a035fc",
+        "name": "Harbinger of Decay with Doom Bell",
+        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Harbinger of Decay with Doom Bell",
-        "points": 150,
-        "runemarks": [
-            "hero",
-            "priest"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Rotbringers",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 3,
@@ -382,6 +389,10 @@
                 "strength": 3
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "points": 150
     }
 ]

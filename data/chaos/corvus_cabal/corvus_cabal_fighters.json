@@ -1,13 +1,13 @@
 [
     {
         "_id": "51f1b259",
+        "name": "Cabalist",
+        "warband": "Corvus Cabal",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Cabalist",
-        "points": 65,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Corvus Cabal",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 4,
@@ -19,19 +19,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 65
     },
     {
         "_id": "f9108003",
+        "name": "Cabalist with Familiar",
+        "warband": "Corvus Cabal",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Cabalist with Familiar",
-        "points": 70,
-        "runemarks": [
-            "scout"
-        ],
         "toughness": 3,
-        "warband": "Corvus Cabal",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 4,
@@ -43,17 +42,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "scout"
+        ],
+        "points": 70
     },
     {
         "_id": "31adb845",
+        "name": "Cabalist with Spear",
+        "warband": "Corvus Cabal",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Cabalist with Spear",
-        "points": 80,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Corvus Cabal",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 4,
@@ -65,19 +67,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 80
     },
     {
         "_id": "897013b5",
+        "name": "Spire Stalker",
+        "warband": "Corvus Cabal",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Spire Stalker",
-        "points": 130,
-        "runemarks": [
-            "champion"
-        ],
         "toughness": 4,
-        "warband": "Corvus Cabal",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -89,20 +90,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "champion"
+        ],
+        "points": 130
     },
     {
         "_id": "1c34e766",
+        "name": "Shadow Piercer",
+        "warband": "Corvus Cabal",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Shadow Piercer",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "scout"
-        ],
         "toughness": 4,
-        "warband": "Corvus Cabal",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -114,19 +115,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "scout"
+        ],
+        "points": 170
     },
     {
         "_id": "bdf29dcf",
+        "name": "Shrike Talon",
+        "warband": "Corvus Cabal",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Shrike Talon",
-        "points": 170,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Corvus Cabal",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -138,6 +141,9 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "agile"
+        ],
+        "points": 170
     }
 ]

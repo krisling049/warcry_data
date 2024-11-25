@@ -1,15 +1,13 @@
 [
     {
         "_id": "4dec3bd0",
+        "name": "Trailhound",
+        "warband": "Wildercorps Hunters",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Trailhound",
-        "points": 60,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 3,
-        "warband": "Wildercorps Hunters",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 2,
@@ -21,19 +19,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "beast"
+        ],
+        "points": 60
     },
     {
         "_id": "fcab23e7",
+        "name": "Wildercorps Scout with Hunting Crossbow",
+        "warband": "Wildercorps Hunters",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Wildercorps Scout with Hunting Crossbow",
-        "points": 75,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 3,
-        "warband": "Wildercorps Hunters",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -54,19 +53,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
-    },
-    {
-        "_id": "32d49466",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Wildercorps Scout with Paired Hatchets",
-        "points": 75,
         "runemarks": [
             "warrior"
         ],
-        "toughness": 3,
+        "points": 75
+    },
+    {
+        "_id": "32d49466",
+        "name": "Wildercorps Scout with Paired Hatchets",
         "warband": "Wildercorps Hunters",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -87,20 +87,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 75
     },
     {
         "_id": "1e46811e",
+        "name": "Trailblazer with Duelling Sabre",
+        "warband": "Wildercorps Hunters",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Trailblazer with Duelling Sabre",
-        "points": 90,
-        "runemarks": [
-            "trapper",
-            "warrior"
-        ],
         "toughness": 3,
-        "warband": "Wildercorps Hunters",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -121,20 +121,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "c07e5e4d",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Trailblazer with Twin Crossbows",
-        "points": 90,
         "runemarks": [
             "trapper",
             "warrior"
         ],
-        "toughness": 3,
+        "points": 90
+    },
+    {
+        "_id": "c07e5e4d",
+        "name": "Trailblazer with Twin Crossbows",
         "warband": "Wildercorps Hunters",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -146,20 +147,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "trapper",
+            "warrior"
+        ],
+        "points": 90
     },
     {
         "_id": "e8f540bc",
+        "name": "Wildercorps Leatherhide with Troggslayer Spear",
+        "warband": "Wildercorps Hunters",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Wildercorps Leatherhide with Troggslayer Spear",
-        "points": 100,
-        "runemarks": [
-            "champion",
-            "warrior"
-        ],
         "toughness": 3,
-        "warband": "Wildercorps Hunters",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -171,20 +173,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "93a3a07a",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Wildercorps Leatherhide with Hunting Crossbow",
-        "points": 100,
         "runemarks": [
             "champion",
             "warrior"
         ],
-        "toughness": 3,
+        "points": 100
+    },
+    {
+        "_id": "93a3a07a",
+        "name": "Wildercorps Leatherhide with Hunting Crossbow",
         "warband": "Wildercorps Hunters",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -205,21 +208,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "2359254e",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Wildercorps Warden with Double-bitted Axe",
-        "points": 115,
         "runemarks": [
-            "hero",
             "champion",
             "warrior"
         ],
-        "toughness": 3,
+        "points": 100
+    },
+    {
+        "_id": "2359254e",
+        "name": "Wildercorps Warden with Double-bitted Axe",
         "warband": "Wildercorps Hunters",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -231,21 +234,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "champion",
+            "warrior"
+        ],
+        "points": 115
     },
     {
         "_id": "605b1c5c",
+        "name": "Wildercorps Warden with Grizzled Trailhound",
+        "warband": "Wildercorps Hunters",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Wildercorps Warden with Grizzled Trailhound",
-        "points": 115,
-        "runemarks": [
-            "hero",
-            "sentience",
-            "warrior"
-        ],
         "toughness": 3,
-        "warband": "Wildercorps Hunters",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -257,21 +261,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "sentience",
+            "warrior"
+        ],
+        "points": 115
     },
     {
         "_id": "bde180a8",
+        "name": "Wildercorps Warden with Hunting Crossbow",
+        "warband": "Wildercorps Hunters",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Wildercorps Warden with Hunting Crossbow",
-        "points": 120,
-        "runemarks": [
-            "hero",
-            "champion",
-            "warrior"
-        ],
         "toughness": 3,
-        "warband": "Wildercorps Hunters",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 2,
@@ -292,19 +297,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "champion",
+            "warrior"
+        ],
+        "points": 120
     },
     {
         "_id": "8cb98abe",
+        "name": "Arbalester",
+        "warband": "Wildercorps Hunters",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Arbalester",
-        "points": 175,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 3,
-        "warband": "Wildercorps Hunters",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -325,6 +333,9 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 175
     }
 ]

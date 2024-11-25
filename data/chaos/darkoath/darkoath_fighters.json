@@ -1,16 +1,13 @@
 [
     {
         "_id": "2925e2c8",
+        "name": "Darkoath Chieftain",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Darkoath Chieftain",
-        "points": 140,
-        "runemarks": [
-            "hero",
-            "ferocious"
-        ],
         "toughness": 4,
-        "warband": "Darkoath",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -22,20 +19,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "points": 140
     },
     {
         "_id": "d84ac50b",
+        "name": "Darkoath Warqueen",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Darkoath Warqueen",
-        "points": 155,
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
         "toughness": 5,
-        "warband": "Darkoath",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -47,21 +45,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 155
     },
     {
         "_id": "9fe9a6ef",
+        "name": "Darkoath Chieftain on Warsteed",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Darkoath Chieftain on Warsteed",
-        "points": 220,
-        "runemarks": [
-            "hero",
-            "mount",
-            "ferocious"
-        ],
         "toughness": 3,
-        "warband": "Darkoath",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -73,20 +71,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "hero",
+            "mount",
+            "ferocious"
+        ],
+        "points": 220
     },
     {
         "_id": "1893ed13",
+        "name": "Darkoath Fellrider With Javelin",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Darkoath Fellrider With Javelin",
-        "points": 125,
-        "runemarks": [
-            "mount",
-            "scout"
-        ],
         "toughness": 3,
-        "warband": "Darkoath",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -107,20 +107,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "mount",
+            "scout"
+        ],
+        "points": 125
     },
     {
         "_id": "f898a5dd",
+        "name": "Marauder Champion",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Marauder Champion",
-        "points": 100,
-        "runemarks": [
-            "hero",
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Darkoath",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 5,
@@ -132,20 +133,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
-    },
-    {
-        "_id": "3e5c0f6a",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Marauder Champion With Spear",
-        "points": 100,
         "runemarks": [
             "hero",
             "warrior"
         ],
-        "toughness": 4,
+        "points": 100
+    },
+    {
+        "_id": "3e5c0f6a",
+        "name": "Marauder Champion With Spear",
         "warband": "Darkoath",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -157,21 +159,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 100
     },
     {
         "_id": "b0ab3657",
+        "name": "Fellrider Champion With Javelin",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Fellrider Champion With Javelin",
-        "points": 145,
-        "runemarks": [
-            "hero",
-            "mount",
-            "scout"
-        ],
         "toughness": 3,
-        "warband": "Darkoath",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -192,19 +194,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "mount",
+            "scout"
+        ],
+        "points": 145
     },
     {
         "_id": "4541799a",
+        "name": "Darkoath Marauder",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Darkoath Marauder",
-        "points": 70,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Darkoath",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -216,21 +221,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 70
     },
     {
         "_id": "071a6d6b",
+        "name": "Fellrider Champion With Axe",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Fellrider Champion With Axe",
-        "points": 140,
-        "runemarks": [
-            "hero",
-            "mount",
-            "destroyer"
-        ],
         "toughness": 3,
-        "warband": "Darkoath",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -242,19 +246,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "mount",
+            "destroyer"
+        ],
+        "points": 140
     },
     {
         "_id": "55db755d",
+        "name": "Darkoath Marauder With Spear",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Darkoath Marauder With Spear",
-        "points": 70,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Darkoath",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -266,20 +273,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 70
     },
     {
         "_id": "bc47956a",
+        "name": "Darkoath Fellrider",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Darkoath Fellrider",
-        "points": 110,
-        "runemarks": [
-            "mount",
-            "destroyer"
-        ],
         "toughness": 3,
-        "warband": "Darkoath",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -291,19 +298,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "mount",
+            "destroyer"
+        ],
+        "points": 110
     },
     {
         "_id": "77ca7f82",
+        "name": "Darkoath Wilderfiend",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Darkoath Wilderfiend",
-        "points": 300,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 5,
-        "warband": "Darkoath",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 6,
@@ -315,20 +324,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "beast"
+        ],
+        "points": 300
     },
     {
         "_id": "c01ecd2d",
+        "name": "Gunnar Brand",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Gunnar Brand",
-        "points": 165,
-        "runemarks": [
-            "hero",
-            "berserker"
-        ],
         "toughness": 4,
-        "warband": "Darkoath",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 5,
@@ -340,20 +349,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "points": 165
     },
     {
         "_id": "5a7fe109",
+        "name": "Singri Brand",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Singri Brand",
-        "points": 200,
-        "runemarks": [
-            "mount",
-            "agile"
-        ],
         "toughness": 3,
-        "warband": "Darkoath",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 3,
@@ -374,20 +384,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "mount",
+            "agile"
+        ],
+        "points": 200
     },
     {
         "_id": "0e98c118",
+        "name": "Warqueen Tanari",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Warqueen Tanari",
-        "points": 185,
-        "runemarks": [
-            "hero",
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "Darkoath",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 5,
@@ -399,19 +410,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 185
     },
     {
         "_id": "92a54ad7",
+        "name": "Broken Nadja",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Broken Nadja",
-        "points": 95,
-        "runemarks": [
-            "mystic"
-        ],
         "toughness": 3,
-        "warband": "Darkoath",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 2,
@@ -432,19 +445,20 @@
                 "strength": 2
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 95
     },
     {
         "_id": "aa7bec1d",
+        "name": "Dendrel Direbrand",
+        "warband": "Darkoath",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Dendrel Direbrand",
-        "points": 125,
-        "runemarks": [
-            "brute"
-        ],
         "toughness": 4,
-        "warband": "Darkoath",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -456,6 +470,9 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "brute"
+        ],
+        "points": 125
     }
 ]

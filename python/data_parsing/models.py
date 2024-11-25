@@ -1,8 +1,8 @@
+import json
 from pathlib import Path
 from typing import List, Dict, Union
-import json
-import jsonschema
 
+import jsonschema
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 PROJECT_DATA = Path(PROJECT_ROOT, 'data')
@@ -17,10 +17,10 @@ def sanitise_filename(filename: str) -> str:
 
     return filename.lower().replace(' ', '_')
 
-def write_json(dst: Path, data: Union[List, Dict], encoding: str = 'latin-1'):
+
+def write_data_json(dst: Path, data: Union[List, Dict], encoding: str = 'latin-1'):
     dst.parent.mkdir(parents=True, exist_ok=True)
     with open(dst, 'w', encoding=encoding) as f:
-        # print(f'writing {len(data)} items to {dst}')
         json.dump(data, f, ensure_ascii=False, indent=4, sort_keys=False)
 
 class DataPayload:

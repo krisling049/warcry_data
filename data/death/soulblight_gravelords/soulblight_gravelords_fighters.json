@@ -1,15 +1,13 @@
 [
     {
         "_id": "eff9a586",
+        "name": "Deadwalker Zombie",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Deadwalker Zombie",
-        "points": 50,
-        "runemarks": [
-            "minion"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -21,19 +19,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
-    },
-    {
-        "_id": "bd47f5a9",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "Skeleton with Ancient Blade",
-        "points": 50,
         "runemarks": [
             "minion"
         ],
-        "toughness": 4,
+        "points": 50
+    },
+    {
+        "_id": "bd47f5a9",
+        "name": "Skeleton with Ancient Blade",
         "warband": "Soulblight Gravelords",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -45,19 +44,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
-    },
-    {
-        "_id": "78cf4589",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "Skeleton with Ancient Spear",
-        "points": 50,
         "runemarks": [
             "minion"
         ],
-        "toughness": 4,
+        "points": 50
+    },
+    {
+        "_id": "78cf4589",
+        "name": "Skeleton with Ancient Spear",
         "warband": "Soulblight Gravelords",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 2,
@@ -69,20 +69,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "minion"
+        ],
+        "points": 50
     },
     {
         "_id": "e2cce99f",
+        "name": "Grave Guard with Wight Blade and Crypt Shield",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Grave Guard with Wight Blade and Crypt Shield",
-        "points": 60,
-        "runemarks": [
-            "minion",
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -94,20 +94,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
-    },
-    {
-        "_id": "8f27f188",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "Grave Guard with Great Wight Blade",
-        "points": 70,
         "runemarks": [
             "minion",
             "elite"
         ],
-        "toughness": 3,
+        "points": 60
+    },
+    {
+        "_id": "8f27f188",
+        "name": "Grave Guard with Great Wight Blade",
         "warband": "Soulblight Gravelords",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 3,
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -119,21 +120,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 10
-    },
-    {
-        "_id": "b05b03a6",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "Skeleton Champion with Mace",
-        "points": 70,
         "runemarks": [
-            "champion",
             "minion",
             "elite"
         ],
-        "toughness": 4,
+        "points": 70
+    },
+    {
+        "_id": "b05b03a6",
+        "name": "Skeleton Champion with Mace",
         "warband": "Soulblight Gravelords",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -145,21 +146,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "905aeffa",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "Skeleton Champion with Halberd",
-        "points": 75,
         "runemarks": [
             "champion",
             "minion",
             "elite"
         ],
-        "toughness": 4,
+        "points": 70
+    },
+    {
+        "_id": "905aeffa",
+        "name": "Skeleton Champion with Halberd",
         "warband": "Soulblight Gravelords",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -171,21 +173,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "7572a579",
-        "grand_alliance": "death",
-        "movement": 3,
-        "name": "Seneschal",
-        "points": 100,
         "runemarks": [
             "champion",
             "minion",
             "elite"
         ],
-        "toughness": 4,
+        "points": 75
+    },
+    {
+        "_id": "7572a579",
+        "name": "Seneschal",
         "warband": "Soulblight Gravelords",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -197,19 +200,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "champion",
+            "minion",
+            "elite"
+        ],
+        "points": 100
     },
     {
         "_id": "8b576344",
+        "name": "Black Knight",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Black Knight",
-        "points": 125,
-        "runemarks": [
-            "mount"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -221,19 +227,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "mount"
+        ],
+        "points": 125
     },
     {
         "_id": "96c2aeac",
+        "name": "Vyrkos Blood-born",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Vyrkos Blood-born",
-        "points": 135,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -245,17 +252,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "agile"
+        ],
+        "points": 135
     },
     {
         "_id": "749b2ad5",
+        "name": "Kosargi Nightguard",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 4,
-        "name": "Kosargi Nightguard",
-        "points": 140,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 2,
@@ -267,20 +277,18 @@
                 "strength": 5
             }
         ],
-        "wounds": 30
+        "runemarks": [],
+        "points": 140
     },
     {
         "_id": "d6099ed3",
+        "name": "Necromancer",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 4,
-        "name": "Necromancer",
-        "points": 145,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -301,20 +309,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 145
     },
     {
         "_id": "4825c68e",
+        "name": "Wight King",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Wight King",
-        "points": 155,
-        "runemarks": [
-            "hero",
-            "berserker"
-        ],
         "toughness": 5,
-        "warband": "Soulblight Gravelords",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -326,44 +335,47 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "points": 155
     },
     {
         "_id": "8f381ed7",
+        "name": "Hell Knight",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Hell Knight",
-        "points": 160,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
         "runemarks": [
             "mount",
             "champion"
         ],
-        "toughness": 4,
-        "warband": "Soulblight Gravelords",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 3
-            }
-        ],
-        "wounds": 25
+        "points": 160
     },
     {
         "_id": "d4b9ecfb",
+        "name": "Vargskyr",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 6,
-        "name": "Vargskyr",
-        "points": 185,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 2,
@@ -375,20 +387,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 32
+        "runemarks": [
+            "agile"
+        ],
+        "points": 185
     },
     {
         "_id": "9c09305d",
+        "name": "Vargheist",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Vargheist",
-        "points": 190,
-        "runemarks": [
-            "fly",
-            "ferocious"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -400,20 +412,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "fly",
+            "ferocious"
+        ],
+        "points": 190
     },
     {
         "_id": "027fb3e0",
+        "name": "Blood Knight with Templar Lance",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Blood Knight with Templar Lance",
-        "points": 200,
-        "runemarks": [
-            "mount",
-            "terrifying"
-        ],
         "toughness": 5,
-        "warband": "Soulblight Gravelords",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 3,
@@ -425,20 +438,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 25
-    },
-    {
-        "_id": "0c7def03",
-        "grand_alliance": "death",
-        "movement": 8,
-        "name": "Blood Knight with Templar Blade",
-        "points": 205,
         "runemarks": [
             "mount",
             "terrifying"
         ],
-        "toughness": 5,
+        "points": 200
+    },
+    {
+        "_id": "0c7def03",
+        "name": "Blood Knight with Templar Blade",
         "warband": "Soulblight Gravelords",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -450,21 +464,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "mount",
+            "terrifying"
+        ],
+        "points": 205
     },
     {
         "_id": "20123322",
+        "name": "Vampire Lord",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Vampire Lord",
-        "points": 225,
-        "runemarks": [
-            "fly",
-            "hero",
-            "terrifying"
-        ],
         "toughness": 5,
-        "warband": "Soulblight Gravelords",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -476,21 +490,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "fly",
+            "hero",
+            "terrifying"
+        ],
+        "points": 225
     },
     {
         "_id": "da81876a",
+        "name": "Kastellan",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Kastellan",
-        "points": 260,
-        "runemarks": [
-            "hero",
-            "mount",
-            "terrifying"
-        ],
         "toughness": 5,
-        "warband": "Soulblight Gravelords",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -502,21 +517,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "mount",
+            "terrifying"
+        ],
+        "points": 260
     },
     {
         "_id": "511cca7b",
+        "name": "Vargoyle",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Vargoyle",
-        "points": 260,
-        "runemarks": [
-            "fly",
-            "hero",
-            "ferocious"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 4,
@@ -528,47 +544,49 @@
                 "strength": 4
             }
         ],
-        "wounds": 32
+        "runemarks": [
+            "fly",
+            "hero",
+            "ferocious"
+        ],
+        "points": 260
     },
     {
         "_id": "c619dda5",
+        "name": "Wight King on Skeletal Steed",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Wight King on Skeletal Steed",
-        "points": 270,
+        "toughness": 5,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
         "runemarks": [
             "hero",
             "mount",
             "berserker"
         ],
-        "toughness": 5,
-        "warband": "Soulblight Gravelords",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "spear",
-                "strength": 5
-            }
-        ],
-        "wounds": 28
+        "points": 270
     },
     {
         "_id": "fd34051b",
+        "name": "Helmar the Hewer",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "Sons of Velmorn",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Helmar the Hewer",
-        "points": 65,
-        "runemarks": [
-            "minion",
-            "elite",
-            "Sons of Velmorn"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -580,21 +598,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion",
+            "elite"
+        ],
+        "points": 65
     },
     {
         "_id": "f8b3dcac",
+        "name": "Marshal Faulk Velmorn",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "Sons of Velmorn",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Marshal Faulk Velmorn",
-        "points": 70,
-        "runemarks": [
-            "minion",
-            "elite",
-            "Sons of Velmorn"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -606,21 +624,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion",
+            "elite"
+        ],
+        "points": 70
     },
     {
         "_id": "e018ee9c",
+        "name": "Thain Fourth-and-Last",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "Sons of Velmorn",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Thain Fourth-and-Last",
-        "points": 70,
-        "runemarks": [
-            "minion",
-            "elite",
-            "Sons of Velmorn"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -632,20 +650,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion",
+            "elite"
+        ],
+        "points": 70
     },
     {
         "_id": "60313159",
+        "name": "Sir Jedran Falseborn",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "Sons of Velmorn",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Sir Jedran Falseborn",
-        "points": 150,
-        "runemarks": [
-            "champion",
-            "Sons of Velmorn"
-        ],
         "toughness": 5,
-        "warband": "Soulblight Gravelords",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 3,
@@ -657,21 +676,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "champion"
+        ],
+        "points": 150
     },
     {
         "_id": "f7fdf3c0",
+        "name": "King Morlak Velmorn",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "Sons of Velmorn",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "King Morlak Velmorn",
-        "points": 160,
-        "runemarks": [
-            "hero",
-            "berserker",
-            "Sons of Velmorn"
-        ],
         "toughness": 5,
-        "warband": "Soulblight Gravelords",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -683,20 +701,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "points": 160
     },
     {
         "_id": "463478bd",
+        "name": "Vellas Von Faine",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Crimson Court",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Vellas Von Faine",
-        "points": 105,
-        "runemarks": [
-            "terrifying",
-            "The Crimson Court"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -708,21 +727,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "terrifying"
+        ],
+        "points": 105
     },
     {
         "_id": "212b60f9",
+        "name": "Ennias Curse-Born",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Crimson Court",
         "grand_alliance": "death",
         "movement": 6,
-        "name": "Ennias Curse-Born",
-        "points": 120,
-        "runemarks": [
-            "fly",
-            "terrifying",
-            "The Crimson Court"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -734,20 +752,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "fly",
+            "terrifying"
+        ],
+        "points": 120
     },
     {
         "_id": "b20fc155",
+        "name": "Gorath the Enforcer",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Crimson Court",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Gorath the Enforcer",
-        "points": 130,
-        "runemarks": [
-            "terrifying",
-            "The Crimson Court"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 2,
@@ -759,21 +778,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "terrifying"
+        ],
+        "points": 130
     },
     {
         "_id": "f7f88c5a",
+        "name": "Prince Duvalle",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Crimson Court",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Prince Duvalle",
-        "points": 210,
-        "runemarks": [
-            "hero",
-            "terrifying",
-            "The Crimson Court"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 26,
         "weapons": [
             {
                 "attacks": 4,
@@ -785,21 +803,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 26
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ],
+        "points": 210
     },
     {
         "_id": "8c0eb2b3",
+        "name": "Regulus",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Exiled Dead",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Regulus",
-        "points": 55,
-        "runemarks": [
-            "minion",
-            "bulwark",
-            "The Exiled Dead"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -811,21 +829,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion",
+            "bulwark"
+        ],
+        "points": 55
     },
     {
         "_id": "63df3f6b",
+        "name": "Bault",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Exiled Dead",
         "grand_alliance": "death",
         "movement": 4,
-        "name": "Bault",
-        "points": 60,
-        "runemarks": [
-            "minion",
-            "frenzied",
-            "The Exiled Dead"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -837,21 +855,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion",
+            "frenzied"
+        ],
+        "points": 60
     },
     {
         "_id": "dc077222",
+        "name": "Ione",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Exiled Dead",
         "grand_alliance": "death",
         "movement": 4,
-        "name": "Ione",
-        "points": 60,
-        "runemarks": [
-            "minion",
-            "frenzied",
-            "The Exiled Dead"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -863,21 +881,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion",
+            "frenzied"
+        ],
+        "points": 60
     },
     {
         "_id": "a2a383bf",
+        "name": "Vlash",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Exiled Dead",
         "grand_alliance": "death",
         "movement": 4,
-        "name": "Vlash",
-        "points": 60,
-        "runemarks": [
-            "minion",
-            "frenzied",
-            "The Exiled Dead"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -889,21 +907,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion",
+            "frenzied"
+        ],
+        "points": 60
     },
     {
         "_id": "f1286a06",
+        "name": "Coyl",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Exiled Dead",
         "grand_alliance": "death",
         "movement": 4,
-        "name": "Coyl",
-        "points": 70,
-        "runemarks": [
-            "minion",
-            "frenzied",
-            "The Exiled Dead"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -915,20 +933,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion",
+            "frenzied"
+        ],
+        "points": 70
     },
     {
         "_id": "bac75225",
+        "name": "Prentice Marcov",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Exiled Dead",
         "grand_alliance": "death",
         "movement": 4,
-        "name": "Prentice Marcov",
-        "points": 70,
-        "runemarks": [
-            "sentience",
-            "The Exiled Dead"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -940,21 +959,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "sentience"
+        ],
+        "points": 70
     },
     {
         "_id": "13b9df83",
+        "name": "Deintalos the Exile",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Exiled Dead",
         "grand_alliance": "death",
         "movement": 4,
-        "name": "Deintalos the Exile",
-        "points": 210,
-        "runemarks": [
-            "hero",
-            "mystic",
-            "The Exiled Dead"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -975,19 +993,21 @@
                 "strength": 6
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 210
     },
     {
         "_id": "930df607",
+        "name": "Petitioner with Sword",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Sepulchral Guard",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Petitioner with Sword",
-        "points": 55,
-        "runemarks": [
-            "The Sepulchral Guard"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -999,19 +1019,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 55
     },
     {
         "_id": "e2216753",
+        "name": "The Harvester",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Sepulchral Guard",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "The Harvester",
-        "points": 55,
-        "runemarks": [
-            "The Sepulchral Guard"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -1023,19 +1042,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 55
     },
     {
         "_id": "6aae37c0",
+        "name": "Petitioner with Sword and shield",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Sepulchral Guard",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Petitioner with Sword and shield",
-        "points": 60,
-        "runemarks": [
-            "The Sepulchral Guard"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -1047,20 +1065,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 60
     },
     {
         "_id": "23474f3a",
+        "name": "The Champion",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Sepulchral Guard",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "The Champion",
-        "points": 75,
-        "runemarks": [
-            "champion",
-            "The Sepulchral Guard"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 14,
         "weapons": [
             {
                 "attacks": 4,
@@ -1072,20 +1088,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 14
+        "runemarks": [
+            "champion"
+        ],
+        "points": 75
     },
     {
         "_id": "4014aaa5",
+        "name": "The Prince of Dust",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Sepulchral Guard",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "The Prince of Dust",
-        "points": 105,
-        "runemarks": [
-            "champion",
-            "The Sepulchral Guard"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 14,
         "weapons": [
             {
                 "attacks": 4,
@@ -1097,20 +1113,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 14
+        "runemarks": [
+            "champion"
+        ],
+        "points": 105
     },
     {
         "_id": "651ea7c9",
+        "name": "The Sepulchral Warden",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Sepulchral Guard",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "The Sepulchral Warden",
-        "points": 130,
-        "runemarks": [
-            "hero",
-            "The Sepulchral Guard"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -1122,21 +1138,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero"
+        ],
+        "points": 130
     },
     {
         "_id": "ff4efe16",
+        "name": "Zondara Rivenheart",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "Zondara's Gravebreakers",
         "grand_alliance": "death",
         "movement": 4,
-        "name": "Zondara Rivenheart",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "mystic",
-            "Zondara's Gravebreakers"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -1157,20 +1172,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 170
     },
     {
         "_id": "28196462",
+        "name": "Lost Ferlain",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "Zondara's Gravebreakers",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Lost Ferlain",
-        "points": 195,
-        "runemarks": [
-            "agile",
-            "Zondara's Gravebreakers"
-        ],
         "toughness": 4,
-        "warband": "Soulblight Gravelords",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 5,
@@ -1182,20 +1198,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "agile"
+        ],
+        "points": 195
     },
     {
         "_id": "a1daca5a",
+        "name": "Toyle",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "Zondara's Gravebreakers",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Toyle",
-        "points": 65,
-        "runemarks": [
-            "minion",
-            "Zondara's Gravebreakers"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -1207,20 +1223,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion"
+        ],
+        "points": 65
     },
     {
         "_id": "bd96618b",
+        "name": "Cracktomb",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "Zondara's Gravebreakers",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Cracktomb",
-        "points": 55,
-        "runemarks": [
-            "minion",
-            "Zondara's Gravebreakers"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -1232,20 +1248,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion"
+        ],
+        "points": 55
     },
     {
         "_id": "7ebc9e7e",
+        "name": "Pikk",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "Zondara's Gravebreakers",
         "grand_alliance": "death",
         "movement": 3,
-        "name": "Pikk",
-        "points": 55,
-        "runemarks": [
-            "minion",
-            "Zondara's Gravebreakers"
-        ],
         "toughness": 3,
-        "warband": "Soulblight Gravelords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -1257,6 +1273,9 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion"
+        ],
+        "points": 55
     }
 ]

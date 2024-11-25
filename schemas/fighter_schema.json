@@ -5,7 +5,7 @@
 	"title": "Fighter Schema",
 	"required": [
 		"_id",
-		"bladeborn",
+		"subfaction",
 		"grand_alliance",
 		"movement",
 		"name",
@@ -24,9 +24,9 @@
 				"c0fadcc5"
 			]
 		},
-		"bladeborn": {
+		"subfaction": {
 			"type": "string",
-			"description": "If the fighter is Bladeborn, their bladeborn warband name. If not bladeborn then an empty string",
+			"description": "If the fighter belongs to a subfaction, their subfaction warband name. Otherwise an empty string",
 			"default": "",
 			"examples": [
 				"Hedrakka's Madmob"
@@ -190,7 +190,7 @@
 	"examples": [
 		{
 			"_id": "c0fadcc5",
-			"bladeborn": "",
+			"subfaction": "",
 			"grand_alliance": "destruction",
 			"movement": 4,
 			"name": "Savage Orruk Arrowboy",

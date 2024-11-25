@@ -1,13 +1,13 @@
 [
     {
         "_id": "05730b23",
+        "name": "Iron Legionary",
+        "warband": "Iron Golems",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Iron Legionary",
-        "points": 75,
-        "runemarks": [],
         "toughness": 5,
-        "warband": "Iron Golems",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -19,17 +19,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "4d002a1c",
+        "name": "Iron Legionary with Bolas",
+        "warband": "Iron Golems",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Iron Legionary with Bolas",
-        "points": 75,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Iron Golems",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -50,17 +51,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "4d8867a5",
+        "name": "Iron Legionary with Twin Hammers",
+        "warband": "Iron Golems",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Iron Legionary with Twin Hammers",
-        "points": 75,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Iron Golems",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -72,17 +74,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "dec61d09",
+        "name": "Armator",
+        "warband": "Iron Golems",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Armator",
-        "points": 90,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Iron Golems",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -94,19 +97,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [],
+        "points": 90
     },
     {
         "_id": "11ffa5a0",
+        "name": "Signifer",
+        "warband": "Iron Golems",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Signifer",
-        "points": 125,
-        "runemarks": [
-            "icon-bearer"
-        ],
         "toughness": 4,
-        "warband": "Iron Golems",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -118,19 +120,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "icon-bearer"
+        ],
+        "points": 125
     },
     {
         "_id": "adc1715c",
+        "name": "Prefector",
+        "warband": "Iron Golems",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Prefector",
-        "points": 135,
-        "runemarks": [
-            "brute"
-        ],
         "toughness": 4,
-        "warband": "Iron Golems",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -142,19 +145,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "brute"
+        ],
+        "points": 135
     },
     {
         "_id": "70b20681",
+        "name": "Drillmaster",
+        "warband": "Iron Golems",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Drillmaster",
-        "points": 140,
-        "runemarks": [
-            "berserker"
-        ],
         "toughness": 4,
-        "warband": "Iron Golems",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -175,20 +179,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "berserker"
+        ],
+        "points": 140
     },
     {
         "_id": "bb0df6f0",
+        "name": "Dominar",
+        "warband": "Iron Golems",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Dominar",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "brute"
-        ],
         "toughness": 4,
-        "warband": "Iron Golems",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -200,19 +204,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 170
     },
     {
         "_id": "95f83304",
+        "name": "Ogor Breacher",
+        "warband": "Iron Golems",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Ogor Breacher",
-        "points": 220,
-        "runemarks": [
-            "destroyer"
-        ],
         "toughness": 5,
-        "warband": "Iron Golems",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 3,
@@ -224,6 +230,9 @@
                 "strength": 6
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 220
     }
 ]

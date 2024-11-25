@@ -1,15 +1,13 @@
 [
     {
         "_id": "39ee76bf",
+        "name": "Initiate with Flameburst Pot",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Initiate with Flameburst Pot",
-        "points": 65,
-        "runemarks": [
-            "trapper"
-        ],
         "toughness": 3,
-        "warband": "Scions of the Flame",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -21,17 +19,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 65
     },
     {
         "_id": "53e6f9b9",
+        "name": "Initiate with Morning Star",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Initiate with Morning Star",
-        "points": 65,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Scions of the Flame",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -43,19 +44,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 65
     },
     {
         "_id": "0763fc24",
+        "name": "Initiate with Brazier Weapon",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Initiate with Brazier Weapon",
-        "points": 70,
-        "runemarks": [
-            "trapper"
-        ],
         "toughness": 3,
-        "warband": "Scions of the Flame",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -67,17 +67,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 70
     },
     {
         "_id": "4ec6ae25",
+        "name": "Initiate with Hooked Axe",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Initiate with Hooked Axe",
-        "points": 70,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Scions of the Flame",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -89,17 +92,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 70
     },
     {
         "_id": "5e849cc1",
+        "name": "Fireborn with Sunblade and Kris",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Fireborn with Sunblade and Kris",
-        "points": 95,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Scions of the Flame",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -111,17 +115,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 95
     },
     {
         "_id": "89ae9d7f",
+        "name": "Fireborn with Sunblade and Brazier Axe",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Fireborn with Sunblade and Brazier Axe",
-        "points": 105,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Scions of the Flame",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -133,19 +138,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 105
     },
     {
         "_id": "c398eaa8",
+        "name": "Fireborn",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Fireborn",
-        "points": 110,
-        "runemarks": [
-            "trapper"
-        ],
         "toughness": 4,
-        "warband": "Scions of the Flame",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -157,19 +161,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 110
     },
     {
         "_id": "51a7d96c",
+        "name": "Inferno Priest",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Inferno Priest",
-        "points": 120,
-        "runemarks": [
-            "mystic"
-        ],
         "toughness": 4,
-        "warband": "Scions of the Flame",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -190,19 +195,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 120
     },
     {
         "_id": "40a57ff3",
+        "name": "Immolator",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Immolator",
-        "points": 150,
-        "runemarks": [
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Scions of the Flame",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -214,19 +220,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 150
     },
     {
         "_id": "d96f656f",
+        "name": "Brazen Champion",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Brazen Champion",
-        "points": 165,
-        "runemarks": [
-            "brute"
-        ],
         "toughness": 4,
-        "warband": "Scions of the Flame",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -238,20 +245,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "brute"
+        ],
+        "points": 165
     },
     {
         "_id": "21f028de",
+        "name": "Blazing Lord",
+        "warband": "Scions of the Flame",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Blazing Lord",
-        "points": 200,
-        "runemarks": [
-            "hero",
-            "brute"
-        ],
         "toughness": 5,
-        "warband": "Scions of the Flame",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -263,6 +270,10 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 200
     }
 ]

@@ -1,15 +1,13 @@
 [
     {
         "_id": "f728815d",
+        "name": "Clanrat with Rusty Blade",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Clanrat with Rusty Blade",
-        "points": 70,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -21,19 +19,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
-    },
-    {
-        "_id": "80f86a7a",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Clanrat with Rusty Spear",
-        "points": 70,
         "runemarks": [
             "agile"
         ],
-        "toughness": 4,
+        "points": 70
+    },
+    {
+        "_id": "80f86a7a",
+        "name": "Clanrat with Rusty Spear",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 4,
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 2,
@@ -45,20 +44,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "agile"
+        ],
+        "points": 70
     },
     {
         "_id": "20d424eb",
+        "name": "Giant Rat",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Giant Rat",
-        "points": 70,
-        "runemarks": [
-            "agile",
-            "beast"
-        ],
         "toughness": 2,
-        "warband": "Skaven",
+        "wounds": 4,
         "weapons": [
             {
                 "attacks": 3,
@@ -70,20 +69,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 4
+        "runemarks": [
+            "agile",
+            "beast"
+        ],
+        "points": 70
     },
     {
         "_id": "d5eac4fc",
+        "name": "Packmaster",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Packmaster",
-        "points": 70,
-        "runemarks": [
-            "agile",
-            "frenzied"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -104,19 +104,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "agile",
+            "frenzied"
+        ],
+        "points": 70
     },
     {
         "_id": "df8f7c83",
+        "name": "Night Runner",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Night Runner",
-        "points": 75,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -137,19 +139,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
-    },
-    {
-        "_id": "84cedf20",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Plague Monk with Pair of Foetid Blades",
-        "points": 80,
         "runemarks": [
             "agile"
         ],
-        "toughness": 3,
+        "points": 75
+    },
+    {
+        "_id": "84cedf20",
+        "name": "Plague Monk with Pair of Foetid Blades",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 4,
@@ -161,19 +164,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
-    },
-    {
-        "_id": "8f86d542",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Plague Monk with Foetid Blade and Woe-stave",
-        "points": 80,
         "runemarks": [
             "agile"
         ],
-        "toughness": 3,
+        "points": 80
+    },
+    {
+        "_id": "8f86d542",
+        "name": "Plague Monk with Foetid Blade and Woe-stave",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -185,20 +189,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "agile"
+        ],
+        "points": 80
     },
     {
         "_id": "4156d1fd",
+        "name": "Skryre Acolyte",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Skryre Acolyte",
-        "points": 80,
-        "runemarks": [
-            "destroyer",
-            "agile"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 2,
@@ -219,19 +223,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "destroyer",
+            "agile"
+        ],
+        "points": 80
     },
     {
         "_id": "d391a8ce",
+        "name": "Stormvermin with Rusty Halberd and Clanshield",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Stormvermin with Rusty Halberd and Clanshield",
-        "points": 80,
-        "runemarks": [
-            "elite"
-        ],
         "toughness": 5,
-        "warband": "Skaven",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -243,19 +249,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "elite"
+        ],
+        "points": 80
     },
     {
         "_id": "15f03e41",
+        "name": "Gutter Runner",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Gutter Runner",
-        "points": 90,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -276,19 +283,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "agile"
+        ],
+        "points": 90
     },
     {
         "_id": "daff26cb",
+        "name": "Stormvermin with Rusty Halberd",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Stormvermin with Rusty Halberd",
-        "points": 95,
-        "runemarks": [
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -300,20 +308,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "elite"
+        ],
+        "points": 95
     },
     {
         "_id": "0fd4eed6",
+        "name": "Plague Censer Bearer",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Plague Censer Bearer",
-        "points": 105,
-        "runemarks": [
-            "agile",
-            "berserker"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -325,19 +333,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "agile",
+            "berserker"
+        ],
+        "points": 105
     },
     {
         "_id": "c7735c8b",
+        "name": "Warpfire Thrower",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Warpfire Thrower",
-        "points": 110,
-        "runemarks": [
-            "destroyer"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -349,20 +359,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 110
     },
     {
         "_id": "74be2141",
+        "name": "Clawleader",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Clawleader",
-        "points": 125,
-        "runemarks": [
-            "hero",
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -374,21 +384,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
+        "points": 125
     },
     {
         "_id": "7c4a6a31",
+        "name": "Master Moulder",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Master Moulder",
-        "points": 125,
-        "runemarks": [
-            "hero",
-            "agile",
-            "frenzied"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -409,21 +419,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
-    },
-    {
-        "_id": "a97747f9",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Nightleader",
-        "points": 125,
         "runemarks": [
             "hero",
             "agile",
-            "scout"
+            "frenzied"
         ],
-        "toughness": 3,
+        "points": 125
+    },
+    {
+        "_id": "a97747f9",
+        "name": "Nightleader",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -444,21 +455,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "31f3d830",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Bringer of the Word",
-        "points": 130,
         "runemarks": [
             "hero",
             "agile",
-            "priest"
+            "scout"
         ],
-        "toughness": 4,
+        "points": 125
+    },
+    {
+        "_id": "31f3d830",
+        "name": "Bringer of the Word",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 4,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -470,21 +482,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "8aa49881",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Warlock Engineer",
-        "points": 130,
         "runemarks": [
             "hero",
             "agile",
-            "destroyer"
+            "priest"
         ],
-        "toughness": 3,
+        "points": 130
+    },
+    {
+        "_id": "8aa49881",
+        "name": "Warlock Engineer",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -505,21 +518,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
-    },
-    {
-        "_id": "5020dd5c",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Grey Seer",
-        "points": 140,
         "runemarks": [
             "hero",
             "agile",
-            "mystic"
+            "destroyer"
         ],
-        "toughness": 3,
+        "points": 130
+    },
+    {
+        "_id": "5020dd5c",
+        "name": "Grey Seer",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -540,19 +554,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "agile",
+            "mystic"
+        ],
+        "points": 140
     },
     {
         "_id": "531c33c2",
+        "name": "Fangleader",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Fangleader",
-        "points": 150,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -564,21 +581,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "hero"
+        ],
+        "points": 150
     },
     {
         "_id": "4d4a5839",
+        "name": "Plague Priest",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Plague Priest",
-        "points": 150,
-        "runemarks": [
-            "hero",
-            "agile",
-            "priest"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -590,19 +606,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "agile",
+            "priest"
+        ],
+        "points": 150
     },
     {
         "_id": "99047314",
+        "name": "Warp-Grinder",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Warp-Grinder",
-        "points": 150,
-        "runemarks": [
-            "destroyer"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -614,19 +633,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "747431b9",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Warplock Jezzail",
-        "points": 150,
         "runemarks": [
             "destroyer"
         ],
-        "toughness": 3,
+        "points": 150
+    },
+    {
+        "_id": "747431b9",
+        "name": "Warplock Jezzail",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -647,21 +667,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 150
     },
     {
         "_id": "5de3e496",
+        "name": "Arch-Warlock",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Arch-Warlock",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "agile",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -673,21 +692,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 18
-    },
-    {
-        "_id": "dfaaf88f",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Warlock Bombardier",
-        "points": 170,
         "runemarks": [
             "hero",
             "agile",
             "destroyer"
         ],
-        "toughness": 3,
+        "points": 170
+    },
+    {
+        "_id": "dfaaf88f",
+        "name": "Warlock Bombardier",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 2,
@@ -708,20 +728,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "agile",
+            "destroyer"
+        ],
+        "points": 170
     },
     {
         "_id": "0da61b10",
+        "name": "Clawlord",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Clawlord",
-        "points": 175,
-        "runemarks": [
-            "hero",
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -733,21 +755,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
+        "points": 175
     },
     {
         "_id": "6493724a",
+        "name": "Deathmaster",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 7,
-        "name": "Deathmaster",
-        "points": 185,
-        "runemarks": [
-            "hero",
-            "agile",
-            "scout"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 5,
@@ -768,20 +790,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "agile",
+            "scout"
+        ],
+        "points": 185
     },
     {
         "_id": "4d8fc458",
+        "name": "Doom-Flayer",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 7,
-        "name": "Doom-Flayer",
-        "points": 190,
-        "runemarks": [
-            "destroyer",
-            "mount"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 5,
@@ -793,20 +817,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "destroyer",
+            "mount"
+        ],
+        "points": 190
     },
     {
         "_id": "6e76e882",
+        "name": "Rat Ogor [retired]",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Rat Ogor [retired]",
-        "points": 225,
-        "runemarks": [
-            "brute",
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -818,20 +843,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
-    },
-    {
-        "_id": "bf8a98c6",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Rat Ogor with Warpfire Gun [retired]",
-        "points": 225,
         "runemarks": [
             "brute",
             "beast"
         ],
-        "toughness": 4,
+        "points": 225
+    },
+    {
+        "_id": "bf8a98c6",
+        "name": "Rat Ogor with Warpfire Gun [retired]",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -852,19 +878,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "brute",
+            "beast"
+        ],
+        "points": 225
     },
     {
         "_id": "692838fa",
+        "name": "Stormfiend with Warpfire projectors",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Stormfiend with Warpfire projectors",
-        "points": 240,
-        "runemarks": [
-            "brute"
-        ],
         "toughness": 5,
-        "warband": "Skaven",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 3,
@@ -885,19 +913,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 35
-    },
-    {
-        "_id": "7371a259",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Stormfiend with Windlaunchers",
-        "points": 240,
         "runemarks": [
             "brute"
         ],
-        "toughness": 5,
+        "points": 240
+    },
+    {
+        "_id": "7371a259",
+        "name": "Stormfiend with Windlaunchers",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 5,
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 3,
@@ -918,19 +947,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 35
-    },
-    {
-        "_id": "d1320795",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Stormfiend with Ratling cannons",
-        "points": 245,
         "runemarks": [
             "brute"
         ],
-        "toughness": 5,
+        "points": 240
+    },
+    {
+        "_id": "d1320795",
+        "name": "Stormfiend with Ratling cannons",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 5,
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 3,
@@ -951,19 +981,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 35
-    },
-    {
-        "_id": "b3a86075",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Stormfiend with Doomflayer gauntlets",
-        "points": 270,
         "runemarks": [
             "brute"
         ],
-        "toughness": 5,
+        "points": 245
+    },
+    {
+        "_id": "b3a86075",
+        "name": "Stormfiend with Doomflayer gauntlets",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 5,
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 5,
@@ -975,19 +1006,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 35
-    },
-    {
-        "_id": "40d13b03",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Stormfiend with Grinderfists",
-        "points": 270,
         "runemarks": [
             "brute"
         ],
-        "toughness": 5,
+        "points": 270
+    },
+    {
+        "_id": "40d13b03",
+        "name": "Stormfiend with Grinderfists",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 5,
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 4,
@@ -999,19 +1031,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 35
-    },
-    {
-        "_id": "b3b9dd85",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Stormfiend with Shock Gauntlets",
-        "points": 270,
         "runemarks": [
             "brute"
         ],
-        "toughness": 5,
+        "points": 270
+    },
+    {
+        "_id": "b3b9dd85",
+        "name": "Stormfiend with Shock Gauntlets",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 5,
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 4,
@@ -1023,20 +1056,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "brute"
+        ],
+        "points": 270
     },
     {
         "_id": "26afa1a8",
+        "name": "Skritter",
+        "warband": "Skaven",
+        "subfaction": "Skabbik's Plaguepack",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Skritter",
-        "points": 70,
-        "runemarks": [
-            "terrifying",
-            "Skabbik's Plaguepack"
-        ],
         "toughness": 2,
-        "warband": "Skaven",
+        "wounds": 4,
         "weapons": [
             {
                 "attacks": 3,
@@ -1048,19 +1081,20 @@
                 "strength": 2
             }
         ],
-        "wounds": 4
+        "runemarks": [
+            "terrifying"
+        ],
+        "points": 70
     },
     {
         "_id": "fad4fd48",
+        "name": "Poxlix",
+        "warband": "Skaven",
+        "subfaction": "Skabbik's Plaguepack",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Poxlix",
-        "points": 90,
-        "runemarks": [
-            "Skabbik's Plaguepack"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -1072,19 +1106,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 90
     },
     {
         "_id": "cb061958",
+        "name": "Rikkit",
+        "warband": "Skaven",
+        "subfaction": "Skabbik's Plaguepack",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Rikkit",
-        "points": 90,
-        "runemarks": [
-            "Skabbik's Plaguepack"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -1096,20 +1129,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 90
     },
     {
         "_id": "c9eba256",
+        "name": "Itchitt",
+        "warband": "Skaven",
+        "subfaction": "Skabbik's Plaguepack",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Itchitt",
-        "points": 110,
-        "runemarks": [
-            "terrifying",
-            "Skabbik's Plaguepack"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -1130,21 +1161,20 @@
                 "strength": 2
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "terrifying"
+        ],
+        "points": 110
     },
     {
         "_id": "8d15f83e",
+        "name": "Rabidius Skench",
+        "warband": "Skaven",
+        "subfaction": "Skabbik's Plaguepack",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Rabidius Skench",
-        "points": 115,
-        "runemarks": [
-            "berserker",
-            "terrifying",
-            "Skabbik's Plaguepack"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 14,
         "weapons": [
             {
                 "attacks": 3,
@@ -1156,21 +1186,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 14
+        "runemarks": [
+            "berserker",
+            "terrifying"
+        ],
+        "points": 115
     },
     {
         "_id": "c78e134b",
+        "name": "Skabbik Plagueseeker",
+        "warband": "Skaven",
+        "subfaction": "Skabbik's Plaguepack",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Skabbik Plagueseeker",
-        "points": 160,
-        "runemarks": [
-            "hero",
-            "terrifying",
-            "Skabbik's Plaguepack"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -1182,19 +1212,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ],
+        "points": 160
     },
     {
         "_id": "cec12f58",
+        "name": "Krowch't",
+        "warband": "Skaven",
+        "subfaction": "Skittershank's Clawpack",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Krowch't",
-        "points": 75,
-        "runemarks": [
-            "Skittershank's Clawpack"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 4,
@@ -1206,19 +1238,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "534541c1",
+        "name": "Skulck",
+        "warband": "Skaven",
+        "subfaction": "Skittershank's Clawpack",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Skulck",
-        "points": 75,
-        "runemarks": [
-            "Skittershank's Clawpack"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -1239,20 +1270,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "32d3ac51",
+        "name": "Kreep Kinwhisper",
+        "warband": "Skaven",
+        "subfaction": "Skittershank's Clawpack",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Kreep Kinwhisper",
-        "points": 75,
-        "runemarks": [
-            "champion",
-            "Skittershank's Clawpack"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -1273,19 +1302,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "champion"
+        ],
+        "points": 75
     },
     {
         "_id": "19f4ae18",
+        "name": "Snyp Padpaw",
+        "warband": "Skaven",
+        "subfaction": "Skittershank's Clawpack",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Snyp Padpaw",
-        "points": 95,
-        "runemarks": [
-            "Skittershank's Clawpack"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -1297,21 +1327,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 95
     },
     {
         "_id": "8ce3d257",
+        "name": "Slynk Skittershank",
+        "warband": "Skaven",
+        "subfaction": "Skittershank's Clawpack",
         "grand_alliance": "chaos",
         "movement": 7,
-        "name": "Slynk Skittershank",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "champion",
-            "Skittershank's Clawpack"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 5,
@@ -1323,21 +1350,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "points": 170
     },
     {
         "_id": "c7d98639",
+        "name": "Festering Skaven",
+        "warband": "Skaven",
+        "subfaction": "Spiteclaw's Swarm",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Festering Skaven",
-        "points": 85,
-        "runemarks": [
-            "agile",
-            "minion",
-            "Spiteclaw's Swarm"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -1349,21 +1376,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "agile",
+            "minion"
+        ],
+        "points": 85
     },
     {
         "_id": "fde807b5",
+        "name": "Hungering Skaven",
+        "warband": "Skaven",
+        "subfaction": "Spiteclaw's Swarm",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Hungering Skaven",
-        "points": 85,
-        "runemarks": [
-            "agile",
-            "minion",
-            "Spiteclaw's Swarm"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -1375,20 +1402,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "agile",
+            "minion"
+        ],
+        "points": 85
     },
     {
         "_id": "312783fe",
+        "name": "Krrk the Almost-trusted",
+        "warband": "Skaven",
+        "subfaction": "Spiteclaw's Swarm",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Krrk the Almost-trusted",
-        "points": 85,
-        "runemarks": [
-            "agile",
-            "Spiteclaw's Swarm"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -1400,21 +1428,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "agile"
+        ],
+        "points": 85
     },
     {
         "_id": "74615372",
+        "name": "Lurking Skaven",
+        "warband": "Skaven",
+        "subfaction": "Spiteclaw's Swarm",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Lurking Skaven",
-        "points": 85,
-        "runemarks": [
-            "agile",
-            "minion",
-            "Spiteclaw's Swarm"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 5,
@@ -1426,21 +1453,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "agile",
+            "minion"
+        ],
+        "points": 85
     },
     {
         "_id": "86dcd952",
+        "name": "Skritch Spiteclaw",
+        "warband": "Skaven",
+        "subfaction": "Spiteclaw's Swarm",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Skritch Spiteclaw",
-        "points": 120,
-        "runemarks": [
-            "hero",
-            "agile",
-            "Spiteclaw's Swarm"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -1452,21 +1479,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
+        "points": 120
     },
     {
         "_id": "e98eb612",
+        "name": "Clawlord on Gnaw-Beast",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 8,
-        "name": "Clawlord on Gnaw-Beast",
-        "points": 230,
-        "runemarks": [
-            "hero",
-            "mount",
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Skaven",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -1487,21 +1514,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "mount",
+            "agile"
+        ],
+        "points": 230
     },
     {
         "_id": "4ecf8dc1",
+        "name": "Warlock Engineer With Warplock Jezzail",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Warlock Engineer With Warplock Jezzail",
-        "points": 205,
-        "runemarks": [
-            "hero",
-            "destroyer",
-            "agile"
-        ],
         "toughness": 3,
-        "warband": "Skaven",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 2,
@@ -1522,20 +1550,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "destroyer",
+            "agile"
+        ],
+        "points": 205
     },
     {
         "_id": "5cf6d806",
+        "name": "Rat Ogor",
+        "warband": "Skaven",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Rat Ogor",
-        "points": 240,
-        "runemarks": [
-            "beast",
-            "brute"
-        ],
         "toughness": 5,
-        "warband": "Skaven",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -1547,20 +1577,21 @@
                 "strength": 6
             }
         ],
-        "wounds": 28
-    },
-    {
-        "_id": "1d57af33",
-        "grand_alliance": "order",
-        "movement": 5,
-        "name": "Rat Ogor With Warpfire Gun",
-        "points": 230,
         "runemarks": [
             "beast",
             "brute"
         ],
-        "toughness": 5,
+        "points": 240
+    },
+    {
+        "_id": "1d57af33",
+        "name": "Rat Ogor With Warpfire Gun",
         "warband": "Skaven",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "toughness": 5,
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 2,
@@ -1581,6 +1612,10 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "beast",
+            "brute"
+        ],
+        "points": 230
     }
 ]

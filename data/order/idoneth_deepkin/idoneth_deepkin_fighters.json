@@ -1,15 +1,13 @@
 [
     {
         "_id": "435555ec",
+        "name": "Namarti Thrall",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Namarti Thrall",
-        "points": 80,
-        "runemarks": [
-            "minion"
-        ],
         "toughness": 3,
-        "warband": "Idoneth Deepkin",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -21,19 +19,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "minion"
+        ],
+        "points": 80
     },
     {
         "_id": "c150c15b",
+        "name": "Namarti Reaver",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Namarti Reaver",
-        "points": 105,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 3,
-        "warband": "Idoneth Deepkin",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -54,20 +53,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "agile"
+        ],
+        "points": 105
     },
     {
         "_id": "221c9420",
+        "name": "Isharann Tidecaster",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Isharann Tidecaster",
-        "points": 130,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 3,
-        "warband": "Idoneth Deepkin",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -88,20 +87,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 130
     },
     {
         "_id": "38ec346f",
+        "name": "Isharann Soulscryer",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Isharann Soulscryer",
-        "points": 140,
-        "runemarks": [
-            "hero",
-            "priest"
-        ],
         "toughness": 3,
-        "warband": "Idoneth Deepkin",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -113,20 +113,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "points": 140
     },
     {
         "_id": "56e6c850",
+        "name": "Akhelian Thrallmaster",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Akhelian Thrallmaster",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "sentience"
-        ],
         "toughness": 3,
-        "warband": "Idoneth Deepkin",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -138,20 +139,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "sentience"
+        ],
+        "points": 170
     },
     {
         "_id": "6b637ace",
+        "name": "Akhelian Ishlaen Guard",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Akhelian Ishlaen Guard",
-        "points": 180,
-        "runemarks": [
-            "fly",
-            "bulwark"
-        ],
         "toughness": 4,
-        "warband": "Idoneth Deepkin",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -163,20 +165,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "fly",
+            "bulwark"
+        ],
+        "points": 180
     },
     {
         "_id": "2e85defe",
+        "name": "Isharann Soulrender",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Isharann Soulrender",
-        "points": 185,
-        "runemarks": [
-            "hero",
-            "frenzied"
-        ],
         "toughness": 3,
-        "warband": "Idoneth Deepkin",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -197,20 +200,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "points": 185
     },
     {
         "_id": "250f1616",
+        "name": "Akhelian Morrsarr Guard",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Akhelian Morrsarr Guard",
-        "points": 200,
-        "runemarks": [
-            "fly",
-            "berserker"
-        ],
         "toughness": 4,
-        "warband": "Idoneth Deepkin",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -222,21 +226,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "fly",
+            "berserker"
+        ],
+        "points": 200
     },
     {
         "_id": "d7502c69",
+        "name": "Akhelian Ishlaen Guard Lochian Prince",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Akhelian Ishlaen Guard Lochian Prince",
-        "points": 250,
-        "runemarks": [
-            "fly",
-            "hero",
-            "bulwark"
-        ],
         "toughness": 4,
-        "warband": "Idoneth Deepkin",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -248,21 +252,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "fly",
+            "hero",
+            "bulwark"
+        ],
+        "points": 250
     },
     {
         "_id": "0aa6b8cb",
+        "name": "Akhelian Morrsarr Guard Lochian Prince",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Akhelian Morrsarr Guard Lochian Prince",
-        "points": 260,
-        "runemarks": [
-            "berserker",
-            "fly",
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Idoneth Deepkin",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -274,21 +279,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "berserker",
+            "fly",
+            "hero"
+        ],
+        "points": 260
     },
     {
         "_id": "7787d280",
+        "name": "Akhelian King with Greatsword",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Akhelian King with Greatsword",
-        "points": 305,
-        "runemarks": [
-            "fly",
-            "hero",
-            "champion"
-        ],
         "toughness": 4,
-        "warband": "Idoneth Deepkin",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 5,
@@ -300,21 +306,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 35
-    },
-    {
-        "_id": "7bcf3997",
-        "grand_alliance": "order",
-        "movement": 10,
-        "name": "Akhelian King with Bladed Polearm",
-        "points": 305,
         "runemarks": [
             "fly",
             "hero",
             "champion"
         ],
-        "toughness": 4,
+        "points": 305
+    },
+    {
+        "_id": "7bcf3997",
+        "name": "Akhelian King with Bladed Polearm",
         "warband": "Idoneth Deepkin",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 4,
@@ -326,21 +333,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "fly",
+            "hero",
+            "champion"
+        ],
+        "points": 305
     },
     {
         "_id": "318fd43b",
+        "name": "Spinefin",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "Elathain's Soulraid",
         "grand_alliance": "order",
         "movement": 12,
-        "name": "Spinefin",
-        "points": 80,
-        "runemarks": [
-            "beast",
-            "fly",
-            "Elathain's Soulraid"
-        ],
         "toughness": 2,
-        "warband": "Idoneth Deepkin",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -352,20 +360,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "beast",
+            "fly"
+        ],
+        "points": 80
     },
     {
         "_id": "892eca79",
+        "name": "Tammael",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "Elathain's Soulraid",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Tammael",
-        "points": 90,
-        "runemarks": [
-            "trapper",
-            "Elathain's Soulraid"
-        ],
         "toughness": 3,
-        "warband": "Idoneth Deepkin",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -377,19 +386,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 90
     },
     {
         "_id": "dd0a461e",
+        "name": "Fuirann",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "Elathain's Soulraid",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Fuirann",
-        "points": 120,
-        "runemarks": [
-            "Elathain's Soulraid"
-        ],
         "toughness": 4,
-        "warband": "Idoneth Deepkin",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -401,20 +411,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [],
+        "points": 120
     },
     {
         "_id": "45fa3090",
+        "name": "Duinclaw",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "Elathain's Soulraid",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Duinclaw",
-        "points": 110,
-        "runemarks": [
-            "beast",
-            "Elathain's Soulraid"
-        ],
         "toughness": 6,
-        "warband": "Idoneth Deepkin",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -426,20 +434,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "beast"
+        ],
+        "points": 110
     },
     {
         "_id": "52e96d63",
+        "name": "Elathain Ill-fated",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "Elathain's Soulraid",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Elathain Ill-fated",
-        "points": 165,
-        "runemarks": [
-            "hero",
-            "Elathain's Soulraid"
-        ],
         "toughness": 3,
-        "warband": "Idoneth Deepkin",
+        "wounds": 24,
         "weapons": [
             {
                 "attacks": 4,
@@ -460,20 +468,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 24
+        "runemarks": [
+            "hero"
+        ],
+        "points": 165
     },
     {
         "_id": "05bc352b",
+        "name": "Cyreni of the Abyss",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "Cyreni's Razors",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Cyreni of the Abyss",
-        "points": 165,
-        "runemarks": [
-            "hero",
-            "Cyreni's Razors"
-        ],
         "toughness": 3,
-        "warband": "Idoneth Deepkin",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 2,
@@ -494,20 +502,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero"
+        ],
+        "points": 165
     },
     {
         "_id": "3099608e",
+        "name": "Alathyrr",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "Cyreni's Razors",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Alathyrr",
-        "points": 95,
-        "runemarks": [
-            "minion",
-            "Cyreni's Razors"
-        ],
         "toughness": 4,
-        "warband": "Idoneth Deepkin",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -528,20 +536,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion"
+        ],
+        "points": 95
     },
     {
         "_id": "17c711cf",
+        "name": "Renglaith",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "Cyreni's Razors",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Renglaith",
-        "points": 95,
-        "runemarks": [
-            "minion",
-            "Cyreni's Razors"
-        ],
         "toughness": 4,
-        "warband": "Idoneth Deepkin",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -562,20 +570,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion"
+        ],
+        "points": 95
     },
     {
         "_id": "48027599",
+        "name": "Cephanyr",
+        "warband": "Idoneth Deepkin",
+        "subfaction": "Cyreni's Razors",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Cephanyr",
-        "points": 100,
-        "runemarks": [
-            "beast",
-            "Cyreni's Razors"
-        ],
         "toughness": 4,
-        "warband": "Idoneth Deepkin",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 8,
@@ -587,6 +595,9 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "beast"
+        ],
+        "points": 100
     }
 ]

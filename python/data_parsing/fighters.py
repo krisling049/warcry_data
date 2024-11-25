@@ -1,14 +1,19 @@
+import json
+from copy import deepcopy
+from dataclasses import dataclass
 from itertools import combinations_with_replacement
 from pathlib import Path
 from typing import List, Tuple, Dict, Optional
-from .abilities import Ability
-from .factions import Faction, SubFaction
-from .models import JSONDataPayload, PROJECT_ROOT, write_json
-import json
+
 import jsonschema
 import pandas as pd
-from copy import deepcopy
 
+from .abilities import Ability
+from .factions import Faction, SubFaction
+from .models import JSONDataPayload, PROJECT_ROOT, write_data_json
+
+FIGHTER_SCHEMA = PROJECT_ROOT / 'schemas' / 'fighter_schema.json'
+FIGHTERS_SCHEMA = PROJECT_ROOT / 'schemas' / 'aggregate_fighter_schema.json'
 
 def sort_fighters(data_to_sort: List[Dict]) -> List[Dict]:
     for f in data_to_sort:
@@ -102,22 +107,42 @@ class Weapon:
         return dmg_chance
 
 
+@dataclass
+class FighterProfile:
+    _id: str
+    name: str
+    warband: str
+    subfaction: str
+    grand_alliance: str
+    movement: int
+    toughness: int
+    wounds: int
+    weapons: list[dict[str, str|int]]
+    runemarks: list[str]
+    points: int
+
+    def __repr__(self):
+        return f'{self.name} ({self.warband})'
+
+
+
 class Fighter:
     def __init__(self, profile: dict):
         self._id = profile['_id']                                   # type: str
         self.name = profile['name']                                 # type: str
-        self.grand_alliance = profile['grand_alliance']             # type: str
         self.warband = profile['warband']                           # type: str
+        self.subfaction = None                                      # type: Optional[SubFaction]
+        self.grand_alliance = profile['grand_alliance']             # type: str
         self.movement = profile['movement']                         # type: int
         self.toughness = profile['toughness']                       # type: int
         self.wounds = profile['wounds']                             # type: int
-        self.points = profile['points']                             # type: int
-        self.runemarks = profile['runemarks']                       # type: List[str]
         self.weapons = [Weapon(x) for x in profile['weapons']]      # type: List[Weapon]
+        self.runemarks = profile['runemarks']                       # type: List[str]
+        self.points = profile['points']                             # type: int
+
         self._raw_data = profile                                    # type: dict
         self.abilities = list()                                     # type: List[Ability]
         self.faction = None                                         # type: Optional[Faction]
-        self.subfaction = None                                      # type: Optional[SubFaction]
 
     def __repr__(self):
         return self.name
@@ -130,18 +155,36 @@ class Fighter:
         return temp
 
     def legacy_format(self) -> dict:
-        temp = self.as_dict()
-        temp['bladeborn'] = self.subfaction.runemark if self.subfaction and self.subfaction.bladeborn else ''
-        if temp['bladeborn']:
-            temp['runemarks'].remove(self.subfaction.runemark)
-        return temp
+        key_order = [
+            '_id',
+            'name',
+            'warband',
+            'subfaction',
+            'grand_alliance',
+            'movement',
+            'toughness',
+            'wounds',
+            'weapons',
+            'runemarks',
+            'points'
+        ]
+
+        ordered_fighter = dict()
+        temp = deepcopy(self.as_dict())
+        temp['subfaction'] = self.subfaction_runemark() if self.subfaction else ''
+        for k in key_order:
+            ordered_fighter[k] = temp[k]
+            if k == 'runemarks':
+                ordered_fighter[k] = sorted([x for x in temp[k] if x != temp['subfaction']])
+
+        return ordered_fighter
 
     def subfaction_runemark(self) -> Optional[str]:
         if self.subfaction:
             return self.subfaction.runemark
         return None
 
-    def is_ally(self, src_fighter = None) -> bool:
+    def is_ally(self, src_fighter=None) -> bool:
         can_ally = any(['hero' in self.runemarks, 'ally' in self.runemarks])
         if src_fighter:
             return all([can_ally, src_fighter.grand_alliance == self.grand_alliance])
@@ -310,12 +353,12 @@ class FighterJSONDataPayload(JSONDataPayload):
             key=lambda x: (
                 x['grand_alliance'],
                 x['warband'],
-                x['bladeborn'],
+                x['subfaction'],
                 x['points']
             )
         )
         print(f'writing {len(to_write)} items to {out_file.absolute()}')
-        write_json(dst=out_file, data=to_write)
+        write_data_json(dst=out_file, data=to_write)
 
     def write_xlsx(self, dst_root: Path = Path(PROJECT_ROOT, 'data')):
         out_file = Path(dst_root, 'fighters.xlsx')

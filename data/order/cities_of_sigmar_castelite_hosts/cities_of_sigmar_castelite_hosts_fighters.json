@@ -1,15 +1,13 @@
 [
     {
         "_id": "f25b52f4",
+        "name": "Freeguild Command Corps Mascot Gargoylian",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Command Corps Mascot Gargoylian",
-        "points": 50,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 3,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -21,19 +19,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "beast"
+        ],
+        "points": 50
     },
     {
         "_id": "7a86de3c",
+        "name": "Freeguild Command Corps War Surgeon",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Command Corps War Surgeon",
-        "points": 60,
-        "runemarks": [
-            "sentience"
-        ],
         "toughness": 3,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -45,17 +44,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "sentience"
+        ],
+        "points": 60
     },
     {
         "_id": "e1b3c0d5",
+        "name": "Flagellant",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Flagellant",
-        "points": 60,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -67,19 +69,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 60
     },
     {
         "_id": "8c569252",
+        "name": "Freeguild Steelhelm",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Steelhelm",
-        "points": 60,
-        "runemarks": [
-            "bulwark"
-        ],
         "toughness": 4,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -91,19 +92,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 60
     },
     {
         "_id": "fb5f13f5",
+        "name": "Battle Priest",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Battle Priest",
-        "points": 65,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -115,19 +117,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "hero"
+        ],
+        "points": 65
     },
     {
         "_id": "a5ec546b",
+        "name": "Freeguild Command Corps Soul Shepherd",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Command Corps Soul Shepherd",
-        "points": 70,
-        "runemarks": [
-            "priest"
-        ],
         "toughness": 3,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 14,
         "weapons": [
             {
                 "attacks": 2,
@@ -148,19 +151,20 @@
                 "strength": 1
             }
         ],
-        "wounds": 14
+        "runemarks": [
+            "priest"
+        ],
+        "points": 70
     },
     {
         "_id": "20090195",
+        "name": "Freeguild Command Corps Whisperblade",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Command Corps Whisperblade",
-        "points": 80,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 3,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -172,19 +176,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "agile"
+        ],
+        "points": 80
     },
     {
         "_id": "65ff23d0",
+        "name": "Prophet",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Prophet",
-        "points": 95,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 3,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -196,20 +201,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "hero"
+        ],
+        "points": 95
     },
     {
         "_id": "adad5f32",
+        "name": "Sergeant at Arms",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sergeant at Arms",
-        "points": 100,
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
         "toughness": 4,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -221,19 +226,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 100
     },
     {
         "_id": "d904eb38",
+        "name": "Freeguild Command Corps Great Herald",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Command Corps Great Herald",
-        "points": 105,
-        "runemarks": [
-            "icon-bearer"
-        ],
         "toughness": 4,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -245,20 +252,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "icon-bearer"
+        ],
+        "points": 105
     },
     {
         "_id": "e2b99289",
+        "name": "Battlemage",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Battlemage",
-        "points": 120,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 3,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -279,20 +286,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 120
     },
     {
         "_id": "89ff4d46",
+        "name": "Freeguild Command Corps Arch-Knight",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Command Corps Arch-Knight",
-        "points": 120,
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -304,19 +312,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 120
     },
     {
         "_id": "d8bd3ecb",
+        "name": "Freeguild Fusilier",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Fusilier",
-        "points": 120,
-        "runemarks": [
-            "elite"
-        ],
         "toughness": 5,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -337,20 +347,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "elite"
+        ],
+        "points": 120
     },
     {
         "_id": "d565d395",
+        "name": "Alchemite Warforger",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Alchemite Warforger",
-        "points": 125,
-        "runemarks": [
-            "hero",
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -371,20 +381,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 125
     },
     {
         "_id": "0712ac67",
+        "name": "Fusil-Sergeant",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Fusil-Sergeant",
-        "points": 140,
-        "runemarks": [
-            "hero",
-            "elite"
-        ],
         "toughness": 5,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -405,20 +416,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "67c20f2c",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Freeguild Marshal with Duelling Pistols",
-        "points": 150,
         "runemarks": [
             "hero",
             "elite"
         ],
-        "toughness": 4,
+        "points": 140
+    },
+    {
+        "_id": "67c20f2c",
+        "name": "Freeguild Marshal with Duelling Pistols",
         "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -439,20 +451,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 150
     },
     {
         "_id": "68566e40",
+        "name": "Freeguild Marshal with Shield",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Marshal with Shield",
-        "points": 155,
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
         "toughness": 5,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -464,20 +477,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 155
     },
     {
         "_id": "22452def",
+        "name": "Freeguild Marshal with Heirloom Weapon",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Freeguild Marshal with Heirloom Weapon",
-        "points": 155,
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -489,19 +503,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 155
     },
     {
         "_id": "fc246066",
+        "name": "Freeguild Cavalier",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 9,
-        "name": "Freeguild Cavalier",
-        "points": 165,
-        "runemarks": [
-            "mount"
-        ],
         "toughness": 5,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -513,20 +529,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "mount"
+        ],
+        "points": 165
     },
     {
         "_id": "a594cd6b",
+        "name": "Freeguild Cavalier Arch-Knight",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 9,
-        "name": "Freeguild Cavalier Arch-Knight",
-        "points": 205,
-        "runemarks": [
-            "hero",
-            "mount"
-        ],
         "toughness": 5,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 24,
         "weapons": [
             {
                 "attacks": 3,
@@ -538,21 +554,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 24
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 205
     },
     {
         "_id": "12ae35bc",
+        "name": "Fusil-Major on Ogor Warhulk",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Fusil-Major on Ogor Warhulk",
-        "points": 245,
-        "runemarks": [
-            "hero",
-            "elite",
-            "bulwark"
-        ],
         "toughness": 6,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 3,
@@ -573,20 +589,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "hero",
+            "elite",
+            "bulwark"
+        ],
+        "points": 245
     },
     {
         "_id": "cf0d60d4",
+        "name": "Freeguild Cavalier-Marshal",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 9,
-        "name": "Freeguild Cavalier-Marshal",
-        "points": 255,
-        "runemarks": [
-            "hero",
-            "mount"
-        ],
         "toughness": 5,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 26,
         "weapons": [
             {
                 "attacks": 4,
@@ -598,20 +616,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 26
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 255
     },
     {
         "_id": "234e87ad",
+        "name": "Pater Filius",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "Brethren of the Bolt",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Pater Filius",
-        "points": 150,
-        "runemarks": [
-            "hero",
-            "Brethren of the Bolt"
-        ],
         "toughness": 4,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 3,
@@ -632,19 +651,20 @@
                 "strength": 1
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero"
+        ],
+        "points": 150
     },
     {
         "_id": "adf9a5d6",
+        "name": "Friar Galvic",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "Brethren of the Bolt",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Friar Galvic",
-        "points": 140,
-        "runemarks": [
-            "Brethren of the Bolt"
-        ],
         "toughness": 4,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -665,19 +685,18 @@
                 "strength": 1
             }
         ],
-        "wounds": 18
+        "runemarks": [],
+        "points": 140
     },
     {
         "_id": "58eca0a9",
+        "name": "Soror Tazat",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "Brethren of the Bolt",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Soror Tazat",
-        "points": 105,
-        "runemarks": [
-            "Brethren of the Bolt"
-        ],
         "toughness": 3,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 5,
@@ -698,19 +717,18 @@
                 "strength": 1
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 105
     },
     {
         "_id": "e9705ef3",
+        "name": "Acolyte Arcus",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "Brethren of the Bolt",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Acolyte Arcus",
-        "points": 95,
-        "runemarks": [
-            "Brethren of the Bolt"
-        ],
         "toughness": 3,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -731,19 +749,18 @@
                 "strength": 1
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 95
     },
     {
         "_id": "07be27e9",
+        "name": "Scorched Yakob",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "Brethren of the Bolt",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Scorched Yakob",
-        "points": 85,
-        "runemarks": [
-            "Brethren of the Bolt"
-        ],
         "toughness": 3,
-        "warband": "Cities of Sigmar: Castelite Hosts",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 5,
@@ -764,6 +781,7 @@
                 "strength": 1
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 85
     }
 ]

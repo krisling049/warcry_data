@@ -1,13 +1,13 @@
 [
     {
         "_id": "8x3l1r2h",
+        "name": "Ghoul Tracker",
+        "warband": "Royal Beastflayers",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Ghoul Tracker",
-        "points": 55,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Royal Beastflayers",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -19,19 +19,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 55
     },
     {
         "_id": "5a7z9b1q",
+        "name": "Ghoul Gore-Squire",
+        "warband": "Royal Beastflayers",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Ghoul Gore-Squire",
-        "points": 95,
-        "runemarks": [
-            "champion"
-        ],
         "toughness": 4,
-        "warband": "Royal Beastflayers",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -43,43 +42,45 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "champion"
+        ],
+        "points": 95
     },
     {
         "_id": "m2n8v1f7",
+        "name": "Beastflayer Baron",
+        "warband": "Royal Beastflayers",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Beastflayer Baron",
-        "points": 115,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
         "runemarks": [
             "brute"
         ],
-        "toughness": 4,
-        "warband": "Royal Beastflayers",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "claws",
-                "strength": 4
-            }
-        ],
-        "wounds": 16
+        "points": 115
     },
     {
         "_id": "q2p6j4h9",
+        "name": "Offal Hound",
+        "warband": "Royal Beastflayers",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 7,
-        "name": "Offal Hound",
-        "points": 130,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 3,
-        "warband": "Royal Beastflayers",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -91,19 +92,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "beast"
+        ],
+        "points": 130
     },
     {
         "_id": "3c8m9kx1",
+        "name": "Royal Flaymaster",
+        "warband": "Royal Beastflayers",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Royal Flaymaster",
-        "points": 175,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Royal Beastflayers",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -115,6 +117,9 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero"
+        ],
+        "points": 175
     }
 ]

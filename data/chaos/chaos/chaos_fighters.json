@@ -1,17 +1,13 @@
 [
     {
         "_id": "5c13b735",
+        "name": "Chaos Warhound",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Chaos Warhound",
-        "points": 85,
-        "runemarks": [
-            "thrall",
-            "scout",
-            "beast"
-        ],
         "toughness": 3,
-        "warband": "chaos",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -23,21 +19,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "thrall",
+            "scout",
+            "beast"
+        ],
+        "points": 85
     },
     {
         "_id": "42cd09a1",
+        "name": "Raptoryx",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Raptoryx",
-        "points": 85,
-        "runemarks": [
-            "thrall",
-            "beast",
-            "berserker"
-        ],
         "toughness": 4,
-        "warband": "chaos",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -49,21 +46,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "thrall",
+            "beast",
+            "berserker"
+        ],
+        "points": 85
     },
     {
         "_id": "4c982c53",
+        "name": "Fury",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Fury",
-        "points": 95,
-        "runemarks": [
-            "fly",
-            "thrall",
-            "sentience"
-        ],
         "toughness": 3,
-        "warband": "chaos",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -75,21 +73,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "fly",
+            "thrall",
+            "sentience"
+        ],
+        "points": 95
     },
     {
         "_id": "3062e7a9",
+        "name": "Chaos Spawn",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Chaos Spawn",
-        "points": 170,
-        "runemarks": [
-            "thrall",
-            "agile",
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "chaos",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -101,21 +100,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "thrall",
+            "agile",
+            "beast"
+        ],
+        "points": 170
     },
     {
         "_id": "ee042882",
+        "name": "Razorgor",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Razorgor",
-        "points": 205,
-        "runemarks": [
-            "thrall",
-            "beast",
-            "ferocious"
-        ],
         "toughness": 4,
-        "warband": "chaos",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -127,20 +127,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "thrall",
+            "beast",
+            "ferocious"
+        ],
+        "points": 205
     },
     {
         "_id": "0014b0b1",
+        "name": "Fomoroid Crusher",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Fomoroid Crusher",
-        "points": 270,
-        "runemarks": [
-            "ally",
-            "destroyer"
-        ],
         "toughness": 6,
-        "warband": "chaos",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 3,
@@ -152,20 +154,21 @@
                 "strength": 6
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "ally",
+            "destroyer"
+        ],
+        "points": 270
     },
     {
         "_id": "10fcdb0b",
+        "name": "Mindstealer Sphiranx",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Mindstealer Sphiranx",
-        "points": 260,
-        "runemarks": [
-            "ally",
-            "mystic"
-        ],
         "toughness": 5,
-        "warband": "chaos",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -177,20 +180,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "ally",
+            "mystic"
+        ],
+        "points": 260
     },
     {
         "_id": "f2e9c403",
+        "name": "Ogroid Myrmidon",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Ogroid Myrmidon",
-        "points": 275,
-        "runemarks": [
-            "ally",
-            "champion"
-        ],
         "toughness": 6,
-        "warband": "chaos",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 3,
@@ -202,21 +206,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "ally",
+            "champion"
+        ],
+        "points": 275
     },
     {
         "_id": "2137fdcf",
+        "name": "Centaurion Marshal",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Centaurion Marshal",
-        "points": 295,
-        "runemarks": [
-            "ally",
-            "icon-bearer",
-            "mount"
-        ],
         "toughness": 5,
-        "warband": "chaos",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 3,
@@ -237,20 +241,22 @@
                 "strength": 6
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "ally",
+            "icon-bearer",
+            "mount"
+        ],
+        "points": 295
     },
     {
         "_id": "d695c03d",
+        "name": "Cygor",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Cygor",
-        "points": 415,
-        "runemarks": [
-            "monster",
-            "terrifying"
-        ],
         "toughness": 4,
-        "warband": "chaos",
+        "wounds": 50,
         "weapons": [
             {
                 "attacks": 4,
@@ -262,20 +268,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 50
+        "runemarks": [
+            "monster",
+            "terrifying"
+        ],
+        "points": 415
     },
     {
         "_id": "23768752",
+        "name": "Chaos Gargant",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Chaos Gargant",
-        "points": 420,
-        "runemarks": [
-            "monster",
-            "brute"
-        ],
         "toughness": 4,
-        "warband": "chaos",
+        "wounds": 45,
         "weapons": [
             {
                 "attacks": 4,
@@ -287,20 +294,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 45
+        "runemarks": [
+            "monster",
+            "brute"
+        ],
+        "points": 420
     },
     {
         "_id": "858b966f",
+        "name": "Mutalith Vortex Beast",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Mutalith Vortex Beast",
-        "points": 425,
-        "runemarks": [
-            "monster",
-            "trapper"
-        ],
         "toughness": 4,
-        "warband": "chaos",
+        "wounds": 50,
         "weapons": [
             {
                 "attacks": 4,
@@ -312,20 +320,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 50
+        "runemarks": [
+            "monster",
+            "trapper"
+        ],
+        "points": 425
     },
     {
         "_id": "6d84da35",
+        "name": "Ghorgon",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Ghorgon",
-        "points": 445,
-        "runemarks": [
-            "monster",
-            "frenzied"
-        ],
         "toughness": 4,
-        "warband": "chaos",
+        "wounds": 50,
         "weapons": [
             {
                 "attacks": 5,
@@ -337,20 +346,21 @@
                 "strength": 6
             }
         ],
-        "wounds": 50
+        "runemarks": [
+            "monster",
+            "frenzied"
+        ],
+        "points": 445
     },
     {
         "_id": "718e4ffe",
+        "name": "Hell Pit Abomination",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Hell Pit Abomination",
-        "points": 465,
-        "runemarks": [
-            "monster",
-            "minion"
-        ],
         "toughness": 4,
-        "warband": "chaos",
+        "wounds": 55,
         "weapons": [
             {
                 "attacks": 5,
@@ -362,20 +372,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 55
+        "runemarks": [
+            "monster",
+            "minion"
+        ],
+        "points": 465
     },
     {
         "_id": "c01737a3",
+        "name": "Slaughterbrute",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Slaughterbrute",
-        "points": 490,
-        "runemarks": [
-            "monster",
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "chaos",
+        "wounds": 50,
         "weapons": [
             {
                 "attacks": 5,
@@ -387,21 +398,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 50
+        "runemarks": [
+            "monster",
+            "elite"
+        ],
+        "points": 490
     },
     {
         "_id": "4ddf17fb",
+        "name": "Chimera",
+        "warband": "chaos",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 12,
-        "name": "Chimera",
-        "points": 515,
-        "runemarks": [
-            "fly",
-            "monster",
-            "bulwark"
-        ],
         "toughness": 4,
-        "warband": "chaos",
+        "wounds": 45,
         "weapons": [
             {
                 "attacks": 6,
@@ -413,6 +424,11 @@
                 "strength": 6
             }
         ],
-        "wounds": 45
+        "runemarks": [
+            "fly",
+            "monster",
+            "bulwark"
+        ],
+        "points": 515
     }
 ]

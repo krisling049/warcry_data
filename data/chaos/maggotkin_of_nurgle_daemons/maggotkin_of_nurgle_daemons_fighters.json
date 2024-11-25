@@ -1,15 +1,13 @@
 [
     {
         "_id": "bb658018",
+        "name": "Plaguebearer",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Plaguebearer",
-        "points": 60,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Daemons",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -21,20 +19,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 60
     },
     {
         "_id": "68ef25a4",
+        "name": "Plagueridden",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Plagueridden",
-        "points": 90,
-        "runemarks": [
-            "hero",
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Daemons",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -46,19 +44,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 90
     },
     {
         "_id": "64aee8cd",
+        "name": "Nurglings",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Nurglings",
-        "points": 115,
-        "runemarks": [
-            "minion"
-        ],
         "toughness": 3,
-        "warband": "Maggotkin of Nurgle: Daemons",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 6,
@@ -70,19 +70,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "minion"
+        ],
+        "points": 115
     },
     {
         "_id": "384d1420",
+        "name": "Poxbringer",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Poxbringer",
-        "points": 130,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Daemons",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -103,20 +104,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero"
+        ],
+        "points": 130
     },
     {
         "_id": "04b82f5a",
+        "name": "Sloppity Bilepiper",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Sloppity Bilepiper",
-        "points": 130,
-        "runemarks": [
-            "hero",
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Daemons",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -128,20 +129,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
+        "points": 130
     },
     {
         "_id": "f252c741",
+        "name": "Spoilpox Scrivener",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Spoilpox Scrivener",
-        "points": 135,
-        "runemarks": [
-            "hero",
-            "champion"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Daemons",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 2,
@@ -153,20 +155,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "points": 135
     },
     {
         "_id": "872ffe2e",
+        "name": "Beast of Nurgle",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Beast of Nurgle",
-        "points": 150,
-        "runemarks": [
-            "beast",
-            "ferocious"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Daemons",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -178,20 +181,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "beast",
+            "ferocious"
+        ],
+        "points": 150
     },
     {
         "_id": "67ae7666",
+        "name": "Plague Drone",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Plague Drone",
-        "points": 205,
-        "runemarks": [
-            "fly",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Daemons",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -203,21 +207,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "fly",
+            "destroyer"
+        ],
+        "points": 205
     },
     {
         "_id": "f3ef89d8",
+        "name": "Plaguebringer",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Plaguebringer",
-        "points": 255,
-        "runemarks": [
-            "fly",
-            "hero",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Maggotkin of Nurgle: Daemons",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 5,
@@ -229,6 +233,11 @@
                 "strength": 4
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "fly",
+            "hero",
+            "destroyer"
+        ],
+        "points": 255
     }
 ]

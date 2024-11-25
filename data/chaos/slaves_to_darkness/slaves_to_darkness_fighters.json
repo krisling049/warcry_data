@@ -1,13 +1,13 @@
 [
     {
         "_id": "b7381b1e",
+        "name": "Chaos Marauder with Barbarian Flail",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Marauder with Barbarian Flail",
-        "points": 70,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Slaves to Darkness",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -19,19 +19,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 70
     },
     {
         "_id": "a7fbdaeb",
+        "name": "Chaos Marauder with Barbarian Axe and Darkwood Shield",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Marauder with Barbarian Axe and Darkwood Shield",
-        "points": 70,
-        "runemarks": [
-            "bulwark"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -43,19 +42,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
-    },
-    {
-        "_id": "6f800d34",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Chaos Warrior with Chaos Halberd and Chaos Runeshield",
-        "points": 105,
         "runemarks": [
             "bulwark"
         ],
-        "toughness": 6,
+        "points": 70
+    },
+    {
+        "_id": "6f800d34",
+        "name": "Chaos Warrior with Chaos Halberd and Chaos Runeshield",
         "warband": "Slaves to Darkness",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 6,
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 2,
@@ -67,19 +67,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 105
     },
     {
         "_id": "c942dd0e",
+        "name": "Marauder Chieftain",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Marauder Chieftain",
-        "points": 105,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 3,
-        "warband": "Slaves to Darkness",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -91,19 +92,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "hero"
+        ],
+        "points": 105
     },
     {
         "_id": "3610764e",
+        "name": "Chaos Warrior with Chaos Hand Weapon and Chaos Runeshield",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Warrior with Chaos Hand Weapon and Chaos Runeshield",
-        "points": 110,
-        "runemarks": [
-            "bulwark"
-        ],
         "toughness": 6,
-        "warband": "Slaves to Darkness",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -115,17 +117,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 110
     },
     {
         "_id": "4833f2b4",
+        "name": "Chaos Warrior with Chaos Greatblade",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Warrior with Chaos Greatblade",
-        "points": 115,
-        "runemarks": [],
         "toughness": 5,
-        "warband": "Slaves to Darkness",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -137,17 +142,18 @@
                 "strength": 5
             }
         ],
-        "wounds": 15
+        "runemarks": [],
+        "points": 115
     },
     {
         "_id": "3fbb7d06",
+        "name": "Chaos Warrior with Pair of Chaos Hand Weapons",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Warrior with Pair of Chaos Hand Weapons",
-        "points": 120,
-        "runemarks": [],
         "toughness": 5,
-        "warband": "Slaves to Darkness",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -159,19 +165,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [],
+        "points": 120
     },
     {
         "_id": "19b6637d",
+        "name": "Chaos Marauder Horseman with Barbarian Axe and Darkwood Shield",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Marauder Horseman with Barbarian Axe and Darkwood Shield",
-        "points": 125,
-        "runemarks": [
-            "mount"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -183,19 +188,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
-    },
-    {
-        "_id": "58331927",
-        "grand_alliance": "chaos",
-        "movement": 10,
-        "name": "Chaos Marauder Horseman with Marauder Flail",
-        "points": 130,
         "runemarks": [
             "mount"
         ],
-        "toughness": 3,
+        "points": 125
+    },
+    {
+        "_id": "58331927",
+        "name": "Chaos Marauder Horseman with Marauder Flail",
         "warband": "Slaves to Darkness",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -207,20 +213,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "mount"
+        ],
+        "points": 130
     },
     {
         "_id": "123bab22",
+        "name": "Chaos Marauder Horseman with Marauder Javelin and Darkwood Shield",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Marauder Horseman with Marauder Javelin and Darkwood Shield",
-        "points": 140,
-        "runemarks": [
-            "scout",
-            "mount"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -232,20 +238,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "scout",
+            "mount"
+        ],
+        "points": 140
     },
     {
         "_id": "8036bff4",
+        "name": "Chaos Sorcerer Lord",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Sorcerer Lord",
-        "points": 150,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 3,
@@ -266,19 +273,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 150
     },
     {
         "_id": "d78bd02a",
+        "name": "Aspiring Champion",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Aspiring Champion",
-        "points": 155,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 6,
-        "warband": "Slaves to Darkness",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -290,20 +299,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero"
+        ],
+        "points": 155
     },
     {
         "_id": "5de83880",
+        "name": "Darkoath Chieftain",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Darkoath Chieftain",
-        "points": 155,
-        "runemarks": [
-            "hero",
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -315,20 +324,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 155
     },
     {
         "_id": "01a3f1f8",
+        "name": "Darkoath Warqueen",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Darkoath Warqueen",
-        "points": 175,
-        "runemarks": [
-            "hero",
-            "champion"
-        ],
         "toughness": 5,
-        "warband": "Slaves to Darkness",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -340,20 +350,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
-    },
-    {
-        "_id": "7ed88e20",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Exalted Hero of Chaos",
-        "points": 185,
         "runemarks": [
             "hero",
             "champion"
         ],
-        "toughness": 5,
+        "points": 175
+    },
+    {
+        "_id": "7ed88e20",
+        "name": "Exalted Hero of Chaos",
         "warband": "Slaves to Darkness",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -365,19 +376,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "points": 185
     },
     {
         "_id": "920598c8",
+        "name": "Chaos Knight with Cursed Lance and Chaos Runeshield",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Knight with Cursed Lance and Chaos Runeshield",
-        "points": 195,
-        "runemarks": [
-            "mount"
-        ],
         "toughness": 6,
-        "warband": "Slaves to Darkness",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 3,
@@ -389,19 +402,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
-    },
-    {
-        "_id": "96d53b93",
-        "grand_alliance": "chaos",
-        "movement": 10,
-        "name": "Chaos Knight with Ensorcelled Weapon and Chaos Runeshield",
-        "points": 205,
         "runemarks": [
             "mount"
         ],
-        "toughness": 6,
+        "points": 195
+    },
+    {
+        "_id": "96d53b93",
+        "name": "Chaos Knight with Ensorcelled Weapon and Chaos Runeshield",
         "warband": "Slaves to Darkness",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 6,
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -413,20 +427,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "mount"
+        ],
+        "points": 205
     },
     {
         "_id": "8f999f26",
+        "name": "Chaos Lord",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Lord",
-        "points": 210,
-        "runemarks": [
-            "hero",
-            "champion"
-        ],
         "toughness": 5,
-        "warband": "Slaves to Darkness",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -438,20 +452,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "points": 210
     },
     {
         "_id": "96bb2473",
+        "name": "Horsemaster",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Horsemaster",
-        "points": 215,
-        "runemarks": [
-            "hero",
-            "mount"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -463,20 +478,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
-    },
-    {
-        "_id": "82f4a0cb",
-        "grand_alliance": "chaos",
-        "movement": 10,
-        "name": "Doom Knight",
-        "points": 250,
         "runemarks": [
             "hero",
             "mount"
         ],
-        "toughness": 6,
+        "points": 215
+    },
+    {
+        "_id": "82f4a0cb",
+        "name": "Doom Knight",
         "warband": "Slaves to Darkness",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 6,
+        "wounds": 26,
         "weapons": [
             {
                 "attacks": 4,
@@ -488,21 +504,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 26
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 250
     },
     {
         "_id": "30bcd88b",
+        "name": "Varanguard with Fellspear",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Varanguard with Fellspear",
-        "points": 280,
-        "runemarks": [
-            "hero",
-            "terrifying",
-            "mount"
-        ],
         "toughness": 6,
-        "warband": "Slaves to Darkness",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -514,21 +530,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "terrifying",
+            "mount"
+        ],
+        "points": 280
     },
     {
         "_id": "c4c394e4",
+        "name": "Chaos Lord on Daemonic Mount",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Chaos Lord on Daemonic Mount",
-        "points": 285,
-        "runemarks": [
-            "hero",
-            "agile",
-            "mount"
-        ],
         "toughness": 5,
-        "warband": "Slaves to Darkness",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 5,
@@ -540,21 +557,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 32
+        "runemarks": [
+            "hero",
+            "agile",
+            "mount"
+        ],
+        "points": 285
     },
     {
         "_id": "bc727cbe",
+        "name": "Varanguard with Daemonforged Blade",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 10,
-        "name": "Varanguard with Daemonforged Blade",
-        "points": 285,
-        "runemarks": [
-            "hero",
-            "terrifying",
-            "mount"
-        ],
         "toughness": 6,
-        "warband": "Slaves to Darkness",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 3,
@@ -566,21 +584,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 30
-    },
-    {
-        "_id": "5edfa7b4",
-        "grand_alliance": "chaos",
-        "movement": 10,
-        "name": "Varanguard with Ensorcelled weapon",
-        "points": 290,
         "runemarks": [
             "hero",
             "terrifying",
             "mount"
         ],
-        "toughness": 6,
+        "points": 285
+    },
+    {
+        "_id": "5edfa7b4",
+        "name": "Varanguard with Ensorcelled weapon",
         "warband": "Slaves to Darkness",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 6,
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -592,21 +611,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "terrifying",
+            "mount"
+        ],
+        "points": 290
     },
     {
         "_id": "f08f6892",
+        "name": "Chaos Lord on Karkadrak",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Chaos Lord on Karkadrak",
-        "points": 375,
-        "runemarks": [
-            "hero",
-            "agile",
-            "mount"
-        ],
         "toughness": 6,
-        "warband": "Slaves to Darkness",
+        "wounds": 38,
         "weapons": [
             {
                 "attacks": 5,
@@ -618,20 +638,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 38
+        "runemarks": [
+            "hero",
+            "agile",
+            "mount"
+        ],
+        "points": 375
     },
     {
         "_id": "810bb2cc",
+        "name": "Chaos Chosen Exalted Champion",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Chosen Exalted Champion",
-        "points": 210,
-        "runemarks": [
-            "hero",
-            "warrior"
-        ],
         "toughness": 5,
-        "warband": "Slaves to Darkness",
+        "wounds": 24,
         "weapons": [
             {
                 "attacks": 4,
@@ -643,20 +665,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 24
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 210
     },
     {
         "_id": "f5bbf9d4",
+        "name": "Thorakon with Goroan Falchion and Shield",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Thorakon with Goroan Falchion and Shield",
-        "points": 210,
-        "runemarks": [
-            "hero",
-            "ferocious"
-        ],
         "toughness": 6,
-        "warband": "Slaves to Darkness",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -668,20 +691,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "points": 210
     },
     {
         "_id": "44766ee9",
+        "name": "Thorakon with Goroan Great Axe",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Thorakon with Goroan Great Axe",
-        "points": 275,
-        "runemarks": [
-            "hero",
-            "ferocious"
-        ],
         "toughness": 5,
-        "warband": "Slaves to Darkness",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -693,19 +717,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "points": 275
     },
     {
         "_id": "ac1ef533",
+        "name": "Chaos Chosen",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Chaos Chosen",
-        "points": 155,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 5,
-        "warband": "Slaves to Darkness",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -717,19 +743,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 155
     },
     {
         "_id": "09dc4fa3",
+        "name": "Ogroid Theridon with Goroan Falchion and Shield",
+        "warband": "Slaves to Darkness",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Ogroid Theridon with Goroan Falchion and Shield",
-        "points": 195,
-        "runemarks": [
-            "ferocious"
-        ],
         "toughness": 6,
-        "warband": "Slaves to Darkness",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -741,19 +768,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
-    },
-    {
-        "_id": "c69e2171",
-        "grand_alliance": "chaos",
-        "movement": 5,
-        "name": "Ogroid Theridon with Goroan Great Axe",
-        "points": 220,
         "runemarks": [
             "ferocious"
         ],
-        "toughness": 5,
+        "points": 195
+    },
+    {
+        "_id": "c69e2171",
+        "name": "Ogroid Theridon with Goroan Great Axe",
         "warband": "Slaves to Darkness",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 5,
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -765,19 +793,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "ferocious"
+        ],
+        "points": 220
     },
     {
         "_id": "5b4489f1",
+        "name": "Crimson Kheira",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Gnarlspirit Pack",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Crimson Kheira",
-        "points": 100,
-        "runemarks": [
-            "Gnarlspirit Pack"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 5,
@@ -789,19 +818,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [],
+        "points": 100
     },
     {
         "_id": "6b09362e",
+        "name": "Lupan Longcut",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Gnarlspirit Pack",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Lupan Longcut",
-        "points": 110,
-        "runemarks": [
-            "Gnarlspirit Pack"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -822,19 +850,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [],
+        "points": 110
     },
     {
         "_id": "5485de5c",
+        "name": "Gorl Spinehammer",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Gnarlspirit Pack",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Gorl Spinehammer",
-        "points": 120,
-        "runemarks": [
-            "Gnarlspirit Pack"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -846,21 +873,18 @@
                 "strength": 5
             }
         ],
-        "wounds": 18
+        "runemarks": [],
+        "points": 120
     },
     {
         "_id": "90fd2d5a",
+        "name": "Sarrakkar Blackwing",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Gnarlspirit Pack",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Sarrakkar Blackwing",
-        "points": 185,
-        "runemarks": [
-            "hero",
-            "fly",
-            "Gnarlspirit Pack"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -881,20 +905,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "fly"
+        ],
+        "points": 185
     },
     {
         "_id": "ed678a94",
+        "name": "Grawl",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Godsworn Hunt",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Grawl",
-        "points": 75,
-        "runemarks": [
-            "beast",
-            "Godsworn Hunt"
-        ],
         "toughness": 3,
-        "warband": "Slaves to Darkness",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -906,20 +931,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "beast"
+        ],
+        "points": 75
     },
     {
         "_id": "3583f198",
+        "name": "Jagathra",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Godsworn Hunt",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Jagathra",
-        "points": 65,
-        "runemarks": [
-            "scout",
-            "Godsworn Hunt"
-        ],
         "toughness": 3,
-        "warband": "Slaves to Darkness",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -931,19 +956,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "scout"
+        ],
+        "points": 65
     },
     {
         "_id": "0251c9f7",
+        "name": "Grundann Blood-eye",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Godsworn Hunt",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Grundann Blood-eye",
-        "points": 90,
-        "runemarks": [
-            "Godsworn Hunt"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -955,19 +981,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 90
     },
     {
         "_id": "693114fb",
+        "name": "Shond Head-claimer",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Godsworn Hunt",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Shond Head-claimer",
-        "points": 90,
-        "runemarks": [
-            "Godsworn Hunt"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -979,20 +1004,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 90
     },
     {
         "_id": "bb2ead5f",
+        "name": "Ollo",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Godsworn Hunt",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Ollo",
-        "points": 80,
-        "runemarks": [
-            "trapper",
-            "Godsworn Hunt"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -1013,20 +1036,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 80
     },
     {
         "_id": "11d1ed69",
+        "name": "Theddra Skull-scryer",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Godsworn Hunt",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Theddra Skull-scryer",
-        "points": 150,
-        "runemarks": [
-            "hero",
-            "Godsworn Hunt"
-        ],
         "toughness": 4,
-        "warband": "Slaves to Darkness",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -1047,19 +1070,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero"
+        ],
+        "points": 150
     },
     {
         "_id": "abdace62",
+        "name": "Dour Cragan",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Khagra's Ravagers",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Dour Cragan",
-        "points": 125,
-        "runemarks": [
-            "Khagra's Ravagers"
-        ],
         "toughness": 5,
-        "warband": "Slaves to Darkness",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -1071,20 +1095,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 16
+        "runemarks": [],
+        "points": 125
     },
     {
         "_id": "7ea88cee",
+        "name": "Zarshia Bittersoul",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Khagra's Ravagers",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Zarshia Bittersoul",
-        "points": 135,
-        "runemarks": [
-            "mystic",
-            "Khagra's Ravagers"
-        ],
         "toughness": 3,
-        "warband": "Slaves to Darkness",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -1105,20 +1127,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 135
     },
     {
         "_id": "1a7714cb",
+        "name": "Razek Godblessed",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Khagra's Ravagers",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Razek Godblessed",
-        "points": 115,
-        "runemarks": [
-            "bulwark",
-            "Khagra's Ravagers"
-        ],
         "toughness": 6,
-        "warband": "Slaves to Darkness",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 3,
@@ -1130,20 +1152,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 115
     },
     {
         "_id": "ea6dd24f",
+        "name": "Khagra the Usurper",
+        "warband": "Slaves to Darkness",
+        "subfaction": "Khagra's Ravagers",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Khagra the Usurper",
-        "points": 195,
-        "runemarks": [
-            "hero",
-            "Khagra's Ravagers"
-        ],
         "toughness": 6,
-        "warband": "Slaves to Darkness",
+        "wounds": 26,
         "weapons": [
             {
                 "attacks": 4,
@@ -1155,6 +1177,9 @@
                 "strength": 4
             }
         ],
-        "wounds": 26
+        "runemarks": [
+            "hero"
+        ],
+        "points": 195
     }
 ]

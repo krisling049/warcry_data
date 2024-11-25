@@ -1,16 +1,13 @@
 [
     {
         "_id": "58c57168",
+        "name": "Dire Wolf",
+        "warband": "death",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 8,
-        "name": "Dire Wolf",
-        "points": 85,
-        "runemarks": [
-            "thrall",
-            "scout"
-        ],
         "toughness": 3,
-        "warband": "death",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -22,21 +19,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "thrall",
+            "scout"
+        ],
+        "points": 85
     },
     {
         "_id": "61bbb21b",
+        "name": "Fell Bat",
+        "warband": "death",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 10,
-        "name": "Fell Bat",
-        "points": 130,
-        "runemarks": [
-            "fly",
-            "thrall",
-            "frenzied"
-        ],
         "toughness": 3,
-        "warband": "death",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -48,21 +45,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "fly",
+            "thrall",
+            "frenzied"
+        ],
+        "points": 130
     },
     {
         "_id": "cc01fb56",
+        "name": "Terrorgheist",
+        "warband": "death",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 12,
-        "name": "Terrorgheist",
-        "points": 500,
-        "runemarks": [
-            "fly",
-            "monster",
-            "terrifying"
-        ],
         "toughness": 4,
-        "warband": "death",
+        "wounds": 50,
         "weapons": [
             {
                 "attacks": 4,
@@ -74,21 +72,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 50
-    },
-    {
-        "_id": "033e033b",
-        "grand_alliance": "death",
-        "movement": 12,
-        "name": "Zombie Dragon",
-        "points": 540,
         "runemarks": [
             "fly",
             "monster",
-            "brute"
+            "terrifying"
         ],
-        "toughness": 4,
+        "points": 500
+    },
+    {
+        "_id": "033e033b",
+        "name": "Zombie Dragon",
         "warband": "death",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 12,
+        "toughness": 4,
+        "wounds": 50,
         "weapons": [
             {
                 "attacks": 5,
@@ -100,6 +99,11 @@
                 "strength": 5
             }
         ],
-        "wounds": 50
+        "runemarks": [
+            "fly",
+            "monster",
+            "brute"
+        ],
+        "points": 540
     }
 ]

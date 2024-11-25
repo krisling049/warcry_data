@@ -1,13 +1,13 @@
 [
     {
         "_id": "6bb3286e",
+        "name": "Witch Aelf with Paired Sciansá",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Witch Aelf with Paired Sciansá",
-        "points": 65,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 4,
@@ -19,17 +19,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 65
     },
     {
         "_id": "1aeda80d",
+        "name": "Witch Aelf with Sciansá and Bladed Buckler",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Witch Aelf with Sciansá and Bladed Buckler",
-        "points": 65,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -41,17 +42,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 65
     },
     {
         "_id": "421951b6",
+        "name": "Sister of Slaughter with Kruiplash and Bladed Buckler",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Sister of Slaughter with Kruiplash and Bladed Buckler",
-        "points": 75,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -63,17 +65,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "68ef8142",
+        "name": "Sister of Slaughter with Kruiplash and Sacrificial Knife",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Sister of Slaughter with Kruiplash and Sacrificial Knife",
-        "points": 80,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 4,
@@ -85,19 +88,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 80
     },
     {
         "_id": "546a5335",
+        "name": "Witch Aelf Hag",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Witch Aelf Hag",
-        "points": 95,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -109,19 +111,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "0d24141f",
-        "grand_alliance": "order",
-        "movement": 5,
-        "name": "Handmaiden",
-        "points": 125,
         "runemarks": [
             "hero"
         ],
-        "toughness": 4,
+        "points": 95
+    },
+    {
+        "_id": "0d24141f",
+        "name": "Handmaiden",
         "warband": "Daughters of Khaine",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -133,44 +136,46 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "hero"
+        ],
+        "points": 125
     },
     {
         "_id": "8d0b3924",
+        "name": "Hag Queen",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Hag Queen",
-        "points": 130,
+        "toughness": 3,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            }
+        ],
         "runemarks": [
             "hero",
             "priest"
         ],
-        "toughness": 3,
-        "warband": "Daughters of Khaine",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "dagger",
-                "strength": 4
-            }
-        ],
-        "wounds": 18
+        "points": 130
     },
     {
         "_id": "c63f9100",
+        "name": "Doomfire Warlock",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Doomfire Warlock",
-        "points": 140,
-        "runemarks": [
-            "mount"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
@@ -191,20 +196,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "mount"
+        ],
+        "points": 140
     },
     {
         "_id": "5c1485b3",
+        "name": "Khinerai Heartrender",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 12,
-        "name": "Khinerai Heartrender",
-        "points": 145,
-        "runemarks": [
-            "fly",
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -216,20 +221,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
-    },
-    {
-        "_id": "f3d4d037",
-        "grand_alliance": "order",
-        "movement": 12,
-        "name": "Khinerai Lifetaker",
-        "points": 150,
         "runemarks": [
             "fly",
             "agile"
         ],
-        "toughness": 4,
+        "points": 145
+    },
+    {
+        "_id": "f3d4d037",
+        "name": "Khinerai Lifetaker",
         "warband": "Daughters of Khaine",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 12,
+        "toughness": 4,
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -241,19 +247,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "fly",
+            "agile"
+        ],
+        "points": 150
     },
     {
         "_id": "48b81a14",
+        "name": "Blood Sister",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 7,
-        "name": "Blood Sister",
-        "points": 155,
-        "runemarks": [
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -265,20 +273,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "elite"
+        ],
+        "points": 155
     },
     {
         "_id": "ee9ea029",
+        "name": "Master of Warlocks",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Master of Warlocks",
-        "points": 160,
-        "runemarks": [
-            "hero",
-            "mount"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -299,20 +307,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 160
     },
     {
         "_id": "654f02cd",
+        "name": "Slaughter Queen",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Slaughter Queen",
-        "points": 160,
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 5,
@@ -324,19 +333,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 160
     },
     {
         "_id": "c4c57995",
+        "name": "Blood Stalker",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 7,
-        "name": "Blood Stalker",
-        "points": 170,
-        "runemarks": [
-            "berserker"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 2,
@@ -357,20 +368,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "berserker"
+        ],
+        "points": 170
     },
     {
         "_id": "b4768d9e",
+        "name": "High Gladiatrix",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "High Gladiatrix",
-        "points": 195,
-        "runemarks": [
-            "hero",
-            "trapper"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -382,21 +393,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "trapper"
+        ],
+        "points": 195
     },
     {
         "_id": "4e311d0a",
+        "name": "Harridynn",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 12,
-        "name": "Harridynn",
-        "points": 210,
-        "runemarks": [
-            "fly",
-            "hero",
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 5,
@@ -408,21 +419,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
-    },
-    {
-        "_id": "ee8cbcfe",
-        "grand_alliance": "order",
-        "movement": 12,
-        "name": "Shryke",
-        "points": 220,
         "runemarks": [
             "fly",
             "hero",
             "agile"
         ],
-        "toughness": 4,
+        "points": 210
+    },
+    {
+        "_id": "ee8cbcfe",
+        "name": "Shryke",
         "warband": "Daughters of Khaine",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 12,
+        "toughness": 4,
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -434,20 +446,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "fly",
+            "hero",
+            "agile"
+        ],
+        "points": 220
     },
     {
         "_id": "5d3cc538",
+        "name": "Krone",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 7,
-        "name": "Krone",
-        "points": 230,
-        "runemarks": [
-            "hero",
-            "berserker"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 2,
@@ -468,20 +482,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "points": 230
     },
     {
         "_id": "b9380fcb",
+        "name": "Melusai Ironscale",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 7,
-        "name": "Melusai Ironscale",
-        "points": 245,
-        "runemarks": [
-            "hero",
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 5,
@@ -502,20 +517,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 28
-    },
-    {
-        "_id": "06594d76",
-        "grand_alliance": "order",
-        "movement": 7,
-        "name": "Gorgai",
-        "points": 255,
         "runemarks": [
             "hero",
             "elite"
         ],
-        "toughness": 4,
+        "points": 245
+    },
+    {
+        "_id": "06594d76",
+        "name": "Gorgai",
         "warband": "Daughters of Khaine",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 7,
+        "toughness": 4,
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 6,
@@ -527,20 +543,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 255
     },
     {
         "_id": "be4abc6c",
+        "name": "Bloodwrack Medusa",
+        "warband": "Daughters of Khaine",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 7,
-        "name": "Bloodwrack Medusa",
-        "points": 275,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 4,
@@ -552,19 +569,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 275
     },
     {
         "_id": "e9358ecb",
+        "name": "Thrialla, the Lash",
+        "warband": "Daughters of Khaine",
+        "subfaction": "Gryselle's Arenai",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Thrialla, the Lash",
-        "points": 80,
-        "runemarks": [
-            "Gryselle's Arenai"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -576,19 +595,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 80
     },
     {
         "_id": "68866453",
+        "name": "Retaria the Entangler",
+        "warband": "Daughters of Khaine",
+        "subfaction": "Gryselle's Arenai",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Retaria the Entangler",
-        "points": 85,
-        "runemarks": [
-            "Gryselle's Arenai"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -600,19 +618,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 85
     },
     {
         "_id": "d7131b7f",
+        "name": "Traxyaa, the Aegis",
+        "warband": "Daughters of Khaine",
+        "subfaction": "Gryselle's Arenai",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Traxyaa, the Aegis",
-        "points": 85,
-        "runemarks": [
-            "Gryselle's Arenai"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 4,
@@ -624,19 +641,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 85
     },
     {
         "_id": "7117ed5b",
+        "name": "Kalexis the Silvered Blur",
+        "warband": "Daughters of Khaine",
+        "subfaction": "Gryselle's Arenai",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Kalexis the Silvered Blur",
-        "points": 90,
-        "runemarks": [
-            "Gryselle's Arenai"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 5,
@@ -648,20 +664,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [],
+        "points": 90
     },
     {
         "_id": "338906cf",
+        "name": "Gryselle the Slaughterer",
+        "warband": "Daughters of Khaine",
+        "subfaction": "Gryselle's Arenai",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Gryselle the Slaughterer",
-        "points": 185,
-        "runemarks": [
-            "hero",
-            "Gryselle's Arenai"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -673,19 +687,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero"
+        ],
+        "points": 185
     },
     {
         "_id": "d4914903",
+        "name": "Khamyss",
+        "warband": "Daughters of Khaine",
+        "subfaction": "Morgwaeth's Blade-Coven",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Khamyss",
-        "points": 80,
-        "runemarks": [
-            "Morgwaeth's Blade-Coven"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -697,19 +712,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 80
     },
     {
         "_id": "40e1047d",
+        "name": "Kyrssa",
+        "warband": "Daughters of Khaine",
+        "subfaction": "Morgwaeth's Blade-Coven",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Kyrssa",
-        "points": 85,
-        "runemarks": [
-            "Morgwaeth's Blade-Coven"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -721,19 +735,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 85
     },
     {
         "_id": "eb20c0a9",
+        "name": "Lethyr",
+        "warband": "Daughters of Khaine",
+        "subfaction": "Morgwaeth's Blade-Coven",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Lethyr",
-        "points": 85,
-        "runemarks": [
-            "Morgwaeth's Blade-Coven"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -745,21 +758,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 85
     },
     {
         "_id": "d3f2914b",
+        "name": "Morgwaeth the Bloodied",
+        "warband": "Daughters of Khaine",
+        "subfaction": "Morgwaeth's Blade-Coven",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Morgwaeth the Bloodied",
-        "points": 150,
-        "runemarks": [
-            "hero",
-            "priest",
-            "Morgwaeth's Blade-Coven"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 3,
@@ -771,20 +781,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "points": 150
     },
     {
         "_id": "89294955",
+        "name": "Kyrae",
+        "warband": "Daughters of Khaine",
+        "subfaction": "Morgwaeth's Blade-Coven",
         "grand_alliance": "order",
         "movement": 7,
-        "name": "Kyrae",
-        "points": 175,
-        "runemarks": [
-            "berserker",
-            "Morgwaeth's Blade-Coven"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 2,
@@ -805,20 +816,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "berserker"
+        ],
+        "points": 175
     },
     {
         "_id": "4de7fa87",
+        "name": "Sylarc Greyblood",
+        "warband": "Daughters of Khaine",
+        "subfaction": "The Shadeborn",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Sylarc Greyblood",
-        "points": 100,
-        "runemarks": [
-            "trapper",
-            "The Shadeborn"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -839,19 +850,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 100
     },
     {
         "_id": "52f751d2",
+        "name": "Valyssa Umbrael",
+        "warband": "Daughters of Khaine",
+        "subfaction": "The Shadeborn",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Valyssa Umbrael",
-        "points": 105,
-        "runemarks": [
-            "The Shadeborn"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -863,19 +875,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 105
     },
     {
         "_id": "210817c7",
+        "name": "Drusylla Vyserax",
+        "warband": "Daughters of Khaine",
+        "subfaction": "The Shadeborn",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Drusylla Vyserax",
-        "points": 115,
-        "runemarks": [
-            "The Shadeborn"
-        ],
         "toughness": 3,
-        "warband": "Daughters of Khaine",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -887,20 +898,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 115
     },
     {
         "_id": "de50c997",
+        "name": "Slythael Shadestalker",
+        "warband": "Daughters of Khaine",
+        "subfaction": "The Shadeborn",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Slythael Shadestalker",
-        "points": 210,
-        "runemarks": [
-            "hero",
-            "The Shadeborn"
-        ],
         "toughness": 4,
-        "warband": "Daughters of Khaine",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -912,6 +921,9 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero"
+        ],
+        "points": 210
     }
 ]

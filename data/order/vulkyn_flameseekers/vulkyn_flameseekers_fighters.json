@@ -1,15 +1,13 @@
 [
     {
         "_id": "df9fe661",
+        "name": "Scalebreaker with Fyresteel Splitaxe",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Scalebreaker with Fyresteel Splitaxe",
-        "points": 95,
-        "runemarks": [
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "Vulkyn Flameseekers",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -30,19 +28,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "e00e73d1",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Scalebreaker with Bokaz",
-        "points": 95,
         "runemarks": [
             "elite"
         ],
-        "toughness": 4,
+        "points": 95
+    },
+    {
+        "_id": "e00e73d1",
+        "name": "Scalebreaker with Bokaz",
         "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -63,19 +62,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "elite"
+        ],
+        "points": 95
     },
     {
         "_id": "56748d38",
+        "name": "Kyndledroth",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Kyndledroth",
-        "points": 110,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "Vulkyn Flameseekers",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -96,20 +96,20 @@
                 "strength": 6
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "beast"
+        ],
+        "points": 110
     },
     {
         "_id": "8770f3ac",
+        "name": "Drothmaster",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Drothmaster",
-        "points": 125,
-        "runemarks": [
-            "elite",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Vulkyn Flameseekers",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -130,20 +130,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "elite",
+            "destroyer"
+        ],
+        "points": 125
     },
     {
         "_id": "22956036",
+        "name": "Drothblood Thane",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Drothblood Thane",
-        "points": 140,
-        "runemarks": [
-            "elite",
-            "berserker"
-        ],
         "toughness": 5,
-        "warband": "Vulkyn Flameseekers",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -164,20 +165,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "elite",
+            "berserker"
+        ],
+        "points": 140
     },
     {
         "_id": "64ee2181",
+        "name": "Vulkyn Runefather with Drothvault Greataxe",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Vulkyn Runefather with Drothvault Greataxe",
-        "points": 150,
-        "runemarks": [
-            "hero",
-            "elite"
-        ],
         "toughness": 5,
-        "warband": "Vulkyn Flameseekers",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -198,20 +200,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
-    },
-    {
-        "_id": "a9d356ed",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Vulkyn Runefather with Mastercrafted Bokaz",
-        "points": 150,
         "runemarks": [
             "hero",
             "elite"
         ],
-        "toughness": 5,
+        "points": 150
+    },
+    {
+        "_id": "a9d356ed",
+        "name": "Vulkyn Runefather with Mastercrafted Bokaz",
         "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 3,
@@ -232,6 +235,10 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 150
     }
 ]

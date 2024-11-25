@@ -1,13 +1,13 @@
 [
     {
         "_id": "18631d5e",
+        "name": "Shatterer",
+        "warband": "Horns of Hashut",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Shatterer",
-        "points": 60,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Horns of Hashut",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -19,19 +19,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 60
     },
     {
         "_id": "c723653b",
+        "name": "Demolisher with Crushing Weapon and Shield",
+        "warband": "Horns of Hashut",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Demolisher with Crushing Weapon and Shield",
-        "points": 105,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 5,
-        "warband": "Horns of Hashut",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -43,19 +42,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "270f5b6c",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Demolisher with Crushing Weapons",
-        "points": 105,
         "runemarks": [
             "warrior"
         ],
-        "toughness": 4,
+        "points": 105
+    },
+    {
+        "_id": "270f5b6c",
+        "name": "Demolisher with Crushing Weapons",
         "warband": "Horns of Hashut",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -67,20 +67,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 105
     },
     {
         "_id": "43f8944f",
+        "name": "Demolisher with Flamehurler",
+        "warband": "Horns of Hashut",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Demolisher with Flamehurler",
-        "points": 140,
-        "runemarks": [
-            "frenzied",
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Horns of Hashut",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -101,20 +101,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "frenzied",
+            "warrior"
+        ],
+        "points": 140
     },
     {
         "_id": "3334417c",
+        "name": "Ruinator",
+        "warband": "Horns of Hashut",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Ruinator",
-        "points": 125,
-        "runemarks": [
-            "brute",
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Horns of Hashut",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -126,21 +127,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "brute",
+            "warrior"
+        ],
+        "points": 125
     },
     {
         "_id": "a8ec49c8",
+        "name": "Ruinator Alpha with Heavy Flail",
+        "warband": "Horns of Hashut",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Ruinator Alpha with Heavy Flail",
-        "points": 165,
-        "runemarks": [
-            "brute",
-            "hero",
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Horns of Hashut",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -152,21 +153,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
-    },
-    {
-        "_id": "6e00cdd3",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Ruinator Alpha with War Bident",
-        "points": 165,
         "runemarks": [
             "brute",
             "hero",
             "warrior"
         ],
-        "toughness": 4,
+        "points": 165
+    },
+    {
+        "_id": "6e00cdd3",
+        "name": "Ruinator Alpha with War Bident",
         "warband": "Horns of Hashut",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -178,6 +180,11 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "brute",
+            "hero",
+            "warrior"
+        ],
+        "points": 165
     }
 ]

@@ -1,15 +1,13 @@
 [
     {
         "_id": "1f54a824",
+        "name": "Klutcha-grot",
+        "warband": "Kruleboyz Monsta-killaz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Klutcha-grot",
-        "points": 60,
-        "runemarks": [
-            "trapper"
-        ],
         "toughness": 4,
-        "warband": "Kruleboyz Monsta-killaz",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -21,19 +19,20 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
-    },
-    {
-        "_id": "3f6612bc",
-        "grand_alliance": "destruction",
-        "movement": 4,
-        "name": "Neckslicer with Smasha",
-        "points": 110,
         "runemarks": [
             "trapper"
         ],
-        "toughness": 3,
+        "points": 60
+    },
+    {
+        "_id": "3f6612bc",
+        "name": "Neckslicer with Smasha",
         "warband": "Kruleboyz Monsta-killaz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -45,20 +44,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 110
     },
     {
         "_id": "81eebace",
+        "name": "Bawla Boy with Stabba",
+        "warband": "Kruleboyz Monsta-killaz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Bawla Boy with Stabba",
-        "points": 110,
-        "runemarks": [
-            "trapper",
-            "icon-bearer"
-        ],
         "toughness": 3,
-        "warband": "Kruleboyz Monsta-killaz",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -70,20 +69,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
-    },
-    {
-        "_id": "79ed7e35",
-        "grand_alliance": "destruction",
-        "movement": 4,
-        "name": "Bawla Boy with Flogga",
-        "points": 110,
         "runemarks": [
             "trapper",
             "icon-bearer"
         ],
-        "toughness": 3,
+        "points": 110
+    },
+    {
+        "_id": "79ed7e35",
+        "name": "Bawla Boy with Flogga",
         "warband": "Kruleboyz Monsta-killaz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 5,
@@ -95,20 +95,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "trapper",
+            "icon-bearer"
+        ],
+        "points": 110
     },
     {
         "_id": "8d4cf78f",
+        "name": "Neckslicer with Beaststikka Harpoon",
+        "warband": "Kruleboyz Monsta-killaz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Neckslicer with Beaststikka Harpoon",
-        "points": 115,
-        "runemarks": [
-            "trapper",
-            "destroyer"
-        ],
         "toughness": 3,
-        "warband": "Kruleboyz Monsta-killaz",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 2,
@@ -129,20 +130,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "trapper",
+            "destroyer"
+        ],
+        "points": 115
     },
     {
         "_id": "5318c226",
+        "name": "Neckslicer with Bonehakka",
+        "warband": "Kruleboyz Monsta-killaz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Neckslicer with Bonehakka",
-        "points": 120,
-        "runemarks": [
-            "trapper",
-            "berserker"
-        ],
         "toughness": 3,
-        "warband": "Kruleboyz Monsta-killaz",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -154,19 +156,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "trapper",
+            "berserker"
+        ],
+        "points": 120
     },
     {
         "_id": "3101b10f",
+        "name": "Gnarlwood Howla",
+        "warband": "Kruleboyz Monsta-killaz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 6,
-        "name": "Gnarlwood Howla",
-        "points": 125,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 3,
-        "warband": "Kruleboyz Monsta-killaz",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 5,
@@ -178,20 +182,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "beast"
+        ],
+        "points": 125
     },
     {
         "_id": "3ff6e9f8",
+        "name": "Beastnob",
+        "warband": "Kruleboyz Monsta-killaz",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Beastnob",
-        "points": 200,
-        "runemarks": [
-            "hero",
-            "trapper"
-        ],
         "toughness": 4,
-        "warband": "Kruleboyz Monsta-killaz",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -212,6 +216,10 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "trapper"
+        ],
+        "points": 200
     }
 ]

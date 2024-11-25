@@ -1,15 +1,13 @@
 [
     {
         "_id": "eb92f059",
+        "name": "Gnoblar",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Gnoblar",
-        "points": 45,
-        "runemarks": [
-            "trapper"
-        ],
         "toughness": 3,
-        "warband": "Ogor Mawtribes",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -21,19 +19,20 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 45
     },
     {
         "_id": "1e24e8d2",
+        "name": "Frost Sabre",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Frost Sabre",
-        "points": 175,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -45,20 +44,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "beast"
+        ],
+        "points": 175
     },
     {
         "_id": "cf6687da",
+        "name": "Leadbelcher",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Leadbelcher",
-        "points": 185,
-        "runemarks": [
-            "brute",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -79,20 +78,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "brute",
+            "destroyer"
+        ],
+        "points": 185
     },
     {
         "_id": "ca799170",
+        "name": "Ogor Glutton with Ironfist",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Ogor Glutton with Ironfist",
-        "points": 190,
-        "runemarks": [
-            "brute",
-            "bulwark"
-        ],
         "toughness": 5,
-        "warband": "Ogor Mawtribes",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -104,20 +104,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "brute",
+            "bulwark"
+        ],
+        "points": 190
     },
     {
         "_id": "faa75125",
+        "name": "Gorger",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 5,
-        "name": "Gorger",
-        "points": 195,
-        "runemarks": [
-            "agile",
-            "brute"
-        ],
         "toughness": 3,
-        "warband": "Ogor Mawtribes",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -129,19 +130,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "agile",
+            "brute"
+        ],
+        "points": 195
     },
     {
         "_id": "ee523132",
+        "name": "Ogor Glutton with Clubs",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Ogor Glutton with Clubs",
-        "points": 200,
-        "runemarks": [
-            "brute"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -153,19 +156,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "brute"
+        ],
+        "points": 200
     },
     {
         "_id": "37834833",
+        "name": "Icefall Yhetee",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Icefall Yhetee",
-        "points": 205,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -177,19 +181,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "agile"
+        ],
+        "points": 205
     },
     {
         "_id": "c4237531",
+        "name": "Maneater",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Maneater",
-        "points": 205,
-        "runemarks": [
-            "brute"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -210,21 +215,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "brute"
+        ],
+        "points": 205
     },
     {
         "_id": "47f37af3",
+        "name": "Thunderfist",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Thunderfist",
-        "points": 215,
-        "runemarks": [
-            "hero",
-            "brute",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 4,
@@ -245,21 +249,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 32
-    },
-    {
-        "_id": "77988e63",
-        "grand_alliance": "destruction",
-        "movement": 4,
-        "name": "Butcher",
-        "points": 225,
         "runemarks": [
             "hero",
             "brute",
-            "mystic"
+            "destroyer"
         ],
-        "toughness": 4,
+        "points": 215
+    },
+    {
+        "_id": "77988e63",
+        "name": "Butcher",
         "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 38,
         "weapons": [
             {
                 "attacks": 3,
@@ -280,21 +285,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 38
-    },
-    {
-        "_id": "f2cc1f80",
-        "grand_alliance": "destruction",
-        "movement": 4,
-        "name": "Firebelly",
-        "points": 230,
         "runemarks": [
             "hero",
             "brute",
-            "frenzied"
+            "mystic"
         ],
-        "toughness": 4,
+        "points": 225
+    },
+    {
+        "_id": "f2cc1f80",
+        "name": "Firebelly",
         "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 38,
         "weapons": [
             {
                 "attacks": 2,
@@ -315,19 +321,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 38
+        "runemarks": [
+            "hero",
+            "brute",
+            "frenzied"
+        ],
+        "points": 230
     },
     {
         "_id": "25ae1b9a",
+        "name": "Irongut",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Irongut",
-        "points": 235,
-        "runemarks": [
-            "brute"
-        ],
         "toughness": 5,
-        "warband": "Ogor Mawtribes",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -339,21 +348,20 @@
                 "strength": 6
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "brute"
+        ],
+        "points": 235
     },
     {
         "_id": "51c6100b",
+        "name": "Crusher",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Crusher",
-        "points": 255,
-        "runemarks": [
-            "hero",
-            "brute",
-            "bulwark"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 4,
@@ -365,20 +373,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 32
+        "runemarks": [
+            "hero",
+            "brute",
+            "bulwark"
+        ],
+        "points": 255
     },
     {
         "_id": "19d4f26e",
+        "name": "Gutlord",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Gutlord",
-        "points": 290,
-        "runemarks": [
-            "hero",
-            "brute"
-        ],
         "toughness": 5,
-        "warband": "Ogor Mawtribes",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 3,
@@ -390,21 +400,21 @@
                 "strength": 6
             }
         ],
-        "wounds": 32
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 290
     },
     {
         "_id": "79fc7799",
+        "name": "Icebrow Hunter",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Icebrow Hunter",
-        "points": 280,
-        "runemarks": [
-            "hero",
-            "brute",
-            "scout"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 40,
         "weapons": [
             {
                 "attacks": 3,
@@ -425,21 +435,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 40
+        "runemarks": [
+            "hero",
+            "brute",
+            "scout"
+        ],
+        "points": 280
     },
     {
         "_id": "66278adf",
+        "name": "Mournfang Rider with Culling Club and Ironfist",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Mournfang Rider with Culling Club and Ironfist",
-        "points": 295,
-        "runemarks": [
-            "brute",
-            "bulwark",
-            "mount"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 4,
@@ -451,20 +462,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "brute",
+            "bulwark",
+            "mount"
+        ],
+        "points": 295
     },
     {
         "_id": "6d14979f",
+        "name": "Mournfang Rider with Gargant Hacker",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Mournfang Rider with Gargant Hacker",
-        "points": 300,
-        "runemarks": [
-            "brute",
-            "mount"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 3,
@@ -476,21 +489,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "brute",
+            "mount"
+        ],
+        "points": 300
     },
     {
         "_id": "13c9ffda",
+        "name": "Tyrant",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Tyrant",
-        "points": 325,
-        "runemarks": [
-            "hero",
-            "brute",
-            "champion"
-        ],
         "toughness": 5,
-        "warband": "Ogor Mawtribes",
+        "wounds": 42,
         "weapons": [
             {
                 "attacks": 4,
@@ -511,21 +524,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 42
-    },
-    {
-        "_id": "ab015348",
-        "grand_alliance": "destruction",
-        "movement": 8,
-        "name": "Skalg",
-        "points": 355,
         "runemarks": [
             "hero",
             "brute",
-            "mount"
+            "champion"
         ],
-        "toughness": 4,
+        "points": 325
+    },
+    {
+        "_id": "ab015348",
+        "name": "Skalg",
         "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 40,
         "weapons": [
             {
                 "attacks": 3,
@@ -546,20 +560,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 40
+        "runemarks": [
+            "hero",
+            "brute",
+            "mount"
+        ],
+        "points": 355
     },
     {
         "_id": "6be53983",
+        "name": "Bloodpelt Hunter",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
         "grand_alliance": "destruction",
         "movement": 5,
-        "name": "Bloodpelt Hunter",
-        "points": 280,
-        "runemarks": [
-            "hero",
-            "ferocious"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 3,
@@ -580,20 +596,21 @@
                 "strength": 6
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "points": 280
     },
     {
         "_id": "a5a705f7",
+        "name": "Peggz",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Blackpowder's Buccaneers",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Peggz",
-        "points": 50,
-        "runemarks": [
-            "scout",
-            "Blackpowder's Buccaneers"
-        ],
         "toughness": 3,
-        "warband": "Ogor Mawtribes",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -605,20 +622,20 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "scout"
+        ],
+        "points": 50
     },
     {
         "_id": "40acb702",
+        "name": "Mange",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Blackpowder's Buccaneers",
         "grand_alliance": "destruction",
         "movement": 5,
-        "name": "Mange",
-        "points": 65,
-        "runemarks": [
-            "frenzied",
-            "Blackpowder's Buccaneers"
-        ],
         "toughness": 3,
-        "warband": "Ogor Mawtribes",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 4,
@@ -630,20 +647,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "frenzied"
+        ],
+        "points": 65
     },
     {
         "_id": "82052c8e",
+        "name": "Kagey",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Blackpowder's Buccaneers",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Kagey",
-        "points": 60,
-        "runemarks": [
-            "scout",
-            "Blackpowder's Buccaneers"
-        ],
         "toughness": 3,
-        "warband": "Ogor Mawtribes",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 2,
@@ -655,21 +672,20 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "scout"
+        ],
+        "points": 60
     },
     {
         "_id": "8acd7368",
+        "name": "Shreek",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Blackpowder's Buccaneers",
         "grand_alliance": "destruction",
         "movement": 10,
-        "name": "Shreek",
-        "points": 100,
-        "runemarks": [
-            "beast",
-            "fly",
-            "Blackpowder's Buccaneers"
-        ],
         "toughness": 3,
-        "warband": "Ogor Mawtribes",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -681,21 +697,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "beast",
+            "fly"
+        ],
+        "points": 100
     },
     {
         "_id": "e10c8d32",
+        "name": "Gorlok Blackpowder",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Blackpowder's Buccaneers",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Gorlok Blackpowder",
-        "points": 250,
-        "runemarks": [
-            "hero",
-            "brute",
-            "Blackpowder's Buccaneers"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -716,20 +732,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 250
     },
     {
         "_id": "6e4b6e96",
+        "name": "Bushwakka",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Hrothgorn's Mantrappers",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Bushwakka",
-        "points": 40,
-        "runemarks": [
-            "trapper",
-            "Hrothgorn's Mantrappers"
-        ],
         "toughness": 3,
-        "warband": "Ogor Mawtribes",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -741,20 +758,20 @@
                 "strength": 2
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 40
     },
     {
         "_id": "3c7c1978",
+        "name": "Quiv",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Hrothgorn's Mantrappers",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Quiv",
-        "points": 60,
-        "runemarks": [
-            "minion",
-            "Hrothgorn's Mantrappers"
-        ],
         "toughness": 3,
-        "warband": "Ogor Mawtribes",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 2,
@@ -766,19 +783,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "minion"
+        ],
+        "points": 60
     },
     {
         "_id": "2abad3bb",
+        "name": "Luggit & Thwak",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Hrothgorn's Mantrappers",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Luggit & Thwak",
-        "points": 65,
-        "runemarks": [
-            "Hrothgorn's Mantrappers"
-        ],
         "toughness": 3,
-        "warband": "Ogor Mawtribes",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -790,20 +808,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 65
     },
     {
         "_id": "f26ea120",
+        "name": "Thrafnir",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Hrothgorn's Mantrappers",
         "grand_alliance": "destruction",
         "movement": 8,
-        "name": "Thrafnir",
-        "points": 175,
-        "runemarks": [
-            "beast",
-            "Hrothgorn's Mantrappers"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -815,21 +831,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "beast"
+        ],
+        "points": 175
     },
     {
         "_id": "2dda62e2",
+        "name": "Hrothgorn Mantrapper",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Hrothgorn's Mantrappers",
         "grand_alliance": "destruction",
         "movement": 4,
-        "name": "Hrothgorn Mantrapper",
-        "points": 300,
-        "runemarks": [
-            "hero",
-            "scout",
-            "Hrothgorn's Mantrappers"
-        ],
         "toughness": 4,
-        "warband": "Ogor Mawtribes",
+        "wounds": 40,
         "weapons": [
             {
                 "attacks": 3,
@@ -850,6 +865,10 @@
                 "strength": 6
             }
         ],
-        "wounds": 40
+        "runemarks": [
+            "hero",
+            "scout"
+        ],
+        "points": 300
     }
 ]

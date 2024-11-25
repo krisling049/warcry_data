@@ -1,15 +1,13 @@
 [
     {
         "_id": "b8ec3ff9",
+        "name": "Askurgan Acolyte with Bonehilt Falchion",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Askurgan Acolyte with Bonehilt Falchion",
-        "points": 90,
-        "runemarks": [
-            "elite"
-        ],
         "toughness": 3,
-        "warband": "Askurgan Trueblades",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -21,19 +19,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "346f1247",
-        "grand_alliance": "death",
-        "movement": 5,
-        "name": "Askurgan Acolyte with Throat-Taker",
-        "points": 90,
         "runemarks": [
             "elite"
         ],
-        "toughness": 3,
+        "points": 90
+    },
+    {
+        "_id": "346f1247",
+        "name": "Askurgan Acolyte with Throat-Taker",
         "warband": "Askurgan Trueblades",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -45,19 +44,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "elite"
+        ],
+        "points": 90
     },
     {
         "_id": "0bfbf81b",
+        "name": "Askurgan Pariah",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Askurgan Pariah",
-        "points": 105,
-        "runemarks": [
-            "scout"
-        ],
         "toughness": 3,
-        "warband": "Askurgan Trueblades",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 2,
@@ -69,20 +69,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "scout"
+        ],
+        "points": 105
     },
     {
         "_id": "c84a0f70",
+        "name": "Askurgan Ascetic with Charnel Mace",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Askurgan Ascetic with Charnel Mace",
-        "points": 115,
-        "runemarks": [
-            "elite",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Askurgan Trueblades",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 2,
@@ -94,20 +94,21 @@
                 "strength": 6
             }
         ],
-        "wounds": 15
-    },
-    {
-        "_id": "009f3c74",
-        "grand_alliance": "death",
-        "movement": 5,
-        "name": "Askurgan Ascetic with Howling Glaive",
-        "points": 115,
         "runemarks": [
             "elite",
             "destroyer"
         ],
-        "toughness": 4,
+        "points": 115
+    },
+    {
+        "_id": "009f3c74",
+        "name": "Askurgan Ascetic with Howling Glaive",
         "warband": "Askurgan Trueblades",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 2,
@@ -119,19 +120,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "elite",
+            "destroyer"
+        ],
+        "points": 115
     },
     {
         "_id": "ca3aa681",
+        "name": "Curseblood",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 6,
-        "name": "Curseblood",
-        "points": 180,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "Askurgan Trueblades",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -143,21 +146,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "beast"
+        ],
+        "points": 180
     },
     {
         "_id": "fec8cb0a",
+        "name": "Askurgan Exemplar",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
         "grand_alliance": "death",
         "movement": 5,
-        "name": "Askurgan Exemplar",
-        "points": 205,
-        "runemarks": [
-            "hero",
-            "elite",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Askurgan Trueblades",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -169,6 +171,11 @@
                 "strength": 6
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "elite",
+            "destroyer"
+        ],
+        "points": 205
     }
 ]

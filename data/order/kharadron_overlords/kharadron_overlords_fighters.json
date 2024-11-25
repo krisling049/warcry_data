@@ -1,13 +1,13 @@
 [
     {
         "_id": "0fbb85de",
+        "name": "Arkanaut Company Privateer with Privateer Pistol and Arkanaut Cutter",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Arkanaut Company Privateer with Privateer Pistol and Arkanaut Cutter",
-        "points": 55,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Kharadron Overlords",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -28,17 +28,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 55
     },
     {
         "_id": "103c68c3",
+        "name": "Arkanaut Company Privateer with Skypike",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Arkanaut Company Privateer with Skypike",
-        "points": 75,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Kharadron Overlords",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -50,17 +51,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "a22be631",
+        "name": "Arkanaut Company Privateer with Aethermatic Volley Gun",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Arkanaut Company Privateer with Aethermatic Volley Gun",
-        "points": 80,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Kharadron Overlords",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -81,19 +83,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 80
     },
     {
         "_id": "eb8ae4f1",
+        "name": "Company Captain",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Company Captain",
-        "points": 90,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 3,
-        "warband": "Kharadron Overlords",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 4,
@@ -114,17 +115,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "hero"
+        ],
+        "points": 90
     },
     {
         "_id": "ad08bb8b",
+        "name": "Arkanaut Company Privateer with Light Skyhook",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Arkanaut Company Privateer with Light Skyhook",
-        "points": 105,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Kharadron Overlords",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -145,19 +149,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 105
     },
     {
         "_id": "349aba3b",
+        "name": "Grundstok Thunderer with Aethershot Rifle",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Grundstok Thunderer with Aethershot Rifle",
-        "points": 105,
-        "runemarks": [
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -178,19 +181,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "60c75c84",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Grundstok Thunderer with Decksweeper",
-        "points": 105,
         "runemarks": [
             "elite"
         ],
-        "toughness": 4,
+        "points": 105
+    },
+    {
+        "_id": "60c75c84",
+        "name": "Grundstok Thunderer with Decksweeper",
         "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -211,19 +215,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "f0608a76",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Grundstok Thunderer with Aetheric Fumigator",
-        "points": 105,
         "runemarks": [
             "elite"
         ],
-        "toughness": 4,
+        "points": 105
+    },
+    {
+        "_id": "f0608a76",
+        "name": "Grundstok Thunderer with Aetheric Fumigator",
         "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -235,19 +240,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "eced05ff",
-        "grand_alliance": "order",
-        "movement": 3,
-        "name": "Grundstok Thunderer with Aethercannon",
-        "points": 130,
         "runemarks": [
             "elite"
         ],
-        "toughness": 4,
+        "points": 105
+    },
+    {
+        "_id": "eced05ff",
+        "name": "Grundstok Thunderer with Aethercannon",
         "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -268,20 +274,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "elite"
+        ],
+        "points": 130
     },
     {
         "_id": "1a02e8b8",
+        "name": "Aetheric Navigator",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Aetheric Navigator",
-        "points": 130,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -302,19 +308,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 130
     },
     {
         "_id": "d16ca6c1",
+        "name": "Grundstok Thunderer with Grundstok Mortar",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Grundstok Thunderer with Grundstok Mortar",
-        "points": 145,
-        "runemarks": [
-            "elite"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -335,20 +343,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "elite"
+        ],
+        "points": 145
     },
     {
         "_id": "0f0676da",
+        "name": "Endrinmaster with Endrinharness",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Endrinmaster with Endrinharness",
-        "points": 140,
-        "runemarks": [
-            "hero",
-            "brute"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 3,
@@ -360,19 +368,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 140
     },
     {
         "_id": "cdc54cb8",
+        "name": "Arkanaut Admiral",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Arkanaut Admiral",
-        "points": 155,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -393,20 +403,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero"
+        ],
+        "points": 155
     },
     {
         "_id": "e5a59966",
+        "name": "Aether-khemist",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Aether-khemist",
-        "points": 155,
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -427,88 +437,91 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 155
     },
     {
         "_id": "f3383c50",
+        "name": "Gunnery Sergeant",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Gunnery Sergeant",
-        "points": 165,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
         "runemarks": [
             "hero",
             "elite",
             "scout"
         ],
-        "toughness": 4,
-        "warband": "Kharadron Overlords",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 3
-            },
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 15,
-                "min_range": 3,
-                "runemark": "ranged",
-                "strength": 4
-            }
-        ],
-        "wounds": 16
+        "points": 165
     },
     {
         "_id": "7e8f4932",
+        "name": "Endrinrigger with Aethermatic Volley Gun",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Endrinrigger with Aethermatic Volley Gun",
-        "points": 170,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
         "runemarks": [
             "fly"
         ],
-        "toughness": 4,
-        "warband": "Kharadron Overlords",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 3
-            },
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 15,
-                "min_range": 3,
-                "runemark": "ranged",
-                "strength": 3
-            }
-        ],
-        "wounds": 16
+        "points": 170
     },
     {
         "_id": "0f301ca5",
+        "name": "Skywarden with Aethermatic Volley Gun",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Skywarden with Aethermatic Volley Gun",
-        "points": 175,
-        "runemarks": [
-            "fly",
-            "trapper"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 2,
@@ -529,20 +542,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
-    },
-    {
-        "_id": "6d96d4da",
-        "grand_alliance": "order",
-        "movement": 10,
-        "name": "Skywarden with Vulcaniser Pistol and Skypike",
-        "points": 185,
         "runemarks": [
             "fly",
             "trapper"
         ],
-        "toughness": 4,
+        "points": 175
+    },
+    {
+        "_id": "6d96d4da",
+        "name": "Skywarden with Vulcaniser Pistol and Skypike",
         "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 3,
@@ -563,20 +577,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "fly",
+            "trapper"
+        ],
+        "points": 185
     },
     {
         "_id": "fa7d34f2",
+        "name": "Endrinrigger with Grapnel Launcher",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Endrinrigger with Grapnel Launcher",
-        "points": 190,
-        "runemarks": [
-            "fly",
-            "agile"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 2,
@@ -597,19 +612,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "fly",
+            "agile"
+        ],
+        "points": 190
     },
     {
         "_id": "c7591b05",
+        "name": "Endrinrigger with Rapid-fire Rivet Gun and Aethermatic Saw",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Endrinrigger with Rapid-fire Rivet Gun and Aethermatic Saw",
-        "points": 190,
-        "runemarks": [
-            "fly"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 3,
@@ -630,54 +647,56 @@
                 "strength": 4
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "fly"
+        ],
+        "points": 190
     },
     {
         "_id": "9b7abae6",
+        "name": "Skywarden with Grapnel Launcher",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Skywarden with Grapnel Launcher",
-        "points": 195,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 20,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
         "runemarks": [
             "fly",
             "trapper",
             "agile"
         ],
-        "toughness": 4,
-        "warband": "Kharadron Overlords",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 3
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 20,
-                "min_range": 6,
-                "runemark": "ranged",
-                "strength": 3
-            }
-        ],
-        "wounds": 16
+        "points": 195
     },
     {
         "_id": "74604216",
+        "name": "Endrinrigger with Drill Launcher",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Endrinrigger with Drill Launcher",
-        "points": 215,
-        "runemarks": [
-            "fly"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 2,
@@ -698,20 +717,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "fly"
+        ],
+        "points": 215
     },
     {
         "_id": "f7b036d0",
+        "name": "Skywarden with Drill Launcher",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Skywarden with Drill Launcher",
-        "points": 220,
-        "runemarks": [
-            "fly",
-            "trapper"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 2,
@@ -732,53 +751,55 @@
                 "strength": 5
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "fly",
+            "trapper"
+        ],
+        "points": 220
     },
     {
         "_id": "6dca67c5",
+        "name": "Endrinrigger with Skyhook",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Endrinrigger with Skyhook",
-        "points": 230,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 20,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
         "runemarks": [
             "fly"
         ],
-        "toughness": 4,
-        "warband": "Kharadron Overlords",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 3
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 3,
-                "max_range": 20,
-                "min_range": 6,
-                "runemark": "ranged",
-                "strength": 4
-            }
-        ],
-        "wounds": 16
+        "points": 230
     },
     {
         "_id": "75db5d9d",
+        "name": "Skywarden with Skyhook",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Skywarden with Skyhook",
-        "points": 230,
-        "runemarks": [
-            "fly",
-            "trapper"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 2,
@@ -799,21 +820,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "fly",
+            "trapper"
+        ],
+        "points": 230
     },
     {
         "_id": "c20a5b9b",
+        "name": "Custodian",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Custodian",
-        "points": 240,
-        "runemarks": [
-            "fly",
-            "hero",
-            "trapper"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -834,20 +855,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "fly",
+            "hero",
+            "trapper"
+        ],
+        "points": 240
     },
     {
         "_id": "768f9dcd",
+        "name": "Mizzenmaster",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Mizzenmaster",
-        "points": 250,
-        "runemarks": [
-            "fly",
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -868,20 +891,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
-    },
-    {
-        "_id": "73be6480",
-        "grand_alliance": "order",
-        "movement": 10,
-        "name": "Endrinmaster with Dirigible Suit",
-        "points": 275,
         "runemarks": [
             "fly",
             "hero"
         ],
-        "toughness": 4,
+        "points": 250
+    },
+    {
+        "_id": "73be6480",
+        "name": "Endrinmaster with Dirigible Suit",
         "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -902,19 +926,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "fly",
+            "hero"
+        ],
+        "points": 275
     },
     {
         "_id": "bba5121c",
+        "name": "Garodd Alensen",
+        "warband": "Kharadron Overlords",
+        "subfaction": "Thundrik's Profiteers",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Garodd Alensen",
-        "points": 60,
-        "runemarks": [
-            "Thundrik's Profiteers"
-        ],
         "toughness": 3,
-        "warband": "Kharadron Overlords",
+        "wounds": 14,
         "weapons": [
             {
                 "attacks": 3,
@@ -935,19 +961,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 14
+        "runemarks": [],
+        "points": 60
     },
     {
         "_id": "4ef78342",
+        "name": "Enrik Ironhail",
+        "warband": "Kharadron Overlords",
+        "subfaction": "Thundrik's Profiteers",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Enrik Ironhail",
-        "points": 140,
-        "runemarks": [
-            "Thundrik's Profiteers"
-        ],
         "toughness": 3,
-        "warband": "Kharadron Overlords",
+        "wounds": 14,
         "weapons": [
             {
                 "attacks": 2,
@@ -968,20 +993,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 14
+        "runemarks": [],
+        "points": 140
     },
     {
         "_id": "dde0d2e8",
+        "name": "Dead-eye Lund",
+        "warband": "Kharadron Overlords",
+        "subfaction": "Thundrik's Profiteers",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Dead-eye Lund",
-        "points": 115,
-        "runemarks": [
-            "elite",
-            "Thundrik's Profiteers"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 14,
         "weapons": [
             {
                 "attacks": 2,
@@ -1002,21 +1025,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 14
+        "runemarks": [
+            "elite"
+        ],
+        "points": 115
     },
     {
         "_id": "f49d9de4",
+        "name": "Bjorgen Thundrik",
+        "warband": "Kharadron Overlords",
+        "subfaction": "Thundrik's Profiteers",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Bjorgen Thundrik",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "destroyer",
-            "Thundrik's Profiteers"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 24,
         "weapons": [
             {
                 "attacks": 3,
@@ -1037,20 +1059,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 24
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 170
     },
     {
         "_id": "7ce57849",
+        "name": "Khazgan Drakkskewer",
+        "warband": "Kharadron Overlords",
+        "subfaction": "Thundrik's Profiteers",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Khazgan Drakkskewer",
-        "points": 185,
-        "runemarks": [
-            "fly",
-            "Thundrik's Profiteers"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -1071,20 +1094,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "fly"
+        ],
+        "points": 185
     },
     {
         "_id": "311fd049",
+        "name": "Codewright",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 3,
-        "name": "Codewright",
-        "points": 95,
-        "runemarks": [
-            "hero",
-            "icon-bearer"
-        ],
         "toughness": 4,
-        "warband": "Kharadron Overlords",
+        "wounds": 16,
         "weapons": [
             {
                 "attacks": 3,
@@ -1105,6 +1128,10 @@
                 "strength": 3
             }
         ],
-        "wounds": 16
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ],
+        "points": 95
     }
 ]

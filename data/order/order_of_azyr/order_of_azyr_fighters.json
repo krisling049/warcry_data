@@ -1,16 +1,13 @@
 [
     {
         "_id": "1d0c5423",
+        "name": "Grotbiter",
+        "warband": "Order of Azyr",
+        "subfaction": "Hexbane's Hunters",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Grotbiter",
-        "points": 55,
-        "runemarks": [
-            "beast",
-            "Hexbane's Hunters"
-        ],
         "toughness": 3,
-        "warband": "Order of Azyr",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 2,
@@ -22,20 +19,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "beast"
+        ],
+        "points": 55
     },
     {
         "_id": "84a2c1df",
+        "name": "Ratspike",
+        "warband": "Order of Azyr",
+        "subfaction": "Hexbane's Hunters",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Ratspike",
-        "points": 55,
-        "runemarks": [
-            "beast",
-            "Hexbane's Hunters"
-        ],
         "toughness": 3,
-        "warband": "Order of Azyr",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 2,
@@ -47,20 +44,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "beast"
+        ],
+        "points": 55
     },
     {
         "_id": "93db72a2",
+        "name": "Brydget Axwold",
+        "warband": "Order of Azyr",
+        "subfaction": "Hexbane's Hunters",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Brydget Axwold",
-        "points": 95,
-        "runemarks": [
-            "warrior",
-            "Hexbane's Hunters"
-        ],
         "toughness": 3,
-        "warband": "Order of Azyr",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -81,20 +78,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 95
     },
     {
         "_id": "23ee45b1",
+        "name": "Aemos Duncarrow",
+        "warband": "Order of Azyr",
+        "subfaction": "Hexbane's Hunters",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Aemos Duncarrow",
-        "points": 105,
-        "runemarks": [
-            "warrior",
-            "Hexbane's Hunters"
-        ],
         "toughness": 4,
-        "warband": "Order of Azyr",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -106,21 +103,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 105
     },
     {
         "_id": "210e343f",
+        "name": "Haskel Hexbane",
+        "warband": "Order of Azyr",
+        "subfaction": "Hexbane's Hunters",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Haskel Hexbane",
-        "points": 125,
-        "runemarks": [
-            "hero",
-            "warrior",
-            "Hexbane's Hunters"
-        ],
         "toughness": 4,
-        "warband": "Order of Azyr",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -141,21 +137,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 125
     },
     {
         "_id": "5a274449",
+        "name": "Quiet Pock",
+        "warband": "Order of Azyr",
+        "subfaction": "Hexbane's Hunters",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Quiet Pock",
-        "points": 150,
-        "runemarks": [
-            "brute",
-            "warrior",
-            "Hexbane's Hunters"
-        ],
         "toughness": 4,
-        "warband": "Order of Azyr",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -176,21 +172,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "brute",
+            "warrior"
+        ],
+        "points": 150
     },
     {
         "_id": "e3fdafae",
+        "name": "Hanniver Toll",
+        "warband": "Order of Azyr",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Hanniver Toll",
-        "points": 125,
-        "runemarks": [
-            "hero",
-            "agile",
-            "warrior"
-        ],
         "toughness": 3,
-        "warband": "Order of Azyr",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -211,20 +207,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "agile",
+            "warrior"
+        ],
+        "points": 125
     },
     {
         "_id": "b77deaf5",
+        "name": "Armand Callis",
+        "warband": "Order of Azyr",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Armand Callis",
-        "points": 130,
-        "runemarks": [
-            "scout",
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Order of Azyr",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 2,
@@ -245,20 +243,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "scout",
+            "warrior"
+        ],
+        "points": 130
     },
     {
         "_id": "621649f9",
+        "name": "Valius, The Keeper Aqshian",
+        "warband": "Order of Azyr",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Valius, The Keeper Aqshian",
-        "points": 220,
-        "runemarks": [
-            "bulwark",
-            "warrior"
-        ],
         "toughness": 6,
-        "warband": "Order of Azyr",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -270,19 +269,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "bulwark",
+            "warrior"
+        ],
+        "points": 220
     },
     {
         "_id": "2a55d1ea",
+        "name": "Mistress Verentia",
+        "warband": "Order of Azyr",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Mistress Verentia",
-        "points": 100,
-        "runemarks": [
-            "terrifying"
-        ],
         "toughness": 3,
-        "warband": "Order of Azyr",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -303,20 +304,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "terrifying"
+        ],
+        "points": 100
     },
     {
         "_id": "636f0302",
+        "name": "Lyssa Revenya",
+        "warband": "Order of Azyr",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lyssa Revenya",
-        "points": 75,
-        "runemarks": [
-            "trapper",
-            "fly"
-        ],
         "toughness": 3,
-        "warband": "Order of Azyr",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 2,
@@ -328,19 +329,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "trapper",
+            "fly"
+        ],
+        "points": 75
     },
     {
         "_id": "36e88245",
+        "name": "Balthus",
+        "warband": "Order of Azyr",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Balthus",
-        "points": 95,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "Order of Azyr",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 4,
@@ -352,6 +355,9 @@
                 "strength": 4
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "beast"
+        ],
+        "points": 95
     }
 ]

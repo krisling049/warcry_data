@@ -1,16 +1,13 @@
 [
     {
         "_id": "5597b674",
+        "name": "Aetherwing",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 12,
-        "name": "Aetherwing",
-        "points": 115,
-        "runemarks": [
-            "fly",
-            "scout"
-        ],
         "toughness": 2,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -22,19 +19,21 @@
                 "strength": 2
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "fly",
+            "scout"
+        ],
+        "points": 115
     },
     {
         "_id": "871dd186",
+        "name": "Gryph-Hound",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Gryph-Hound",
-        "points": 115,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -46,17 +45,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "beast"
+        ],
+        "points": 115
     },
     {
         "_id": "17a5c7c3",
+        "name": "Vanguard-Hunter",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Vanguard-Hunter",
-        "points": 145,
-        "runemarks": [],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -77,19 +79,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [],
+        "points": 145
     },
     {
         "_id": "798d79b7",
+        "name": "Hunter-Prime",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Hunter-Prime",
-        "points": 185,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -110,19 +111,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero"
+        ],
+        "points": 185
     },
     {
         "_id": "2ebb6f4b",
+        "name": "Vanguard-Raptor with Longstrike Crossbow",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Vanguard-Raptor with Longstrike Crossbow",
-        "points": 195,
-        "runemarks": [
-            "elite"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -143,20 +145,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "elite"
+        ],
+        "points": 195
     },
     {
         "_id": "05435287",
+        "name": "Knight-Zephyros",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Knight-Zephyros",
-        "points": 200,
-        "runemarks": [
-            "hero",
-            "frenzied"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -177,19 +179,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "points": 200
     },
     {
         "_id": "d914df34",
+        "name": "Vanguard-Raptor with Hurricane Crossbow",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Vanguard-Raptor with Hurricane Crossbow",
-        "points": 210,
-        "runemarks": [
-            "bulwark"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -210,19 +214,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 210
     },
     {
         "_id": "adcb1309",
+        "name": "Vanguard Pallador with Starstrike Javelin",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Vanguard Pallador with Starstrike Javelin",
-        "points": 220,
-        "runemarks": [
-            "mount"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -243,21 +248,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "mount"
+        ],
+        "points": 220
     },
     {
         "_id": "34d64078",
+        "name": "Raptor-Prime with Longstrike Bow",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Raptor-Prime with Longstrike Bow",
-        "points": 230,
-        "runemarks": [
-            "hero",
-            "elite",
-            "scout"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 3,
@@ -278,19 +282,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "elite",
+            "scout"
+        ],
+        "points": 230
     },
     {
         "_id": "4bd11d2b",
+        "name": "Vanguard Pallador with Shock Hand-Axe",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Vanguard Pallador with Shock Hand-Axe",
-        "points": 230,
-        "runemarks": [
-            "mount"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -311,20 +318,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "mount"
+        ],
+        "points": 230
     },
     {
         "_id": "ca6d418d",
+        "name": "Raptor-Prime with Hurricane Crossbow",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Raptor-Prime with Hurricane Crossbow",
-        "points": 245,
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 3,
@@ -345,21 +352,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 245
     },
     {
         "_id": "15417f0c",
+        "name": "Knight-Azyros",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Knight-Azyros",
-        "points": 260,
-        "runemarks": [
-            "fly",
-            "hero",
-            "berserker"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -371,20 +378,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "fly",
+            "hero",
+            "berserker"
+        ],
+        "points": 260
     },
     {
         "_id": "3b0ff9ab",
+        "name": "Pallador-Prime with Starstrike Javelin",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Pallador-Prime with Starstrike Javelin",
-        "points": 280,
-        "runemarks": [
-            "hero",
-            "mount"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 4,
@@ -405,20 +414,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 32
-    },
-    {
-        "_id": "6f53fe73",
-        "grand_alliance": "order",
-        "movement": 10,
-        "name": "Pallador-Prime with Shock Hand-axe",
-        "points": 285,
         "runemarks": [
             "hero",
             "mount"
         ],
-        "toughness": 5,
+        "points": 280
+    },
+    {
+        "_id": "6f53fe73",
+        "name": "Pallador-Prime with Shock Hand-axe",
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 5,
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 5,
@@ -439,20 +449,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 32
-    },
-    {
-        "_id": "5fc20860",
-        "grand_alliance": "order",
-        "movement": 10,
-        "name": "Lord-Aquilor",
-        "points": 310,
         "runemarks": [
             "hero",
             "mount"
         ],
-        "toughness": 5,
+        "points": 285
+    },
+    {
+        "_id": "5fc20860",
+        "name": "Lord-Aquilor",
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 5,
+        "wounds": 38,
         "weapons": [
             {
                 "attacks": 4,
@@ -473,21 +484,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 38
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 310
     },
     {
         "_id": "91a6fdeb",
+        "name": "Knight-Venator",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Knight-Venator",
-        "points": 325,
-        "runemarks": [
-            "hero",
-            "trapper",
-            "fly"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -508,19 +519,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "hero",
+            "trapper",
+            "fly"
+        ],
+        "points": 325
     },
     {
         "_id": "3e007a24",
+        "name": "Almeric Eagle-eye",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "The Farstriders",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Almeric Eagle-eye",
-        "points": 135,
-        "runemarks": [
-            "The Farstriders"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -541,19 +555,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [],
+        "points": 135
     },
     {
         "_id": "34d09ed8",
+        "name": "Elias Swiftblade",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "The Farstriders",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Elias Swiftblade",
-        "points": 135,
-        "runemarks": [
-            "The Farstriders"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -574,21 +587,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [],
+        "points": 135
     },
     {
         "_id": "68ddfc6b",
+        "name": "Sanson Farstrider",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "The Farstriders",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sanson Farstrider",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "warrior",
-            "The Farstriders"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -609,6 +619,10 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 170
     }
 ]

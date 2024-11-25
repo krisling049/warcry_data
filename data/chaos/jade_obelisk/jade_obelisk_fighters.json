@@ -1,13 +1,13 @@
 [
     {
         "_id": "3a603d57",
+        "name": "Defacer with Antithete Bow",
+        "warband": "Jade Obelisk",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Defacer with Antithete Bow",
-        "points": 95,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Jade Obelisk",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -28,19 +28,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 95
     },
     {
         "_id": "0107090d",
+        "name": "Defacer with Stonecutter Tools",
+        "warband": "Jade Obelisk",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Defacer with Stonecutter Tools",
-        "points": 95,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Jade Obelisk",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -52,19 +51,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 95
     },
     {
         "_id": "0f01b0fc",
+        "name": "Desecrator with Iconoclast Warpick",
+        "warband": "Jade Obelisk",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Desecrator with Iconoclast Warpick",
-        "points": 100,
-        "runemarks": [
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Jade Obelisk",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -76,19 +76,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 12
-    },
-    {
-        "_id": "5d2df80c",
-        "grand_alliance": "chaos",
-        "movement": 3,
-        "name": "Desecrator with Statue-Smasher Hammer",
-        "points": 100,
         "runemarks": [
             "destroyer"
         ],
-        "toughness": 4,
+        "points": 100
+    },
+    {
+        "_id": "5d2df80c",
+        "name": "Desecrator with Statue-Smasher Hammer",
         "warband": "Jade Obelisk",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -100,20 +101,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 100
     },
     {
         "_id": "6b58ba77",
+        "name": "Idolarc",
+        "warband": "Jade Obelisk",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Idolarc",
-        "points": 105,
-        "runemarks": [
-            "beast",
-            "fly"
-        ],
         "toughness": 3,
-        "warband": "Jade Obelisk",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -125,20 +126,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "beast",
+            "fly"
+        ],
+        "points": 105
     },
     {
         "_id": "be116cfc",
+        "name": "Nephrite Priestess",
+        "warband": "Jade Obelisk",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Nephrite Priestess",
-        "points": 105,
-        "runemarks": [
-            "hero",
-            "priest"
-        ],
         "toughness": 3,
-        "warband": "Jade Obelisk",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -150,19 +152,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "points": 105
     },
     {
         "_id": "6095fdfa",
+        "name": "Obelisk Bearer",
+        "warband": "Jade Obelisk",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Obelisk Bearer",
-        "points": 110,
-        "runemarks": [
-            "icon-bearer"
-        ],
         "toughness": 4,
-        "warband": "Jade Obelisk",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -174,6 +178,9 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "icon-bearer"
+        ],
+        "points": 110
     }
 ]

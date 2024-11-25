@@ -1,15 +1,13 @@
 [
     {
         "_id": "4c8c3f46",
+        "name": "Tree-Revenant",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Tree-Revenant",
-        "points": 65,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -21,19 +19,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 65
     },
     {
         "_id": "d24e0a5c",
+        "name": "Dryad",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Dryad",
-        "points": 70,
-        "runemarks": [
-            "scout"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -45,19 +44,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "scout"
+        ],
+        "points": 70
     },
     {
         "_id": "9722eb47",
+        "name": "Spite-Revenant",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Spite-Revenant",
-        "points": 75,
-        "runemarks": [
-            "terrifying"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -69,20 +69,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "terrifying"
+        ],
+        "points": 75
     },
     {
         "_id": "0f6bb606",
+        "name": "Tree-Revenant Scion with Enchanted Blade",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Tree-Revenant Scion with Enchanted Blade",
-        "points": 110,
-        "runemarks": [
-            "hero",
-            "warrior"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -94,20 +94,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
-    },
-    {
-        "_id": "6f4e923e",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Tree-Revenant Scion with Protector Glaive",
-        "points": 115,
         "runemarks": [
             "hero",
             "warrior"
         ],
-        "toughness": 3,
+        "points": 110
+    },
+    {
+        "_id": "6f4e923e",
+        "name": "Tree-Revenant Scion with Protector Glaive",
         "warband": "Sylvaneth",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -119,20 +120,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 115
     },
     {
         "_id": "3a6af4aa",
+        "name": "Gossamid Archer",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Gossamid Archer",
-        "points": 130,
-        "runemarks": [
-            "fly",
-            "trapper"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -153,20 +155,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "fly",
+            "trapper"
+        ],
+        "points": 130
     },
     {
         "_id": "e1c36eb5",
+        "name": "Branch Nymph",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Branch Nymph",
-        "points": 140,
-        "runemarks": [
-            "hero",
-            "scout"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -178,20 +181,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "hero",
+            "scout"
+        ],
+        "points": 140
     },
     {
         "_id": "c76fe85a",
+        "name": "Shadestalker",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Shadestalker",
-        "points": 140,
-        "runemarks": [
-            "hero",
-            "terrifying"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 5,
@@ -203,20 +207,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ],
+        "points": 140
     },
     {
         "_id": "855ff6e7",
+        "name": "Branchwraith",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Branchwraith",
-        "points": 145,
-        "runemarks": [
-            "hero",
-            "berserker"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -237,20 +242,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "points": 145
     },
     {
         "_id": "ec06b688",
+        "name": "Branchwych",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Branchwych",
-        "points": 145,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -271,20 +277,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 145
     },
     {
         "_id": "8a4d5f1a",
+        "name": "Revenant Seeker",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Revenant Seeker",
-        "points": 165,
-        "runemarks": [
-            "fly",
-            "sentience"
-        ],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -296,21 +303,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "fly",
+            "sentience"
+        ],
+        "points": 165
     },
     {
         "_id": "380e3761",
+        "name": "Flitwing Scion",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Flitwing Scion",
-        "points": 170,
-        "runemarks": [
-            "fly",
-            "hero",
-            "trapper"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 2,
@@ -331,17 +338,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "fly",
+            "hero",
+            "trapper"
+        ],
+        "points": 170
     },
     {
         "_id": "0bbdea02",
+        "name": "Kurnoth Hunter with Kurnoth Greatsword",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Kurnoth Hunter with Kurnoth Greatsword",
-        "points": 170,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -353,17 +365,18 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
+        "runemarks": [],
+        "points": 170
     },
     {
         "_id": "fa35c150",
+        "name": "Kurnoth Hunter with Kurnoth Scythe",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Kurnoth Hunter with Kurnoth Scythe",
-        "points": 185,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -375,20 +388,18 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
+        "runemarks": [],
+        "points": 185
     },
     {
         "_id": "0766a660",
+        "name": "Spiterider Lancer",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 12,
-        "name": "Spiterider Lancer",
-        "points": 185,
-        "runemarks": [
-            "fly",
-            "sentience"
-        ],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -400,17 +411,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "fly",
+            "sentience"
+        ],
+        "points": 185
     },
     {
         "_id": "c9d7c7fb",
+        "name": "Kurnoth Hunter with Kurnoth Greatbow",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Kurnoth Hunter with Kurnoth Greatbow",
-        "points": 195,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -431,21 +446,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [],
+        "points": 195
     },
     {
         "_id": "c287f7d8",
+        "name": "Revenant Soulwarden",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Revenant Soulwarden",
-        "points": 210,
-        "runemarks": [
-            "fly",
-            "hero",
-            "sentience"
-        ],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -457,19 +469,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "fly",
+            "hero",
+            "sentience"
+        ],
+        "points": 210
     },
     {
         "_id": "8e682326",
+        "name": "Kurnoth Huntmaster with Kurnoth Greatsword",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Kurnoth Huntmaster with Kurnoth Greatsword",
-        "points": 215,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 5,
@@ -481,21 +496,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 32
+        "runemarks": [
+            "hero"
+        ],
+        "points": 215
     },
     {
         "_id": "fd4e095d",
+        "name": "Spiterider Scion",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 12,
-        "name": "Spiterider Scion",
-        "points": 240,
-        "runemarks": [
-            "fly",
-            "hero",
-            "sentience"
-        ],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -507,19 +521,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "fly",
+            "hero",
+            "sentience"
+        ],
+        "points": 240
     },
     {
         "_id": "f3ad3792",
+        "name": "Kurnoth Huntmaster with Kurnoth Scythe",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Kurnoth Huntmaster with Kurnoth Scythe",
-        "points": 245,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 4,
@@ -531,19 +548,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 32
-    },
-    {
-        "_id": "f24a1ee1",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Kurnoth Huntmaster with Kurnoth Greatbow",
-        "points": 255,
         "runemarks": [
             "hero"
         ],
-        "toughness": 4,
+        "points": 245
+    },
+    {
+        "_id": "f24a1ee1",
+        "name": "Kurnoth Huntmaster with Kurnoth Greatbow",
         "warband": "Sylvaneth",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 32,
         "weapons": [
             {
                 "attacks": 3,
@@ -564,21 +582,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 32
+        "runemarks": [
+            "hero"
+        ],
+        "points": 255
     },
     {
         "_id": "c459d500",
+        "name": "Arch-Revenant",
+        "warband": "Sylvaneth",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Arch-Revenant",
-        "points": 260,
-        "runemarks": [
-            "hero",
-            "destroyer",
-            "fly"
-        ],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -590,20 +607,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "destroyer",
+            "fly"
+        ],
+        "points": 260
     },
     {
         "_id": "4c7cfa61",
+        "name": "Lighaen",
+        "warband": "Sylvaneth",
+        "subfaction": "Skaeth's Wild Hunt",
         "grand_alliance": "order",
         "movement": 8,
-        "name": "Lighaen",
-        "points": 65,
-        "runemarks": [
-            "beast",
-            "Skaeth's Wild Hunt"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -615,19 +634,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "beast"
+        ],
+        "points": 65
     },
     {
         "_id": "67eef50b",
+        "name": "Sheoch",
+        "warband": "Sylvaneth",
+        "subfaction": "Skaeth's Wild Hunt",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Sheoch",
-        "points": 75,
-        "runemarks": [
-            "Skaeth's Wild Hunt"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -639,19 +659,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "90f714c0",
+        "name": "Althaen",
+        "warband": "Sylvaneth",
+        "subfaction": "Skaeth's Wild Hunt",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Althaen",
-        "points": 75,
-        "runemarks": [
-            "Skaeth's Wild Hunt"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -672,20 +691,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 75
     },
     {
         "_id": "bf844892",
+        "name": "Karthaen",
+        "warband": "Sylvaneth",
+        "subfaction": "Skaeth's Wild Hunt",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Karthaen",
-        "points": 85,
-        "runemarks": [
-            "bulwark",
-            "Skaeth's Wild Hunt"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -697,21 +714,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 85
     },
     {
         "_id": "26368c9b",
+        "name": "Skaeth the Huntsman",
+        "warband": "Sylvaneth",
+        "subfaction": "Skaeth's Wild Hunt",
         "grand_alliance": "order",
         "movement": 8,
-        "name": "Skaeth the Huntsman",
-        "points": 160,
-        "runemarks": [
-            "hero",
-            "mount",
-            "Skaeth's Wild Hunt"
-        ],
         "toughness": 4,
-        "warband": "Sylvaneth",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 2,
@@ -723,19 +739,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 160
     },
     {
         "_id": "d6ab1b04",
+        "name": "Ahnslaine, Revenant Archer",
+        "warband": "Sylvaneth",
+        "subfaction": "Ylthari's Guardians",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Ahnslaine, Revenant Archer",
-        "points": 65,
-        "runemarks": [
-            "Ylthari's Guardians"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -756,19 +774,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 65
     },
     {
         "_id": "a1278c1a",
+        "name": "Skhathael",
+        "warband": "Sylvaneth",
+        "subfaction": "Ylthari's Guardians",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Skhathael",
-        "points": 85,
-        "runemarks": [
-            "Ylthari's Guardians"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -780,19 +797,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 85
     },
     {
         "_id": "01198dbb",
+        "name": "Gallanghann of the Glade",
+        "warband": "Sylvaneth",
+        "subfaction": "Ylthari's Guardians",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Gallanghann of the Glade",
-        "points": 80,
-        "runemarks": [
-            "Ylthari's Guardians"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -804,20 +820,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 80
     },
     {
         "_id": "15b05d0e",
+        "name": "Ylthari",
+        "warband": "Sylvaneth",
+        "subfaction": "Ylthari's Guardians",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Ylthari",
-        "points": 125,
-        "runemarks": [
-            "hero",
-            "Ylthari's Guardians"
-        ],
         "toughness": 3,
-        "warband": "Sylvaneth",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -838,6 +852,9 @@
                 "strength": 3
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero"
+        ],
+        "points": 125
     }
 ]

@@ -1,17 +1,13 @@
 [
     {
         "_id": "5771e4f5",
+        "name": "Prosecutor-Prime",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor-Prime",
-        "points": 205,
-        "runemarks": [
-            "hero",
-            "champion",
-            "fly"
-        ],
         "toughness": 4,
-        "warband": "Stormcast Eternals Ruination Chamber",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -32,20 +28,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "champion",
+            "fly"
+        ],
+        "points": 205
     },
     {
         "_id": "dc3af7bb",
+        "name": "Prosecutor",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Prosecutor",
-        "points": 180,
-        "runemarks": [
-            "fly",
-            "champion"
-        ],
         "toughness": 4,
-        "warband": "Stormcast Eternals Ruination Chamber",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 3,
@@ -66,20 +64,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "fly",
+            "champion"
+        ],
+        "points": 180
     },
     {
         "_id": "149e002e",
+        "name": "Reclusian-Prime",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Reclusian-Prime",
-        "points": 195,
-        "runemarks": [
-            "hero",
-            "terrifying"
-        ],
         "toughness": 6,
-        "warband": "Stormcast Eternals Ruination Chamber",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -91,19 +90,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ],
+        "points": 195
     },
     {
         "_id": "614719d2",
+        "name": "Reclusian",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Reclusian",
-        "points": 160,
-        "runemarks": [
-            "terrifying"
-        ],
         "toughness": 6,
-        "warband": "Stormcast Eternals Ruination Chamber",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -115,20 +116,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "terrifying"
+        ],
+        "points": 160
     },
     {
         "_id": "09eadea6",
+        "name": "Lord-Veritant",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord-Veritant",
-        "points": 190,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Ruination Chamber",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -149,19 +150,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 190
     },
     {
         "_id": "7ace3e66",
+        "name": "Gryph-Crow",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Gryph-Crow",
-        "points": 60,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 3,
-        "warband": "Stormcast Eternals Ruination Chamber",
+        "wounds": 6,
         "weapons": [
             {
                 "attacks": 3,
@@ -173,21 +176,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 6
+        "runemarks": [
+            "beast"
+        ],
+        "points": 60
     },
     {
         "_id": "557afa14",
+        "name": "Knight-Azyros",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Knight-Azyros",
-        "points": 255,
-        "runemarks": [
-            "hero",
-            "icon-bearer",
-            "fly"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Ruination Chamber",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -199,20 +201,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "hero",
+            "icon-bearer",
+            "fly"
+        ],
+        "points": 255
     },
     {
         "_id": "2dfe9f6e",
+        "name": "Lord-Vigilant on Gryph-Stalker",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Lord-Vigilant on Gryph-Stalker",
-        "points": 280,
-        "runemarks": [
-            "hero",
-            "mount"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Ruination Chamber",
+        "wounds": 38,
         "weapons": [
             {
                 "attacks": 3,
@@ -224,20 +228,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 38
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 280
     },
     {
         "_id": "9683def2",
+        "name": "Lord-Terminos",
+        "warband": "Stormcast Eternals Ruination Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord-Terminos",
-        "points": 225,
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Ruination Chamber",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 4,
@@ -249,6 +254,10 @@
                 "strength": 5
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 225
     }
 ]

@@ -1,15 +1,13 @@
 [
     {
         "_id": "fa54ab0a",
+        "name": "Mindbound",
+        "warband": "Cypher Lords",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Mindbound",
-        "points": 70,
-        "runemarks": [
-            "minion"
-        ],
         "toughness": 3,
-        "warband": "Cypher Lords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -21,20 +19,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion"
+        ],
+        "points": 70
     },
     {
         "_id": "04d47ae9",
+        "name": "Mindbound with Double-bladed Sword",
+        "warband": "Cypher Lords",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Mindbound with Double-bladed Sword",
-        "points": 80,
-        "runemarks": [
-            "destroyer",
-            "minion"
-        ],
         "toughness": 3,
-        "warband": "Cypher Lords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -46,19 +44,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "destroyer",
+            "minion"
+        ],
+        "points": 80
     },
     {
         "_id": "dd2d2743",
+        "name": "Mirrorblade with Duelling Swords",
+        "warband": "Cypher Lords",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Mirrorblade with Duelling Swords",
-        "points": 120,
-        "runemarks": [
-            "minion"
-        ],
         "toughness": 3,
-        "warband": "Cypher Lords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 5,
@@ -70,20 +70,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion"
+        ],
+        "points": 120
     },
     {
         "_id": "aecf9289",
+        "name": "Mirrorblade with Glaive",
+        "warband": "Cypher Lords",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Mirrorblade with Glaive",
-        "points": 125,
-        "runemarks": [
-            "minion",
-            "destroyer"
-        ],
         "toughness": 3,
-        "warband": "Cypher Lords",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -95,19 +95,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "minion",
+            "destroyer"
+        ],
+        "points": 125
     },
     {
         "_id": "4db1881d",
+        "name": "Luminate",
+        "warband": "Cypher Lords",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Luminate",
-        "points": 175,
-        "runemarks": [
-            "mystic"
-        ],
         "toughness": 4,
-        "warband": "Cypher Lords",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 5,
@@ -119,20 +121,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 175
     },
     {
         "_id": "ea241336",
+        "name": "Thrallmaster",
+        "warband": "Cypher Lords",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 5,
-        "name": "Thrallmaster",
-        "points": 205,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 4,
-        "warband": "Cypher Lords",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -144,6 +146,10 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 205
     }
 ]

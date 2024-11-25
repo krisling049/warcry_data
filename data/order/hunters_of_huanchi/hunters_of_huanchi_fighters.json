@@ -1,15 +1,13 @@
 [
     {
         "_id": "f4bd295d",
+        "name": "Chameleon Skink with Dartpipe",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Chameleon Skink with Dartpipe",
-        "points": 60,
-        "runemarks": [
-            "agile"
-        ],
         "toughness": 2,
-        "warband": "Hunters of Huanchi",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 2,
@@ -21,45 +19,46 @@
                 "strength": 1
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "agile"
+        ],
+        "points": 60
     },
     {
         "_id": "6b3bb614",
+        "name": "Chameleon Skink with Moonstone Club",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Chameleon Skink with Moonstone Club",
-        "points": 65,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
         "runemarks": [
             "agile",
             "trapper"
         ],
-        "toughness": 3,
-        "warband": "Hunters of Huanchi",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "club",
-                "strength": 3
-            }
-        ],
-        "wounds": 8
+        "points": 65
     },
     {
         "_id": "32e09a29",
+        "name": "Chameleon Skink Hornblower with Moonstone Club",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Chameleon Skink Hornblower with Moonstone Club",
-        "points": 65,
-        "runemarks": [
-            "agile",
-            "scout"
-        ],
         "toughness": 2,
-        "warband": "Hunters of Huanchi",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -71,20 +70,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
-    },
-    {
-        "_id": "0d66ab78",
-        "grand_alliance": "order",
-        "movement": 6,
-        "name": "Chameleon Skink Hornblower with Dartpipe",
-        "points": 65,
         "runemarks": [
             "agile",
             "scout"
         ],
-        "toughness": 2,
+        "points": 65
+    },
+    {
+        "_id": "0d66ab78",
+        "name": "Chameleon Skink Hornblower with Dartpipe",
         "warband": "Hunters of Huanchi",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 2,
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 2,
@@ -96,20 +96,21 @@
                 "strength": 1
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "agile",
+            "scout"
+        ],
+        "points": 65
     },
     {
         "_id": "e69ae498",
+        "name": "Huanchi's Claw",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Huanchi's Claw",
-        "points": 75,
-        "runemarks": [
-            "agile",
-            "icon-bearer"
-        ],
         "toughness": 3,
-        "warband": "Hunters of Huanchi",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 2,
@@ -121,20 +122,21 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "agile",
+            "icon-bearer"
+        ],
+        "points": 75
     },
     {
         "_id": "5169c103",
+        "name": "Chameleon Skink Alpha with Dartpipe",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Chameleon Skink Alpha with Dartpipe",
-        "points": 80,
-        "runemarks": [
-            "hero",
-            "agile"
-        ],
         "toughness": 2,
-        "warband": "Hunters of Huanchi",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -146,21 +148,21 @@
                 "strength": 1
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
+        "points": 80
     },
     {
         "_id": "40e91b1b",
+        "name": "Chameleon Skink Alpha with Moonstone Club",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Chameleon Skink Alpha with Moonstone Club",
-        "points": 90,
-        "runemarks": [
-            "hero",
-            "agile",
-            "trapper"
-        ],
         "toughness": 3,
-        "warband": "Hunters of Huanchi",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -172,20 +174,22 @@
                 "strength": 3
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "hero",
+            "agile",
+            "trapper"
+        ],
+        "points": 90
     },
     {
         "_id": "1f36c1e8",
+        "name": "Terrawing",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Terrawing",
-        "points": 90,
-        "runemarks": [
-            "fly",
-            "beast"
-        ],
         "toughness": 3,
-        "warband": "Hunters of Huanchi",
+        "wounds": 8,
         "weapons": [
             {
                 "attacks": 3,
@@ -197,6 +201,10 @@
                 "strength": 3
             }
         ],
-        "wounds": 8
+        "runemarks": [
+            "fly",
+            "beast"
+        ],
+        "points": 90
     }
 ]

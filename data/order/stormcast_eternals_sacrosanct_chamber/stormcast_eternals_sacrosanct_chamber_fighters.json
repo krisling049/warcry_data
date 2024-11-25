@@ -1,15 +1,13 @@
 [
     {
         "_id": "24608845",
+        "name": "Gryph-Hound",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 6,
-        "name": "Gryph-Hound",
-        "points": 115,
-        "runemarks": [
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -21,19 +19,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "beast"
+        ],
+        "points": 115
     },
     {
         "_id": "0a2d1530",
+        "name": "Sequitor with Storsmite Maul and Soulshield",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor with Storsmite Maul and Soulshield",
-        "points": 120,
-        "runemarks": [
-            "bulwark"
-        ],
         "toughness": 6,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 2,
@@ -45,19 +44,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
-    },
-    {
-        "_id": "ad900d23",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Sequitor with Tempest Blade and Soulshield",
-        "points": 125,
         "runemarks": [
             "bulwark"
         ],
-        "toughness": 6,
+        "points": 120
+    },
+    {
+        "_id": "ad900d23",
+        "name": "Sequitor with Tempest Blade and Soulshield",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 6,
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -69,19 +69,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 125
     },
     {
         "_id": "8cb0966e",
+        "name": "Evocator with Grandstave",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Evocator with Grandstave",
-        "points": 150,
-        "runemarks": [
-            "mystic"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -93,19 +94,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
-    },
-    {
-        "_id": "2843fb51",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Evocator with Tempest Blade and Stormstave",
-        "points": 150,
         "runemarks": [
             "mystic"
         ],
-        "toughness": 5,
+        "points": 150
+    },
+    {
+        "_id": "2843fb51",
+        "name": "Evocator with Tempest Blade and Stormstave",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -117,20 +119,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 150
     },
     {
         "_id": "05e2b8f1",
+        "name": "Sequitor-Prime with Stormsmite Maul and Soulshield",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor-Prime with Stormsmite Maul and Soulshield",
-        "points": 165,
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
         "toughness": 6,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 3,
@@ -142,17 +144,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 165
     },
     {
         "_id": "d80a1ee9",
+        "name": "Sequitor with Stormsmite Greatmace",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor with Stormsmite Greatmace",
-        "points": 170,
-        "runemarks": [],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -164,46 +170,45 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
+        "runemarks": [],
+        "points": 170
     },
     {
         "_id": "b800f747",
+        "name": "Sequitor-Prime with Redemption Cache",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor-Prime with Redemption Cache",
-        "points": 170,
+        "toughness": 6,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
         "runemarks": [
             "hero",
             "bulwark",
             "frenzied"
         ],
-        "toughness": 6,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "hammer",
-                "strength": 5
-            }
-        ],
-        "wounds": 25
+        "points": 170
     },
     {
         "_id": "0b7655ff",
+        "name": "Sequitor-Prime with Tempest Blade and Soulshield",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sequitor-Prime with Tempest Blade and Soulshield",
-        "points": 175,
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
         "toughness": 6,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -215,20 +220,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 175
     },
     {
         "_id": "d09a68fb",
+        "name": "Evocator-Prime with Tempest Blade and Stormstave",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Evocator-Prime with Tempest Blade and Stormstave",
-        "points": 200,
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 5,
@@ -240,20 +246,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 25
-    },
-    {
-        "_id": "82eb25b8",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Evocator-Prime with Grandstave",
-        "points": 205,
         "runemarks": [
             "hero",
             "mystic"
         ],
-        "toughness": 5,
+        "points": 200
+    },
+    {
+        "_id": "82eb25b8",
+        "name": "Evocator-Prime with Grandstave",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -265,20 +272,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 205
     },
     {
         "_id": "0565c5a3",
+        "name": "Knight-Incantor",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Knight-Incantor",
-        "points": 205,
-        "runemarks": [
-            "hero",
-            "berserker"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 28,
         "weapons": [
             {
                 "attacks": 3,
@@ -299,19 +307,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 28
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "points": 205
     },
     {
         "_id": "c913785c",
+        "name": "Castigator",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Castigator",
-        "points": 210,
-        "runemarks": [
-            "destroyer"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -332,20 +342,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 210
     },
     {
         "_id": "66b2c53c",
+        "name": "Lord-Arcanum",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord-Arcanum",
-        "points": 210,
-        "runemarks": [
-            "hero",
-            "berserker"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -366,54 +376,56 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "points": 210
     },
     {
         "_id": "94483481",
+        "name": "Lord-Exorcist",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord-Exorcist",
-        "points": 210,
+        "toughness": 5,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
         "runemarks": [
             "hero",
             "frenzied"
         ],
-        "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "mace",
-                "strength": 4
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 7,
-                "min_range": 3,
-                "runemark": "blast",
-                "strength": 4
-            }
-        ],
-        "wounds": 30
+        "points": 210
     },
     {
         "_id": "2c84b33d",
+        "name": "Lord-Ordinator with Paired Astral Hammers",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Lord-Ordinator with Paired Astral Hammers",
-        "points": 210,
-        "runemarks": [
-            "hero",
-            "brute"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -425,20 +437,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 30
-    },
-    {
-        "_id": "f894aa33",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Lord-Ordinator with Astral Grandhammer",
-        "points": 220,
         "runemarks": [
             "hero",
             "brute"
         ],
-        "toughness": 5,
+        "points": 210
+    },
+    {
+        "_id": "f894aa33",
+        "name": "Lord-Ordinator with Astral Grandhammer",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 3,
@@ -450,20 +463,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 220
     },
     {
         "_id": "3d21c818",
+        "name": "Castigator-Prime",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Castigator-Prime",
-        "points": 240,
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -484,20 +498,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 240
     },
     {
         "_id": "78bc261c",
+        "name": "Evocator on Celestial Dracoline with Grandstave",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Evocator on Celestial Dracoline with Grandstave",
-        "points": 275,
-        "runemarks": [
-            "mystic",
-            "ferocious"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -509,20 +524,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 30
-    },
-    {
-        "_id": "cbf1558d",
-        "grand_alliance": "order",
-        "movement": 10,
-        "name": "Evocator on Celestial Dracoline with Tempest Blade and Stormstave",
-        "points": 285,
         "runemarks": [
             "mystic",
             "ferocious"
         ],
-        "toughness": 5,
+        "points": 275
+    },
+    {
+        "_id": "cbf1558d",
+        "name": "Evocator on Celestial Dracoline with Tempest Blade and Stormstave",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 5,
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 5,
@@ -534,82 +550,84 @@
                 "strength": 5
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "mystic",
+            "ferocious"
+        ],
+        "points": 285
     },
     {
         "_id": "ac46dccc",
+        "name": "Lord-Arcanum on Gryph-Charger",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Lord-Arcanum on Gryph-Charger",
-        "points": 305,
+        "toughness": 5,
+        "wounds": 38,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
         "runemarks": [
             "hero",
             "berserker",
             "mount"
         ],
-        "toughness": 5,
+        "points": 305
+    },
+    {
+        "_id": "2408cf92",
+        "name": "Evocator-Prime on Celestial Dracoline with Grandstave",
         "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 5,
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 4,
-                "dmg_crit": 4,
+                "dmg_crit": 6,
                 "dmg_hit": 2,
                 "max_range": 2,
                 "min_range": 0,
                 "runemark": "mace",
                 "strength": 5
-            },
-            {
-                "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 7,
-                "min_range": 3,
-                "runemark": "blast",
-                "strength": 4
             }
         ],
-        "wounds": 38
-    },
-    {
-        "_id": "2408cf92",
-        "grand_alliance": "order",
-        "movement": 10,
-        "name": "Evocator-Prime on Celestial Dracoline with Grandstave",
-        "points": 315,
         "runemarks": [
             "hero",
             "mystic",
             "ferocious"
         ],
-        "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
-        "weapons": [
-            {
-                "attacks": 4,
-                "dmg_crit": 6,
-                "dmg_hit": 2,
-                "max_range": 2,
-                "min_range": 0,
-                "runemark": "mace",
-                "strength": 5
-            }
-        ],
-        "wounds": 35
+        "points": 315
     },
     {
         "_id": "2f6859a4",
+        "name": "Lord-Arcanum on Celestial Dracoline",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Lord-Arcanum on Celestial Dracoline",
-        "points": 315,
-        "runemarks": [
-            "hero",
-            "ferocious",
-            "berserker"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 40,
         "weapons": [
             {
                 "attacks": 4,
@@ -630,21 +648,22 @@
                 "strength": 4
             }
         ],
-        "wounds": 40
+        "runemarks": [
+            "hero",
+            "ferocious",
+            "berserker"
+        ],
+        "points": 315
     },
     {
         "_id": "83b1fcf3",
+        "name": "Evocator-Prime on Celestial Dracoline with Tempest Blade and Stave",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 10,
-        "name": "Evocator-Prime on Celestial Dracoline with Tempest Blade and Stave",
-        "points": 330,
-        "runemarks": [
-            "hero",
-            "mystic",
-            "ferocious"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 5,
@@ -656,20 +675,22 @@
                 "strength": 5
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "hero",
+            "mystic",
+            "ferocious"
+        ],
+        "points": 330
     },
     {
         "_id": "11986e06",
+        "name": "Ammis Dawnguard",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "Stormsire's Cursebreakers",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Ammis Dawnguard",
-        "points": 160,
-        "runemarks": [
-            "mystic",
-            "Stormsire's Cursebreakers"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -681,20 +702,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 160
     },
     {
         "_id": "aa9cb0c7",
+        "name": "Rastus the Charmed",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "Stormsire's Cursebreakers",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Rastus the Charmed",
-        "points": 160,
-        "runemarks": [
-            "mystic",
-            "Stormsire's Cursebreakers"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -706,21 +727,20 @@
                 "strength": 6
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 160
     },
     {
         "_id": "438b81dc",
+        "name": "Averon Stormsire",
+        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "subfaction": "Stormsire's Cursebreakers",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Averon Stormsire",
-        "points": 215,
-        "runemarks": [
-            "hero",
-            "frenzied",
-            "Stormsire's Cursebreakers"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Sacrosanct Chamber",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 3,
@@ -741,6 +761,10 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "points": 215
     }
 ]

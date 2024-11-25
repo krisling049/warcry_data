@@ -1,15 +1,13 @@
 [
     {
         "_id": "fac7b907",
+        "name": "Bloodletter",
+        "warband": "Blades of Khorne: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Bloodletter",
-        "points": 80,
-        "runemarks": [
-            "frenzied"
-        ],
         "toughness": 3,
-        "warband": "Blades of Khorne: Daemons",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -21,20 +19,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "frenzied"
+        ],
+        "points": 80
     },
     {
         "_id": "b9e2645d",
+        "name": "Bloodreaper",
+        "warband": "Blades of Khorne: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Bloodreaper",
-        "points": 135,
-        "runemarks": [
-            "hero",
-            "frenzied"
-        ],
         "toughness": 3,
-        "warband": "Blades of Khorne: Daemons",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 5,
@@ -46,20 +44,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
-    },
-    {
-        "_id": "9e03d4aa",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Bloodmaster, Herald of Khorne",
-        "points": 165,
         "runemarks": [
             "hero",
             "frenzied"
         ],
-        "toughness": 4,
+        "points": 135
+    },
+    {
+        "_id": "9e03d4aa",
+        "name": "Bloodmaster, Herald of Khorne",
         "warband": "Blades of Khorne: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -71,20 +70,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "points": 165
     },
     {
         "_id": "bea960c8",
+        "name": "Bloodcrusher",
+        "warband": "Blades of Khorne: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Bloodcrusher",
-        "points": 170,
-        "runemarks": [
-            "destroyer",
-            "mount"
-        ],
         "toughness": 4,
-        "warband": "Blades of Khorne: Daemons",
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -96,20 +96,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 25
+        "runemarks": [
+            "destroyer",
+            "mount"
+        ],
+        "points": 170
     },
     {
         "_id": "4b927149",
+        "name": "Flesh Hound",
+        "warband": "Blades of Khorne: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Flesh Hound",
-        "points": 185,
-        "runemarks": [
-            "agile",
-            "beast"
-        ],
         "toughness": 4,
-        "warband": "Blades of Khorne: Daemons",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -121,21 +122,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "agile",
+            "beast"
+        ],
+        "points": 185
     },
     {
         "_id": "d060cbe4",
+        "name": "Bloodhunter",
+        "warband": "Blades of Khorne: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Bloodhunter",
-        "points": 230,
-        "runemarks": [
-            "hero",
-            "destroyer",
-            "mount"
-        ],
         "toughness": 4,
-        "warband": "Blades of Khorne: Daemons",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 5,
@@ -147,47 +148,49 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "destroyer",
+            "mount"
+        ],
+        "points": 230
     },
     {
         "_id": "13230cd6",
+        "name": "Gore Hound",
+        "warband": "Blades of Khorne: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 8,
-        "name": "Gore Hound",
-        "points": 240,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
         "runemarks": [
             "agile",
             "beast",
             "ferocious"
         ],
-        "toughness": 4,
-        "warband": "Blades of Khorne: Daemons",
-        "weapons": [
-            {
-                "attacks": 5,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "fangs",
-                "strength": 4
-            }
-        ],
-        "wounds": 25
+        "points": 240
     },
     {
         "_id": "a23403fa",
+        "name": "Skullmaster, Herald of Khorne",
+        "warband": "Blades of Khorne: Daemons",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 6,
-        "name": "Skullmaster, Herald of Khorne",
-        "points": 285,
-        "runemarks": [
-            "hero",
-            "destroyer",
-            "mount"
-        ],
         "toughness": 5,
-        "warband": "Blades of Khorne: Daemons",
+        "wounds": 35,
         "weapons": [
             {
                 "attacks": 5,
@@ -199,6 +202,11 @@
                 "strength": 4
             }
         ],
-        "wounds": 35
+        "runemarks": [
+            "hero",
+            "destroyer",
+            "mount"
+        ],
+        "points": 285
     }
 ]

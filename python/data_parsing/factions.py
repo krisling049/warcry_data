@@ -1,5 +1,8 @@
 from pathlib import Path
-from .models import PROJECT_DATA, sanitise_filename, write_json
+
+from .models import PROJECT_ROOT, PROJECT_DATA, sanitise_filename, write_data_json
+
+FACTION_SCHEMA = PROJECT_ROOT / 'schemas' / 'faction_schema.json'
 
 
 class SubFaction:
@@ -37,12 +40,13 @@ class Faction:
 
     def write_file(self, dst: Path = PROJECT_DATA):
         outfile = dst / self.grand_alliance.title() / sanitise_filename(self.warband) / sanitise_filename(f'{self.warband}.json')
-        write_json(dst=outfile, data=self.as_dict())
+        write_data_json(dst=outfile, data=self.as_dict())
+
 
 class Factions:
     def __init__(self, data: list[dict]):
-        self.factions = list()
-        self.bladeborn_runemarks = set()
+        self.factions = list()              # type: list[Faction]
+        self.bladeborn_runemarks = set()    # type: set[str]
         for f in data:
             new_faction = Faction(
                     grand_alliance=f['grand_alliance'],

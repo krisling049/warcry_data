@@ -1,16 +1,13 @@
 [
     {
         "_id": "6e1b7w9z",
+        "name": "Errant-Questor Duelist with Twinblades",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Errant-Questor Duelist with Twinblades",
-        "points": 160,
-        "runemarks": [
-            "hero",
-            "champion"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Questor Soulsworn",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
@@ -22,20 +19,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "points": 160
     },
     {
         "_id": "u4nyw6a2",
+        "name": "Errant-Questor with Grandblade",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Errant-Questor with Grandblade",
-        "points": 165,
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Questor Soulsworn",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -47,20 +45,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
-    },
-    {
-        "_id": "s5v8g2y4",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Errant-Questor with Grandaxe",
-        "points": 165,
         "runemarks": [
             "hero",
             "destroyer"
         ],
-        "toughness": 5,
+        "points": 165
+    },
+    {
+        "_id": "s5v8g2y4",
+        "name": "Errant-Questor with Grandaxe",
         "warband": "Stormcast Eternals Questor Soulsworn",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -72,20 +71,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
-    },
-    {
-        "_id": "y9p4k7d1",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Errant-Questor with Grandhammer",
-        "points": 165,
         "runemarks": [
             "hero",
             "destroyer"
         ],
-        "toughness": 5,
+        "points": 165
+    },
+    {
+        "_id": "y9p4k7d1",
+        "name": "Errant-Questor with Grandhammer",
         "warband": "Stormcast Eternals Questor Soulsworn",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -97,20 +97,21 @@
                 "strength": 6
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 165
     },
     {
         "_id": "j3h6t5r7",
+        "name": "Soulsworn Knight-Relictor",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Soulsworn Knight-Relictor",
-        "points": 165,
-        "runemarks": [
-            "hero",
-            "priest"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Questor Soulsworn",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -131,20 +132,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "points": 165
     },
     {
         "_id": "a7r5x8t9",
+        "name": "Questor-Prime",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Questor-Prime",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "warrior"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Questor Soulsworn",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 4,
@@ -156,19 +158,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 170
     },
     {
         "_id": "k9f3n1l6",
+        "name": "Errant-Questor with Grandspear",
+        "warband": "Stormcast Eternals Questor Soulsworn",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Errant-Questor with Grandspear",
-        "points": 170,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Questor Soulsworn",
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
@@ -180,6 +184,9 @@
                 "strength": 5
             }
         ],
-        "wounds": 20
+        "runemarks": [
+            "hero"
+        ],
+        "points": 170
     }
 ]

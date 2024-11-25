@@ -1,13 +1,13 @@
 [
     {
         "_id": "w82oy9ke",
+        "name": "Twistroot Warden with Spitespear",
+        "warband": "Twistweald",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Twistroot Warden with Spitespear",
-        "points": 120,
-        "runemarks": [],
         "toughness": 5,
-        "warband": "Twistweald",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -19,19 +19,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 120
     },
     {
         "_id": "yj5dkhz9",
+        "name": "Twistroot Revenant with Harvester Blade",
+        "warband": "Twistweald",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Twistroot Revenant with Harvester Blade",
-        "points": 110,
-        "runemarks": [
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Twistweald",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -43,20 +42,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 110
     },
     {
         "_id": "t6gzalfu",
+        "name": "Twistroot Spite-revenant with Briarlash",
+        "warband": "Twistweald",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Twistroot Spite-revenant with Briarlash",
-        "points": 110,
-        "runemarks": [
-            "berserker",
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Twistweald",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -68,20 +67,21 @@
                 "strength": 5
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "berserker",
+            "destroyer"
+        ],
+        "points": 110
     },
     {
         "_id": "nxy63tdg",
+        "name": "Swarmsage",
+        "warband": "Twistweald",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Swarmsage",
-        "points": 190,
-        "runemarks": [
-            "berserker",
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Twistweald",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -102,17 +102,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "berserker",
+            "hero"
+        ],
+        "points": 190
     },
     {
         "_id": "0mn9hope",
+        "name": "Twistroot Warden with Guardian Bow",
+        "warband": "Twistweald",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Twistroot Warden with Guardian Bow",
-        "points": 120,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Twistweald",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
@@ -133,19 +137,18 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 120
     },
     {
         "_id": "olr4u0n9",
+        "name": "Twistroot Dryad",
+        "warband": "Twistweald",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 5,
-        "name": "Twistroot Dryad",
-        "points": 110,
-        "runemarks": [
-            "destroyer"
-        ],
         "toughness": 4,
-        "warband": "Twistweald",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -157,17 +160,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 110
     },
     {
         "_id": "0awo336h",
+        "name": "Twistroot Warden with Guardian Halberd",
+        "warband": "Twistweald",
+        "subfaction": "",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Twistroot Warden with Guardian Halberd",
-        "points": 125,
-        "runemarks": [],
         "toughness": 4,
-        "warband": "Twistweald",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -179,6 +185,7 @@
                 "strength": 5
             }
         ],
-        "wounds": 12
+        "runemarks": [],
+        "points": 125
     }
 ]

@@ -1,15 +1,13 @@
 [
     {
         "_id": "287ba04e",
+        "name": "Pit Fighter with Net",
+        "warband": "Spire Tyrants",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Pit Fighter with Net",
-        "points": 65,
-        "runemarks": [
-            "trapper"
-        ],
         "toughness": 3,
-        "warband": "Spire Tyrants",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -21,17 +19,20 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 65
     },
     {
         "_id": "48c70d19",
+        "name": "Pit Fighter with Punch Dagger",
+        "warband": "Spire Tyrants",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Pit Fighter with Punch Dagger",
-        "points": 65,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Spire Tyrants",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 4,
@@ -43,17 +44,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 65
     },
     {
         "_id": "7ba499b7",
+        "name": "Pit Fighter with Spear",
+        "warband": "Spire Tyrants",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Pit Fighter with Spear",
-        "points": 65,
-        "runemarks": [],
         "toughness": 3,
-        "warband": "Spire Tyrants",
+        "wounds": 10,
         "weapons": [
             {
                 "attacks": 3,
@@ -65,19 +67,18 @@
                 "strength": 3
             }
         ],
-        "wounds": 10
+        "runemarks": [],
+        "points": 65
     },
     {
         "_id": "ab224749",
+        "name": "Frenzied Rager",
+        "warband": "Spire Tyrants",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 3,
-        "name": "Frenzied Rager",
-        "points": 95,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Spire Tyrants",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -89,20 +90,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 15
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 95
     },
     {
         "_id": "7e7475df",
+        "name": "Pit Veteran with Shield",
+        "warband": "Spire Tyrants",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Pit Veteran with Shield",
-        "points": 100,
-        "runemarks": [
-            "warrior",
-            "bulwark"
-        ],
         "toughness": 5,
-        "warband": "Spire Tyrants",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
@@ -114,19 +115,21 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "warrior",
+            "bulwark"
+        ],
+        "points": 100
     },
     {
         "_id": "2626a25d",
+        "name": "Pit Veteran with Dual Weapons",
+        "warband": "Spire Tyrants",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Pit Veteran with Dual Weapons",
-        "points": 105,
-        "runemarks": [
-            "warrior"
-        ],
         "toughness": 4,
-        "warband": "Spire Tyrants",
+        "wounds": 12,
         "weapons": [
             {
                 "attacks": 4,
@@ -138,19 +141,20 @@
                 "strength": 4
             }
         ],
-        "wounds": 12
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 105
     },
     {
         "_id": "4fcac576",
+        "name": "Headclaimer",
+        "warband": "Spire Tyrants",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Headclaimer",
-        "points": 135,
-        "runemarks": [
-            "brute"
-        ],
         "toughness": 4,
-        "warband": "Spire Tyrants",
+        "wounds": 15,
         "weapons": [
             {
                 "attacks": 4,
@@ -162,19 +166,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 15
-    },
-    {
-        "_id": "730e4623",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Bestigor Destroyer",
-        "points": 145,
         "runemarks": [
             "brute"
         ],
-        "toughness": 4,
+        "points": 135
+    },
+    {
+        "_id": "730e4623",
+        "name": "Bestigor Destroyer",
         "warband": "Spire Tyrants",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 18,
         "weapons": [
             {
                 "attacks": 3,
@@ -186,19 +191,20 @@
                 "strength": 5
             }
         ],
-        "wounds": 18
+        "runemarks": [
+            "brute"
+        ],
+        "points": 145
     },
     {
         "_id": "b371dd35",
+        "name": "Pit Champion",
+        "warband": "Spire Tyrants",
+        "subfaction": "",
         "grand_alliance": "chaos",
         "movement": 4,
-        "name": "Pit Champion",
-        "points": 170,
-        "runemarks": [
-            "hero"
-        ],
         "toughness": 4,
-        "warband": "Spire Tyrants",
+        "wounds": 22,
         "weapons": [
             {
                 "attacks": 4,
@@ -219,6 +225,9 @@
                 "strength": 4
             }
         ],
-        "wounds": 22
+        "runemarks": [
+            "hero"
+        ],
+        "points": 170
     }
 ]
