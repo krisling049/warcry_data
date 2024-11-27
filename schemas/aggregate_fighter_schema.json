@@ -1,0 +1,9 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"$id": "https://raw.githubusercontent.com/krisling049/warcry_data/main/schemas",
+	"type": "array",
+	"title": "Schema for warband and aggregate data files",
+	"items": {
+		"$ref": "https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas/fighter_schema.json"
+	}
+}

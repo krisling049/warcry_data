@@ -1,0 +1,967 @@
+[
+    {
+        "_id": "d32fb6ba",
+        "name": "Bloodreaver with Meatripper Axe",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [],
+        "points": 65
+    },
+    {
+        "_id": "6fa3829c",
+        "name": "Bloodreaver with Reaver Blades",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 65
+    },
+    {
+        "_id": "3af7fec3",
+        "name": "Blood Warrior with Goreaxe and Gorefist",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 100
+    },
+    {
+        "_id": "fb322974",
+        "name": "Blood Warrior with Goreglaive",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [],
+        "points": 110
+    },
+    {
+        "_id": "87153906",
+        "name": "Blood Warrior with Pair of Goreaxes",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [],
+        "points": 110
+    },
+    {
+        "_id": "811b35cc",
+        "name": "Bloodreaver Chieftain",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 120
+    },
+    {
+        "_id": "05a4c6b4",
+        "name": "Skullreaper",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 130
+    },
+    {
+        "_id": "5584f517",
+        "name": "Chaos Champion",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "98435f2d",
+        "name": "Wrathmonger",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "frenzied"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "559f286c",
+        "name": "Bloodsecrator",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ],
+        "points": 160
+    },
+    {
+        "_id": "23e300d7",
+        "name": "Skullseeker",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 160
+    },
+    {
+        "_id": "ddd14dc6",
+        "name": "Aspiring Deathbringer",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 165
+    },
+    {
+        "_id": "95cd6182",
+        "name": "Bloodstoker",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "trapper"
+        ],
+        "points": 165
+    },
+    {
+        "_id": "13f5bb8d",
+        "name": "Flesh Hound",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 180
+    },
+    {
+        "_id": "55ff1296",
+        "name": "Skullgrinder",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 180
+    },
+    {
+        "_id": "3c23da85",
+        "name": "Exalted Deathbringer with Impaling Spear",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 185
+    },
+    {
+        "_id": "43ff3553",
+        "name": "Exalted Deathbringer with Ruinous Axe",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 185
+    },
+    {
+        "_id": "78231166",
+        "name": "Slaughterpriest with Wrath-hammer and Hackblade",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "points": 185
+    },
+    {
+        "_id": "fc268557",
+        "name": "Slaughterpriest with Bloodbathed Axe",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "points": 195
+    },
+    {
+        "_id": "743cfea8",
+        "name": "Khorgorath",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "ferocious"
+        ],
+        "points": 205
+    },
+    {
+        "_id": "8ac2e833",
+        "name": "Mighty Skullcrusher with Bloodglaive",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 6,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "mount"
+        ],
+        "points": 210
+    },
+    {
+        "_id": "12d7cc73",
+        "name": "Mighty Skullcrusher with Ensorcelled Axe",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 6,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "mount"
+        ],
+        "points": 210
+    },
+    {
+        "_id": "f4bd8604",
+        "name": "Wrathmaster",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 6,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "points": 210
+    },
+    {
+        "_id": "191f2f84",
+        "name": "Mighty Lord of Khorne",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 32,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "points": 215
+    },
+    {
+        "_id": "5ec5fd0c",
+        "name": "Skullhunter",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 6,
+        "wounds": 35,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 260
+    },
+    {
+        "_id": "7ccb3e43",
+        "name": "Mighty Lord of Khorne on Juggernaut",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 6,
+        "wounds": 38,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 280
+    },
+    {
+        "_id": "229cb33e",
+        "name": "Arnulf",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Garrek's Reavers",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 70
+    },
+    {
+        "_id": "95b69c8d",
+        "name": "Targor",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Garrek's Reavers",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 70
+    },
+    {
+        "_id": "d93a8925",
+        "name": "Karsus the Chained",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Garrek's Reavers",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "berserker"
+        ],
+        "points": 120
+    },
+    {
+        "_id": "eb787473",
+        "name": "Blooded Saek",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Garrek's Reavers",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [],
+        "points": 115
+    },
+    {
+        "_id": "9a693167",
+        "name": "Garrek Gorebeard",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Garrek's Reavers",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 170
+    },
+    {
+        "_id": "742ef8d7",
+        "name": "Skullgrinder Herax",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Gorechosen of Dromm",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 24,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 155
+    },
+    {
+        "_id": "b850aa39",
+        "name": "Dromm, Wounder of Worlds",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Gorechosen of Dromm",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "points": 205
+    },
+    {
+        "_id": "8293a286",
+        "name": "The Gorehulk",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Gorechosen of Dromm",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 36,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "brute"
+        ],
+        "points": 225
+    },
+    {
+        "_id": "30840ed1",
+        "name": "Ghartok Flayskull",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Magore's Fiends",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 95
+    },
+    {
+        "_id": "48ebc78c",
+        "name": "Zharkus the Bloodsighted",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Magore's Fiends",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 95
+    },
+    {
+        "_id": "36cbb938",
+        "name": "Magore Redhand",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Magore's Fiends",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 26,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 155
+    },
+    {
+        "_id": "47baf393",
+        "name": "Riptooth",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Magore's Fiends",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 185
+    }
+]

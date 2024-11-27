@@ -1,0 +1,155 @@
+[
+    {
+        "_id": "fa54ab0a",
+        "name": "Mindbound",
+        "warband": "Cypher Lords",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "minion"
+        ],
+        "points": 70
+    },
+    {
+        "_id": "04d47ae9",
+        "name": "Mindbound with Double-bladed Sword",
+        "warband": "Cypher Lords",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "destroyer",
+            "minion"
+        ],
+        "points": 80
+    },
+    {
+        "_id": "dd2d2743",
+        "name": "Mirrorblade with Duelling Swords",
+        "warband": "Cypher Lords",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "minion"
+        ],
+        "points": 120
+    },
+    {
+        "_id": "aecf9289",
+        "name": "Mirrorblade with Glaive",
+        "warband": "Cypher Lords",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "minion",
+            "destroyer"
+        ],
+        "points": 125
+    },
+    {
+        "_id": "4db1881d",
+        "name": "Luminate",
+        "warband": "Cypher Lords",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 175
+    },
+    {
+        "_id": "ea241336",
+        "name": "Thrallmaster",
+        "warband": "Cypher Lords",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 205
+    }
+]

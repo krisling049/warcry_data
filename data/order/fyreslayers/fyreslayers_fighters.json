@@ -1,0 +1,600 @@
+[
+    {
+        "_id": "d93fb6db",
+        "name": "Vulkite Berzerker with Fyresteel Weapon and Bladed Slingshield",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "966eced5",
+        "name": "Vulkite Berzerker with Pair of Fyresteel Handaxes",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [],
+        "points": 70
+    },
+    {
+        "_id": "fb2ba54f",
+        "name": "Hearthguard Berzerker with Flamestrike Poleaxe",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 95
+    },
+    {
+        "_id": "aa9b9ddb",
+        "name": "Hearthguard Berzerker with Berzerker Broadaxe",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 100
+    },
+    {
+        "_id": "d56f9da0",
+        "name": "Auric Flamekeeper",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ],
+        "points": 105
+    },
+    {
+        "_id": "bff8e66d",
+        "name": "Auric Runesmiter",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 110
+    },
+    {
+        "_id": "7237f2f1",
+        "name": "Vulkite Berzerker Karl",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 110
+    },
+    {
+        "_id": "a599a3f6",
+        "name": "Auric Hearthguard",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "frenzied"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "2bf4bd02",
+        "name": "Auric Runemaster",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "points": 120
+    },
+    {
+        "_id": "6ad97821",
+        "name": "Battlesmith",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ],
+        "points": 120
+    },
+    {
+        "_id": "556ec979",
+        "name": "Auric Runeson with Wyrmslayer Javelin",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 130
+    },
+    {
+        "_id": "18cf031a",
+        "name": "Auric Runeson with Ancestral War-Axe",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 130
+    },
+    {
+        "_id": "cd1ea539",
+        "name": "Doomseeker",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 135
+    },
+    {
+        "_id": "8b2cb606",
+        "name": "Grimwrath Berzerker",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "points": 135
+    },
+    {
+        "_id": "2fd7648b",
+        "name": "Auric Hearthguard Karl",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "d0edb920",
+        "name": "Hearthguard Berzerker Karl with Berzerker Broadaxe",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "7e554b40",
+        "name": "Hearthguard Berzerker Karl with Flamestrike Poleaxe",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "0c480fe0",
+        "name": "Auric Runefather",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 145
+    },
+    {
+        "_id": "ede35d2e",
+        "name": "Mad Maegrim",
+        "warband": "Fyreslayers",
+        "subfaction": "The Chosen Axes",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 14,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 80
+    },
+    {
+        "_id": "e6bf44e3",
+        "name": "Tefk Flamebearer",
+        "warband": "Fyreslayers",
+        "subfaction": "The Chosen Axes",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 14,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 80
+    },
+    {
+        "_id": "ebfa6092",
+        "name": "Vol Orrukbane",
+        "warband": "Fyreslayers",
+        "subfaction": "The Chosen Axes",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 14,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [],
+        "points": 95
+    },
+    {
+        "_id": "705d40ef",
+        "name": "Fjul-Grimnir",
+        "warband": "Fyreslayers",
+        "subfaction": "The Chosen Axes",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 26,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 195
+    },
+    {
+        "_id": "4e68aa26",
+        "name": "Grimhold Exile",
+        "warband": "Fyreslayers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 165
+    }
+]

@@ -1,0 +1,787 @@
+[
+    {
+        "_id": "f25b52f4",
+        "name": "Freeguild Command Corps Mascot Gargoylian",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 50
+    },
+    {
+        "_id": "7a86de3c",
+        "name": "Freeguild Command Corps War Surgeon",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "sentience"
+        ],
+        "points": 60
+    },
+    {
+        "_id": "e1b3c0d5",
+        "name": "Flagellant",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 60
+    },
+    {
+        "_id": "8c569252",
+        "name": "Freeguild Steelhelm",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 60
+    },
+    {
+        "_id": "fb5f13f5",
+        "name": "Battle Priest",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "a5ec546b",
+        "name": "Freeguild Command Corps Soul Shepherd",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 14,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 5,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 1
+            }
+        ],
+        "runemarks": [
+            "priest"
+        ],
+        "points": 70
+    },
+    {
+        "_id": "20090195",
+        "name": "Freeguild Command Corps Whisperblade",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "agile"
+        ],
+        "points": 80
+    },
+    {
+        "_id": "65ff23d0",
+        "name": "Prophet",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 95
+    },
+    {
+        "_id": "adad5f32",
+        "name": "Sergeant at Arms",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 100
+    },
+    {
+        "_id": "d904eb38",
+        "name": "Freeguild Command Corps Great Herald",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "icon-bearer"
+        ],
+        "points": 105
+    },
+    {
+        "_id": "e2b99289",
+        "name": "Battlemage",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 120
+    },
+    {
+        "_id": "89ff4d46",
+        "name": "Freeguild Command Corps Arch-Knight",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 120
+    },
+    {
+        "_id": "d8bd3ecb",
+        "name": "Freeguild Fusilier",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 120
+    },
+    {
+        "_id": "d565d395",
+        "name": "Alchemite Warforger",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 125
+    },
+    {
+        "_id": "0712ac67",
+        "name": "Fusil-Sergeant",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "67c20f2c",
+        "name": "Freeguild Marshal with Duelling Pistols",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 150
+    },
+    {
+        "_id": "68566e40",
+        "name": "Freeguild Marshal with Shield",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 155
+    },
+    {
+        "_id": "22452def",
+        "name": "Freeguild Marshal with Heirloom Weapon",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 155
+    },
+    {
+        "_id": "fc246066",
+        "name": "Freeguild Cavalier",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 9,
+        "toughness": 5,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "mount"
+        ],
+        "points": 165
+    },
+    {
+        "_id": "a594cd6b",
+        "name": "Freeguild Cavalier Arch-Knight",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 9,
+        "toughness": 5,
+        "wounds": 24,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 205
+    },
+    {
+        "_id": "12ae35bc",
+        "name": "Fusil-Major on Ogor Warhulk",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 6,
+        "wounds": 35,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 6
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 24,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "elite",
+            "bulwark"
+        ],
+        "points": 245
+    },
+    {
+        "_id": "cf0d60d4",
+        "name": "Freeguild Cavalier-Marshal",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 9,
+        "toughness": 5,
+        "wounds": 26,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 255
+    },
+    {
+        "_id": "234e87ad",
+        "name": "Pater Filius",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "Brethren of the Bolt",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 1,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 1
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 150
+    },
+    {
+        "_id": "adf9a5d6",
+        "name": "Friar Galvic",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "Brethren of the Bolt",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 1,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 1
+            }
+        ],
+        "runemarks": [],
+        "points": 140
+    },
+    {
+        "_id": "58eca0a9",
+        "name": "Soror Tazat",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "Brethren of the Bolt",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 1,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 1
+            }
+        ],
+        "runemarks": [],
+        "points": 105
+    },
+    {
+        "_id": "e9705ef3",
+        "name": "Acolyte Arcus",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "Brethren of the Bolt",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 1,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 1
+            }
+        ],
+        "runemarks": [],
+        "points": 95
+    },
+    {
+        "_id": "07be27e9",
+        "name": "Scorched Yakob",
+        "warband": "Cities of Sigmar: Castelite Hosts",
+        "subfaction": "Brethren of the Bolt",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 1,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 1
+            }
+        ],
+        "runemarks": [],
+        "points": 85
+    }
+]

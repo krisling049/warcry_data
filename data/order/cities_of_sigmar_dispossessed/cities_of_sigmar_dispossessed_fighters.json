@@ -1,0 +1,413 @@
+[
+    {
+        "_id": "eaec58a2",
+        "name": "Ironbreaker",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 75
+    },
+    {
+        "_id": "f86feaaf",
+        "name": "Longbeard with Ancestral Weapon and Gromril Shield",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "champion"
+        ],
+        "points": 80
+    },
+    {
+        "_id": "353ccf7c",
+        "name": "Hammerer",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 85
+    },
+    {
+        "_id": "7eb24003",
+        "name": "Longbeard with Ancestral Great Axe",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "champion"
+        ],
+        "points": 85
+    },
+    {
+        "_id": "17bfdc39",
+        "name": "Irondrake",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 85
+    },
+    {
+        "_id": "5c8db207",
+        "name": "Ironbeard with Drakefire Pistol and Cinderblast Bomb",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 5,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 5
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 110
+    },
+    {
+        "_id": "3dd9ab0b",
+        "name": "Old Guard with Ancestral Weapon and Gromril Shield",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "46f24f9a",
+        "name": "Runelord",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "bce5a104",
+        "name": "Keeper of the Gate",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 120
+    },
+    {
+        "_id": "4de3176c",
+        "name": "Warden King",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 145
+    },
+    {
+        "_id": "87939494",
+        "name": "Cogsmith",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "trapper"
+        ],
+        "points": 145
+    },
+    {
+        "_id": "f84e4610",
+        "name": "Ironwarden with Grudgehammer Torpedo",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 160
+    },
+    {
+        "_id": "9bb7b4e4",
+        "name": "Gyrocopter",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 12,
+        "toughness": 4,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "fly"
+        ],
+        "points": 190
+    },
+    {
+        "_id": "2d7e63f1",
+        "name": "Gyrobomber",
+        "warband": "Cities of Sigmar: Dispossessed",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 5
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "fly"
+        ],
+        "points": 215
+    }
+]

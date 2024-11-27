@@ -1,0 +1,178 @@
+[
+    {
+        "_id": "ad524c22",
+        "name": "Pureflood Seneschal with Ydrilan Warglaive",
+        "warband": "Ydrilan Riverblades",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "elite",
+            "hero"
+        ],
+        "points": 205
+    },
+    {
+        "_id": "6e9c2283",
+        "name": "Pureflood Seneschal with Master's Blades",
+        "warband": "Ydrilan Riverblades",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite",
+            "hero"
+        ],
+        "points": 210
+    },
+    {
+        "_id": "67c44120",
+        "name": "Pureflood Seneschal with Ythara Darts",
+        "warband": "Ydrilan Riverblades",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite",
+            "hero"
+        ],
+        "points": 210
+    },
+    {
+        "_id": "b2937bc4",
+        "name": "Crestdancer with Twin-spear",
+        "warband": "Ydrilan Riverblades",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "6e2639f6",
+        "name": "Crestdancer with Roped Sickle",
+        "warband": "Ydrilan Riverblades",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "3d77dca0",
+        "name": "Stream-runner with Crestblades",
+        "warband": "Ydrilan Riverblades",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "agile"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "217c9ace",
+        "name": "Stream-runner with Riversteel Weapons",
+        "warband": "Ydrilan Riverblades",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 65
+    }
+]

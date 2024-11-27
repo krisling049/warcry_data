@@ -1,0 +1,129 @@
+[
+    {
+        "_id": "17aa80a6",
+        "name": "Gorger with Club",
+        "warband": "Gorger Mawpack",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 175
+    },
+    {
+        "_id": "d7c8e406",
+        "name": "Gorger",
+        "warband": "Gorger Mawpack",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 180
+    },
+    {
+        "_id": "9bfb3829",
+        "name": "Gorger with Great Club",
+        "warband": "Gorger Mawpack",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "beast",
+            "destroyer"
+        ],
+        "points": 185
+    },
+    {
+        "_id": "2046056e",
+        "name": "Cave Howler",
+        "warband": "Gorger Mawpack",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "beast",
+            "berserker"
+        ],
+        "points": 220
+    },
+    {
+        "_id": "8b4dc952",
+        "name": "Clawback",
+        "warband": "Gorger Mawpack",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 35,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 235
+    }
+]

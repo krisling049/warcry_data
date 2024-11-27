@@ -1,0 +1,204 @@
+[
+    {
+        "_id": "96036a6f",
+        "name": "Spider Swarm",
+        "warband": "Tarantulos Brood",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 1,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 1
+            }
+        ],
+        "runemarks": [
+            "agile",
+            "beast"
+        ],
+        "points": 50
+    },
+    {
+        "_id": "54323fbf",
+        "name": "Broodkin with Scythe and Spider Claw",
+        "warband": "Tarantulos Brood",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "scythe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "scout",
+            "sentience"
+        ],
+        "points": 60
+    },
+    {
+        "_id": "094de044",
+        "name": "Broodkin",
+        "warband": "Tarantulos Brood",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "scout",
+            "sentience"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "ac58a78d",
+        "name": "Broodkin with Sai",
+        "warband": "Tarantulos Brood",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "scout",
+            "sentience"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "c30a039d",
+        "name": "Doomweaver with Flail and Goad",
+        "warband": "Tarantulos Brood",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "sentience",
+            "agile"
+        ],
+        "points": 105
+    },
+    {
+        "_id": "24c8b39e",
+        "name": "Doomweaver with Trident and Net",
+        "warband": "Tarantulos Brood",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "sentience",
+            "agile",
+            "trapper"
+        ],
+        "points": 105
+    },
+    {
+        "_id": "c0252322",
+        "name": "Broodmaster",
+        "warband": "Tarantulos Brood",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 4,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "sentience",
+            "agile"
+        ],
+        "points": 180
+    }
+]

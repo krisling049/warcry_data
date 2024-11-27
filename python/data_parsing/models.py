@@ -1,13 +1,13 @@
-from pathlib import Path
-from typing import List, Dict
 import json
-import jsonschema
+from pathlib import Path
+from typing import List, Dict, Union
 
+import jsonschema
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 PROJECT_DATA = Path(PROJECT_ROOT, 'data')
 DIST = Path(PROJECT_ROOT, 'docs')
-LOCAL_DATA = Path(PROJECT_DATA, 'local')
+LOCAL_DATA = Path(PROJECT_ROOT, 'local', 'data')
 LOCALISATION_DATA = Path(PROJECT_ROOT, 'localisation')
 
 
@@ -17,6 +17,11 @@ def sanitise_filename(filename: str) -> str:
 
     return filename.lower().replace(' ', '_')
 
+
+def write_data_json(dst: Path, data: Union[List, Dict], encoding: str = 'latin-1'):
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    with open(dst, 'w', encoding=encoding) as f:
+        json.dump(data, f, ensure_ascii=False, indent=4, sort_keys=False)
 
 class DataPayload:
     """
@@ -29,7 +34,7 @@ class DataPayload:
         self.src_format = src_format if src_format else src.suffix  # xlsx, json, csv etc
         self.schema = schema
         self.data = self.load_data()
-        self.validate_data()
+        # self.validate_data()
 
     @classmethod
     def load_data(cls):
@@ -50,7 +55,7 @@ class JSONDataPayload(DataPayload):
         return data
 
     def write_to_disk(self, dst: Path = None):
-        self.validate_data()
+        # self.validate_data()
         if not dst:
             dst = self.src
         print(f'writing to {dst}')

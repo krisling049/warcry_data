@@ -1,0 +1,210 @@
+[
+    {
+        "_id": "f4bd295d",
+        "name": "Chameleon Skink with Dartpipe",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 2,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 1
+            }
+        ],
+        "runemarks": [
+            "agile"
+        ],
+        "points": 60
+    },
+    {
+        "_id": "6b3bb614",
+        "name": "Chameleon Skink with Moonstone Club",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "agile",
+            "trapper"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "32e09a29",
+        "name": "Chameleon Skink Hornblower with Moonstone Club",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 2,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "agile",
+            "scout"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "0d66ab78",
+        "name": "Chameleon Skink Hornblower with Dartpipe",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 2,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 1
+            }
+        ],
+        "runemarks": [
+            "agile",
+            "scout"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "e69ae498",
+        "name": "Huanchi's Claw",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "agile",
+            "icon-bearer"
+        ],
+        "points": 75
+    },
+    {
+        "_id": "5169c103",
+        "name": "Chameleon Skink Alpha with Dartpipe",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 2,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 1
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
+        "points": 80
+    },
+    {
+        "_id": "40e91b1b",
+        "name": "Chameleon Skink Alpha with Moonstone Club",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "agile",
+            "trapper"
+        ],
+        "points": 90
+    },
+    {
+        "_id": "1f36c1e8",
+        "name": "Terrawing",
+        "warband": "Hunters of Huanchi",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "fly",
+            "beast"
+        ],
+        "points": 90
+    }
+]

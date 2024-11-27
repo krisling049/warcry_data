@@ -1,0 +1,244 @@
+[
+    {
+        "_id": "df9fe661",
+        "name": "Scalebreaker with Fyresteel Splitaxe",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 95
+    },
+    {
+        "_id": "e00e73d1",
+        "name": "Scalebreaker with Bokaz",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 95
+    },
+    {
+        "_id": "56748d38",
+        "name": "Kyndledroth",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            },
+            {
+                "attacks": 1,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 110
+    },
+    {
+        "_id": "8770f3ac",
+        "name": "Drothmaster",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite",
+            "destroyer"
+        ],
+        "points": 125
+    },
+    {
+        "_id": "22956036",
+        "name": "Drothblood Thane",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite",
+            "berserker"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "64ee2181",
+        "name": "Vulkyn Runefather with Drothvault Greataxe",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 150
+    },
+    {
+        "_id": "a9d356ed",
+        "name": "Vulkyn Runefather with Mastercrafted Bokaz",
+        "warband": "Vulkyn Flameseekers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 150
+    }
+]

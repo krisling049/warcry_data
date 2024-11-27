@@ -1,0 +1,82 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"$id": "https://raw.githubusercontent.com/krisling049/warcry_data/main/schemas/ability_schema.json",
+	"type": "object",
+	"title": "Ability Schema",
+	"required": [
+		"_id",
+		"name",
+		"warband",
+		"cost",
+		"description",
+		"runemarks"
+	],
+	"properties": {
+		"_id": {
+			"type": "string",
+			"description": "A unique ID for this ability. In generated from the beginning of a uuid4.",
+			"examples": [
+				"c0fadcc5"
+			]
+		},
+		"name": {
+			"type": "string",
+            "description": "Name of the ability",
+            "examples": [
+              "Grisly Trophy"
+			]
+		},
+		"warband": {
+			"type": "string",
+			"description": "Name of the faction runemark on the ability, this may be a bladeborn warband",
+			"examples": [
+				"Garrek's Reavers", "Blades of Khorne: Bloodbound"
+			]
+		},
+		"cost": {
+			"type": "string",
+			"description": "battletrait, passive, reaction, double, triple or quad",
+			"enum": [
+				"battletrait",
+				"passive",
+				"reaction",
+				"double",
+				"triple",
+				"quad"
+			],
+			"examples": [
+				"double", "reaction"
+			]
+		},
+		"description": {
+			"type": "string",
+			"description": "The rules text from the body of the ability. Ensure all quote marks are escaped correctly.",
+			"examples": [
+				"A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter."
+			]
+		},
+		"runemarks": {
+			"type": "array",
+			"default": [],
+			"description": "Runemark names, lowercase. Do not include faction runemarks",
+			"items": {
+				"type": "string",
+				"examples": [
+					"destroyer"
+				]
+			}
+		}
+	},
+	"examples": [
+		{
+			"_id": "c3c5056c",
+			"name": "Grisly Trophy",
+			"warband": "Corvus Cabal",
+			"cost": "triple",
+			"description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+			"runemarks": [
+				"hero"
+			]
+		}
+	]
+}

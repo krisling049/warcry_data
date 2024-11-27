@@ -1,0 +1,118 @@
+[
+    {
+        "_id": "9b9f771f",
+        "name": "Glorious Death",
+        "warband": "Darkoath",
+        "cost": "reaction",
+        "description": "Fighters with the Beast runemark cannot make this reaction. A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Gain a [double] with a value of 1. If this fighter has the Hero runemark, gain a [triple] with a value of 1 instead. If this fighter is favoured, gain a [quad] with a value of 1 instead.",
+        "runemarks": []
+    },
+    {
+        "_id": "d62e495e",
+        "name": "Oath of Murder",
+        "warband": "Darkoath",
+        "cost": "double",
+        "description": "Fighters with the Beast runemark cannot use this ability. After using this ability, this fighter is oathed for the rest of the battle. After an enemy fighter is taken down during an oathed fighter's activation, that fighter is no longer oathed and is favoured for the rest of the battle. After a friendly fighter becomes favoured, gain a [double] with a value of 1.",
+        "runemarks": []
+    },
+    {
+        "_id": "219e5b66",
+        "name": "Swift Attacker",
+        "warband": "Darkoath",
+        "cost": "double",
+        "description": "This ability can only be used after an activation in which this fighter used a move action and that move ended within 1\" of an enemy fighter. This fighter makes a bonus ranged attack action that must target an enemy fighter within 1\" of them. If this fighter is favoured, add the value of this ability to the damage points allocated by each hit and critical hit from that ranged attack action.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "afac6960",
+        "name": "Raider's Tenacity",
+        "warband": "Darkoath",
+        "cost": "double",
+        "description": "Remove a number of damage points from this fighter up to half the value of this ability. If this fighter is favoured, remove an additional 3 damage points from this fighter.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "0841db78",
+        "name": "Warleader",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter with the Darkoath runemark within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends. If this fighter is favoured, pick up to 2 other friendly fighters with the Darkoath runemark. Until the end of the battle round, each fighter you picked, including the first, can use the 'Inspiring Presence' ability without needing or using any ability dice.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "63def363",
+        "name": "Rally the Tribes",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Each friendly fighter with the Darkoath runemark and the Warrior runemark within 6\" of this fighter makes a bonus move action. If this fighter is favoured, until the end of the battle round, each of those fighters also counts as 1 additional fighter when determining which player controls an objective.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "872f0cc8",
+        "name": "Eye of the Dark Patron",
+        "warband": "Darkoath",
+        "cost": "quad",
+        "description": "You can pick a visible friendly fighter with the Darkoath runemark within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends. Then you can pick a visible enemy fighter within 6\" of this fighter and roll 6 dice. For each 4+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). In addition, add 2 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "a30a637f",
+        "name": "Carve a Path to Glory",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Attacks characteristic of melee attack actions made by this fighter. If this fighter is favoured, add the value of this ability to the Attacks characteristic of melee attack actions made by this fighter instead.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "d1c0f8c0",
+        "name": "Uncanny Shot",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Attacks characteristic of ranged attack actions made by this fighter. While this fighter is favoured and/or targeting an enemy fighter within 1\" of a friendly Gunnar Brand, add the value of this ability to the Attacks characteristic of ranged attack actions made by this fighter instead.",
+        "runemarks": [
+            "agile"
+        ]
+    },
+    {
+        "_id": "1b457528",
+        "name": "Warqueen's Fury",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "This fighter makes a number of bonus melee attack actions equal to the number of enemy fighters within 1\" of them. If this fighter is favoured, they make a number of bonus melee attack actions equal to the number of enemy fighters within 3\" of them instead and the Range characteristic of those bonus attack actions is increased to 3. In both cases, each bonus attack action must target a different enemy fighter, even if that enemy fighter is more than 1\" from this fighter but so long as each enemy fighter within 1\" of this fighter has been targeted first.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "52332400",
+        "name": "Withering Death",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 9\" of this fighter and roll 6 dice. For each 4+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). If this fighter is favoured, roll 9 dice instead of 6.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "ed5d80fc",
+        "name": "Demolishing Strikes",
+        "warband": "Darkoath",
+        "cost": "triple",
+        "description": "Until the end of this fighter's activation, melee attack actions made by this fighter score a hit on a 3+. If this fighter is favoured, in addition, until the end of this fighter's activation, melee attack actions made by this fighter score a critical hit on a 5+.",
+        "runemarks": [
+            "brute"
+        ]
+    }
+]

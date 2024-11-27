@@ -1,0 +1,197 @@
+[
+    {
+        "_id": "40d5e9b6",
+        "name": "Shroudblade with Cursed Swords",
+        "warband": "Khainite Shadowstalkers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 85
+    },
+    {
+        "_id": "94e09fa1",
+        "name": "Shroudblade with Umbral Spear",
+        "warband": "Khainite Shadowstalkers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 85
+    },
+    {
+        "_id": "101719f9",
+        "name": "Darkflame Warlock with Repeater Crossbows",
+        "warband": "Khainite Shadowstalkers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 100
+    },
+    {
+        "_id": "13ce2d04",
+        "name": "Darkflame Warlock with Doomfire Ring",
+        "warband": "Khainite Shadowstalkers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 105
+    },
+    {
+        "_id": "42aa3227",
+        "name": "Slaughtershade with Umbral Spears",
+        "warband": "Khainite Shadowstalkers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "warrior",
+            "berserker"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "f9a82bda",
+        "name": "Slaughtershade with Shadow Whip",
+        "warband": "Khainite Shadowstalkers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "warrior",
+            "berserker"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "b8c2ba31",
+        "name": "Shroud Queen",
+        "warband": "Khainite Shadowstalkers",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 6,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 210
+    }
+]

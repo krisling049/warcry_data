@@ -1,0 +1,130 @@
+[
+    {
+        "_id": "0kvxvl2d",
+        "name": "Kavalos Centari",
+        "warband": "Teratic Cohort",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 7,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "elite",
+            "mount"
+        ],
+        "points": 235
+    },
+    {
+        "_id": "yofte4ap",
+        "name": "Mortek Cykloptian with Dread Glaive",
+        "warband": "Teratic Cohort",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 145
+    },
+    {
+        "_id": "6ebtzcs3",
+        "name": "Mortek Cykloptian with Nadirite Bident",
+        "warband": "Teratic Cohort",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 145
+    },
+    {
+        "_id": "mg5be1qt",
+        "name": "Teratic Prowler",
+        "warband": "Teratic Cohort",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 80
+    },
+    {
+        "_id": "nqyjc38a",
+        "name": "Aviarch Harpy",
+        "warband": "Teratic Cohort",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "beast",
+            "fly"
+        ],
+        "points": 115
+    }
+]

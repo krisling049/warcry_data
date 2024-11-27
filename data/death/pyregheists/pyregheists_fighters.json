@@ -1,0 +1,209 @@
+[
+    {
+        "_id": "8a46a02f",
+        "name": "Deacon of Flames with Brazier Staff",
+        "warband": "Pyregheists",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "fly"
+        ],
+        "points": 190
+    },
+    {
+        "_id": "88993788",
+        "name": "Deacon of Flames with Pyrekeeper's Tongs",
+        "warband": "Pyregheists",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "fly"
+        ],
+        "points": 190
+    },
+    {
+        "_id": "56aafd11",
+        "name": "Balefire Guard with Scorch Flail",
+        "warband": "Pyregheists",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite",
+            "fly"
+        ],
+        "points": 130
+    },
+    {
+        "_id": "7387b93f",
+        "name": "Balefire Guard with Flaming Halberd",
+        "warband": "Pyregheists",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "elite",
+            "fly"
+        ],
+        "points": 130
+    },
+    {
+        "_id": "5d752034",
+        "name": "Torchwraith",
+        "warband": "Pyregheists",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 6,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "frenzied",
+            "fly"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "0a96e891",
+        "name": "Flamewraith with Brazier-staff",
+        "warband": "Pyregheists",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "fly"
+        ],
+        "points": 100
+    },
+    {
+        "_id": "e87ff89f",
+        "name": "Flamewraith with Balefire Torches",
+        "warband": "Pyregheists",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "fly"
+        ],
+        "points": 100
+    }
+]

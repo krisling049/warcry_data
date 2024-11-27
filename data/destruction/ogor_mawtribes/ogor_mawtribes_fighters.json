@@ -1,0 +1,874 @@
+[
+    {
+        "_id": "eb92f059",
+        "name": "Gnoblar",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 2
+            }
+        ],
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 45
+    },
+    {
+        "_id": "1e24e8d2",
+        "name": "Frost Sabre",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 175
+    },
+    {
+        "_id": "cf6687da",
+        "name": "Leadbelcher",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 10,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "brute",
+            "destroyer"
+        ],
+        "points": 185
+    },
+    {
+        "_id": "ca799170",
+        "name": "Ogor Glutton with Ironfist",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "brute",
+            "bulwark"
+        ],
+        "points": 190
+    },
+    {
+        "_id": "faa75125",
+        "name": "Gorger",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "agile",
+            "brute"
+        ],
+        "points": 195
+    },
+    {
+        "_id": "ee523132",
+        "name": "Ogor Glutton with Clubs",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "brute"
+        ],
+        "points": 200
+    },
+    {
+        "_id": "37834833",
+        "name": "Icefall Yhetee",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "agile"
+        ],
+        "points": 205
+    },
+    {
+        "_id": "c4237531",
+        "name": "Maneater",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "brute"
+        ],
+        "points": 205
+    },
+    {
+        "_id": "47f37af3",
+        "name": "Thunderfist",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 32,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 10,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute",
+            "destroyer"
+        ],
+        "points": 215
+    },
+    {
+        "_id": "77988e63",
+        "name": "Butcher",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 38,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute",
+            "mystic"
+        ],
+        "points": 225
+    },
+    {
+        "_id": "f2cc1f80",
+        "name": "Firebelly",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 38,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "hammer",
+                "strength": 5
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute",
+            "frenzied"
+        ],
+        "points": 230
+    },
+    {
+        "_id": "25ae1b9a",
+        "name": "Irongut",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "brute"
+        ],
+        "points": 235
+    },
+    {
+        "_id": "51c6100b",
+        "name": "Crusher",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 32,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute",
+            "bulwark"
+        ],
+        "points": 255
+    },
+    {
+        "_id": "19d4f26e",
+        "name": "Gutlord",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 32,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 10,
+                "dmg_hit": 5,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 290
+    },
+    {
+        "_id": "79fc7799",
+        "name": "Icebrow Hunter",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 40,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute",
+            "scout"
+        ],
+        "points": 280
+    },
+    {
+        "_id": "66278adf",
+        "name": "Mournfang Rider with Culling Club and Ironfist",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 35,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "brute",
+            "bulwark",
+            "mount"
+        ],
+        "points": 295
+    },
+    {
+        "_id": "6d14979f",
+        "name": "Mournfang Rider with Gargant Hacker",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 35,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "brute",
+            "mount"
+        ],
+        "points": 300
+    },
+    {
+        "_id": "13c9ffda",
+        "name": "Tyrant",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 42,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 6
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute",
+            "champion"
+        ],
+        "points": 325
+    },
+    {
+        "_id": "ab015348",
+        "name": "Skalg",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 40,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute",
+            "mount"
+        ],
+        "points": 355
+    },
+    {
+        "_id": "6be53983",
+        "name": "Bloodpelt Hunter",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "ferocious"
+        ],
+        "points": 280
+    },
+    {
+        "_id": "a5a705f7",
+        "name": "Peggz",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Blackpowder's Buccaneers",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 2
+            }
+        ],
+        "runemarks": [
+            "scout"
+        ],
+        "points": 50
+    },
+    {
+        "_id": "40acb702",
+        "name": "Mange",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Blackpowder's Buccaneers",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "frenzied"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "82052c8e",
+        "name": "Kagey",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Blackpowder's Buccaneers",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 2
+            }
+        ],
+        "runemarks": [
+            "scout"
+        ],
+        "points": 60
+    },
+    {
+        "_id": "8acd7368",
+        "name": "Shreek",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Blackpowder's Buccaneers",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "beast",
+            "fly"
+        ],
+        "points": 100
+    },
+    {
+        "_id": "e10c8d32",
+        "name": "Gorlok Blackpowder",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Blackpowder's Buccaneers",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 10,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 250
+    },
+    {
+        "_id": "6e4b6e96",
+        "name": "Bushwakka",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Hrothgorn's Mantrappers",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 2
+            }
+        ],
+        "runemarks": [
+            "trapper"
+        ],
+        "points": 40
+    },
+    {
+        "_id": "3c7c1978",
+        "name": "Quiv",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Hrothgorn's Mantrappers",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "minion"
+        ],
+        "points": 60
+    },
+    {
+        "_id": "2abad3bb",
+        "name": "Luggit & Thwak",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Hrothgorn's Mantrappers",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 65
+    },
+    {
+        "_id": "f26ea120",
+        "name": "Thrafnir",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Hrothgorn's Mantrappers",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 175
+    },
+    {
+        "_id": "2dda62e2",
+        "name": "Hrothgorn Mantrapper",
+        "warband": "Ogor Mawtribes",
+        "subfaction": "Hrothgorn's Mantrappers",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 40,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 9,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "scout"
+        ],
+        "points": 300
+    }
+]

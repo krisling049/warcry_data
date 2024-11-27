@@ -1,0 +1,132 @@
+[
+    {
+        "_id": "ad8709a0",
+        "name": "Awakened One with Brutal Polearm",
+        "warband": "The Unmade",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 65
+    },
+    {
+        "_id": "b2e31ca2",
+        "name": "Awakened One with Flail",
+        "warband": "The Unmade",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 65
+    },
+    {
+        "_id": "31740359",
+        "name": "Ascended One",
+        "warband": "The Unmade",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 110
+    },
+    {
+        "_id": "ac71c483",
+        "name": "Joyous One",
+        "warband": "The Unmade",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "9ecfd2ac",
+        "name": "Blissful One",
+        "warband": "The Unmade",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 255
+    }
+]

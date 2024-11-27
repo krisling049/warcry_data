@@ -1,0 +1,133 @@
+[
+    {
+        "_id": "b7da3ff4",
+        "name": "Fellwater Troggoth",
+        "warband": "destruction",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "thrall",
+            "trapper",
+            "bulwark"
+        ],
+        "points": 175
+    },
+    {
+        "_id": "a47621f5",
+        "name": "Rockgut Troggoth",
+        "warband": "destruction",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "thrall",
+            "bulwark"
+        ],
+        "points": 185
+    },
+    {
+        "_id": "b616e449",
+        "name": "Dankhold Troggoth",
+        "warband": "destruction",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 45,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "monster",
+            "ferocious"
+        ],
+        "points": 375
+    },
+    {
+        "_id": "2c7b4722",
+        "name": "Aleguzzler Gargant",
+        "warband": "destruction",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 6,
+        "toughness": 4,
+        "wounds": 45,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "monster",
+            "brute"
+        ],
+        "points": 420
+    },
+    {
+        "_id": "483abb24",
+        "name": "Skitterstrand Arachnarok",
+        "warband": "destruction",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 55,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 8,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "monster",
+            "destroyer"
+        ],
+        "points": 475
+    }
+]

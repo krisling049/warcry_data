@@ -1,0 +1,691 @@
+[
+    {
+        "_id": "1d309fb7",
+        "name": "Mortek Guard with Soulcleaver Greatblade",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [],
+        "points": 60
+    },
+    {
+        "_id": "275aca2c",
+        "name": "Mortek Guard with Nadirite Blade",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 60
+    },
+    {
+        "_id": "45e89e81",
+        "name": "Mortek Guard with Nadirite Spear",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 60
+    },
+    {
+        "_id": "9a2cbd91",
+        "name": "Mortek Hekatos",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "points": 105
+    },
+    {
+        "_id": "d28bc38b",
+        "name": "Kavalos Deathrider with Nadirite Blade",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "warrior",
+            "mount"
+        ],
+        "points": 145
+    },
+    {
+        "_id": "695d1bb4",
+        "name": "Kavalos Deathrider with Nadirite Spear",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "warrior",
+            "mount"
+        ],
+        "points": 145
+    },
+    {
+        "_id": "3700c1a1",
+        "name": "Mortisan Boneshaper",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "trapper"
+        ],
+        "points": 150
+    },
+    {
+        "_id": "7735959e",
+        "name": "Mortisan Soulreaper",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "scythe",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ],
+        "points": 150
+    },
+    {
+        "_id": "922f9c6f",
+        "name": "Immortis Guard",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 165
+    },
+    {
+        "_id": "7aa77f42",
+        "name": "Mortisan Soulmason",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mystic",
+            "mount"
+        ],
+        "points": 165
+    },
+    {
+        "_id": "185fd94f",
+        "name": "Necropolis Stalker with Dread Falchions",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 195
+    },
+    {
+        "_id": "4b6b872f",
+        "name": "Necropolis Stalker with Spirit Blades",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 200
+    },
+    {
+        "_id": "5aabc095",
+        "name": "Kavalos Deathrider Mortek Hekatos",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior",
+            "mount"
+        ],
+        "points": 220
+    },
+    {
+        "_id": "21c2d19e",
+        "name": "Morghast Harbinger with Spirit Swords",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 35,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "fly",
+            "berserker"
+        ],
+        "points": 265
+    },
+    {
+        "_id": "1901fcb4",
+        "name": "Liege-Kavalos",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "champion",
+            "mount"
+        ],
+        "points": 270
+    },
+    {
+        "_id": "19b3b63f",
+        "name": "Morghast Harbinger with Spirit Halberd",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 35,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "fly",
+            "berserker"
+        ],
+        "points": 270
+    },
+    {
+        "_id": "5f6e5f3d",
+        "name": "Morghast Archai with Spirit Swords",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 35,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "fly"
+        ],
+        "points": 275
+    },
+    {
+        "_id": "8f9c65ce",
+        "name": "Morghast Archai with Spirit Halberd",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 35,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "fly"
+        ],
+        "points": 280
+    },
+    {
+        "_id": "6ac50bd5",
+        "name": "Mortisan Ossifector",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "98a12abf",
+        "name": "Senha",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "Kainan's Reapers",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "15629237",
+        "name": "Karu",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "Kainan's Reapers",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 65
+    },
+    {
+        "_id": "a52a130c",
+        "name": "Nohem",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "Kainan's Reapers",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 70
+    },
+    {
+        "_id": "d7463aab",
+        "name": "Hakor",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "Kainan's Reapers",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 95
+    },
+    {
+        "_id": "325bcfd9",
+        "name": "Binar Khenta",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "Kainan's Reapers",
+        "grand_alliance": "death",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "bulwark"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "f647899c",
+        "name": "Mir Kainan",
+        "warband": "Ossiarch Bonereapers",
+        "subfaction": "Kainan's Reapers",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 26,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "scythe",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 205
+    }
+]

@@ -1,0 +1,641 @@
+[
+    {
+        "_id": "6e918c6c",
+        "name": "Savage Orruk with Chompa and Bone Shield",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 80
+    },
+    {
+        "_id": "b05d0854",
+        "name": "Savage Orruk with Savage Stikka and Bone Shield",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 80
+    },
+    {
+        "_id": "67ac0006",
+        "name": "Savage Orruk Morboy",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 95
+    },
+    {
+        "_id": "c0fadcc5",
+        "name": "Savage Orruk Arrowboy",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 110
+    },
+    {
+        "_id": "5d66d9dc",
+        "name": "Savage Orruk Morboy Bone Totem Bearer",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "mystic"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "af631173",
+        "name": "Savage Boarboy with Chompa",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "mount"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "da496c2a",
+        "name": "Savage Boarboy with Savage Stikka",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "mount"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "13f3214d",
+        "name": "Savage Arrow Boss",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
+        "points": 150
+    },
+    {
+        "_id": "f0ae8e6a",
+        "name": "Savage Orruk Boss with Chompa and Bone Shield",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 155
+    },
+    {
+        "_id": "3cc597c4",
+        "name": "Wardokk",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "berserker"
+        ],
+        "points": 155
+    },
+    {
+        "_id": "88ec1e85",
+        "name": "Wurrgog Prophet",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "points": 155
+    },
+    {
+        "_id": "eb79df6b",
+        "name": "Savage Big Stabbas",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "runemarks": [],
+        "points": 165
+    },
+    {
+        "_id": "70e40531",
+        "name": "Savage Orruk Morboy Boss",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 175
+    },
+    {
+        "_id": "8825dd0e",
+        "name": "Savage Big Boss",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
+        "points": 185
+    },
+    {
+        "_id": "fca1a47c",
+        "name": "Savage Boarboy Maniak",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite",
+            "mount"
+        ],
+        "points": 185
+    },
+    {
+        "_id": "bd79fba4",
+        "name": "Savage Boarboy Bone Totem Bearer",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "mystic",
+            "mount"
+        ],
+        "points": 195
+    },
+    {
+        "_id": "92d74ec2",
+        "name": "Maniak Weirdnob",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "ferocious",
+            "mount"
+        ],
+        "points": 220
+    },
+    {
+        "_id": "b93491ef",
+        "name": "Savage Boarboy Boss",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 235
+    },
+    {
+        "_id": "99ea4c6e",
+        "name": "Savage Boss Maniak",
+        "warband": "Bonesplitterz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 270
+    },
+    {
+        "_id": "0366c594",
+        "name": "Toofdagga",
+        "warband": "Bonesplitterz",
+        "subfaction": "Hedkrakka's Madmob",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "runemarks": [],
+        "points": 95
+    },
+    {
+        "_id": "7ffa3914",
+        "name": "Dakko Sharp-stikka",
+        "warband": "Bonesplitterz",
+        "subfaction": "Hedkrakka's Madmob",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "b1122956",
+        "name": "Wollop da Skul",
+        "warband": "Bonesplitterz",
+        "subfaction": "Hedkrakka's Madmob",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [],
+        "points": 120
+    },
+    {
+        "_id": "757c7356",
+        "name": "Hedkrakka, Gob of Gork",
+        "warband": "Bonesplitterz",
+        "subfaction": "Hedkrakka's Madmob",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 26,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "points": 170
+    }
+]

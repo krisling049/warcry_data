@@ -1,0 +1,427 @@
+[
+    {
+        "_id": "4ef0a642",
+        "name": "Daemonette",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 75
+    },
+    {
+        "_id": "4c1e8f56",
+        "name": "Allurer",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 125
+    },
+    {
+        "_id": "fc8f5205",
+        "name": "Hellstrider with Claw-spear",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "destroyer",
+            "mount"
+        ],
+        "points": 135
+    },
+    {
+        "_id": "b3ecbae3",
+        "name": "Hellstrider with Hellscourge",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "mount"
+        ],
+        "points": 135
+    },
+    {
+        "_id": "833d0c28",
+        "name": "Seeker of Slaanesh",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "warrior",
+            "mount"
+        ],
+        "points": 145
+    },
+    {
+        "_id": "c726dd68",
+        "name": "Viceleader",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 145
+    },
+    {
+        "_id": "fd9087c8",
+        "name": "Fiend",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "toughness": 3,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "agile"
+        ],
+        "points": 160
+    },
+    {
+        "_id": "4781bd19",
+        "name": "Infernal Enrapturess",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            },
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 165
+    },
+    {
+        "_id": "705b68b8",
+        "name": "Hellreaver with Claw-spear",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "destroyer",
+            "mount"
+        ],
+        "points": 180
+    },
+    {
+        "_id": "3393e731",
+        "name": "Heartseeker",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior",
+            "mount"
+        ],
+        "points": 195
+    },
+    {
+        "_id": "1afe3c1c",
+        "name": "Blissbringer",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "toughness": 3,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
+        "points": 205
+    },
+    {
+        "_id": "b4eae1e8",
+        "name": "The Contorted Epitome",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 6,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ],
+        "points": 220
+    },
+    {
+        "_id": "a9593653",
+        "name": "Vexmor",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "Thricefold Discord",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 6,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 10,
+                "dmg_hit": 5,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 10
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 150
+    },
+    {
+        "_id": "9d52fbc0",
+        "name": "Vashtiss the Coiled",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "Thricefold Discord",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "67c45005",
+        "name": "Lascivyr, the Bladed Blessing",
+        "warband": "Hedonites of Slaanesh: Daemons",
+        "subfaction": "Thricefold Discord",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 6,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "points": 135
+    }
+]

@@ -1,0 +1,181 @@
+[
+    {
+        "_id": "b8ec3ff9",
+        "name": "Askurgan Acolyte with Bonehilt Falchion",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 90
+    },
+    {
+        "_id": "346f1247",
+        "name": "Askurgan Acolyte with Throat-Taker",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 0,
+                "runemark": "reach",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "elite"
+        ],
+        "points": 90
+    },
+    {
+        "_id": "0bfbf81b",
+        "name": "Askurgan Pariah",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "scout"
+        ],
+        "points": 105
+    },
+    {
+        "_id": "c84a0f70",
+        "name": "Askurgan Ascetic with Charnel Mace",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "elite",
+            "destroyer"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "009f3c74",
+        "name": "Askurgan Ascetic with Howling Glaive",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "elite",
+            "destroyer"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "ca3aa681",
+        "name": "Curseblood",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 6,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "fangs",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 180
+    },
+    {
+        "_id": "fec8cb0a",
+        "name": "Askurgan Exemplar",
+        "warband": "Askurgan Trueblades",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 6,
+                "dmg_hit": 4,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "elite",
+            "destroyer"
+        ],
+        "points": 205
+    }
+]
