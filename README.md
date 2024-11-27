@@ -22,7 +22,7 @@ https://krisling049.github.io/warcry_data/abilities.json
 Huge thanks to the following for their valuable contributions:
 - Baz ([Optimal Game State](https://www.youtube.com/@optimalgamestate), [Warcry Card Creator](https://barrysheppard.github.io/warcry-card-creator/), [github](https://github.com/barrysheppard))
 - Servo-Scribe ([Warcrier](https://warcrier.net/), [Necrodamus](https://necrodamus.org/), [Mordheimer](https://mordheimer.net/))
-- Hood ([Warcry Tabletop Simulator](https://steamcommunity.com/sharedfiles/filedetails/?id=2923487353))
+- Hood ([Warcry Tabletop Simulator](https://steamcommunity.com/sharedfiles/filedetails/?id=3328937378))
 
 ####  Disclaimer
 This is an entirely unofficial fan project and is in no way associated with Games Workshop or any other company.  
