@@ -31047,6 +31047,58 @@
         "wounds": 25
     },
     {
+        "_id": "2c764979",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Printis Verna",
+        "points": 175,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "subfaction": "Gladitorium",
+        "toughness": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "9067fb3e",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Zhea Galdara",
+        "points": 175,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
+        "subfaction": "Gladitorium",
+        "toughness": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
         "_id": "8927d3fc",
         "grand_alliance": "order",
         "movement": 4,
@@ -31212,6 +31264,58 @@
         "wounds": 25
     },
     {
+        "_id": "8710587d",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Goltan the Relentless",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "subfaction": "Gladitorium",
+        "toughness": 7,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "ef88c4d8",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Valantin Harvestblade",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "subfaction": "Gladitorium",
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
         "_id": "c7c22bd7",
         "grand_alliance": "order",
         "movement": 3,
@@ -31369,6 +31473,41 @@
         "wounds": 25
     },
     {
+        "_id": "c8c77626",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Axactus Krane",
+        "points": 210,
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "subfaction": "Gladitorium",
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 28
+    },
+    {
         "_id": "ff065216",
         "grand_alliance": "order",
         "movement": 4,
@@ -31395,6 +31534,32 @@
         "wounds": 28
     },
     {
+        "_id": "f7ab94fd",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Tenya Thrice-trusted",
+        "points": 220,
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "subfaction": "Gladitorium",
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "halberd",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+    {
         "_id": "d2296895",
         "grand_alliance": "order",
         "movement": 5,
@@ -31415,6 +31580,41 @@
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "ce47b2b5",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Numara Falconis",
+        "points": 230,
+        "runemarks": [
+            "hero",
+            "scout"
+        ],
+        "subfaction": "Gladitorium",
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
                 "strength": 4
             },
             {
