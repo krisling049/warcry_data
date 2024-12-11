@@ -100,7 +100,6 @@ class WarbandsJSONDataPayload(DataPayload):
                 tts_data.append(f.as_dict())
                 tts_abs = [a.tts_format() for a in f.abilities if a.warband != 'universal' and a.cost != 'battletrait']
                 tts_data[-1]['abilities'] = tts_abs
-                x = 1
         return tts_data
 
     def write_legacy_fighters(self, dst_root: Path = PROJECT_DATA):
