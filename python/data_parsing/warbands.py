@@ -78,11 +78,12 @@ class WarbandsJSONDataPayload(DataPayload):
                 if f.warband == faction.warband:
                     f.faction = faction
                     for subfaction in faction.subfactions:
-                        if any([x for x in f.runemarks if x == subfaction.runemark]):
+                        runemarks_to_check = [*f.runemarks, f.as_dict().get('subfaction')]
+                        if any([x for x in [r for r in runemarks_to_check if r] if x == subfaction.runemark]):
                             f.subfaction = subfaction
 
     def write_fighters_to_disk(self, dst: Path = Path(PROJECT_DATA, 'fighters.json')):
-        # self.validate_data()
+        self.validate_data()
         sorted_data = sort_fighters([dict(sorted(x.items())) for x in self.data['fighters']])
         write_data_json(dst=dst, data=sorted_data)
 
@@ -99,7 +100,6 @@ class WarbandsJSONDataPayload(DataPayload):
                 tts_data.append(f.as_dict())
                 tts_abs = [a.tts_format() for a in f.abilities if a.warband != 'universal' and a.cost != 'battletrait']
                 tts_data[-1]['abilities'] = tts_abs
-                x = 1
         return tts_data
 
     def write_legacy_fighters(self, dst_root: Path = PROJECT_DATA):
@@ -121,7 +121,7 @@ class WarbandsJSONDataPayload(DataPayload):
         FighterJSONDataPayload(preloaded_data=self.data['fighters']).write_csv(dst_root=dst_root)
 
     def write_abilities_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json'), exclude_battletraits: bool = False):
-        # self.validate_data()
+        self.validate_data()
         data = deepcopy(self.data['abilities'])
         if exclude_battletraits:
             data = [x for x in self.data['abilities'] if x['cost'] != 'battletrait']
@@ -129,13 +129,13 @@ class WarbandsJSONDataPayload(DataPayload):
         write_data_json(dst=dst, data=sorted_data)
 
     def write_battletraits_to_disk(self, dst: Path = Path(PROJECT_DATA, 'abilities.json')):
-        # self.validate_data()
+        self.validate_data()
         battletraits = [x for x in self.data['abilities'] if x['cost'] == 'battletrait']
         sorted_data = sorted(battletraits, key=lambda d: d['warband'])
         write_data_json(dst=dst, data=sorted_data)
 
     def write_warbands_to_disk(self, dst: Path = PROJECT_DATA):
-        # self.validate_data()
+        self.validate_data()
 
         data_structure = {'universal': {'faction': {}, 'fighters': list(), 'abilities': list()}}
         faction_mapping = {'universal': 'universal'}    # type: dict[str, str]
@@ -180,7 +180,6 @@ class WarbandsJSONDataPayload(DataPayload):
                     print(f'{warband} - writing {outfile}')
 
                 write_data_json(dst=outfile, data=content)
-
 
     def write_to_disk(self, dst_root: Path = PROJECT_DATA):
         self.write_fighters_to_disk(Path(dst_root, 'fighters.json'))

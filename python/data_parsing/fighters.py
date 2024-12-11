@@ -125,7 +125,6 @@ class FighterProfile:
         return f'{self.name} ({self.warband})'
 
 
-
 class Fighter:
     def __init__(self, profile: dict):
         self._id = profile['_id']                                   # type: str
@@ -300,7 +299,7 @@ class FighterJSONDataPayload(JSONDataPayload):
     def __init__(
             self,
             src_file: Path = Path(PROJECT_ROOT, 'data', 'fighters.json'),
-            schema: Path = Path(PROJECT_ROOT, 'data', 'schemas', 'aggregate_fighter_schema.json'),
+            schema: Path = Path(PROJECT_ROOT, 'schemas', 'aggregate_fighter_schema.json'),
             preloaded_data: List[Dict] = None
     ):
         self._preloaded_data = preloaded_data
@@ -321,7 +320,7 @@ class FighterJSONDataPayload(JSONDataPayload):
         return data
 
     def write_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
-        # self.validate_data()
+        self.validate_data()
         sorted_data = [dict(sorted(x.items())) for x in self.data]
         with open(dst, 'w') as nf:
             print(f'Writing {len(self.data)} fighters to {dst}...')
