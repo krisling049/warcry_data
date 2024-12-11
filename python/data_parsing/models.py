@@ -34,7 +34,7 @@ class DataPayload:
         self.src_format = src_format if src_format else src.suffix  # xlsx, json, csv etc
         self.schema = schema
         self.data = self.load_data()
-        # self.validate_data()
+        self.validate_data()
 
     @classmethod
     def load_data(cls):
@@ -55,7 +55,7 @@ class JSONDataPayload(DataPayload):
         return data
 
     def write_to_disk(self, dst: Path = None):
-        # self.validate_data()
+        self.validate_data()
         if not dst:
             dst = self.src
         print(f'writing to {dst}')
