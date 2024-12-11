@@ -125,7 +125,6 @@ class FighterProfile:
         return f'{self.name} ({self.warband})'
 
 
-
 class Fighter:
     def __init__(self, profile: dict):
         self._id = profile['_id']                                   # type: str

@@ -78,7 +78,8 @@ class WarbandsJSONDataPayload(DataPayload):
                 if f.warband == faction.warband:
                     f.faction = faction
                     for subfaction in faction.subfactions:
-                        if any([x for x in f.runemarks if x == subfaction.runemark]):
+                        runemarks_to_check = [*f.runemarks, f.as_dict().get('subfaction')]
+                        if any([x for x in [r for r in runemarks_to_check if r] if x == subfaction.runemark]):
                             f.subfaction = subfaction
 
     def write_fighters_to_disk(self, dst: Path = Path(PROJECT_DATA, 'fighters.json')):
