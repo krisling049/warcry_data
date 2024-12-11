@@ -1,13 +1,16 @@
 [
     {
         "_id": "7843829e",
-        "name": "Gryph-Hound",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 6,
+        "name": "Gryph-Hound",
+        "points": 115,
+        "runemarks": [
+            "beast"
+        ],
         "toughness": 4,
-        "wounds": 12,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -19,20 +22,20 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "beast"
-        ],
-        "points": 115
+        "wounds": 12
     },
     {
         "_id": "4a0c43b8",
-        "name": "Annihilator with Meteoric Hammer",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
+        "name": "Annihilator with Meteoric Hammer",
+        "points": 140,
+        "runemarks": [
+            "brute"
+        ],
         "toughness": 7,
-        "wounds": 20,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -44,20 +47,18 @@
                 "strength": 5
             }
         ],
-        "runemarks": [
-            "brute"
-        ],
-        "points": 140
+        "wounds": 20
     },
     {
         "_id": "ea2ed0a3",
-        "name": "Vindictor",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Vindictor",
+        "points": 135,
+        "runemarks": [],
         "toughness": 6,
-        "wounds": 20,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -69,18 +70,20 @@
                 "strength": 4
             }
         ],
-        "runemarks": [],
-        "points": 135
+        "wounds": 20
     },
     {
         "_id": "c3228aef",
-        "name": "Vanquisher",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Vanquisher",
+        "points": 140,
+        "runemarks": [
+            "frenzied"
+        ],
         "toughness": 5,
-        "wounds": 20,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -92,20 +95,20 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "frenzied"
-        ],
-        "points": 140
+        "wounds": 20
     },
     {
         "_id": "349b9eb3",
-        "name": "Annihilator with Grandhammer",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
+        "name": "Annihilator with Grandhammer",
+        "points": 155,
+        "runemarks": [
+            "brute"
+        ],
         "toughness": 6,
-        "wounds": 20,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -117,20 +120,20 @@
                 "strength": 6
             }
         ],
-        "runemarks": [
-            "brute"
-        ],
-        "points": 155
+        "wounds": 20
     },
     {
         "_id": "48186a41",
-        "name": "Praetor",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Praetor",
+        "points": 160,
+        "runemarks": [
+            "elite"
+        ],
         "toughness": 5,
-        "wounds": 22,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -142,20 +145,20 @@
                 "strength": 5
             }
         ],
-        "runemarks": [
-            "elite"
-        ],
-        "points": 160
+        "wounds": 22
     },
     {
         "_id": "cc438629",
-        "name": "Vigilor",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
+        "name": "Vigilor",
+        "points": 165,
+        "runemarks": [
+            "scout"
+        ],
         "toughness": 5,
-        "wounds": 20,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -176,20 +179,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "scout"
-        ],
-        "points": 165
+        "wounds": 20
     },
     {
         "_id": "126a9d19",
-        "name": "Knight-Vexillor with Banner of Apotheosis",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Knight-Vexillor with Banner of Apotheosis",
+        "points": 170,
+        "runemarks": [
+            "hero",
+            "icon-bearer"
+        ],
         "toughness": 5,
-        "wounds": 28,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -201,21 +205,20 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "icon-bearer"
-        ],
-        "points": 170
+        "wounds": 28
     },
     {
         "_id": "4cdafcfe",
-        "name": "Vindictor-Prime",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Vindictor-Prime",
+        "points": 170,
+        "runemarks": [
+            "hero"
+        ],
         "toughness": 6,
-        "wounds": 25,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -227,20 +230,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero"
-        ],
-        "points": 170
+        "wounds": 25
     },
     {
         "_id": "a48e97aa",
-        "name": "Annihilator-Prime with Meteoric Hammer",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
+        "name": "Annihilator-Prime with Meteoric Hammer",
+        "points": 190,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
         "toughness": 7,
-        "wounds": 25,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -252,21 +256,21 @@
                 "strength": 5
             }
         ],
-        "runemarks": [
-            "hero",
-            "brute"
-        ],
-        "points": 190
+        "wounds": 25
     },
     {
         "_id": "8927d3fc",
-        "name": "Knight-Relictor",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Knight-Relictor",
+        "points": 180,
+        "runemarks": [
+            "hero",
+            "priest"
+        ],
         "toughness": 5,
-        "wounds": 28,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -278,21 +282,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "priest"
-        ],
-        "points": 180
+        "wounds": 28
     },
     {
         "_id": "7d71d138",
-        "name": "Vanquisher-Prime",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Vanquisher-Prime",
+        "points": 185,
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
         "toughness": 5,
-        "wounds": 25,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 5,
@@ -304,21 +308,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "frenzied"
-        ],
-        "points": 185
+        "wounds": 25
     },
     {
         "_id": "c7c22bd7",
-        "name": "Annihilator-Prime with Grandhammer",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 3,
+        "name": "Annihilator-Prime with Grandhammer",
+        "points": 200,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
         "toughness": 6,
-        "wounds": 25,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -330,21 +334,21 @@
                 "strength": 6
             }
         ],
-        "runemarks": [
-            "hero",
-            "brute"
-        ],
-        "points": 200
+        "wounds": 25
     },
     {
         "_id": "040095bd",
-        "name": "Knight-Arcanum",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Knight-Arcanum",
+        "points": 205,
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
         "toughness": 5,
-        "wounds": 28,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -365,21 +369,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "mystic"
-        ],
-        "points": 205
+        "wounds": 28
     },
     {
         "_id": "ff065216",
-        "name": "Praetor-Prime",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Praetor-Prime",
+        "points": 215,
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
         "toughness": 5,
-        "wounds": 28,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -391,21 +395,21 @@
                 "strength": 5
             }
         ],
-        "runemarks": [
-            "hero",
-            "elite"
-        ],
-        "points": 215
+        "wounds": 28
     },
     {
         "_id": "d2296895",
-        "name": "Vigilor-Prime",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 5,
+        "name": "Vigilor-Prime",
+        "points": 225,
+        "runemarks": [
+            "hero",
+            "scout"
+        ],
         "toughness": 5,
-        "wounds": 25,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -426,21 +430,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "scout"
-        ],
-        "points": 225
+        "wounds": 25
     },
     {
         "_id": "d4b27dc2",
-        "name": "Knight-Judicator",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Knight-Judicator",
+        "points": 235,
+        "runemarks": [
+            "hero",
+            "trapper"
+        ],
         "toughness": 5,
-        "wounds": 28,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -461,21 +465,21 @@
                 "strength": 5
             }
         ],
-        "runemarks": [
-            "hero",
-            "trapper"
-        ],
-        "points": 235
+        "wounds": 28
     },
     {
         "_id": "f3fb309d",
-        "name": "Lord-Imperatant",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Lord-Imperatant",
+        "points": 240,
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
         "toughness": 5,
-        "wounds": 30,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -496,21 +500,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "champion"
-        ],
-        "points": 240
+        "wounds": 30
     },
     {
         "_id": "2ed0ed36",
-        "name": "Sarpon, the Cyclone",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "Domitan's Stormcoven",
+        "bladeborn": "Domitan's Stormcoven",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Sarpon, the Cyclone",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "destroyer"
+        ],
         "toughness": 5,
-        "wounds": 28,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -531,21 +535,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "destroyer"
-        ],
-        "points": 195
+        "wounds": 28
     },
     {
         "_id": "ac8f1a28",
-        "name": "Domitan, Eye of the Storm",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "Domitan's Stormcoven",
+        "bladeborn": "Domitan's Stormcoven",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Domitan, Eye of the Storm",
+        "points": 200,
+        "runemarks": [
+            "hero",
+            "bulwark"
+        ],
         "toughness": 5,
-        "wounds": 30,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -566,21 +570,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "bulwark"
-        ],
-        "points": 200
+        "wounds": 30
     },
     {
         "_id": "ed6a5c53",
-        "name": "Leona Stratosi",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "Domitan's Stormcoven",
+        "bladeborn": "Domitan's Stormcoven",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Leona Stratosi",
+        "points": 200,
+        "runemarks": [
+            "hero",
+            "agile"
+        ],
         "toughness": 5,
-        "wounds": 28,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -601,21 +605,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "agile"
-        ],
-        "points": 200
+        "wounds": 28
     },
     {
         "_id": "b0072259",
-        "name": "Taros",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "Xandire's Truthseekers",
+        "bladeborn": "Xandire's Truthseekers",
         "grand_alliance": "order",
         "movement": 12,
+        "name": "Taros",
+        "points": 115,
+        "runemarks": [
+            "beast",
+            "fly"
+        ],
         "toughness": 2,
-        "wounds": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -627,21 +631,20 @@
                 "strength": 2
             }
         ],
-        "runemarks": [
-            "beast",
-            "fly"
-        ],
-        "points": 115
+        "wounds": 6
     },
     {
         "_id": "c7577876",
-        "name": "Dhoraz Giant-fell",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "Xandire's Truthseekers",
+        "bladeborn": "Xandire's Truthseekers",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Dhoraz Giant-fell",
+        "points": 165,
+        "runemarks": [
+            "brute"
+        ],
         "toughness": 5,
-        "wounds": 22,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -653,20 +656,20 @@
                 "strength": 5
             }
         ],
-        "runemarks": [
-            "brute"
-        ],
-        "points": 165
+        "wounds": 22
     },
     {
         "_id": "8fb133cc",
-        "name": "Luxa Stormrider",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "Xandire's Truthseekers",
+        "bladeborn": "Xandire's Truthseekers",
         "grand_alliance": "order",
         "movement": 5,
+        "name": "Luxa Stormrider",
+        "points": 170,
+        "runemarks": [
+            "scout"
+        ],
         "toughness": 5,
-        "wounds": 20,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -687,20 +690,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "scout"
-        ],
-        "points": 170
+        "wounds": 20
     },
     {
         "_id": "216ac865",
-        "name": "Calthia Xandire",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "Xandire's Truthseekers",
+        "bladeborn": "Xandire's Truthseekers",
         "grand_alliance": "order",
         "movement": 5,
+        "name": "Calthia Xandire",
+        "points": 210,
+        "runemarks": [
+            "hero",
+            "champion"
+        ],
         "toughness": 5,
-        "wounds": 25,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 5,
@@ -712,21 +716,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "champion"
-        ],
-        "points": 210
+        "wounds": 25
     },
     {
         "_id": "b1186552",
-        "name": "Knight-Questor",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Knight-Questor",
+        "points": 175,
+        "runemarks": [
+           "hero",
+           "ferocious"
+        ],
         "toughness": 5,
-        "wounds": 25,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -738,21 +742,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "ferocious"
-        ],
-        "points": 175
+        "wounds": 25
     },
     {
         "_id": "3879ad50",
-        "name": "Liberator-Prime With Dual Sigmarite Weapons",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Liberator-Prime With Dual Sigmarite Weapons",
+        "points": 185,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
         "toughness": 5,
-        "wounds": 25,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 5,
@@ -764,21 +768,21 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "warrior"
-        ],
-        "points": 185
+        "wounds": 25
     },
     {
         "_id": "a046509d",
-        "name": "Liberator-Prime With Sigmarite Weapon and Shield",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Liberator-Prime With Sigmarite Weapon and Shield",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
         "toughness": 6,
-        "wounds": 25,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 5,
@@ -790,21 +794,20 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "hero",
-            "warrior"
-        ],
-        "points": 195
+        "wounds": 25
     },
     {
         "_id": "dceff888",
-        "name": "Liberator With Dual Sigmarite Weapons",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Liberator With Dual Sigmarite Weapons",
+        "points": 140,
+        "runemarks": [
+            "warrior"
+        ],
         "toughness": 5,
-        "wounds": 20,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -816,20 +819,20 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "warrior"
-        ],
-        "points": 140
+        "wounds": 20
     },
     {
         "_id": "9002c62d",
-        "name": "Liberator With Sigmarite Weapon and Shield",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Liberator With Sigmarite Weapon and Shield",
+        "points": 150,
+        "runemarks": [
+            "warrior"
+        ],
         "toughness": 6,
-        "wounds": 20,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 4,
@@ -841,20 +844,20 @@
                 "strength": 4
             }
         ],
-        "runemarks": [
-            "warrior"
-        ],
-        "points": 150
+        "wounds": 20
     },
     {
         "_id": "2134ed36",
-        "name": "Liberator With Grandhammer",
-        "warband": "Stormcast Eternals Thunderstrike Stormcast",
-        "subfaction": "",
+        "bladeborn": "",
         "grand_alliance": "order",
         "movement": 4,
+        "name": "Liberator With Grandhammer",
+        "points": 150,
+        "runemarks": [
+            "warrior"
+        ],
         "toughness": 5,
-        "wounds": 20,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
         "weapons": [
             {
                 "attacks": 3,
@@ -866,9 +869,213 @@
                 "strength": 5
             }
         ],
+        "wounds": 20
+    },
+    {
+        "_id": "ce47b2b5",
+        "bladeborn": "",
+        "subfaction": "gladitorium",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Numara Falconis",
+        "points": 230,
         "runemarks": [
+            "hero",
+            "scout"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "8710587d",
+        "bladeborn": "",
+        "subfaction": "gladitorium",
+        "grand_alliance": "order",
+        "movement": 3,
+        "name": "Goltan the Relentless",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "toughness": 7,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "f7ab94fd",
+        "bladeborn": "",
+        "subfaction": "gladitorium",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Tenya Thrice-trusted",
+        "points": 220,
+        "runemarks": [
+            "hero",
+            "elite"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "halberd",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "ef88c4d8",
+        "bladeborn": "",
+        "subfaction": "gladitorium",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Valantin Harvestblade",
+        "points": 195,
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "2c764979",
+        "bladeborn": "",
+        "subfaction": "gladitorium",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Printis Verna",
+        "points": 175,
+        "runemarks": [
+            "hero",
             "warrior"
         ],
-        "points": 150
+        "toughness": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
+    },
+    {
+        "_id": "c8c77626",
+        "bladeborn": "",
+        "subfaction": "gladitorium",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Axactus Krane",
+        "points": 210,
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "toughness": 5,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 28
+    },
+    {
+        "_id": "9067fb3e",
+        "bladeborn": "",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Zhea Galdara",
+        "points": 175,
+        "runemarks": [
+            "gladitorium",
+            "hero",
+            "bulwark"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
     }
 ]
