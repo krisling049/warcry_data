@@ -3,5 +3,11 @@
     "warband": "Darkoath",
     "bladeborn": false,
     "heroes_all": false,
-    "subfactions": []
+    "subfactions": [
+        {
+            "runemark": "Brand's Oathbound",
+            "bladeborn": false,
+            "heroes_all": true
+        }
+    ]
 }
