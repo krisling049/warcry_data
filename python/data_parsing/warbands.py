@@ -25,9 +25,9 @@ class WarbandsJSONDataPayload(DataPayload):
             raise TypeError(f'src must be a dir: {src}')
         self._filter_str = filter_string
         super().__init__(src, schema, src_format)
-        self.fighters = Fighters(self.data['fighters'])
-        self.abilities = [Ability(x) for x in self.data['abilities']]
-        self.factions = Factions(self.data['factions'])     # type: Factions
+        self.fighters = Fighters(self.data['fighters'])                 # type: Fighters
+        self.abilities = [Ability(x) for x in self.data['abilities']]   # type: list[Ability]
+        self.factions = Factions(self.data['factions'])                 # type: Factions
         self.assign_factions()
         self.assign_abilities()
 
