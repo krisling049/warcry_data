@@ -68,5 +68,13 @@
         "cost": "battletrait",
         "description": "At the end of each battle round, each player whose warband has this battle trait can roll a dice for each friendly Pyre token on the battlefield. For each roll of 3+, add one wild dice to that player's saved wild dice.",
         "runemarks": []
+    },
+    {
+        "_id": "1b3a2eee",
+        "name": "Immolation",
+        "warband": "Pyregheists",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Cremate this fighter.’",
+        "runemarks": []
     }
 ]
