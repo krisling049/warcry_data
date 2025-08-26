@@ -315,5 +315,15 @@
         "runemarks": [
             "frenzied"
         ]
+    },
+    {
+        "_id": "1a79b9d6",
+        "name": "Slavering Jaws",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation. This fighter can make a bonus move action. If that move action ends within 1\" of an enemy fighter, add 1 to this fighter’s Toughness characteristic for the rest of the battle round.",
+        "runemarks": [
+            "ferocious"
+        ]
     }
 ]
