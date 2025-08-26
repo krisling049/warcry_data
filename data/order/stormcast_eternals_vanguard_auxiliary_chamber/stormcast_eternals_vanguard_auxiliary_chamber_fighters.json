@@ -694,17 +694,13 @@
     },
     {
         "_id": "68ddfc6b",
+        "name": "Sanson Farstrider",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "The Farstriders",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sanson Farstrider",
-        "points": 170,
-        "runemarks": [
-            "hero",
-            "warrior",
-            "The Farstriders"
-        ],
         "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "wounds": 30,
         "weapons": [
             {
                 "attacks": 4,
@@ -725,6 +721,10 @@
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 170
     }
 ]
