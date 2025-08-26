@@ -1277,5 +1277,119 @@
             "minion"
         ],
         "points": 55
+    },
+    {
+        "_id": "fzuhetl5",
+        "name": "Cado Ezechiar",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Blades of the Hollow King",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 5,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ],
+        "points": 235
+    },
+    {
+        "_id": "uoie8qh9",
+        "name": "Sissendra",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Blades of the Hollow King",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 4,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "points": 175
+    },
+    {
+        "_id": "mk84uwp6",
+        "name": "Aurelias",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "The Blades of the Hollow King",
+        "grand_alliance": "death",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "points": 135
+    },
+    {
+        "_id": "zaw0flmt",
+        "name": "Wight Lord on Skeletal Steed",
+        "warband": "Soulblight Gravelords",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "berserker",
+            "mount"
+        ],
+        "points": 215
     }
 ]
