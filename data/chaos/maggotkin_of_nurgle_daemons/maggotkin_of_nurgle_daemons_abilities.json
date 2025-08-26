@@ -111,7 +111,7 @@
         "name": "Growing Infections",
         "warband": "Grandfather's Gardeners",
         "cost": "double",
-        "description": "Give this fighter a cycle counter and roll a dice. If the roll is equal to or less than the value of this ability, you gain the ability dice you spent to use this ability, at the same value. For the rest of the battle round, add 1 to the critical damage value of this fighter’s melee weapon for each cycle counter they have. Cycle counters are not discarded at the end of the battle round.",
+        "description": "Give this fighter a cycle counter and roll a dice. If the roll is equal to or less than the value of this ability, you gain the ability dice you spent to use this ability, at the same value. For the rest of the battle round, add 1 to the critical damage value of this fighter's melee weapon for each cycle counter they have. Cycle counters are not discarded at the end of the battle round.",
         "runemarks": []
     },
     {
@@ -129,7 +129,7 @@
         "name": "The Grand Cycle of Decay",
         "warband": "Grandfather's Gardeners",
         "cost": "triple",
-        "description": "Each friendly fighter’s cycle counters must be given to another friendly fighter on the battlefield with the Grandfather’s Gardener’s runemark. Each fighter may only be given cycle counters once each time this ability is used.",
+        "description": "Each friendly fighter's cycle counters must be given to another friendly fighter on the battlefield with the Grandfather's Gardener's runemark. Each fighter may only be given cycle counters once each time this ability is used.",
         "runemarks": [
             "hero"
         ]
