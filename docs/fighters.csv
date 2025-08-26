@@ -11,13 +11,13 @@
 9,349b6dfe,Shakana Goldenblade,Blacktalons,,order,4,5,25,['destroyer'],180,3,4,2,1,0,sword,4,4.0,2.0,1.0,15.0,3.0,ranged,3.0
 10,a0fb0704,Rostus Oxenhammer,Blacktalons,,order,4,6,25,['champion'],200,4,6,3,1,0,hammer,6,,,,,,,
 11,41cc2020,Neave Blacktalon,Blacktalons,,order,7,5,30,['hero'],285,6,4,2,1,0,axe,5,3.0,4.0,1.0,10.0,0.0,ranged,4.0
-12,w82oy9ke,Twistroot Warden with Spitespear,Twistweald,,order,4,5,12,[],120,4,4,2,2,0,spear,4,,,,,,,
-13,yj5dkhz9,Twistroot Revenant with Harvester Blade,Twistweald,,order,4,4,12,['destroyer'],110,4,5,2,1,0,sword,4,,,,,,,
-14,t6gzalfu,Twistroot Spite-revenant with Briarlash,Twistweald,,order,4,4,12,"['berserker', 'destroyer']",110,3,3,2,3,0,reach,5,,,,,,,
-15,nxy63tdg,Swarmsage,Twistweald,,order,4,4,22,"['berserker', 'hero']",190,4,5,2,3,0,reach,4,2.0,6.0,3.0,7.0,3.0,blast,4.0
-16,0mn9hope,Twistroot Warden with Guardian Bow,Twistweald,,order,4,4,12,[],120,2,3,2,1,0,claws,3,4.0,2.0,1.0,15.0,3.0,ranged,4.0
-17,olr4u0n9,Twistroot Dryad,Twistweald,,order,5,4,10,['destroyer'],110,4,4,2,1,0,claws,4,,,,,,,
-18,0awo336h,Twistroot Warden with Guardian Halberd,Twistweald,,order,4,4,12,[],125,3,4,3,2,0,axe,5,,,,,,,
+12,w82oy9ke,Twistroot Warden with Spitespear,Twistweald,,order,4,5,12,[],115,4,4,2,2,0,spear,4,,,,,,,
+13,yj5dkhz9,Twistroot Revenant with Harvester Blade,Twistweald,,order,4,4,12,['destroyer'],105,4,5,2,1,0,sword,4,,,,,,,
+14,t6gzalfu,Twistroot Spite-revenant with Briarlash,Twistweald,,order,4,4,12,"['berserker', 'destroyer']",105,3,3,2,3,0,reach,5,,,,,,,
+15,nxy63tdg,Swarmsage,Twistweald,,order,4,4,22,"['berserker', 'hero']",180,4,5,2,3,0,reach,4,2.0,6.0,3.0,7.0,3.0,blast,4.0
+16,0mn9hope,Twistroot Warden with Guardian Bow,Twistweald,,order,4,4,12,[],115,2,3,2,1,0,claws,3,4.0,2.0,1.0,15.0,3.0,ranged,4.0
+17,olr4u0n9,Twistroot Dryad,Twistweald,,order,5,4,10,['destroyer'],100,4,4,2,1,0,claws,4,,,,,,,
+18,0awo336h,Twistroot Warden with Guardian Halberd,Twistweald,,order,4,4,12,[],120,3,4,3,2,0,axe,5,,,,,,,
 19,15bedde9,War Hydra,order,,order,6,4,45,"['monster', 'destroyer']",420,4,8,4,2,0,fangs,5,,,,,,,
 20,69f4a22a,Kharibdyss,order,,order,6,4,45,"['monster', 'berserker']",425,4,8,4,2,0,fangs,5,,,,,,,
 21,bc293e96,"Grombrindal, the White Dwarf",order,,order,3,5,25,"['grombrindal', 'ally', 'hero']",210,4,5,3,1,0,axe,5,1.0,6.0,4.0,8.0,3.0,ranged,5.0
@@ -59,7 +59,7 @@
 57,2c764979,Printis Verna,Stormcast Eternals Thunderstrike Stormcast,Gladitorium,order,4,6,25,"['hero', 'warrior']",175,3,5,2,2,0,spear,4,,,,,,,
 58,c8c77626,Axactus Krane,Stormcast Eternals Thunderstrike Stormcast,Gladitorium,order,4,5,28,"['hero', 'mystic']",210,3,4,2,2,0,club,4,2.0,6.0,3.0,7.0,3.0,blast,4.0
 59,9067fb3e,Zhea Galdara,Stormcast Eternals Thunderstrike Stormcast,Gladitorium,order,4,6,25,"['hero', 'bulwark']",175,4,4,2,1,0,club,4,,,,,,,
-60,0fbb85de,Arkanaut Company Privateer with Privateer Pistol and Arkanaut Cutter,Kharadron Overlords,,order,3,3,12,[],55,3,3,1,1,0,axe,3,2.0,3.0,1.0,8.0,0.0,ranged,3.0
+60,0fbb85de,Arkanaut Company Privateer with Privateer Pistol and Arkanaut Cutter,Kharadron Overlords,,order,3,3,12,[],60,3,3,1,1,0,axe,3,2.0,3.0,1.0,8.0,0.0,ranged,3.0
 61,103c68c3,Arkanaut Company Privateer with Skypike,Kharadron Overlords,,order,3,3,12,[],75,3,5,2,2,0,spear,4,,,,,,,
 62,a22be631,Arkanaut Company Privateer with Aethermatic Volley Gun,Kharadron Overlords,,order,3,3,12,[],80,2,3,1,1,0,unarmed,3,3.0,3.0,1.0,15.0,3.0,ranged,3.0
 63,eb8ae4f1,Company Captain,Kharadron Overlords,,order,3,3,16,['hero'],90,4,4,2,1,0,axe,3,3.0,3.0,1.0,8.0,0.0,ranged,3.0
@@ -118,11 +118,11 @@
 116,14206cb0,Ailenn the Mind's Edge,Lumineth Realm-lords,Myari's Purifiers,order,5,3,14,"['frenzied', 'warrior']",105,3,5,2,1,0,sword,4,,,,,,,
 117,8167aef1,Bahannar,Lumineth Realm-lords,Myari's Purifiers,order,3,4,14,['brute'],90,3,4,2,2,0,hammer,5,,,,,,,
 118,28e8eb85,Myari Lightcaller,Lumineth Realm-lords,Myari's Purifiers,order,5,3,20,"['hero', 'scout']",120,3,4,1,1,0,club,3,2.0,6.0,3.0,7.0,3.0,blast,3.0
-119,ad524c22,Pureflood Seneschal with Ydrilan Warglaive,Ydrilan Riverblades,,order,5,4,18,"['elite', 'hero']",205,4,5,2,2,0,spear,5,,,,,,,
-120,6e9c2283,Pureflood Seneschal with Master's Blades,Ydrilan Riverblades,,order,5,4,18,"['elite', 'hero']",210,5,4,3,1,0,sword,4,,,,,,,
-121,67c44120,Pureflood Seneschal with Ythara Darts,Ydrilan Riverblades,,order,5,4,18,"['elite', 'hero']",210,4,3,2,8,0,ranged,4,,,,,,,
-122,b2937bc4,Crestdancer with Twin-spear,Ydrilan Riverblades,,order,5,4,10,['elite'],115,3,4,2,2,0,spear,4,,,,,,,
-123,6e2639f6,Crestdancer with Roped Sickle,Ydrilan Riverblades,,order,5,4,10,['elite'],115,4,4,1,3,0,reach,4,,,,,,,
+119,ad524c22,Pureflood Seneschal with Ydrilan Warglaive,Ydrilan Riverblades,,order,5,4,18,"['elite', 'hero']",195,4,5,2,2,0,spear,5,,,,,,,
+120,6e9c2283,Pureflood Seneschal with Master's Blades,Ydrilan Riverblades,,order,5,4,18,"['elite', 'hero']",200,5,4,3,1,0,sword,4,,,,,,,
+121,67c44120,Pureflood Seneschal with Ythara Darts,Ydrilan Riverblades,,order,5,4,18,"['elite', 'hero']",200,4,3,2,8,0,ranged,4,,,,,,,
+122,b2937bc4,Crestdancer with Twin-spear,Ydrilan Riverblades,,order,5,4,10,['elite'],100,3,4,2,2,0,spear,4,,,,,,,
+123,6e2639f6,Crestdancer with Roped Sickle,Ydrilan Riverblades,,order,5,4,10,['elite'],100,4,4,1,3,0,reach,4,,,,,,,
 124,3d77dca0,Stream-runner with Crestblades,Ydrilan Riverblades,,order,5,3,8,['agile'],65,4,2,1,1,0,axe,3,,,,,,,
 125,217c9ace,Stream-runner with Riversteel Weapons,Ydrilan Riverblades,,order,5,3,8,[],65,3,3,1,1,0,sword,3,,,,,,,
 126,e11a4980,Gryph-Hound,Stormcast Eternals Warrior Chamber,,order,6,4,12,['beast'],115,4,4,1,1,0,claws,4,,,,,,,
@@ -246,11 +246,11 @@
 244,58eca0a9,Soror Tazat,Cities of Sigmar: Castelite Hosts,Brethren of the Bolt,order,4,3,12,[],105,5,3,2,1,0,club,3,1.0,2.0,1.0,7.0,3.0,blast,1.0
 245,e9705ef3,Acolyte Arcus,Cities of Sigmar: Castelite Hosts,Brethren of the Bolt,order,4,3,10,[],95,3,3,1,2,0,club,4,1.0,2.0,1.0,7.0,3.0,blast,1.0
 246,07be27e9,Scorched Yakob,Cities of Sigmar: Castelite Hosts,Brethren of the Bolt,order,4,3,10,[],85,5,2,1,1,0,club,3,1.0,2.0,1.0,7.0,3.0,blast,1.0
-247,eaec58a2,Ironbreaker,Cities of Sigmar: Dispossessed,,order,3,5,12,['bulwark'],75,3,3,1,1,0,hammer,3,,,,,,,
-248,f86feaaf,Longbeard with Ancestral Weapon and Gromril Shield,Cities of Sigmar: Dispossessed,,order,3,5,12,['champion'],80,3,4,2,1,0,hammer,3,,,,,,,
-249,353ccf7c,Hammerer,Cities of Sigmar: Dispossessed,,order,3,4,12,['destroyer'],85,3,5,2,1,0,hammer,4,,,,,,,
-250,7eb24003,Longbeard with Ancestral Great Axe,Cities of Sigmar: Dispossessed,,order,3,4,12,['champion'],85,3,4,2,1,0,axe,4,,,,,,,
-251,17bfdc39,Irondrake,Cities of Sigmar: Dispossessed,,order,3,4,12,['elite'],85,2,2,1,1,0,unarmed,3,2.0,4.0,1.0,12.0,3.0,ranged,3.0
+247,eaec58a2,Ironbreaker,Cities of Sigmar: Dispossessed,,order,3,5,12,['bulwark'],65,3,3,1,1,0,hammer,3,,,,,,,
+248,f86feaaf,Longbeard with Ancestral Weapon and Gromril Shield,Cities of Sigmar: Dispossessed,,order,3,5,12,['champion'],70,3,4,2,1,0,hammer,3,,,,,,,
+249,353ccf7c,Hammerer,Cities of Sigmar: Dispossessed,,order,3,4,12,['destroyer'],75,3,5,2,1,0,hammer,4,,,,,,,
+250,7eb24003,Longbeard with Ancestral Great Axe,Cities of Sigmar: Dispossessed,,order,3,4,12,['champion'],75,3,4,2,1,0,axe,4,,,,,,,
+251,17bfdc39,Irondrake,Cities of Sigmar: Dispossessed,,order,3,4,12,['elite'],75,2,2,1,1,0,unarmed,3,2.0,4.0,1.0,12.0,3.0,ranged,3.0
 252,5c8db207,Ironbeard with Drakefire Pistol and Cinderblast Bomb,Cities of Sigmar: Dispossessed,,order,3,4,16,"['hero', 'bulwark']",110,2,4,2,5,3,blast,5,3.0,3.0,1.0,8.0,0.0,ranged,3.0
 253,3dd9ab0b,Old Guard with Ancestral Weapon and Gromril Shield,Cities of Sigmar: Dispossessed,,order,3,5,16,"['hero', 'champion']",115,4,4,2,1,0,axe,3,,,,,,,
 254,46f24f9a,Runelord,Cities of Sigmar: Dispossessed,,order,3,4,20,"['hero', 'priest']",115,3,4,2,1,0,hammer,4,,,,,,,
@@ -321,7 +321,7 @@
 319,fcab23e7,Wildercorps Scout with Hunting Crossbow,Wildercorps Hunters,,order,4,3,10,['warrior'],75,2,3,1,1,0,axe,3,2.0,3.0,1.0,15.0,3.0,ranged,3.0
 320,32d49466,Wildercorps Scout with Paired Hatchets,Wildercorps Hunters,,order,4,3,10,['warrior'],75,4,3,1,1,0,axe,3,2.0,3.0,1.0,8.0,0.0,axe,3.0
 321,1e46811e,Trailblazer with Duelling Sabre,Wildercorps Hunters,,order,4,3,12,"['trapper', 'warrior']",90,4,4,2,1,0,sword,3,2.0,3.0,1.0,8.0,0.0,ranged,3.0
-322,c07e5e4d,Trailblazer with Twin Crossbows,Wildercorps Hunters,,order,4,3,12,"['trapper', 'warrior']",90,4,3,1,8,0,ranged,3,,,,,,,
+322,c07e5e4d,Trailblazer with Twin Crossbows,Wildercorps Hunters,,order,4,3,12,"['trapper', 'warrior']",100,4,3,1,8,0,ranged,3,,,,,,,
 323,e8f540bc,Wildercorps Leatherhide with Troggslayer Spear,Wildercorps Hunters,,order,4,3,12,"['champion', 'warrior']",100,3,4,2,2,0,spear,4,,,,,,,
 324,93a3a07a,Wildercorps Leatherhide with Hunting Crossbow,Wildercorps Hunters,,order,4,3,12,"['champion', 'warrior']",100,2,3,1,1,0,axe,3,2.0,3.0,1.0,15.0,3.0,ranged,3.0
 325,2359254e,Wildercorps Warden with Double-bitted Axe,Wildercorps Hunters,,order,4,3,20,"['hero', 'champion', 'warrior']",115,3,4,2,1,0,axe,4,,,,,,,
@@ -437,7 +437,7 @@
 435,q6lx5d3i,Yurik Velzaine,Stormcast Eternals Vanguard Auxiliary Chamber,The Emberwatch,order,4,5,20,['destroyer'],290,3,4,2,1,0,sword,4,3.0,4.0,2.0,24.0,6.0,ranged,4.0
 436,df9fe661,Scalebreaker with Fyresteel Splitaxe,Vulkyn Flameseekers,,order,3,4,12,['elite'],95,3,4,2,2,0,axe,5,2.0,3.0,1.0,8.0,0.0,ranged,4.0
 437,e00e73d1,Scalebreaker with Bokaz,Vulkyn Flameseekers,,order,3,4,12,['elite'],95,3,5,2,2,0,spear,4,2.0,3.0,1.0,8.0,0.0,ranged,4.0
-438,56748d38,Kyndledroth,Vulkyn Flameseekers,,order,4,4,10,['beast'],110,4,3,2,1,0,claws,4,1.0,4.0,2.0,8.0,0.0,blast,6.0
+438,56748d38,Kyndledroth,Vulkyn Flameseekers,,order,4,4,10,['beast'],95,4,3,2,1,0,claws,4,1.0,4.0,2.0,8.0,0.0,blast,6.0
 439,8770f3ac,Drothmaster,Vulkyn Flameseekers,,order,3,4,20,"['elite', 'destroyer']",125,3,4,2,3,0,reach,4,2.0,3.0,1.0,8.0,0.0,ranged,4.0
 440,22956036,Drothblood Thane,Vulkyn Flameseekers,,order,3,5,20,"['elite', 'berserker']",140,5,4,2,1,0,axe,4,2.0,3.0,1.0,8.0,0.0,ranged,4.0
 441,64ee2181,Vulkyn Runefather with Drothvault Greataxe,Vulkyn Flameseekers,,order,3,5,22,"['hero', 'elite']",150,4,4,2,2,0,axe,4,2.0,3.0,1.0,8.0,0.0,ranged,4.0
@@ -575,16 +575,16 @@
 573,m2n8v1f7,Beastflayer Baron,Royal Beastflayers,,death,5,4,16,['brute'],115,3,4,2,1,0,claws,4,,,,,,,
 574,q2p6j4h9,Offal Hound,Royal Beastflayers,,death,7,3,18,['beast'],130,3,4,2,1,0,claws,4,,,,,,,
 575,3c8m9kx1,Royal Flaymaster,Royal Beastflayers,,death,5,4,20,['hero'],175,3,5,3,2,0,claws,4,,,,,,,
-576,0kvxvl2d,Kavalos Centari,Teratic Cohort,,death,7,4,20,"['hero', 'elite', 'mount']",235,5,4,2,3,0,reach,4,,,,,,,
-577,yofte4ap,Mortek Cykloptian with Dread Glaive,Teratic Cohort,,death,4,4,18,['elite'],145,3,4,2,1,0,axe,5,,,,,,,
-578,6ebtzcs3,Mortek Cykloptian with Nadirite Bident,Teratic Cohort,,death,4,4,18,['elite'],145,3,5,1,2,0,spear,5,,,,,,,
-579,mg5be1qt,Teratic Prowler,Teratic Cohort,,death,4,4,10,['beast'],80,3,4,2,1,0,claws,3,,,,,,,
-580,nqyjc38a,Aviarch Harpy,Teratic Cohort,,death,5,4,10,"['beast', 'fly']",115,4,4,1,1,0,claws,4,,,,,,,
+576,0kvxvl2d,Kavalos Centari,Teratic Cohort,,death,7,4,20,"['hero', 'elite', 'mount']",205,5,4,2,3,0,reach,4,,,,,,,
+577,yofte4ap,Mortek Cykloptian with Dread Glaive,Teratic Cohort,,death,4,4,18,['elite'],125,3,4,2,1,0,axe,5,,,,,,,
+578,6ebtzcs3,Mortek Cykloptian with Nadirite Bident,Teratic Cohort,,death,4,4,18,['elite'],125,3,5,1,2,0,spear,5,,,,,,,
+579,mg5be1qt,Teratic Prowler,Teratic Cohort,,death,4,4,10,['beast'],70,3,4,2,1,0,claws,3,,,,,,,
+580,nqyjc38a,Aviarch Harpy,Teratic Cohort,,death,5,4,10,"['beast', 'fly']",105,4,4,1,1,0,claws,4,,,,,,,
 581,eff9a586,Deadwalker Zombie,Soulblight Gravelords,,death,3,3,10,['minion'],50,2,4,1,1,0,unarmed,3,,,,,,,
 582,bd47f5a9,Skeleton with Ancient Blade,Soulblight Gravelords,,death,3,4,8,['minion'],50,3,3,1,1,0,sword,3,,,,,,,
 583,78cf4589,Skeleton with Ancient Spear,Soulblight Gravelords,,death,3,4,8,['minion'],50,2,4,1,2,0,spear,3,,,,,,,
-584,e2cce99f,Grave Guard with Wight Blade and Crypt Shield,Soulblight Gravelords,,death,3,4,10,"['minion', 'elite']",60,3,4,1,1,0,sword,4,,,,,,,
-585,8f27f188,Grave Guard with Great Wight Blade,Soulblight Gravelords,,death,3,3,10,"['minion', 'elite']",70,3,4,2,1,0,sword,5,,,,,,,
+584,e2cce99f,Barrow Guard with Wight Blade and Crypt Shield,Soulblight Gravelords,,death,3,4,10,"['minion', 'elite']",60,3,4,1,1,0,sword,4,,,,,,,
+585,8f27f188,Barrow Guard with Great Wight Blade,Soulblight Gravelords,,death,3,3,10,"['minion', 'elite']",70,3,4,2,1,0,sword,5,,,,,,,
 586,b05b03a6,Skeleton Champion with Mace,Soulblight Gravelords,,death,3,4,12,"['champion', 'minion', 'elite']",70,4,3,1,1,0,mace,3,,,,,,,
 587,905aeffa,Skeleton Champion with Halberd,Soulblight Gravelords,,death,3,4,12,"['champion', 'minion', 'elite']",75,3,4,1,2,0,axe,3,,,,,,,
 588,7572a579,Seneschal,Soulblight Gravelords,,death,3,4,15,"['champion', 'minion', 'elite']",100,3,4,2,1,0,axe,5,,,,,,,
@@ -674,11 +674,11 @@
 672,o5iro0e3,High Falconer Felgryn,Flesh-eater Courts,,death,5,3,18,"['hero', 'trapper']",160,3,4,2,1,0,claws,4,2.0,2.0,1.0,20.0,6.0,claws,3.0
 673,8a46a02f,Deacon of Flames with Brazier Staff,Pyregheists,,death,4,5,20,"['hero', 'fly']",190,4,5,2,2,0,club,4,2.0,4.0,2.0,8.0,0.0,blast,4.0
 674,88993788,Deacon of Flames with Pyrekeeper's Tongs,Pyregheists,,death,4,5,20,"['hero', 'fly']",190,3,4,3,2,0,fangs,5,2.0,4.0,2.0,8.0,0.0,blast,4.0
-675,56aafd11,Balefire Guard with Scorch Flail,Pyregheists,,death,4,5,12,"['elite', 'fly']",130,4,4,2,1,0,reach,4,,,,,,,
-676,7387b93f,Balefire Guard with Flaming Halberd,Pyregheists,,death,4,5,12,"['elite', 'fly']",130,3,4,2,2,0,axe,5,,,,,,,
-677,5d752034,Torchwraith,Pyregheists,,death,6,4,10,"['frenzied', 'fly']",115,3,3,1,8,0,blast,3,3.0,3.0,1.0,1.0,0.0,dagger,3.0
-678,0a96e891,Flamewraith with Brazier-staff,Pyregheists,,death,4,4,12,['fly'],100,3,4,1,2,0,mace,4,,,,,,,
-679,e87ff89f,Flamewraith with Balefire Torches,Pyregheists,,death,4,4,12,['fly'],100,4,3,1,1,0,club,4,,,,,,,
+675,56aafd11,Balefire Guard with Scorch Flail,Pyregheists,,death,4,5,12,"['elite', 'fly']",115,4,4,2,1,0,reach,4,,,,,,,
+676,7387b93f,Balefire Guard with Flaming Halberd,Pyregheists,,death,4,5,12,"['elite', 'fly']",115,3,4,2,2,0,axe,5,,,,,,,
+677,5d752034,Torchwraith,Pyregheists,,death,6,4,10,"['frenzied', 'fly']",110,3,3,1,8,0,blast,3,3.0,3.0,1.0,1.0,0.0,dagger,3.0
+678,0a96e891,Flamewraith with Brazier-staff,Pyregheists,,death,4,4,12,['fly'],90,3,4,1,2,0,mace,4,,,,,,,
+679,e87ff89f,Flamewraith with Balefire Torches,Pyregheists,,death,4,4,12,['fly'],90,4,3,1,1,0,club,4,,,,,,,
 680,6e918c6c,Savage Orruk with Chompa and Bone Shield,Bonesplitterz,,destruction,4,4,15,[],80,3,3,1,1,0,axe,3,,,,,,,
 681,b05d0854,Savage Orruk with Savage Stikka and Bone Shield,Bonesplitterz,,destruction,4,4,15,[],80,2,4,1,2,0,spear,3,,,,,,,
 682,67ac0006,Savage Orruk Morboy,Bonesplitterz,,destruction,4,3,15,['elite'],95,3,4,2,1,0,axe,4,,,,,,,
@@ -710,8 +710,8 @@
 708,5318c226,Neckslicer with Bonehakka,Kruleboyz Monsta-killaz,,destruction,4,3,15,"['trapper', 'berserker']",120,3,4,2,2,0,axe,5,,,,,,,
 709,3101b10f,Gnarlwood Howla,Kruleboyz Monsta-killaz,,destruction,6,3,18,['beast'],125,5,4,2,1,0,claws,3,,,,,,,
 710,3ff6e9f8,Beastnob,Kruleboyz Monsta-killaz,,destruction,4,4,25,"['hero', 'trapper']",200,4,5,3,1,0,mace,6,2.0,4.0,2.0,8.0,0.0,ranged,4.0
-711,7564ac24,Pot-grot,Kruleboyz,,destruction,4,3,6,['destroyer'],45,2,3,1,1,0,club,2,,,,,,,
-712,8dbddf23,Stab-grot,Kruleboyz,,destruction,4,4,6,"['minion', 'bulwark']",45,3,3,1,1,0,dagger,2,,,,,,,
+711,7564ac24,Pot-grot,Kruleboyz,,destruction,4,3,6,['destroyer'],50,2,3,1,1,0,club,2,,,,,,,
+712,8dbddf23,Stab-grot,Kruleboyz,,destruction,4,4,6,"['minion', 'bulwark']",50,3,3,1,1,0,dagger,2,,,,,,,
 713,c355ca81,Hobgrot Slitta,Kruleboyz,,destruction,4,3,8,['minion'],70,3,3,1,1,0,dagger,3,2.0,4.0,2.0,5.0,3.0,blast,4.0
 714,a364cddf,Gutrippa with Wicked Hacka,Kruleboyz,,destruction,4,4,15,['warrior'],75,3,3,1,1,0,axe,3,,,,,,,
 715,2a22ee6d,Gutrippa with Wicked Stikka,Kruleboyz,,destruction,4,4,15,['warrior'],75,2,4,1,2,0,spear,3,,,,,,,
@@ -735,7 +735,7 @@
 733,c5c1fbc0,Hurrk da Howla,Kruleboyz,Daggok's Stab-ladz,destruction,4,4,15,"['icon-bearer', 'warrior']",75,3,3,1,1,0,dagger,3,,,,,,,
 734,8e9ba58e,Grakk da Hook,Kruleboyz,Daggok's Stab-ladz,destruction,4,3,15,"['brute', 'warrior']",130,3,4,3,2,0,hook,5,,,,,,,
 735,3f9a8c2e,Hobgrot Slittaboss,Kruleboyz,,destruction,4,4,16,"['hero', 'scout', 'minion']",140,4,3,2,2,0,spear,4,,,,,,,
-736,eb92f059,Gnoblar,Ogor Mawtribes,,destruction,4,3,6,['trapper'],45,3,3,1,1,0,dagger,2,,,,,,,
+736,eb92f059,Gnoblar,Ogor Mawtribes,,destruction,4,3,6,['trapper'],50,3,3,1,1,0,dagger,2,,,,,,,
 737,1e24e8d2,Frost Sabre,Ogor Mawtribes,,destruction,8,4,16,['beast'],175,4,5,2,1,0,fangs,4,,,,,,,
 738,cf6687da,Leadbelcher,Ogor Mawtribes,,destruction,4,4,28,"['brute', 'destroyer']",185,3,4,2,1,0,unarmed,4,3.0,4.0,2.0,10.0,3.0,ranged,4.0
 739,ca799170,Ogor Glutton with Ironfist,Ogor Mawtribes,,destruction,4,5,28,"['brute', 'bulwark']",190,3,6,3,1,0,sword,5,,,,,,,
@@ -747,8 +747,8 @@
 745,77988e63,Butcher,Ogor Mawtribes,,destruction,4,4,38,"['hero', 'brute', 'mystic']",225,3,6,3,1,0,axe,5,3.0,6.0,3.0,7.0,3.0,blast,3.0
 746,f2cc1f80,Firebelly,Ogor Mawtribes,,destruction,4,4,38,"['hero', 'brute', 'frenzied']",230,2,8,4,2,0,hammer,5,3.0,6.0,3.0,7.0,3.0,blast,3.0
 747,25ae1b9a,Irongut,Ogor Mawtribes,,destruction,4,5,28,['brute'],235,3,8,4,2,0,club,6,,,,,,,
-748,51c6100b,Crusher,Ogor Mawtribes,,destruction,4,4,32,"['hero', 'brute', 'bulwark']",255,4,8,4,1,0,club,5,,,,,,,
-749,19d4f26e,Gutlord,Ogor Mawtribes,,destruction,4,5,32,"['hero', 'brute']",290,3,10,5,2,0,sword,6,,,,,,,
+748,51c6100b,Crusher,Ogor Mawtribes,,destruction,4,4,32,"['hero', 'brute', 'bulwark']",265,4,8,4,1,0,club,5,,,,,,,
+749,19d4f26e,Gutlord,Ogor Mawtribes,,destruction,4,5,32,"['hero', 'brute']",300,3,10,5,2,0,sword,6,,,,,,,
 750,79fc7799,Icebrow Hunter,Ogor Mawtribes,,destruction,4,4,40,"['hero', 'brute', 'scout']",280,3,8,4,2,0,club,5,2.0,4.0,2.0,8.0,0.0,ranged,5.0
 751,66278adf,Mournfang Rider with Culling Club and Ironfist,Ogor Mawtribes,,destruction,8,4,35,"['brute', 'bulwark', 'mount']",295,4,6,3,1,0,club,5,,,,,,,
 752,6d14979f,Mournfang Rider with Gargant Hacker,Ogor Mawtribes,,destruction,8,4,35,"['brute', 'mount']",300,3,8,4,2,0,axe,5,,,,,,,
@@ -760,7 +760,7 @@
 758,82052c8e,Kagey,Ogor Mawtribes,Blackpowder's Buccaneers,destruction,4,3,6,['scout'],60,2,3,1,8,0,reach,2,,,,,,,
 759,8acd7368,Shreek,Ogor Mawtribes,Blackpowder's Buccaneers,destruction,10,3,6,"['beast', 'fly']",100,3,3,1,1,0,claws,3,,,,,,,
 760,e10c8d32,Gorlok Blackpowder,Ogor Mawtribes,Blackpowder's Buccaneers,destruction,4,4,30,"['hero', 'brute']",250,4,6,3,2,0,sword,5,2.0,4.0,2.0,10.0,3.0,ranged,4.0
-761,6e4b6e96,Bushwakka,Ogor Mawtribes,Hrothgorn's Mantrappers,destruction,4,3,8,['trapper'],40,3,3,1,1,0,unarmed,2,,,,,,,
+761,6e4b6e96,Bushwakka,Ogor Mawtribes,Hrothgorn's Mantrappers,destruction,4,3,8,['trapper'],55,3,3,1,1,0,unarmed,2,,,,,,,
 762,3c7c1978,Quiv,Ogor Mawtribes,Hrothgorn's Mantrappers,destruction,4,3,8,['minion'],60,2,4,1,2,0,spear,3,,,,,,,
 763,2abad3bb,Luggit & Thwak,Ogor Mawtribes,Hrothgorn's Mantrappers,destruction,4,3,12,[],65,3,4,1,2,0,axe,3,,,,,,,
 764,f26ea120,Thrafnir,Ogor Mawtribes,Hrothgorn's Mantrappers,destruction,8,4,22,['beast'],175,4,5,2,1,0,fangs,4,,,,,,,
@@ -772,37 +772,37 @@
 770,8b4dc952,Clawback,Gorger Mawpack,,destruction,5,3,35,['hero'],235,4,6,3,1,0,club,5,,,,,,,
 771,b7da3ff4,Fellwater Troggoth,destruction,,destruction,4,4,28,"['thrall', 'trapper', 'bulwark']",175,4,5,2,1,0,club,5,,,,,,,
 772,a47621f5,Rockgut Troggoth,destruction,,destruction,4,5,28,"['thrall', 'bulwark']",185,3,6,3,1,0,club,5,,,,,,,
-773,b616e449,Dankhold Troggoth,destruction,,destruction,5,4,45,"['monster', 'ferocious']",375,3,8,4,2,0,club,5,,,,,,,
+773,b616e449,Dankhold Troggoth,destruction,,destruction,5,4,45,"['monster', 'ferocious']",275,3,8,4,2,0,club,5,,,,,,,
 774,2c7b4722,Aleguzzler Gargant,destruction,,destruction,6,4,45,"['monster', 'brute']",420,4,8,4,2,0,club,5,,,,,,,
 775,483abb24,Skitterstrand Arachnarok,destruction,,destruction,8,4,55,"['monster', 'destroyer']",475,4,8,4,1,0,fangs,5,,,,,,,
-776,2ae1f047,Squig Herder,Gloomspite Gitz,,destruction,4,3,6,['agile'],55,3,3,1,1,0,spear,2,,,,,,,
-777,62a28eb9,Stabba with Barbed Net,Gloomspite Gitz,,destruction,4,3,6,['trapper'],55,3,2,1,1,0,dagger,2,,,,,,,
-778,c6ca17ad,Stabba with Pokin' Spear and Moon Shield,Gloomspite Gitz,,destruction,4,4,6,[],55,2,4,1,2,0,spear,2,,,,,,,
-779,3e1236e8,Stabba with Stabba and Moon Shield,Gloomspite Gitz,,destruction,4,4,6,[],55,3,3,1,1,0,sword,2,,,,,,,
+776,2ae1f047,Squig Herder,Gloomspite Gitz,,destruction,4,3,6,['agile'],50,3,3,1,1,0,spear,2,,,,,,,
+777,62a28eb9,Stabba with Barbed Net,Gloomspite Gitz,,destruction,4,3,6,['trapper'],50,3,2,1,1,0,dagger,2,,,,,,,
+778,c6ca17ad,Stabba with Pokin' Spear and Moon Shield,Gloomspite Gitz,,destruction,4,4,6,[],50,2,4,1,2,0,spear,2,,,,,,,
+779,3e1236e8,Stabba with Stabba and Moon Shield,Gloomspite Gitz,,destruction,4,4,6,[],50,3,3,1,1,0,sword,2,,,,,,,
 780,0b7a7d3c,Sneaky Snuffler,Gloomspite Gitz,,destruction,4,3,12,[],65,3,4,1,1,0,fangs,2,,,,,,,
 781,deeef752,Boggleye,Gloomspite Gitz,,destruction,4,3,12,"['ally', 'berserker']",70,3,4,1,1,0,club,2,,,,,,,
 782,90fd9264,Brewgit,Gloomspite Gitz,,destruction,4,3,12,"['ally', 'bulwark']",90,4,3,1,1,0,dagger,2,,,,,,,
-783,f8991498,Shoota,Gloomspite Gitz,,destruction,4,3,6,[],75,3,2,1,1,0,dagger,2,2.0,3.0,1.0,12.0,3.0,ranged,3.0
+783,f8991498,Shoota,Gloomspite Gitz,,destruction,4,3,6,[],60,3,2,1,1,0,dagger,2,2.0,3.0,1.0,12.0,3.0,ranged,3.0
 784,36434f81,Spiker,Gloomspite Gitz,,destruction,4,3,12,"['ally', 'sentience']",75,3,4,1,2,0,club,2,,,,,,,
-785,9fe09a30,Cave Squig,Gloomspite Gitz,,destruction,4,4,10,['beast'],80,3,4,1,1,0,fangs,4,,,,,,,
+785,9fe09a30,Cave Squig,Gloomspite Gitz,,destruction,4,4,10,['beast'],75,3,4,1,1,0,fangs,4,,,,,,,
 786,f97d9e55,Shroomancer,Gloomspite Gitz,,destruction,4,3,16,"['ally', 'frenzied']",85,3,4,1,2,0,club,2,,,,,,,
 787,065fb829,Scaremonger,Gloomspite Gitz,,destruction,4,3,16,"['ally', 'terrifying']",90,4,4,1,1,0,fangs,2,,,,,,,
-788,6e3049bf,Sporesplatta Fanatic,Gloomspite Gitz,,destruction,5,4,6,"['elite', 'scout']",100,3,4,1,3,0,reach,5,,,,,,,
-789,bc47abdc,Moonclan Boss,Gloomspite Gitz,,destruction,4,4,12,['hero'],110,4,4,2,1,0,sword,3,,,,,,,
-790,058bed50,Loonsmasha Fanatic,Gloomspite Gitz,,destruction,5,5,6,['elite'],115,3,5,2,3,0,reach,4,,,,,,,
+788,6e3049bf,Sporesplatta Fanatic,Gloomspite Gitz,,destruction,5,4,6,"['elite', 'scout']",90,3,4,1,3,0,reach,5,,,,,,,
+789,bc47abdc,Moonclan Boss,Gloomspite Gitz,,destruction,4,4,12,['hero'],100,4,4,2,1,0,sword,3,,,,,,,
+790,058bed50,Loonsmasha Fanatic,Gloomspite Gitz,,destruction,5,5,6,['elite'],100,3,5,2,3,0,reach,4,,,,,,,
 791,2bf8f664,Fungoid Cave-Shaman,Gloomspite Gitz,,destruction,4,3,16,"['hero', 'mystic']",125,3,4,2,1,0,club,3,2.0,6.0,3.0,7.0,3.0,blast,3.0
 792,5ee7cd6d,Webspinner Shaman,Gloomspite Gitz,,destruction,4,3,16,"['hero', 'priest']",125,3,4,2,1,0,club,3,2.0,6.0,3.0,7.0,3.0,blast,3.0
-793,55d50942,Loonboss,Gloomspite Gitz,,destruction,4,4,16,"['hero', 'champion']",135,4,4,2,2,0,scythe,3,,,,,,,
+793,55d50942,Loonboss,Gloomspite Gitz,,destruction,4,4,16,"['hero', 'champion']",125,4,4,2,2,0,scythe,3,,,,,,,
 794,4bd7d1ce,Spider Rider,Gloomspite Gitz,,destruction,10,4,15,['destroyer'],145,3,4,1,2,0,spear,3,2.0,3.0,1.0,12.0,3.0,ranged,3.0
 795,16a08cca,Spider Rider Boss,Gloomspite Gitz,,destruction,10,4,20,"['hero', 'destroyer']",185,3,4,2,2,0,spear,3,3.0,3.0,1.0,12.0,3.0,ranged,3.0
 796,16d85e5e,Boingrot Bounder,Gloomspite Gitz,,destruction,8,5,15,"['elite', 'fly']",190,3,5,2,2,0,spear,4,,,,,,,
 797,f0e68c6e,Squig Hopper,Gloomspite Gitz,,destruction,10,4,15,"['elite', 'fly']",200,4,4,2,1,0,sword,4,,,,,,,
-798,8094293b,Bounder Boss,Gloomspite Gitz,,destruction,8,5,20,"['fly', 'hero', 'elite']",245,4,5,2,2,0,spear,4,,,,,,,
+798,8094293b,Bounder Boss,Gloomspite Gitz,,destruction,8,5,20,"['fly', 'hero', 'elite']",230,4,5,2,2,0,spear,4,,,,,,,
 799,8ab3d86a,Scuttleboss,Gloomspite Gitz,,destruction,10,4,26,"['hero', 'destroyer']",245,4,5,2,2,0,spear,4,,,,,,,
-800,6aff7fa3,Squig Hopper Boss,Gloomspite Gitz,,destruction,10,4,20,"['fly', 'hero', 'elite']",255,5,4,2,1,0,sword,4,,,,,,,
-801,e08454b0,Loonboss on Giant Cave Squig,Gloomspite Gitz,,destruction,8,5,26,"['fly', 'hero', 'elite']",285,4,5,2,2,0,spear,5,,,,,,,
-802,1565a04c,Rabble-Rowza,Gloomspite Gitz,,destruction,4,4,16,"['hero', 'sentience']",130,5,3,2,1,0,club,3,,,,,,,
-803,9dd13a32,Squigboss with Gnasha-Squig,Gloomspite Gitz,,destruction,4,3,16,"['hero', 'brute']",135,3,5,2,2,0,fangs,4,,,,,,,
+800,6aff7fa3,Squig Hopper Boss,Gloomspite Gitz,,destruction,10,4,20,"['fly', 'hero', 'elite']",230,5,4,2,1,0,sword,4,,,,,,,
+801,e08454b0,Loonboss on Giant Cave Squig,Gloomspite Gitz,,destruction,8,5,26,"['fly', 'hero', 'elite']",270,4,5,2,2,0,spear,5,,,,,,,
+802,1565a04c,Rabble-Rowza,Gloomspite Gitz,,destruction,4,4,16,"['hero', 'sentience']",125,5,3,2,1,0,club,3,,,,,,,
+803,9dd13a32,Squigboss with Gnasha-Squig,Gloomspite Gitz,,destruction,4,3,16,"['hero', 'brute']",125,3,5,2,2,0,fangs,4,,,,,,,
 804,7cc958a6,Snarlfang Rider Gitboss,Gloomspite Gitz,,destruction,10,4,20,"['hero', 'scout']",215,3,4,2,2,0,spear,5,2.0,3.0,2.0,12.0,3.0,ranged,4.0
 805,a12b0b25,Snarlfang Rider,Gloomspite Gitz,,destruction,10,4,15,['scout'],175,3,3,2,2,0,spear,5,2.0,3.0,2.0,12.0,3.0,ranged,3.0
 806,3050f851,Moonface Naggz,Gloomspite Gitz,Grinkrak's Looncourt,destruction,4,4,6,[],60,3,3,1,1,0,sword,2,,,,,,,
@@ -837,8 +837,8 @@
 835,612b4945,Orruk Weirdnob Shaman,Ironjawz,,destruction,3,4,32,"['hero', 'mystic']",170,3,4,1,2,0,club,4,2.0,6.0,3.0,7.0,3.0,blast,3.0
 836,da0c7a68,Orruk Brute with Gore-Choppa,Ironjawz,,destruction,3,5,25,['brute'],175,3,6,3,2,0,axe,5,,,,,,,
 837,e28a97d5,Orruk Warchanter,Ironjawz,,destruction,3,5,32,"['hero', 'frenzied']",180,4,4,2,1,0,club,4,,,,,,,
-838,e5cf6edc,Brute Boss with Boss Choppa,Ironjawz,,destruction,3,5,30,"['hero', 'brute']",200,3,6,3,1,0,axe,6,,,,,,,
-839,1e64b938,Brute Boss with Boss Klaw and Brute Smasha,Ironjawz,,destruction,3,5,30,"['hero', 'brute', 'berserker']",205,4,5,2,1,0,club,5,,,,,,,
+838,e5cf6edc,Brute Boss with Boss Choppa,Ironjawz,,destruction,3,5,30,"['hero', 'brute']",210,3,6,3,1,0,axe,6,,,,,,,
+839,1e64b938,Brute Boss with Boss Klaw and Brute Smasha,Ironjawz,,destruction,3,5,30,"['hero', 'brute', 'berserker']",210,4,5,2,1,0,club,5,,,,,,,
 840,95a5ddff,Orruk Megaboss,Ironjawz,,destruction,3,5,35,"['hero', 'champion']",225,3,8,4,1,0,axe,6,,,,,,,
 841,8838ae10,Orruk Gore-Grunta with Jagged Gore-Hacka,Ironjawz,,destruction,8,4,35,"['ferocious', 'mount']",245,4,4,2,2,0,spear,5,,,,,,,
 842,521ead0e,Orruk Gore-Grunta with Pig-iron Choppa,Ironjawz,,destruction,8,4,35,"['ferocious', 'mount']",250,5,4,2,1,0,axe,4,,,,,,,
@@ -850,7 +850,7 @@
 848,5bf1a2a8,Gurzag Ironskull,Ironjawz,Ironskull's Boyz,destruction,3,4,26,['hero'],175,4,5,2,1,0,axe,5,,,,,,,
 849,5a630853,Thugg,Ironjawz,Morgok's Krushas,destruction,3,5,26,['brute'],145,4,5,2,1,0,club,4,,,,,,,
 850,cdb42889,'Ardskull,Ironjawz,Morgok's Krushas,destruction,3,5,26,['brute'],165,2,6,3,2,0,club,6,,,,,,,
-851,034336b3,Morgok,Ironjawz,Morgok's Krushas,destruction,3,5,35,"['brute', 'hero']",220,4,5,3,1,0,sword,5,,,,,,,
+851,034336b3,Morgok,Ironjawz,Morgok's Krushas,destruction,3,5,35,"['brute', 'hero']",225,4,5,3,1,0,sword,5,,,,,,,
 852,27491f65,Ardboy With Choppa,Ironjawz,,destruction,3,5,15,['bulwark'],100,3,4,2,1,0,axe,4,,,,,,,
 853,f48c1b61,Ardboy With Stikka,Ironjawz,,destruction,3,5,15,['bulwark'],100,2,5,2,2,0,spear,4,,,,,,,
 854,2dd266be,Ardboy Boss With Choppa,Ironjawz,,destruction,3,5,20,"['hero', 'bulwark']",145,4,4,2,1,0,axe,4,,,,,,,
@@ -861,7 +861,7 @@
 859,f728815d,Clanrat with Rusty Blade,Skaven,,chaos,6,4,8,['agile'],70,3,3,1,1,0,dagger,3,,,,,,,
 860,80f86a7a,Clanrat with Rusty Spear,Skaven,,chaos,6,4,8,['agile'],70,2,4,1,2,0,spear,3,,,,,,,
 861,20d424eb,Giant Rat,Skaven,,chaos,8,2,4,"['agile', 'beast']",70,3,3,1,1,0,fangs,3,,,,,,,
-862,d5eac4fc,Packmaster,Skaven,,chaos,6,3,8,"['agile', 'frenzied']",70,3,3,1,1,0,fangs,3,3.0,2.0,1.0,3.0,0.0,reach,3.0
+862,d5eac4fc,Packmaster,Skaven,,chaos,6,3,8,"['agile', 'frenzied']",75,3,3,1,1,0,fangs,3,3.0,2.0,1.0,3.0,0.0,reach,3.0
 863,df8f7c83,Night Runner,Skaven,,chaos,6,3,8,['agile'],75,3,3,1,1,0,dagger,3,2.0,2.0,1.0,8.0,0.0,ranged,3.0
 864,84cedf20,Plague Monk with Pair of Foetid Blades,Skaven,,chaos,6,3,8,['agile'],80,4,4,1,1,0,dagger,3,,,,,,,
 865,8f86d542,Plague Monk with Foetid Blade and Woe-stave,Skaven,,chaos,6,3,8,['agile'],80,3,5,1,2,0,club,3,,,,,,,
@@ -912,8 +912,8 @@
 910,86dcd952,Skritch Spiteclaw,Skaven,Spiteclaw's Swarm,chaos,6,3,18,"['hero', 'agile']",120,3,5,2,2,0,spear,3,,,,,,,
 911,e98eb612,Clawlord on Gnaw-Beast,Skaven,,chaos,8,4,22,"['hero', 'mount', 'agile']",230,4,5,2,2,0,unarmed,4,6.0,2.0,1.0,8.0,0.0,ranged,3.0
 912,4ecf8dc1,Warlock Engineer With Warplock Jezzail,Skaven,,chaos,6,3,18,"['hero', 'destroyer', 'agile']",205,2,3,2,1,0,unarmed,2,2.0,5.0,2.0,24.0,6.0,ranged,4.0
-913,5cf6d806,Rat Ogor,Skaven,,chaos,5,5,28,"['beast', 'brute']",240,4,6,3,1,0,unarmed,6,,,,,,,
-914,1d57af33,Rat Ogor With Warpfire Gun,Skaven,,chaos,5,5,28,"['beast', 'brute']",230,2,6,3,1,0,unarmed,5,2.0,6.0,3.0,12.0,0.0,ranged,5.0
+913,5cf6d806,Rat Ogor,Skaven,,chaos,5,5,28,"['beast', 'brute']",250,4,6,3,1,0,unarmed,6,,,,,,,
+914,1d57af33,Rat Ogor With Warpfire Gun,Skaven,,chaos,5,5,28,"['beast', 'brute']",240,2,6,3,1,0,unarmed,5,2.0,6.0,3.0,12.0,0.0,ranged,5.0
 915,39czaahy,Zikkit Rockgnaw,Skaven,Zikkit's Tunnelpack,chaos,6,4,18,['hero'],205,4,4,2,2,0,spear,4,,,,,,,
 916,i30zqblp,Rittak Verm,Skaven,Zikkit's Tunnelpack,chaos,8,4,22,[],225,3,4,3,1,0,blast,6,,,,,,,
 917,nm0o1i7n,Krittatok,Skaven,Zikkit's Tunnelpack,chaos,6,3,8,[],80,4,3,1,1,0,claw,3,,,,,,,
@@ -963,7 +963,7 @@
 961,b2e31ca2,Awakened One with Flail,The Unmade,,chaos,4,3,10,[],65,3,3,1,1,0,dagger,3,3.0,2.0,1.0,3.0,0.0,reach,3.0
 962,31740359,Ascended One,The Unmade,,chaos,4,4,10,['warrior'],110,4,4,2,1,0,sword,4,,,,,,,
 963,ac71c483,Joyous One,The Unmade,,chaos,5,4,15,['destroyer'],140,4,4,2,1,0,dagger,4,,,,,,,
-964,9ecfd2ac,Blissful One,The Unmade,,chaos,8,4,20,['hero'],255,5,6,2,1,0,dagger,4,,,,,,,
+964,9ecfd2ac,Blissful One,The Unmade,,chaos,8,4,20,['hero'],225,5,6,2,1,0,dagger,4,,,,,,,
 965,39ee76bf,Initiate with Flameburst Pot,Scions of the Flame,,chaos,4,3,10,['trapper'],65,3,4,1,1,0,dagger,3,,,,,,,
 966,53e6f9b9,Initiate with Morning Star,Scions of the Flame,,chaos,4,3,10,[],65,3,4,1,3,0,reach,3,,,,,,,
 967,0763fc24,Initiate with Brazier Weapon,Scions of the Flame,,chaos,4,3,10,['trapper'],70,3,4,1,1,0,axe,4,,,,,,,
@@ -1021,7 +1021,7 @@
 1019,c30a039d,Doomweaver with Flail and Goad,Tarantulos Brood,,chaos,5,3,10,"['sentience', 'agile']",105,4,4,2,1,0,axe,4,3.0,4.0,1.0,3.0,0.0,reach,3.0
 1020,24c8b39e,Doomweaver with Trident and Net,Tarantulos Brood,,chaos,5,3,10,"['sentience', 'agile', 'trapper']",105,3,4,2,2,0,spear,4,,,,,,,
 1021,c0252322,Broodmaster,Tarantulos Brood,,chaos,6,4,18,"['hero', 'sentience', 'agile']",180,5,4,2,1,0,sword,4,,,,,,,
-1022,03d1baed,Blissbrew Homonculus,Hedonites of Slaanesh: Sybarites,,chaos,5,3,8,['priest'],55,3,3,1,1,0,dagger,3,,,,,,,
+1022,03d1baed,Blissbrew Homonculus,Hedonites of Slaanesh: Sybarites,,chaos,5,3,8,['priest'],60,3,3,1,1,0,dagger,3,,,,,,,
 1023,168a6cb0,Blissbarb Archer,Hedonites of Slaanesh: Sybarites,,chaos,5,3,8,['minion'],95,3,3,1,1,0,dagger,3,2.0,3.0,1.0,15.0,3.0,ranged,3.0
 1024,2dba4b10,Myrmidesh Painbringer,Hedonites of Slaanesh: Sybarites,,chaos,4,5,15,['warrior'],105,4,4,2,1,0,axe,3,,,,,,,
 1025,bf86fea4,Symbaresh Twinsoul with Excruciator Lash,Hedonites of Slaanesh: Sybarites,,chaos,4,4,15,['berserker'],110,4,4,2,3,0,reach,3,,,,,,,
@@ -1065,7 +1065,7 @@
 1063,3393e731,Heartseeker,Hedonites of Slaanesh: Daemons,,chaos,10,3,25,"['hero', 'warrior', 'mount']",195,5,4,2,1,0,claws,3,,,,,,,
 1064,1afe3c1c,Blissbringer,Hedonites of Slaanesh: Daemons,,chaos,8,3,30,"['hero', 'agile']",205,5,4,2,1,0,claws,3,,,,,,,
 1065,b4eae1e8,The Contorted Epitome,Hedonites of Slaanesh: Daemons,,chaos,10,3,25,"['hero', 'terrifying']",220,6,4,2,1,0,claws,3,2.0,6.0,3.0,7.0,3.0,blast,3.0
-1066,a9593653,Vexmor,Hedonites of Slaanesh: Daemons,Thricefold Discord,chaos,3,6,25,"['hero', 'brute']",150,1,10,5,2,0,spear,10,,,,,,,
+1066,a9593653,Vexmor,Hedonites of Slaanesh: Daemons,Thricefold Discord,chaos,3,6,25,"['hero', 'brute']",160,1,10,5,2,0,spear,10,,,,,,,
 1067,9d52fbc0,Vashtiss the Coiled,Hedonites of Slaanesh: Daemons,Thricefold Discord,chaos,4,3,16,"['hero', 'mystic']",115,3,4,2,2,0,club,3,2.0,6.0,3.0,7.0,3.0,blast,3.0
 1068,67c45005,"Lascivyr, the Bladed Blessing",Hedonites of Slaanesh: Daemons,Thricefold Discord,chaos,6,3,16,"['hero', 'frenzied']",135,6,3,2,1,0,dagger,3,,,,,,,
 1069,51f1b259,Cabalist,Corvus Cabal,,chaos,5,3,8,[],65,4,3,1,1,0,dagger,3,,,,,,,
@@ -1074,12 +1074,12 @@
 1072,897013b5,Spire Stalker,Corvus Cabal,,chaos,5,4,15,['champion'],130,4,4,2,1,0,sword,4,,,,,,,
 1073,1c34e766,Shadow Piercer,Corvus Cabal,,chaos,5,4,20,"['hero', 'scout']",170,4,5,2,1,0,sword,4,,,,,,,
 1074,bdf29dcf,Shrike Talon,Corvus Cabal,,chaos,8,4,20,['agile'],170,5,4,2,1,0,claws,4,,,,,,,
-1075,4a8e796c,Blood Whelp with Barb-Spear,Claws of Karanak,,chaos,5,3,12,['agile'],90,2,4,2,2,0,spear,4,,,,,,,
-1076,31b6f571,Blood Whelp with Claw-Flail,Claws of Karanak,,chaos,5,3,12,['agile'],90,3,3,1,3,0,reach,4,,,,,,,
-1077,5c857cbf,Brutaliser with Shredder Blade and Meat Hook,Claws of Karanak,,chaos,5,3,15,['terrifying'],115,3,5,2,1,0,axe,4,,,,,,,
-1078,4e7ef80d,Brutaliser with Shredder Blades,Claws of Karanak,,chaos,5,3,15,[],120,4,4,2,1,0,axe,4,,,,,,,
+1075,4a8e796c,Blood Whelp with Barb-Spear,Claws of Karanak,,chaos,5,3,12,['agile'],75,2,4,2,2,0,spear,4,,,,,,,
+1076,31b6f571,Blood Whelp with Claw-Flail,Claws of Karanak,,chaos,5,3,12,['agile'],75,3,3,1,3,0,reach,4,,,,,,,
+1077,5c857cbf,Brutaliser with Shredder Blade and Meat Hook,Claws of Karanak,,chaos,5,3,15,['terrifying'],105,3,5,2,1,0,axe,4,,,,,,,
+1078,4e7ef80d,Brutaliser with Shredder Blades,Claws of Karanak,,chaos,5,3,15,[],110,4,4,2,1,0,axe,4,,,,,,,
 1079,b2e7309e,Hound of Wrath,Claws of Karanak,,chaos,7,4,18,"['agile', 'beast']",170,5,4,2,1,0,claws,4,,,,,,,
-1080,8fb0c3ff,Packlord,Claws of Karanak,,chaos,5,4,20,['hero'],205,5,5,2,1,0,axe,5,,,,,,,
+1080,8fb0c3ff,Packlord,Claws of Karanak,,chaos,5,4,20,['hero'],185,5,5,2,1,0,axe,5,,,,,,,
 1081,1655db3c,Gor with Pair of Gor Blades,Beasts of Chaos,,chaos,5,3,10,[],60,3,3,1,1,0,axe,3,,,,,,,
 1082,d669a472,Ungor with Ungor Blade and Half-shield,Beasts of Chaos,,chaos,5,4,8,[],60,2,3,1,1,0,club,3,,,,,,,
 1083,c116073a,Ungor with Gnarled Shortspear and Half-shield,Beasts of Chaos,,chaos,5,4,8,[],60,2,4,1,2,0,spear,3,,,,,,,
@@ -1114,11 +1114,11 @@
 1112,c810fb18,Grashrak Fellhoof,Beasts of Chaos,Grashrak's Despoilers,chaos,5,4,25,"['hero', 'mystic']",185,3,4,2,2,0,club,3,2.0,6.0,3.0,7.0,3.0,blast,3.0
 1113,b7381b1e,Chaos Marauder with Barbarian Flail,Slaves to Darkness,,chaos,4,3,10,[],70,3,3,1,3,0,reach,3,,,,,,,
 1114,a7fbdaeb,Chaos Marauder with Barbarian Axe and Darkwood Shield,Slaves to Darkness,,chaos,4,4,10,['bulwark'],70,2,3,1,1,0,axe,3,,,,,,,
-1115,6f800d34,Chaos Warrior with Chaos Halberd and Chaos Runeshield,Slaves to Darkness,,chaos,4,6,15,['bulwark'],105,2,5,2,2,0,axe,4,,,,,,,
+1115,6f800d34,Chaos Warrior with Chaos Halberd and Chaos Runeshield,Slaves to Darkness,,chaos,4,6,15,['bulwark'],95,2,5,2,2,0,axe,4,,,,,,,
 1116,c942dd0e,Marauder Chieftain,Slaves to Darkness,,chaos,4,3,15,['hero'],105,4,4,1,1,0,axe,4,,,,,,,
-1117,3610764e,Chaos Warrior with Chaos Hand Weapon and Chaos Runeshield,Slaves to Darkness,,chaos,4,6,15,['bulwark'],110,3,4,2,1,0,axe,4,,,,,,,
-1118,4833f2b4,Chaos Warrior with Chaos Greatblade,Slaves to Darkness,,chaos,4,5,15,[],115,3,4,2,1,0,axe,5,,,,,,,
-1119,3fbb7d06,Chaos Warrior with Pair of Chaos Hand Weapons,Slaves to Darkness,,chaos,4,5,15,[],120,4,4,2,1,0,axe,4,,,,,,,
+1117,3610764e,Chaos Warrior with Chaos Hand Weapon and Chaos Runeshield,Slaves to Darkness,,chaos,4,6,15,['bulwark'],100,3,4,2,1,0,axe,4,,,,,,,
+1118,4833f2b4,Chaos Warrior with Chaos Greatblade,Slaves to Darkness,,chaos,4,5,15,[],105,3,4,2,1,0,axe,5,,,,,,,
+1119,3fbb7d06,Chaos Warrior with Pair of Chaos Hand Weapons,Slaves to Darkness,,chaos,4,5,15,[],110,4,4,2,1,0,axe,4,,,,,,,
 1120,19b6637d,Chaos Marauder Horseman with Barbarian Axe and Darkwood Shield,Slaves to Darkness,,chaos,10,4,18,['mount'],125,3,3,1,1,0,axe,3,,,,,,,
 1121,58331927,Chaos Marauder Horseman with Marauder Flail,Slaves to Darkness,,chaos,10,3,18,['mount'],130,4,3,1,3,0,reach,3,,,,,,,
 1122,123bab22,Chaos Marauder Horseman with Marauder Javelin and Darkwood Shield,Slaves to Darkness,,chaos,10,4,18,"['scout', 'mount']",140,3,4,1,2,0,spear,3,,,,,,,
@@ -1129,7 +1129,7 @@
 1127,7ed88e20,Exalted Hero of Chaos,Slaves to Darkness,,chaos,4,5,25,"['hero', 'champion']",185,4,5,2,1,0,axe,4,,,,,,,
 1128,920598c8,Chaos Knight with Cursed Lance and Chaos Runeshield,Slaves to Darkness,,chaos,10,6,22,['mount'],195,3,5,2,2,0,spear,4,,,,,,,
 1129,96d53b93,Chaos Knight with Ensorcelled Weapon and Chaos Runeshield,Slaves to Darkness,,chaos,10,6,22,['mount'],205,4,4,2,1,0,sword,4,,,,,,,
-1130,8f999f26,Chaos Lord,Slaves to Darkness,,chaos,4,5,25,"['hero', 'champion']",210,4,5,2,2,0,spear,5,,,,,,,
+1130,8f999f26,Chaos Lord,Slaves to Darkness,,chaos,4,5,25,"['hero', 'champion']",180,4,5,2,2,0,spear,5,,,,,,,
 1131,96bb2473,Horsemaster,Slaves to Darkness,,chaos,10,4,22,"['hero', 'mount']",215,4,4,2,1,0,axe,4,,,,,,,
 1132,82f4a0cb,Doom Knight,Slaves to Darkness,,chaos,10,6,26,"['hero', 'mount']",250,4,5,2,2,0,reach,4,,,,,,,
 1133,30bcd88b,Varanguard with Fellspear,Slaves to Darkness,,chaos,10,6,30,"['hero', 'terrifying', 'mount']",280,4,6,2,2,0,spear,4,,,,,,,
@@ -1137,10 +1137,10 @@
 1135,bc727cbe,Varanguard with Daemonforged Blade,Slaves to Darkness,,chaos,10,6,30,"['hero', 'terrifying', 'mount']",285,3,6,3,1,0,sword,5,,,,,,,
 1136,5edfa7b4,Varanguard with Ensorcelled weapon,Slaves to Darkness,,chaos,10,6,30,"['hero', 'terrifying', 'mount']",290,4,5,3,1,0,axe,4,,,,,,,
 1137,f08f6892,Chaos Lord on Karkadrak,Slaves to Darkness,,chaos,8,6,38,"['hero', 'agile', 'mount']",375,5,5,3,2,0,spear,5,,,,,,,
-1138,810bb2cc,Chaos Chosen Exalted Champion,Slaves to Darkness,,chaos,4,5,24,"['hero', 'warrior']",210,4,4,3,1,0,axe,5,,,,,,,
+1138,810bb2cc,Chaos Chosen Exalted Champion,Slaves to Darkness,,chaos,4,5,24,"['hero', 'warrior']",190,4,4,3,1,0,axe,5,,,,,,,
 1139,f5bbf9d4,Thorakon with Goroan Falchion and Shield,Slaves to Darkness,,chaos,5,6,28,"['hero', 'ferocious']",210,4,4,2,1,0,sword,5,,,,,,,
 1140,44766ee9,Thorakon with Goroan Great Axe,Slaves to Darkness,,chaos,5,5,28,"['hero', 'ferocious']",275,4,6,3,2,0,axe,5,,,,,,,
-1141,ac1ef533,Chaos Chosen,Slaves to Darkness,,chaos,4,5,20,['warrior'],155,3,4,3,1,0,axe,5,,,,,,,
+1141,ac1ef533,Chaos Chosen,Slaves to Darkness,,chaos,4,5,20,['warrior'],145,3,4,3,1,0,axe,5,,,,,,,
 1142,09dc4fa3,Ogroid Theridon with Goroan Falchion and Shield,Slaves to Darkness,,chaos,5,6,28,['ferocious'],195,4,4,2,1,0,sword,5,,,,,,,
 1143,c69e2171,Ogroid Theridon with Goroan Great Axe,Slaves to Darkness,,chaos,5,5,28,['ferocious'],220,3,6,3,2,0,axe,5,,,,,,,
 1144,5b4489f1,Crimson Kheira,Slaves to Darkness,Gnarlspirit Pack,chaos,5,4,15,[],100,5,4,1,1,0,axe,3,,,,,,,
@@ -1179,10 +1179,10 @@
 1177,693c826f,Putrid Blightking Icon Bearer,Maggotkin of Nurgle: Rotbringers,,chaos,3,4,25,['icon-bearer'],115,3,4,2,1,0,sword,4,,,,,,,
 1178,c4653f51,Putrid Blightking with Sonorous Tocsin,Maggotkin of Nurgle: Rotbringers,,chaos,3,4,25,['champion'],120,4,4,1,2,0,reach,4,,,,,,,
 1179,b5374eef,Rotbringer Sorcerer,Maggotkin of Nurgle: Rotbringers,,chaos,3,3,22,"['hero', 'mystic']",125,3,4,1,2,0,club,3,2.0,6.0,3.0,7.0,3.0,blast,3.0
-1180,8391675f,Putrid Blightking Blightlord,Maggotkin of Nurgle: Rotbringers,,chaos,3,4,30,['hero'],145,3,5,2,1,0,axe,4,,,,,,,
-1181,8ad9b33a,Lord of Blights,Maggotkin of Nurgle: Rotbringers,,chaos,3,5,32,"['hero', 'bulwark']",170,3,5,2,1,0,hammer,4,,,,,,,
-1182,167f9948,Lord of Plagues,Maggotkin of Nurgle: Rotbringers,,chaos,3,4,32,['hero'],170,3,5,3,1,0,axe,5,,,,,,,
-1183,f1437afa,Harbinger of Decay,Maggotkin of Nurgle: Rotbringers,,chaos,6,4,25,"['hero', 'terrifying', 'mount']",195,4,4,2,2,0,scythe,4,,,,,,,
+1180,8391675f,Putrid Blightking Blightlord,Maggotkin of Nurgle: Rotbringers,,chaos,3,4,30,['hero'],135,3,5,2,1,0,axe,4,,,,,,,
+1181,8ad9b33a,Lord of Blights,Maggotkin of Nurgle: Rotbringers,,chaos,3,5,32,"['hero', 'bulwark']",160,3,5,2,1,0,hammer,4,,,,,,,
+1182,167f9948,Lord of Plagues,Maggotkin of Nurgle: Rotbringers,,chaos,3,4,32,['hero'],160,3,5,3,1,0,axe,5,,,,,,,
+1183,f1437afa,Harbinger of Decay,Maggotkin of Nurgle: Rotbringers,,chaos,6,4,25,"['hero', 'terrifying', 'mount']",165,4,4,2,2,0,scythe,4,,,,,,,
 1184,537fc489,Pusgoyle Blightlord,Maggotkin of Nurgle: Rotbringers,,chaos,6,4,38,"['destroyer', 'fly']",260,4,5,2,2,0,scythe,5,,,,,,,
 1185,cfb33ba1,Lord of Afflictions,Maggotkin of Nurgle: Rotbringers,,chaos,6,4,42,"['fly', 'hero', 'destroyer']",320,4,5,3,2,0,axe,5,,,,,,,
 1186,d22aa232,Sepsimus the Plaguesworn,Maggotkin of Nurgle: Rotbringers,The Wurmspat,chaos,3,4,26,[],110,3,5,1,2,0,spear,4,,,,,,,
