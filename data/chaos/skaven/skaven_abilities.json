@@ -291,6 +291,7 @@
         "warband": "Zikkit's Tunnelpack",
         "cost": "quad",
         "description": "Pick a visible enemy fighter within 1\" of this fighter and roll 6 dice. For each roll that is equal to or less than the value of this ability, allocate 1 damage point to that enemy fighter, subtract 1 from the value of this ability and roll those dice again. Keep rolling in this way until the value of this ability is 0 or none of the dice rolled are equal to or less than the value of this ability.",
+        "runemarks": [
             "hero"
         ]
     }
