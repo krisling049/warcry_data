@@ -188,5 +188,33 @@
         "runemarks": [
             "hero"
         ]
+    },
+    {
+        "_id": "d117d47a",
+        "name": "Sotek's Venomites",
+        "warband": "Jaws of Itzl",
+        "cost": "double",
+        "description": "If no enemy fighter has a Sotek’s Venomites token, pick a visible enemy fighter within 6\" of this fighter and give them a Sotek’s Venomites token for the rest of the battle. While that enemy fighter has that token, if a melee attack action that targets that enemy fighter scores any critical hits, allocate D3 damage points to that enemy fighter. If a fighter with a Sotek’s Venomites token is removed from the battlefield, remove that Sotek’s Venomites from the battlefield.",
+        "runemarks": []
+    },
+    {
+        "_id": "918989e6",
+        "name": "Dedicated Guardian",
+        "warband": "Jaws of Itzl",
+        "cost": "double",
+        "description": "Until the end of the battle round, friendly fighters with the Hero runemark and the Jaws of Itzl runemark cannot be targeted while they are within 1\" of this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "11cf198c",
+        "name": "Sunblooded Quickening",
+        "warband": "Jaws of Itzl",
+        "cost": "quad",
+        "description": "Until the start of this fighter’s next activation, add 3 to the Move characteristic of visible friendly fighters with the Seraphon runemark that do not have the Mount or Fly runemarks and that start their activation within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
     }
 ]
