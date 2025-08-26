@@ -105,5 +105,33 @@
         "cost": "battletrait",
         "description": "At the start of each battle round, roll a dice for each enemy fighter within 1\" of one or more friendly fighters. On a roll of 5+, allocate 1 damage point to that fighter. Enemy fighters with this battle trait or the 'Disease-ridden' battle trait cannot be affected.",
         "runemarks": []
+    },
+    {
+        "_id": "b1cb3ec1",
+        "name": "Growing Infections",
+        "warband": "Grandfather's Gardeners",
+        "cost": "double",
+        "description": "Give this fighter a cycle counter and roll a dice. If the roll is equal to or less than the value of this ability, you gain the ability dice you spent to use this ability, at the same value. For the rest of the battle round, add 1 to the critical damage value of this fighter’s melee weapon for each cycle counter they have. Cycle counters are not discarded at the end of the battle round.",
+        "runemarks": []
+    },
+    {
+        "_id": "1f8ac0c8",
+        "name": "Sucking Proboscis",
+        "warband": "Grandfather's Gardeners",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter to be the target and roll a dice. Allocate a number of damage points to the target equal to the roll. If you allocate 5 or more damage points to the target using this ability, this fighter is taken down.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "ee0bc964",
+        "name": "The Grand Cycle of Decay",
+        "warband": "Grandfather's Gardeners",
+        "cost": "triple",
+        "description": "Each friendly fighter’s cycle counters must be given to another friendly fighter on the battlefield with the Grandfather’s Gardener’s runemark. Each fighter may only be given cycle counters once each time this ability is used.",
+        "runemarks": [
+            "hero"
+        ]
     }
 ]
