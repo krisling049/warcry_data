@@ -18172,6 +18172,55 @@
         ]
     },
     {
+        "_id": "68ddfc6b",
+        "name": "Sanson Farstrider",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "The Farstriders",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 170,
+        "abilities": [
+            {
+                "_id": "be5f2527"
+            },
+            {
+                "_id": "c5955d4a"
+            },
+            {
+                "_id": "90f154cc"
+            },
+            {
+                "_id": "6a8cfa78"
+            }
+        ]
+    },
+    {
         "_id": "df9fe661",
         "name": "Scalebreaker with Fyresteel Splitaxe",
         "warband": "Vulkyn Flameseekers",
