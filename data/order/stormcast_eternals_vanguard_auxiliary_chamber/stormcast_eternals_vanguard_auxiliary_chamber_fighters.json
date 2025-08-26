@@ -591,14 +591,14 @@
         "points": 135
     },
     {
-        "_id": "68ddfc6b",
-        "name": "Sanson Farstrider",
+        "_id": "0pnm5n5z",
+        "name": "Ardorn Flamerunner",
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
-        "subfaction": "The Farstriders",
+        "subfaction": "The Emberwatch",
         "grand_alliance": "order",
         "movement": 4,
         "toughness": 5,
-        "wounds": 30,
+        "wounds": 25,
         "weapons": [
             {
                 "attacks": 4,
@@ -613,16 +613,83 @@
                 "attacks": 3,
                 "dmg_crit": 4,
                 "dmg_hit": 1,
-                "max_range": 8,
+                "max_range": 10,
                 "min_range": 0,
                 "runemark": "ranged",
                 "strength": 4
             }
         ],
         "runemarks": [
-            "hero",
-            "warrior"
+            "hero"
         ],
-        "points": 170
+        "points": 190
+    },
+    {
+        "_id": "fb8xgmfx",
+        "name": "Farasa Twice-Risen",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "The Emberwatch",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "champion"
+        ],
+        "points": 155
+    },
+    {
+        "_id": "q6lx5d3i",
+        "name": "Yurik Velzaine",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "subfaction": "The Emberwatch",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 24,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "destroyer"
+        ],
+        "points": 290
     }
 ]

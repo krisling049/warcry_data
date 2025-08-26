@@ -914,5 +914,41 @@
             "fly"
         ],
         "points": 195
+    },
+    {
+        "_id": "yhgkppek",
+        "name": "Lord Vitriolic",
+        "warband": "Nighthaunt",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "scount",
+            "fly"
+        ],
+        "points": 140
     }
 ]

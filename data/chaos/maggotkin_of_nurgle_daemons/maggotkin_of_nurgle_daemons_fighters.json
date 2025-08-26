@@ -239,5 +239,131 @@
             "destroyer"
         ],
         "points": 255
+    },
+    {
+        "_id": "h6aj4nmw",
+        "name": "Phleghmus Potbelly",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "Grandfather's Gardeners",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 160
+    },
+    {
+        "_id": "0aa544kc",
+        "name": "Bug-eye Dripterus",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "Grandfather's Gardeners",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 15,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "icon-bearer"
+        ],
+        "points": 85
+    },
+    {
+        "_id": "ss2onktu",
+        "name": "Slunge",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "Grandfather's Gardeners",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 55
+    },
+    {
+        "_id": "34be1gzm",
+        "name": "Maggoty Strewg",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "Grandfather's Gardeners",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "scythe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "warrior"
+        ],
+        "points": 60
+    },
+    {
+        "_id": "ptlosfhz",
+        "name": "Squort",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "subfaction": "Grandfather's Gardeners",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 2
+            }
+        ],
+        "runemarks": [
+            "beast",
+            "fly"
+        ],
+        "points": 55
     }
 ]

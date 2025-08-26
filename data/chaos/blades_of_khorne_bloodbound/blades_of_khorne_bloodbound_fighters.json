@@ -963,5 +963,58 @@
             "beast"
         ],
         "points": 185
+    },
+    {
+        "_id": "gi2vc1re",
+        "name": "Deathbringer",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 26,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 180
+    },
+    {
+        "_id": "64mdxku6",
+        "name": "Realmgore Ritualist",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "priest",
+            "mystic"
+        ],
+        "points": 130
     }
 ]

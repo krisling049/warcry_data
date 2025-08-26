@@ -1472,5 +1472,83 @@
             "warrior"
         ],
         "points": 175
+    },
+    {
+        "_id": "ffguvt5r",
+        "name": "Kro-Jax, the Aegis",
+        "warband": "Seraphon",
+        "subfaction": "Jaws of Itzl",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 5,
+        "wounds": 30,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 240
+    },
+    {
+        "_id": "bolny32m",
+        "name": "So-Kar",
+        "warband": "Seraphon",
+        "subfaction": "Jaws of Itzl",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "bulwark",
+            "warrior"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "bolny32m",
+        "name": "Ro-Tak , the Guardian",
+        "warband": "Seraphon",
+        "subfaction": "Jaws of Itzl",
+        "grand_alliance": "order",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 16,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "bulwark",
+            "warrior"
+        ],
+        "points": 150
     }
 ]

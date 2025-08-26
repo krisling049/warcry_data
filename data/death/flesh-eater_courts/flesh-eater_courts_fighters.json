@@ -862,5 +862,40 @@
             "fly"
         ],
         "points": 120
+    },
+    {
+        "_id": "o5iro0e3",
+        "name": "High Falconer Felgryn",
+        "warband": "Flesh-eater Courts",
+        "subfaction": "",
+        "grand_alliance": "death",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 20,
+                "min_range": 6,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "trapper"
+        ],
+        "points": 160
     }
 ]
