@@ -248,5 +248,50 @@
             "hero",
             "destroyer"
         ]
+    },
+    {
+        "_id": "7283a678",
+        "name": "Tunnel-skitter",
+        "warband": "Zikkit's Tunnelpack",
+        "cost": "double",
+        "description": "Pick a point on the battlefield floor or a platform within 9\" of this fighter. Then, remove this fighter from the battlefield and set them up within 1\" of that point and more than 5\" from all enemy fighters.",
+        "runemarks": []
+    },
+    {
+        "_id": "92a460e6",
+        "name": "Tick Tick Tick...",
+        "warband": "Zikkit's Tunnelpack",
+        "cost": "double",
+        "description": "If your Tik Tik is taken down and is listed on your warband roster, set up a friendly Tik Tik within 1\" of this fighter. That Tik Tik cannot move this turn.",
+        "runemarks": []
+    },
+    {
+        "_id": "e4b772d8",
+        "name": "Kaboom!",
+        "warband": "Zikkit's Tunnelpack",
+        "cost": "double",
+        "description": "Allocate D3 damage points to each enemy fighter within 3\" of this fighter and gain 1 wild dice. Then, remove this fighter from the battlefield (this fighter is taken down).",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "68bca74d",
+        "name": "Vrrrrrmmmmmm!",
+        "warband": "Zikkit's Tunnelpack",
+        "cost": "triple",
+        "description": "If this fighter is within 3\" of the battlefield edge, remove this fighter from the battlefield, then roll a dice. Then, set them up on the battlefield floor, within 3\" of the battlefield edge and more than X\" from all enemy fighters, where X is equal to the roll.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "b4ff82af",
+        "name": "Drill-drill the Fool-Foe!",
+        "warband": "Zikkit's Tunnelpack",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll 6 dice. For each roll that is equal to or less than the value of this ability, allocate 1 damage point to that enemy fighter, subtract 1 from the value of this ability and roll those dice again. Keep rolling in this way until the value of this ability is 0 or none of the dice rolled are equal to or less than the value of this ability.",
+            "hero"
+        ]
     }
 ]
