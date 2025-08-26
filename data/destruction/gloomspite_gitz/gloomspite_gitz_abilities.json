@@ -325,5 +325,31 @@
         "runemarks": [
             "ferocious"
         ]
+    },
+    {
+        "_id": "3d8ade60",
+        "name": "Shank Dat Git",
+        "warband": "Borgit's Beastgrabbaz",
+        "cost": "double",
+        "description": " If there are no enemy trofees, pick a visible enemy fighter to be the trofee until they are taken down. In addition, add 2 to the Attacks characteristic of melee attack actions made by friendly fighters with the Borgit’s Beastgrabbaz runemark that target the trofee.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "d89a7a8a",
+        "name": "Da Bait",
+        "warband": "Borgit's Beastgrabbaz",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Borgit’s Beastgrabbaz runemark wholly within 6\" of and visible to a friendly fighter with the Borgit’s Beastgrabbaz and Hero runemarks to be da bait for the rest of the battle round. Enemy fighters visible to and within a number of inches of da bait equal to the highest Range characteristic of any melee weapons they have must target da bait with all melee attack actions they make.",
+        "runemarks": []
+    },
+    {
+        "_id": "9499f2b5",
+        "name": "Gittish Taktikz",
+        "warband": "Borgit's Beastgrabbaz",
+        "cost": "quad",
+        "description": "Pick an enemy fighter that is visible to this fighter. Allocate a number of damage points to that enemy fighter equal to twice the number of friendly fighters with the Borgit’s Beastgrabbaz runemark within 3\" of them. If the target is the trofee, allocate a number of damage points to that enemy fighter equal to four times the number of friendly fighters with the Borgit’s Beastgrabbaz runemark within 3\" of them instead.",
+        "runemarks": []
     }
 ]
