@@ -88,5 +88,25 @@
         "runemarks": [
             "trapper"
         ]
+    },
+    {
+        "_id": "2af77b18",
+        "name": "Banishment",
+        "warband": "Order of Azyr",
+        "cost": "double",
+        "description": "Until the end of this fighter’s activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from missile attack actions made by this fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "1d7121f4",
+        "name": "Judgement",
+        "warband": "Order of Azyr",
+        "cost": "triple",
+        "description": "Until the end of this fighter’s activation, missile attack actions made by this fighter score a critical hit on a roll of 5+.",
+        "runemarks": [
+            "destroyer"
+        ]
     }
 ]

@@ -178,5 +178,16 @@
         "cost": "battletrait",
         "description": "Once per battle round, pick a friendly fighter with this battle trait. For that battle round, after that fighter's activation, you can pick an enemy fighter that was allocated 1 or more damage points by a melee attack action made by the fighter you picked. Allocated D3 damage points to that enemy fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "5f40dd2d",
+        "name": "Keep Your Heads Down and Scarper, Ladz...",
+        "warband": "Kruleboyz",
+        "cost": "double",
+        "description": "Add 1 to the Move and the Toughness characteristics of friendly fighters with both the Kruleboyz and the Minion runemarks while they are within 6\" of this fighter for the rest of the battle round.",
+        "runemarks": [
+            "hero",
+            "scout"
+        ]
     }
 ]

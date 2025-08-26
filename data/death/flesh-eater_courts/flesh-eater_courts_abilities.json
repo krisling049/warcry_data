@@ -176,5 +176,16 @@
         "runemarks": [
             "hero"
         ]
+    },
+    {
+        "_id": "f16affc1",
+        "name": "Eye Shred",
+        "warband": "Flesh-eater Courts",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter that was allocated any damage points this activation by any of this fighter’s missile attack actions to be the target. Give that target a Grype token. That target cannot score critical hits for the rest of the battle round while they have that token (hit rolls that would be critical hits score hits instead). If any damage points allocated to a fighter with a Grype token would be removed, remove that Grype token instead. There cannot be more than one enemy fighter with a friendly Grype token on the battlefield.",
+        "runemarks": [
+            "hero",
+            "trapper"
+        ]
     }
 ]

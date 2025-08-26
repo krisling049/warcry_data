@@ -43,10 +43,10 @@
     },
     {
         "_id": "cad56a1d",
-        "name": "Virulent Discharge",
+        "name": "Spurting Mucus",
         "warband": "Maggotkin of Nurgle: Rotbringers",
         "cost": "double",
-        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to that fighter.",
+        "description": "Until the end of the battle round, each time this fighter is allocated a damage point by a melee attack action made by an enemy fighter, roll a dice. On a 3+ allocate 1 damage point to that enemy fighter.",
         "runemarks": []
     },
     {

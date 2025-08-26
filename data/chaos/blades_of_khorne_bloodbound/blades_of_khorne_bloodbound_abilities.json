@@ -223,5 +223,27 @@
         "runemarks": [
             "beast"
         ]
+    },
+    {
+        "_id": "a91550f4",
+        "name": "Killer of Kings",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "triple",
+        "description": "Pick an enemy fighter that was allocated any damage points this activation by any of this fighter’s melee attack actions to be the target and roll a number of dice equal to the value of this ability. On any unmodified rolls of 6, allocate a number of damage points to that enemy fighter equal to their Wounds characteristic. Those damage points cannot be ignored.",
+        "runemarks": [
+            "hero",
+            "warrior"
+        ]
+    },
+    {
+        "_id": "f6e733c3",
+        "name": "Desecrating Blood Runes",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "triple",
+        "description": "Pick a terrain feature within 1\" of this fighter. For the rest of the battle round, if a melee attack action made by a friendly fighter within 3\" of that terrain feature and that has the Blades of Khorne: Bloodbound runemark scores any critical hits, allocate D3 damage points to the target of that attack action after that attack action is resolved.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
     }
 ]

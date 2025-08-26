@@ -3,5 +3,11 @@
     "warband": "Maggotkin of Nurgle: Daemons",
     "bladeborn": false,
     "heroes_all": false,
-    "subfactions": []
+    "subfactions": [
+        {
+            "runemark": "Grandfather's Gardeners",
+            "bladeborn": true,
+            "heroes_all": true
+        }
+    ]
 }

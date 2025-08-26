@@ -70,7 +70,7 @@
         "name": "Counter",
         "warband": "universal",
         "cost": "reaction",
-        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, allocate 1 damage point to the attacking fighter. For each hit roll of 1, allocate 2 damage points to the attacking fighter instead.",
+        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If there are any unmodified hit rolls of 1, allocate 2 damage points to the attacking fighter. In addition, if there are 2 or more hit rolls from that attack action that miss, allocate 1 damage point to the attacking fighter.",
         "runemarks": []
     },
     {

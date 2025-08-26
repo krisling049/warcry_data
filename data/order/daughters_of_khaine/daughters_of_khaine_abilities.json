@@ -202,5 +202,33 @@
         "runemarks": [
             "hero"
         ]
+    },
+    {
+        "_id": "dc781771",
+        "name": "Offerings of Foresight",
+        "warband": "Knives of the Crone",
+        "cost": "double",
+        "description": "Roll a number of dice equal to the value of this ability. If any damage points have been allocated to enemy fighters this battle round by this fighter's attack actions, add 1 to each roll. For each roll of 4+, you gain 1 prophecy point, to a maximum of 6.",
+        "runemarks": []
+    },
+    {
+        "_id": "1d07acc9",
+        "name": "Ritual of Prophecy",
+        "warband": "Knives of the Crone",
+        "cost": "triple",
+        "description": "Pick 1 of the following effects to apply to this fighter, then reset your prophecy points to 0:\n\n• Add your prophecy points to their Move characteristic for the rest of the activation.\n\n• Add your prophecy points to their Toughness characteristic for the rest of the battle round.\n\n• Immediately allocate your prophecy points as evenly as possible between the Attacks characteristic, Strength characteristic and both values of the Damage characteristic of their melee weapon. Add 1 to each for each prophecy point allocated to it for the rest of the activation.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "48984676",
+        "name": "Wings of Darkness",
+        "warband": "Knives of the Crone",
+        "cost": "double",
+        "description": "Remove this fighter from the battlefield, then set them up again on a platform or the battlefield floor and more than 9\" from all enemy fighters. If the value of this ability is 3 or more, this fighter can make a bonus move action of 3\" after they are set up.",
+        "runemarks": [
+            "fly"
+        ]
     }
 ]

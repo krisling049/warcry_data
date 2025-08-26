@@ -187,5 +187,25 @@
         "cost": "battletrait",
         "description": "In battle rounds 1 and 2, add 1 to the Move characteristic of friendly fighters with this battle trait. In battle rounds 3 and 4, add 1 to the Strength characteristic of melee attack actions made by friendly fighters with the battle trait.",
         "runemarks": []
+    },
+    {
+        "_id": "58cf8158",
+        "name": "The Surging Sea",
+        "warband": "Idoneth Deepkin",
+        "cost": "triple",
+        "description": "For the rest of the battle round, each time a friendly fighter with the Idoneth Deepkin runemark within 6\" of this fighter makes a move action, you can add 2 to their Move characteristic for that action.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "14323d4a",
+        "name": "Whirlpool's Fury",
+        "warband": "Idoneth Deepkin",
+        "cost": "triple",
+        "description": "For the rest of the battle round, visible enemy fighters within 3\" of this fighter cannot make disengage actions while they are within 3\" of this fighter. In addition, subtract 1 from the damage points allocated to friendly fighters by each hit from attack actions made by those enemy fighters (to a minimum of 1).",
+        "runemarks": [
+            "terrifying"
+        ]
     }
 ]
