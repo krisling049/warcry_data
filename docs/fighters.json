@@ -1166,6 +1166,33 @@
         "wounds": 20
     },
     {
+        "_id": "64mdxku6",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Realmgore Ritualist",
+        "points": 130,
+        "runemarks": [
+            "hero",
+            "priest",
+            "mystic"
+        ],
+        "subfaction": "",
+        "toughness": 3,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            }
+        ],
+        "wounds": 18
+    },
+    {
         "_id": "5584f517",
         "grand_alliance": "chaos",
         "movement": 4,
@@ -1452,6 +1479,32 @@
             }
         ],
         "wounds": 28
+    },
+    {
+        "_id": "gi2vc1re",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Deathbringer",
+        "points": 180,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "subfaction": "",
+        "toughness": 5,
+        "warband": "Blades of Khorne: Bloodbound",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "wounds": 26
     },
     {
         "_id": "3c23da85",
@@ -6668,6 +6721,57 @@
         "wounds": 20
     },
     {
+        "_id": "ss2onktu",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Slunge",
+        "points": 55,
+        "runemarks": [
+            "warrior"
+        ],
+        "subfaction": "Grandfather's Gardeners",
+        "toughness": 4,
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "ptlosfhz",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Squort",
+        "points": 55,
+        "runemarks": [
+            "beast",
+            "fly"
+        ],
+        "subfaction": "Grandfather's Gardeners",
+        "toughness": 3,
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 2
+            }
+        ],
+        "wounds": 6
+    },
+    {
         "_id": "bb658018",
         "grand_alliance": "chaos",
         "movement": 3,
@@ -6691,6 +6795,56 @@
             }
         ],
         "wounds": 10
+    },
+    {
+        "_id": "34be1gzm",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Maggoty Strewg",
+        "points": 60,
+        "runemarks": [
+            "warrior"
+        ],
+        "subfaction": "Grandfather's Gardeners",
+        "toughness": 4,
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "scythe",
+                "strength": 3
+            }
+        ],
+        "wounds": 10
+    },
+    {
+        "_id": "0aa544kc",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Bug-eye Dripterus",
+        "points": 85,
+        "runemarks": [
+            "icon-bearer"
+        ],
+        "subfaction": "Grandfather's Gardeners",
+        "toughness": 4,
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 15
     },
     {
         "_id": "68ef25a4",
@@ -6854,6 +7008,31 @@
             }
         ],
         "wounds": 30
+    },
+    {
+        "_id": "h6aj4nmw",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Phleghmus Potbelly",
+        "points": 160,
+        "runemarks": [
+            "hero"
+        ],
+        "subfaction": "Grandfather's Gardeners",
+        "toughness": 4,
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 4
+            }
+        ],
+        "wounds": 25
     },
     {
         "_id": "67ae7666",
@@ -8129,6 +8308,54 @@
         "wounds": 10
     },
     {
+        "_id": "nm0o1i7n",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Krittatok",
+        "points": 80,
+        "runemarks": [],
+        "subfaction": "Zikkit's Tunnelpack",
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claw",
+                "strength": 3
+            }
+        ],
+        "wounds": 8
+    },
+    {
+        "_id": "4mtdylki",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Tik Tik",
+        "points": 80,
+        "runemarks": [
+            "beast"
+        ],
+        "subfaction": "Zikkit's Tunnelpack",
+        "toughness": 2,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 4
+    },
+    {
         "_id": "c7d98639",
         "grand_alliance": "chaos",
         "movement": 6,
@@ -8358,6 +8585,38 @@
             }
         ],
         "wounds": 12
+    },
+    {
+        "_id": "qgy19ws7",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Nitch Singe-Snout",
+        "points": 100,
+        "runemarks": [],
+        "subfaction": "Zikkit's Tunnelpack",
+        "toughness": 3,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 4
+            }
+        ],
+        "wounds": 8
     },
     {
         "_id": "0fd4eed6",
@@ -9044,6 +9303,31 @@
         "wounds": 18
     },
     {
+        "_id": "39czaahy",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Zikkit Rockgnaw",
+        "points": 205,
+        "runemarks": [
+            "hero"
+        ],
+        "subfaction": "Zikkit's Tunnelpack",
+        "toughness": 4,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 18
+    },
+    {
         "_id": "6e76e882",
         "grand_alliance": "chaos",
         "movement": 5,
@@ -9103,6 +9387,29 @@
             }
         ],
         "wounds": 28
+    },
+    {
+        "_id": "i30zqblp",
+        "grand_alliance": "chaos",
+        "movement": 8,
+        "name": "Rittak Verm",
+        "points": 225,
+        "runemarks": [],
+        "subfaction": "Zikkit's Tunnelpack",
+        "toughness": 4,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 6
+            }
+        ],
+        "wounds": 22
     },
     {
         "_id": "e98eb612",
@@ -12713,6 +13020,41 @@
         "wounds": 20
     },
     {
+        "_id": "o5iro0e3",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "High Falconer Felgryn",
+        "points": 160,
+        "runemarks": [
+            "hero",
+            "trapper"
+        ],
+        "subfaction": "",
+        "toughness": 3,
+        "warband": "Flesh-eater Courts",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 20,
+                "min_range": 6,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "wounds": 18
+    },
+    {
         "_id": "ea1a6684",
         "grand_alliance": "death",
         "movement": 5,
@@ -13510,6 +13852,42 @@
             }
         ],
         "wounds": 16
+    },
+    {
+        "_id": "yhgkppek",
+        "grand_alliance": "death",
+        "movement": 8,
+        "name": "Lord Vitriolic",
+        "points": 140,
+        "runemarks": [
+            "hero",
+            "scount",
+            "fly"
+        ],
+        "subfaction": "",
+        "toughness": 4,
+        "warband": "Nighthaunt",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "wounds": 25
     },
     {
         "_id": "94d1c63f",
@@ -15770,6 +16148,41 @@
         "wounds": 15
     },
     {
+        "_id": "mk84uwp6",
+        "grand_alliance": "death",
+        "movement": 4,
+        "name": "Aurelias",
+        "points": 135,
+        "runemarks": [
+            "hero",
+            "mystic"
+        ],
+        "subfaction": "The Blades of the Hollow King",
+        "toughness": 4,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
+                "strength": 3
+            }
+        ],
+        "wounds": 20
+    },
+    {
         "_id": "749b2ad5",
         "grand_alliance": "death",
         "movement": 4,
@@ -15966,6 +16379,32 @@
         "wounds": 20
     },
     {
+        "_id": "uoie8qh9",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Sissendra",
+        "points": 175,
+        "runemarks": [
+            "hero",
+            "brute"
+        ],
+        "subfaction": "The Blades of the Hollow King",
+        "toughness": 4,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 5,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 28
+    },
+    {
         "_id": "d4b9ecfb",
         "grand_alliance": "death",
         "movement": 6,
@@ -16155,6 +16594,33 @@
         "wounds": 25
     },
     {
+        "_id": "zaw0flmt",
+        "grand_alliance": "death",
+        "movement": 8,
+        "name": "Wight Lord on Skeletal Steed",
+        "points": 215,
+        "runemarks": [
+            "hero",
+            "berserker",
+            "mount"
+        ],
+        "subfaction": "",
+        "toughness": 5,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "wounds": 25
+    },
+    {
         "_id": "20123322",
         "grand_alliance": "death",
         "movement": 5,
@@ -16180,6 +16646,32 @@
             }
         ],
         "wounds": 25
+    },
+    {
+        "_id": "fzuhetl5",
+        "grand_alliance": "death",
+        "movement": 5,
+        "name": "Cado Ezechiar",
+        "points": 235,
+        "runemarks": [
+            "hero",
+            "terrifying"
+        ],
+        "subfaction": "The Blades of the Hollow King",
+        "toughness": 5,
+        "warband": "Soulblight Gravelords",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            }
+        ],
+        "wounds": 28
     },
     {
         "_id": "da81876a",
@@ -17137,6 +17629,29 @@
         "wounds": 25
     },
     {
+        "_id": "o82q9qpy",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Snagz",
+        "points": 50,
+        "runemarks": [],
+        "subfaction": "Borgit's Beastgrabbaz",
+        "toughness": 3,
+        "warband": "Gloomspite Gitz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 2
+            }
+        ],
+        "wounds": 6
+    },
+    {
         "_id": "2ae1f047",
         "grand_alliance": "destruction",
         "movement": 4,
@@ -17277,6 +17792,29 @@
             }
         ],
         "wounds": 6
+    },
+    {
+        "_id": "o82q9qpy",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Rigg and Shamm",
+        "points": 60,
+        "runemarks": [],
+        "subfaction": "Borgit's Beastgrabbaz",
+        "toughness": 3,
+        "warband": "Gloomspite Gitz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 2
+            }
+        ],
+        "wounds": 10
     },
     {
         "_id": "0b7a7d3c",
@@ -17443,6 +17981,38 @@
             }
         ],
         "wounds": 12
+    },
+    {
+        "_id": "3fn0u2b5",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Hobblin' Dreg",
+        "points": 75,
+        "runemarks": [],
+        "subfaction": "Borgit's Beastgrabbaz",
+        "toughness": 3,
+        "warband": "Gloomspite Gitz",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 2
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "wounds": 6
     },
     {
         "_id": "9fe09a30",
@@ -17761,6 +18331,29 @@
         "wounds": 18
     },
     {
+        "_id": "s76ya4vs",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Uglug",
+        "points": 120,
+        "runemarks": [],
+        "subfaction": "Borgit's Beastgrabbaz",
+        "toughness": 4,
+        "warband": "Gloomspite Gitz",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
         "_id": "2bf8f664",
         "grand_alliance": "destruction",
         "movement": 4,
@@ -18051,6 +18644,31 @@
             }
         ],
         "wounds": 16
+    },
+    {
+        "_id": "8kk0lics",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Borgit Wolf-Killa",
+        "points": 140,
+        "runemarks": [
+            "hero"
+        ],
+        "subfaction": "Borgit's Beastgrabbaz",
+        "toughness": 4,
+        "warband": "Gloomspite Gitz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 18
     },
     {
         "_id": "4bd7d1ce",
@@ -23416,6 +24034,29 @@
         "wounds": 10
     },
     {
+        "_id": "feum77uq",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Tazari",
+        "points": 85,
+        "runemarks": [],
+        "subfaction": "Knives of the Crone",
+        "toughness": 3,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
         "_id": "7117ed5b",
         "grand_alliance": "order",
         "movement": 5,
@@ -23498,6 +24139,31 @@
         "wounds": 12
     },
     {
+        "_id": "wr5c4w3k",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Krieta, wing of the Crone",
+        "points": 100,
+        "runemarks": [
+            "fly"
+        ],
+        "subfaction": "Knives of the Crone",
+        "toughness": 3,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 12
+    },
+    {
         "_id": "52f751d2",
         "grand_alliance": "order",
         "movement": 6,
@@ -23542,6 +24208,31 @@
             }
         ],
         "wounds": 10
+    },
+    {
+        "_id": "8hzd353j",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Kaerna Vix",
+        "points": 120,
+        "runemarks": [
+            "hero"
+        ],
+        "subfaction": "Knives of the Crone",
+        "toughness": 3,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 20
     },
     {
         "_id": "0d24141f",
@@ -23593,6 +24284,38 @@
             }
         ],
         "wounds": 18
+    },
+    {
+        "_id": "nti07s8w",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Azphel, the Hag's Eye",
+        "points": 130,
+        "runemarks": [],
+        "subfaction": "Knives of the Crone",
+        "toughness": 3,
+        "warband": "Daughters of Khaine",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 12
     },
     {
         "_id": "c63f9100",
@@ -25351,6 +26074,33 @@
         "wounds": 20
     },
     {
+        "_id": "d3xtb8hb",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Ikon of the Sea",
+        "points": 180,
+        "runemarks": [
+            "hero",
+            "fly",
+            "brute"
+        ],
+        "subfaction": "",
+        "toughness": 3,
+        "warband": "Idoneth Deepkin",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "wounds": 20
+    },
+    {
         "_id": "2e85defe",
         "grand_alliance": "order",
         "movement": 5,
@@ -25406,6 +26156,33 @@
                 "max_range": 2,
                 "min_range": 0,
                 "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
+        "_id": "972o3kry",
+        "grand_alliance": "order",
+        "movement": 6,
+        "name": "Ikon of the Storm",
+        "points": 200,
+        "runemarks": [
+            "hero",
+            "fly",
+            "terrifying"
+        ],
+        "subfaction": "",
+        "toughness": 3,
+        "warband": "Idoneth Deepkin",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
                 "strength": 4
             }
         ],
@@ -27866,6 +28643,42 @@
         "wounds": 20
     },
     {
+        "_id": "cbd5wva2",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Doralia ven Denst",
+        "points": 125,
+        "runemarks": [
+            "hero",
+            "frenzied",
+            "warrior"
+        ],
+        "subfaction": "",
+        "toughness": 4,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 1,
+                "dmg_hit": 4,
+                "max_range": 15,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 18
+    },
+    {
         "_id": "b77deaf5",
         "grand_alliance": "order",
         "movement": 4,
@@ -27901,6 +28714,42 @@
         "wounds": 18
     },
     {
+        "_id": "w1g4hyns",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Galen ven Denst",
+        "points": 135,
+        "runemarks": [
+            "hero",
+            "berserker",
+            "warrior"
+        ],
+        "subfaction": "",
+        "toughness": 4,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 1,
+                "dmg_hit": 3,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
+    },
+    {
         "_id": "5a274449",
         "grand_alliance": "order",
         "movement": 4,
@@ -27934,6 +28783,42 @@
             }
         ],
         "wounds": 10
+    },
+    {
+        "_id": "47yxu2hf",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Jelsen Darrock",
+        "points": 185,
+        "runemarks": [
+            "hero",
+            "berserker",
+            "warrior"
+        ],
+        "subfaction": "",
+        "toughness": 4,
+        "warband": "Order of Azyr",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 5
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 4,
+                "max_range": 20,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
     },
     {
         "_id": "621649f9",
@@ -28625,6 +29510,32 @@
         "wounds": 14
     },
     {
+        "_id": "bolny32m",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "So-Kar",
+        "points": 140,
+        "runemarks": [
+            "bulwark",
+            "warrior"
+        ],
+        "subfaction": "Jaws of Itzl",
+        "toughness": 4,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 16
+    },
+    {
         "_id": "63234b3a",
         "grand_alliance": "order",
         "movement": 6,
@@ -28684,6 +29595,32 @@
             }
         ],
         "wounds": 18
+    },
+    {
+        "_id": "bolny32m",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Ro-Tak , the Guardian",
+        "points": 150,
+        "runemarks": [
+            "bulwark",
+            "warrior"
+        ],
+        "subfaction": "Jaws of Itzl",
+        "toughness": 4,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 16
     },
     {
         "_id": "6c790e4b",
@@ -29353,6 +30290,32 @@
             }
         ],
         "wounds": 25
+    },
+    {
+        "_id": "ffguvt5r",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Kro-Jax, the Aegis",
+        "points": 240,
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "subfaction": "Jaws of Itzl",
+        "toughness": 5,
+        "warband": "Seraphon",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "club",
+                "strength": 5
+            }
+        ],
+        "wounds": 30
     },
     {
         "_id": "a4d524f1",
@@ -31874,16 +32837,49 @@
         "wounds": 20
     },
     {
-        "_id": "68ddfc6b",
+        "_id": "fb8xgmfx",
         "grand_alliance": "order",
         "movement": 4,
-        "name": "Sanson Farstrider",
-        "points": 170,
+        "name": "Farasa Twice-Risen",
+        "points": 155,
         "runemarks": [
-            "hero",
-            "warrior"
+            "champion"
         ],
-        "subfaction": "The Farstriders",
+        "subfaction": "The Emberwatch",
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 1,
+                "max_range": 10,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 22
+    },
+    {
+        "_id": "798d79b7",
+        "grand_alliance": "order",
+        "movement": 5,
+        "name": "Hunter-Prime",
+        "points": 185,
+        "runemarks": [
+            "hero"
+        ],
+        "subfaction": "",
         "toughness": 5,
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
         "weapons": [
@@ -31900,24 +32896,24 @@
                 "attacks": 3,
                 "dmg_crit": 4,
                 "dmg_hit": 1,
-                "max_range": 8,
+                "max_range": 10,
                 "min_range": 0,
                 "runemark": "ranged",
                 "strength": 4
             }
         ],
-        "wounds": 30
+        "wounds": 25
     },
     {
-        "_id": "798d79b7",
+        "_id": "0pnm5n5z",
         "grand_alliance": "order",
-        "movement": 5,
-        "name": "Hunter-Prime",
-        "points": 185,
+        "movement": 4,
+        "name": "Ardorn Flamerunner",
+        "points": 190,
         "runemarks": [
             "hero"
         ],
-        "subfaction": "",
+        "subfaction": "The Emberwatch",
         "toughness": 5,
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
         "weapons": [
@@ -32280,6 +33276,40 @@
             }
         ],
         "wounds": 32
+    },
+    {
+        "_id": "q6lx5d3i",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Yurik Velzaine",
+        "points": 290,
+        "runemarks": [
+            "destroyer"
+        ],
+        "subfaction": "The Emberwatch",
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 24,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
     },
     {
         "_id": "5fc20860",
