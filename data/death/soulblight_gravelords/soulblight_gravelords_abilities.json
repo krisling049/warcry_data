@@ -252,5 +252,35 @@
         "runemarks": [
             "hero"
         ]
+    },
+    {
+        "_id": "a050c36f",
+        "name": "Arcane Expertise",
+        "warband": "Blades of the Hollow King",
+        "cost": "triple",
+        "description": "Pick another visible friendly fighter with the Hollow Blades and Hero runemarks within 6\" of this fighter. That other fighter can use the 'Rush', 'Onslaught' or 'Respite' abilities once during their next activation this battle round without needing or using any ability dice. That ability does not count towards the number of abilities that fighter can use in that activation.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "d40af71f",
+        "name": "Graceful Killer",
+        "warband": "Blades of the Hollow King",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 3\" of this fighter. Place this fighter within 1\" of that enemy fighter. After this fighter’s final action this activation, you can pick a point within 3\" of this fighter. Place this fighter as near as possible to that point and more than 1\" from all enemy fighters.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "28b9f2d0",
+        "name": "Spirit Guidance",
+        "warband": "Blades of the Hollow King",
+        "cost": "quad",
+        "description": "Pick 1 of the following effects:\n\n• Add 1 to the Attacks and Damage characteristics of this fighter’s melee weapons until the end of their activation.\n\n• Add 3 to this fighter’s Move characteristic until the end of their activation and this fighter has the Fly unemark until the end of their activation.",
+        "runemarks": [
+            "terrifying"
+        ]
     }
 ]
