@@ -19775,6 +19775,33 @@
         "wounds": 20
     },
     {
+        "_id": "3f9a8c2e",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "name": "Hobgrot Slittaboss",
+        "points": 140,
+        "runemarks": [
+            "hero",
+            "scout",
+            "minion"
+        ],
+        "subfaction": "",
+        "toughness": 4,
+        "warband": "Kruleboyz",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            }
+        ],
+        "wounds": 16
+    },
+    {
         "_id": "874305e9",
         "grand_alliance": "destruction",
         "movement": 4,
