@@ -408,6 +408,28 @@
         "runemarks": []
     },
     {
+        "_id": "a91550f4",
+        "name": "Killer of Kings",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "triple",
+        "description": "Pick an enemy fighter that was allocated any damage points this activation by any of this fighter’s melee attack actions to be the target and roll a number of dice equal to the value of this ability. On any unmodified rolls of 6, allocate a number of damage points to that enemy fighter equal to their Wounds characteristic. Those damage points cannot be ignored.",
+        "runemarks": [
+            "hero",
+            "warrior"
+        ]
+    },
+    {
+        "_id": "f6e733c3",
+        "name": "Desecrating Blood Runes",
+        "warband": "Blades of Khorne: Bloodbound",
+        "cost": "triple",
+        "description": "Pick a terrain feature within 1\" of this fighter. For the rest of the battle round, if a melee attack action made by a friendly fighter within 3\" of that terrain feature and that has the Blades of Khorne: Bloodbound runemark scores any critical hits, allocate D3 damage points to the target of that attack action after that attack action is resolved.",
+        "runemarks": [
+            "hero",
+            "mystic"
+        ]
+    },
+    {
         "_id": "c36ec45c",
         "name": "Du Sang pour le Dieu du Sang",
         "warband": "Blades of Khorne: Daemons",
@@ -480,6 +502,36 @@
         "cost": "battletrait",
         "description": "If there are one or more friendly fighters with this battle trait on the battlefield, at the end of each battle round, you can pick an enemy fighter with one or more damage points allocated to them. Roll 2D6. On a roll of 8+, allocate 3 damage points to that fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "a050c36f",
+        "name": "Arcane Expertise",
+        "warband": "Blades of the Hollow King",
+        "cost": "triple",
+        "description": "Pick another visible friendly fighter with the Hollow Blades and Hero runemarks within 6\" of this fighter. That other fighter can use the 'Rush', 'Onslaught' or 'Respite' abilities once during their next activation this battle round without needing or using any ability dice. That ability does not count towards the number of abilities that fighter can use in that activation.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "d40af71f",
+        "name": "Graceful Killer",
+        "warband": "Blades of the Hollow King",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 3\" of this fighter. Place this fighter within 1\" of that enemy fighter. After this fighter's final action this activation, you can pick a point within 3\" of this fighter. Place this fighter as near as possible to that point and more than 1\" from all enemy fighters.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "28b9f2d0",
+        "name": "Spirit Guidance",
+        "warband": "Blades of the Hollow King",
+        "cost": "quad",
+        "description": "Pick 1 of the following effects:\n\n• Add 1 to the Attacks and Damage characteristics of this fighter's melee weapons until the end of their activation.\n\n• Add 3 to this fighter's Move characteristic until the end of their activation and this fighter has the Fly unemark until the end of their activation.",
+        "runemarks": [
+            "terrifying"
+        ]
     },
     {
         "_id": "d0d1290a",
@@ -605,6 +657,32 @@
         "warband": "Bonesplitterz",
         "cost": "battletrait",
         "description": "When a player whose warband has this battle trait makes an initiative roll, before initiative is determined, they can re-roll each result of 1.",
+        "runemarks": []
+    },
+    {
+        "_id": "3d8ade60",
+        "name": "Shank Dat Git",
+        "warband": "Borgit's Beastgrabbaz",
+        "cost": "double",
+        "description": " If there are no enemy trofees, pick a visible enemy fighter to be the trofee until they are taken down. In addition, add 2 to the Attacks characteristic of melee attack actions made by friendly fighters with the Borgit’s Beastgrabbaz runemark that target the trofee.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "d89a7a8a",
+        "name": "Da Bait",
+        "warband": "Borgit's Beastgrabbaz",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Borgit’s Beastgrabbaz runemark wholly within 6\" of and visible to a friendly fighter with the Borgit’s Beastgrabbaz and Hero runemarks to be da bait for the rest of the battle round. Enemy fighters visible to and within a number of inches of da bait equal to the highest Range characteristic of any melee weapons they have must target da bait with all melee attack actions they make.",
+        "runemarks": []
+    },
+    {
+        "_id": "9499f2b5",
+        "name": "Gittish Taktikz",
+        "warband": "Borgit's Beastgrabbaz",
+        "cost": "quad",
+        "description": "Pick an enemy fighter that is visible to this fighter. Allocate a number of damage points to that enemy fighter equal to twice the number of friendly fighters with the Borgit’s Beastgrabbaz runemark within 3\" of them. If the target is the trofee, allocate a number of damage points to that enemy fighter equal to four times the number of friendly fighters with the Borgit’s Beastgrabbaz runemark within 3\" of them instead.",
         "runemarks": []
     },
     {
@@ -1050,9 +1128,7 @@
         "warband": "Claws of Karanak",
         "cost": "double",
         "description": "Pick a visible friendly fighter within 6\" of this fighter that has both the Claws of Karanak runemark and the Agile runemark and has not activated yet this battle round.  You can activate that fighter immediately after this fighter's activation ends.",
-        "runemarks": [
-            "agile"
-        ]
+        "runemarks": []
     },
     {
         "_id": "0f23907a",
@@ -2171,6 +2247,17 @@
         "runemarks": []
     },
     {
+        "_id": "f16affc1",
+        "name": "Eye Shred",
+        "warband": "Flesh-eater Courts",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter that was allocated any damage points this activation by any of this fighter’s missile attack actions to be the target. Give that target a Grype token. That target cannot score critical hits for the rest of the battle round while they have that token (hit rolls that would be critical hits score hits instead). If any damage points allocated to a fighter with a Grype token would be removed, remove that Grype token instead. There cannot be more than one enemy fighter with a friendly Grype token on the battlefield.",
+        "runemarks": [
+            "hero",
+            "trapper"
+        ]
+    },
+    {
         "_id": "7fd8398d",
         "name": "Gangue de Roche Fondue",
         "warband": "Fyreslayers",
@@ -2648,6 +2735,16 @@
         "runemarks": []
     },
     {
+        "_id": "1a79b9d6",
+        "name": "Slavering Jaws",
+        "warband": "Gloomspite Gitz",
+        "cost": "double",
+        "description": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation. This fighter can make a bonus move action. If that move action ends within 1\" of an enemy fighter, add 1 to this fighter’s Toughness characteristic for the rest of the battle round.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
         "_id": "770d0514",
         "name": "Self-Command",
         "warband": "Gnarlspirit Pack",
@@ -2800,6 +2897,34 @@
         "cost": "battletrait",
         "description": "After an enemy fighter has been taken down by a melee attack action made by a friendly fighter with this battle trait, remove D3 damage points allocated to that friendly fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "b1cb3ec1",
+        "name": "Growing Infections",
+        "warband": "Grandfather's Gardeners",
+        "cost": "double",
+        "description": "Give this fighter a cycle counter and roll a dice. If the roll is equal to or less than the value of this ability, you gain the ability dice you spent to use this ability, at the same value. For the rest of the battle round, add 1 to the critical damage value of this fighter's melee weapon for each cycle counter they have. Cycle counters are not discarded at the end of the battle round.",
+        "runemarks": []
+    },
+    {
+        "_id": "1f8ac0c8",
+        "name": "Sucking Proboscis",
+        "warband": "Grandfather's Gardeners",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter to be the target and roll a dice. Allocate a number of damage points to the target equal to the roll. If you allocate 5 or more damage points to the target using this ability, this fighter is taken down.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "ee0bc964",
+        "name": "The Grand Cycle of Decay",
+        "warband": "Grandfather's Gardeners",
+        "cost": "triple",
+        "description": "Each friendly fighter's cycle counters must be given to another friendly fighter on the battlefield with the Grandfather's Gardener's runemark. Each fighter may only be given cycle counters once each time this ability is used.",
+        "runemarks": [
+            "hero"
+        ]
     },
     {
         "_id": "fbce3d1d",
@@ -3425,6 +3550,26 @@
         "runemarks": []
     },
     {
+        "_id": "58cf8158",
+        "name": "The Surging Sea",
+        "warband": "Idoneth Deepkin",
+        "cost": "triple",
+        "description": "For the rest of the battle round, each time a friendly fighter with the Idoneth Deepkin runemark within 6\" of this fighter makes a move action, you can add 2 to their Move characteristic for that action.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "14323d4a",
+        "name": "Whirlpool's Fury",
+        "warband": "Idoneth Deepkin",
+        "cost": "triple",
+        "description": "For the rest of the battle round, visible enemy fighters within 3\" of this fighter cannot make disengage actions while they are within 3\" of this fighter. In addition, subtract 1 from the damage points allocated to friendly fighters by each hit from attack actions made by those enemy fighters (to a minimum of 1).",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
         "_id": "f73c77a3",
         "name": "Coup Éreintant",
         "warband": "Iron Golems",
@@ -3727,6 +3872,34 @@
         "runemarks": []
     },
     {
+        "_id": "d117d47a",
+        "name": "Sotek's Venomites",
+        "warband": "Jaws of Itzl",
+        "cost": "double",
+        "description": "If no enemy fighter has a Sotek's Venomites token, pick a visible enemy fighter within 6\" of this fighter and give them a Sotek's Venomites token for the rest of the battle. While that enemy fighter has that token, if a melee attack action that targets that enemy fighter scores any critical hits, allocate D3 damage points to that enemy fighter. If a fighter with a Sotek's Venomites token is removed from the battlefield, remove that Sotek's Venomites from the battlefield.",
+        "runemarks": []
+    },
+    {
+        "_id": "918989e6",
+        "name": "Dedicated Guardian",
+        "warband": "Jaws of Itzl",
+        "cost": "double",
+        "description": "Until the end of the battle round, friendly fighters with the Hero runemark and the Jaws of Itzl runemark cannot be targeted while they are within 1\" of this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "11cf198c",
+        "name": "Sunblooded Quickening",
+        "warband": "Jaws of Itzl",
+        "cost": "quad",
+        "description": "Until the start of this fighter's next activation, add 3 to the Move characteristic of visible friendly fighters with the Seraphon runemark that do not have the Mount or Fly runemarks and that start their activation within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
         "_id": "76da2eab",
         "name": "Frappe de l'Executeur",
         "warband": "Kainan's Reapers",
@@ -3964,6 +4137,34 @@
         "runemarks": []
     },
     {
+        "_id": "dc781771",
+        "name": "Offerings of Foresight",
+        "warband": "Knives of the Crone",
+        "cost": "double",
+        "description": "Roll a number of dice equal to the value of this ability. If any damage points have been allocated to enemy fighters this battle round by this fighter's attack actions, add 1 to each roll. For each roll of 4+, you gain 1 prophecy point, to a maximum of 6.",
+        "runemarks": []
+    },
+    {
+        "_id": "1d07acc9",
+        "name": "Ritual of Prophecy",
+        "warband": "Knives of the Crone",
+        "cost": "triple",
+        "description": "Pick 1 of the following effects to apply to this fighter, then reset your prophecy points to 0:\n\n• Add your prophecy points to their Move characteristic for the rest of the activation.\n\n• Add your prophecy points to their Toughness characteristic for the rest of the battle round.\n\n• Immediately allocate your prophecy points as evenly as possible between the Attacks characteristic, Strength characteristic and both values of the Damage characteristic of their melee weapon. Add 1 to each for each prophecy point allocated to it for the rest of the activation.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "48984676",
+        "name": "Wings of Darkness",
+        "warband": "Knives of the Crone",
+        "cost": "double",
+        "description": "Remove this fighter from the battlefield, then set them up again on a platform or the battlefield floor and more than 9\" from all enemy fighters. If the value of this ability is 3 or more, this fighter can make a bonus move action of 3\" after they are set up.",
+        "runemarks": [
+            "fly"
+        ]
+    },
+    {
         "_id": "c867eb77",
         "name": "Tir de Précision",
         "warband": "Kruleboyz",
@@ -4072,6 +4273,17 @@
         "cost": "battletrait",
         "description": "Once per battle round, pick a friendly fighter with this battle trait. For that battle round, after that fighter's activation, you can pick an enemy fighter that was allocated 1 or more damage points by a melee attack action made by the fighter you picked. Allocated D3 damage points to that enemy fighter.",
         "runemarks": []
+    },
+    {
+        "_id": "5f40dd2d",
+        "name": "Keep Your Heads Down and Scarper, Ladz...",
+        "warband": "Kruleboyz",
+        "cost": "double",
+        "description": "Add 1 to the Move and the Toughness characteristics of friendly fighters with both the Kruleboyz and the Minion runemarks while they are within 6\" of this fighter for the rest of the battle round.",
+        "runemarks": [
+            "hero",
+            "scout"
+        ]
     },
     {
         "_id": "2a3d1d3e",
@@ -4739,6 +4951,17 @@
         "runemarks": []
     },
     {
+        "_id": "5e2a958a",
+        "name": "Spectral Alchemy",
+        "warband": "Nighthaunt",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter that was allocated any damage points by this fighter’s missile attack actions this activation to be the target. Add 1 to the damage points allocated by each hit from melee attack actions made by friendly fighters with the Nighthaunt runemark that target that enemy fighter for the rest of the battle round.",
+        "runemarks": [
+            "hero",
+            "scout"
+        ]
+    },
+    {
         "_id": "8e24e130",
         "name": "Gruau de Sang",
         "warband": "Ogor Mawtribes",
@@ -4961,6 +5184,26 @@
         ]
     },
     {
+        "_id": "2af77b18",
+        "name": "Banishment",
+        "warband": "Order of Azyr",
+        "cost": "double",
+        "description": "Until the end of this fighter’s activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from missile attack actions made by this fighter.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "1d7121f4",
+        "name": "Judgement",
+        "warband": "Order of Azyr",
+        "cost": "triple",
+        "description": "Until the end of this fighter’s activation, missile attack actions made by this fighter score a critical hit on a roll of 5+.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
         "_id": "8fdbd27a",
         "name": "Devoir Éternel",
         "warband": "Ossiarch Bonereapers",
@@ -5166,6 +5409,14 @@
         "warband": "Pyregheists",
         "cost": "battletrait",
         "description": "At the end of each battle round, each player whose warband has this battle trait can roll a dice for each friendly Pyre token on the battlefield. For each roll of 3+, add one wild dice to that player's saved wild dice.",
+        "runemarks": []
+    },
+    {
+        "_id": "1b3a2eee",
+        "name": "Immolation",
+        "warband": "Pyregheists",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Cremate this fighter.’",
         "runemarks": []
     },
     {
@@ -6745,6 +6996,16 @@
         ]
     },
     {
+        "_id": "70d1ebba",
+        "name": "Ride for Vengeance",
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "cost": "triple",
+        "description": "For the rest of the battle round, add the number of friendly fighters with the Thunderstrike Stormcasts runemark that are taken down and do not have the Beast runemark to this fighter's Move characteristic and the Attacks characteristic of melee attack actions made by this fighter.",
+        "runemarks": [
+            "mount"
+        ]
+    },
+    {
         "_id": "f0625e61",
         "name": "Frappes Fulgurantes",
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
@@ -7248,7 +7509,7 @@
         "name": "Eyes of Katakros",
         "warband": "Teratic Cohort",
         "cost": "double",
-        "description": "Roll a number of dice equal to the value of this ability. For each roll of 5+, add one wild dice to your saved wild dice. This ability cannot be used more than once per battle round.",
+        "description": "Roll a number of dice equal to the value of this ability. For each roll of 5+, add one wild dice to your saved wild dice.",
         "runemarks": []
     },
     {
@@ -7329,6 +7590,34 @@
         "warband": "The Dread Pageant",
         "cost": "quad",
         "description": "Ce combattant fait une action d'attaque bonus. Deplus, si soit ce combattant, soit le combattant ciblé a un ou plusieurs points de dégâts qui lui ont été alloués, ajoutez 1 à la caractéristique d'Attaques de cette action d'attaque bonus. Si ce combattant et le combattant ciblé ont tous les deux un ou plusieurs points de dégâts qui leur ont été alloués, ajoutez 3 à la caractéristiques d'Attaques de l'action d'attaque bonus à la place.",
+        "runemarks": []
+    },
+    {
+        "_id": "c53fbea1",
+        "name": "Quiver of Tricks",
+        "warband": "The Emberwatch",
+        "cost": "double",
+        "description": "Pick 1 of the following effects: Pick a visible enemy fighter within 12\" of this fighter. Subtract 1 from that fighter’s Move characteristic for the rest of the battle round. Pick an objective within 12\" of this fighter. The first time this battle round that an enemy fighter ends a move action within 3\" of that objective, allocate D3 damage points to them as a reaction.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "f996f21b",
+        "name": "Your Duty Remains Undone, Farasa!",
+        "warband": "The Emberwatch",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Emberwatch and Champion runemarks that has been taken down, then roll a number of dice equal to the value of this ability. On any rolls of 3+:\n\n• Set up that fighter on a platform or the battlefield floor, more than 6\" from all enemy fighters. The fighter set up on the battlefield no longer counts as being taken down. Remove a number of damage points allocated to that fighter equal to the number of rolls of 3+ that were made.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "c1c6dd4d",
+        "name": "The Raptors of Sigmar",
+        "warband": "The Emberwatch",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter to be the target. Roll a D6 for each damage point allocated to that target. For each roll of 3+, allocate 1 damage point to the target. Add 1 to each roll if this fighter has the Hero runemark.",
         "runemarks": []
     },
     {
@@ -7653,7 +7942,7 @@
         "name": "Eruption of Thorns",
         "warband": "Twistweald",
         "cost": "double",
-        "description": "Roll a dice for each visible enemy fighter within 1\" of this fighter. On a roll of 4+, allocate a number of damage points to the fighter being rolled for equal to half the value of this ability.",
+        "description": "Allocate a number of damage points equal to half the value of this ability to each enemy fighter within 1\" of this fighter.",
         "runemarks": []
     },
     {
@@ -7956,7 +8245,7 @@
         "name": "Riverblades",
         "warband": "Ydrilan Riverblades",
         "cost": "double",
-        "description": "Until the end of this fighter's activation, add 1 to this fighter's Move characteristic, and after each action this fighter takes, other than wait actions, roll a dice. On a roll of 2+, deal 1 damage to 1 visible enemy fighter within 8\".",
+        "description": "Until the end of this fighter's activation, add 1 to this fighter's Move characteristic, and after each action this fighter takes, other than wait actions, roll a dice. On a roll of 2+, deal 2 damage to 1 visible enemy fighter within 8\".",
         "runemarks": []
     },
     {
@@ -8049,6 +8338,52 @@
         "description": "Allouez autant de points de dégâts que la valeur de cette aptitude à tous les combattants ennemis visibles à 3\" de ce combattant.",
         "runemarks": [
             "frenzied"
+        ]
+    },
+    {
+        "_id": "7283a678",
+        "name": "Tunnel-skitter",
+        "warband": "Zikkit's Tunnelpack",
+        "cost": "double",
+        "description": "Pick a point on the battlefield floor or a platform within 9\" of this fighter. Then, remove this fighter from the battlefield and set them up within 1\" of that point and more than 5\" from all enemy fighters.",
+        "runemarks": []
+    },
+    {
+        "_id": "92a460e6",
+        "name": "Tick Tick Tick...",
+        "warband": "Zikkit's Tunnelpack",
+        "cost": "double",
+        "description": "If your Tik Tik is taken down and is listed on your warband roster, set up a friendly Tik Tik within 1\" of this fighter. That Tik Tik cannot move this turn.",
+        "runemarks": []
+    },
+    {
+        "_id": "e4b772d8",
+        "name": "Kaboom!",
+        "warband": "Zikkit's Tunnelpack",
+        "cost": "double",
+        "description": "Allocate D3 damage points to each enemy fighter within 3\" of this fighter and gain 1 wild dice. Then, remove this fighter from the battlefield (this fighter is taken down).",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "68bca74d",
+        "name": "Vrrrrrmmmmmm!",
+        "warband": "Zikkit's Tunnelpack",
+        "cost": "triple",
+        "description": "If this fighter is within 3\" of the battlefield edge, remove this fighter from the battlefield, then roll a dice. Then, set them up on the battlefield floor, within 3\" of the battlefield edge and more than X\" from all enemy fighters, where X is equal to the roll.",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "b4ff82af",
+        "name": "Drill-drill the Fool-Foe!",
+        "warband": "Zikkit's Tunnelpack",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll 6 dice. For each roll that is equal to or less than the value of this ability, allocate 1 damage point to that enemy fighter, subtract 1 from the value of this ability and roll those dice again. Keep rolling in this way until the value of this ability is 0 or none of the dice rolled are equal to or less than the value of this ability.",
+        "runemarks": [
+            "hero"
         ]
     },
     {
