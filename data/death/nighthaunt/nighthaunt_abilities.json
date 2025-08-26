@@ -189,5 +189,16 @@
         "runemarks": [
             "hero"
         ]
+    },
+    {
+        "_id": "5e2a958a",
+        "name": "Spectral Alchemy",
+        "warband": "Nighthaunt",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter that was allocated any damage points by this fighter’s missile attack actions this activation to be the target. Add 1 to the damage points allocated by each hit from melee attack actions made by friendly fighters with the Nighthaunt runemark that target that enemy fighter for the rest of the battle round.",
+        "runemarks": [
+            "hero",
+            "scout"
+        ]
     }
 ]
