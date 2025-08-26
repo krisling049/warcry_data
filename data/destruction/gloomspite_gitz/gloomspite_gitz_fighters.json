@@ -1314,5 +1314,131 @@
             "beast"
         ],
         "points": 140
+    },
+    {
+        "_id": "8kk0lics",
+        "name": "Borgit Wolf-Killa",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Borgit's Beastgrabbaz",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 18,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 140
+    },
+    {
+        "_id": "s76ya4vs",
+        "name": "Uglug",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Borgit's Beastgrabbaz",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 4,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 4
+            }
+        ],
+        "runemarks": [],
+        "points": 120
+    },
+    {
+        "_id": "o82q9qpy",
+        "name": "Rigg and Shamm",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Borgit's Beastgrabbaz",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 10,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 2
+            }
+        ],
+        "runemarks": [],
+        "points": 60
+    },
+    {
+        "_id": "o82q9qpy",
+        "name": "Snagz",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Borgit's Beastgrabbaz",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 2
+            }
+        ],
+        "runemarks": [],
+        "points": 50
+    },
+    {
+        "_id": "3fn0u2b5",
+        "name": "Hobblin' Dreg",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "Borgit's Beastgrabbaz",
+        "grand_alliance": "destruction",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 2
+            },  
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 75
     }
 ]
