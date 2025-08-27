@@ -8198,6 +8198,31 @@
         "wounds": 10
     },
     {
+        "_id": "4mtdylki",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "name": "Tik Tik",
+        "points": 75,
+        "runemarks": [
+            "beast"
+        ],
+        "subfaction": "Zikkit's Tunnelpack",
+        "toughness": 2,
+        "warband": "Skaven",
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 1,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "unarmed",
+                "strength": 1
+            }
+        ],
+        "wounds": 4
+    },
+    {
         "_id": "84cedf20",
         "grand_alliance": "chaos",
         "movement": 6,
@@ -8329,31 +8354,6 @@
             }
         ],
         "wounds": 8
-    },
-    {
-        "_id": "4mtdylki",
-        "grand_alliance": "chaos",
-        "movement": 6,
-        "name": "Tik Tik",
-        "points": 80,
-        "runemarks": [
-            "beast"
-        ],
-        "subfaction": "Zikkit's Tunnelpack",
-        "toughness": 2,
-        "warband": "Skaven",
-        "weapons": [
-            {
-                "attacks": 1,
-                "dmg_crit": 1,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 1
-            }
-        ],
-        "wounds": 4
     },
     {
         "_id": "c7d98639",
