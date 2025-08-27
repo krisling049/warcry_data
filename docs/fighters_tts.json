@@ -23514,7 +23514,9 @@
                 "strength": 6
             }
         ],
-        "runemarks": [],
+        "runemarks": [
+            "champion"
+        ],
         "points": 225,
         "abilities": [
             {
@@ -23525,6 +23527,9 @@
             },
             {
                 "_id": "92a460e6"
+            },
+            {
+                "_id": "68bca74d"
             }
         ]
     },
