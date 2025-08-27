@@ -32850,7 +32850,7 @@
         "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
         "weapons": [
             {
-                "attacks": 4,
+                "attacks": 5,
                 "dmg_crit": 3,
                 "dmg_hit": 2,
                 "max_range": 1,
@@ -32972,6 +32972,40 @@
             }
         ],
         "wounds": 25
+    },
+    {
+        "_id": "q6lx5d3i",
+        "grand_alliance": "order",
+        "movement": 4,
+        "name": "Yurik Velzaine",
+        "points": 190,
+        "runemarks": [
+            "destroyer"
+        ],
+        "subfaction": "The Emberwatch",
+        "toughness": 5,
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 24,
+                "min_range": 6,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "wounds": 20
     },
     {
         "_id": "2ebb6f4b",
@@ -33311,40 +33345,6 @@
             }
         ],
         "wounds": 32
-    },
-    {
-        "_id": "q6lx5d3i",
-        "grand_alliance": "order",
-        "movement": 4,
-        "name": "Yurik Velzaine",
-        "points": 290,
-        "runemarks": [
-            "destroyer"
-        ],
-        "subfaction": "The Emberwatch",
-        "toughness": 5,
-        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
-        "weapons": [
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
-            },
-            {
-                "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 24,
-                "min_range": 6,
-                "runemark": "ranged",
-                "strength": 4
-            }
-        ],
-        "wounds": 20
     },
     {
         "_id": "5fc20860",
