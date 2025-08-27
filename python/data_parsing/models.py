@@ -36,17 +36,14 @@ class DataPayload:
         self.data = self.load_data()
         self.validate_data()
 
-    @classmethod
-    def load_data(cls):
-        raise NotImplementedError('class requires a load_data class method')
+    def load_data(self):
+        raise NotImplementedError('Subclass must implement load_data method')
 
-    @classmethod
-    def write_to_disk(cls):
-        raise NotImplementedError('class requires a write_to_disk class method')
+    def write_to_disk(self, dst: Path = None):
+        raise NotImplementedError('Subclass must implement write_to_disk method')
 
-    @classmethod
-    def validate_data(cls):
-        raise NotImplementedError('class requires a validate_data class method')
+    def validate_data(self):
+        raise NotImplementedError('Subclass must implement validate_data method')
 
 
 class JSONDataPayload(DataPayload):
