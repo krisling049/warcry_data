@@ -1466,5 +1466,32 @@
             "mount"
         ],
         "points": 230
+    },
+    {
+        "_id": "11a27c07",
+        "name": "Snarlpack Boss",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 28,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "ferocious",
+            "mount",
+            "hero"
+        ],
+        "points": 280
     }
 ]
