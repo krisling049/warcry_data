@@ -18,7 +18,7 @@ def sanitise_filename(filename: str) -> str:
     return filename.lower().replace(' ', '_')
 
 
-def write_data_json(dst: Path, data: Union[List, Dict], encoding: str = 'latin-1'):
+def write_data_json(dst: Path, data: Union[List, Dict], encoding: str = 'utf-8'):
     dst.parent.mkdir(parents=True, exist_ok=True)
     with open(dst, 'w', encoding=encoding) as f:
         json.dump(data, f, ensure_ascii=False, indent=4, sort_keys=False)

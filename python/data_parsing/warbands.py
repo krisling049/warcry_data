@@ -1,9 +1,10 @@
 import json
+import logging
 import re
 import uuid
 from copy import deepcopy
 from pathlib import Path
-from typing import List, Dict
+from typing import List, Dict, Any
 
 import jsonschema
 
@@ -11,6 +12,13 @@ from .abilities import Ability
 from .factions import Factions
 from .fighters import sort_fighters, Fighter, Fighters, FighterJSONDataPayload
 from .models import DataPayload, PROJECT_DATA, PROJECT_ROOT, sanitise_filename, write_data_json
+
+logger = logging.getLogger(__name__)
+
+
+class FileProcessingError(Exception):
+    """Raised when file processing fails."""
+    pass
 
 
 class WarbandsJSONDataPayload(DataPayload):
@@ -34,23 +42,61 @@ class WarbandsJSONDataPayload(DataPayload):
     def __repr__(self):
         return 'WarbandData'
 
-    def load_data(self):
-        data = {'fighters': list(), 'abilities': list(), 'factions': list()}
+    def load_data(self) -> Dict[str, List[Any]]:
+        data = {'fighters': [], 'abilities': [], 'factions': []}
+        processed_files = 0
+        
         for file in self.src.rglob(self._filter_str):
             if not file.is_file():
+                logger.debug(f"Skipping non-file: {file}")
                 continue
+                
             if file.parent.name.lower() == 'schemas':
+                logger.debug(f"Skipping schema file: {file}")
                 continue
-            if file.name.endswith('_fighters.json'):
-                data['fighters'].extend(json.loads(file.read_text(encoding='latin-1')))
-                continue
-            if file.name.endswith('_abilities.json'):
-                data['abilities'].extend(json.loads(file.read_text(encoding='latin-1')))
-                continue
-            if file.name.endswith('_faction.json'):
-                data['factions'].append(json.loads(file.read_text(encoding='latin-1')))
-                continue
+                
+            try:
+                if file.name.endswith('_fighters.json'):
+                    content = self._load_json_file(file)
+                    data['fighters'].extend(content)
+                    processed_files += 1
+                    logger.info(f"Loaded {len(content)} fighters from {file}")
+                    
+                elif file.name.endswith('_abilities.json'):
+                    content = self._load_json_file(file)
+                    data['abilities'].extend(content)
+                    processed_files += 1
+                    logger.info(f"Loaded {len(content)} abilities from {file}")
+                    
+                elif file.name.endswith('_faction.json'):
+                    content = self._load_json_file(file)
+                    data['factions'].append(content)
+                    processed_files += 1
+                    logger.info(f"Loaded faction data from {file}")
+                    
+            except Exception as e:
+                logger.error(f"Failed to process file {file}: {e}")
+                raise FileProcessingError(f"Error processing {file}: {e}") from e
+        
+        logger.info(f"Successfully processed {processed_files} data files")
+        logger.info(f"Total loaded: {len(data['fighters'])} fighters, {len(data['abilities'])} abilities, {len(data['factions'])} factions")
         return data
+
+    def _load_json_file(self, file: Path) -> Any:
+        """Load and parse JSON file with proper error handling and encoding fallback."""
+        try:
+            return json.loads(file.read_text(encoding='utf-8'))
+        except UnicodeDecodeError:
+            # Fallback to latin-1 for legacy files
+            logger.warning(f"UTF-8 decode failed for {file}, trying latin-1")
+            try:
+                return json.loads(file.read_text(encoding='latin-1'))
+            except UnicodeDecodeError as e:
+                raise FileProcessingError(f"Could not decode file {file} with UTF-8 or latin-1: {e}") from e
+        except json.JSONDecodeError as e:
+            raise FileProcessingError(f"Invalid JSON in {file}: {e}") from e
+        except Exception as e:
+            raise FileProcessingError(f"Unexpected error reading {file}: {e}") from e
 
     def assign_ids(self):
         placeholder_pattern = re.compile(f'^PLACEHOLDER.*|^XXXXXX.*', flags=re.IGNORECASE)
@@ -205,4 +251,3 @@ class WarbandsJSONDataPayload(DataPayload):
             else:
                 print(f'warning -- {ability["_id"]} - {ability["name"]} - not found in {patch_file}')
         return temp_data
-

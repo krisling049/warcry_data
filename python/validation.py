@@ -1,5 +1,6 @@
 import argparse
 import json
+import logging
 import sys
 from pathlib import Path
 from typing import Optional
@@ -27,6 +28,12 @@ def validate_data(data: list[dict], schemafile: Optional[Path] = None, schemadat
 
 
 if __name__ == '__main__':
+    # Set up logging
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(levelname)s - %(name)s - %(message)s'
+    )
+    
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--data",
@@ -43,27 +50,27 @@ if __name__ == '__main__':
 
     validation_pass = True
 
-    print(f'validating {len(warband_data.data["abilities"])} abilities')
+    logging.info(f'validating {len(warband_data.data["abilities"])} abilities')
     ability_dupes = get_duplicate_ids(warband_data.data['abilities'])
     for ability in warband_data.data['abilities']:
         if ability["_id"] in ability_dupes:
-            print(f'validation failure: duplicate id: {ability["warband"]}/{ability["name"]}: {ability["_id"]}')
+            logging.error(f'validation failure: duplicate id: {ability["warband"]}/{ability["name"]}: {ability["_id"]}')
             validation_pass = False
         validate_data(data=ability, schemadata=ability_schema)
 
-    print(f'validating {len(warband_data.data["fighters"])} fighters')
+    logging.info(f'validating {len(warband_data.data["fighters"])} fighters')
     fighter_dupes = get_duplicate_ids(warband_data.data['fighters'])
     for fighter in warband_data.data['fighters']:
         if fighter["_id"] in fighter_dupes:
-            print(f'validation failure: duplicate id: {fighter["grand_alliance"]}/{fighter["warband"]}/{fighter["name"]}: {fighter["_id"]}')
+            logging.error(f'validation failure: duplicate id: {fighter["grand_alliance"]}/{fighter["warband"]}/{fighter["name"]}: {fighter["_id"]}')
             validation_pass = False
         validate_data(data=fighter, schemadata=fighter_schema)
 
-    print(f'validating {len(warband_data.data["factions"])} factions')
+    logging.info(f'validating {len(warband_data.data["factions"])} factions')
     for faction in warband_data.data['factions']:
         validate_data(data=faction, schemadata=faction_schema)
 
     if validation_pass:
-        print('validation passed')
+        logging.info('validation passed')
     else:
         sys.exit('validation failed')
