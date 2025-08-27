@@ -48816,7 +48816,7 @@
         ],
         "runemarks": [
             "hero",
-            "scount",
+            "scout",
             "fly"
         ],
         "points": 140,
@@ -48835,6 +48835,9 @@
             },
             {
                 "_id": "5e218340"
+            },
+            {
+                "_id": "5e2a958a"
             }
         ]
     },
@@ -53444,7 +53447,7 @@
         "grand_alliance": "death",
         "movement": 5,
         "toughness": 4,
-        "wounds": 28,
+        "wounds": 20,
         "weapons": [
             {
                 "attacks": 5,
