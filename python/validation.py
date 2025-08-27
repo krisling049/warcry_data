@@ -1,5 +1,6 @@
 import argparse
 import json
+import sys
 from pathlib import Path
 from typing import Optional
 
@@ -10,6 +11,11 @@ from data_parsing.factions import FACTION_SCHEMA
 from data_parsing.fighters import FIGHTER_SCHEMA
 from data_parsing.models import PROJECT_DATA
 from data_parsing.warbands import WarbandsJSONDataPayload
+
+
+def get_duplicate_ids(to_check: list[dict]) -> list[str]:
+    all_ids = [i["_id"] for i in to_check]
+    return [i for i in all_ids if all_ids.count(i) != 1]
 
 
 def validate_data(data: list[dict], schemafile: Optional[Path] = None, schemadata: Optional[dict] = None):
@@ -35,16 +41,29 @@ if __name__ == '__main__':
     fighter_schema = json.loads(FIGHTER_SCHEMA.read_text())
     faction_schema = json.loads(FACTION_SCHEMA.read_text())
 
+    validation_pass = True
+
     print(f'validating {len(warband_data.data["abilities"])} abilities')
+    ability_dupes = get_duplicate_ids(warband_data.data['abilities'])
     for ability in warband_data.data['abilities']:
+        if ability["_id"] in ability_dupes:
+            print(f'validation failure: duplicate id: {ability["warband"]}/{ability["name"]}: {ability["_id"]}')
+            validation_pass = False
         validate_data(data=ability, schemadata=ability_schema)
+
     print(f'validating {len(warband_data.data["fighters"])} fighters')
+    fighter_dupes = get_duplicate_ids(warband_data.data['fighters'])
     for fighter in warband_data.data['fighters']:
+        if fighter["_id"] in fighter_dupes:
+            print(f'validation failure: duplicate id: {fighter["grand_alliance"]}/{fighter["warband"]}/{fighter["name"]}: {fighter["_id"]}')
+            validation_pass = False
         validate_data(data=fighter, schemadata=fighter_schema)
-    print(f'validating {len(warband_data.data["factions"])} fighters')
+
+    print(f'validating {len(warband_data.data["factions"])} factions')
     for faction in warband_data.data['factions']:
         validate_data(data=faction, schemadata=faction_schema)
 
-    print('validation passed')
-
-
+    if validation_pass:
+        print('validation passed')
+    else:
+        sys.exit('validation failed')
