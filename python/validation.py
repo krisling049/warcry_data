@@ -11,7 +11,7 @@ from data_parsing.abilities import ABILITY_SCHEMA
 from data_parsing.factions import FACTION_SCHEMA
 from data_parsing.fighters import FIGHTER_SCHEMA
 from data_parsing.models import PROJECT_DATA
-from data_parsing.warbands import WarbandsJSONDataPayload
+from data_parsing.warband_pipeline import WarbandDataPipeline
 
 
 def get_duplicate_ids(to_check: list[dict]) -> list[str]:
@@ -43,7 +43,7 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
-    warband_data = WarbandsJSONDataPayload()
+    warband_data = WarbandDataPipeline()
     ability_schema = json.loads(ABILITY_SCHEMA.read_text())
     fighter_schema = json.loads(FIGHTER_SCHEMA.read_text())
     faction_schema = json.loads(FACTION_SCHEMA.read_text())
