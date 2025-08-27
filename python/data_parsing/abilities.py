@@ -29,7 +29,8 @@ class Ability:
 
 
 def load_abilityfile(file: Path) -> list[Ability]:
-    content = json.loads(file.read_text(encoding='latin-1'))
+    from .models import load_json_file
+    content = load_json_file(file)
     abilities = list()
     for a in content:
         abilities.append(Ability(ability_dict=a))
