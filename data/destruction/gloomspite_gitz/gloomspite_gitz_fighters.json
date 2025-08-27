@@ -1440,5 +1440,31 @@
         ],
         "runemarks": [],
         "points": 75
+    },
+    {
+        "_id": "ff9e7687",
+        "name": "Snarlpack Cavalry",
+        "warband": "Gloomspite Gitz",
+        "subfaction": "",
+        "grand_alliance": "destruction",
+        "movement": 8,
+        "toughness": 5,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "ferocious",
+            "mount"
+        ],
+        "points": 230
     }
 ]
