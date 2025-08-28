@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Union
 
 import jsonschema
 
@@ -12,12 +12,12 @@ ABILITIES_SCHEMA = PROJECT_ROOT / 'schemas' / 'aggregate_ability_schema.json'
 
 class Ability:
     def __init__(self, ability_dict: dict):
-        self._id = ability_dict['_id']                      # type: str
-        self.name = ability_dict['name']                    # type: str
-        self.warband = ability_dict['warband']              # type: str
-        self.cost = ability_dict['cost']                    # type: str
-        self.description = ability_dict['description']      # type: str
-        self.runemarks = ability_dict['runemarks']          # type: List[str]
+        self._id: str = ability_dict['_id']
+        self.name: str = ability_dict['name']
+        self.warband: str = ability_dict['warband']
+        self.cost: str = ability_dict['cost']
+        self.description: str = ability_dict['description']
+        self.runemarks: List[str] = ability_dict['runemarks']
 
     def __repr__(self):
         return self.name
@@ -28,17 +28,18 @@ class Ability:
         return tts
 
 
-def load_abilityfile(file: Path) -> list[Ability]:
-    content = json.loads(file.read_text(encoding='latin-1'))
-    abilities = list()
+def load_abilityfile(file: Path) -> List[Ability]:
+    from .models import load_json_file
+    content = load_json_file(file)
+    abilities: List[Ability] = []
     for a in content:
         abilities.append(Ability(ability_dict=a))
     return abilities
 
 
 class Abilities:
-    def __init__(self, abilities: list[Ability|dict]):
-        self.abilities = list()
+    def __init__(self, abilities: List[Union[Ability, dict]]):
+        self.abilities: List[Ability] = []
         for a in abilities:
             if isinstance(a, dict):
                 a = Ability(ability_dict=a)

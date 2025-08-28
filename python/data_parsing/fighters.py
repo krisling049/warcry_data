@@ -33,16 +33,19 @@ def sort_fighters(data_to_sort: List[Dict]) -> List[Dict]:
 
 class Weapon:
     def __init__(self, w_dict: dict):
-        self._raw_data = w_dict                                                                 # type: Dict
-        self.attacks = w_dict['attacks']                                                        # type: int
-        self.dmg_crit = w_dict['dmg_crit']                                                      # type: int
-        self.dmg_hit = w_dict['dmg_hit']                                                        # type: int
-        self.max_range = w_dict['max_range']                                                    # type: int
-        self.min_range = w_dict['min_range']                                                    # type: int
-        self.runemark = w_dict['runemark']                                                      # type: str
-        self.strength = w_dict['strength']                                                      # type: int
-        self._dmg_rolls = self.damage_rolls()                                                   # type: List[Tuple[int, ...]]
-        self.avg_dmg_vs_lower, self.avg_dmg_vs_same, self.avg_dmg_vs_higher = self.avg_dmgs()   # type: float
+        self._raw_data: Dict = w_dict
+        self.attacks: int = w_dict['attacks']
+        self.dmg_crit: int = w_dict['dmg_crit']
+        self.dmg_hit: int = w_dict['dmg_hit']
+        self.max_range: int = w_dict['max_range']
+        self.min_range: int = w_dict['min_range']
+        self.runemark: str = w_dict['runemark']
+        self.strength: int = w_dict['strength']
+        self._dmg_rolls: List[Tuple[int, ...]] = self.damage_rolls()
+        self.avg_dmg_vs_lower: float
+        self.avg_dmg_vs_same: float
+        self.avg_dmg_vs_higher: float
+        self.avg_dmg_vs_lower, self.avg_dmg_vs_same, self.avg_dmg_vs_higher = self.avg_dmgs()
 
     def __repr__(self):
         return f'{self.runemark.capitalize()}  -  {self.attacks}/{self.strength}/{self.dmg_hit}/{self.dmg_crit}'
@@ -127,21 +130,21 @@ class FighterProfile:
 
 class Fighter:
     def __init__(self, profile: dict):
-        self._id = profile['_id']                                   # type: str
-        self.name = profile['name']                                 # type: str
-        self.warband = profile['warband']                           # type: str
-        self.subfaction = None                                      # type: Optional[SubFaction]
-        self.grand_alliance = profile['grand_alliance']             # type: str
-        self.movement = profile['movement']                         # type: int
-        self.toughness = profile['toughness']                       # type: int
-        self.wounds = profile['wounds']                             # type: int
-        self.weapons = [Weapon(x) for x in profile['weapons']]      # type: List[Weapon]
-        self.runemarks = profile['runemarks']                       # type: List[str]
-        self.points = profile['points']                             # type: int
+        self._id: str = profile['_id']
+        self.name: str = profile['name']
+        self.warband: str = profile['warband']
+        self.subfaction: Optional['SubFaction'] = None
+        self.grand_alliance: str = profile['grand_alliance']
+        self.movement: int = profile['movement']
+        self.toughness: int = profile['toughness']
+        self.wounds: int = profile['wounds']
+        self.weapons: List[Weapon] = [Weapon(x) for x in profile['weapons']]
+        self.runemarks: List[str] = profile['runemarks']
+        self.points: int = profile['points']
 
-        self._raw_data = profile                                    # type: dict
-        self.abilities = list()                                     # type: List[Ability]
-        self.faction = None                                         # type: Optional[Faction]
+        self._raw_data: dict = profile
+        self.abilities: List['Ability'] = []
+        self.faction: Optional['Faction'] = None
 
     def __repr__(self):
         return self.name
@@ -282,7 +285,7 @@ class Fighters:
                     fighter_key = f'{f.name} - {f.warband}'
                     if fighter_key not in expected_damages.keys():
                         expected_damages[fighter_key] = list()
-                    ctk = f.dmg_chance(vs_t=t, dmg=w)                # type: List[Tuple[Tuple[int, str], float]]
+                    ctk: List[Tuple[Tuple[int, str], float]] = f.dmg_chance(vs_t=t, dmg=w)
                     ctk_percent = int(ctk[0][1] * 100)
                     expected_damages[fighter_key].append(ctk_percent)
         # ValueError: Length of values (20) does not match length of index (10)
@@ -316,7 +319,7 @@ class FighterJSONDataPayload(JSONDataPayload):
             return data
         # We treat the fighters.json file as our source of truth so this is the one we load
         with open(self.src, 'r') as f:
-            data = json.load(f)  # type: List[Dict]
+            data: List[Dict] = json.load(f)
         return data
 
     def write_to_disk(self, dst: Path = Path(Path(__file__).parent.parent, 'data', 'fighters.json')):
