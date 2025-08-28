@@ -6,6 +6,7 @@ import logging
 from pathlib import Path
 from typing import List, Dict, Any
 
+from ..business_rules import TTSExportRules
 from ..fighters import Fighter, Fighters
 from ..models import write_data_json
 
@@ -15,8 +16,12 @@ logger = logging.getLogger(__name__)
 class TTSExporter:
     """Handles Tabletop Simulator export operations."""
     
-    @staticmethod
-    def should_exclude_from_tts(fighter: Fighter) -> bool:
+    def __init__(self):
+        """Initialize with TTS-specific business rules."""
+        self.fighter_exclusion_rule = TTSExportRules.get_fighter_exclusion_rule()
+        self.ability_exclusion_rule = TTSExportRules.get_ability_exclusion_rule()
+    
+    def should_exclude_from_tts(self, fighter: Fighter) -> bool:
         """Determine if a fighter should be excluded from TTS export.
         
         Args:
@@ -25,9 +30,7 @@ class TTSExporter:
         Returns:
             True if fighter should be excluded
         """
-        # Currently only excludes Cities of Sigmar
-        # This could be made configurable in the future
-        return fighter.warband == 'Cities of Sigmar'
+        return self.fighter_exclusion_rule.should_exclude(fighter)
     
     def convert_to_tts_format(self, fighters: Fighters) -> List[Dict[str, Any]]:
         """Convert fighters to TTS format.
@@ -48,11 +51,11 @@ class TTSExporter:
                 
             fighter_data = fighter.as_dict()
             
-            # Convert abilities to TTS format
+            # Convert abilities to TTS format using business rules
             tts_abilities = [
                 ability.tts_format() 
                 for ability in fighter.abilities 
-                if ability.warband != 'universal' and ability.cost != 'battletrait'
+                if not self.ability_exclusion_rule.should_exclude(ability)
             ]
             fighter_data['abilities'] = tts_abilities
             

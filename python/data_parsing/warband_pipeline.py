@@ -11,6 +11,7 @@ from typing import Dict, List, Any
 import jsonschema
 
 from .abilities import Ability
+from .constants import FileExtensions, OutputFiles
 from .data_loading import WarbandDataLoader
 from .data_processing import WarbandDataProcessor
 from .exporters import JSONExporter, TTSExporter, HTMLExporter
@@ -25,7 +26,7 @@ class WarbandDataPipeline(DataPayload):
     """
     Main orchestrator for warband data processing.
     
-    Coordinates data loading, processing, validation, and export operations
+    Coordinates data loading, processing, validation and export operations
     using focused, single-responsibility components.
     """
     
@@ -168,8 +169,8 @@ class WarbandDataPipeline(DataPayload):
         
         # Localized exports
         for loc_file in LOCALISATION_DATA.iterdir():
-            if loc_file.is_file() and loc_file.suffix == '.json':
+            if loc_file.is_file() and loc_file.suffix == FileExtensions.JSON:
                 lang = loc_file.stem
-                self.export_localized_data(loc_file, Path(dst_root, lang, 'abilities.json'))
+                self.export_localized_data(loc_file, Path(dst_root, lang, OutputFiles.ABILITIES_JSON))
         
         logger.info("Completed export including localization")

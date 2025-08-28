@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 
 class HTMLExporter:
-    """Handles HTML, CSV, XLSX, and Markdown export operations."""
+    """Handles HTML, CSV, XLSX and Markdown export operations."""
     
     def export_fighters_html(self, fighters_data: List[Dict[str, Any]], dst_root: Path) -> None:
         """Export fighters to HTML format.

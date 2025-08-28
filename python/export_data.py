@@ -1,4 +1,5 @@
 import argparse
+import logging
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -20,6 +21,11 @@ def parse_args() -> TypedArgs:
 
 if __name__ == '__main__':
     args = parse_args()
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(levelname)s - %(name)s - %(message)s'
+    )
 
     out_dir = LOCAL_DATA if args.local else DIST
 

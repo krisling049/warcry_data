@@ -1,15 +1,17 @@
 """
 Data processing module for Warcry data.
 
-Handles ID assignment, ability assignment, and faction assignment.
+Handles ID assignment, ability assignment and faction assignment.
 """
 
 import logging
 import re
 import uuid
+from collections import defaultdict
 from typing import List, Dict, Any
 
 from .abilities import Ability
+from .constants import SpecialWarbands, DataTypes
 from .factions import Factions
 from .fighters import Fighters
 
@@ -28,29 +30,49 @@ class WarbandDataProcessor:
         """Assign unique IDs to entities that don't have them.
         
         Args:
-            data: Dictionary containing fighters, abilities, and factions data
+            data: Dictionary containing fighters, abilities and factions data
         """
         placeholder_pattern = re.compile(r'^PLACEHOLDER.*|^XXXXXX.*', flags=re.IGNORECASE)
 
         for data_type, entities in data.items():
             for entity in entities:
-                if all([data_type in ["fighters", "abilities"], '_id' not in entity or placeholder_pattern.match(entity.get('_id', ''))]):
+                valid_types = [DataTypes.FIGHTERS, DataTypes.ABILITIES]
+                if all([data_type in valid_types, '_id' not in entity or placeholder_pattern.match(entity.get('_id', ''))]):
                     new_id = str(uuid.uuid4()).split('-')[0]
                     logger.info(f'Assigning _id for {entity.get("name", "unnamed")} - {new_id}')
                     entity['_id'] = new_id
 
     def assign_abilities(self) -> None:
-        """Assign abilities to fighters based on warband and runemarks."""
+        """Assign abilities to fighters based on warband and runemarks.
+        
+        Optimized implementation uses lookup tables to reduce complexity
+        from O(n*m) to O(n+m) where n=abilities, m=fighters.
+        """
         logger.info("Starting ability assignment")
         assignments_made = 0
         
+        # Build lookup tables first - O(m) where m = fighters
+        fighters_by_warband = defaultdict(list)
+        fighters_by_subfaction = defaultdict(list)
+        
+        for fighter in self.fighters.fighters:
+            fighters_by_warband[fighter.warband].append(fighter)
+            subfaction = fighter.subfaction_runemark()
+            if subfaction:
+                fighters_by_subfaction[subfaction].append(fighter)
+        
+        # Assign abilities - O(n * f) where f = fighters per warband (much smaller than total)
         for ability in self.abilities:
-            faction_match = [
-                fighter for fighter in self.fighters.fighters 
-                if ability.warband in [fighter.warband, fighter.subfaction_runemark(), 'universal']
-            ]
+            target_fighters = []
             
-            for fighter in faction_match:
+            if ability.warband == SpecialWarbands.UNIVERSAL:
+                target_fighters = self.fighters.fighters
+            else:
+                # Get fighters from both warband and subfaction lookups
+                target_fighters.extend(fighters_by_warband.get(ability.warband, []))
+                target_fighters.extend(fighters_by_subfaction.get(ability.warband, []))
+            
+            for fighter in target_fighters:
                 if set(ability.runemarks).issubset(set(fighter.runemarks)):
                     fighter.abilities.append(ability)
                     assignments_made += 1

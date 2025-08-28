@@ -1,13 +1,14 @@
 """
 Data loading module for Warcry data processing.
 
-Handles loading fighters, abilities, and factions from JSON files.
+Handles loading fighters, abilities and factions from JSON files.
 """
 
 import logging
 from pathlib import Path
 from typing import Dict, List, Any
 
+from .constants import FileTypes, FolderNames, DataTypes
 from .models import load_json_file, PROJECT_DATA
 
 logger = logging.getLogger(__name__)
@@ -32,9 +33,13 @@ class WarbandDataLoader:
         """Load all warband data from the source directory.
         
         Returns:
-            Dictionary containing fighters, abilities, and factions lists
+            Dictionary containing fighters, abilities and factions lists
         """
-        data = {'fighters': [], 'abilities': [], 'factions': []}
+        data = {
+            DataTypes.FIGHTERS: [],
+            DataTypes.ABILITIES: [], 
+            DataTypes.FACTIONS: []
+        }
         processed_files = 0
         
         for file in self.src.rglob(self.filter_str):
@@ -42,26 +47,26 @@ class WarbandDataLoader:
                 logger.debug(f"Skipping non-file: {file}")
                 continue
                 
-            if file.parent.name.lower() == 'schemas':
+            if file.parent.name.lower() == FolderNames.SCHEMAS:
                 logger.debug(f"Skipping schema file: {file}")
                 continue
                 
             try:
-                if file.name.endswith('_fighters.json'):
+                if file.name.endswith(FileTypes.FIGHTERS.value):
                     content = load_json_file(file)
-                    data['fighters'].extend(content)
+                    data[DataTypes.FIGHTERS].extend(content)
                     processed_files += 1
                     logger.info(f"Loaded {len(content)} fighters from {file}")
                     
-                elif file.name.endswith('_abilities.json'):
+                elif file.name.endswith(FileTypes.ABILITIES.value):
                     content = load_json_file(file)
-                    data['abilities'].extend(content)
+                    data[DataTypes.ABILITIES].extend(content)
                     processed_files += 1
                     logger.info(f"Loaded {len(content)} abilities from {file}")
                     
-                elif file.name.endswith('_faction.json'):
+                elif file.name.endswith(FileTypes.FACTION.value):
                     content = load_json_file(file)
-                    data['factions'].append(content)
+                    data[DataTypes.FACTIONS].append(content)
                     processed_files += 1
                     logger.info(f"Loaded faction data from {file}")
                     
@@ -70,23 +75,23 @@ class WarbandDataLoader:
                 raise FileProcessingError(f"Error processing {file}: {e}") from e
         
         logger.info(f"Successfully processed {processed_files} data files")
-        logger.info(f"Total loaded: {len(data['fighters'])} fighters, {len(data['abilities'])} abilities, {len(data['factions'])} factions")
+        logger.info(f"Total loaded: {len(data[DataTypes.FIGHTERS])} fighters, {len(data[DataTypes.ABILITIES])} abilities, {len(data[DataTypes.FACTIONS])} factions")
         return data
     
     def load_fighters(self) -> List[Dict[str, Any]]:
         """Load only fighter data."""
         data = self.load_all_data()
-        return data['fighters']
+        return data[DataTypes.FIGHTERS]
     
     def load_abilities(self) -> List[Dict[str, Any]]:
         """Load only ability data."""
         data = self.load_all_data()
-        return data['abilities']
+        return data[DataTypes.ABILITIES]
     
     def load_factions(self) -> List[Dict[str, Any]]:
         """Load only faction data."""
         data = self.load_all_data()
-        return data['factions']
+        return data[DataTypes.FACTIONS]
     
     def load_localisation(self, patch_file: Path) -> List[Dict[str, Any]]:
         """Load localization data from a patch file.

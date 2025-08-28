@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import Set, List
 
 from .models import PROJECT_ROOT, PROJECT_DATA, sanitise_filename, write_data_json
 
@@ -20,7 +21,7 @@ class Faction:
         self.warband = warband
         self.bladeborn = bladeborn
         self.heroes_all = heroes_all
-        self.subfactions = set()    # type: set[SubFaction]
+        self.subfactions: Set[SubFaction] = set()
 
     def __repr__(self):
         return self.warband
@@ -44,9 +45,9 @@ class Faction:
 
 
 class Factions:
-    def __init__(self, data: list[dict]):
-        self.factions = list()              # type: list[Faction]
-        self.bladeborn_runemarks = set()    # type: set[str]
+    def __init__(self, data: List[dict]):
+        self.factions: List[Faction] = []
+        self.bladeborn_runemarks: Set[str] = set()
         for f in data:
             new_faction = Faction(
                     grand_alliance=f['grand_alliance'],

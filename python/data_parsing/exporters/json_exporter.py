@@ -7,6 +7,7 @@ from copy import deepcopy
 from pathlib import Path
 from typing import List, Dict, Any
 
+from ..constants import AbilityCosts, SpecialWarbands, DataTypes
 from ..fighters import sort_fighters, FighterJSONDataPayload
 from ..models import write_data_json, sanitise_filename
 
@@ -38,7 +39,7 @@ class JSONExporter:
         """
         data = deepcopy(abilities_data)
         if exclude_battletraits:
-            data = [ability for ability in data if ability.get('cost') != 'battletrait']
+            data = [ability for ability in data if ability.get('cost') != AbilityCosts.BATTLETRAIT]
         
         sorted_data = sorted(data, key=lambda d: d.get('warband', ''))
         logger.info(f"Exporting {len(sorted_data)} abilities to {dst}")
@@ -51,7 +52,7 @@ class JSONExporter:
             abilities_data: List of ability dictionaries
             dst: Destination file path
         """
-        battletraits = [ability for ability in abilities_data if ability.get('cost') == 'battletrait']
+        battletraits = [ability for ability in abilities_data if ability.get('cost') == AbilityCosts.BATTLETRAIT]
         sorted_data = sorted(battletraits, key=lambda d: d.get('warband', ''))
         logger.info(f"Exporting {len(sorted_data)} battletraits to {dst}")
         write_data_json(dst=dst, data=sorted_data)
@@ -70,14 +71,14 @@ class JSONExporter:
         """
         logger.info("Exporting warband-organized structure")
         
-        data_structure = {'universal': {'faction': {}, 'fighters': [], 'abilities': []}}
-        faction_mapping = {'universal': 'universal'}
+        data_structure = {SpecialWarbands.UNIVERSAL: {'faction': {}, DataTypes.FIGHTERS: [], DataTypes.ABILITIES: []}}
+        faction_mapping = {SpecialWarbands.UNIVERSAL: SpecialWarbands.UNIVERSAL}
 
         # Build faction mapping
         for faction in factions_data:
             warband = faction.get('warband')
             if warband and warband not in data_structure:
-                data_structure[warband] = {'faction': faction, 'fighters': [], 'abilities': []}
+                data_structure[warband] = {'faction': faction, DataTypes.FIGHTERS: [], DataTypes.ABILITIES: []}
             faction_mapping[warband] = warband
             
             # Handle subfactions/bladeborn
@@ -89,22 +90,22 @@ class JSONExporter:
         for fighter in fighters_data:
             warband = fighter.get('warband')
             if warband in data_structure:
-                data_structure[warband]['fighters'].append(fighter)
+                data_structure[warband][DataTypes.FIGHTERS].append(fighter)
 
         # Organize abilities by warband
         for ability in abilities_data:
             ability_warband = ability.get('warband')
             mapped_warband = faction_mapping.get(ability_warband, ability_warband)
             if mapped_warband in data_structure:
-                data_structure[mapped_warband]['abilities'].append(ability)
+                data_structure[mapped_warband][DataTypes.ABILITIES].append(ability)
 
         # Write files
         for warband, warband_data in data_structure.items():
             for datatype, content in warband_data.items():
-                grand_alliance = 'universal' if warband == 'universal' else warband_data['faction'].get('grand_alliance')
-                faction_runemark = 'universal' if warband == 'universal' else warband_data['faction'].get('warband')
+                grand_alliance = SpecialWarbands.UNIVERSAL if warband == SpecialWarbands.UNIVERSAL else warband_data['faction'].get('grand_alliance')
+                faction_runemark = SpecialWarbands.UNIVERSAL if warband == SpecialWarbands.UNIVERSAL else warband_data['faction'].get('warband')
 
-                if faction_runemark == 'universal' and datatype != 'abilities':
+                if faction_runemark == SpecialWarbands.UNIVERSAL and datatype != DataTypes.ABILITIES:
                     continue
 
                 filename = f'{faction_runemark}_{datatype}.json'
@@ -112,7 +113,7 @@ class JSONExporter:
                     p for p in [
                         dst,
                         grand_alliance,
-                        sanitise_filename(faction_runemark) if warband != 'universal' else '',
+                        sanitise_filename(faction_runemark) if warband != SpecialWarbands.UNIVERSAL else '',
                         sanitise_filename(filename)
                     ] if p
                 ]
