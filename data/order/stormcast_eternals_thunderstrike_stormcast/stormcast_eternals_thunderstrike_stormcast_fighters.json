@@ -1070,5 +1070,56 @@
             }
         ],
         "wounds": 25
+    },
+    {
+        "_id": "3f5c817c",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Stormstrike Pallador-Prime",
+        "points": 245,
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 30
+    },
+    {
+        "_id": "7a3dcfca",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 8,
+        "name": "Stormstrike Pallador",
+        "points": 195,
+        "runemarks": [
+            "mount"
+        ],
+        "toughness": 6,
+        "warband": "Stormcast Eternals Thunderstrike Stormcast",
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "wounds": 28
     }
 ]
