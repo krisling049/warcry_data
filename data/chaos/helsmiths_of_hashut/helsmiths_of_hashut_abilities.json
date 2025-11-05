@@ -1,0 +1,140 @@
+[
+    {
+        "_id": "7b09275f",
+        "name": "Battle Trait",
+        "warband": "Helsmiths of Hashut",
+        "cost": "battletrait",
+        "description": "At the start of each battle round, gain a number of daemonic power points (DPP) equal to the number of friendly desolation tokens on the battlefield (see the 'Leave the Land in Ruin' ability). At the start of a friendly fighter's activation, if that fighter has the Helsmiths of Hashut and Warrior runemarks and you spend up to 3 DPP on that fighter. If you do so, apply the corresponding effects below to that fighter's first attack action made that activation. The effects are cumulative (for example, if you spent 3 DPP on that fighter, all 3 effects would apply to them). 1 DPP - If it is a melee attack action, add 1 to the damage points allocated by each critical hit from that attack action. If it is a missile attack action, add 1 to the damage points allocated by a single critical hit from that attack action. 2 DPP - Add 1 to the Strength characteristic of that attack action. 3 DPP - Add 1 to the Attacks characteristic of that attack action.",
+        "runemarks": []
+    },
+    {
+        "_id": "6924f3f4",
+        "name": "Disposable Lackeys",
+        "warband": "Helsmiths of Hashut",
+        "cost": "reaction",
+        "description": "A friendly fighter with the Helsmiths of Hashut and Warrior runemarks can make this reaction after they are targeted by an attack action but before the hit rolls are made. Pick a friendly Hobgrot Vandal that is visible to the attacker and within 3\" of the fighter making this reaction. Remove that Hobgrot Vandal from the battlefield and set them up again within 1\" of the fighter making this reaction and as near as possible to the attacker. That Hobgrot Vandal is now the target of that attack action.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "0dd03c5b",
+        "name": "Black-hearted Conqueror",
+        "warband": "Helsmiths of Hashut",
+        "cost": "double",
+        "description": "Pick up to 3 visible friendly fighters with the Helsmiths of Hashut runemark. Those fighters can each immediately make a bonus move action of up to 3\".",
+        "runemarks": [
+            "champion"
+        ]
+    },
+    {
+        "_id": "3e37b5d1",
+        "name": "Daemonsmithing",
+        "warband": "Helsmiths of Hashut",
+        "cost": "double",
+        "description": "Pick a visible fighter (friendly or enemy) within 8\" of this fighter. If you picked an enemy fighter, subtract 2 from their Toughness characteristic for the rest of the battle round. If you picked a friendly fighter that does not have the Terrifying runemark, add 2 to their Toughness characteristic for the rest of the battle round. If you picked a friendly fighter that has the Terrifying runemark, remove 3 damage points allocated to them.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "a6df4115",
+        "name": "Leave the Land in Ruin",
+        "warband": "Helsmiths of Hashut",
+        "cost": "double",
+        "description": "Pick each obstacle within 3\" of this fighter that is touching the battlefield floor and that does not have a desolation token. Give each of those obstacles a desolation token.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "d5f8beef",
+        "name": "Scorched Remains",
+        "warband": "Helsmiths of Hashut",
+        "cost": "double",
+        "description": "Pick an enemy fighter that was allocated any damage points by this fighter's missile attack actions this activation. That enemy fighter cannot use abilities for the rest of the battle round.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "e5ab61fc",
+        "name": "Disciplined March",
+        "warband": "Helsmiths of Hashut",
+        "cost": "double",
+        "description": "For the rest of this fighter's activation, add 2 to their Move characteristic and they can make move actions even if they are within 1\" of an enemy fighter.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "45a4deed",
+        "name": "Sacred Gong",
+        "warband": "Helsmiths of Hashut",
+        "cost": "double",
+        "description": "Remove all friendly gong carrier tokens from the battlefield, then give this fighter a gong carrier token. For the rest of the battle round, add 1 to the Attacks characteristic of melee attack actions made by friendly fighters with the Helsmiths of Hashut and Warrior runemarks while they are within 12\" of a friendly fighter with a gong carrier token.",
+        "runemarks": [
+            "icon-bearer"
+        ]
+    },
+    {
+        "_id": "5f793230",
+        "name": "Daemonic Furnace Heat",
+        "warband": "Helsmiths of Hashut",
+        "cost": "double",
+        "description": "For the rest of the battle round, subtract 1 from the Attacks characteristic of melee attack actions made by visible enemy fighters while they are within 3\" of this fighter.",
+        "runemarks": [
+            "terrifying"
+        ]
+    },
+    {
+        "_id": "b8f60935",
+        "name": "Furnace Blessing",
+        "warband": "Helsmiths of Hashut",
+        "cost": "triple",
+        "description": "Pick a visible friendly fighter. For the rest of the battle round, add 1 to the Attacks and Strength characteristics of attack actions made by that fighter.",
+        "runemarks": [
+            "priest"
+        ]
+    },
+    {
+        "_id": "d5186454",
+        "name": "Hateful Hail",
+        "warband": "Helsmiths of Hashut",
+        "cost": "triple",
+        "description": "You can count 1 hit from the next missile attack action made by this fighter as a critical hit instead.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "3242d9b7",
+        "name": "Crush the Unworthy",
+        "warband": "Helsmiths of Hashut",
+        "cost": "triple",
+        "description": "This fighter can only use this ability during their activation after they make a move action that ends within 1\" of any enemy fighters. This fighter can make a bonus move action of up to 8\". This move action can pass through enemy models and must end within 1\" of an enemy fighter. In addition, add 1 to the Attacks characteristic of melee attack actions made by this fighter this activation.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "76b41b0d",
+        "name": "Zealous Counter-attack",
+        "warband": "Helsmiths of Hashut",
+        "cost": "triple",
+        "description": "For the rest of this fighter's activation, if they made a move action this activation, add 1 to the critical hit roll (to a maximum of 6) from melee attack actions made by this fighter if the target is within 1\" of another friendly fighter with the Helsmiths of Hashut and Warrior runemarks.",
+        "runemarks": [
+            "berserker"
+        ]
+    },
+    {
+        "_id": "e33bb417",
+        "name": "Daemonic Empowerment",
+        "warband": "Helsmiths of Hashut",
+        "cost": "quad",
+        "description": "This fighter is treated as having had 3 daemonic power points spent on them for the rest of the activation.",
+        "runemarks": [
+            "warrior"
+        ]
+    }
+]
