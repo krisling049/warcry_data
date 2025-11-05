@@ -133,5 +133,36 @@
         "cost": "triple",
         "description": "A fighter can use this ability only if they are within 6\" of a visible friendly Bjorgen Thundrik and it is the third battle round or later.  This fighter can make a bonus attack action.",
         "runemarks": []
+    },
+    {
+        "_id": "f4be9af4",
+        "name": "Light Endrinpack",
+        "warband": "Kharadron Overlords",
+        "cost": "double",
+        "description": "This fighter makes a bonus move action of 3\". If they are within 1\" of any enemy fighters, they instead make a bonus move action of 10\" and can pass through enemy fighters when they do so.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "5e082dc1",
+        "name": "Spotter's Flaregun",
+        "warband": "Kharadron Overlords",
+        "cost": "double",
+        "description": "Pick an enemy fighter or objective within 6\" of this fighter to be the target. For the rest of the battle round, subtract 1 from the Toughness of enemy fighters while they are within 3\" of and visible to the target.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "e138c8de",
+        "name": "Protection of the Void",
+        "warband": "Kharadron Overlords",
+        "cost": "triple",
+        "description": "This unit cannot be affected by enemy abilities until the start of their next activation. In addition, for the rest of the battle round, add 2 to the Damage characteristics of this unit's attack actions if the target has the Mystic and/or Priest runemarks.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
     }
 ]
