@@ -176,6 +176,14 @@
         "runemarks": []
     },
     {
+        "_id": "7b09275f",
+        "name": "Battle Trait",
+        "warband": "Helsmiths of Hashut",
+        "cost": "battletrait",
+        "description": "At the start of each battle round, gain a number of daemonic power points (DPP) equal to the number of friendly desolation tokens on the battlefield (see the 'Leave the Land in Ruin' ability). At the start of a friendly fighter's activation, if that fighter has the Helsmiths of Hashut and Warrior runemarks and you spend up to 3 DPP on that fighter. If you do so, apply the corresponding effects below to that fighter's first attack action made that activation. The effects are cumulative (for example, if you spent 3 DPP on that fighter, all 3 effects would apply to them). 1 DPP - If it is a melee attack action, add 1 to the damage points allocated by each critical hit from that attack action. If it is a missile attack action, add 1 to the damage points allocated by a single critical hit from that attack action. 2 DPP - Add 1 to the Strength characteristic of that attack action. 3 DPP - Add 1 to the Attacks characteristic of that attack action.",
+        "runemarks": []
+    },
+    {
         "_id": "e6860f13",
         "name": "A Realm of Fire and Ash",
         "warband": "Horns of Hashut",
