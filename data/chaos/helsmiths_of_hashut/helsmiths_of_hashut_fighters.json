@@ -385,5 +385,143 @@
             "warrior"
         ],
         "points": 85
+    },
+    {
+        "_id": "54b7d03c",
+        "name": "Zuldrakka",
+        "warband": "Helsmiths of Hashut",
+        "subfaction": "Blood of the Bull",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 175
+    },
+    {
+        "_id": "a903f7d8",
+        "name": "Imnidrin",
+        "warband": "Helsmiths of Hashut",
+        "subfaction": "Blood of the Bull",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "frenzied",
+            "warrior"
+        ],
+        "points": 90
+    },
+    {
+        "_id": "8d0fa235",
+        "name": "Morudok",
+        "warband": "Helsmiths of Hashut",
+        "subfaction": "Blood of the Bull",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "brute",
+            "warrior"
+        ],
+        "points": 90
+    },
+    {
+        "_id": "f7b41e09",
+        "name": "Tokkor",
+        "warband": "Helsmiths of Hashut",
+        "subfaction": "Blood of the Bull",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 1
+            },
+            {
+                "attacks": 6,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 1
+            },
+        ],
+        "runemarks": [
+            "scout",
+            "warrior"
+        ],
+        "points": 85
+    },
+    {
+        "_id": "6ac3d57e",
+        "name": "Grisk",
+        "warband": "Helsmiths of Hashut",
+        "subfaction": "Blood of the Bull",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "minion"
+        ],
+        "points": 85
     }
 ]

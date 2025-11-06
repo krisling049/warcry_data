@@ -1016,5 +1016,124 @@
             "mystic"
         ],
         "points": 130
+    },
+    {
+        "_id": "4e9a71c3",
+        "name": "Kamandora",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Kamandora’s Blades",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 2
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 90
+    },
+    {
+        "_id": "b7d03f2e",
+        "name": "Throkk",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Kamandora’s Blades",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 95
+    },
+    {
+        "_id": "0c5af98d",
+        "name": "Ghalista",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Kamandora’s Blades",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 70
+    },
+    {
+        "_id": "ea6281b4",
+        "name": "Antro Krast",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Kamandora’s Blades",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 70
+    },
+    {
+        "_id": "93fe0d57",
+        "name": "Kannat",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Kamandora’s Blades",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 90
     }
 ]
