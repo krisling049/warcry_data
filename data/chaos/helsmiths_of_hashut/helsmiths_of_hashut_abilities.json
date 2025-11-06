@@ -136,5 +136,55 @@
         "runemarks": [
             "warrior"
         ]
+    },
+    {
+        "_id": "e4b79a10",
+        "name": "Cruellest of Despots",
+        "warband": "Blood of the Bull",
+        "cost": "quad",
+        "description": "Pick up to 3 other visible friendly fighters within 6\" of this fighter that have the Helsmiths of Hashut runemark. In their next activation, each of those fighters can use a [double] ability without needing or using any ability dice. If those fighters have the Blood of the Bull ( ) runemark, those abilities have a value of 6.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "3fd802c6",
+        "name": "Tyrannic Declarations",
+        "warband": "Blood of the Bull",
+        "cost": "double",
+        "description": "For the rest of the battle round, while they are within 3\" of a friendly fighter with the Hero and Blood of the Bull runemarks, friendly fighters with the Blood of the Bull runemark count as 1 additional friendly fighter when determining control of objectives. In addition, if the value of this ability is 6, add 1 to the Toughness characteristic of those fighters for the rest of the battle round.",
+        "runemarks": [
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "9ac51f84",
+        "name": "Daemonic Vigour",
+        "warband": "Blood of the Bull",
+        "cost": "double",
+        "description": "Add 1 to the damage points allocated by each critical hit from the next melee attack action made by this fighter this activation. If the value of this ability is 6, add 1 to the Strength characteristic of that attack action and add 1 to the Attacks characteristic of that attack action.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "47e0bd29",
+        "name": "Daemonic Blaze",
+        "warband": "Blood of the Bull",
+        "cost": "double",
+        "description": "Pick an enemy fighter that had any damage points allocated to them by this fighter this activation. That fighter cannot use reactions for the rest of the battle round. In addition, if the value of this ability is 6, that fighter cannot use abilities for the rest of the battle round.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "b18f64d3",
+        "name": "Tenacious and Cowardly",
+        "warband": "Blood of the Bull",
+        "cost": "double",
+        "description": "The next time this battle round that this fighter is taken down, all remaining damage points that would be allocated to them are ignored, then remove 1 damage point allocated to this fighter. If the value of this ability is 6, remove D3 damage points allocated to this fighter instead.",
+        "runemarks": [
+            "minion"
+        ]
     }
 ]

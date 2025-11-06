@@ -154,5 +154,35 @@
         "runemarks": [
             "hero"
         ]
+    },
+    {
+        "_id": "19fb4e73",
+        "name": "The Endless Hunt",
+        "warband": "Heralds of Kurnoth",
+        "cost": "double",
+        "description": "For the rest of the battle round, if this fighter makes a bonus move action as a result of the ‘Herald’s Pride’ or ‘Precision Volley’ ability, they can move 6\" instead of 3\" and they can pass through enemy fighters when they do so.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "f0a51c2e",
+        "name": "Herald’s Pride",
+        "warband": "Heralds of Kurnoth",
+        "cost": "double",
+        "description": "Another friendly fighter with the Heralds of Kurnoth runemark can make a bonus move action of 3\". Then, if the next melee attack action made by this fighter this activation scores any hits or critical hits, allocate a number of damage points to that enemy fighter equal to the value of this ability, or allocate 6 damage points instead if a friendly fighter with the Hero ( ) and Heralds of Kurnoth ( ) runemarks is within 1\" of that enemy fighter.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "a78a06be03d9af6d",
+        "name": "Precision Volley",
+        "warband": "Heralds of Kurnoth",
+        "cost": "double",
+        "description": "Another friendly fighter with the Heralds of Kurnoth runemark can make a bonus move action of 3\". Then, add 1 to the Attacks characteristic of the next missile attack action made by this fighter this activation and that attack action can target enemy fighters within 1\" of any friendly fighters. If a friendly fighter with the Hero and Heralds of Kurnoth runemarks is within 1\" of that enemy fighter, that attack action scores critical hits on a 5+.",
+        "runemarks": [
+            "scout"
+        ]
     }
 ]
