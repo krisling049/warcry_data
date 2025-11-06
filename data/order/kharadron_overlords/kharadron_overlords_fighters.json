@@ -1133,5 +1133,111 @@
             "icon-bearer"
         ],
         "points": 95
+    },
+    {
+        "_id": "ab53faae",
+        "name": "Null-Khemist",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            },
+            {
+                "attacks": 6,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "fly",
+            "champion"
+        ],
+        "points": 280
+    },
+    {
+        "_id": "f1c7be0e",
+        "name": "Vongrim Harpoon Crew",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 14,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "fly",
+            "bulwark"
+        ],
+        "points": 115
+    },
+    {
+        "_id": "634ea06d",
+        "name": "Vongrim Salvager",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 14,
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 2,
+                "runemark": "sword",
+                "strength": 3
+            },
+            {
+                "attacks": 8,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 1,
+                "runemark": "ranged",
+                "strength": 2
+            }
+        ],
+        "runemarks": [
+            "fly",
+            "warrior"
+        ],
+        "points": 120
     }
 ]

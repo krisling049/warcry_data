@@ -74,7 +74,7 @@
         "name": "Immolation",
         "warband": "Pyregheists",
         "cost": "reaction",
-        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Cremate this fighter.’",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Cremate this fighter. Then, this fighter is taken down. In a campaign battle, do not make an injury roll for this fighter.",
         "runemarks": []
     }
 ]

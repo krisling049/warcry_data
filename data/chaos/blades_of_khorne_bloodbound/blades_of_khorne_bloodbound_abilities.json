@@ -247,21 +247,21 @@
         ]
     },
     {
-        "_id": "d8c3e47f",
+        "_id": "e40d6c52",
         "name": "Eruption of Hate",
-        "warband": "Kamandora’s Blades",
+        "warband": "Kamandora's Blades",
         "cost": "double",
-        "description": "For the rest of the battle round, add 1 to the Attacks characteristic of melee attack actions used by friendly fighters with the Kamandora’s Blades runemark for each enemy fighter that is bleeding out.",
+        "description": "For the rest of the battle round, add 1 to the Attacks characteristic of melee attack actions used by friendly fighters with the Kamandora's Blades runemark for each enemy fighter that is bleeding out.",
         "runemarks": [
             "hero"
         ]
     },
     {
-        "_id": "72f9b015",
-        "name": "Bleed ‘Em Slow",
-        "warband": "Kamandora’s Blades",
+        "_id": "ba5487b3",
+        "name": "Bleed 'Em Slow",
+        "warband": "Kamandora's Blades",
         "cost": "double",
-        "description": "Pick each enemy fighter that was allocated any damage points by this fighter’s attack actions this activation. That fighter is bleeding out. At the start of each battle round, after the initiative roll, allocate D3 damage points to each enemy fighter that is bleeding out.",
+        "description": "Pick each enemy fighter that was allocated any damage points by this fighter's attack actions this activation. That fighter is bleeding out. At the start of each battle round, after the initiative roll, allocate D3 damage points to each enemy fighter that is bleeding out.",
         "runemarks": []
     }
 ]
