@@ -11613,27 +11613,18 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 4,
-        "toughness": 4,
+        "movement": 3,
+        "toughness": 5,
         "wounds": 25,
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
-            },
-            {
-                "attacks": 3,
+                "attacks": 4,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 4,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "ranged",
-                "strength": 2
+                "runemark": "spear",
+                "strength": 4
             }
         ],
         "runemarks": [
@@ -11663,15 +11654,15 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 4,
-        "toughness": 3,
+        "movement": 3,
+        "toughness": 5,
         "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 5,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "spear",
                 "strength": 3
@@ -11703,26 +11694,26 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "toughness": 4,
         "wounds": 20,
         "weapons": [
             {
                 "attacks": 2,
-                "dmg_crit": 4,
+                "dmg_crit": 3,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "hammer",
-                "strength": 3
+                "runemark": "unarmed",
+                "strength": 4
             },
             {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 2,
-                "max_range": 6,
-                "min_range": 0,
-                "runemark": "ranged",
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
                 "strength": 3
             }
         ],
@@ -11753,18 +11744,18 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "toughness": 4,
         "wounds": 12,
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 4,
+                "attacks": 2,
+                "dmg_crit": 3,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
-                "strength": 3
+                "runemark": "mace",
+                "strength": 4
             }
         ],
         "runemarks": [
@@ -11793,26 +11784,26 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "toughness": 4,
         "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "hammer",
-                "strength": 3
-            },
-            {
-                "attacks": 3,
                 "dmg_crit": 3,
                 "dmg_hit": 2,
-                "max_range": 6,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "ranged",
+                "runemark": "mace",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 3,
+                "min_range": 7,
+                "runemark": "blast",
                 "strength": 3
             }
         ],
@@ -11848,12 +11839,12 @@
         "wounds": 18,
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 5,
+                "attacks": 5,
+                "dmg_crit": 3,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
+                "runemark": "mace",
                 "strength": 4
             }
         ],
@@ -11884,27 +11875,27 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 4,
-        "toughness": 3,
+        "movement": 3,
+        "toughness": 4,
         "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
+                "runemark": "unarmed",
                 "strength": 3
             },
             {
-                "attacks": 3,
+                "attacks": 2,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 4,
-                "min_range": 0,
+                "max_range": 15,
+                "min_range": 6,
                 "runemark": "ranged",
-                "strength": 2
+                "strength": 5
             }
         ],
         "runemarks": [
@@ -11933,18 +11924,18 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 4,
-        "toughness": 5,
+        "movement": 9,
+        "toughness": 4,
         "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "axe",
-                "strength": 2
+                "strength": 5
             }
         ],
         "runemarks": [
@@ -11974,27 +11965,27 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 4,
-        "toughness": 1,
+        "movement": 3,
+        "toughness": 4,
         "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
+                "runemark": "unarmed",
+                "strength": 3
             },
             {
                 "attacks": 6,
-                "dmg_crit": 6,
-                "dmg_hit": 1,
-                "max_range": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 6,
                 "min_range": 0,
-                "runemark": "ranged",
-                "strength": 2
+                "runemark": "blast",
+                "strength": 1
             }
         ],
         "runemarks": [
@@ -12028,13 +12019,13 @@
         "wounds": 40,
         "weapons": [
             {
-                "attacks": 8,
-                "dmg_crit": 5,
+                "attacks": 4,
+                "dmg_crit": 6,
                 "dmg_hit": 3,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "hammer",
-                "strength": 3
+                "runemark": "mace",
+                "strength": 8
             }
         ],
         "runemarks": [
@@ -12063,18 +12054,18 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "toughness": 3,
         "wounds": 8,
         "weapons": [
             {
-                "attacks": 3,
+                "attacks": 2,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
-                "strength": 2
+                "runemark": "dagger",
+                "strength": 3
             }
         ],
         "runemarks": [
@@ -12094,21 +12085,21 @@
         "wounds": 40,
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "hammer",
-                "strength": 3
+                "runemark": "unarmed",
+                "strength": 5
             },
             {
-                "attacks": 5,
-                "dmg_crit": 7,
+                "attacks": 12,
+                "dmg_crit": 2,
                 "dmg_hit": 2,
-                "max_range": 4,
+                "max_range": 5,
                 "min_range": 0,
-                "runemark": "ranged",
+                "runemark": "blast",
                 "strength": 2
             }
         ],
@@ -12138,18 +12129,18 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 4,
-        "toughness": 4,
+        "movement": 3,
+        "toughness": 5,
         "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 4,
+                "dmg_crit": 3,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
-                "strength": 3
+                "runemark": "sword",
+                "strength": 4
             }
         ],
         "runemarks": [
