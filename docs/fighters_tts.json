@@ -12164,6 +12164,205 @@
         ]
     },
     {
+        "_id": "54b7d03c",
+        "name": "Zuldrakka",
+        "warband": "Helsmiths of Hashut",
+        "subfaction": "Blood of the Bull",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 5,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "warrior"
+        ],
+        "points": 175,
+        "abilities": [
+            {
+                "_id": "6924f3f4"
+            },
+            {
+                "_id": "a6df4115"
+            },
+            {
+                "_id": "e33bb417"
+            },
+            {
+                "_id": "e4b79a10"
+            }
+        ]
+    },
+    {
+        "_id": "a903f7d8",
+        "name": "Imnidrin",
+        "warband": "Helsmiths of Hashut",
+        "subfaction": "Blood of the Bull",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "frenzied",
+            "warrior"
+        ],
+        "points": 90,
+        "abilities": [
+            {
+                "_id": "6924f3f4"
+            },
+            {
+                "_id": "a6df4115"
+            },
+            {
+                "_id": "e33bb417"
+            },
+            {
+                "_id": "3fd802c6"
+            }
+        ]
+    },
+    {
+        "_id": "8d0fa235",
+        "name": "Morudok",
+        "warband": "Helsmiths of Hashut",
+        "subfaction": "Blood of the Bull",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "mace",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "brute",
+            "warrior"
+        ],
+        "points": 90,
+        "abilities": [
+            {
+                "_id": "6924f3f4"
+            },
+            {
+                "_id": "a6df4115"
+            },
+            {
+                "_id": "e33bb417"
+            },
+            {
+                "_id": "9ac51f84"
+            }
+        ]
+    },
+    {
+        "_id": "f7b41e09",
+        "name": "Tokkor",
+        "warband": "Helsmiths of Hashut",
+        "subfaction": "Blood of the Bull",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "toughness": 4,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 1
+            },
+            {
+                "attacks": 6,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 1
+            }
+        ],
+        "runemarks": [
+            "scout",
+            "warrior"
+        ],
+        "points": 85,
+        "abilities": [
+            {
+                "_id": "6924f3f4"
+            },
+            {
+                "_id": "a6df4115"
+            },
+            {
+                "_id": "e33bb417"
+            },
+            {
+                "_id": "47e0bd29"
+            }
+        ]
+    },
+    {
+        "_id": "6ac3d57e",
+        "name": "Grisk",
+        "warband": "Helsmiths of Hashut",
+        "subfaction": "Blood of the Bull",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "toughness": 3,
+        "wounds": 8,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "minion"
+        ],
+        "points": 85,
+        "abilities": [
+            {
+                "_id": "b18f64d3"
+            }
+        ]
+    },
+    {
         "_id": "1655db3c",
         "name": "Gor with Pair of Gor Blades",
         "warband": "Beasts of Chaos",
@@ -16279,6 +16478,186 @@
             },
             {
                 "_id": "f6e733c3"
+            }
+        ]
+    },
+    {
+        "_id": "4e9a71c3",
+        "name": "Kamandora",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Kamandora’s Blades",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 2
+            }
+        ],
+        "runemarks": [
+            "hero"
+        ],
+        "points": 90,
+        "abilities": [
+            {
+                "_id": "73a644b7"
+            },
+            {
+                "_id": "a6a3c9f1"
+            },
+            {
+                "_id": "017ae05b"
+            },
+            {
+                "_id": "d8c3e47f"
+            },
+            {
+                "_id": "72f9b015"
+            }
+        ]
+    },
+    {
+        "_id": "b7d03f2e",
+        "name": "Throkk",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Kamandora’s Blades",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 95,
+        "abilities": [
+            {
+                "_id": "73a644b7"
+            },
+            {
+                "_id": "017ae05b"
+            },
+            {
+                "_id": "72f9b015"
+            }
+        ]
+    },
+    {
+        "_id": "0c5af98d",
+        "name": "Ghalista",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Kamandora’s Blades",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 70,
+        "abilities": [
+            {
+                "_id": "73a644b7"
+            },
+            {
+                "_id": "017ae05b"
+            },
+            {
+                "_id": "72f9b015"
+            }
+        ]
+    },
+    {
+        "_id": "ea6281b4",
+        "name": "Antro Krast",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Kamandora’s Blades",
+        "grand_alliance": "chaos",
+        "movement": 5,
+        "toughness": 3,
+        "wounds": 12,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "runemarks": [],
+        "points": 70,
+        "abilities": [
+            {
+                "_id": "73a644b7"
+            },
+            {
+                "_id": "017ae05b"
+            },
+            {
+                "_id": "72f9b015"
+            }
+        ]
+    },
+    {
+        "_id": "93fe0d57",
+        "name": "Kannat",
+        "warband": "Blades of Khorne: Bloodbound",
+        "subfaction": "Kamandora’s Blades",
+        "grand_alliance": "chaos",
+        "movement": 6,
+        "toughness": 3,
+        "wounds": 6,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "beast"
+        ],
+        "points": 90,
+        "abilities": [
+            {
+                "_id": "73a644b7"
+            },
+            {
+                "_id": "017ae05b"
+            },
+            {
+                "_id": "72f9b015"
             }
         ]
     },
@@ -38878,6 +39257,141 @@
             },
             {
                 "_id": "a78a0f6d"
+            }
+        ]
+    },
+    {
+        "_id": "e91bd07f",
+        "name": "Ylarin, Master of the Paths",
+        "warband": "Sylvaneth",
+        "subfaction": "Heralds of Kurnoth",
+        "grand_alliance": "order",
+        "movement": 8,
+        "toughness": 4,
+        "wounds": 22,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 2,
+                "min_range": 0,
+                "runemark": "spear",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 4
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "mount"
+        ],
+        "points": 175,
+        "abilities": [
+            {
+                "_id": "7eef6cb9"
+            },
+            {
+                "_id": "88c6da2f"
+            },
+            {
+                "_id": "4f03b091"
+            },
+            {
+                "_id": "19fb4e73"
+            }
+        ]
+    },
+    {
+        "_id": "3c0e5a9d",
+        "name": "Cullon, Axe of Kurnoth",
+        "warband": "Sylvaneth",
+        "subfaction": "Heralds of Kurnoth",
+        "grand_alliance": "order",
+        "movement": 8,
+        "toughness": 3,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 4,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 5
+            }
+        ],
+        "runemarks": [
+            "mount",
+            "brute"
+        ],
+        "points": 165,
+        "abilities": [
+            {
+                "_id": "7eef6cb9"
+            },
+            {
+                "_id": "4f03b091"
+            },
+            {
+                "_id": "f0a51c2e"
+            }
+        ]
+    },
+    {
+        "_id": "7d4b1f60",
+        "name": "Lenwythe, Eye of the Forest",
+        "warband": "Sylvaneth",
+        "subfaction": "Heralds of Kurnoth",
+        "grand_alliance": "order",
+        "movement": 8,
+        "toughness": 3,
+        "wounds": 20,
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 2,
+                "max_range": 12,
+                "min_range": 3,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "mount",
+            "scout"
+        ],
+        "points": 160,
+        "abilities": [
+            {
+                "_id": "7eef6cb9"
+            },
+            {
+                "_id": "4f3d198b"
+            },
+            {
+                "_id": "4f03b091"
+            },
+            {
+                "_id": "a78a06be03d9af6d"
             }
         ]
     },
