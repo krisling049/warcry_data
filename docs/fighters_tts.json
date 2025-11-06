@@ -11613,18 +11613,27 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 3,
-        "toughness": 5,
+        "movement": 4,
+        "toughness": 4,
         "wounds": 25,
         "weapons": [
             {
-                "attacks": 4,
+                "attacks": 3,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "axe",
+                "strength": 4
+            },
+            {
+                "attacks": 3,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 2,
+                "max_range": 4,
                 "min_range": 0,
-                "runemark": "spear",
-                "strength": 4
+                "runemark": "ranged",
+                "strength": 2
             }
         ],
         "runemarks": [
@@ -11654,15 +11663,15 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 3,
-        "toughness": 5,
+        "movement": 4,
+        "toughness": 3,
         "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 4,
+                "dmg_crit": 5,
                 "dmg_hit": 2,
-                "max_range": 2,
+                "max_range": 1,
                 "min_range": 0,
                 "runemark": "spear",
                 "strength": 3
@@ -11694,26 +11703,26 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 3,
+        "movement": 4,
         "toughness": 4,
         "wounds": 20,
         "weapons": [
             {
                 "attacks": 2,
-                "dmg_crit": 3,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 4
+                "runemark": "hammer",
+                "strength": 3
             },
             {
-                "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 7,
-                "min_range": 3,
-                "runemark": "blast",
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
@@ -11744,18 +11753,18 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 3,
+        "movement": 4,
         "toughness": 4,
         "wounds": 12,
         "weapons": [
             {
-                "attacks": 2,
-                "dmg_crit": 3,
+                "attacks": 3,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "mace",
-                "strength": 4
+                "runemark": "axe",
+                "strength": 3
             }
         ],
         "runemarks": [
@@ -11784,26 +11793,26 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 3,
+        "movement": 4,
         "toughness": 4,
         "wounds": 20,
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 3,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 2,
+                "max_range": 1,
                 "min_range": 0,
-                "runemark": "mace",
-                "strength": 4
+                "runemark": "hammer",
+                "strength": 3
             },
             {
-                "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 3,
-                "max_range": 3,
-                "min_range": 7,
-                "runemark": "blast",
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "ranged",
                 "strength": 3
             }
         ],
@@ -11839,12 +11848,12 @@
         "wounds": 18,
         "weapons": [
             {
-                "attacks": 5,
-                "dmg_crit": 3,
+                "attacks": 4,
+                "dmg_crit": 5,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "mace",
+                "runemark": "axe",
                 "strength": 4
             }
         ],
@@ -11875,27 +11884,27 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 3,
-        "toughness": 4,
+        "movement": 4,
+        "toughness": 3,
         "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
+                "runemark": "axe",
                 "strength": 3
             },
             {
-                "attacks": 2,
+                "attacks": 3,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 15,
-                "min_range": 6,
+                "max_range": 4,
+                "min_range": 0,
                 "runemark": "ranged",
-                "strength": 5
+                "strength": 2
             }
         ],
         "runemarks": [
@@ -11924,18 +11933,18 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 9,
-        "toughness": 4,
+        "movement": 4,
+        "toughness": 5,
         "wounds": 18,
         "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 2,
+                "max_range": 1,
                 "min_range": 0,
                 "runemark": "axe",
-                "strength": 5
+                "strength": 2
             }
         ],
         "runemarks": [
@@ -11965,27 +11974,27 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 3,
-        "toughness": 4,
+        "movement": 4,
+        "toughness": 1,
         "wounds": 12,
         "weapons": [
             {
                 "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
+                "dmg_crit": 6,
+                "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 3
+                "runemark": "axe",
+                "strength": 4
             },
             {
                 "attacks": 6,
-                "dmg_crit": 2,
-                "dmg_hit": 2,
-                "max_range": 6,
+                "dmg_crit": 6,
+                "dmg_hit": 1,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "blast",
-                "strength": 1
+                "runemark": "ranged",
+                "strength": 2
             }
         ],
         "runemarks": [
@@ -12019,13 +12028,13 @@
         "wounds": 40,
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 6,
+                "attacks": 8,
+                "dmg_crit": 5,
                 "dmg_hit": 3,
-                "max_range": 2,
+                "max_range": 1,
                 "min_range": 0,
-                "runemark": "mace",
-                "strength": 8
+                "runemark": "hammer",
+                "strength": 3
             }
         ],
         "runemarks": [
@@ -12054,18 +12063,18 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 3,
+        "movement": 4,
         "toughness": 3,
         "wounds": 8,
         "weapons": [
             {
-                "attacks": 2,
+                "attacks": 3,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "dagger",
-                "strength": 3
+                "runemark": "axe",
+                "strength": 2
             }
         ],
         "runemarks": [
@@ -12085,21 +12094,21 @@
         "wounds": 40,
         "weapons": [
             {
-                "attacks": 2,
-                "dmg_crit": 4,
-                "dmg_hit": 3,
+                "attacks": 4,
+                "dmg_crit": 5,
+                "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "unarmed",
-                "strength": 5
+                "runemark": "hammer",
+                "strength": 3
             },
             {
-                "attacks": 12,
-                "dmg_crit": 2,
+                "attacks": 5,
+                "dmg_crit": 7,
                 "dmg_hit": 2,
-                "max_range": 5,
+                "max_range": 4,
                 "min_range": 0,
-                "runemark": "blast",
+                "runemark": "ranged",
                 "strength": 2
             }
         ],
@@ -12129,18 +12138,18 @@
         "warband": "Helsmiths of Hashut",
         "subfaction": "",
         "grand_alliance": "chaos",
-        "movement": 3,
-        "toughness": 5,
+        "movement": 4,
+        "toughness": 4,
         "wounds": 12,
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 3,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "sword",
-                "strength": 4
+                "runemark": "axe",
+                "strength": 3
             }
         ],
         "runemarks": [
@@ -12164,7 +12173,7 @@
         ]
     },
     {
-        "_id": "54b7d03c",
+        "_id": "cac9c14a",
         "name": "Zuldrakka",
         "warband": "Helsmiths of Hashut",
         "subfaction": "Blood of the Bull",
@@ -12199,12 +12208,12 @@
                 "_id": "e33bb417"
             },
             {
-                "_id": "e4b79a10"
+                "_id": "3822503a"
             }
         ]
     },
     {
-        "_id": "a903f7d8",
+        "_id": "1184eea7",
         "name": "Imnidrin",
         "warband": "Helsmiths of Hashut",
         "subfaction": "Blood of the Bull",
@@ -12239,12 +12248,12 @@
                 "_id": "e33bb417"
             },
             {
-                "_id": "3fd802c6"
+                "_id": "0de4bdf3"
             }
         ]
     },
     {
-        "_id": "8d0fa235",
+        "_id": "d818402a",
         "name": "Morudok",
         "warband": "Helsmiths of Hashut",
         "subfaction": "Blood of the Bull",
@@ -12279,12 +12288,12 @@
                 "_id": "e33bb417"
             },
             {
-                "_id": "9ac51f84"
+                "_id": "710ae74b"
             }
         ]
     },
     {
-        "_id": "f7b41e09",
+        "_id": "086e9921",
         "name": "Tokkor",
         "warband": "Helsmiths of Hashut",
         "subfaction": "Blood of the Bull",
@@ -12300,7 +12309,7 @@
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "dagger",
-                "strength": 1
+                "strength": 3
             },
             {
                 "attacks": 6,
@@ -12308,7 +12317,7 @@
                 "dmg_hit": 2,
                 "max_range": 6,
                 "min_range": 0,
-                "runemark": "blast",
+                "runemark": "dagger",
                 "strength": 1
             }
         ],
@@ -12328,12 +12337,12 @@
                 "_id": "e33bb417"
             },
             {
-                "_id": "47e0bd29"
+                "_id": "017c56ec"
             }
         ]
     },
     {
-        "_id": "6ac3d57e",
+        "_id": "27dba203",
         "name": "Grisk",
         "warband": "Helsmiths of Hashut",
         "subfaction": "Blood of the Bull",
@@ -12358,7 +12367,7 @@
         "points": 75,
         "abilities": [
             {
-                "_id": "b18f64d3"
+                "_id": "a55ebfe2"
             }
         ]
     },
@@ -16482,10 +16491,10 @@
         ]
     },
     {
-        "_id": "4e9a71c3",
+        "_id": "d20f8ed3",
         "name": "Kamandora",
         "warband": "Blades of Khorne: Bloodbound",
-        "subfaction": "Kamandora’s Blades",
+        "subfaction": "Kamandora's Blades",
         "grand_alliance": "chaos",
         "movement": 5,
         "toughness": 3,
@@ -16516,18 +16525,18 @@
                 "_id": "017ae05b"
             },
             {
-                "_id": "d8c3e47f"
+                "_id": "e40d6c52"
             },
             {
-                "_id": "72f9b015"
+                "_id": "ba5487b3"
             }
         ]
     },
     {
-        "_id": "b7d03f2e",
+        "_id": "f34cc7da",
         "name": "Throkk",
         "warband": "Blades of Khorne: Bloodbound",
-        "subfaction": "Kamandora’s Blades",
+        "subfaction": "Kamandora's Blades",
         "grand_alliance": "chaos",
         "movement": 5,
         "toughness": 3,
@@ -16553,15 +16562,15 @@
                 "_id": "017ae05b"
             },
             {
-                "_id": "72f9b015"
+                "_id": "ba5487b3"
             }
         ]
     },
     {
-        "_id": "0c5af98d",
+        "_id": "e77ca73d",
         "name": "Ghalista",
         "warband": "Blades of Khorne: Bloodbound",
-        "subfaction": "Kamandora’s Blades",
+        "subfaction": "Kamandora's Blades",
         "grand_alliance": "chaos",
         "movement": 5,
         "toughness": 3,
@@ -16587,15 +16596,15 @@
                 "_id": "017ae05b"
             },
             {
-                "_id": "72f9b015"
+                "_id": "ba5487b3"
             }
         ]
     },
     {
-        "_id": "ea6281b4",
+        "_id": "68e1ae42",
         "name": "Antro Krast",
         "warband": "Blades of Khorne: Bloodbound",
-        "subfaction": "Kamandora’s Blades",
+        "subfaction": "Kamandora's Blades",
         "grand_alliance": "chaos",
         "movement": 5,
         "toughness": 3,
@@ -16621,15 +16630,15 @@
                 "_id": "017ae05b"
             },
             {
-                "_id": "72f9b015"
+                "_id": "ba5487b3"
             }
         ]
     },
     {
-        "_id": "93fe0d57",
+        "_id": "8e677135",
         "name": "Kannat",
         "warband": "Blades of Khorne: Bloodbound",
-        "subfaction": "Kamandora’s Blades",
+        "subfaction": "Kamandora's Blades",
         "grand_alliance": "chaos",
         "movement": 6,
         "toughness": 3,
@@ -16648,7 +16657,7 @@
         "runemarks": [
             "beast"
         ],
-        "points": 90,
+        "points": 70,
         "abilities": [
             {
                 "_id": "73a644b7"
@@ -16657,7 +16666,7 @@
                 "_id": "017ae05b"
             },
             {
-                "_id": "72f9b015"
+                "_id": "ba5487b3"
             }
         ]
     },
@@ -32395,9 +32404,6 @@
                 "_id": "d117d47a"
             },
             {
-                "_id": "918989e6"
-            },
-            {
                 "_id": "11cf198c"
             }
         ]
@@ -36711,6 +36717,157 @@
         ]
     },
     {
+        "_id": "ab53faae",
+        "name": "Null-Khemist",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 4,
+        "wounds": 25,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "claws",
+                "strength": 3
+            },
+            {
+                "attacks": 6,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 6
+            }
+        ],
+        "runemarks": [
+            "hero",
+            "fly",
+            "champion"
+        ],
+        "points": 280,
+        "abilities": [
+            {
+                "_id": "500bda45"
+            },
+            {
+                "_id": "48c586d4"
+            },
+            {
+                "_id": "1637d730"
+            },
+            {
+                "_id": "11442553"
+            },
+            {
+                "_id": "e138c8de"
+            }
+        ]
+    },
+    {
+        "_id": "f1c7be0e",
+        "name": "Vongrim Harpoon Crew",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 14,
+        "weapons": [
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "sword",
+                "strength": 3
+            },
+            {
+                "attacks": 3,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 8,
+                "min_range": 0,
+                "runemark": "ranged",
+                "strength": 3
+            }
+        ],
+        "runemarks": [
+            "fly",
+            "bulwark"
+        ],
+        "points": 115,
+        "abilities": [
+            {
+                "_id": "500bda45"
+            },
+            {
+                "_id": "1637d730"
+            },
+            {
+                "_id": "11442553"
+            },
+            {
+                "_id": "f4be9af4"
+            }
+        ]
+    },
+    {
+        "_id": "634ea06d",
+        "name": "Vongrim Salvager",
+        "warband": "Kharadron Overlords",
+        "subfaction": "",
+        "grand_alliance": "order",
+        "movement": 10,
+        "toughness": 3,
+        "wounds": 14,
+        "weapons": [
+            {
+                "attacks": 1,
+                "dmg_crit": 3,
+                "dmg_hit": 2,
+                "max_range": 3,
+                "min_range": 2,
+                "runemark": "sword",
+                "strength": 3
+            },
+            {
+                "attacks": 8,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 3,
+                "min_range": 1,
+                "runemark": "ranged",
+                "strength": 2
+            }
+        ],
+        "runemarks": [
+            "fly",
+            "warrior"
+        ],
+        "points": 120,
+        "abilities": [
+            {
+                "_id": "500bda45"
+            },
+            {
+                "_id": "1637d730"
+            },
+            {
+                "_id": "11442553"
+            },
+            {
+                "_id": "5e082dc1"
+            }
+        ]
+    },
+    {
         "_id": "df9fe661",
         "name": "Scalebreaker with Fyresteel Splitaxe",
         "warband": "Vulkyn Flameseekers",
@@ -39261,7 +39418,7 @@
         ]
     },
     {
-        "_id": "e91bd07f",
+        "_id": "76808c49",
         "name": "Ylarin, Master of the Paths",
         "warband": "Sylvaneth",
         "subfaction": "Heralds of Kurnoth",
@@ -39305,12 +39462,12 @@
                 "_id": "4f03b091"
             },
             {
-                "_id": "19fb4e73"
+                "_id": "909ee7a4"
             }
         ]
     },
     {
-        "_id": "3c0e5a9d",
+        "_id": "59c328c9",
         "name": "Cullon, Axe of Kurnoth",
         "warband": "Sylvaneth",
         "subfaction": "Heralds of Kurnoth",
@@ -39330,8 +39487,8 @@
             }
         ],
         "runemarks": [
-            "mount",
-            "brute"
+            "brute",
+            "mount"
         ],
         "points": 165,
         "abilities": [
@@ -39342,12 +39499,12 @@
                 "_id": "4f03b091"
             },
             {
-                "_id": "f0a51c2e"
+                "_id": "79d3f3ff"
             }
         ]
     },
     {
-        "_id": "7d4b1f60",
+        "_id": "19ff6414",
         "name": "Lenwythe, Eye of the Forest",
         "warband": "Sylvaneth",
         "subfaction": "Heralds of Kurnoth",
@@ -39391,7 +39548,7 @@
                 "_id": "4f03b091"
             },
             {
-                "_id": "a78a06be03d9af6d"
+                "_id": "bedcec7d"
             }
         ]
     },
@@ -45301,6 +45458,9 @@
                 "_id": "90f154cc"
             },
             {
+                "_id": "f996f21b"
+            },
+            {
                 "_id": "c1c6dd4d"
             }
         ]
@@ -45344,9 +45504,6 @@
             },
             {
                 "_id": "90f154cc"
-            },
-            {
-                "_id": "f996f21b"
             },
             {
                 "_id": "c1c6dd4d"
@@ -47283,7 +47440,7 @@
     },
     {
         "_id": "wr5c4w3k",
-        "name": "Krieta, wing of the Crone",
+        "name": "Krieta, Wing of the Crone",
         "warband": "Daughters of Khaine",
         "subfaction": "Knives of the Crone",
         "grand_alliance": "order",
@@ -51175,7 +51332,7 @@
         "_id": "fzuhetl5",
         "name": "Cado Ezechiar",
         "warband": "Soulblight Gravelords",
-        "subfaction": "The Blades of the Hollow King",
+        "subfaction": "Hollow Blades",
         "grand_alliance": "death",
         "movement": 5,
         "toughness": 5,
@@ -51218,7 +51375,7 @@
         "_id": "uoie8qh9",
         "name": "Sissendra",
         "warband": "Soulblight Gravelords",
-        "subfaction": "The Blades of the Hollow King",
+        "subfaction": "Hollow Blades",
         "grand_alliance": "death",
         "movement": 5,
         "toughness": 4,
@@ -51255,7 +51412,7 @@
         "_id": "mk84uwp6",
         "name": "Aurelias",
         "warband": "Soulblight Gravelords",
-        "subfaction": "The Blades of the Hollow King",
+        "subfaction": "Hollow Blades",
         "grand_alliance": "death",
         "movement": 4,
         "toughness": 4,
@@ -52863,7 +53020,7 @@
         "warband": "Nighthaunt",
         "subfaction": "",
         "grand_alliance": "death",
-        "movement": 8,
+        "movement": 6,
         "toughness": 4,
         "wounds": 25,
         "weapons": [

@@ -504,17 +504,17 @@
         "runemarks": []
     },
     {
-        "_id": "e4b79a10",
+        "_id": "3822503a",
         "name": "Cruellest of Despots",
         "warband": "Blood of the Bull",
         "cost": "quad",
-        "description": "Pick up to 3 other visible friendly fighters within 6\" of this fighter that have the Helsmiths of Hashut runemark. In their next activation, each of those fighters can use a [double] ability without needing or using any ability dice. If those fighters have the Blood of the Bull ( ) runemark, those abilities have a value of 6.",
+        "description": "Pick up to 3 other visible friendly fighters within 6\" of this fighter that have the Helsmiths of Hashut runemark. In their next activation, each of those fighters can use a [double] ability without needing or using any ability dice. If those fighters have the Blood of the Bull runemark, those abilities have a value of 6.",
         "runemarks": [
             "hero"
         ]
     },
     {
-        "_id": "3fd802c6",
+        "_id": "0de4bdf3",
         "name": "Tyrannic Declarations",
         "warband": "Blood of the Bull",
         "cost": "double",
@@ -524,7 +524,7 @@
         ]
     },
     {
-        "_id": "9ac51f84",
+        "_id": "710ae74b",
         "name": "Daemonic Vigour",
         "warband": "Blood of the Bull",
         "cost": "double",
@@ -534,7 +534,7 @@
         ]
     },
     {
-        "_id": "47e0bd29",
+        "_id": "017c56ec",
         "name": "Daemonic Blaze",
         "warband": "Blood of the Bull",
         "cost": "double",
@@ -544,7 +544,7 @@
         ]
     },
     {
-        "_id": "b18f64d3",
+        "_id": "a55ebfe2",
         "name": "Tenacious and Cowardly",
         "warband": "Blood of the Bull",
         "cost": "double",
@@ -2271,7 +2271,7 @@
         "name": "Eye Shred",
         "warband": "Flesh-eater Courts",
         "cost": "triple",
-        "description": "Pick a visible enemy fighter that was allocated any damage points this activation by any of this fighter’s missile attack actions to be the target. Give that target a Grype token. That target cannot score critical hits for the rest of the battle round while they have that token (hit rolls that would be critical hits score hits instead). If any damage points allocated to a fighter with a Grype token would be removed, remove that Grype token instead. There cannot be more than one enemy fighter with a friendly Grype token on the battlefield.",
+        "description": "Pick a visible enemy fighter that was allocated any damage points this activation by any of this fighter's missile attack actions to be the target. Give that target a Grype token. That target cannot score critical hits while they have that token (hit rolls that would be critical hits score hits instead). If any damage points allocated to a fighter with a Grype token would be removed, remove that Grype token instead. There cannot be more than one enemy fighter with a friendly Grype token on the battlefield.",
         "runemarks": [
             "hero",
             "trapper"
@@ -3395,27 +3395,27 @@
         ]
     },
     {
-        "_id": "19fb4e73",
+        "_id": "909ee7a4",
         "name": "The Endless Hunt",
         "warband": "Heralds of Kurnoth",
         "cost": "double",
-        "description": "For the rest of the battle round, if this fighter makes a bonus move action as a result of the ‘Herald’s Pride’ or ‘Precision Volley’ ability, they can move 6\" instead of 3\" and they can pass through enemy fighters when they do so.",
+        "description": "For the rest of the battle round, if this fighter makes a bonus move action as a result of the 'Herald's Pride' or 'Precision Volley' ability, they can move 6\" instead of 3\" and they can pass through enemy fighters when they do so.",
         "runemarks": [
             "hero"
         ]
     },
     {
-        "_id": "f0a51c2e",
-        "name": "Herald’s Pride",
+        "_id": "79d3f3ff",
+        "name": "Herald's Pride",
         "warband": "Heralds of Kurnoth",
         "cost": "double",
-        "description": "Another friendly fighter with the Heralds of Kurnoth runemark can make a bonus move action of 3\". Then, if the next melee attack action made by this fighter this activation scores any hits or critical hits, allocate a number of damage points to that enemy fighter equal to the value of this ability, or allocate 6 damage points instead if a friendly fighter with the Hero ( ) and Heralds of Kurnoth ( ) runemarks is within 1\" of that enemy fighter.",
+        "description": "Another friendly fighter with the Heralds of Kurnoth runemark can make a bonus move action of 3\". Then, if the next melee attack action made by this fighter this activation scores any hits or critical hits, allocate a number of damage points to that enemy fighter equal to the value of this ability, or allocate 6 damage points instead if a friendly fighter with the Hero and Heralds of Kurnoth runemarks is within 1\" of that enemy fighter.",
         "runemarks": [
             "brute"
         ]
     },
     {
-        "_id": "a78a06be03d9af6d",
+        "_id": "bedcec7d",
         "name": "Precision Volley",
         "warband": "Heralds of Kurnoth",
         "cost": "double",
@@ -3432,6 +3432,36 @@
         "description": "After the next missile attack action made by this fighter in this activation, if it scored one or more hits, allocate a number of damage points to each other fighter within 3\" of the target equal to half the value of this ability (rounding up).",
         "runemarks": [
             "brute"
+        ]
+    },
+    {
+        "_id": "a050c36f",
+        "name": "Arcane Expertise",
+        "warband": "Hollow Blades",
+        "cost": "triple",
+        "description": "Pick another visible friendly fighter with the Hollow Blades and Hero runemarks within 6\" of this fighter. That other fighter can use the 'Rush', 'Onslaught' or 'Respite' abilities once during their next activation this battle round without needing or using any ability dice. That ability does not count towards the number of abilities that fighter can use in that activation.",
+        "runemarks": [
+            "mystic"
+        ]
+    },
+    {
+        "_id": "d40af71f",
+        "name": "Graceful Killer",
+        "warband": "Hollow Blades",
+        "cost": "triple",
+        "description": "Pick an enemy fighter within 3\" of this fighter. Place this fighter within 1\" of that enemy fighter. After this fighter's final action this activation, you can pick a point within 3\" of this fighter. Place this fighter as near as possible to that point and more than 1\" from all enemy fighters.",
+        "runemarks": [
+            "brute"
+        ]
+    },
+    {
+        "_id": "28b9f2d0",
+        "name": "Spirit Guidance",
+        "warband": "Hollow Blades",
+        "cost": "quad",
+        "description": "Pick 1 of the following effects:\n\n• Add 1 to the Attacks and Damage characteristics of this fighter's melee weapons until the end of their activation.\n\n• Add 3 to this fighter's Move characteristic until the end of their activation and this fighter has the Fly unemark until the end of their activation.",
+        "runemarks": [
+            "terrifying"
         ]
     },
     {
@@ -4074,7 +4104,7 @@
         "cost": "double",
         "description": "Until the end of the battle round, friendly fighters with the Hero runemark and the Jaws of Itzl runemark cannot be targeted while they are within 1\" of this fighter.",
         "runemarks": [
-            "warrior"
+            "bulwark"
         ]
     },
     {
@@ -4098,21 +4128,21 @@
         ]
     },
     {
-        "_id": "d8c3e47f",
+        "_id": "e40d6c52",
         "name": "Eruption of Hate",
-        "warband": "Kamandora’s Blades",
+        "warband": "Kamandora's Blades",
         "cost": "double",
-        "description": "For the rest of the battle round, add 1 to the Attacks characteristic of melee attack actions used by friendly fighters with the Kamandora’s Blades runemark for each enemy fighter that is bleeding out.",
+        "description": "For the rest of the battle round, add 1 to the Attacks characteristic of melee attack actions used by friendly fighters with the Kamandora's Blades runemark for each enemy fighter that is bleeding out.",
         "runemarks": [
             "hero"
         ]
     },
     {
-        "_id": "72f9b015",
-        "name": "Bleed ‘Em Slow",
-        "warband": "Kamandora’s Blades",
+        "_id": "ba5487b3",
+        "name": "Bleed 'Em Slow",
+        "warband": "Kamandora's Blades",
         "cost": "double",
-        "description": "Pick each enemy fighter that was allocated any damage points by this fighter’s attack actions this activation. That fighter is bleeding out. At the start of each battle round, after the initiative roll, allocate D3 damage points to each enemy fighter that is bleeding out.",
+        "description": "Pick each enemy fighter that was allocated any damage points by this fighter's attack actions this activation. That fighter is bleeding out. At the start of each battle round, after the initiative roll, allocate D3 damage points to each enemy fighter that is bleeding out.",
         "runemarks": []
     },
     {
@@ -4341,6 +4371,37 @@
         "cost": "battletrait",
         "description": "Once per battle round, after a friendly fighter with this battle trait is targeted by an attack action but before the hit rolls are made, you can make a deal. If you do so, add one wild dice to your opponent's saved wild dice. Then subtract 2 from the damage points allocated to that fighter by each hit and each critical hit from that attack action (to a minimum of 1)..",
         "runemarks": []
+    },
+    {
+        "_id": "f4be9af4",
+        "name": "Light Endrinpack",
+        "warband": "Kharadron Overlords",
+        "cost": "double",
+        "description": "This fighter makes a bonus move action of 3\". If they are within 1\" of any enemy fighters, they instead make a bonus move action of 10\" and can pass through enemy fighters when they do so.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "5e082dc1",
+        "name": "Spotter's Flaregun",
+        "warband": "Kharadron Overlords",
+        "cost": "double",
+        "description": "Pick an enemy fighter or objective within 6\" of this fighter to be the target. For the rest of the battle round, subtract 1 from the Toughness of enemy fighters while they are within 3\" of and visible to the target.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "e138c8de",
+        "name": "Protection of the Void",
+        "warband": "Kharadron Overlords",
+        "cost": "triple",
+        "description": "This unit cannot be affected by enemy abilities until the start of their next activation. In addition, for the rest of the battle round, add 2 to the Damage characteristics of this unit's attack actions if the target has the Mystic and/or Priest runemarks.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
     },
     {
         "_id": "dc781771",
@@ -5622,7 +5683,7 @@
         "name": "Immolation",
         "warband": "Pyregheists",
         "cost": "reaction",
-        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Cremate this fighter.’",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Cremate this fighter. Then, this fighter is taken down. In a campaign battle, do not make an injury roll for this fighter.",
         "runemarks": []
     },
     {
@@ -7765,36 +7826,6 @@
         "runemarks": []
     },
     {
-        "_id": "a050c36f",
-        "name": "Arcane Expertise",
-        "warband": "The Blades of the Hollow King",
-        "cost": "triple",
-        "description": "Pick another visible friendly fighter with the Hollow Blades and Hero runemarks within 6\" of this fighter. That other fighter can use the 'Rush', 'Onslaught' or 'Respite' abilities once during their next activation this battle round without needing or using any ability dice. That ability does not count towards the number of abilities that fighter can use in that activation.",
-        "runemarks": [
-            "mystic"
-        ]
-    },
-    {
-        "_id": "d40af71f",
-        "name": "Graceful Killer",
-        "warband": "The Blades of the Hollow King",
-        "cost": "triple",
-        "description": "Pick an enemy fighter within 3\" of this fighter. Place this fighter within 1\" of that enemy fighter. After this fighter's final action this activation, you can pick a point within 3\" of this fighter. Place this fighter as near as possible to that point and more than 1\" from all enemy fighters.",
-        "runemarks": [
-            "brute"
-        ]
-    },
-    {
-        "_id": "28b9f2d0",
-        "name": "Spirit Guidance",
-        "warband": "The Blades of the Hollow King",
-        "cost": "quad",
-        "description": "Pick 1 of the following effects:\n\n• Add 1 to the Attacks and Damage characteristics of this fighter's melee weapons until the end of their activation.\n\n• Add 3 to this fighter's Move characteristic until the end of their activation and this fighter has the Fly unemark until the end of their activation.",
-        "runemarks": [
-            "terrifying"
-        ]
-    },
-    {
         "_id": "3382fbfd",
         "name": "The Chosen Kin",
         "warband": "The Chosen Axes",
@@ -7845,7 +7876,7 @@
         "cost": "triple",
         "description": "Pick a friendly fighter with the Emberwatch and Champion runemarks that has been taken down, then roll a number of dice equal to the value of this ability. On any rolls of 3+:\n\n• Set up that fighter on a platform or the battlefield floor, more than 6\" from all enemy fighters. The fighter set up on the battlefield no longer counts as being taken down. Remove a number of damage points allocated to that fighter equal to the number of rolls of 3+ that were made.",
         "runemarks": [
-            "champion"
+            "hero"
         ]
     },
     {
