@@ -6257,6 +6257,31 @@
         "wounds": 8
     },
     {
+        "_id": "6ac3d57e",
+        "grand_alliance": "chaos",
+        "movement": 4,
+        "name": "Grisk",
+        "points": 75,
+        "runemarks": [
+            "minion"
+        ],
+        "subfaction": "Blood of the Bull",
+        "toughness": 3,
+        "warband": "Helsmiths of Hashut",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 3
+            }
+        ],
+        "wounds": 8
+    },
+    {
         "_id": "5ee9a5e0",
         "grand_alliance": "chaos",
         "movement": 3,
@@ -6333,66 +6358,6 @@
             }
         ],
         "wounds": 12
-    },
-    {
-        "_id": "f7b41e09",
-        "grand_alliance": "chaos",
-        "movement": 3,
-        "name": "Tokkor",
-        "points": 85,
-        "runemarks": [
-            "scout",
-            "warrior"
-        ],
-        "subfaction": "Blood of the Bull",
-        "toughness": 4,
-        "warband": "Helsmiths of Hashut",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "dagger",
-                "strength": 1
-            },
-            {
-                "attacks": 6,
-                "dmg_crit": 2,
-                "dmg_hit": 2,
-                "max_range": 6,
-                "min_range": 0,
-                "runemark": "blast",
-                "strength": 1
-            }
-        ],
-        "wounds": 12
-    },
-    {
-        "_id": "6ac3d57e",
-        "grand_alliance": "chaos",
-        "movement": 4,
-        "name": "Grisk",
-        "points": 85,
-        "runemarks": [
-            "minion"
-        ],
-        "subfaction": "Blood of the Bull",
-        "toughness": 3,
-        "warband": "Helsmiths of Hashut",
-        "weapons": [
-            {
-                "attacks": 2,
-                "dmg_crit": 3,
-                "dmg_hit": 1,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "dagger",
-                "strength": 3
-            }
-        ],
-        "wounds": 8
     },
     {
         "_id": "a903f7d8",
@@ -6504,6 +6469,41 @@
                 "min_range": 0,
                 "runemark": "unarmed",
                 "strength": 3
+            },
+            {
+                "attacks": 6,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 6,
+                "min_range": 0,
+                "runemark": "blast",
+                "strength": 1
+            }
+        ],
+        "wounds": 12
+    },
+    {
+        "_id": "f7b41e09",
+        "grand_alliance": "chaos",
+        "movement": 3,
+        "name": "Tokkor",
+        "points": 125,
+        "runemarks": [
+            "scout",
+            "warrior"
+        ],
+        "subfaction": "Blood of the Bull",
+        "toughness": 4,
+        "warband": "Helsmiths of Hashut",
+        "weapons": [
+            {
+                "attacks": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
+                "max_range": 1,
+                "min_range": 0,
+                "runemark": "dagger",
+                "strength": 1
             },
             {
                 "attacks": 6,
