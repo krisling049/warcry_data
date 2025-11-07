@@ -33,6 +33,10 @@
 			"type": "boolean",
 			"description": "True if this faction/subfaction is subject to a rule similar to the Questor Soulsworn 'Heroes All' rule"
 		},
+		"singleton": {
+			"type": "boolean",
+			"description": "True if this faction/subfaction contains only singleton fighters (max 1 of each fighter type)"
+		},
 		"subfactions": {
 			"type": "array",
 			"items": {
@@ -52,6 +56,10 @@
 					"heroes_all": {
 						"type": "boolean",
 						"description": "True if this faction/subfaction is subject to a rule similar to the Questor Soulsworn 'Heroes All' rule"
+					},
+					"singleton": {
+						"type": "boolean",
+						"description": "True if this faction/subfaction contains only singleton fighters (max 1 of each fighter type)"
 					}
 				}
 			}

@@ -3,16 +3,19 @@
     "warband": "Seraphon",
     "bladeborn": false,
     "heroes_all": false,
+    "singleton": false,
     "subfactions": [
         {
             "runemark": "The Starblood Stalkers",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Jaws of Itzl",
             "bladeborn": false,
-            "heroes_all": true
+            "heroes_all": false,
+            "singleton": true
         }
     ]
 }

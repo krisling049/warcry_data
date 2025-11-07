@@ -3,26 +3,31 @@
     "warband": "Blades of Khorne: Bloodbound",
     "bladeborn": false,
     "heroes_all": false,
+    "singleton": false,
     "subfactions": [
         {
             "runemark": "Garrek's Reavers",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Magore's Fiends",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Gorechosen of Dromm",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Kamandora's Blades",
             "bladeborn": false,
-            "heroes_all": true
+            "heroes_all": false,
+            "singleton": true
         }
     ]
 }

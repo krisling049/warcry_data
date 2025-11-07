@@ -7,12 +7,15 @@
         {
             "runemark": "Blackpowder's Buccaneers",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Hrothgorn's Mantrappers",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         }
-    ]
+    ],
+    "singleton": false
 }

@@ -7,12 +7,15 @@
         {
             "runemark": "Morgok's Krushas",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Ironskull's Boyz",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         }
-    ]
+    ],
+    "singleton": false
 }

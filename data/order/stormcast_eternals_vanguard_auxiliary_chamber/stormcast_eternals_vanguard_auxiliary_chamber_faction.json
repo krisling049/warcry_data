@@ -3,16 +3,19 @@
     "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
     "bladeborn": false,
     "heroes_all": false,
+    "singleton": false,
     "subfactions": [
         {
             "runemark": "The Farstriders",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "The Emberwatch",
             "bladeborn": false,
-            "heroes_all": true
+            "heroes_all": false,
+            "singleton": true
         }
     ]
 }

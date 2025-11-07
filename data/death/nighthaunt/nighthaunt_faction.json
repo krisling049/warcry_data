@@ -7,12 +7,15 @@
         {
             "runemark": "The Headsmen's Curse",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Thorns of the Briar Queen",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         }
-    ]
+    ],
+    "singleton": false
 }

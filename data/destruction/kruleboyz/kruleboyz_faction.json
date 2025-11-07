@@ -7,12 +7,15 @@
         {
             "runemark": "Daggok's Stab-ladz",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Da Kunnin' Krew",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         }
-    ]
+    ],
+    "singleton": false
 }

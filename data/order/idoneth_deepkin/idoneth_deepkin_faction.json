@@ -7,12 +7,15 @@
         {
             "runemark": "Elathain's Soulraid",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Cyreni's Razors",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         }
-    ]
+    ],
+    "singleton": false
 }

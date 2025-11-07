@@ -7,7 +7,9 @@
         {
             "runemark": "Thundrik's Profiteers",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         }
-    ]
+    ],
+    "singleton": false
 }

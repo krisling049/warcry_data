@@ -3,21 +3,25 @@
     "warband": "Stormcast Eternals Thunderstrike Stormcast",
     "bladeborn": false,
     "heroes_all": false,
+    "singleton": false,
     "subfactions": [
         {
             "runemark": "Xandire's Truthseekers",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Domitan's Stormcoven",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Gladitorium",
             "bladeborn": false,
-            "heroes_all": true
+            "heroes_all": true,
+            "singleton": false
         }
     ]
 }

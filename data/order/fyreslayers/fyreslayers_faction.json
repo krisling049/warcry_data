@@ -7,7 +7,9 @@
         {
             "runemark": "The Chosen Axes",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         }
-    ]
+    ],
+    "singleton": false
 }
