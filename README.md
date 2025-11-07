@@ -47,6 +47,7 @@ curl https://krisling049.github.io/warcry_data/fighters_tts.json
 |----------|-------------|---------|
 | `/fighters.json` | Complete fighter data | JSON |
 | `/abilities.json` | Abilities (excluding battletraits) | JSON |
+| `/battletraits.json` | Battletraits only | JSON |
 | `/abilities_battletraits.json` | All abilities including battletraits | JSON |
 | `/fighters_tts.json` | Tabletop Simulator format | JSON |
 | `/fighters.html` | Human-readable fighter table | HTML |
@@ -73,7 +74,7 @@ python python/export_data.py -local
 ```
 data/
 ├── chaos/           # Chaos Grand Alliance
-├── death/           # Death Grand Alliance  
+├── death/           # Death Grand Alliance
 ├── destruction/     # Destruction Grand Alliance
 ├── order/           # Order Grand Alliance
 └── universal/       # Universal abilities
@@ -83,6 +84,22 @@ Each warband contains:
 ├── {warband}_abilities.json   # Warband abilities
 └── {warband}_faction.json     # Faction metadata
 ```
+
+### Faction Metadata
+
+Each `{warband}_faction.json` file contains:
+
+- **grand_alliance**: The grand alliance (chaos, death, destruction, order)
+- **warband**: The warband name
+- **bladeborn**: Whether the "Bladeborn" rules apply to this warband
+- **heroes_all**: Whether the "Heroes All" rule from Questor Soulsworn applies to this warband 
+- **singleton**: Whether each fighter type can only be included once in the warband
+- **subfactions**: Array of subfaction definitions with the same properties
+
+**Singleton vs Heroes All:**
+- `singleton: true` - Each fighter type can only appear once (e.g., Brand's Oathbound, Kamandora's Blades)
+- `heroes_all: true` - No limit on "hero" runemarked fighters from this warband (the limit still applies to allied heroes)
+- These are independent properties that serve different gameplay mechanics
 
 ## Contributing
 
