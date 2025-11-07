@@ -6234,7 +6234,7 @@
     {
         "_id": "90b11c12",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "name": "Hobgrot Vandal",
         "points": 65,
         "runemarks": [
@@ -6245,19 +6245,19 @@
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
-                "attacks": 3,
+                "attacks": 2,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
-                "strength": 2
+                "runemark": "dagger",
+                "strength": 3
             }
         ],
         "wounds": 8
     },
     {
-        "_id": "27dba203",
+        "_id": "6ac3d57e",
         "grand_alliance": "chaos",
         "movement": 4,
         "name": "Grisk",
@@ -6284,7 +6284,7 @@
     {
         "_id": "5ee9a5e0",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "name": "Infernal Cohort with Hashutite Spear",
         "points": 85,
         "runemarks": [
@@ -6292,14 +6292,14 @@
             "warrior"
         ],
         "subfaction": "",
-        "toughness": 3,
+        "toughness": 5,
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 5,
+                "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "spear",
                 "strength": 3
@@ -6310,7 +6310,7 @@
     {
         "_id": "5ce80e21",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "name": "Infernal Cohort Musician",
         "points": 85,
         "runemarks": [
@@ -6322,13 +6322,13 @@
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 4,
+                "attacks": 2,
+                "dmg_crit": 3,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
-                "strength": 3
+                "runemark": "mace",
+                "strength": 4
             }
         ],
         "wounds": 12
@@ -6336,7 +6336,7 @@
     {
         "_id": "52d1f33b",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "name": "Infernal Cohort with Hashutite Blade",
         "points": 85,
         "runemarks": [
@@ -6344,23 +6344,23 @@
             "warrior"
         ],
         "subfaction": "",
-        "toughness": 4,
+        "toughness": 5,
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 4,
+                "dmg_crit": 3,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
-                "strength": 3
+                "runemark": "sword",
+                "strength": 4
             }
         ],
         "wounds": 12
     },
     {
-        "_id": "1184eea7",
+        "_id": "a903f7d8",
         "grand_alliance": "chaos",
         "movement": 3,
         "name": "Imnidrin",
@@ -6386,7 +6386,7 @@
         "wounds": 12
     },
     {
-        "_id": "d818402a",
+        "_id": "8d0fa235",
         "grand_alliance": "chaos",
         "movement": 3,
         "name": "Morudok",
@@ -6414,7 +6414,7 @@
     {
         "_id": "573590bd",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "name": "Daemonsmith",
         "points": 125,
         "runemarks": [
@@ -6428,20 +6428,20 @@
         "weapons": [
             {
                 "attacks": 2,
-                "dmg_crit": 4,
+                "dmg_crit": 3,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "hammer",
-                "strength": 3
+                "runemark": "unarmed",
+                "strength": 4
             },
             {
-                "attacks": 3,
-                "dmg_crit": 3,
-                "dmg_hit": 2,
-                "max_range": 6,
-                "min_range": 0,
-                "runemark": "ranged",
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
                 "strength": 3
             }
         ],
@@ -6450,7 +6450,7 @@
     {
         "_id": "391e3600",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "name": "Infernal Razer with Flamehurler",
         "points": 125,
         "runemarks": [
@@ -6458,32 +6458,32 @@
             "warrior"
         ],
         "subfaction": "",
-        "toughness": 1,
+        "toughness": 4,
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
                 "attacks": 2,
-                "dmg_crit": 6,
-                "dmg_hit": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
+                "runemark": "unarmed",
+                "strength": 3
             },
             {
                 "attacks": 6,
-                "dmg_crit": 6,
-                "dmg_hit": 1,
-                "max_range": 2,
+                "dmg_crit": 2,
+                "dmg_hit": 2,
+                "max_range": 6,
                 "min_range": 0,
-                "runemark": "ranged",
-                "strength": 2
+                "runemark": "blast",
+                "strength": 1
             }
         ],
         "wounds": 12
     },
     {
-        "_id": "086e9921",
+        "_id": "f7b41e09",
         "grand_alliance": "chaos",
         "movement": 3,
         "name": "Tokkor",
@@ -6503,7 +6503,7 @@
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "dagger",
-                "strength": 3
+                "strength": 1
             },
             {
                 "attacks": 6,
@@ -6511,7 +6511,7 @@
                 "dmg_hit": 2,
                 "max_range": 6,
                 "min_range": 0,
-                "runemark": "dagger",
+                "runemark": "blast",
                 "strength": 1
             }
         ],
@@ -6520,7 +6520,7 @@
     {
         "_id": "fbdefebf",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "name": "Ashen Elder",
         "points": 140,
         "runemarks": [
@@ -6534,20 +6534,20 @@
         "weapons": [
             {
                 "attacks": 3,
-                "dmg_crit": 4,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "hammer",
-                "strength": 3
-            },
-            {
-                "attacks": 3,
                 "dmg_crit": 3,
                 "dmg_hit": 2,
-                "max_range": 6,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "ranged",
+                "runemark": "mace",
+                "strength": 4
+            },
+            {
+                "attacks": 2,
+                "dmg_crit": 6,
+                "dmg_hit": 3,
+                "max_range": 7,
+                "min_range": 3,
+                "runemark": "blast",
                 "strength": 3
             }
         ],
@@ -6556,7 +6556,7 @@
     {
         "_id": "046dcdeb",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "name": "Infernal Razer with Blunderbuss",
         "points": 155,
         "runemarks": [
@@ -6564,26 +6564,26 @@
             "warrior"
         ],
         "subfaction": "",
-        "toughness": 3,
+        "toughness": 4,
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
                 "attacks": 2,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
+                "dmg_crit": 3,
+                "dmg_hit": 1,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
+                "runemark": "unarmed",
                 "strength": 3
             },
             {
-                "attacks": 3,
+                "attacks": 2,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 4,
-                "min_range": 0,
+                "max_range": 15,
+                "min_range": 6,
                 "runemark": "ranged",
-                "strength": 2
+                "strength": 5
             }
         ],
         "wounds": 12
@@ -6591,7 +6591,7 @@
     {
         "_id": "133ee416",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 3,
         "name": "War Despot",
         "points": 175,
         "runemarks": [
@@ -6600,32 +6600,23 @@
             "warrior"
         ],
         "subfaction": "",
-        "toughness": 4,
+        "toughness": 5,
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
-                "attacks": 3,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
-                "max_range": 1,
-                "min_range": 0,
-                "runemark": "axe",
-                "strength": 4
-            },
-            {
-                "attacks": 3,
+                "attacks": 4,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 4,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "ranged",
-                "strength": 2
+                "runemark": "spear",
+                "strength": 4
             }
         ],
         "wounds": 25
     },
     {
-        "_id": "cac9c14a",
+        "_id": "54b7d03c",
         "grand_alliance": "chaos",
         "movement": 3,
         "name": "Zuldrakka",
@@ -6666,12 +6657,12 @@
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 5,
+                "attacks": 5,
+                "dmg_crit": 3,
                 "dmg_hit": 2,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "axe",
+                "runemark": "mace",
                 "strength": 4
             }
         ],
@@ -6680,7 +6671,7 @@
     {
         "_id": "43c1ca00",
         "grand_alliance": "chaos",
-        "movement": 4,
+        "movement": 9,
         "name": "Anointed Sentinel",
         "points": 190,
         "runemarks": [
@@ -6689,17 +6680,17 @@
             "warrior"
         ],
         "subfaction": "",
-        "toughness": 5,
+        "toughness": 4,
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
                 "attacks": 4,
                 "dmg_crit": 4,
                 "dmg_hit": 2,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
                 "runemark": "axe",
-                "strength": 2
+                "strength": 5
             }
         ],
         "wounds": 18
@@ -6719,13 +6710,13 @@
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
-                "attacks": 8,
-                "dmg_crit": 5,
+                "attacks": 4,
+                "dmg_crit": 6,
                 "dmg_hit": 3,
-                "max_range": 1,
+                "max_range": 2,
                 "min_range": 0,
-                "runemark": "hammer",
-                "strength": 3
+                "runemark": "mace",
+                "strength": 8
             }
         ],
         "wounds": 40
@@ -6745,21 +6736,21 @@
         "warband": "Helsmiths of Hashut",
         "weapons": [
             {
-                "attacks": 4,
-                "dmg_crit": 5,
-                "dmg_hit": 2,
+                "attacks": 2,
+                "dmg_crit": 4,
+                "dmg_hit": 3,
                 "max_range": 1,
                 "min_range": 0,
-                "runemark": "hammer",
-                "strength": 3
+                "runemark": "unarmed",
+                "strength": 5
             },
             {
-                "attacks": 5,
-                "dmg_crit": 7,
+                "attacks": 12,
+                "dmg_crit": 2,
                 "dmg_hit": 2,
-                "max_range": 4,
+                "max_range": 5,
                 "min_range": 0,
-                "runemark": "ranged",
+                "runemark": "blast",
                 "strength": 2
             }
         ],
