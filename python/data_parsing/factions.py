@@ -7,20 +7,22 @@ FACTION_SCHEMA = PROJECT_ROOT / 'schemas' / 'faction_schema.json'
 
 
 class SubFaction:
-    def __init__(self, runemark: str, bladeborn: bool = False, heroes_all: bool = False):
+    def __init__(self, runemark: str, bladeborn: bool = False, heroes_all: bool = False, singleton: bool = False):
         self.runemark = runemark
         self.bladeborn = bladeborn
         self.heroes_all = heroes_all
+        self.singleton = singleton
 
     def __repr__(self):
         return self.runemark
 
 class Faction:
-    def __init__(self, grand_alliance: str, warband: str, bladeborn: bool = False, heroes_all: bool = False):
+    def __init__(self, grand_alliance: str, warband: str, bladeborn: bool = False, heroes_all: bool = False, singleton: bool = False):
         self.grand_alliance = grand_alliance
         self.warband = warband
         self.bladeborn = bladeborn
         self.heroes_all = heroes_all
+        self.singleton = singleton
         self.subfactions: Set[SubFaction] = set()
 
     def __repr__(self):
@@ -32,6 +34,7 @@ class Faction:
             'warband': self.warband,
             'bladeborn': self.bladeborn,
             'heroes_all': self.heroes_all,
+            'singleton': self.singleton,
             'subfactions': [s.__dict__ for s in self.subfactions]
         }
         return json_serialisable
@@ -53,7 +56,8 @@ class Factions:
                     grand_alliance=f['grand_alliance'],
                     warband=f['warband'],
                     bladeborn=f['bladeborn'],
-                    heroes_all=f['heroes_all']
+                    heroes_all=f['heroes_all'],
+                    singleton=f.get('singleton', False)
                 )
             if new_faction.bladeborn:
                 self.bladeborn_runemarks.add(new_faction.warband)
@@ -61,7 +65,8 @@ class Factions:
                 new_subfaction = SubFaction(
                         runemark=s['runemark'],
                         bladeborn=s['bladeborn'],
-                        heroes_all=s['heroes_all']
+                        heroes_all=s['heroes_all'],
+                        singleton=s.get('singleton', False)
                     )
                 if new_subfaction.bladeborn:
                     self.bladeborn_runemarks.add(new_subfaction.runemark)

@@ -3,36 +3,43 @@
     "warband": "Soulblight Gravelords",
     "bladeborn": false,
     "heroes_all": false,
+    "singleton": false,
     "subfactions": [
         {
             "runemark": "Sons of Velmorn",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "The Crimson Court",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "The Exiled Dead",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "The Sepulchral Guard",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Zondara's Gravebreakers",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Hollow Blades",
             "bladeborn": false,
-            "heroes_all": true
+            "heroes_all": false,
+            "singleton": true
         }
     ]
 }

@@ -3,26 +3,31 @@
     "warband": "Daughters of Khaine",
     "bladeborn": false,
     "heroes_all": false,
+    "singleton": false,
     "subfactions": [
         {
             "runemark": "Morgwaeth's Blade-Coven",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "The Shadeborn",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Gryselle's Arenai",
             "bladeborn": true,
-            "heroes_all": false
+            "heroes_all": false,
+            "singleton": false
         },
         {
             "runemark": "Knives of the Crone",
             "bladeborn": false,
-            "heroes_all": true
+            "heroes_all": false,
+            "singleton": true
         }
     ]
 }
