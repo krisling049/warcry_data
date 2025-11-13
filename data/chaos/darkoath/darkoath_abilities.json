@@ -20,7 +20,7 @@
         "name": "Swift Attacker",
         "warband": "Darkoath",
         "cost": "double",
-        "description": "This ability can only be used after an activation in which this fighter used a move action and that move ended within 1\" of an enemy fighter. This fighter makes a bonus ranged attack action that must target an enemy fighter within 1\" of them. If this fighter is favoured, add the value of this ability to the damage points allocated by each hit and critical hit from that ranged attack action.",
+        "description": "This ability can only be used after an activation in which this fighter used a move action and that move ended within 1\" of an enemy fighter. This fighter makes a bonus missile attack action that must target an enemy fighter within 1\" of them. If this fighter is favoured, add the value of this ability to the damage points allocated by each hit and critical hit from that missile attack action.",
         "runemarks": [
             "scout"
         ]
@@ -80,7 +80,7 @@
         "name": "Uncanny Shot",
         "warband": "Darkoath",
         "cost": "triple",
-        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Attacks characteristic of ranged attack actions made by this fighter. While this fighter is favoured and/or targeting an enemy fighter within 1\" of a friendly Gunnar Brand, add the value of this ability to the Attacks characteristic of ranged attack actions made by this fighter instead.",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Attacks characteristic of missile attack actions made by this fighter. While this fighter is favoured and/or targeting an enemy fighter within 1\" of a friendly Gunnar Brand, add the value of this ability to the Attacks characteristic of missile attack actions made by this fighter instead.",
         "runemarks": [
             "agile"
         ]

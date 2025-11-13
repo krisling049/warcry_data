@@ -28,7 +28,7 @@
         "name": "Unleashing His Fury",
         "warband": "Brethren of the Bolt",
         "cost": "quad",
-        "description": "This fighter makes a bonus ranged attack action. When that attack action is made, you can pick another friendly fighter that is visible to the attacker to be part of a chain. Then, you can pick a third friendly fighter that is within 6\" of and visible to the second fighter to be the next part of the chain, and so on. Once the last fighter in the chain is picked, you can measure the range of that bonus attack action from the last fighter in the chain. Add 1 to the Attacks, Strength and Damage characteristics of that weapon for each fighter in the chain. Each fighter in the chain must have the Brethren of the Bolt runemark.",
+        "description": "This fighter makes a bonus missile attack action. When that attack action is made, you can pick another friendly fighter that is visible to the attacker to be part of a chain. Then, you can pick a third friendly fighter that is within 6\" of and visible to the second fighter to be the next part of the chain, and so on. Once the last fighter in the chain is picked, you can measure the range of that bonus attack action from the last fighter in the chain. Add 1 to the Attacks, Strength and Damage characteristics of that weapon for each fighter in the chain. Each fighter in the chain must have the Brethren of the Bolt runemark.",
         "runemarks": []
     },
     {
@@ -86,7 +86,7 @@
         "name": "Take Aim!",
         "warband": "Cities of Sigmar: Castelite Hosts",
         "cost": "triple",
-        "description": "Until the end of the battle round, add 1 to the damage points allocated by each critical hit from ranged attack actions made by friendly fighters with both the Cities of Sigmar: Castelite Hosts faction runemark and the Elite runemark while they are within 6\" of this fighter.",
+        "description": "Until the end of the battle round, add 1 to the damage points allocated by each critical hit from missile attack actions made by friendly fighters with both the Cities of Sigmar: Castelite Hosts faction runemark and the Elite runemark while they are within 6\" of this fighter.",
         "runemarks": [
             "hero",
             "elite"
