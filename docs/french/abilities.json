@@ -734,7 +734,7 @@
         "name": "Unleashing His Fury",
         "warband": "Brethren of the Bolt",
         "cost": "quad",
-        "description": "This fighter makes a bonus ranged attack action. When that attack action is made, you can pick another friendly fighter that is visible to the attacker to be part of a chain. Then, you can pick a third friendly fighter that is within 6\" of and visible to the second fighter to be the next part of the chain, and so on. Once the last fighter in the chain is picked, you can measure the range of that bonus attack action from the last fighter in the chain. Add 1 to the Attacks, Strength and Damage characteristics of that weapon for each fighter in the chain. Each fighter in the chain must have the Brethren of the Bolt runemark.",
+        "description": "This fighter makes a bonus missile attack action. When that attack action is made, you can pick another friendly fighter that is visible to the attacker to be part of a chain. Then, you can pick a third friendly fighter that is within 6\" of and visible to the second fighter to be the next part of the chain, and so on. Once the last fighter in the chain is picked, you can measure the range of that bonus attack action from the last fighter in the chain. Add 1 to the Attacks, Strength and Damage characteristics of that weapon for each fighter in the chain. Each fighter in the chain must have the Brethren of the Bolt runemark.",
         "runemarks": []
     },
     {
@@ -1501,7 +1501,7 @@
         "name": "Swift Attacker",
         "warband": "Darkoath",
         "cost": "double",
-        "description": "This ability can only be used after an activation in which this fighter used a move action and that move ended within 1\" of an enemy fighter. This fighter makes a bonus ranged attack action that must target an enemy fighter within 1\" of them. If this fighter is favoured, add the value of this ability to the damage points allocated by each hit and critical hit from that ranged attack action.",
+        "description": "This ability can only be used after an activation in which this fighter used a move action and that move ended within 1\" of an enemy fighter. This fighter makes a bonus missile attack action that must target an enemy fighter within 1\" of them. If this fighter is favoured, add the value of this ability to the damage points allocated by each hit and critical hit from that missile attack action.",
         "runemarks": [
             "scout"
         ]
@@ -1561,7 +1561,7 @@
         "name": "Uncanny Shot",
         "warband": "Darkoath",
         "cost": "triple",
-        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Attacks characteristic of ranged attack actions made by this fighter. While this fighter is favoured and/or targeting an enemy fighter within 1\" of a friendly Gunnar Brand, add the value of this ability to the Attacks characteristic of ranged attack actions made by this fighter instead.",
+        "description": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Attacks characteristic of missile attack actions made by this fighter. While this fighter is favoured and/or targeting an enemy fighter within 1\" of a friendly Gunnar Brand, add the value of this ability to the Attacks characteristic of missile attack actions made by this fighter instead.",
         "runemarks": [
             "agile"
         ]
@@ -2731,7 +2731,7 @@
         "name": "Can't Catch Us!",
         "warband": "Gloomspite Gitz",
         "cost": "double",
-        "description": "A fighter can only use this ability if they have made one or more ranged attack actions this activation. This fighter makes a bonus move action of a number of inches equal to the value of this ability.",
+        "description": "A fighter can only use this ability if they have made one or more missile attack actions this activation. This fighter makes a bonus move action of a number of inches equal to the value of this ability.",
         "runemarks": [
             "scout"
         ]
@@ -5415,7 +5415,7 @@
         "name": "Give 'Em Both Barrels",
         "warband": "Order of Azyr",
         "cost": "triple",
-        "description": "This fighter makes a bonus ranged attack action. The Range characteristic for that attack action is double the value of this ability.",
+        "description": "This fighter makes a bonus missile attack action. The Range characteristic for that attack action is double the value of this ability.",
         "runemarks": [
             "scout"
         ]
@@ -6091,7 +6091,7 @@
         "name": "Seraphon",
         "warband": "Seraphon",
         "cost": "battletrait",
-        "description": "After you pick your warband, pick either Coalesced or Starborne and gain the corresponding battle trait listed below:Coalesced:Friendly fighters with this battle trait can add a 1 to the value of any [triple] spent to use the Tearing bite ability, to a maximum of 6. Starborne:Fighters with this battle trait can make the \"Starborn\" reaction when they are targeted by melee and ranged attack actions.",
+        "description": "After you pick your warband, pick either Coalesced or Starborne and gain the corresponding battle trait listed below:Coalesced:Friendly fighters with this battle trait can add a 1 to the value of any [triple] spent to use the Tearing bite ability, to a maximum of 6. Starborne:Fighters with this battle trait can make the \"Starborn\" reaction when they are targeted by melee and missile attack actions.",
         "runemarks": []
     },
     {
@@ -6310,7 +6310,7 @@
         "name": "Warpstone Sights",
         "warband": "Skaven",
         "cost": "triple",
-        "description": "Pick a visible enemy fighter within 18\" of this fighter. For the rest of this fighter's activation, subtract the value of this ability from the Toughness characteristic of that enemy fighter (to a minimum of 1). If this fighter has not moved this activation and the value of this ability is equal to or greater than the unmodified Toughness characteristic of that enemy fighter, count each hit scored from the next ranged attack action made by this fighter as a critical hit instead. Before the Total Damage step for each of this fighter's ranged attack actions this activation, this fighter makes a bonus move action up to a number of inches equal to half the value of this ability, directly away from the target of that ranged attack and as if they were jumping.",
+        "description": "Pick a visible enemy fighter within 18\" of this fighter. For the rest of this fighter's activation, subtract the value of this ability from the Toughness characteristic of that enemy fighter (to a minimum of 1). If this fighter has not moved this activation and the value of this ability is equal to or greater than the unmodified Toughness characteristic of that enemy fighter, count each hit scored from the next missile attack action made by this fighter as a critical hit instead. Before the Total Damage step for each of this fighter's missile attack actions this activation, this fighter makes a bonus move action up to a number of inches equal to half the value of this ability, directly away from the target of that ranged attack and as if they were jumping.",
         "runemarks": [
             "hero",
             "destroyer"
@@ -8474,7 +8474,7 @@
         "name": "Point Blank Volley",
         "warband": "Wildercorps Hunters",
         "cost": "battletrait",
-        "description": "Once per battle round, before a friendly fighter this with battle trait makes a ranged attack action, you can have them make a point blank volley. When they do so, you can treat the minimum range of that weapon as 1\".",
+        "description": "Once per battle round, before a friendly fighter this with battle trait makes a missile attack action, you can have them make a point blank volley. When they do so, you can treat the minimum range of that weapon as 1\".",
         "runemarks": []
     },
     {
@@ -9259,7 +9259,7 @@
         "name": "Deathless Minions",
         "warband": "death",
         "cost": "battletrait",
-        "description": "Once per battle round, count the first critical hit from a ranged attack action that targets a friendly fighter with this battle trait that has the Minion runemark as a hit instead.",
+        "description": "Once per battle round, count the first critical hit from a missile attack action that targets a friendly fighter with this battle trait that has the Minion runemark as a hit instead.",
         "runemarks": []
     },
     {
@@ -9470,7 +9470,7 @@
         "name": "Knowing Just Where to Strike",
         "warband": "order",
         "cost": "double",
-        "description": "Until the end of this fighter's activation, ranged attack actions made by this fighter score a critical hit on a roll of 3+.",
+        "description": "Until the end of this fighter's activation, missile attack actions made by this fighter score a critical hit on a roll of 3+.",
         "runemarks": [
             "grombrindal"
         ]
