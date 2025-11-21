@@ -308,7 +308,7 @@
 306,54b7d03c,Zuldrakka,Helsmiths of Hashut,Blood of the Bull,chaos,3,5,25,"['hero', 'warrior']",175,4,4,2,2,0,sword,4,,,,,,,
 307,a903f7d8,Imnidrin,Helsmiths of Hashut,Blood of the Bull,chaos,3,4,12,"['frenzied', 'warrior']",90,2,3,2,1,0,dagger,4,,,,,,,
 308,8d0fa235,Morudok,Helsmiths of Hashut,Blood of the Bull,chaos,3,4,12,"['brute', 'warrior']",90,3,3,2,1,0,mace,4,,,,,,,
-309,f7b41e09,Tokkor,Helsmiths of Hashut,Blood of the Bull,chaos,3,4,12,"['scout', 'warrior']",125,2,3,1,1,0,dagger,1,6.0,2.0,2.0,6.0,0.0,blast,1.0
+309,f7b41e09,Tokkor,Helsmiths of Hashut,Blood of the Bull,chaos,3,4,12,"['scout', 'warrior']",125,2,3,1,1,0,dagger,3,6.0,2.0,2.0,6.0,0.0,blast,1.0
 310,6ac3d57e,Grisk,Helsmiths of Hashut,Blood of the Bull,chaos,4,3,8,['minion'],75,2,3,1,1,0,dagger,3,,,,,,,
 311,1655db3c,Gor with Pair of Gor Blades,Beasts of Chaos,,chaos,5,3,10,[],60,3,3,1,1,0,axe,3,,,,,,,
 312,d669a472,Ungor with Ungor Blade and Half-shield,Beasts of Chaos,,chaos,5,4,8,[],60,2,3,1,1,0,club,3,,,,,,,
@@ -838,11 +838,11 @@
 836,58eca0a9,Soror Tazat,Cities of Sigmar: Castelite Hosts,Brethren of the Bolt,order,4,3,12,[],105,5,3,2,1,0,club,3,1.0,2.0,1.0,7.0,3.0,blast,1.0
 837,e9705ef3,Acolyte Arcus,Cities of Sigmar: Castelite Hosts,Brethren of the Bolt,order,4,3,10,[],95,3,3,1,2,0,club,4,1.0,2.0,1.0,7.0,3.0,blast,1.0
 838,07be27e9,Scorched Yakob,Cities of Sigmar: Castelite Hosts,Brethren of the Bolt,order,4,3,10,[],85,5,2,1,1,0,club,3,1.0,2.0,1.0,7.0,3.0,blast,1.0
-839,eaec58a2,Ironbreaker,Cities of Sigmar: Dispossessed,,order,3,5,12,['bulwark'],65,3,3,1,1,0,hammer,3,,,,,,,
-840,f86feaaf,Longbeard with Ancestral Weapon and Gromril Shield,Cities of Sigmar: Dispossessed,,order,3,5,12,['champion'],70,3,4,2,1,0,hammer,3,,,,,,,
-841,353ccf7c,Hammerer,Cities of Sigmar: Dispossessed,,order,3,4,12,['destroyer'],75,3,5,2,1,0,hammer,4,,,,,,,
-842,7eb24003,Longbeard with Ancestral Great Axe,Cities of Sigmar: Dispossessed,,order,3,4,12,['champion'],75,3,4,2,1,0,axe,4,,,,,,,
-843,17bfdc39,Irondrake,Cities of Sigmar: Dispossessed,,order,3,4,12,['elite'],75,2,2,1,1,0,unarmed,3,2.0,4.0,1.0,12.0,3.0,ranged,3.0
+839,eaec58a2,Ironbreaker,Cities of Sigmar: Dispossessed,,order,3,5,12,['bulwark'],75,3,3,1,1,0,hammer,3,,,,,,,
+840,f86feaaf,Longbeard with Ancestral Weapon and Gromril Shield,Cities of Sigmar: Dispossessed,,order,3,5,12,['champion'],80,3,4,2,1,0,hammer,3,,,,,,,
+841,353ccf7c,Hammerer,Cities of Sigmar: Dispossessed,,order,3,4,12,['destroyer'],85,3,5,2,1,0,hammer,4,,,,,,,
+842,7eb24003,Longbeard with Ancestral Great Axe,Cities of Sigmar: Dispossessed,,order,3,4,12,['champion'],85,3,4,2,1,0,axe,4,,,,,,,
+843,17bfdc39,Irondrake,Cities of Sigmar: Dispossessed,,order,3,4,12,['elite'],85,2,2,1,1,0,unarmed,3,2.0,4.0,1.0,12.0,3.0,ranged,3.0
 844,5c8db207,Ironbeard with Drakefire Pistol and Cinderblast Bomb,Cities of Sigmar: Dispossessed,,order,3,4,16,"['hero', 'bulwark']",110,2,4,2,5,3,blast,5,3.0,3.0,1.0,8.0,0.0,ranged,3.0
 845,3dd9ab0b,Old Guard with Ancestral Weapon and Gromril Shield,Cities of Sigmar: Dispossessed,,order,3,5,16,"['hero', 'champion']",115,4,4,2,1,0,axe,3,,,,,,,
 846,46f24f9a,Runelord,Cities of Sigmar: Dispossessed,,order,3,4,20,"['hero', 'priest']",115,3,4,2,1,0,hammer,4,,,,,,,
@@ -903,7 +903,7 @@
 901,311fd049,Codewright,Kharadron Overlords,,order,3,4,16,"['hero', 'icon-bearer']",95,3,3,1,1,0,unarmed,3,2.0,3.0,1.0,8.0,0.0,ranged,3.0
 902,ab53faae,Null-Khemist,Kharadron Overlords,,order,10,4,25,"['hero', 'fly', 'champion']",280,3,3,2,1,0,claws,3,6.0,2.0,2.0,8.0,0.0,blast,6.0
 903,f1c7be0e,Vongrim Harpoon Crew,Kharadron Overlords,,order,10,3,14,"['fly', 'bulwark']",115,3,3,1,1,0,sword,3,3.0,3.0,1.0,8.0,0.0,ranged,3.0
-904,634ea06d,Vongrim Salvager,Kharadron Overlords,,order,10,3,14,"['fly', 'warrior']",120,1,3,2,3,2,sword,3,8.0,3.0,1.0,3.0,1.0,ranged,2.0
+904,634ea06d,Vongrim Salvager,Kharadron Overlords,,order,10,3,14,"['fly', 'warrior']",120,3,3,2,1,0,sword,3,2.0,3.0,1.0,8.0,0.0,ranged,3.0
 905,df9fe661,Scalebreaker with Fyresteel Splitaxe,Vulkyn Flameseekers,,order,3,4,12,['elite'],95,3,4,2,2,0,axe,5,2.0,3.0,1.0,8.0,0.0,ranged,4.0
 906,e00e73d1,Scalebreaker with Bokaz,Vulkyn Flameseekers,,order,3,4,12,['elite'],95,3,5,2,2,0,spear,4,2.0,3.0,1.0,8.0,0.0,ranged,4.0
 907,56748d38,Kyndledroth,Vulkyn Flameseekers,,order,4,4,10,['beast'],95,4,3,2,1,0,claws,4,1.0,4.0,2.0,8.0,0.0,blast,6.0

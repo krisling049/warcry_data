@@ -6503,7 +6503,7 @@
                 "max_range": 1,
                 "min_range": 0,
                 "runemark": "dagger",
-                "strength": 1
+                "strength": 3
             },
             {
                 "attacks": 6,
@@ -24096,7 +24096,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Ironbreaker",
-        "points": 65,
+        "points": 75,
         "runemarks": [
             "bulwark"
         ],
@@ -24121,7 +24121,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Longbeard with Ancestral Weapon and Gromril Shield",
-        "points": 70,
+        "points": 80,
         "runemarks": [
             "champion"
         ],
@@ -24146,7 +24146,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Hammerer",
-        "points": 75,
+        "points": 85,
         "runemarks": [
             "destroyer"
         ],
@@ -24171,7 +24171,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Longbeard with Ancestral Great Axe",
-        "points": 75,
+        "points": 85,
         "runemarks": [
             "champion"
         ],
@@ -24196,7 +24196,7 @@
         "grand_alliance": "order",
         "movement": 3,
         "name": "Irondrake",
-        "points": 75,
+        "points": 85,
         "runemarks": [
             "elite"
         ],
@@ -27587,22 +27587,22 @@
         "warband": "Kharadron Overlords",
         "weapons": [
             {
-                "attacks": 1,
+                "attacks": 3,
                 "dmg_crit": 3,
                 "dmg_hit": 2,
-                "max_range": 3,
-                "min_range": 2,
+                "max_range": 1,
+                "min_range": 0,
                 "runemark": "sword",
                 "strength": 3
             },
             {
-                "attacks": 8,
+                "attacks": 2,
                 "dmg_crit": 3,
                 "dmg_hit": 1,
-                "max_range": 3,
-                "min_range": 1,
+                "max_range": 8,
+                "min_range": 0,
                 "runemark": "ranged",
-                "strength": 2
+                "strength": 3
             }
         ],
         "wounds": 14
