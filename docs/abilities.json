@@ -8971,7 +8971,7 @@
         "_id": "40099170",
         "name": "Onslaught",
         "warband": "universal",
-        "cost": "double",
+        "cost": "triple",
         "description": "Add 1 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation.",
         "runemarks": []
     },
@@ -8979,7 +8979,7 @@
         "_id": "04bd58bb",
         "name": "Respite",
         "warband": "universal",
-        "cost": "triple",
+        "cost": "double",
         "description": "A fighter cannot use this ability if they are within 1\" of any enemy fighters. Remove a number of damage points allocated to this fighter equal to the value of this ability.",
         "runemarks": []
     },
@@ -8995,10 +8995,10 @@
     },
     {
         "_id": "8e7f9b93",
-        "name": "Rampage",
+        "name": "Reckoning",
         "warband": "universal",
         "cost": "quad",
-        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability. Then, they can make a bonus attack action.",
+        "description": "If half or more of the fighters in your warband are taken down, this fighter can make a bonus move action of a number of inches up to the value of this ability. Then, if they are within 1\" of any enemy fighters, they can make a bonus attack action.",
         "runemarks": []
     },
     {

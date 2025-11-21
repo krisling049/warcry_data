@@ -70,7 +70,7 @@
         "name": "Worthy Draught",
         "warband": "Askurgan Trueblades",
         "cost": "battletrait",
-        "description": "After an enemy fighter with the Hero runemark and/or that has a Wounds characteristic of 30 or greater has been taken down by a melee attack action made by a friendly fighter with this battle trait, remove D6 damage points allocated to that friendly fighter.",
+        "description": "After an enemy fighter with the Hero runemark and/or that has a Wounds characteristic of 20 or greater has been taken down by a melee attack action made by a friendly fighter with this battle trait, remove D6 damage points allocated to that friendly fighter.",
         "runemarks": []
     },
     {
@@ -1791,7 +1791,7 @@
         "name": "Jubilant Bloodletting",
         "warband": "Daughters of Khaine",
         "cost": "battletrait",
-        "description": "When a friendly fighter with this battle trait makes a melee attack action, after the hit rolls have been made, if you scored one or more critical hits and one or more hits and/or critical hits, you can pick a [double], [triple], or [quad] you have. Add 2 to the value of that ability dice, to a maximum of 6.",
+        "description": "When a friendly fighter with this battle trait makes a melee attack action, after the hit rolls have been made, if you scored a critical hit and any hits or additional critical hits, you can pick a [double], [triple] or [quad] you have. Add 2 to the value of those ability dice, to a maximum of 6.",
         "runemarks": []
     },
     {
@@ -5214,7 +5214,7 @@
         "name": "Wave of Terror",
         "warband": "Nighthaunt",
         "cost": "battletrait",
-        "description": "Add 1 to the Strength characteristics of melee attack actions made by friendly fighters with this battle trait if they made a move action this activation.",
+        "description": "Add 1 to the Strength characteristic of melee attack actions made by friendly fighters with this battle trait if they made a move action this activation.",
         "runemarks": []
     },
     {
@@ -6091,7 +6091,7 @@
         "name": "Seraphon",
         "warband": "Seraphon",
         "cost": "battletrait",
-        "description": "After you pick your warband, pick either Coalesced or Starborne and gain the corresponding battle trait listed below:Coalesced:Friendly fighters with this battle trait can add a 1 to the value of any [triple] spent to use the Tearing bite ability, to a maximum of 6. Starborne:Fighters with this battle trait can make the \"Starborn\" reaction when they are targeted by melee and missile attack actions.",
+        "description": "After you pick your warband, pick either Coalesced or Starborne and gain the corresponding battle trait listed below:Coalesced:Friendly fighters with this battle trait can add a 1 to the value of any [triple] spent to use the Tearing bite ability, to a maximum of 6. Starborne:Fighters with this battle trait can make the ‘Starborn’ reaction when they are targeted by melee and missile attack actions.",
         "runemarks": []
     },
     {
@@ -9515,7 +9515,7 @@
         "_id": "40099170",
         "name": "Onslaught",
         "warband": "universal",
-        "cost": "double",
+        "cost": "triple",
         "description": "Add 1 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation.",
         "runemarks": []
     },
@@ -9523,7 +9523,7 @@
         "_id": "04bd58bb",
         "name": "Respite",
         "warband": "universal",
-        "cost": "triple",
+        "cost": "double",
         "description": "A fighter cannot use this ability if they are within 1\" of any enemy fighters. Remove a number of damage points allocated to this fighter equal to the value of this ability.",
         "runemarks": []
     },
@@ -9539,10 +9539,10 @@
     },
     {
         "_id": "8e7f9b93",
-        "name": "Rampage",
+        "name": "Reckoning",
         "warband": "universal",
         "cost": "quad",
-        "description": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability. Then, they can make a bonus attack action.",
+        "description": "If half or more of the fighters in your warband are taken down, this fighter can make a bonus move action of a number of inches up to the value of this ability. Then, if they are within 1\" of any enemy fighters, they can make a bonus attack action.",
         "runemarks": []
     },
     {
