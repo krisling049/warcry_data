@@ -1,5 +1,5 @@
 """
-Business rules for Warcry data processing.
+Validation configuration for Warcry data processing.
 
 Simple dataclass-based rules for TTS export filtering and data validation.
 """

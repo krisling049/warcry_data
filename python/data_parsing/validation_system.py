@@ -148,7 +148,7 @@ class BusinessRuleValidator:
     """Validates data against business rules."""
 
     def __init__(self):
-        from .business_rules import ValidationRules
+        from .validation_config import ValidationRules
         self.rules = ValidationRules()
 
     def validate_fighter(self, fighter_data: Dict[str, Any]) -> ValidationResult:

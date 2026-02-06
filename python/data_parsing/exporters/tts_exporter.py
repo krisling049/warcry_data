@@ -8,7 +8,7 @@ import logging
 from pathlib import Path
 from typing import List, Dict, Any
 
-from ..business_rules import TTSExportRules
+from ..validation_config import TTSExportRules
 from ..models import Fighter
 from ..io import write_data_json
 
