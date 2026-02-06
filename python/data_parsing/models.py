@@ -1,102 +1,308 @@
-import json
-import logging
-from pathlib import Path
-from typing import List, Dict, Union, Any
+"""
+Domain dataclasses for Warcry data processing.
 
-import jsonschema
+All domain types with from_dict()/to_dict() methods for JSON round-tripping.
+"""
 
-PROJECT_ROOT = Path(__file__).parent.parent.parent
-PROJECT_DATA = Path(PROJECT_ROOT, 'data')
-DIST = Path(PROJECT_ROOT, 'docs')
-LOCAL_DATA = Path(PROJECT_ROOT, 'local', 'data')
-LOCALISATION_DATA = Path(PROJECT_ROOT, 'localisation')
+from __future__ import annotations
 
-logger = logging.getLogger(__name__)
+from dataclasses import dataclass, field
+from itertools import combinations_with_replacement
+from typing import Dict, Iterator, List, Tuple
 
 
-class FileLoadingError(Exception):
-    """Raised when file loading fails."""
-    pass
+# Re-export config and io symbols for backward compatibility
 
 
-def sanitise_filename(filename: str) -> str:
-    for illegal_char in r'\\/:*?\"<>|':
-        filename = str(filename).replace(illegal_char, '')
+@dataclass
+class Weapon:
+    attacks: int
+    dmg_crit: int
+    dmg_hit: int
+    max_range: int
+    min_range: int
+    runemark: str
+    strength: int
 
-    return filename.lower().replace(' ', '_')
+    @classmethod
+    def from_dict(cls, d: dict) -> Weapon:
+        return cls(
+            attacks=d['attacks'],
+            dmg_crit=d['dmg_crit'],
+            dmg_hit=d['dmg_hit'],
+            max_range=d['max_range'],
+            min_range=d['min_range'],
+            runemark=d['runemark'],
+            strength=d['strength'],
+        )
+
+    def to_dict(self) -> dict:
+        return {
+            'attacks': self.attacks,
+            'dmg_crit': self.dmg_crit,
+            'dmg_hit': self.dmg_hit,
+            'max_range': self.max_range,
+            'min_range': self.min_range,
+            'runemark': self.runemark,
+            'strength': self.strength,
+        }
+
+    def __repr__(self) -> str:
+        return f'{self.runemark.capitalize()}  -  {self.attacks}/{self.strength}/{self.dmg_hit}/{self.dmg_crit}'
+
+    def damage_rolls(self) -> List[Tuple[int, ...]]:
+        return [x for x in combinations_with_replacement(range(1, 7), self.attacks)]
+
+    def avg_dmgs(self) -> Iterator[float]:
+        dmg_rolls = self.damage_rolls()
+        for to_hit in [3, 4, 5]:
+            total_rolls = 0
+            damages = list()
+            for pr in dmg_rolls:
+                total_rolls = total_rolls + 1
+                damage = 0
+                for dice in pr:
+                    if dice in range(to_hit, 6):
+                        damage = damage + self.dmg_hit
+                    if dice >= 6:
+                        damage = damage + self.dmg_crit
+                damages.append(damage)
+            avg = sum(damages) / len(damages)
+            yield avg
+
+    def chance_to_kill(
+            self,
+            target_toughness: int,
+            target_wounds: int,
+            to_crit: int = 6,
+            attack_actions: int = 1
+    ) -> float:
+        to_hit = 4 if self.strength == target_toughness else 3 if self.strength > target_toughness else 5
+        total_rolls = 0
+        rolls_over_target_dmg = 0
+
+        for pr in combinations_with_replacement(range(1, 7), self.attacks * attack_actions):
+            total_rolls += 1
+            wounds_caused = 0
+            for dice in pr:
+                if dice in range(to_hit, to_crit):
+                    wounds_caused += self.dmg_hit
+                if dice >= to_crit:
+                    wounds_caused += self.dmg_crit
+            if wounds_caused >= target_wounds:
+                rolls_over_target_dmg += 1
+        dmg_chance = round(rolls_over_target_dmg / total_rolls, 3)
+        return dmg_chance
 
 
-def load_json_file(file: Path) -> Any:
-    """Load and parse JSON file with proper error handling and encoding fallback.
-    
-    Attempts UTF-8 first, falls back to latin-1 for legacy files.
-    
-    Args:
-        file: Path to JSON file to load
-        
-    Returns:
-        Parsed JSON data
-        
-    Raises:
-        FileLoadingError: If file cannot be loaded or parsed
-    """
-    try:
-        return json.loads(file.read_text(encoding='utf-8'))
-    except UnicodeDecodeError:
-        # Fallback to latin-1 for legacy files
-        logger.warning(f"UTF-8 decode failed for {file}, trying latin-1")
-        try:
-            return json.loads(file.read_text(encoding='latin-1'))
-        except UnicodeDecodeError as e:
-            raise FileLoadingError(f"Could not decode file {file} with UTF-8 or latin-1: {e}") from e
-    except json.JSONDecodeError as e:
-        raise FileLoadingError(f"Invalid JSON in {file}: {e}") from e
-    except Exception as e:
-        raise FileLoadingError(f"Unexpected error reading {file}: {e}") from e
+@dataclass
+class Ability:
+    _id: str
+    name: str
+    warband: str
+    cost: str
+    description: str
+    runemarks: List[str]
+
+    @classmethod
+    def from_dict(cls, d: dict) -> Ability:
+        return cls(
+            _id=d['_id'],
+            name=d['name'],
+            warband=d['warband'],
+            cost=d['cost'],
+            description=d['description'],
+            runemarks=d['runemarks'],
+        )
+
+    def to_dict(self) -> dict:
+        return {
+            '_id': self._id,
+            'name': self.name,
+            'warband': self.warband,
+            'cost': self.cost,
+            'description': self.description,
+            'runemarks': self.runemarks,
+        }
+
+    def tts_format(self) -> Dict[str, str]:
+        return {'_id': self._id}
+
+    def __repr__(self) -> str:
+        return self.name
 
 
-def write_data_json(dst: Path, data: Union[List, Dict], encoding: str = 'utf-8'):
-    dst.parent.mkdir(parents=True, exist_ok=True)
-    with open(dst, 'w', encoding=encoding) as f:
-        json.dump(data, f, ensure_ascii=False, indent=4, sort_keys=False)
+@dataclass(frozen=True)
+class SubFaction:
+    runemark: str
+    bladeborn: bool = False
+    heroes_all: bool = False
+    singleton: bool = False
 
-class DataPayload:
-    """
-    The template for handling data. Can be subclassed for other data types (xlsx) in future. Currently intended to
-    load data from a single data file (e.g. data/fighters.json).
-    """
+    @classmethod
+    def from_dict(cls, d: dict) -> SubFaction:
+        return cls(
+            runemark=d['runemark'],
+            bladeborn=d['bladeborn'],
+            heroes_all=d['heroes_all'],
+            singleton=d.get('singleton', False),
+        )
 
-    def __init__(self, src: Path, schema: Path, src_format: str = None):
-        self.src = src
-        self.src_format = src_format if src_format else src.suffix  # xlsx, json, csv etc
-        self.schema = schema
-        self.data = self.load_data()
-        self.validate_data()
+    def to_dict(self) -> dict:
+        return {
+            'runemark': self.runemark,
+            'bladeborn': self.bladeborn,
+            'heroes_all': self.heroes_all,
+            'singleton': self.singleton,
+        }
 
-    def load_data(self):
-        raise NotImplementedError('Subclass must implement load_data method')
-
-    def write_to_disk(self, dst: Path = None):
-        raise NotImplementedError('Subclass must implement write_to_disk method')
-
-    def validate_data(self):
-        raise NotImplementedError('Subclass must implement validate_data method')
+    def __repr__(self) -> str:
+        return self.runemark
 
 
-class JSONDataPayload(DataPayload):
-    def load_data(self):
-        data = load_json_file(self.src)
-        return data
+@dataclass
+class Faction:
+    grand_alliance: str
+    warband: str
+    bladeborn: bool = False
+    heroes_all: bool = False
+    singleton: bool = False
+    subfactions: set[SubFaction] = field(default_factory=set)
 
-    def write_to_disk(self, dst: Path = None):
-        self.validate_data()
-        if not dst:
-            dst = self.src
-        print(f'writing to {dst}')
-        with open(dst, 'w') as f:
-            json.dump(self.data, f, ensure_ascii=False, indent=4, sort_keys=True)
+    @classmethod
+    def from_dict(cls, d: dict) -> Faction:
+        faction = cls(
+            grand_alliance=d['grand_alliance'],
+            warband=d['warband'],
+            bladeborn=d['bladeborn'],
+            heroes_all=d['heroes_all'],
+            singleton=d.get('singleton', False),
+        )
+        for s in d.get('subfactions', []):
+            faction.subfactions.add(SubFaction.from_dict(s))
+        return faction
 
-    def validate_data(self):
-        with open(self.schema, 'r') as f:
-            schema_data = json.load(f)
-        jsonschema.validate(self.data, schema_data)
+    def to_dict(self) -> dict:
+        return {
+            'grand_alliance': self.grand_alliance,
+            'warband': self.warband,
+            'bladeborn': self.bladeborn,
+            'heroes_all': self.heroes_all,
+            'singleton': self.singleton,
+            'subfactions': [s.to_dict() for s in self.subfactions],
+        }
+
+    def get_bladeborn(self) -> set[str]:
+        return {b.runemark for b in self.subfactions if b.bladeborn}
+
+    def __repr__(self) -> str:
+        return self.warband
+
+
+@dataclass
+class Fighter:
+    _id: str
+    name: str
+    warband: str
+    _subfaction_str: str
+    grand_alliance: str
+    movement: int
+    toughness: int
+    wounds: int
+    weapons: List[Weapon]
+    runemarks: List[str]
+    points: int
+    # Enrichment fields (not serialized by to_dict)
+    abilities: List[Ability] = field(default_factory=list, repr=False)
+    faction: Faction | None = field(default=None, repr=False)
+    subfaction: SubFaction | None = field(default=None, repr=False)
+
+    @classmethod
+    def from_dict(cls, d: dict) -> Fighter:
+        return cls(
+            _id=d['_id'],
+            name=d['name'],
+            warband=d['warband'],
+            _subfaction_str=d.get('subfaction', ''),
+            grand_alliance=d['grand_alliance'],
+            movement=d['movement'],
+            toughness=d['toughness'],
+            wounds=d['wounds'],
+            weapons=[Weapon.from_dict(w) for w in d['weapons']],
+            runemarks=d['runemarks'],
+            points=d['points'],
+        )
+
+    def to_dict(self) -> dict:
+        """Serialize to dict matching source JSON format. Excludes enrichment fields."""
+        return {
+            '_id': self._id,
+            'name': self.name,
+            'warband': self.warband,
+            'subfaction': self._subfaction_str,
+            'grand_alliance': self.grand_alliance,
+            'movement': self.movement,
+            'toughness': self.toughness,
+            'wounds': self.wounds,
+            'weapons': [w.to_dict() for w in self.weapons],
+            'runemarks': self.runemarks,
+            'points': self.points,
+        }
+
+    # Legacy alias for backward compatibility
+    def as_dict(self) -> dict:
+        return self.to_dict()
+
+    def subfaction_runemark(self) -> str | None:
+        if self.subfaction:
+            return self.subfaction.runemark
+        return None
+
+    def is_ally(self, src_fighter: Fighter | None = None) -> bool:
+        can_ally = any(['hero' in self.runemarks, 'ally' in self.runemarks])
+        if src_fighter:
+            return all([can_ally, src_fighter.grand_alliance == self.grand_alliance])
+        return can_ally
+
+    def is_bladeborn(self) -> bool:
+        if self.faction and self.faction.bladeborn:
+            return True
+        if self.subfaction and self.subfaction.bladeborn:
+            return True
+        return False
+
+    def dmg_chance(
+            self,
+            vs_t: int,
+            dmg: int,
+            weapon_index: int = 0,
+            to_crit: int = 6,
+            attack_actions: int = 1
+    ) -> List[Tuple[Tuple[int, str], float]]:
+        to_check = self.weapons[weapon_index] if weapon_index else self.weapons
+        to_ret = list()
+
+        for wep in to_check:
+            chance = wep.chance_to_kill(target_toughness=vs_t, target_wounds=dmg, to_crit=to_crit, attack_actions=attack_actions)
+            to_ret.append(((weapon_index, wep.runemark), chance))
+            if weapon_index == 0:
+                weapon_index += 1
+
+        return to_ret
+
+    def has_str(self, s: int) -> bool:
+        for wep in self.weapons:
+            if wep.strength >= s:
+                return True
+        return False
+
+    def __repr__(self) -> str:
+        return self.name
+
+
+@dataclass
+class WarbandData:
+    """Container for typed warband data flowing through the pipeline."""
+    fighters: List[Fighter] = field(default_factory=list)
+    abilities: List[Ability] = field(default_factory=list)
+    factions: List[Faction] = field(default_factory=list)

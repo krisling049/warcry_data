@@ -1,30 +1,16 @@
 import argparse
-import json
 import logging
 import sys
 from pathlib import Path
-from typing import Optional
 
-import jsonschema
-
-from data_parsing.abilities import ABILITY_SCHEMA
-from data_parsing.factions import FACTION_SCHEMA
-from data_parsing.fighters import FIGHTER_SCHEMA
-from data_parsing.models import PROJECT_DATA
-from data_parsing.warband_pipeline import WarbandDataPipeline
+from data_parsing.config import SchemaFiles, PROJECT_DATA, PROJECT_ROOT
+from data_parsing.pipeline import load_warband_data
+from data_parsing.io import validate_against_schema
 
 
 def get_duplicate_ids(to_check: list[dict]) -> list[str]:
     all_ids = [i["_id"] for i in to_check]
     return [i for i in all_ids if all_ids.count(i) != 1]
-
-
-def validate_data(data: list[dict], schemafile: Optional[Path] = None, schemadata: Optional[dict] = None):
-    if not schemafile and not schemadata:
-        raise RuntimeError('Must provide either schema file or schema data for validation')
-    if schemafile:
-        schemadata = json.loads(schemafile.read_text())
-    jsonschema.validate(data, schemadata)
 
 
 if __name__ == '__main__':
@@ -43,32 +29,31 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
-    warband_data = WarbandDataPipeline()
-    ability_schema = json.loads(ABILITY_SCHEMA.read_text())
-    fighter_schema = json.loads(FIGHTER_SCHEMA.read_text())
-    faction_schema = json.loads(FACTION_SCHEMA.read_text())
+    # Load data using functional approach
+    schema_path = Path(PROJECT_ROOT, 'schemas', 'warband_schema.json')
+    data = load_warband_data(src=args.data, schema=schema_path)
 
     validation_pass = True
 
-    logging.info(f'validating {len(warband_data.data["abilities"])} abilities')
-    ability_dupes = get_duplicate_ids(warband_data.data['abilities'])
-    for ability in warband_data.data['abilities']:
+    logging.info(f'validating {len(data["abilities"])} abilities')
+    ability_dupes = get_duplicate_ids(data['abilities'])
+    for ability in data['abilities']:
         if ability["_id"] in ability_dupes:
             logging.error(f'validation failure: duplicate id: {ability["warband"]}/{ability["name"]}: {ability["_id"]}')
             validation_pass = False
-        validate_data(data=ability, schemadata=ability_schema)
+        validate_against_schema(data=ability, schema_path=SchemaFiles.ABILITY)
 
-    logging.info(f'validating {len(warband_data.data["fighters"])} fighters')
-    fighter_dupes = get_duplicate_ids(warband_data.data['fighters'])
-    for fighter in warband_data.data['fighters']:
+    logging.info(f'validating {len(data["fighters"])} fighters')
+    fighter_dupes = get_duplicate_ids(data['fighters'])
+    for fighter in data['fighters']:
         if fighter["_id"] in fighter_dupes:
             logging.error(f'validation failure: duplicate id: {fighter["grand_alliance"]}/{fighter["warband"]}/{fighter["name"]}: {fighter["_id"]}')
             validation_pass = False
-        validate_data(data=fighter, schemadata=fighter_schema)
+        validate_against_schema(data=fighter, schema_path=SchemaFiles.FIGHTER)
 
-    logging.info(f'validating {len(warband_data.data["factions"])} factions')
-    for faction in warband_data.data['factions']:
-        validate_data(data=faction, schemadata=faction_schema)
+    logging.info(f'validating {len(data["factions"])} factions')
+    for faction in data['factions']:
+        validate_against_schema(data=faction, schema_path=SchemaFiles.FACTION)
 
     if validation_pass:
         logging.info('validation passed')

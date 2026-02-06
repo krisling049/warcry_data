@@ -12,7 +12,7 @@ from typing import List, Dict, Any, Optional
 
 import jsonschema
 
-from .constants import SchemaFiles
+from .config import SchemaFiles
 
 logger = logging.getLogger(__name__)
 
@@ -146,66 +146,68 @@ class SchemaValidator:
 
 class BusinessRuleValidator:
     """Validates data against business rules."""
-    
+
+    def __init__(self):
+        from .business_rules import ValidationRules
+        self.rules = ValidationRules()
+
     def validate_fighter(self, fighter_data: Dict[str, Any]) -> ValidationResult:
         """Validate a fighter against business rules."""
-        from .business_rules import ValidationRules
-        
         result = ValidationResult(is_valid=True, items_validated=1)
-        
+
         # Validate points
         points = fighter_data.get('points', 0)
-        if not ValidationRules.is_valid_points_value(points):
+        if not self.rules.is_valid_points_value(points):
             result.add_error(
-                f"Invalid points value: {points} (must be 0-2000)",
+                f"Invalid points value: {points} (must be {self.rules.min_points}-{self.rules.max_points})",
                 path="points",
                 value=points
             )
-        
+
         # Validate movement
         movement = fighter_data.get('movement', 0)
-        if not ValidationRules.is_valid_movement(movement):
+        if not self.rules.is_valid_movement(movement):
             result.add_error(
-                f"Invalid movement value: {movement} (must be 1-12)",
-                path="movement", 
+                f"Invalid movement value: {movement} (must be {self.rules.min_movement}-{self.rules.max_movement})",
+                path="movement",
                 value=movement
             )
-        
+
         # Validate toughness
         toughness = fighter_data.get('toughness', 0)
-        if not ValidationRules.is_valid_toughness(toughness):
+        if not self.rules.is_valid_toughness(toughness):
             result.add_error(
-                f"Invalid toughness value: {toughness} (must be 1-8)",
+                f"Invalid toughness value: {toughness} (must be {self.rules.min_toughness}-{self.rules.max_toughness})",
                 path="toughness",
                 value=toughness
             )
-        
+
         # Validate wounds
         wounds = fighter_data.get('wounds', 0)
-        if not ValidationRules.is_valid_wounds(wounds):
+        if not self.rules.is_valid_wounds(wounds):
             result.add_error(
-                f"Invalid wounds value: {wounds} (must be 1-50)",
+                f"Invalid wounds value: {wounds} (must be {self.rules.min_wounds}-{self.rules.max_wounds})",
                 path="wounds",
                 value=wounds
             )
-        
+
         # Check for missing required fields
         required_fields = ['_id', 'name', 'warband', 'grand_alliance', 'weapons', 'runemarks']
-        for field in required_fields:
-            if field not in fighter_data or not fighter_data[field]:
-                result.add_error(f"Missing required field: {field}", path=field)
-        
+        for field_name in required_fields:
+            if field_name not in fighter_data or not fighter_data[field_name]:
+                result.add_error(f"Missing required field: {field_name}", path=field_name)
+
         return result
     
     def validate_ability(self, ability_data: Dict[str, Any]) -> ValidationResult:
         """Validate an ability against business rules."""
         result = ValidationResult(is_valid=True, items_validated=1)
-        
+
         # Check for missing required fields
         required_fields = ['_id', 'name', 'warband', 'cost', 'description', 'runemarks']
-        for field in required_fields:
-            if field not in ability_data or not ability_data[field]:
-                result.add_error(f"Missing required field: {field}", path=field)
+        for field_name in required_fields:
+            if field_name not in ability_data or not ability_data[field_name]:
+                result.add_error(f"Missing required field: {field_name}", path=field_name)
         
         # Validate cost format
         cost = ability_data.get('cost', '')

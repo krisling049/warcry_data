@@ -3,8 +3,8 @@ import logging
 from dataclasses import dataclass
 from pathlib import Path
 
-from data_parsing.models import DIST, LOCALISATION_DATA, LOCAL_DATA
-from data_parsing.warband_pipeline import WarbandDataPipeline
+from data_parsing.pipeline import load_warband_data, process_warband_data, export_all_with_localization
+from data_parsing.config import DIST, LOCAL_DATA, PROJECT_ROOT
 
 
 @dataclass
@@ -29,17 +29,10 @@ if __name__ == '__main__':
 
     out_dir = LOCAL_DATA if args.local else DIST
 
-    combined_data = WarbandDataPipeline()
-    combined_data.export_abilities_json(dst=Path(out_dir, 'abilities.json'), exclude_battletraits=True)
-    combined_data.export_battletraits_json(dst=Path(out_dir, 'battletraits.json'))
-    combined_data.export_abilities_json(dst=Path(out_dir, 'abilities_battletraits.json'), exclude_battletraits=False)
-    combined_data.export_fighters_json(dst=Path(out_dir, 'fighters.json'))
-    combined_data.export_tts_fighters(dst=Path(out_dir, 'fighters_tts.json'))
-    combined_data.export_fighters_html(dst_root=out_dir)
-    combined_data.export_fighters_csv(dst_root=out_dir)
-    for file in LOCALISATION_DATA.iterdir():
-        if file.is_file() and file.suffix == '.json':
-            lang = file.stem
-            combined_data.export_localized_data(loc_file=file, dst=Path(out_dir, lang, 'abilities.json'))
+    # Load and process data
+    schema_path = Path(PROJECT_ROOT, 'schemas', 'warband_schema.json')
+    data = load_warband_data(schema=schema_path)
+    warband_data = process_warband_data(data)
+    export_all_with_localization(warband_data, data, out_dir)
 
     print('done')
