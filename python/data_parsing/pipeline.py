@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Dict, List, Any
 
 from .config import FileTypes, DataTypes, PROJECT_DATA, LOCALISATION_DATA
-from .io import load_json_file, validate_against_schema
+from .io import load_json_file
 from .models import Ability, Faction, Fighter, WarbandData
 from .processing import assign_ids, assign_abilities, assign_factions
 
@@ -21,18 +21,26 @@ class FileProcessingError(Exception):
     pass
 
 
+class DataValidationError(Exception):
+    """Raised when data validation fails.
+
+    Contains structured validation results for detailed error reporting.
+    """
+    def __init__(self, message: str, validation_result=None):
+        super().__init__(message)
+        self.validation_result = validation_result
+
+
 # ============================================================================
 # DATA LOADING FUNCTIONS
 # ============================================================================
 
 def load_warband_data(src: Path = PROJECT_DATA,
-                      schema: Path = None,
                       filter_string: str = '*.json') -> Dict[str, List[Any]]:
-    """Load all warband data from source directory and validate.
+    """Load all warband data from source directory.
 
     Args:
         src: Source directory containing warband data files
-        schema: Optional schema to validate against
         filter_string: Glob pattern for files to load
 
     Returns:
@@ -89,12 +97,48 @@ def load_warband_data(src: Path = PROJECT_DATA,
                 f"{len(data[DataTypes.ABILITIES])} abilities, "
                 f"{len(data[DataTypes.FACTIONS])} factions")
 
-    # Validate if schema provided
-    if schema:
-        validate_against_schema(data, schema)
-        logger.info("Data validation passed")
-
     return data
+
+
+def validate_warband_data(data: Dict[str, List[Any]], strict: bool = True):
+    """Validate warband data using comprehensive schema and business rules.
+
+    Args:
+        data: Dictionary containing 'fighters', 'abilities', 'factions' lists
+        strict: If True, raise exception on warnings. If False, only raise on errors.
+
+    Returns:
+        ValidationResult with detailed validation information
+
+    Raises:
+        DataValidationError: If validation fails
+    """
+    from .validation_system import CompositeValidator
+
+    logger.info("Starting comprehensive data validation")
+
+    validator = CompositeValidator()
+    result = validator.validate_all_data(data)
+
+    # Log results
+    logger.info(result.summary())
+    if result.errors:
+        logger.error("Validation errors found:")
+        for error in result.errors:
+            logger.error(f"  {error}")
+    if result.warnings:
+        logger.warning("Validation warnings found:")
+        for warning in result.warnings:
+            logger.warning(f"  {warning}")
+
+    # Raise exception if validation failed
+    has_failures = result.errors or (strict and result.warnings)
+    if has_failures:
+        error_msg = f"Validation failed: {len(result.errors)} errors, {len(result.warnings)} warnings"
+        raise DataValidationError(error_msg, validation_result=result)
+
+    logger.info("Data validation passed")
+    return result
 
 
 def load_localisation(patch_file: Path) -> List[Dict[str, Any]]:

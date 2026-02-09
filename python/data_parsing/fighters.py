@@ -44,7 +44,7 @@ def get_extreme_values(fighters: List[Fighter]) -> Tuple[Dict[str, int], Dict[st
             min_values[key] = value if value < min_values[key] else min_values[key]
 
     for fighter in fighters:
-        for k, v in fighter.as_dict().items():
+        for k, v in fighter.to_dict().items():
             if isinstance(v, int):
                 update_values(k, v)
             if isinstance(v, list) and all([isinstance(x, dict) for x in v]):

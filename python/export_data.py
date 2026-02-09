@@ -3,7 +3,12 @@ import logging
 from dataclasses import dataclass
 from pathlib import Path
 
-from data_parsing.pipeline import load_warband_data, process_warband_data, export_all_with_localization
+from data_parsing.pipeline import (
+    load_warband_data,
+    validate_warband_data,
+    process_warband_data,
+    export_all_with_localization
+)
 from data_parsing.config import DIST, LOCAL_DATA, PROJECT_ROOT
 
 
@@ -29,9 +34,13 @@ if __name__ == '__main__':
 
     out_dir = LOCAL_DATA if args.local else DIST
 
-    # Load and process data
-    schema_path = Path(PROJECT_ROOT, 'schemas', 'warband_schema.json')
-    data = load_warband_data(schema=schema_path)
+    # Load raw data (no schema validation)
+    data = load_warband_data()
+
+    # Validate with comprehensive rules
+    validate_warband_data(data, strict=True)
+
+    # Process and export
     warband_data = process_warband_data(data)
     export_all_with_localization(warband_data, data, out_dir)
 

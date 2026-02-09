@@ -3,23 +3,16 @@ import logging
 import sys
 from pathlib import Path
 
-from data_parsing.config import SchemaFiles, PROJECT_DATA, PROJECT_ROOT
-from data_parsing.pipeline import load_warband_data
-from data_parsing.io import validate_against_schema
-
-
-def get_duplicate_ids(to_check: list[dict]) -> list[str]:
-    all_ids = [i["_id"] for i in to_check]
-    return [i for i in all_ids if all_ids.count(i) != 1]
+from data_parsing.config import PROJECT_DATA
+from data_parsing.pipeline import load_warband_data, validate_warband_data
 
 
 if __name__ == '__main__':
-    # Set up logging
     logging.basicConfig(
         level=logging.INFO,
         format='%(levelname)s - %(name)s - %(message)s'
     )
-    
+
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--data",
@@ -27,35 +20,30 @@ if __name__ == '__main__':
         default=PROJECT_DATA,
         help="path to project data folder"
     )
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="treat warnings as errors"
+    )
     args = parser.parse_args()
 
-    # Load data using functional approach
-    schema_path = Path(PROJECT_ROOT, 'schemas', 'warband_schema.json')
-    data = load_warband_data(src=args.data, schema=schema_path)
+    try:
+        # Load data
+        data = load_warband_data(src=args.data)
 
-    validation_pass = True
+        # Validate using CompositeValidator
+        result = validate_warband_data(data, strict=args.strict)
 
-    logging.info(f'validating {len(data["abilities"])} abilities')
-    ability_dupes = get_duplicate_ids(data['abilities'])
-    for ability in data['abilities']:
-        if ability["_id"] in ability_dupes:
-            logging.error(f'validation failure: duplicate id: {ability["warband"]}/{ability["name"]}: {ability["_id"]}')
-            validation_pass = False
-        validate_against_schema(data=ability, schema_path=SchemaFiles.ABILITY)
+        # Print detailed report
+        print("\n" + "="*60)
+        print(result.detailed_report())
+        print("="*60)
 
-    logging.info(f'validating {len(data["fighters"])} fighters')
-    fighter_dupes = get_duplicate_ids(data['fighters'])
-    for fighter in data['fighters']:
-        if fighter["_id"] in fighter_dupes:
-            logging.error(f'validation failure: duplicate id: {fighter["grand_alliance"]}/{fighter["warband"]}/{fighter["name"]}: {fighter["_id"]}')
-            validation_pass = False
-        validate_against_schema(data=fighter, schema_path=SchemaFiles.FIGHTER)
+        logging.info('Validation PASSED')
+        sys.exit(0)
 
-    logging.info(f'validating {len(data["factions"])} factions')
-    for faction in data['factions']:
-        validate_against_schema(data=faction, schema_path=SchemaFiles.FACTION)
-
-    if validation_pass:
-        logging.info('validation passed')
-    else:
-        sys.exit('validation failed')
+    except Exception as e:
+        logging.error(f'Validation FAILED: {e}')
+        if hasattr(e, 'validation_result') and e.validation_result:
+            print("\n" + e.validation_result.detailed_report())
+        sys.exit(1)

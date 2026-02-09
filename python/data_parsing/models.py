@@ -11,9 +11,6 @@ from itertools import combinations_with_replacement
 from typing import Dict, Iterator, List, Tuple
 
 
-# Re-export config and io symbols for backward compatibility
-
-
 @dataclass
 class Weapon:
     attacks: int
@@ -248,10 +245,6 @@ class Fighter:
             'runemarks': self.runemarks,
             'points': self.points,
         }
-
-    # Legacy alias for backward compatibility
-    def as_dict(self) -> dict:
-        return self.to_dict()
 
     def subfaction_runemark(self) -> str | None:
         if self.subfaction:

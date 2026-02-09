@@ -101,14 +101,40 @@ class ValidationResult:
 
 class SchemaValidator:
     """Validates data against JSON schemas."""
-    
+
     def __init__(self, schema_path: Path):
         """Initialize with schema file path."""
         self.schema_path = schema_path
         try:
             self.schema = json.loads(schema_path.read_text(encoding='utf-8'))
+            # Create a custom RefResolver to handle local schema references
+            self.resolver = self._create_local_resolver()
         except Exception as e:
             raise ValueError(f"Failed to load schema from {schema_path}: {e}")
+
+    def _create_local_resolver(self) -> jsonschema.RefResolver:
+        """Create a RefResolver that resolves remote schema refs to local files."""
+        from .config import SchemaFiles
+
+        # Build a store mapping remote URLs to local schema content
+        schema_store = {}
+
+        # Map the remote ability schema URL to local file
+        ability_schema_path = SchemaFiles.ABILITY
+        if ability_schema_path.exists():
+            ability_schema = json.loads(ability_schema_path.read_text(encoding='utf-8'))
+            schema_store["https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas/ability_schema.json"] = ability_schema
+            schema_store["https://raw.githubusercontent.com/krisling049/warcry_data/main/schemas/ability_schema.json"] = ability_schema
+
+        # Map fighter schema
+        fighter_schema_path = SchemaFiles.FIGHTER
+        if fighter_schema_path.exists():
+            fighter_schema = json.loads(fighter_schema_path.read_text(encoding='utf-8'))
+            schema_store["https://raw.githubusercontent.com/krisling049/warcry_data/main/data/schemas/fighter_schema.json"] = fighter_schema
+            schema_store["https://raw.githubusercontent.com/krisling049/warcry_data/main/schemas/fighter_schema.json"] = fighter_schema
+
+        # Create resolver with the store
+        return jsonschema.RefResolver.from_schema(self.schema, store=schema_store)
     
     def validate(self, data: Any, data_path: Optional[Path] = None) -> ValidationResult:
         """Validate data against the schema."""
@@ -117,11 +143,21 @@ class SchemaValidator:
             schema_path=self.schema_path,
             data_path=data_path
         )
-        
+
         try:
-            # Validate against schema
-            jsonschema.validate(data, self.schema)
-            
+            # Validate against schema using custom resolver to avoid remote fetching
+            validator = jsonschema.Draft7Validator(self.schema, resolver=self.resolver)
+
+            # Validate the data
+            errors = list(validator.iter_errors(data))
+            if errors:
+                for error in errors:
+                    result.add_error(
+                        message=error.message,
+                        path=".".join(str(p) for p in error.absolute_path),
+                        value=error.instance
+                    )
+
             # Count items validated
             if isinstance(data, list):
                 result.items_validated = len(data)
@@ -129,18 +165,12 @@ class SchemaValidator:
                 result.items_validated = 1
             else:
                 result.items_validated = 1
-                
-        except jsonschema.ValidationError as e:
-            result.add_error(
-                message=e.message,
-                path=".".join(str(p) for p in e.absolute_path),
-                value=e.instance
-            )
+
         except jsonschema.SchemaError as e:
             result.add_error(f"Schema error: {e.message}")
         except Exception as e:
             result.add_error(f"Unexpected validation error: {e}")
-        
+
         return result
 
 
@@ -191,11 +221,17 @@ class BusinessRuleValidator:
                 value=wounds
             )
 
-        # Check for missing required fields
-        required_fields = ['_id', 'name', 'warband', 'grand_alliance', 'weapons', 'runemarks']
+        # Check for missing required fields (weapons and runemarks can be empty lists)
+        required_fields = ['_id', 'name', 'warband', 'grand_alliance']
         for field_name in required_fields:
             if field_name not in fighter_data or not fighter_data[field_name]:
                 result.add_error(f"Missing required field: {field_name}", path=field_name)
+
+        # Check weapons and runemarks exist (but can be empty)
+        if 'weapons' not in fighter_data:
+            result.add_error("Missing required field: weapons", path="weapons")
+        if 'runemarks' not in fighter_data:
+            result.add_error("Missing required field: runemarks", path="runemarks")
 
         return result
     
@@ -203,15 +239,19 @@ class BusinessRuleValidator:
         """Validate an ability against business rules."""
         result = ValidationResult(is_valid=True, items_validated=1)
 
-        # Check for missing required fields
-        required_fields = ['_id', 'name', 'warband', 'cost', 'description', 'runemarks']
+        # Check for missing required fields (runemarks can be empty list)
+        required_fields = ['_id', 'name', 'warband', 'cost', 'description']
         for field_name in required_fields:
             if field_name not in ability_data or not ability_data[field_name]:
                 result.add_error(f"Missing required field: {field_name}", path=field_name)
+
+        # Check runemarks exists (but can be empty)
+        if 'runemarks' not in ability_data:
+            result.add_error("Missing required field: runemarks", path="runemarks")
         
         # Validate cost format
         cost = ability_data.get('cost', '')
-        valid_costs = ['single', 'double', 'triple', 'quad', 'battletrait']
+        valid_costs = ['single', 'double', 'triple', 'quad', 'battletrait', 'reaction', 'passive']
         if cost and cost not in valid_costs:
             result.add_warning(
                 f"Unusual cost value: {cost} (expected one of {valid_costs})",
@@ -281,15 +321,43 @@ class CompositeValidator:
     def validate_all_data(self, data: Dict[str, List[Dict[str, Any]]]) -> ValidationResult:
         """Validate all data types in a combined result."""
         result = ValidationResult(is_valid=True)
-        
+
+        # Validate fighters
         if 'fighters' in data:
             fighters_result = self.validate_fighters(data['fighters'])
             result.merge(fighters_result)
-        
+
+            # Check for duplicate fighter IDs
+            fighter_ids = [f.get('_id') for f in data['fighters'] if '_id' in f]
+            seen_ids = set()
+            for i, fighter_id in enumerate(fighter_ids):
+                if fighter_id in seen_ids:
+                    fighter = data['fighters'][i]
+                    result.add_error(
+                        f"Duplicate fighter ID: {fighter_id}",
+                        path=f"fighters[{i}]._id",
+                        value=f"{fighter.get('grand_alliance')}/{fighter.get('warband')}/{fighter.get('name')}"
+                    )
+                seen_ids.add(fighter_id)
+
+        # Validate abilities
         if 'abilities' in data:
             abilities_result = self.validate_abilities(data['abilities'])
             result.merge(abilities_result)
-        
+
+            # Check for duplicate ability IDs
+            ability_ids = [a.get('_id') for a in data['abilities'] if '_id' in a]
+            seen_ids = set()
+            for i, ability_id in enumerate(ability_ids):
+                if ability_id in seen_ids:
+                    ability = data['abilities'][i]
+                    result.add_error(
+                        f"Duplicate ability ID: {ability_id}",
+                        path=f"abilities[{i}]._id",
+                        value=f"{ability.get('warband')}/{ability.get('name')}"
+                    )
+                seen_ids.add(ability_id)
+
         logger.info(result.summary())
         
         if result.errors:
