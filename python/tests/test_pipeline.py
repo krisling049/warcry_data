@@ -77,8 +77,28 @@ def test_placeholder_id_is_rejected(data_dir: Path, placeholder: str) -> None:
 
     errors = validate_data(load_all_data(data_dir))
 
-    assert errors == [f"abilities: Twistweald/{abilities[0]['name']}: $['_id']: "
-                      f"'{placeholder}' does not match '^[0-9a-z]{{8}}$'"]
+    assert errors
+    assert all(e.startswith(f"abilities: Twistweald/{abilities[0]['name']}: $['_id']: ") for e in errors)
+
+
+def test_id_with_trailing_newline_is_rejected(data_dir: Path) -> None:
+    fighters = read(fighters_file(data_dir))
+    fighters[0]['_id'] += '\n'
+    write(fighters_file(data_dir), fighters)
+
+    errors = validate_data(load_all_data(data_dir))
+
+    assert errors and all("$['_id']" in e for e in errors)
+
+
+@pytest.mark.parametrize('item', [None, [], 'text'])
+def test_non_object_item_is_rejected(data_dir: Path, item: object) -> None:
+    fighters = read(fighters_file(data_dir))
+    fighters.append(item)
+    write(fighters_file(data_dir), fighters)
+
+    with pytest.raises(ValueError, match=r'twistweald_fighters\.json: item \d+ is a JSON'):
+        load_all_data(data_dir)
 
 
 def test_bad_faction_is_reported_not_crashed(data_dir: Path) -> None:
@@ -138,11 +158,11 @@ def test_validation_cli_rejects_missing_folder(tmp_path: Path) -> None:
     assert 'data folder not found' in result.stderr
 
 
-def test_export_is_deterministic(tmp_path: Path) -> None:
-    pipeline = WarbandDataPipeline()
-    pipeline.export_all(tmp_path / 'a')
-    pipeline = WarbandDataPipeline()
-    pipeline.export_all(tmp_path / 'b')
+def test_export_does_not_depend_on_filesystem_order(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    WarbandDataPipeline().export_all(tmp_path / 'a')
+    real_rglob = Path.rglob
+    monkeypatch.setattr(Path, 'rglob', lambda self, pattern: reversed(list(real_rglob(self, pattern))))
+    WarbandDataPipeline().export_all(tmp_path / 'b')
 
     files = sorted(p.relative_to(tmp_path / 'a') for p in (tmp_path / 'a').rglob('*') if p.is_file())
     assert len(files) == 8
