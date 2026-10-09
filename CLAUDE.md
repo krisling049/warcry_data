@@ -37,7 +37,7 @@ python -m pytest
 - `schema_validation.py` - `validate_data` returns every schema error and duplicate `_id`
 - `data_processing.py` - assigns subfactions, then abilities, to fighters
 - `warband_pipeline.py` - `WarbandDataPipeline` loads, validates (raises on any error), processes and exports
-- `exporters/` - `json_exporter`, `tts_exporter`, `html_exporter` (HTML and CSV through pandas)
+- `exporters/` - `json_exporter`, `tts_exporter`, `html_exporter` (HTML and CSV through pandas), `index_exporter`
 
 ### Exported Formats (`docs/`)
 - `fighters.json` - All fighters
@@ -47,6 +47,7 @@ python -m pytest
 - `fighters_tts.json` - Tabletop Simulator format
 - `fighters.html`, `fighters.csv` - Fighter tables
 - `{language}/abilities.json` - Localised abilities
+- `index.html` - Site root, with a link to each file above
 
 ### CI
 `.github/workflows/pages.yml` runs the tests and the export on every PR. On `main` it also deploys `docs/` to GitHub Pages.
