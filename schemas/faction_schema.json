@@ -3,6 +3,13 @@
 	"$id": "https://raw.githubusercontent.com/krisling049/warcry_data/main/schemas/faction_schema.json",
 	"type": "object",
 	"title": "Schema for faction data files",
+	"required": [
+		"grand_alliance",
+		"warband",
+		"bladeborn",
+		"heroes_all",
+		"subfactions"
+	],
 	"properties": {
 		"_id": {
 			"type": "string",
@@ -18,9 +25,9 @@
 				"chaos"
 			]
 		},
-		"runemark": {
+		"warband": {
 			"type": "string",
-			"description": "The name of the faction runemark",
+			"description": "The name of the faction runemark. Fighters and abilities refer to the faction by this name.",
 			"examples": [
 				"Blades of Khorne: Bloodbound"
 			]
@@ -41,6 +48,11 @@
 			"type": "array",
 			"items": {
 				"type": "object",
+				"required": [
+					"runemark",
+					"bladeborn",
+					"heroes_all"
+				],
 				"properties": {
 					"runemark": {
 						"type": "string",

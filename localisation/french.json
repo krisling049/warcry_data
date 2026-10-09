@@ -71,38 +71,6 @@
         "name": "Résistance Brutale",
         "description": "Un combattant peut faire cette réaction quand il est ciblé par une action d'attaque de mêlée mais avant de faire les jets de touche. Soustrayez 1 des dégâts alloués à ce combattant par chaque touche de l'action d'attaque (jusqu'à un minimum de 1)."
     },
-    "dac75ae0": {
-        "name": "Bird Strike",
-        "description": "Pick a visible friendly fighter within 6\" of this fighter that has both the Blackpowder's Buccaneers and the Fly runemarks.  That fighter can make a bonus move action or a bonus attack action."
-    },
-    "40159f70": {
-        "name": "Sic 'Em",
-        "description": "Pick a visible friendly fighter within 6\" of this fighter that has both the Blackpowder's Buccaneers and the Frienzied runemarks.  That fighter can make a bonus move action or a bonus attack action."
-    },
-    "cafaa4d4": {
-        "name": "Broadside",
-        "description": "Add 3 to the Attacks characteristic of the next attack action made by this fighter that targets an enemy fighter more than 3\" away in this activation."
-    },
-    "af6705e7": {
-        "name": "Shield of Azyr",
-        "description": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead. If this fighter has the Hero runemark and is within 6\" of another friendly fighter with the Blacktalons runemark and the Champion or Destroyer runemark, count up to three critical hits from that attack action as hits instead."
-    },
-    "f4925187": {
-        "name": "Storm of Justice",
-        "description": "Pick a visible friendly fighter with the Blacktalons runemark within a number of inches of this fighter equal to the value of this ability. That fighter makes a bonus move action or a bonus attack action."
-    },
-    "cc2a11b5": {
-        "name": "Headshot",
-        "description": "Add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from the next ranged attack action made by this fighter in this activation."
-    },
-    "ba962bd6": {
-        "name": "Nebulous Sea-fog",
-        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter."
-    },
-    "a6ff68ea": {
-        "name": "Windrider",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Remove this fighter from the battlefield, then set this fighter up on a platform or the battlefield floor, more than 6\" from all enemy fighters. You can subtract the value of this ability from that 6\", to a minimum of 0."
-    },
     "73a644b7": {
         "name": "Du Sang pour le Dieu du Sang",
         "description": "Un combattant peut utiliser cette aptitude si un combattant ennemi a été mis hors de combat par une de ses actions d'attaque à cette activation. Ce combattant effectue une action de mouvement ou d'attaque bonus."
@@ -383,34 +351,6 @@
         "name": "Chef Intrépide",
         "description": "Chaque combattant ami ayant la marque runique de faction des Cités de Sigmar : Dépossédés qui est à 6\" de ce combattant peut faire une action de mouvement bonus."
     },
-    "3b26491a": {
-        "name": "Pack Hunters",
-        "description": "Pick a visible friendly fighter within 6\" of this fighter that has both the Claws of Karanak runemark and the Agile runemark and has not activated yet this battle round.  You can activate that fighter immediately after this fighter's activation ends."
-    },
-    "0f23907a": {
-        "name": "Blood for the Blood God",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action."
-    },
-    "335848c5": {
-        "name": "Savage Mauling",
-        "description": "Pick an enemy fighter within 1\" of this fighter that has a Wounds characteristic of 20 or less.  Remove that fighter from the battlefield and set them up within 1\" of this fighter.  Then, this fighter makes a bonus attack action against that fighter."
-    },
-    "8c956a79": {
-        "name": "Horrifying Trophies",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation.  Until the end of the battle round, visible enemy fighters within 6\" of this fighter cannot use abilities."
-    },
-    "cab5e578": {
-        "name": "Scent of Weakness",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation.  Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 8\" of this fighter."
-    },
-    "bd012690": {
-        "name": "Flaming Breath",
-        "description": "Roll a dice for each visible enemy figther within 1\" of this fighter.  On a roll of 4+, allocate 3 damage points to the fighter being rolled for."
-    },
-    "6964dbf2": {
-        "name": "Bay for Coward's Blood",
-        "description": "A fighter can make this reaction after a visible enemy fighter within 1\" of them makes a disengage action.  Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by friendly fighters that target that enemy fighter."
-    },
     "db4552ec": {
         "name": "Corbeau Tourmenteur",
         "description": "Choisissez un combattant ennemi à 20\" de ce combattant. Jusqu'à la fin du round de bataille, le combattant choisi ne peut pas faire d'actions de désengagement."
@@ -643,22 +583,6 @@
         "name": "Seconde Mitose",
         "description": "Un combattant peut faire cette réaction quand il est ciblé par une action d'attaque, une fois les dégâts totalisés mais avant de les allouer à ce combattant. Placez 1 nouveau combattant avec la marque runique de faction Disciples de Tzeentch: Démons et la marque runique de Sbire sur le champ de bataille, à 3\" de ce combattant. Ensuite, ce combattant est mis hors de combat. Lors d'une bataille de campagne, n'effectuez pas de jet de trauma pour ce combattant"
     },
-    "1cbf55e2": {
-        "name": "Aetherforce",
-        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of this fighter and add 2 to the Move characteristic of this fighter."
-    },
-    "4542248b": {
-        "name": "Scouring Blows",
-        "description": "In the next melee attack action made by this fighter, critical hits are scored on a 5+ for that attack action."
-    },
-    "edcf7815": {
-        "name": "Rushing Gales",
-        "description": "Until the end of the battle round, friendly fighters with the Domitan's Stormcoven runemark can fly when making move actions."
-    },
-    "fcaf3366": {
-        "name": "Electrokinetic Blast",
-        "description": "Pick a point on the battlefield within 12\" of and visible to this fighter, and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate D3 damage points to each enemy fighter within 3\" of that point."
-    },
     "efc50c98": {
         "name": "Nasse des Âmes",
         "description": "Choisissez un combattant ennemi visible à 3\" de ce combattant et jetez un dé. Sur 3+, le combattant choisi ne peut pas faire d'actions de mouvement ni de dégagement jusqu'à la fin du round de bataille."
@@ -666,22 +590,6 @@
     "f5bce2eb": {
         "name": "Harpon du Ressac",
         "description": "Ce combattant fait une action d'attaque bonus. Apres cette action d'attaque, le combattant ciblé par l'action d'attaque fait une action de mouvement bonus directement vers ce combattant, comme s'il sautait, sur une distance en pouces égale à la valeur de cette aptitude."
-    },
-    "1adaca07": {
-        "name": "Hypnotise",
-        "description": "Pick an enemy fighter within 6\" of this fighter. That enemy fighter makes a move action directly towards this fighter, as if they were jumping, up to a number of inches equal to their Move characteristic."
-    },
-    "13d3aa59": {
-        "name": "Sudden Warp-portal",
-        "description": "Pick another friendly fighter with the Ephilimâ€™s Pandaemonium runemark within 12\" ofthis fighter. Make a note of that fighterâ€™s location, then remove that fighter from the battlefield, and immediately set them up within 3\" of this fighter. Then remove this fighter from the battlefield, and set them up within 3\" of the other friendly fighterâ€™s original location."
-    },
-    "7449a726": {
-        "name": "Engulfing Bite",
-        "description": "Add 2 to the Attacks and Strength characteristics of the next melee attack action made by this fighter in this activation. In addition, add 2 to the damage points allocated to enemy fighters by each critical hit from that attack action."
-    },
-    "5fad888f": {
-        "name": "Summoned Abomination",
-        "description": "Pick a friendly fighter with the Ephilimâ€™s Pandaemonium runemark that has been taken down. Set up that fighter on a platform or the battlefield floor, wholly within 3\" of this fighter. That fighter no longer counts as being taken down and has no damage points allocated to it."
     },
     "9a8df7e9": {
         "name": "Division en Horreurs Sulfureuses",
@@ -851,18 +759,6 @@
         "name": "Rancune Assassine",
         "description": "Un combattant peut faire cette réaction quand il est ciblé par une action d'attaque de mêlée, après avoir fait le total des dégâts mais avant de l'allouer à ce combattant, s'il est suffisant pour mettre ce combattant hors de combat. Jetez un dé. Sur un jet de 4+, allouez 3 dégâts à l'attaquant"
     },
-    "770d0514": {
-        "name": "Self-Command",
-        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of this fighter and add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter."
-    },
-    "a2760cc0": {
-        "name": "Unleash",
-        "description": "Until the end of the battle round, add 1 to this fighter's Move characteristic, add 1 to the Attacks characteristic of melee attack actions made by this fighter, and this fighter has the Beast runemark."
-    },
-    "0e50e126": {
-        "name": "In Control",
-        "description": "Each other friendly fighter with the Gnarlspirit Pack runemark can make a bonus move action or a bonus attack action (some can make a bonus move action and others can make a bonus attack action)."
-    },
     "675458df": {
         "name": "Chien de chasse",
         "description": "Choisissez un combattant ayant à la fois la marque runique de la Meute Fanatique et la marque runique de Bête et qui est à 6\" de ce combattant. Le combattant choisi fait une action de mouvement bonus."
@@ -875,69 +771,9 @@
         "name": "Affaiblissement",
         "description": "Choisissez un combattant ennemi visible à 12\" de ce combattant et jetez un dé. Jusqu'à la fin du round de bataille, soustrayez la valeur du jet de dé à la caractéristique d'Endurance du combattant choisi (jusqu'à un minimum de 1)"
     },
-    "e3ae1ed5": {
-        "name": "Rending Bite",
-        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If none of the hit rolls from that attack action result in a critical hit, allocate 6 damage points to the attacking fighter."
-    },
-    "cab60322": {
-        "name": "Bounding Leaps",
-        "description": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action."
-    },
-    "6a45bb85": {
-        "name": "Glimmer of Consciousness",
-        "description": "Until the start of the next battle round, this fighter is not considered to have the Beast  runemark. If this fighter is carrying treasure at the start of the next battle round, it drops that treasure."
-    },
-    "bfae953f": {
-        "name": "Unnatural Force",
-        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from melee attack actions made by this fighter."
-    },
-    "bebbf0d1": {
-        "name": "Agonising Roar",
-        "description": "Roll a dice for each enemy fighter within 6\" of this fighter. On a roll of 4+, until the end of the battle round, the fighter being rolled for cannot make disengage actions."
-    },
-    "2cedb53d": {
-        "name": "Maddened Blows",
-        "description": "Until the end of this fighter's activation, hit rolls for attack actions made by this fighter score a critical hit on a roll of 5+."
-    },
-    "1d3da6e3": {
-        "name": "Starving Rampage",
-        "description": "Until the end of the battle round, this fighter is considered to have the Beast runemark. If this fighter is carrying treasure, they drop that treasure. This fighter can make 1 bonus melee attack action for each visible enemy fighter within 1\" of them. Each of these attack actions must target a different fighter."
-    },
     "fbce3d1d": {
         "name": "Eclair Sauvage",
         "description": "Choisissez un combattant ennemi visible à 12\" du ce combattant. Allouez autant de points de dégats au combattant choisi que la valeur de cette aptitude. Puis jetez un dé. sur 2+, le combattant choisi ne peut pas être activé à ce round de bataille."
-    },
-    "a523f4de": {
-        "name": "Questin' Knight",
-        "description": "Until the end of this fighter's activation, after the enemy fighter is taken down by a melee attack action made this fighter, this fighter can make a bonus move action nor a bonus attack action."
-    },
-    "80846cd7": {
-        "name": "Enthusiastic Dubbin'",
-        "description": "Pick a visible friendly fighter with the Grinkrak's Looncourt runemark within 3\" of this fighter that has not activated yet this battle round.  That fighter suffers impact damage.  You can activate that fighter immediately after this fighter's activation ends."
-    },
-    "5550a018": {
-        "name": "Sound da Charge!",
-        "description": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter."
-    },
-    "23a2faeb": {
-        "name": "Tuff Nut",
-        "description": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead."
-    },
-    "2c353eb1": {
-        "name": "Peerless Combatant",
-        "description": "Until the end of this fighter's activation, damage cannot be allocated to this fighter by enemy fighters' reactions."
-    },
-    "b3047b15": {
-        "name": "Combination Attack",
-        "description": "A fighter can only use this ability if an enemy fighter has been allocated damage by a melee attack action made by them this activation.  This fighter makes a bonus melee attack action that targets that enemy fighter."
-    },
-    "be42bda3": {
-        "name": "Marshal the Bladestorm",
-        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Gryselle's Arenai runemark while they are within 6\" of this fighter."
-    },
-    "b3eb52dd": {
-        "name": "Acrobatic Display",
-        "description": "A fighter can make this reaction when they are targeted by an attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1)."
     },
     "7bb09959": {
         "name": "Repérer les points faibles",
@@ -1023,34 +859,6 @@
         "name": "Douleur Partagée",
         "description": "Un combattant peut faire cette réaction après avoir été ciblé par une action d'attaque de mêlée mais avant de faire les jets de touche. Pour chaque jet de touche de cette action d'attaque qui réussit, allouez 1 dégât au combattant attaquant. Pour chaque touche critique, allouez à la place 2 dégâts au combattant attaquant."
     },
-    "1f5b44d7": {
-        "name": "Lay to Waste",
-        "description": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation.  This fighter makes a bonus move action or a bonus attack action."
-    },
-    "dcb7451d": {
-        "name": "Merciless Cruelty",
-        "description": "The next attack action made by this fighter this activation scores a critical hit on a 5+ if the target fighter already has 5 or more damage points allocated to them before the attack action is made."
-    },
-    "718c4bfb": {
-        "name": "Stampede of Iron",
-        "description": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice.  On a 4-5, allocate 1 damage point to that fighter.  On a 6, allocate a number of damage points to that fighter equal to the value of this ability."
-    },
-    "f386768b": {
-        "name": "Ash Bomb",
-        "description": "Pick a visible point within 6\" of this fighter that is on the battlefield floor or a platform and place a token there.  That token is an ash bomb token.  While an enemy fighter is within 3\" of any ash bomb tokens, subtract 1 from their Toughness characteristic and subtract 1 from the Attacks characteristic of attack actions made by them (both to a minimum of 1).  At the end of the battle round, remove the token."
-    },
-    "f9977ab4": {
-        "name": "Engulfing Flames of Dark Artifice",
-        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll a number of dice equal to the value of this ability.  For each 4+, allocate 3 damage points to that fighter.  Then, do the same for each other visible enemy fighter within 2\" of that enemy fighter but instead roll a number of dice equal to half the value of this ability (rounding up)."
-    },
-    "e2f0ddbc": {
-        "name": "Unleash the Raging Taurus",
-        "description": "This fighter makes a bonus melee attack action.  In addition, add 1 to the damage points allocated by each critical hit scored from that bonus attack aciton."
-    },
-    "bf2f6194": {
-        "name": "Breath of Cinder and Smoke",
-        "description": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them.  Roll a dice.  If the roll is equal to or greater than that enemy fighter's toughness characteristic, allocate 3 damage points to that enemy fighter and subtract 1 from the Strength characteristic of melee attack actions made by that enemy fighter until the end of the battle round."
-    },
     "f700a7cf": {
         "name": "Poser un Piège",
         "description": "Un combattant peut utiliser cette aptitude une fois par partie. Choisissez un point sur une plateforme ou sur le sol du champ de bataille à 3\" de ce combattant et à plus de 1\" de combattants ennemis et placez y le marqueur de Piège de Bushwakka.  Allouez 2D6 points de dégâts au premier combattant ennemi qui se déplace à moins d'1\" du marqueur puis retirez le marqueur."
@@ -1058,30 +866,6 @@
     "27400a51": {
         "name": "A tes ordres, chef !",
         "description": "Un combattant peut utiliser cette aptitude 2\" d'un Hrothgorn le trappeur ami. Ce Hrothgorn le Trappeur fait une action d'attaque bonus ayant la marque runique d'arme de tir."
-    },
-    "0b3e0162": {
-        "name": "Agile Climbers",
-        "description": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing."
-    },
-    "0bb29a64": {
-        "name": "Envenomed Weapons",
-        "description": "Add 1 to the damage points allocated by each hit and critical hit from the next attack action made by this fighter this activation."
-    },
-    "50fdb642": {
-        "name": "Hurled Bolas",
-        "description": "Pick a visible enemy fighter within 8\" of this fighter and roll a number of dice equal to the value of this ability.  If 1 of the dice scores a 6, that fighter makes 1 fewer action in this battle round (to a minimum of 0).  If a fighter is reduced to 0 actions in this way, that fighter cannot be activated in this battle round."
-    },
-    "642e57d4": {
-        "name": "Bellow of the Carnosaur",
-        "description": "Pick an enemy fighter within 6\" of this fighter.  Until the end of the battle round, subtract 1 from the Move characteristic of that fighter (to a minimum of 1) and subtract 1 from the damage points allocated by each hit and critical hit from attack actions made by that fighter (to a minimum of 1)."
-    },
-    "fac6ce44": {
-        "name": "Call of the Hunt",
-        "description": "Pick a friendly fighter with the Hunters of Huanchi and Beast runemarks within 9\" of this fighter.  That fighter makes a bonus move action.  Then pick a visible enemy fighter within 1\" of the fighter that made the bonus move action and allocate a number of damage points to that fighter equal to the value of this ability."
-    },
-    "08b62c60": {
-        "name": "Hit and Run",
-        "description": "This fighter makes a bonus move action or a bonus disengage action, then this fighter makes a bonus attack action or a bonus move action."
     },
     "133bc02c": {
         "name": "Slippery",
@@ -1211,34 +995,6 @@
         "name": "Dur à Kuir'",
         "description": "Jusqu'à la fin du round de bataille, soustrayez 1 pour chaque point de dégâts alloués par chaque touche et touche critique (jusqu'à un minimum de 1) des actions d'attaque qui ciblent ce combattant. "
     },
-    "36774520": {
-        "name": "Hammering Strikes",
-        "description": "A fighter can only use this ability if an enemy fighter has been allocated damage points by an attack action made by them this activation.  Add half the value of this ability (rounding up) to the damage points allocated by each hit and critical hit from the next melee attack action this activation that targets that enemy fighter."
-    },
-    "3dea36d7": {
-        "name": "Rock-shattering Blow",
-        "description": "Add 1 to the Strength characteristic of the next melee attack action made by this fighter this activation and add 1 to the damage points allocated by each hit and critical hit from that attack action."
-    },
-    "de2478b0": {
-        "name": "Stonewarp",
-        "description": "A fighter can only use this ability if they are within 9\" of a visible friendly fighter with the Jade Obelisk and icon-bearer runemarks.  Remove a number of damage points allocated to this fighter equal to half the value of this ability (rounding up).  If this fighter is also within 6\" of a friendly fighter with the Jade Obelisk and Priest runemarks, remove a number of damage points allocated to this fighter equal to the value of this ability instead."
-    },
-    "7be64433": {
-        "name": "Bloody Tribute",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by them this activation.  Pick a friendly fighter within 9\" of a visible friendly fighter with the Jade Obelisk and icon-bearer runemarks.  That fighter makes a bonus move action."
-    },
-    "7bb0cd4b": {
-        "name": "Gaze of the Idolarc",
-        "description": "Pick a visible enemy fighter within 9\" of this fighter.  Subtract half the value of this ability (rounding up) from either the Move characteristic or the Toughness characteristic of that fighter (to a minimum of 1) until the end of the battle round."
-    },
-    "c9f0d8ea": {
-        "name": "Might of the Speaker",
-        "description": "Pick a visible friendly fighter within a number of inches of this fighter equal to the value of this ability.  Add 3 to the value of this ability if a friendly fighter with the Jade Obelisk and Priest runemarks is on the battlefield.  That fighter can make up to 2 bonus move actions, bonus attack actions or bonus disengage actions in any combination."
-    },
-    "0aeea1c5": {
-        "name": "The Curse of Jade",
-        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made.  Subtract 1 from the damage points allocated to this fighter by each hit and critical hit from that attack action (to a minimum of 1)."
-    },
     "76da2eab": {
         "name": "Frappe de l'Executeur",
         "description": "Ce combattant fait une action d'attaque bonus. De plus, ajoutez 1 aux caractéristiques d'attaques et de force de cette action d'attaque."
@@ -1366,34 +1122,6 @@
     "64b1818c": {
         "name": "Piège Ruzé",
         "description": "Un combattant peut faire cette réaction après qu'un combattant ennemi a fini une action de mouvement visible et à 3\" de lui. Choisissez un autre combattant ami à 3\" du combattant qui utilise cette aptitude. Le combattant choisi fait une action d'attaque bonus qui doit cibler le combattant ennemi qui a fait l'action de mouvement."
-    },
-    "2a3d1d3e": {
-        "name": "Krule Trap",
-        "description": "After an enemy fighter within 6\" of this fighter ends a move action, roll a dice. On a roll of a 5+, pick one: that enemy fighter cannot make move actions for the rest of the battle round, or allocate 4 damage points to that enemy fighter. Otherwise, allocate 2 damage points to that enemy fighter."
-    },
-    "6a76938e": {
-        "name": "Krule Taunt",
-        "description": "Pick an enemy fighter that is within a number of inches of this fighter equal to the value of this ability. Until the end of the battle round, subtract 2 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions made by the chosen fighter, unless those attack actions target this fighter."
-    },
-    "f54e7999": {
-        "name": "Rip It Out",
-        "description": "After the next attack action that has the Spear or Ranged Weapon runemark made by this fighter in this activation, if it scored 1 or more hits, allocate a number of damage points to the target of that attack action equal to the value of this ability."
-    },
-    "a65e52e8": {
-        "name": "Krule Stabbin'",
-        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated by each hit and critical hit from melee attack actions made by this fighter that target an enemy fighter that has 5 or more damage points allocated to them."
-    },
-    "fa51972c": {
-        "name": "Drum and Holler",
-        "description": "Until the end of the battle round, enemy fighters within 6\" of this fighter cannot make reactions."
-    },
-    "77f385b7": {
-        "name": "Saw 'Em Up",
-        "description": "Pick a visible enemy fighter within 2\" of this fighter and roll a number of dice equal to the value of this ability (to a minimum of 2). If you can make a group of 2 or more dice in consecutive numerical order (e.g. 2, 3, 4) excluding any duplicates, allocate 3 damage points to the chosen fighter for each dice in that group."
-    },
-    "91c3121c": {
-        "name": "Nasty Muggin'",
-        "description": "Pick an enemy fighter within 1\" of this fighter. Each friendly fighter with the Kruleboyz Monsta-killaz runemark within 3\" of that enemy fighter can make one bonus attack action that must target that enemy fighter."
     },
     "45a57d8c": {
         "name": "Suivre le vent",
@@ -1719,34 +1447,6 @@
         "name": "Bond Féroce",
         "description": "Jusqu'à la fin de l'activation de ce combattant, la prochaine fois qu'il fini une action de mouvement à 1\" d'un combattant ennemi, choisissez un combattant ennemi visible à 1\" de ce combattant. Allouez autant de points de dégâts que la valeur de cette aptitude au combattant choisi."
     },
-    "7bef6213": {
-        "name": "Blowpipe",
-        "description": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice.  For each 4+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up).  In addition, for each 6, subtract 1 from that fighter's Toughness characteristic until the end of the battle round."
-    },
-    "82851512": {
-        "name": "Gruesome Harvest",
-        "description": "A fighter can use this ability only if an enemy fighter has been taken down by a melee attack action made by them this activation.  This fighter now has a *potent vial* until the end of the battle.  While a fighter has a potent vial, when they use an ability, the value of the ability is treated as being 6 even if the ability dice show a different score."
-    },
-    "2f1ffed7": {
-        "name": "Hooked Net",
-        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice.  On a 3+, allocate a number of damage points to that figther equal to the roll, and that fighter cannot make move actions or disengage actions for the rest of the battle round."
-    },
-    "beceda3a": {
-        "name": "Lethal Injection",
-        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability.  For each roll that exceeds the Toughness characteristic of that fighter, allocate 5 damage points to them."
-    },
-    "810d4f1f": {
-        "name": "Slashing Attack",
-        "description": "Roll a dice for each visible enemy fighter within 3\" of this fighter.  On a 3-4, allocate 1 damage point to the fighter being rolled for.  On a 5-6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability."
-    },
-    "6e7c6843": {
-        "name": "Ensnaring Strike",
-        "description": "This fighter makes a bonus attack action.  In addition, if that attack action scores any critical hits, the target fighter cannot make move actions or disengage actions for the rest of the battle round."
-    },
-    "65b404e9": {
-        "name": "Bile Blood",
-        "description": "A fighter can make this reaction when they are targeted by a melee attack action.  After the damage is totalled but before it is allocated to this fighter, roll a dice for each critical hit scored from that attack action.  For each 3+, allocate 3 damage points to the fighter that made that attack action."
-    },
     "6ae16d7b": {
         "name": "Nourrir les chiens",
         "description": "Un combattant peut utiliser cette aptitude seulement si un combattant ennemi a été mis hors de combat par une de ses actions d'attaque à cette activation. Retirez autant de dégâts alloués que la valeur de cette aptitude à ce combattant ami à 3\" de lui."
@@ -1850,22 +1550,6 @@
     "72ea88ae": {
         "name": "Stellaire",
         "description": "Un combattant peut faire cette réaction après avoir été ciblé par une action d'attaque de mêlée mais avant de faire les jets de touche. Comptez jusqu'à deux touches critiques de l'action d'attaque comme des touches."
-    },
-    "bb49daff": {
-        "name": "Befoul the Land",
-        "description": "Pick an objective within 3\" of this fighter or a treasure token within 3\" of this fighter. That treasure token can be one that is being carried by a fighter if that fighter is visible to this fighter. Roll a dice at the end of the battle round for each enemy fighter within 3\" of that objective or treasure token. On a roll of 3+, allocate D3 damage points for the fighter being rolled for. The same objective or treasure token cannot be picked more than once per battle round."
-    },
-    "8b4be7d4": {
-        "name": "Disgusting Appearance",
-        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of melee attack actions made by enemy fighters that target this fighter."
-    },
-    "dc1c6e1b": {
-        "name": "Unctuous Citations",
-        "description": "Pick a friendly fighter with the Skabbik's Plaguepack runemark that is within 7\" of this fighter. This fighter can make a bonus move action or a bonus attack action, and then the fighter you picked can make the same bonus action."
-    },
-    "9ad3e526": {
-        "name": "Manifestation of a Great Plague",
-        "description": "Pick this fighter, or pick a number of objectives visible to this fighter equal to half the value of this ability (rounding up). Allocate a number of damage points equal to the value of this ability to all enemy fighters within 3\" of either this fighter or those objectives."
     },
     "c29c2e03": {
         "name": "Puissance Kurnoth",
@@ -1988,8 +1672,7 @@
         "description": "Jusqu'à la fin de l'activation de ce combattant, ajoutez la moitié de la valeur de cette aptitude (arrondie au supérieur) aux dégâts alloués aux combattants ennemis par chaque touche critique de ses actions d'attaque de mêlée."
     },
     "fe9612fe": {
-        "name": "Frénésie de Ripailles Sanguinaires",
-        "description": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by this fighter this activation. This fighter makes a bonus move action or a bonus attack action."
+        "name": "Frénésie de Ripailles Sanguinaires"
     },
     "cf6468c5": {
         "name": "Siphon Nécrotique ",
@@ -2415,18 +2098,6 @@
         "name": "Cavalcade de Démence",
         "description": "Ce combattant fait une action d'attaque bonus. Deplus, si soit ce combattant, soit le combattant ciblé a un ou plusieurs points de dégâts qui lui ont été alloués, ajoutez 1 à la caractéristique d'Attaques de cette action d'attaque bonus. Si ce combattant et le combattant ciblé ont tous les deux un ou plusieurs points de dégâts qui leur ont été alloués, ajoutez 3 à la caractéristiques d'Attaques de l'action d'attaque bonus à la place."
     },
-    "43139422": {
-        "name": "Crackling Arcs",
-        "description": "Roll a number of dice equal to the value of this ability. For each roll of 5+, pick a visible enemy fighter within 3\" of this fighter.  Allocate 1 damage point to that fighter for each friendly fighter with this ability's runemarks within 3\" of that fighter."
-    },
-    "7442c30c": {
-        "name": "Dread Puppetry",
-        "description": "Pick a friendly fighter with both the Exiled Dead and Bulwark runemarks and has not activated yet this battle round.  you can activate that fighter immediately after this fighter's activation ends."
-    },
-    "21e1790c": {
-        "name": "Dynamic Enhancer",
-        "description": "Until the end of the battle round, add 1 to the Attack characteristic of attack actions with a Range characteristic of 3 or less made by visible friendly fighters with both the Exiled Dead and Frienzied runemarks while they are within 9\" of this fighter."
-    },
     "6a8cfa78": {
         "name": "Guidés par la Boussole Astrale",
         "description": "Chaque combattant ami avec la marque runique des Farstriders qui est à 6\" de ce combattant quand il utilise cette aptitude peut faire une action de mouvement bonus."
@@ -2435,22 +2106,6 @@
         "name": "Décret Royal",
         "description": "Choisissez un combattant ami ayant la marque runique du Sombreguet et la marque runique de Sbire visible de ce combattant et à 3\" de ce dernier. Le combattant choisi peut faire une action d'attaque bonus."
     },
-    "120b6102": {
-        "name": "Swift Judgement",
-        "description": "This fighter makes a bonus move action of up to a number of 3 inches equal to the value of this ability and must finish closer to the closest visible enemy fighter than they were at the start of that move action."
-    },
-    "2223f1bb": {
-        "name": "Sharpen",
-        "description": "Pick a friendly fighter with the Hero runemark and The Headsmenâ€™s Curse runemark within 3\" of this fighter. Add 2 to the damage points allocated to enemy fighters by each critical hit from the next melee attack action made by that fighter."
-    },
-    "7b5f8cee": {
-        "name": "Hold Them Still",
-        "description": "Pick an enemy fighter within 1\" of this fighter. That fighter cannot make disengage actions until the end of the battle round. In addition, subtract the value of this ability from that fighterâ€™s Move characteristic until the end of the battle round (to a minimum of 0)."
-    },
-    "525a92c8": {
-        "name": "The Court Sentences You... To Death!",
-        "description": "This fighter makes a bonus move action. Add x to the Attacks  characteristic of the next melee attack action made by this fighter in this activation and add x to the damage points allocated to enemy fighters by each critical hit from that attack action, where x is the number of friendly fighters with The Headsmenâ€™s Curse runemark within 3\" of the target."
-    },
     "f1a69fd6": {
         "name": "Charge Terrifiante",
         "description": "Un combattant peut utiliser cette aptitude seulement s'il y a un combattant ennemi visible à 6\" de lui. Il fait une action de mouvement bonus et doit la finir plus près du combattant ennemi visible le plus proche qu'au début de l'action de mouvement."
@@ -2458,10 +2113,6 @@
     "fa891e0e": {
         "name": "Embuscade du  Caméléon",
         "description": "Ce combattant peut utiliser cette aptitude seulement s'il n'y a pas de combattants ennemis visibles à 12\" de lui. Ce combattant fait une action de mouvement bonus."
-    },
-    "da1dd1e6": {
-        "name": "Imbue with Azyrite Energy",
-        "description": "Until the end of the battle round, add 1 to the Move and Toughness characteristics of friendly fighters while they are within 9\" of this fighter."
     },
     "a5e1cbb7": {
         "name": "Frappe Barbelée",
@@ -2563,49 +2214,9 @@
         "name": "Smart Step Backwards",
         "description": "A fighter can make this reaction after they have been allocated damage points by a melee attack action. This fighter makes a bonus disengage action."
     },
-    "a4350dad": {
-        "name": "Death Grip",
-        "description": "After this fighter's next melee attack action in this activation, if at least 1 hit roll from that attack action results in a hit, the target forfeits 1 of their actions in this battle round. If the target has already activated or if they have no more actions to forfeit, allocate 3 damage points to the target instead."
-    },
-    "481d3beb": {
-        "name": "Hunting Pack",
-        "description": "Pick a friendly fighter with the Wildercorps Hunters faction runemark within 2\" of this fighter. That fighter makes a bonus attack action that must target an enemy fighter within 2\" of this fighter."
-    },
-    "29090cad": {
-        "name": "Hunter's Eye",
-        "description": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter."
-    },
-    "071c01f6": {
-        "name": "Kill!",
-        "description": "Pick a visible enemy fighter. Allocate a number of damage points to that enemy fighter equal to three times the number of friendly fighters with both the Wildercorps Hunters faction runemark and the Beast runemark within 3\" of them."
-    },
-    "75157160": {
-        "name": "Trailblazer's Might",
-        "description": "Until the end of this fighter's activation, attack actions made by this fighter score a critical hit on a roll of 5+."
-    },
-    "23ad24c1": {
-        "name": "Regroup!",
-        "description": "Each visible friendly fighter with the Wildercorps Hunters faction runemark within 6\" of this fighter can make a bonus move action or a bonus disengage action (some can make a bonus move action and others can make a bonus disengage action)."
-    },
-    "b0a0b989": {
-        "name": "Lantern Astrala",
-        "description": "Until the end of the battle round, subtract 2 from the value of abilities (to a minimum of 1) used by visible enemy fighters while they are within 9\" of this fighter."
-    },
-    "57997258": {
-        "name": "Staggering Blow",
-        "description": "Pick a visible enemy fighter within 1\" of this fighter.  That enemy fighter must make a bonus disengage action.  If they cannot do so, allocate D6 damage points to that enemy fighter instead."
-    },
-    "bea7fb8e": {
-        "name": "Quick Volley",
-        "description": "Add 2 to the Attacks characteristic of the next attack action made by this fighter  that targets an enemy fighter more than 3\" away in this activation."
-    },
     "39080dc4": {
         "name": "Vigueur et Colère",
         "description": "Jusqu'à la fin de l'activation de ce combattant, ajoutez 1 aux points de dégats alloués par chaque touche critique de ses actions d'attaque."
-    },
-    "a78a0f6d": {
-        "name": "The Reaping",
-        "description": "Roll a dice for each visible enemy fighter within 6\" of this fighter.  On a 2+, allocate a number of damage points equal to the value of this ability to the fighter being rolled for."
     },
     "75b35f0c": {
         "name": "Face de la Mauvaise Lune",
