@@ -2,7 +2,7 @@
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://krisling049.github.io/warcry_data/)
 [![Data Validation](https://img.shields.io/badge/Data-Validated-blue)]()
-[![Python](https://img.shields.io/badge/Python-3.8+-blue)]()
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)]()
 
 A consolidated home for data used by Warcry tools
 
@@ -62,12 +62,14 @@ The repository includes Python tools for data manipulation:
 # Install dependencies
 pip install -r python/requirements.txt
 
-# Validate all data
+# Report every validation error
 python python/validation.py
 
-# Export data formats
-# Use -local to avoid contaminating published data
-python python/export_data.py -local
+# Validate, then write all published files to docs/ (untracked)
+python python/export_data.py
+
+# Run the tests
+python -m pytest
 ```
 
 ### Data Structure
@@ -104,9 +106,9 @@ Each `{warband}_faction.json` file contains:
 ## Contributing
 
 1. **Source of Truth**: Files in `data/` are authoritative
-2. **Generated Files**: `docs/` content is auto-generated - don't edit manually
-3. **Validation**: All changes must pass schema validation
-4. **Testing**: Run validation before submitting PRs
+2. **Generated Files**: CI builds the published files from `data/` and deploys them to GitHub Pages on every merge to `main`. They are not committed.
+3. **IDs**: Each new fighter or ability needs a unique `_id` of 8 lowercase letters or digits, e.g. `python -c "import uuid; print(uuid.uuid4().hex[:8])"`
+4. **Validation**: Every PR runs the tests and a full validation and export
 
 ```bash
 # Validate your changes
