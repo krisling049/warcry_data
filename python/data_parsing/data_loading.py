@@ -17,11 +17,11 @@ def load_all_data(src: Path) -> WarbandData:
     # Sorted so that every export lists entities in the same order on every OS.
     for file in sorted(src.rglob('*.json'), key=lambda p: p.as_posix()):
         if file.name.endswith(FILE_SUFFIXES[FIGHTERS]):
-            data[FIGHTERS].extend(load_json_file(file))
+            data[FIGHTERS].extend(load_json_file(file, list))
         elif file.name.endswith(FILE_SUFFIXES[ABILITIES]):
-            data[ABILITIES].extend(load_json_file(file))
+            data[ABILITIES].extend(load_json_file(file, list))
         elif file.name.endswith(FILE_SUFFIXES[FACTIONS]):
-            data[FACTIONS].append(load_json_file(file))
+            data[FACTIONS].append(load_json_file(file, dict))
 
     logger.info(f'Loaded {len(data[FIGHTERS])} fighters, {len(data[ABILITIES])} abilities, '
                 f'{len(data[FACTIONS])} factions from {src}')

@@ -38,5 +38,5 @@ class WarbandDataPipeline:
         html_exporter.export_fighters_html(fighters, dst / 'fighters.html')
         html_exporter.export_fighters_csv(fighters, dst / 'fighters.csv')
         for loc_file in sorted(localisation.glob('*.json')):
-            translations = load_json_file(loc_file)
+            translations = load_json_file(loc_file, dict)
             json_exporter.export_localized_abilities(abilities, translations, dst / loc_file.stem / 'abilities.json')
