@@ -5,7 +5,7 @@ from .abilities import Ability
 from .constants import ABILITIES, FACTIONS, FIGHTERS
 from .data_loading import load_all_data
 from .data_processing import assign_abilities, assign_subfactions
-from .exporters import html_exporter, json_exporter, tts_exporter
+from .exporters import html_exporter, index_exporter, json_exporter, tts_exporter
 from .fighters import Fighter
 from .models import LOCALISATION_DATA, PROJECT_DATA, load_json_file
 from .schema_validation import validate_data
@@ -30,13 +30,20 @@ class WarbandDataPipeline:
     def export_all(self, dst: Path, localisation: Path = LOCALISATION_DATA) -> None:
         abilities = self.data[ABILITIES]
         fighters = self.data[FIGHTERS]
-        json_exporter.export_abilities(abilities, dst / 'abilities.json', exclude_battletraits=True)
-        json_exporter.export_battletraits(abilities, dst / 'battletraits.json')
-        json_exporter.export_abilities(abilities, dst / 'abilities_battletraits.json', exclude_battletraits=False)
-        json_exporter.export_fighters(fighters, dst / 'fighters.json')
-        tts_exporter.export_fighters(self.fighters, dst / 'fighters_tts.json')
-        html_exporter.export_fighters_html(fighters, dst / 'fighters.html')
-        html_exporter.export_fighters_csv(fighters, dst / 'fighters.csv')
+        published: list[Path] = []
+
+        def out(*parts: str) -> Path:
+            published.append(Path(*parts))
+            return dst.joinpath(*parts)
+
+        json_exporter.export_abilities(abilities, out('abilities.json'), exclude_battletraits=True)
+        json_exporter.export_battletraits(abilities, out('battletraits.json'))
+        json_exporter.export_abilities(abilities, out('abilities_battletraits.json'), exclude_battletraits=False)
+        json_exporter.export_fighters(fighters, out('fighters.json'))
+        tts_exporter.export_fighters(self.fighters, out('fighters_tts.json'))
+        html_exporter.export_fighters_html(fighters, out('fighters.html'))
+        html_exporter.export_fighters_csv(fighters, out('fighters.csv'))
         for loc_file in sorted(localisation.glob('*.json')):
             translations = load_json_file(loc_file, dict)
-            json_exporter.export_localized_abilities(abilities, translations, dst / loc_file.stem / 'abilities.json')
+            json_exporter.export_localized_abilities(abilities, translations, out(loc_file.stem, 'abilities.json'))
+        index_exporter.export_index(published, dst)

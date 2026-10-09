@@ -1,4 +1,5 @@
 import json
+import re
 import shutil
 import socket
 import subprocess
@@ -165,9 +166,20 @@ def test_export_does_not_depend_on_filesystem_order(tmp_path: Path, monkeypatch:
     WarbandDataPipeline().export_all(tmp_path / 'b')
 
     files = sorted(p.relative_to(tmp_path / 'a') for p in (tmp_path / 'a').rglob('*') if p.is_file())
-    assert len(files) == 8
+    assert len(files) == 9
     for file in files:
         assert (tmp_path / 'a' / file).read_bytes() == (tmp_path / 'b' / file).read_bytes(), file
+
+
+def test_index_links_exactly_the_published_files(tmp_path: Path) -> None:
+    (tmp_path / 'stale.json').write_text('[]', encoding='utf-8')
+    WarbandDataPipeline().export_all(tmp_path)
+
+    hrefs = re.findall(r'<a href="([^"]+)">', (tmp_path / 'index.html').read_text(encoding='utf-8'))
+    written = {p.relative_to(tmp_path).as_posix() for p in tmp_path.rglob('*') if p.is_file()}
+
+    assert sorted(h for h in hrefs if not h.startswith('https://')) == sorted(
+        written - {'index.html', 'stale.json'})
 
 
 def test_tts_ability_references_resolve(tmp_path: Path) -> None:

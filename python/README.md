@@ -33,7 +33,8 @@ Run all commands from the repository root.
 ## Outputs
 
 `abilities.json`, `battletraits.json`, `abilities_battletraits.json`, `fighters.json`, `fighters_tts.json`,
-`fighters.html`, `fighters.csv`, and `<language>/abilities.json` for each file in `localisation/`.
+`fighters.html`, `fighters.csv`, `<language>/abilities.json` for each file in `localisation/`, and `index.html`,
+which links to each of the other files.
 
 A localisation file maps an ability `_id` to its translated fields. Leave an ability out until it is translated;
 the export then uses the English text.
