@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warcry data editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="toolbar">
+    <button id="save" title="Ctrl+S">Save</button>
+    <button id="new-fighter">New fighter</button>
+    <button id="new-ability">New ability</button>
+    <button id="duplicate">Duplicate</button>
+    <button id="delete">Delete</button>
+    <span class="separator"></span>
+    <button id="new-warband">New warband</button>
+    <button id="delete-warband">Delete warband</button>
+    <span class="separator"></span>
+    <button id="validate">Validate all</button>
+    <button id="reload">Reload</button>
+    <input id="filter" type="search" placeholder="Filter: alliance, warband, subfaction, name"
+           aria-label="Filter by grand alliance, warband, subfaction or name">
+  </header>
+  <main>
+    <nav id="tree" aria-label="Source data"></nav>
+    <section id="editor"></section>
+  </main>
+  <footer id="status"></footer>
+
+  <dialog id="warband-dialog">
+    <form method="dialog">
+      <h2>New warband</h2>
+      <label>Grand alliance <select name="grand_alliance"></select></label>
+      <label>Faction runemark name <input name="warband_name" required size="40"></label>
+      <menu>
+        <button value="cancel" formnovalidate>Cancel</button>
+        <button value="create">Create</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <dialog id="message-dialog">
+    <form method="dialog">
+      <h2 id="message-title"></h2>
+      <pre id="message-text"></pre>
+      <menu><button value="close">Close</button></menu>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

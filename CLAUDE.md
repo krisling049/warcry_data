@@ -17,6 +17,9 @@ python python/validation.py [--data /path/to/data]
 # Validate, then write all published files (default out: docs/)
 python python/export_data.py [--data PATH] [--out PATH]
 
+# Web editor at http://127.0.0.1:4424/: create, edit and delete warbands, factions, fighters and abilities
+python python/data_server.py [--data PATH] [--port 4424]
+
 # Tests
 python -m pytest
 ```
@@ -38,6 +41,9 @@ python -m pytest
 - `data_processing.py` - assigns subfactions, then abilities, to fighters
 - `warband_pipeline.py` - `WarbandDataPipeline` loads, validates (raises on any error), processes and exports
 - `exporters/` - `json_exporter`, `tts_exporter`, `html_exporter` (HTML and CSV through pandas), `index_exporter`
+- `data_store.py` - reads and writes source files one entity at a time for the editor: `python/data_server.py`
+  (stdlib HTTP server for the page in `python/web/`). `merge_edit` puts the editable fields over the stored
+  entity, so a save keeps unknown keys, key order and line endings
 
 ### Exported Formats (`docs/`)
 - `fighters.json` - All fighters
