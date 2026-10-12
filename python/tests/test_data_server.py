@@ -1,5 +1,6 @@
 import json
 import shutil
+import socket
 import threading
 import urllib.error
 import urllib.request
@@ -10,12 +11,12 @@ from pathlib import Path
 import pytest
 
 from data_parsing import data_store
-from data_parsing.constants import ABILITIES, FIGHTERS
+from data_parsing.constants import ABILITIES, FACTIONS, FIGHTERS
 from data_parsing.data_loading import load_all_data
 from data_parsing.data_store import Warband
 from data_parsing.models import PROJECT_DATA
 from data_parsing.schema_validation import validate_data
-from data_server import Server
+from data_server import Handler, Server
 
 TWISTWEALD = Path('order', 'twistweald')
 WARBAND = TWISTWEALD.as_posix()
@@ -185,6 +186,81 @@ def test_page_is_served(base_url: str) -> None:
         assert b'<script src="app.js">' in response.read()
     with urllib.request.urlopen(f'{base_url}/app.js') as response:
         assert response.headers.get_content_type() == 'text/javascript'
+
+
+def raw(base_url: str, data: bytes) -> bytes:
+    with socket.create_connection(('127.0.0.1', int(base_url.rsplit(':', 1)[1])), timeout=5) as sock:
+        sock.sendall(data)
+        return b''.join(iter(lambda: sock.recv(65536), b''))
+
+
+def test_page_cannot_be_framed(base_url: str) -> None:
+    with urllib.request.urlopen(f'{base_url}/') as response:
+        assert response.headers['Content-Security-Policy'] == "frame-ancestors 'none'"
+
+
+@pytest.mark.parametrize('length, status', [(b'abc', b'400'), (b'-1', b'400'), (b'1000000000000000', b'413')])
+def test_bad_content_length_is_rejected(base_url: str, length: bytes, status: bytes) -> None:
+    reply = raw(base_url, b'POST /api/warband HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\n'
+                          b'Content-Length: ' + length + b'\r\n\r\n')
+
+    assert reply.startswith(b'HTTP/1.0 ' + status)
+
+
+def test_deeply_nested_body_is_rejected(base_url: str) -> None:
+    body = b'[' * 200_000
+    reply = raw(base_url, b'POST /api/warband HTTP/1.1\r\nHost: 127.0.0.1\r\nContent-Type: application/json\r\n'
+                          b'Content-Length: ' + str(len(body)).encode() + b'\r\n\r\n' + body)
+
+    assert reply.startswith(b'HTTP/1.0 400')
+
+
+def test_idle_connection_does_not_block_the_server(base_url: str, monkeypatch: pytest.MonkeyPatch) -> None:
+    assert Handler.timeout is not None
+    monkeypatch.setattr(Handler, 'timeout', 0.5)
+    with socket.create_connection(('127.0.0.1', int(base_url.rsplit(':', 1)[1]))):
+        with urllib.request.urlopen(f'{base_url}/api/meta', timeout=5) as response:
+            assert response.status == 200
+
+
+def test_second_server_on_the_same_port_fails(base_url: str, src: Path) -> None:
+    with pytest.raises(OSError):
+        Server(src, int(base_url.rsplit(':', 1)[1]))
+
+
+def test_bad_faction_file_does_not_hide_other_warbands(base_url: str, src: Path) -> None:
+    file = Warband(src / TWISTWEALD).file(FACTIONS)
+    data_store.write_json(file, {**data_store.read_faction(Warband(src / TWISTWEALD)), 'subfactions': ['Foo']})
+
+    tree = request(f'{base_url}/api/tree').body
+
+    assert [w['id'] for w in tree['warbands']] == ['universal']
+    assert len(tree['problems']) == 1 and 'twistweald' in tree['problems'][0]
+
+
+def test_unexpected_error_gets_a_json_reply(base_url: str, src: Path) -> None:
+    faction = data_store.read_faction(Warband(src / TWISTWEALD))
+    del faction['warband']
+    data_store.write_json(Warband(src / TWISTWEALD).file(FACTIONS), faction)
+
+    reply = request(f'{base_url}/api/new?warband={WARBAND}&type=fighters', 'POST')
+
+    assert reply.status == 500 and reply.body['errors'] == ["KeyError: 'warband'"]
+
+
+def test_faction_save_keeps_subfactions_in_use(base_url: str, src: Path) -> None:
+    shutil.copytree(PROJECT_DATA / 'death' / 'ossiarch_bonereapers', src / 'death' / 'ossiarch_bonereapers')
+    file = Warband(src / 'death' / 'ossiarch_bonereapers').file(FACTIONS)
+    before = file.read_bytes()
+    faction = json.loads(before)
+    kept = [s for s in faction['subfactions'] if s['runemark'] != "Kainan's Reapers"]
+
+    reply = request(f'{base_url}/api/entity?warband=death/ossiarch_bonereapers&type=factions', 'PUT',
+                    {'subfactions': kept})
+
+    assert reply.status == 400
+    assert reply.body['errors'] == ["subfaction Kainan's Reapers is in use; rename or remove it in the JSON files"]
+    assert file.read_bytes() == before
 
 
 def test_validate(base_url: str, src: Path) -> None:

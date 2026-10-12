@@ -334,11 +334,8 @@ function currentId() {
 }
 
 function snapshot() {
-  try {
-    return JSON.stringify(current.read());
-  } catch {
-    return null;
-  }
+  const controls = editorEl.querySelectorAll('input, select, textarea');
+  return JSON.stringify([...controls].map((c) => (c.type === 'checkbox' ? c.checked : c.value)));
 }
 
 function isDirty() {
@@ -355,8 +352,7 @@ function show(warband, type, entity, isNew) {
     : type === 'abilities' ? abilityForm(entity, summary)
       : factionForm(entity);
   editorEl.replaceChildren(...(isNew ? [el('span', {class: 'badge'}, 'New - not saved')] : []), form.element);
-  current = {warband, type, entity, isNew, read: form.read, baseline: null};
-  current.baseline = snapshot();
+  current = {warband, type, entity, isNew, read: form.read, baseline: snapshot()};
   history.replaceState(null, '', isNew ? location.pathname : `#${warband}/${type}/${currentId()}`);
   statusEl.textContent = `${isNew ? 'NEW - ' : ''}${fileLabel(warband, type)}`;
   setContext(warband);
@@ -497,7 +493,7 @@ window.addEventListener('beforeunload', (event) => {
 });
 
 run(async () => {
-  const parts = decodeURIComponent(location.hash.slice(1)).split('/');
+  const parts = location.hash.slice(1).split('/');
   meta = await api('GET', '/api/meta');
   document.title = `Warcry data editor - ${meta.data}`;
   clearEditor();

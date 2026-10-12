@@ -1,5 +1,7 @@
 import argparse
 import json
+import sys
+import traceback
 from collections.abc import Callable
 from dataclasses import dataclass
 from http import HTTPStatus
@@ -21,6 +23,7 @@ STATIC = {
     '/style.css': ('style.css', 'text/css'),
 }
 LOCAL_HOSTS = {'127.0.0.1', 'localhost'}
+MAX_BODY = 1_000_000
 Query = dict[str, str]
 Reply = tuple[HTTPStatus, dict]
 
@@ -37,6 +40,9 @@ class NotFound(Exception):
 
 class Server(HTTPServer):
     """Serves the editor page and its JSON API on the loopback interface only."""
+
+    # On Windows, SO_REUSEADDR lets a second server listen on a port that is in use and get no requests.
+    allow_reuse_address = sys.platform != 'win32'
 
     def __init__(self, src: Path, port: int) -> None:
         super().__init__(('127.0.0.1', port), Handler)
@@ -68,6 +74,7 @@ def summary(src: Path, warband: Warband) -> dict:
 
 class Handler(BaseHTTPRequestHandler):
     server: Server
+    timeout = 10
 
     def do_GET(self) -> None:
         self.dispatch('GET')
@@ -82,8 +89,15 @@ class Handler(BaseHTTPRequestHandler):
         self.dispatch('DELETE')
 
     def dispatch(self, method: str) -> None:
+        length = self.headers.get('Content-Length') or '0'
+        if not (length.isascii() and length.isdigit()):
+            self.send_json(HTTPStatus.BAD_REQUEST, {'errors': ['Content-Length must be a whole number']})
+            return
+        if int(length) > MAX_BODY:
+            self.send_json(HTTPStatus.REQUEST_ENTITY_TOO_LARGE, {'errors': [f'body is over {MAX_BODY} bytes']})
+            return
         # Unread request bytes make Windows reset the connection before the client reads the reply.
-        self.raw_body = self.rfile.read(int(self.headers.get('Content-Length') or 0))
+        self.raw_body = self.rfile.read(int(length))
         url = urlsplit(self.path)
         host = (self.headers.get('Host') or '').rsplit(':', 1)[0]
         if host not in LOCAL_HOSTS:
@@ -107,6 +121,9 @@ class Handler(BaseHTTPRequestHandler):
             status, payload = HTTPStatus.NOT_FOUND, {'errors': [str(e)]}
         except ValueError as e:
             status, payload = HTTPStatus.BAD_REQUEST, {'errors': [str(e)]}
+        except Exception as e:
+            self.log_error('%s', traceback.format_exc())
+            status, payload = HTTPStatus.INTERNAL_SERVER_ERROR, {'errors': [f'{type(e).__name__}: {e}']}
         self.send_json(status, payload)
 
     def send_static(self, name: str, content_type: str) -> None:
@@ -121,13 +138,14 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header('Content-Type', content_type)
         self.send_header('Content-Length', str(len(body)))
         self.send_header('Cache-Control', 'no-store')
+        self.send_header('Content-Security-Policy', "frame-ancestors 'none'")
         self.end_headers()
         self.wfile.write(body)
 
     def body(self) -> dict:
         try:
             content = json.loads(self.raw_body or b'{}')
-        except json.JSONDecodeError as e:
+        except (json.JSONDecodeError, RecursionError) as e:
             raise ValueError(f'request body is not JSON: {e}') from e
         if not isinstance(content, dict):
             raise ValueError('request body must be a JSON object')
@@ -150,7 +168,7 @@ class Handler(BaseHTTPRequestHandler):
         for warband in data_store.list_warbands(self.server.src):
             try:
                 warbands.append(summary(self.server.src, warband))
-            except ValueError as e:
+            except Exception as e:
                 problems.append(f'{warband.folder}: {e}')
         return HTTPStatus.OK, {'warbands': warbands, 'problems': problems}
 

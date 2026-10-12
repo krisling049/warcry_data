@@ -96,13 +96,21 @@ def test_create_warband_makes_valid_files(src: Path) -> None:
 
 
 @pytest.mark.parametrize('alliance, name, message', [
-    ('order', 'Twistweald', 'warband already exists'),
+    ('order', 'Twistweald', 'already exists: Twistweald'),
     ('elves', 'Test', 'unknown grand alliance'),
     ('order', ': !', 'no letters or digits'),
+    ('order', '-', 'no letters or digits'),
 ])
 def test_create_warband_rejects_bad_input(src: Path, alliance: str, name: str, message: str) -> None:
     with pytest.raises(ValueError, match=message):
         data_store.create_warband(src, alliance, name)
+
+
+def test_create_warband_rejects_a_subfaction_name(src: Path) -> None:
+    shutil.copytree(PROJECT_DATA / 'death' / 'ossiarch_bonereapers', src / 'death' / 'ossiarch_bonereapers')
+
+    with pytest.raises(ValueError, match="warband or subfaction already exists: Kainan's Reapers"):
+        data_store.create_warband(src, 'death', "Kainan's Reapers")
 
 
 def test_delete_warband(src: Path) -> None:
@@ -133,6 +141,17 @@ def test_merge_edit_sorts_weapon_keys(src: Path) -> None:
     entity, _ = data_store.merge_edit(src, warband, FIGHTERS, fighter['_id'], {'weapons': weapons})
 
     assert [list(w) for w in entity['weapons']] == [list(w) for w in fighter['weapons']]
+
+
+def test_merge_edit_removes_a_subfaction_with_no_runemark(src: Path) -> None:
+    warband = Warband(src / TWISTWEALD)
+    faction = data_store.read_faction(warband)
+    row = {'runemark': '', 'bladeborn': False, 'heroes_all': False}
+    data_store.write_json(warband.file(FACTIONS), {**faction, 'subfactions': [row]})
+
+    _, errors = data_store.merge_edit(src, warband, FACTIONS, '', {'subfactions': []})
+
+    assert errors == []
 
 
 def test_ability_warbands(src: Path) -> None:

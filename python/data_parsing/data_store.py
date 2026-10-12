@@ -130,6 +130,13 @@ def merge_edit(src: Path, warband: Warband, data_type: str, entity_id: str, edit
         errors.append(f"unknown subfaction: {entity.get('subfaction')}")
     if data_type == ABILITIES and entity.get('warband') not in ability_warbands(warband):
         errors.append(f"an ability in this file cannot have warband {entity.get('warband')}")
+    if data_type == FACTIONS:
+        rows = entity.get('subfactions')
+        kept = [s.get('runemark') for s in rows if isinstance(s, dict)] if isinstance(rows, list) else []
+        used = [f.get('subfaction') for f in read_entities(warband.file(FIGHTERS))]
+        used += [a.get('warband') for a in read_entities(warband.file(ABILITIES))]
+        errors += [f'subfaction {name} is in use; rename or remove it in the JSON files'
+                   for name in subfactions(warband) if name and name in used and name not in kept]
     return entity, errors
 
 
@@ -171,10 +178,10 @@ def create_warband(src: Path, grand_alliance: str, name: str) -> Warband:
     if grand_alliance not in GRAND_ALLIANCES:
         raise ValueError(f'unknown grand alliance: {grand_alliance}')
     slug = warband_slug(name)
-    if not slug:
+    if not re.search('[a-z0-9]', slug):
         raise ValueError(f'warband name has no letters or digits: {name!r}')
-    if any(read_faction(w).get('warband') == name for w in list_warbands(src) if w.has_faction()):
-        raise ValueError(f'warband already exists: {name}')
+    if any(name in ability_warbands(w) for w in list_warbands(src) if w.has_faction()):
+        raise ValueError(f'warband or subfaction already exists: {name}')
 
     warband = Warband(src / grand_alliance / slug)
     if warband.folder.exists():
