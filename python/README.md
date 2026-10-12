@@ -20,7 +20,31 @@ Run all commands from the repository root.
 |---------|---------|
 | `python python/validation.py [--data PATH]` | Report every schema error and duplicate `_id`. Exits 1 if any exist. |
 | `python python/export_data.py [--data PATH] [--out PATH]` | Validate, then write all published files (default `docs/`, which git ignores). |
+| `python python/data_server.py [--data PATH] [--port 4424]` | Serve the editor at `http://127.0.0.1:4424/`. Create, edit and delete warbands, factions, fighters and abilities. |
 | `python -m pytest` | Run the tests. |
+
+## Editor
+
+The editor is a web page in `web/`, served by `data_server.py`. It reads and writes files through
+`data_parsing/data_store.py`. Select an item in the tree on the left, then edit it in the form on the right.
+
+- **Save** (Ctrl+S) checks the item against its schema, then writes its file. A save keeps unknown keys, key order and line endings.
+- **New fighter** and **New ability** add to the selected warband. New items get a unique `_id`.
+- **Duplicate** saves a copy of the selected fighter or ability with a new `_id`.
+- **New warband** makes a folder with empty fighters and abilities files and a faction file.
+- **Delete warband** deletes the folder and all its files.
+- **Validate all** runs the same checks as `validation.py`.
+
+The editor cannot rename a warband or a subfaction, or remove a subfaction that a fighter or ability uses. Edit the
+JSON files to do that.
+
+A save writes the whole file in the standard format (4-space indent), so a file with other spacing changes on its
+first save. Use one tab per data folder: the last save wins, and a save from a stale tab adds back an item that
+was deleted in another tab.
+
+The filter box matches a grand alliance, warband, subfaction, fighter or ability name. The URL of each item
+(`#<warband folder>/<type>/<_id>`) opens that item. The server listens on 127.0.0.1 only. It refuses requests with an unknown `Host` header, and changes that
+are not sent as `application/json`, so other web pages cannot change your data.
 
 ## Pipeline
 
